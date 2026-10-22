@@ -1,0 +1,19 @@
+
+@page { size: Letter; margin: 1in; }
+html { font-size: 11pt; }
+body { font-family: "Times New Roman", "Liberation Serif", serif; line-height: 1.3; width: 6.5in; margin: 0 auto; color: #000; }
+h1 { font-size: 15pt; margin: 1.1em 0 0.4em; } h2 { font-size: 12pt; margin: 0.9em 0 0.3em; } h3 { font-size: 11pt; }
+header h1.title { font-size: 17pt; text-align: center; margin-top: 0; } p.author, p.date { text-align: center; margin: 0.2em 0; }
+div.abstract { margin: 1em 2em; font-size: 10pt; } div.abstract-title { font-weight: bold; text-align: center; }
+p { margin: 0 0 0.55em; text-align: justify; }
+table { table-layout: fixed; width: 100%; border-collapse: collapse; font-size: 7.5pt; margin: 0.6em 0 1em; }
+th, td { border-top: 1px solid #999; border-bottom: 1px solid #999; padding: 1.5pt 2.5pt; vertical-align: top; overflow-wrap: anywhere; word-break: break-word; }
+thead th { border-bottom: 1.5px solid #000; }
+img { max-width: 100%; height: auto; display: block; margin: 0.4em auto; }
+figure { margin: 0.6em 0 1em; } figcaption { font-size: 9pt; text-align: justify; margin-top: 0.3em; }
+p.table-caption { font-size: 9pt; text-align: justify; margin-bottom: 0.2em; }
+div#refs p, div.csl-entry { font-size: 9.5pt; text-align: left; overflow-wrap: anywhere; word-break: break-word; }
+a { overflow-wrap: anywhere; word-break: break-word; }
+div.table-caption p { font-size: 9pt; text-align: justify; margin-bottom: 0.2em; }
+code { font-family: "Courier New", monospace; font-size: 0.85em; overflow-wrap: anywhere; }
+.math { font-size: 0.95em; }

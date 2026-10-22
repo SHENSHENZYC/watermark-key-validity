@@ -1,7 +1,7 @@
 {
- "source_commit": "7de8b824fef25d013b26df1a997e5e29bcb00f40",
+ "source_commit": "3477b3c558db6bfa013cb14061043aaad0ef284f",
  "source_dirty": false,
- "built_utc": "2026-10-22T14:46:02Z",
+ "built_utc": "2026-10-22T14:53:43Z",
  "files": 7667,
  "excluded": [
   ".claude/skills/THIRD_PARTY_SKILLS.md",
@@ -409,7 +409,7 @@
   "outputs/study4_v0.1/model_manifest_qwen2.5-1.5b.json"
  ],
  "sha256": {
-  ".gitignore": "c83da3dde56f23c2fba9b0eee9eccc6a511f92f4f60db6d87ae74152076976d0",
+  ".gitignore": "49db0b9940f340f0361a425c77c8ba533f1a68a92bb6225c4f4d1d7e0752ed3b",
   "DATA_LAYOUT.md": "bc3bad09d8ac5a5c2e427025f35d7bff8cd90f798032570371eea4a2e000dfc9",
   "README.md": "d1ed97a4f2b4f0c22ace32f34c2a210260046ee3e7ae1f87668f4de0b41b428d",
   "outputs/audit_run_2026-10-09.log": "061285faee28c3315647852ef86d8143d744c9c0471f9dfb9b6578ebc6667df5",
@@ -7579,7 +7579,7 @@
   "requirements-lock.txt": "c88f9af5a52a4a1ffcb13e7b898d785b7a7a65d04620989d0fc075b3a90f172e",
   "research/ARENA_BT_GATE_v0.1.md": "1526107293132a6149f651163a737d68866b6fd19b0fe4bd2db61a314f72a090",
   "research/CLAIM_GATE_v0.1.md": "59053d9030aa9febffd5b92c88c096a26bf810ed4020d05bf33d4493f130f050",
-  "research/DECISION_LOG.md": "02fb5094535c3ae2b9f9f850e3619ea3ae69f450809157fd13259074787fa564",
+  "research/DECISION_LOG.md": "6f3c12d19759872cc48479d6778e6a0524f81abd15d99e750ee4f452da0456ca",
   "research/FINAL_GATE_v0.1.md": "5d80043bcc222996161ce2a2ae7d7475392614064694e49e3b05692d52c3f163",
   "research/KEYCOND_GATE_v0.1.md": "a394dec08495fd6254822e4fc37af4c1e8a83e2f87f17f40133e1ec55d4732f6",
   "research/KEYCOND_GATE_v0.2.md": "9d5c9d44ef102f7c768b84a4ae7d059915b0aa503af91f198f1bb3fc9b4ba862",
@@ -8047,7 +8047,7 @@
   "tools/freeze_corpora.py": "d487c5dfb64043e93d7076e9988ee62c04e8ef505cedcab81f33bbccd25d03ef",
   "tools/grep_pages.py": "9744d10600a5bb6ae304fcd6e8b93cdb31f44ee012c4851a253daad07c603588",
   "tools/key_policy.py": "b1fe47d7c6721b5024eaa03400daf43b16e4fcde0e34942a7e4bb8209d9d8ec4",
-  "tools/make_public_snapshot.py": "c07842be81f278675adee2be65386efc67756e149319d160e5e648ab74fceba2",
+  "tools/make_public_snapshot.py": "43603922257ecdf5cd076e6e82211b9ee25cea0f9ef487aa6a6e938a300e13ab",
   "tools/make_site.py": "516132d2e7506979ccbae7b39fe19480151c87bf5d6228fbaef21d5586e9eb38",
   "tools/mps_bench.py": "d137fb453247d7d6bba54b88ea4319ebd965ff2dee3e98ce6506c14d67c7ae7b",
   "tools/render_screen_table.py": "231574faa3c3f486e735bb17e792ec3aeae641867b28a2a57b50b3582ec82747",

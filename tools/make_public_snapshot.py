@@ -206,13 +206,23 @@ def check_history(dest: Path, ls_remote=None, raise_on_problem: bool = True) -> 
             lines = ls_remote().splitlines()
             if not lines:
                 problems.append("the configured remote origin lists no ref")
-            for l in lines:
-                sha, ref = l.split("\t"); remote[ref] = sha
-                if sha not in commits:
-                    problems.append(f"remote {ref} at {sha[:7]} is outside the local history")
+            listed = dict(l.split("\t")[::-1] for l in lines)   # ref -> object id; an annotated tag lists its tag object and, as ref^{}, the commit it points to
+            for ref, sha in listed.items():
+                if ref.endswith("^{}"):
+                    continue
+                commit = listed.get(ref + "^{}", sha)   # the peeled commit of an annotated tag, else the object itself
+                remote[ref] = commit if commit == sha else f"{commit} (tag object {sha[:7]})"
+                if commit not in commits:
+                    problems.append(f"remote {ref} at {commit[:7]} is outside the local history")
         except (subprocess.CalledProcessError, subprocess.TimeoutExpired, FileNotFoundError, OSError) as e:
             remote = {"(not read)": str(e)[:120]}
             problems.append(f"the configured remote origin could not be read ({type(e).__name__}): the remote's refs are unverified")
+    man = dest / "SNAPSHOT_MANIFEST.json"
+    if man.exists():   # the HEAD tree must hold every manifest entry (a dropped folder is invisible to on-disk digest checks)
+        expected = set(json.loads(man.read_text(encoding="utf-8"))["sha256"]) | {"SNAPSHOT_MANIFEST.json"}
+        head_tree = set(git("ls-tree", "-r", "--name-only", "HEAD").splitlines())
+        if head_tree != expected:
+            problems.append(f"the HEAD tree differs from the manifest: missing {sorted(expected - head_tree)[:5]}, extra {sorted(head_tree - expected)[:5]}")
     rec = {"commits": len(commits), "roots": roots, "refs": refs, "remote_configured": configured, "remote_refs": remote, "problems": problems}
     print("history check:", json.dumps(rec))
     if raise_on_problem:
@@ -288,7 +298,12 @@ def main() -> int:
         manifest[f] = hashlib.sha256(data).hexdigest()
     for name, content in [("LICENSE", MIT), ("LICENSE-TEXT", CCBY), ("README.md", README), ("CITATION.cff", CFF)]:
         (DEST / name).write_text(content, encoding="utf-8"); manifest[name] = hashlib.sha256(content.encode("utf-8")).hexdigest()
-    gi = (ROOT / ".gitignore").read_text(encoding="utf-8")
+    # the working repository's ignore rules, minus the rule that ignores the paper page there: in the snapshot `docs/` is
+    # the GitHub Pages site and must be tracked (the first release build dropped it silently: the site was on disk and in
+    # the manifest but not in the commit, and Pages found no /docs)
+    gi_lines = (ROOT / ".gitignore").read_text(encoding="utf-8").splitlines()
+    assert any(l.strip().rstrip("/") == "docs" for l in gi_lines), "the working repository's .gitignore no longer ignores docs/: review this filter"
+    gi = "\n".join(l for l in gi_lines if l.strip().rstrip("/") != "docs") + "\n# docs/ (the paper page) is tracked in this snapshot: GitHub Pages serves it from main /docs\n"
     (DEST / ".gitignore").write_text(gi, encoding="utf-8"); manifest[".gitignore"] = hashlib.sha256(gi.encode("utf-8")).hexdigest()
     docs = ROOT / "docs"
     if docs.is_dir():   # the paper page built by tools/make_site.py (git-ignored in the working repository)
@@ -313,9 +328,13 @@ def main() -> int:
     if use_git:
         if not keep_git:
             subprocess.run(["git", "init", "-q", "-b", "main"], cwd=DEST, check=True)
-        subprocess.run(["git", "add", "-A"], cwd=DEST, check=True)
+        subprocess.run(["git", "add", "-A", "-f"], cwd=DEST, check=True)   # -f: every copied file is meant to be tracked, whatever the ignore rules say
         r = subprocess.run(["git", "commit", "-q", "-m", f"Public snapshot of the research repository at {head[:7]} ({out['built_utc']})"], cwd=DEST, capture_output=True, text=True)
         print("committed" if r.returncode == 0 else f"nothing to commit ({r.stdout.strip()[:80]})")
+        tracked = set(subprocess.run(["git", "ls-files", "-z"], cwd=DEST, capture_output=True, text=True, check=True).stdout.split("\0")) - {""}
+        expected = set(manifest) | {"SNAPSHOT_MANIFEST.json"}
+        assert tracked == expected, f"the committed tree differs from the manifest: missing {sorted(expected - tracked)[:5]}, extra {sorted(tracked - expected)[:5]}"
+        print(f"the committed tree equals the manifest: {len(tracked)} files (docs/ among them: {any(f.startswith('docs/') for f in tracked)})")
         check_history(DEST)
         print(f"push with: git -C {DEST} remote add origin {PUBLIC_URL}.git && git -C {DEST} push -u origin main")
     return 0

@@ -83,4 +83,4 @@ research/paper/bib_sources/pages/*.html
 research/paper/render/
 
 # the paper page built by tools/make_site.py (copied into the public snapshot; not tracked here)
-docs/
+# docs/ (the paper page) is tracked in this snapshot: GitHub Pages serves it from main /docs

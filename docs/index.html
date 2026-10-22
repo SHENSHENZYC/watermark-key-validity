@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Key-conditional false-positive rates of LLM watermark detectors: dispersion identities, a systematic measurement on open corpora, per-key calibration and its power cost</title>
+<meta name="description" content="Paper page: Key-conditional false-positive rates of LLM watermark detectors: dispersion identities, a systematic measurement on open corpora, per-key calibration and its power cost (Yichen Zhao, 2026).">
+<meta name="citation_title" content="Key-conditional false-positive rates of LLM watermark detectors: dispersion identities, a systematic measurement on open corpora, per-key calibration and its power cost">
+<meta name="citation_author" content="Zhao, Yichen">
+<meta name="citation_publication_date" content="2026/10/22">
+<meta name="citation_pdf_url" content="https://shenshenzyc.github.io/watermark-key-validity/paper.pdf">
+<style>
+  :root { --bg: #ffffff; --fg: #1a1a1a; --muted: #5a5a5a; --line: #e3e3e3; --accent: #1f4e8c; --accent-fg: #ffffff; --box: #f6f7f9; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #121417; --fg: #e8e8e8; --muted: #a8a8a8; --line: #2d3138; --accent: #7aa7e0; --accent-fg: #0f1a2b; --box: #1b1f25; } }
+  :root[data-theme="dark"] { --bg: #121417; --fg: #e8e8e8; --muted: #a8a8a8; --line: #2d3138; --accent: #7aa7e0; --accent-fg: #0f1a2b; --box: #1b1f25; }
+  html { background: var(--bg); }
+  body { margin: 0; padding: 0 16px; background: var(--bg); color: var(--fg); font: 17px/1.55 Georgia, "Times New Roman", serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 0 64px; }
+  h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 12px; font-weight: 600; }
+  .byline { color: var(--muted); margin: 0 0 24px; font-size: 1rem; }
+  .links { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 28px; }
+  .btn { display: inline-block; padding: 8px 14px; border: 1px solid var(--accent); border-radius: 6px; color: var(--accent); text-decoration: none; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 0.95rem; }
+  .btn.primary { background: var(--accent); color: var(--accent-fg); }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; font-weight: 600; letter-spacing: 0.01em; }
+  .abstract p { margin: 0 0 12px; text-align: left; }
+  pre { background: var(--box); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; overflow-x: auto; font-size: 0.85rem; line-height: 1.45; }
+  .note, footer { color: var(--muted); font-size: 0.9rem; }
+  footer { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 16px; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Key-conditional false-positive rates of LLM watermark detectors: dispersion identities, a systematic measurement on open corpora, per-key calibration and its power cost</h1>
+  <p class="byline">Yichen Zhao, Independent Researcher &middot; <a href="mailto:alexyczhao@gmail.com">alexyczhao@gmail.com</a> &middot; 2026</p>
+  <div class="links">
+      <a class="btn primary" href="paper.pdf">Paper (PDF)</a>
+      <a class="btn " href="paper.html">HTML version</a>
+      <a class="btn " href="https://github.com/SHENSHENZYC/watermark-key-validity">Code, protocols, records and results</a>
+  </div>
+  <p class="note">Published here as a preprint on 22 October 2026 (UTC); the repository holds the posting commit under the tag <code>v0.1-published</code>.</p>
+  <h2>Abstract</h2>
+  <div class="abstract">
+<p>A text watermark detector is deployed with one secret key, but its
+false-positive guarantee holds on average over the key draw. We study
+the key-conditional false-positive rate of key-randomised detectors for
+a fixed null text law: its dispersion across keys, what governs it, and
+what restoring per-key validity costs; the phenomenon itself is the
+published record’s. We give exact across-key identities for the score’s
+mean shift under a text law’s context-indexed tuple weights and each
+repeated-context retention rule, with a first-order predictor of the
+level’s dispersion, and validate both in four pre-registered, locked
+studies: on synthetic laws and on frozen open null corpora (10 cells
+from four sources in six languages, two tokenizers, five context widths,
+1,000 keys per cell). On real text one fixed key’s rate at a nominal 1%
+is not 1%: under the distinct rule at h = 1 the 99% key’s level is
+1.9%–3.7% across the twenty (cell, tokenizer) units, and the predictor
+passes as registered with a measured under-prediction of about a fifth
+in the primary block. Per-key conformal calibration on 5,000 null texts
+of the deployment law reduces the across-key SD from 0.44 to 0.17 pp
+(distinct rule, h = 1, α = 0.01; medians over the units), and a
+threshold transferred between an English cell and another language’s
+disperses about 3.5 times more across keys than on its own law (medians
+over such pairs at one setting). On one model’s watermarked generations
+(Qwen2.5-1.5B; δ = 0.5, h = 1, L = 256, α = 0.01; 100 keys with 50
+prompts each), per-key conformal calibration on 5,000 same-cell human
+null texts costs a median 14.0–26.0 pp of power across three prompt
+cells under the raw rule and 0.0 pp under the distinct rule; the
+across-key dispersion of power after calibration is unresolved. Nothing
+here is a theorem, a guarantee or a ranking; every per-key statement is
+conditional on the realised texts and the frozen calibration set.</p>
+  </div>
+  <h2>What is in the repository</h2>
+  <p>The four pre-registered protocols with their lock files (the hashes of the protocol, the pinned code and the inputs, written before any outcome existed), the validation records, run manifests and the locked analysers' results, the per-text records of every study, every script that generated a number, table or figure in the paper, the paper's sources with the placeholder registers and the literal scan, the review prompts, memos and resolutions of the thirteen independent-review checkpoints, the source, claim and final gates, and the decision log. No corpus text, model weights or literature PDFs are included; the hashed manifests let a rebuild be checked. <a href="https://github.com/SHENSHENZYC/watermark-key-validity">https://github.com/SHENSHENZYC/watermark-key-validity</a></p>
+  <h2>Citation</h2>
+  <pre>@misc{zhao2026keyconditional,
+  author = {Zhao, Yichen},
+  title  = {Key-conditional false-positive rates of LLM watermark detectors: dispersion identities, a systematic measurement on open corpora, per-key calibration and its power cost},
+  year   = {2026},
+  howpublished = {Preprint, self-published},
+  url    = {https://shenshenzyc.github.io/watermark-key-validity/},
+  note   = {Code, protocols, locks, records and results: https://github.com/SHENSHENZYC/watermark-key-validity}
+}</pre>
+  <footer>
+    <p>Text and figures under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; code under the MIT licence. The prose and the code were drafted with Claude (Anthropic) under the author's direction, and every major checkpoint was reviewed by an independent second model, Codex (OpenAI); the author designed the studies, took every decision, read every word and takes full responsibility. Page built 22 October 2026.</p>
+  </footer>
+</main>
+</body>
+</html>
