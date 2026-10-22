@@ -15,7 +15,9 @@ Run: python3 tools/make_public_snapshot.py DEST [--git [--fresh]] [--check-only]
   a publication history that must hold only approved content (R13 F9). After every --git run, and alone with --check-only,
   the history check walks every commit reachable from every ref of DEST and refuses any excluded path, raw capture,
   git-ignored material, third-party page or projected-away bibliography field, and requires every ref of the configured
-  remote to point into that history.
+  remote to point into that history; when a remote is configured and cannot be read, the check fails (R13 F14), and only a
+  repository with no remote passes on its local refs alone. --selftest runs the check with an injected remote-read error
+  and an injected timeout and requires each to be reported as a problem.
 """
 from __future__ import annotations
 
@@ -170,13 +172,18 @@ preferred-citation:
 """
 
 
-def check_history(dest: Path) -> dict:
+def check_history(dest: Path, ls_remote=None, raise_on_problem: bool = True) -> dict:
     """Walk every commit reachable from every ref of the snapshot repository (R13 F9): no commit may hold an excluded path,
     a raw capture, git-ignored material or a third-party page, and no bibliography record may carry a field the projection
-    removes (R13 F10); every ref of the configured remote must point into that history. Prints and returns the record;
-    raises on any problem."""
+    removes (R13 F10); every ref of the configured remote must point into that history, and a configured remote that
+    cannot be read is a problem, never a pass (R13 F14); a repository with no remote is checked on its local refs alone and
+    says so. Prints and returns the record; raises on any problem unless ``raise_on_problem`` is false (the self-test).
+    ``ls_remote`` is the function that lists the remote's refs (injected by the self-test with failures)."""
     def git(*a: str) -> str:
         return subprocess.run(["git", "-C", str(dest), *a], capture_output=True, text=True, check=True).stdout
+    if ls_remote is None:
+        def ls_remote() -> str:
+            return subprocess.run(["git", "-C", str(dest), "ls-remote", "origin"], capture_output=True, text=True, check=True, timeout=90).stdout
     commits = git("rev-list", "--all").split()
     roots = git("rev-list", "--max-parents=0", "--all").split()
     refs = {ref: sha for sha, ref in (l.split(" ", 1) for l in git("for-each-ref", "--format=%(objectname) %(refname)").splitlines())}
@@ -191,21 +198,47 @@ def check_history(dest: Path) -> dict:
                 if '"patch":' in blob or '"abstract":' in blob:
                     problems.append(f"{c[:7]}: {f} carries a field the projection removes")
     remote: dict[str, str] = {}
-    try:
-        for l in subprocess.run(["git", "-C", str(dest), "ls-remote", "origin"], capture_output=True, text=True, check=True, timeout=90).stdout.splitlines():
-            sha, ref = l.split("\t"); remote[ref] = sha
-            if sha not in commits:
-                problems.append(f"remote {ref} at {sha[:7]} is outside the local history")
-    except (subprocess.CalledProcessError, subprocess.TimeoutExpired, FileNotFoundError) as e:
-        remote = {"(not read)": str(e)[:120]}
-    rec = {"commits": len(commits), "roots": roots, "refs": refs, "remote_refs": remote, "problems": problems}
+    configured = subprocess.run(["git", "-C", str(dest), "remote", "get-url", "origin"], capture_output=True, text=True).returncode == 0
+    if not configured:
+        remote = {"(no remote configured)": "the local refs alone were checked; configure and push the remote, then run --check-only again"}
+    else:
+        try:
+            lines = ls_remote().splitlines()
+            if not lines:
+                problems.append("the configured remote origin lists no ref")
+            for l in lines:
+                sha, ref = l.split("\t"); remote[ref] = sha
+                if sha not in commits:
+                    problems.append(f"remote {ref} at {sha[:7]} is outside the local history")
+        except (subprocess.CalledProcessError, subprocess.TimeoutExpired, FileNotFoundError, OSError) as e:
+            remote = {"(not read)": str(e)[:120]}
+            problems.append(f"the configured remote origin could not be read ({type(e).__name__}): the remote's refs are unverified")
+    rec = {"commits": len(commits), "roots": roots, "refs": refs, "remote_configured": configured, "remote_refs": remote, "problems": problems}
     print("history check:", json.dumps(rec))
-    assert not problems, f"the snapshot history holds excluded material or an unknown remote ref: {problems[:5]}"
+    if raise_on_problem:
+        assert not problems, f"the snapshot history holds excluded material, an unknown remote ref or an unread remote: {problems[:5]}"
     return rec
+
+
+def selftest_history_check(dest: Path) -> None:
+    """R13 F14: a remote-read error and a timeout must each be reported as a problem (the remote must be configured)."""
+    def failing() -> str:
+        raise subprocess.CalledProcessError(128, ["git", "ls-remote", "origin"], stderr="fatal: could not read from remote repository")
+    def timing_out() -> str:
+        raise subprocess.TimeoutExpired(["git", "ls-remote", "origin"], 90)
+    assert subprocess.run(["git", "-C", str(dest), "remote", "get-url", "origin"], capture_output=True).returncode == 0, "the self-test needs a configured remote"
+    for name, fn in (("CalledProcessError", failing), ("TimeoutExpired", timing_out)):
+        rec = check_history(dest, ls_remote=fn, raise_on_problem=False)
+        assert any("could not be read" in p and name in p for p in rec["problems"]), (name, rec["problems"])
+    rec = check_history(dest, raise_on_problem=False)   # the real remote: every ref inside the local history
+    assert not rec["problems"] and rec["remote_refs"], rec
+    print("selftest ok: an unread remote is a problem (error and timeout); the real remote's refs verified")
 
 
 def main() -> int:
     use_git = "--git" in sys.argv; fresh = "--fresh" in sys.argv
+    if "--selftest" in sys.argv:
+        selftest_history_check(DEST); return 0
     if "--check-only" in sys.argv:
         check_history(DEST); return 0
     head = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT, capture_output=True, text=True, check=True).stdout.strip()

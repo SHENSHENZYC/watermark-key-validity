@@ -1,4 +1,4 @@
-**Table E1.** The independent second-model review (rule A7 of the project's guide): every major checkpoint was reviewed by Codex before the project proceeded, and none proceeded without its AGREE with no open dispute. Rounds and findings are counted from the memos in `research/reviews/`; a finding is a numbered item of a memo (F1, F2, …), each verified by the conductor against the primary evidence before any change and answered in a response memo; the agreed baseline is the commit the reviewer read at the agreeing round. 12 checkpoints (R01–R12), 37 rounds, 197 findings; 1 in progress.
+**Table E1.** The independent second-model review (rule A7 of the project's guide): every major checkpoint was reviewed by Codex before the project proceeded, and none proceeded without its AGREE with no open dispute. Rounds and findings are counted from the memos in `research/reviews/`; a finding is a numbered item of a memo (F1, F2, …), each verified by the conductor against the primary evidence before any change and answered in a response memo; the agreed baseline is the commit the reviewer read at the agreeing round. 13 checkpoints (R01–R13), 40 rounds, 212 findings; 0 in progress.
 
 | Checkpoint | What was reviewed | Rounds | Findings | Verdicts by round | Agreed at | Date |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -14,4 +14,4 @@
 | R10 | the Study 4 report | 2 | 10 | REVISE / AGREE | `080086a` | 2026-10-17 |
 | R11 | the claim gate (what the paper may claim) | 2 | 13 | REVISE / AGREE | `cb59857` | 2026-10-19 |
 | R12 | the assembled draft of this paper | 4 | 26 | REVISE / REVISE / REVISE / AGREE | `709109a` | 2026-10-20 |
-| R13 | the final paper before publication | 1 | 8 | REVISE | — | — |
+| R13 | the final paper before publication | 3 | 15 | REVISE / REVISE / AGREE | `cb826e6` | 2026-10-22 |

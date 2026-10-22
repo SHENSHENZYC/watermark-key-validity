@@ -50,7 +50,7 @@
  },
  "built_utc": "2026-10-22",
  "citations": 53,
- "draft_sha256": "e6d0c3a36eb5d62adfb4a51d16e870d7395782be10bbae5199cea16f2d4c9e1c",
+ "draft_sha256": "62fbfc8e3c7546fbdd9c2d8e092048009f44831d935f8f7e9ea6c9456ce899c1",
  "headings": [
   "1",
   "2",
@@ -106,7 +106,7 @@
   "research/paper/sections/06_remedies.md": "5fb119313d85d75e45a47497efd80cff658ddcddf275d2646ae734eaf5af9444",
   "research/paper/sections/07_power.md": "5a0edbfc8758768052daa370abff7e9f56e28e75209095736215ad96ba1cc297",
   "research/paper/sections/08_discussion.md": "88efd6676aac85aa2a8cc4d37b253752ea60928c4bf184b72cd89966d6984209",
-  "research/paper/sections/09_ai_use.md": "f88a59050c9b64a390fed8754e068057683c0b4beecab0425455ab681fa6d661",
+  "research/paper/sections/09_ai_use.md": "53fca19821fc934d406d28c11866c2a0bc03cf6201a82785060c7b51d4794bba",
   "research/paper/sections/10_availability.md": "20338442b086aab500ea4f3dc243e39e4eed0482a8b45ace662586652bc2b57e",
   "research/paper/sections/11_appendix_A.md": "f39fc5467f13682cf6f3a7eae325c5c082cd72996be067f0f8e2b98bf1ecbb83",
   "research/paper/sections/12_appendix_B.md": "371b13a4bc52ba3a78209d8e5d9056d2a43d2b644c2ce4879cbed6702cbcf20e",
@@ -153,7 +153,7 @@
   "research/paper/tables/tableD9a_quality.md": "426889ac6860132bba1607bf7f4bbee101a0529b06ec83f6c0923a580f29757c",
   "research/paper/tables/tableD9b_pairing.md": "cfa39dec4fdaad3f4ca9d98e990f978d4bdc383d35a093034c61f68ba114a6ea",
   "research/paper/tables/tableE2_locks.md": "7fcfd9e1a2e2b93615e77b113ff5c2177d95c586e2c9518dfdfb37e9211cc9b4",
-  "research/paper/tables/tableE_reviews.md": "e93b2e81ccd9a04eb187dc8807092da252e3874b6d7b2ca6a72ed316ddfde45b"
+  "research/paper/tables/tableE_reviews.md": "8da46ec588cd88bdac83e6d34c084dfad19cfb4f94f7112e5d379071318e988b"
  },
  "literals": {
   "n_algebraic": 149,
@@ -213,9 +213,9 @@
   "median_line_chars_full": 103,
   "median_line_chars_main": 103,
   "page": "Letter, 1 in margins, 11 pt, single column; Chrome headless print; the body scale asserted equal across the variants and equal to a one-paragraph reference page's, by a word's bounding box",
-  "pages_full": 104,
-  "pages_full_appendices": 80,
-  "pages_full_references_and_appendices": 83,
+  "pages_full": 103,
+  "pages_full_appendices": 79,
+  "pages_full_references_and_appendices": 82,
   "pages_main_no_figures": 17,
   "pages_main_no_tables": 18,
   "pages_main_prose_only": 14,

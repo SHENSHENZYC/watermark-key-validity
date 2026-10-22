@@ -90,7 +90,7 @@ Every section's "Open items" block, verbatim, in section order; the assembled dr
 
 ## 09_ai_use.md
 
-- Outside the page count. The counts come from `reviews_table.py` (the memos in `research/reviews/`); `Checkpoint R13 (the final paper before publication) is in progress at the time of this build and is added here when agreed.` names an open checkpoint while it runs and is empty otherwise (R12, the assembled draft, was agreed at its fourth round on 2026-10-20 UTC and is in the counts); the pre-publication review enters the counts when agreed (constraint 31).
+- Outside the page count. The counts come from `reviews_table.py` (the memos in `research/reviews/`); `` names an open checkpoint while it runs and is empty otherwise (R12, the assembled draft, was agreed at its fourth round on 2026-10-20 UTC and is in the counts; R13, the pre-publication review, was agreed at its third round on 2026-10-22 UTC and is in the counts, the checkpoint list naming it; constraint 31).
 - No venue is named (constraint 31); the disclosure follows ICLR's standard as the brief decided (the drafting, the code, the analyses, the literature search and the figures all disclosed).
 
 ## 10_availability.md
