@@ -1,7 +1,7 @@
 ---
 title: "Key-conditional false-positive rates of LLM watermark detectors: dispersion identities, a systematic measurement on open corpora, per-key calibration and its power cost"
 author: "Yichen Zhao (Independent Researcher; alexyczhao@gmail.com)"
-date: "Draft v0.1, 2026-10-22"
+date: "October 2026. Published at https://shenshenzyc.github.io/watermark-key-validity/"
 bibliography: references.bib
 link-citations: true
 abstract: |
