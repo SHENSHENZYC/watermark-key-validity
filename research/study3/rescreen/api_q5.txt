@@ -1,0 +1,37 @@
+QUERY: search_query=abs:watermark AND abs:calibration AND abs:"false positive"&sortBy=submittedDate&sortOrder=descending&max_results=20
+## SemField: A Simple, Linear, Continuous, yet Robust Semantic Watermark
+2610.11848v1 | 2026-10-08 | Varun Gumma, Navonil Majumdar, Soujanya Poria
+The rapid proliferation of Large Language Models (LLMs) necessitates reliable watermarking techniques to identify AI-generated text and ensure appropriate attribution. While token-based watermarks are vulnerable to paraphrasing, a central challenge for semantic watermarking is to turn sentence meanings into a stable, well-calibrated document-level signal. To this end, we introduce SemField, a simp
+
+## Semantic Behavioral Watermarking: Paraphrase-Robust and Forgery-Resistant Provenance for LLM Agents
+2610.08668v1 | 2026-10-06 | Suxin Ji, Hungtao Wan, Shaoxuan Chen, An Zhang
+Behavioral watermarking embeds an owner identifier in an LLM agent's high-level action choices, giving provenance without touching output tokens. Prior agent watermarks break in two ways. First, all three prior schemes bind the watermark to the exact action symbol, so renaming a tool desynchronizes decoding even when the observation is untouched; in AgentMark's own robustness test, paraphrasing th
+
+## Watermarks and Fingerprints as Soft Bindings for Content Provenance: An Open-Licence Benchmark for Images, Audio and Video
+2610.04151v1 | 2026-10-02 | Seyedmahdi Kazempourradi, Ramtin Mojtahedi, Behrang Mohseni
+Content-provenance standards such as C2PA let a platform recover a stripped manifest through a soft binding: an invisible watermark read from the content, or a fingerprint looked up in a registry. We benchmarked both families under one protocol, restricted to openly available models whose licences we audited, on public media, with false-match rates calibrated on held-out negatives and source-level
+
+## Made to Measure: Designing Image Watermarks to Specification
+2610.00780v1 | 2026-09-30 | Mingzhe Li, Yuefeng Peng, Kejing Xia, Pranav Jeyakumar et al.
+Image watermarking supports provenance and attribution by embedding verifiable identity information into images. Practical deployments, however, must jointly satisfy requirements for attack resistance, false-positive rate (FPR), image quality, and latency. Existing watermarking methods are robust to different classes of transformations, so combining complementary methods can provide broader protec
+
+## A Locally Tokenized Generative Model for Robust Time-Series Watermarking
+2608.19727v1 | 2026-08-20 | Dongbin Kim, Geonwoo Shin, Yujin Choi, Soyeon Park et al.
+Watermarking is a central tool for provenance in generative models, yet its application to multivariate time series remains hindered by reliability failures under post-editing attacks. We show that existing detectors, which rely on globally coupled re-encoding, suffer from bidirectional drift of the null distribution: post-editing attacks can shift the z-score of non-watermarked samples in either 
+
+## CORE-BREW: LLR-Based Soft Decoding for Robust Multi-Bit LLM Watermarking
+2606.24163v2 | 2026-06-23 | Joeun Kim, HoEun Kim, Young-Sik Kim
+Reliable provenance for LLM outputs requires multi-bit watermarks that remain robust under editing while maintaining low false-positive rates. Existing ECC-based LLM watermarks rely on hard-decision decoding, discarding token-level reliability information and limiting robustness under post-generation edits. We propose CORE-BREW, a COnstant-hit-Rate Embedding extension of BREW for multi-bit waterma
+
+## Robust GNN Watermarking via Implicit Perception of Topological Invariants
+2510.25934v1 | 2025-10-29 | Jipeng Li, Yannning Shen
+Graph Neural Networks (GNNs) are valuable intellectual property, yet many watermarks rely on backdoor triggers that break under common model edits and create ownership ambiguity. We present InvGNN-WM, which ties ownership to a model's implicit perception of a graph invariant, enabling trigger-free, black-box verification with negligible task impact. A lightweight head predicts normalized algebraic
+
+## Audit the Whisper: Detecting Steganographic Collusion in Multi-Agent LLMs
+2510.04303v2 | 2025-10-05 | Om Tailor
+Multi-agent deployments of large language models (LLMs) are increasingly embedded in market, allocation, and governance workflows, yet covert coordination among agents can silently erode trust and social welfare. Existing audits are dominated by heuristics that lack theoretical guarantees, struggle to transfer across tasks, and seldom ship with the infrastructure needed for independent replication
+
+## CertDW: Towards Certified Dataset Ownership Verification via Conformal Calibration
+2506.13160v2 | 2025-06-16 | Ting Qiao, Yiming Li, Jianbin Li, Yingjia Wang et al.
+Deep neural networks (DNNs) rely heavily on high-quality open-source datasets (e.g., ImageNet) for their success, making dataset ownership verification (DOV) crucial for protecting public dataset copyrights. In this paper, we find existing DOV methods (implicitly) assume that the verification process is faithful, where the suspicious model will directly verify ownership by using the verification s
+

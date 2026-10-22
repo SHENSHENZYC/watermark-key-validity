@@ -1,0 +1,536 @@
+{
+ "entries": {
+  "1209.2673": {
+   "bytes": 604522,
+   "final_url": "https://arxiv.org/pdf/1209.2673",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 24,
+   "retrieved_utc": "2026-10-09T02:38:05Z",
+   "sha256": "759684870def3624568735591e7520e40f51fbf2f03f136a799f3b71672d26dc",
+   "url": "https://arxiv.org/pdf/1209.2673"
+  },
+  "1510.05610": {
+   "bytes": 939209,
+   "final_url": "https://arxiv.org/pdf/1510.05610",
+   "gate": "ARENA_BT",
+   "pdftotext_pages": 50,
+   "retrieved_utc": "2026-10-09T02:32:21Z",
+   "sha256": "4f37dfc540a6c738de566dfcbb3f3ed58cb54de708343982d7c9033c08bc4f57",
+   "url": "https://arxiv.org/pdf/1510.05610"
+  },
+  "2205.03647": {
+   "bytes": 1263346,
+   "final_url": "https://arxiv.org/pdf/2205.03647",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 25,
+   "retrieved_utc": "2026-10-09T02:38:01Z",
+   "sha256": "36810566c4c33d45e21d63ebd6da339e3ac5b9afc38417d02b77f243649fc601",
+   "url": "https://arxiv.org/pdf/2205.03647"
+  },
+  "2205.15461": {
+   "bytes": 4735233,
+   "final_url": "https://arxiv.org/pdf/2205.15461",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 36,
+   "retrieved_utc": "2026-10-09T02:31:02Z",
+   "sha256": "556301a2e43314f3df1dbaca9b16e0d749fcda4466029eec4753aa7855af5f5d",
+   "url": "https://arxiv.org/pdf/2205.15461"
+  },
+  "2301.10226": {
+   "bytes": 1461511,
+   "final_url": "https://arxiv.org/pdf/2301.10226",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 27,
+   "retrieved_utc": "2026-10-09T02:30:53Z",
+   "sha256": "7690ccaa0ff7038219c966d8466b63d5d241e30beff9aeb2860e205ab392fc20",
+   "url": "https://arxiv.org/pdf/2301.10226"
+  },
+  "2302.07294": {
+   "bytes": 1924232,
+   "final_url": "https://arxiv.org/pdf/2302.07294",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 36,
+   "retrieved_utc": "2026-10-09T02:30:57Z",
+   "sha256": "d4719c8c88da4f0b718c088483801653de7db361fdbce300e3c5e9dd774d768a",
+   "url": "https://arxiv.org/pdf/2302.07294"
+  },
+  "2306.04634": {
+   "bytes": 3111608,
+   "final_url": "https://arxiv.org/pdf/2306.04634",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 46,
+   "retrieved_utc": "2026-10-09T02:30:36Z",
+   "sha256": "46a3b72b707e39c5f584fd8b756aaff5987f1aecc84ca2c239f7f2be07f2b9c3",
+   "url": "https://arxiv.org/pdf/2306.04634"
+  },
+  "2306.17439": {
+   "bytes": 1211950,
+   "final_url": "https://arxiv.org/pdf/2306.17439",
+   "gate": "CLAIM",
+   "pdftotext_pages": 37,
+   "retrieved_utc": "2026-10-19T00:56:44Z",
+   "sha256": "5b4645f3d14481f4ecdcf5c8f595bbb14374fb53a749e03c2759d726ab1cd515",
+   "url": "https://arxiv.org/pdf/2306.17439"
+  },
+  "2307.15593": {
+   "bytes": 3365674,
+   "final_url": "https://arxiv.org/pdf/2307.15593",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 60,
+   "retrieved_utc": "2026-10-09T02:30:40Z",
+   "sha256": "22a869b8411ac60ace441e0f47ce40dde980ecd2cd8342f971a5e3f1a9d264fc",
+   "url": "https://arxiv.org/pdf/2307.15593"
+  },
+  "2308.00113": {
+   "bytes": 890785,
+   "final_url": "https://arxiv.org/pdf/2308.00113",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 10,
+   "retrieved_utc": "2026-10-09T02:30:23Z",
+   "sha256": "8932cbcc35e332a2d2a1f9cff0fb3c48d4c9e3247f77a674a69435edf5b7073f",
+   "url": "https://arxiv.org/pdf/2308.00113"
+  },
+  "2311.04295": {
+   "bytes": 945081,
+   "final_url": "https://arxiv.org/pdf/2311.04295",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 36,
+   "retrieved_utc": "2026-10-09T02:44:21Z",
+   "sha256": "9a777225f8b2fda5745d40d6108729bfca28e7e9a6bfbde3649d39c55280e410",
+   "url": "https://arxiv.org/pdf/2311.04295"
+  },
+  "2311.04378": {
+   "bytes": 7796825,
+   "final_url": "https://arxiv.org/pdf/2311.04378",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 43,
+   "retrieved_utc": "2026-10-09T02:44:17Z",
+   "sha256": "31d2f99adccb9643dd0fe909798903660822fb6fcf9ad3e6462adf48999822bc",
+   "url": "https://arxiv.org/pdf/2311.04378"
+  },
+  "2312.07930": {
+   "bytes": 1311103,
+   "final_url": "https://arxiv.org/pdf/2312.07930",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 31,
+   "retrieved_utc": "2026-10-09T02:31:23Z",
+   "sha256": "e5ca561168345b3cd808141df72f010df68f68a87f65f225a6be50095059083c",
+   "url": "https://arxiv.org/pdf/2312.07930"
+  },
+  "2403.04132": {
+   "bytes": 1081950,
+   "final_url": "https://arxiv.org/pdf/2403.04132",
+   "gate": "ARENA_BT",
+   "pdftotext_pages": 30,
+   "retrieved_utc": "2026-10-09T02:31:39Z",
+   "sha256": "039bccd60a7d49bfda80ce17ea627654736928eee9a7ee75767a38d04a01562f",
+   "url": "https://arxiv.org/pdf/2403.04132"
+  },
+  "2404.01245": {
+   "bytes": 3026733,
+   "final_url": "https://arxiv.org/pdf/2404.01245",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 70,
+   "retrieved_utc": "2026-10-09T02:30:44Z",
+   "sha256": "8a34a1aac96f98e0b6dc52dea76540da339aa1b6f2e4a8095daff17fca78b137",
+   "url": "https://arxiv.org/pdf/2404.01245"
+  },
+  "2410.03537": {
+   "bytes": 2320604,
+   "final_url": "https://arxiv.org/pdf/2410.03537",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 28,
+   "retrieved_utc": "2026-10-09T02:45:37Z",
+   "sha256": "adc1faf47c365e3c63a950c9a41f42705e0a255849ca1a8a8229597c75c54990",
+   "url": "https://arxiv.org/pdf/2410.03537"
+  },
+  "2411.13868": {
+   "bytes": 2016116,
+   "final_url": "https://arxiv.org/pdf/2411.13868",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 65,
+   "retrieved_utc": "2026-10-09T02:31:18Z",
+   "sha256": "24ef00538ede39eea5646ea8ebed02bea71127ae769e0617d484ac6869833744",
+   "url": "https://arxiv.org/pdf/2411.13868"
+  },
+  "2411.18569": {
+   "bytes": 1978067,
+   "final_url": "https://arxiv.org/pdf/2411.18569",
+   "gate": "ARENA_BT",
+   "pdftotext_pages": 32,
+   "retrieved_utc": "2026-10-09T02:32:13Z",
+   "sha256": "1ffea782b8817c7a85b0f79a6394f669d508114b59d06a7c396c4adce491d1ab",
+   "url": "https://arxiv.org/pdf/2411.18569"
+  },
+  "2502.10985": {
+   "bytes": 1891071,
+   "final_url": "https://arxiv.org/pdf/2502.10985",
+   "gate": "ARENA_BT",
+   "pdftotext_pages": 24,
+   "retrieved_utc": "2026-10-09T02:31:31Z",
+   "sha256": "fd83165448b98b5e3a5b00267113e12256f6b719e1908811a7c4289f14d5f4c5",
+   "url": "https://arxiv.org/pdf/2502.10985"
+  },
+  "2502.14074": {
+   "bytes": 2321903,
+   "final_url": "https://arxiv.org/pdf/2502.14074",
+   "gate": "ARENA_BT",
+   "pdftotext_pages": 31,
+   "retrieved_utc": "2026-10-09T02:32:04Z",
+   "sha256": "252208568d09c59244f6977c8ac8695276b7d8f7f47463cf4d08261960fe047c",
+   "url": "https://arxiv.org/pdf/2502.14074"
+  },
+  "2502.14855": {
+   "bytes": 1847893,
+   "final_url": "https://arxiv.org/pdf/2502.14855",
+   "gate": "ARENA_BT",
+   "pdftotext_pages": 25,
+   "retrieved_utc": "2026-10-09T02:31:43Z",
+   "sha256": "07e807d7c3bda6386c1e428422ff8bd7175768e6944a13fa78235425c7c6edd3",
+   "url": "https://arxiv.org/pdf/2502.14855"
+  },
+  "2504.12229": {
+   "bytes": 1026610,
+   "final_url": "https://arxiv.org/pdf/2504.12229",
+   "gate": "CLAIM",
+   "pdftotext_pages": 16,
+   "retrieved_utc": "2026-10-19T00:56:56Z",
+   "sha256": "c5e8c9f96488a9ccfb308dfd0344af6896facba638f396be273702e71a8ce4c2",
+   "url": "https://arxiv.org/pdf/2504.12229"
+  },
+  "2504.20879": {
+   "bytes": 1932316,
+   "final_url": "https://arxiv.org/pdf/2504.20879",
+   "gate": "ARENA_BT",
+   "pdftotext_pages": 73,
+   "retrieved_utc": "2026-10-09T02:31:47Z",
+   "sha256": "6376a9eb9eb29bc067b1e9e5e14d4a5a128eda60c4d70f4f126ac37746870551",
+   "url": "https://arxiv.org/pdf/2504.20879"
+  },
+  "2506.15975": {
+   "bytes": 1152914,
+   "final_url": "https://arxiv.org/pdf/2506.15975",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 31,
+   "retrieved_utc": "2026-10-09T02:30:49Z",
+   "sha256": "cf7e16063ca68d516f0c36c66de14fe1e93a9f9f23ef0fe366c0bf41706b5d92",
+   "url": "https://arxiv.org/pdf/2506.15975"
+  },
+  "2506.16349": {
+   "bytes": 12478251,
+   "final_url": "https://arxiv.org/pdf/2506.16349",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 44,
+   "retrieved_utc": "2026-10-09T02:49:53Z",
+   "sha256": "3ada0a7597ebf1dcfbc4820ae23e997b7a3a0d4b5e524e24cedef4df3b16cd3b",
+   "url": "https://arxiv.org/pdf/2506.16349"
+  },
+  "2507.23113": {
+   "bytes": 5580946,
+   "final_url": "https://arxiv.org/pdf/2507.23113",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 52,
+   "retrieved_utc": "2026-10-09T02:30:33Z",
+   "sha256": "dd4f1d88a3ee3af071de4678c4f7a639adba158c220347b3d0412e826a3c182f",
+   "url": "https://arxiv.org/pdf/2507.23113"
+  },
+  "2508.11847": {
+   "bytes": 5928104,
+   "final_url": "https://arxiv.org/pdf/2508.11847",
+   "gate": "ARENA_BT",
+   "pdftotext_pages": 38,
+   "retrieved_utc": "2026-10-09T02:32:34Z",
+   "sha256": "ae9f20722161aba6344da1d840b9a0102db47a0b1fc759053d0e22711da03991",
+   "url": "https://arxiv.org/pdf/2508.11847"
+  },
+  "2509.22126": {
+   "bytes": 18560174,
+   "final_url": "https://arxiv.org/pdf/2509.22126",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 33,
+   "retrieved_utc": "2026-10-09T02:44:15Z",
+   "sha256": "a2c76ee6c7c8212572a55580482987be7e82d52adaec5e5b6271afe172b7738a",
+   "url": "https://arxiv.org/pdf/2509.22126"
+  },
+  "2509.24368": {
+   "bytes": 2055867,
+   "final_url": "https://arxiv.org/pdf/2509.24368",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 47,
+   "retrieved_utc": "2026-10-09T02:44:00Z",
+   "sha256": "5394a80079f7021f1223760563a37437293a0aeb5064bd9c74167d2a42893de1",
+   "url": "https://arxiv.org/pdf/2509.24368"
+  },
+  "2510.22007": {
+   "bytes": 1848914,
+   "final_url": "https://arxiv.org/pdf/2510.22007",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 81,
+   "retrieved_utc": "2026-10-09T02:30:19Z",
+   "sha256": "91247504d0789c05f6826c2cbb6e7a0cccf15d816e4f443f06a97f416755ebc8",
+   "url": "https://arxiv.org/pdf/2510.22007"
+  },
+  "2512.16904": {
+   "bytes": 2107193,
+   "final_url": "https://arxiv.org/pdf/2512.16904",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 25,
+   "retrieved_utc": "2026-10-09T02:30:30Z",
+   "sha256": "45ac266136da157d186f411775f80ada53d6b0cf2a7505f000a3b1255e454bed",
+   "url": "https://arxiv.org/pdf/2512.16904"
+  },
+  "2601.14727": {
+   "bytes": 30731788,
+   "final_url": "https://arxiv.org/pdf/2601.14727",
+   "gate": "ARENA_BT",
+   "pdftotext_pages": 37,
+   "retrieved_utc": "2026-10-09T02:32:10Z",
+   "sha256": "800534a53b77be84c2cf82c95903f713980f738900db687f47ce75ccb588bb3b",
+   "url": "https://arxiv.org/pdf/2601.14727"
+  },
+  "2602.06754": {
+   "bytes": 960335,
+   "final_url": "https://arxiv.org/pdf/2602.06754",
+   "gate": "R01",
+   "pdftotext_pages": 28,
+   "retrieved_utc": "2026-10-09T16:00:01Z",
+   "sha256": "87277134f3dfc5891d6cef159e5549de569a7affd233d6eb573c9abc04d3e702",
+   "url": "https://arxiv.org/pdf/2602.06754"
+  },
+  "2602.14286": {
+   "bytes": 910176,
+   "final_url": "https://arxiv.org/pdf/2602.14286",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 28,
+   "retrieved_utc": "2026-10-09T02:31:06Z",
+   "sha256": "0e108f3fca3cd6e09616a73d2a8a04b9bc8f535f26c88369665906d7f9eefde0",
+   "url": "https://arxiv.org/pdf/2602.14286"
+  },
+  "2602.17608": {
+   "bytes": 740013,
+   "final_url": "https://arxiv.org/pdf/2602.17608",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 52,
+   "retrieved_utc": "2026-10-09T02:31:10Z",
+   "sha256": "fbcdb4c67712d4d7e24a2cf750a7af0901bb8d086847b50bf252edb19268b3d6",
+   "url": "https://arxiv.org/pdf/2602.17608"
+  },
+  "2604.00426": {
+   "bytes": 465168,
+   "final_url": "https://arxiv.org/pdf/2604.00426",
+   "gate": "ARENA_BT",
+   "pdftotext_pages": 33,
+   "retrieved_utc": "2026-10-09T02:32:17Z",
+   "sha256": "24f7bb15077d57d595a721f9561146ccb5e93230c42f9521f73f6da4dfbcb435",
+   "url": "https://arxiv.org/pdf/2604.00426"
+  },
+  "2605.06656": {
+   "bytes": 1283398,
+   "final_url": "https://arxiv.org/pdf/2605.06656",
+   "gate": "ARENA_BT",
+   "pdftotext_pages": 27,
+   "retrieved_utc": "2026-10-09T02:32:25Z",
+   "sha256": "ae9508e3934b2609f08954c7399d9f536d766935514ccb2bdf3c6617c434adf6",
+   "url": "https://arxiv.org/pdf/2605.06656"
+  },
+  "2605.12456": {
+   "bytes": 1389584,
+   "final_url": "https://arxiv.org/pdf/2605.12456",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 42,
+   "retrieved_utc": "2026-10-09T02:31:27Z",
+   "sha256": "361609e52786f67bed4c5cbfe84be46b291b82015dcb0ec37c92bdcc7dad45d2",
+   "url": "https://arxiv.org/pdf/2605.12456"
+  },
+  "2605.29395": {
+   "bytes": 2076026,
+   "final_url": "https://arxiv.org/pdf/2605.29395",
+   "gate": "ARENA_BT",
+   "pdftotext_pages": 102,
+   "retrieved_utc": "2026-10-09T02:31:52Z",
+   "sha256": "94194404dc56de3760cbebaef1a585f440263e65beed170444a17313f3301653",
+   "url": "https://arxiv.org/pdf/2605.29395"
+  },
+  "2606.00613": {
+   "bytes": 945332,
+   "final_url": "https://arxiv.org/pdf/2606.00613",
+   "gate": "CLAIM",
+   "pdftotext_pages": 23,
+   "retrieved_utc": "2026-10-19T00:56:27Z",
+   "sha256": "6903db5c4ac89bd9bfab53fbdff7188bf17494ce60f8a3df6bdb7471a6aaaf5e",
+   "url": "https://arxiv.org/pdf/2606.00613"
+  },
+  "2606.02547": {
+   "bytes": 770116,
+   "final_url": "https://arxiv.org/pdf/2606.02547",
+   "gate": "ARENA_BT",
+   "pdftotext_pages": 27,
+   "retrieved_utc": "2026-10-09T02:31:35Z",
+   "sha256": "48c32392630e0f6b8fbd6f0868c989dc8491e432ee1ff813a64591ab01f07f3a",
+   "url": "https://arxiv.org/pdf/2606.02547"
+  },
+  "2606.04486": {
+   "bytes": 409966,
+   "final_url": "https://arxiv.org/pdf/2606.04486",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 12,
+   "retrieved_utc": "2026-10-09T02:44:08Z",
+   "sha256": "fd5f8e7f9272ece4d1e5180ee793176682bde60f483ad866ab49b538c0834368",
+   "url": "https://arxiv.org/pdf/2606.04486"
+  },
+  "2606.13221": {
+   "bytes": 1006131,
+   "final_url": "https://arxiv.org/pdf/2606.13221",
+   "gate": "ARENA_BT",
+   "pdftotext_pages": 32,
+   "retrieved_utc": "2026-10-09T02:31:56Z",
+   "sha256": "a453b3b9c2f850a836037f0dc83dc6a8bc3c56a0f8238ba6515998946f5da6fa",
+   "url": "https://arxiv.org/pdf/2606.13221"
+  },
+  "2607.05694": {
+   "bytes": 822023,
+   "final_url": "https://arxiv.org/pdf/2607.05694",
+   "gate": "CLAIM",
+   "pdftotext_pages": 42,
+   "retrieved_utc": "2026-10-19T00:56:39Z",
+   "sha256": "66556ee8811fe688d73c1649ee47cd0e1854c5b4257fb4285e60d80ecc926dba",
+   "url": "https://arxiv.org/pdf/2607.05694"
+  },
+  "2607.18445": {
+   "bytes": 550405,
+   "final_url": "https://arxiv.org/pdf/2607.18445",
+   "gate": "CLAIM",
+   "pdftotext_pages": 18,
+   "retrieved_utc": "2026-10-19T00:56:19Z",
+   "sha256": "ada0c20defa9cc91c6a2d6e6d90c6793fd9a4bc86191ea797b0fdb43bd99f8f8",
+   "url": "https://arxiv.org/pdf/2607.18445"
+  },
+  "2607.21958": {
+   "bytes": 2669849,
+   "final_url": "https://arxiv.org/pdf/2607.21958",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 26,
+   "retrieved_utc": "2026-10-09T02:31:15Z",
+   "sha256": "707ecd8dda90ecf576d7dbc3e3870fecc39b9868231d83eaac63a6d76d1f2207",
+   "url": "https://arxiv.org/pdf/2607.21958"
+  },
+  "2608.20047": {
+   "bytes": 772120,
+   "final_url": "https://arxiv.org/pdf/2608.20047",
+   "gate": "CLAIM",
+   "pdftotext_pages": 25,
+   "retrieved_utc": "2026-10-19T00:56:15Z",
+   "sha256": "c66bbecaf022b105531258d2c35620c32714b8589693740394c9bbfd0e0c99b4",
+   "url": "https://arxiv.org/pdf/2608.20047"
+  },
+  "2608.20839": {
+   "bytes": 1151866,
+   "final_url": "https://arxiv.org/pdf/2608.20839",
+   "gate": "KEYCOND",
+   "pdftotext_pages": 25,
+   "retrieved_utc": "2026-10-09T02:44:04Z",
+   "sha256": "23cb2583b8991caa8bdcc129fdde612b012611c66db14cf7f768e97a4126808f",
+   "url": "https://arxiv.org/pdf/2608.20839"
+  },
+  "2609.15657": {
+   "bytes": 829595,
+   "final_url": "https://arxiv.org/pdf/2609.15657",
+   "gate": "CLAIM",
+   "pdftotext_pages": 58,
+   "retrieved_utc": "2026-10-19T00:56:48Z",
+   "sha256": "a40f10938f96a630fc5efc60210e10e5e0cc19ff68593a5984fba966af9638d0",
+   "url": "https://arxiv.org/pdf/2609.15657"
+  },
+  "2609.22170": {
+   "bytes": 1518339,
+   "final_url": "https://arxiv.org/pdf/2609.22170",
+   "gate": "ARENA_BT",
+   "pdftotext_pages": 31,
+   "retrieved_utc": "2026-10-09T02:32:00Z",
+   "sha256": "72a02d701c06dee09beb1b2eec92223364ffe3c9fa4eaa37dffe12692cd2e34b",
+   "url": "https://arxiv.org/pdf/2609.22170"
+  },
+  "2609.32678": {
+   "bytes": 1176097,
+   "final_url": "https://arxiv.org/pdf/2609.32678",
+   "gate": "CLAIM",
+   "pdftotext_pages": 46,
+   "retrieved_utc": "2026-10-19T00:56:23Z",
+   "sha256": "b95235ef3b1eb91a8d7b81dea6b117db2484f15566796d95008418cf65086b8f",
+   "url": "https://arxiv.org/pdf/2609.32678"
+  },
+  "2609.37310": {
+   "bytes": 901800,
+   "final_url": "https://arxiv.org/pdf/2609.37310",
+   "gate": "R03",
+   "pdftotext_pages": 53,
+   "retrieved_utc": "2026-10-09T23:23:53Z",
+   "sha256": "5d27615254c4dffed7532e86bbf4535d180edd632dbb71ef3e6317bdeeed60e3",
+   "url": "https://arxiv.org/pdf/2609.37310"
+  },
+  "2610.06317": {
+   "bytes": 542710,
+   "final_url": "https://arxiv.org/pdf/2610.06317",
+   "gate": "R01",
+   "pdftotext_pages": 23,
+   "retrieved_utc": "2026-10-09T15:59:57Z",
+   "sha256": "88eb2d251e5ff68d29394ae9e044abe2737e7bfc50c21036667105ebaaa96046",
+   "url": "https://arxiv.org/pdf/2610.06317"
+  },
+  "2610.10795": {
+   "bytes": 1672710,
+   "final_url": "https://arxiv.org/pdf/2610.10795",
+   "gate": "ARENA_BT",
+   "pdftotext_pages": 54,
+   "retrieved_utc": "2026-10-09T02:32:29Z",
+   "sha256": "6a231f46e345f485c7d26e92aa318d48e81943240d6801bc5dc1ad4e8ff2629e",
+   "url": "https://arxiv.org/pdf/2610.10795"
+  },
+  "2610.14378": {
+   "bytes": 349004,
+   "final_url": "https://arxiv.org/pdf/2610.14378",
+   "gate": "CLAIM",
+   "pdftotext_pages": 19,
+   "retrieved_utc": "2026-10-19T00:56:31Z",
+   "sha256": "05edbeb722738ae7588bb7f028c2e4831b4cd9ff9ad89056763a6b0ca278aceb",
+   "url": "https://arxiv.org/pdf/2610.14378"
+  },
+  "2610.14427": {
+   "bytes": 448289,
+   "final_url": "https://arxiv.org/pdf/2610.14427",
+   "gate": "CLAIM",
+   "pdftotext_pages": 39,
+   "retrieved_utc": "2026-10-19T00:56:52Z",
+   "sha256": "be83964d7fcef906861624176c9730a0f9884108adbde2de9828725df9e15e0a",
+   "url": "https://arxiv.org/pdf/2610.14427"
+  },
+  "2610.17655": {
+   "bytes": 887624,
+   "final_url": "https://arxiv.org/pdf/2610.17655",
+   "gate": "CLAIM",
+   "pdftotext_pages": 24,
+   "retrieved_utc": "2026-10-19T00:56:35Z",
+   "sha256": "28a6ab05ffa5af219529c609709ac1941df5642bdc12d502164425473fad6100",
+   "url": "https://arxiv.org/pdf/2610.17655"
+  },
+  "genhatharan_nominal_fpr_2026": {
+   "bytes": 490429,
+   "gate": "R03",
+   "note": "Non-arXiv: Nisaharan Genhatharan (UNSW Sydney), 'When Nominal False-Positive Rates Fail: Key- and Length-Dependent Null Behavior of Canonical LLM Text Watermarks', a paper in a public GitHub repository; found by the R03 reviewer (Codex); not found on arXiv by title on 2026-10-09; single API request; personal research use; git-ignored.",
+   "pdftotext_pages": 19,
+   "retrieved_utc": "2026-10-09T23:25:00Z",
+   "sha256": "a2ab7919c6f8610956c20bcf4abad853fdcae1b09d12265a6ea5723fed45413f",
+   "url": "https://api.github.com/repos/nisaharan/when-nominal-false-positive-rates-fail/contents/paper/when-nominal-false-positive-rates-fail.pdf (GitHub API, raw content; repository MIT; created 2026-08-15, pushed 2026-09-11, release tag v1)"
+  },
+  "textgrain_openai_2026": {
+   "bytes": 342639,
+   "gate": "R01",
+   "note": "Non-arXiv: OpenAI technical report 'textGrain: Entropy-Calibrated Watermarking for Language Model Text', dated October 5, 2026; found by the R01 reviewer (Codex); single fetch; personal research use; git-ignored like the e-prints.",
+   "pdftotext_pages": 21,
+   "retrieved_utc": "2026-10-09T16:00:00Z",
+   "sha256": "206e7345bb7d73fe98cf1d560df4cdd8f41b4e9125e98cda22d057c34e7bced8",
+   "url": "https://cdn.openai.com/pdf/e9508624-d767-41b6-a26d-e34ca798ada6/textgrain-entropy-calibrated-watermarking-for-language-model-text.pdf"
+  }
+ },
+ "terms": "research/literature/TERMS_OF_USE_CHECK.md"
+}

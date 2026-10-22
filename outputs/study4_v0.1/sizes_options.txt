@@ -1,0 +1,12 @@
+rates (median tok/s by mode): {('none', None): 428, ('kgw', 1): 333, ('kgw', 2): 283, ('kgw', 0): 357, ('gumbel', 0): 323, ('gumbel', 1): 319, ('gumbel', 2): 295} from pilot_summary_20261016T013804Z.json
+| Option | watermarked texts | null texts | tokens (M) | hours at the measured rates |
+|---|---|---|---|---|
+| M- (lean, within D12's scope): 3 English cells; 60 keys x 50 prompts; KGW h = 1 at delta 0.5 and 2.0, h = 2 at 0.5; 5,000 null texts per cell | 27,000 | 15,000 | 10.75 | 8.6 |
+| M (recommended): 3 English cells; 100 keys x 50 prompts; KGW h = 1 at delta 0.5 and 2.0, h = 2 at 0.5; 5,000 null texts per cell | 45,000 | 15,000 | 15.36 | 12.7 |
+| M+ : M with 100 prompts per key (the dispersion of power estimated twice as precisely per key) | 90,000 | 15,000 | 26.88 | 22.8 |
+| L (large): M+ with 200 keys and the Chinese Wikipedia cell added | 240,000 | 20,000 | 66.56 | 57.6 |
+
+precision (nominal; power 0.7; between-key SD 0.05):
+  K4=60, n=50: {'se_per_key_power': 0.065, 'se_key_mean_power': 0.0106, 'rel_se_between_key_sd': 0.247}  | at between-key SD 0.12 (the pilot's two-key gap suggests a large dispersion at delta 0.5): {'se_per_key_power': 0.065, 'se_key_mean_power': 0.0176, 'rel_se_between_key_sd': 0.119}
+  K4=100, n=50: {'se_per_key_power': 0.065, 'se_key_mean_power': 0.0082, 'rel_se_between_key_sd': 0.19}  | at between-key SD 0.12 (the pilot's two-key gap suggests a large dispersion at delta 0.5): {'se_per_key_power': 0.065, 'se_key_mean_power': 0.0136, 'rel_se_between_key_sd': 0.092}
+  K4=100, n=100: {'se_per_key_power': 0.046, 'se_key_mean_power': 0.0068, 'rel_se_between_key_sd': 0.131}  | at between-key SD 0.12 (the pilot's two-key gap suggests a large dispersion at delta 0.5): {'se_per_key_power': 0.046, 'se_key_mean_power': 0.0128, 'rel_se_between_key_sd': 0.081}

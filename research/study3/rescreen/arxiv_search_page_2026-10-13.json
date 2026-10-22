@@ -1,0 +1,132 @@
+{
+ "s1": {
+  "query": "\"per-key\" watermark",
+  "url": "https://arxiv.org/search/?query=%22per-key%22+watermark&searchtype=all&order=-announced_date_first&size=50",
+  "total": "0",
+  "items": [],
+  "status": "ok"
+ },
+ "s2": {
+  "query": "\"key-conditional\" watermark",
+  "url": "https://arxiv.org/search/?query=%22key-conditional%22+watermark&searchtype=all&order=-announced_date_first&size=50",
+  "total": "2",
+  "items": [
+   [
+    "2605.23175",
+    "Robust LLM Watermarking with Minimal Semantic Distortion for IP Protection",
+    "21 May, 2026"
+   ],
+   [
+    "2601.06639",
+    "Attack-Resistant Watermarking for AIGC Image Forensics via Diffusion-based Semantic Deflection",
+    "10 January, 2026"
+   ]
+  ],
+  "status": "ok"
+ },
+ "s3": {
+  "query": "\"fixed key\" watermark",
+  "url": "https://arxiv.org/search/?query=%22fixed+key%22+watermark&searchtype=all&order=-announced_date_first&size=50",
+  "total": "0",
+  "items": [],
+  "status": "ok"
+ },
+ "s4": {
+  "query": "watermark calibration \"false positive\" key",
+  "url": "https://arxiv.org/search/?query=watermark+calibration+%22false+positive%22+key&searchtype=all&order=-announced_date_first&size=50",
+  "total": "3",
+  "items": [
+   [
+    "2610.11848",
+    "SemField: A Simple, Linear, Continuous, yet Robust Semantic Watermark",
+    "8 October, 2026"
+   ],
+   [
+    "2610.08668",
+    "Semantic Behavioral Watermarking: Paraphrase-Robust and Forgery-Resistant Provenance for LLM Agents",
+    "6 October, 2026"
+   ],
+   [
+    "2610.04151",
+    "Watermarks and Fingerprints as Soft Bindings for Content Provenance: An Open-Licence Benchmark for Images, Audio and Video",
+    "2 October, 2026"
+   ]
+  ],
+  "status": "ok"
+ },
+ "s5": {
+  "query": "watermark threshold transfer language \"false positive\"",
+  "url": "https://arxiv.org/search/?query=watermark+threshold+transfer+language+%22false+positive%22&searchtype=all&order=-announced_date_first&size=50",
+  "total": "1",
+  "items": [
+   [
+    "2510.04303",
+    "Audit the Whisper: Detecting Steganographic Collusion in Multi-Agent LLMs",
+    "17 October, 2025"
+   ]
+  ],
+  "status": "ok"
+ },
+ "s6": {
+  "query": "watermark \"domain shift\" \"false positive\"",
+  "url": "https://arxiv.org/search/?query=watermark+%22domain+shift%22+%22false+positive%22&searchtype=all&order=-announced_date_first&size=50",
+  "total": "0",
+  "items": [],
+  "status": "ok"
+ },
+ "s7": {
+  "query": "watermark tokenizer calibration \"false positive\"",
+  "url": "https://arxiv.org/search/?query=watermark+tokenizer+calibration+%22false+positive%22&searchtype=all&order=-announced_date_first&size=50",
+  "total": "4",
+  "items": [
+   [
+    "2610.11848",
+    "SemField: A Simple, Linear, Continuous, yet Robust Semantic Watermark",
+    "8 October, 2026"
+   ],
+   [
+    "2610.08668",
+    "Semantic Behavioral Watermarking: Paraphrase-Robust and Forgery-Resistant Provenance for LLM Agents",
+    "6 October, 2026"
+   ],
+   [
+    "2608.19727",
+    "A Locally Tokenized Generative Model for Robust Time-Series Watermarking",
+    "20 August, 2026"
+   ],
+   [
+    "2606.24163",
+    "CORE-BREW: LLR-Based Soft Decoding for Robust Multi-Bit LLM Watermarking",
+    "29 September, 2026"
+   ]
+  ],
+  "status": "ok"
+ },
+ "s8": {
+  "query": "conformal watermark detection calibration",
+  "url": "https://arxiv.org/search/?query=conformal+watermark+detection+calibration&searchtype=all&order=-announced_date_first&size=50",
+  "total": "1",
+  "items": [
+   [
+    "2609.32678",
+    "Reference-Null Calibrated Thresholds for E-Processes with Applications to Conformal Martingales",
+    "26 September, 2026"
+   ]
+  ],
+  "status": "ok"
+ },
+ "s9": {
+  "query": "watermark \"soundness given a key\"",
+  "url": "https://arxiv.org/search/?query=watermark+%22soundness+given+a+key%22&searchtype=all&order=-announced_date_first&size=50",
+  "total": "0",
+  "items": [],
+  "status": "ok"
+ },
+ "s10": {
+  "query": "AutoMark watermark multiplier",
+  "url": "https://arxiv.org/search/?query=AutoMark+watermark+multiplier&searchtype=all&order=-announced_date_first&size=50",
+  "total": "0",
+  "items": [],
+  "status": "ok"
+ }
+}

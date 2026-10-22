@@ -1,0 +1,7 @@
+2026-10-14T00:35:43Z h=0 rule=raw: 400 pairs in 104.4s (peak RSS 0.74 GB)
+2026-10-14T00:37:29Z h=0 rule=distinct: 400 pairs in 105.7s (peak RSS 0.79 GB)
+2026-10-14T00:39:23Z h=1 rule=raw: 400 pairs in 114.4s (peak RSS 1.24 GB)
+2026-10-14T00:41:17Z h=1 rule=distinct: 400 pairs in 113.7s (peak RSS 1.63 GB)
+2026-10-14T00:43:20Z h=2 rule=raw: 400 pairs in 123.0s (peak RSS 2.32 GB)
+2026-10-14T00:45:24Z h=2 rule=distinct: 400 pairs in 124.1s (peak RSS 2.36 GB)
+DONE {'n': 108, 'max_abs_diff_rho': 2.9753977059954195e-14, 'max_abs_diff_sigma2': 2.9753977059954195e-14} 685.3

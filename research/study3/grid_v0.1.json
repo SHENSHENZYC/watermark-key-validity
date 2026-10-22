@@ -1,0 +1,204 @@
+{
+ "study": "study3_v0.1",
+ "decisions": "D9 scope, D10 settings, D11 sizes (Yichen, 2026-10-13)",
+ "K": 1000,
+ "K_fit": 1000,
+ "key_eval_start": 23000,
+ "key_fit_start": 24000,
+ "validation_key_seed_start": 1000000,
+ "reserved_key_range": [
+  30000,
+  30999
+ ],
+ "key_chunk": 8,
+ "L": 256,
+ "N_eval": 10000,
+ "N_eval_gutenberg": 7122,
+ "N_cal_set": 5000,
+ "tokens_manifest": "outputs/study3_v0.1/tokens_manifest.json",
+ "study2_tokens_manifest": "outputs/study2_v0.1/tokens_manifest.json",
+ "cells": [
+  "news_en_256",
+  "wikipedia_en_256",
+  "stackexchange_en_256",
+  "wikipedia_de_256",
+  "wikipedia_ru_256",
+  "wikipedia_ar_256",
+  "wikipedia_zh_256",
+  "wikipedia_ja_256",
+  "wikipedia_en_1024",
+  "gutenberg_en_1024"
+ ],
+ "english_cells": [
+  "news_en_256",
+  "wikipedia_en_256",
+  "stackexchange_en_256",
+  "wikipedia_en_1024",
+  "gutenberg_en_1024"
+ ],
+ "language_cells": [
+  "wikipedia_en_256",
+  "wikipedia_de_256",
+  "wikipedia_ru_256",
+  "wikipedia_ar_256",
+  "wikipedia_zh_256",
+  "wikipedia_ja_256"
+ ],
+ "near_identical_pair": [
+  "wikipedia_en_256",
+  "wikipedia_en_1024"
+ ],
+ "tokenizers": {
+  "llama": {
+   "V": 128256
+  },
+  "qwen": {
+   "V": 151936
+  }
+ },
+ "h": [
+  0,
+  1,
+  2
+ ],
+ "rules": [
+  "raw",
+  "distinct"
+ ],
+ "families": {
+  "kgw": {
+   "gamma": 0.25,
+   "colouring": "independent"
+  },
+  "gumbel": {}
+ },
+ "alpha": [
+  0.01,
+  0.05,
+  0.001
+ ],
+ "beta": 0.05,
+ "delta": 0.05,
+ "screen_gamma": 0.01,
+ "N_cal": [
+  500,
+  1000,
+  2000,
+  5000
+ ],
+ "methods_fixed": [
+  "nominal",
+  "multiplier20"
+ ],
+ "methods_scheme": [
+  "empirical",
+  "pooled"
+ ],
+ "methods_per_key": [
+  "conformal",
+  "tolerance"
+ ],
+ "cross_tokenizer": true,
+ "crossed_bootstrap": {
+  "B": 200,
+  "pairs": "diagonal",
+  "alpha": 0.01,
+  "variants": [
+   "nominal",
+   "multiplier20",
+   "empirical",
+   "pooled",
+   "conformal@1000",
+   "conformal@5000",
+   "tolerance@1000",
+   "tolerance@5000"
+  ]
+ },
+ "cal_bootstrap": {
+  "B": 50,
+  "alpha": 0.01,
+  "N_cal": [
+   1000,
+   5000
+  ],
+  "methods": [
+   "conformal",
+   "tolerance"
+  ]
+ },
+ "key_bootstrap_B": 200,
+ "beta_quadrature_nodes": 20000,
+ "primary": {
+  "family": "kgw",
+  "rules": [
+   "raw",
+   "distinct"
+  ],
+  "h": [
+   1,
+   2
+  ],
+  "tokenizers": [
+   "llama",
+   "qwen"
+  ],
+  "method": "conformal",
+  "N_cal": [
+   1000,
+   5000
+  ],
+  "alpha": "0.01",
+  "pairs": "every ordered (calibration cell, evaluation cell) pair within a tokenizer, the diagonal included",
+  "min_theory_share": 0.75,
+  "band": [
+   0.6666666666666666,
+   1.5
+  ],
+  "min_resolved": 30,
+  "T1_pass_share": 0.8,
+  "T2_material_band": [
+   0.6666666666666666,
+   1.5
+  ],
+  "T2_pass_share": 0.9
+ },
+ "rep": {
+  "family": "kgw",
+  "alpha": 0.01,
+  "gross_se": 6.0,
+  "exclude": [
+   "gutenberg_en_1024"
+  ],
+  "note": "the nominal SD on Study 2's texts with Study 3's keys against Study 2's observed SD with Study 2's keys"
+ },
+ "reduction_order": [
+  "cal_bootstrap B 50 -> 20",
+  "crossed_bootstrap B 200 -> 100",
+  "drop the cross-tokenizer evaluation",
+  "K_fit 1000 -> 500",
+  "drop alpha 0.001"
+ ],
+ "budget_hours": 10,
+ "validation": {
+  "tag": "synthetic_zipf",
+  "tokenizer_label": "synthetic",
+  "law": {
+   "V": 128256,
+   "s": 1.1
+  },
+  "N_eval": 2000,
+  "N_cal_set": 1000,
+  "N_cal": [
+   100,
+   500,
+   1000
+  ],
+  "K": 64,
+  "K_fit": 64,
+  "h": [
+   0,
+   1
+  ],
+  "n_cells": 3
+ }
+}

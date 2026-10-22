@@ -1,0 +1,354 @@
+{
+ "arxiv_versions": {
+  "aremu2026activation": "2603.23171v3",
+  "bian2023training": "2205.03647v2",
+  "cai2025collision": "2510.22007v1",
+  "delbianco2026compliance": "2610.06317v1",
+  "ding2026reference": "2609.32678v1",
+  "fernandez2023bricks": "2308.00113v2",
+  "fernandez2026posthoc": "2512.16904v2",
+  "fu2025multiuse": "2506.15975v1",
+  "gloaguen2026automark": "2609.37310v1",
+  "gloaguen2026diffusion": "2509.24368v3",
+  "gloaguen2026unified": "2602.06754v1",
+  "globalsketch2026": "2606.04486v1",
+  "huang2023optimal": "2312.07930v3",
+  "huang2026anytime": "2602.17608v1",
+  "jovanovic2025image": "2506.16349v2",
+  "kandpal2025commonpile": "2506.05209v1",
+  "khachaturov2025repetition": "2504.12229v1",
+  "kirchenbauer2023watermark": "2301.10226v4",
+  "kirchenbauer2024reliability": "2306.04634v4",
+  "kuditipudi2024distortion": "2307.15593v3",
+  "li2025framework": "2404.01245v4",
+  "li2025robust": "2411.13868v3",
+  "li2026tiwm": "2610.14378v1",
+  "liang2025algorithmic": "2311.04295v3",
+  "lichen2026chainmark": "2607.18445v1",
+  "lihe2026saccopula": "2608.20839v2",
+  "luo2026anytime": "2607.21958v1",
+  "ma2026predictive": "2609.15657v1",
+  "nemecek2026crosslingual": "2608.20047v1",
+  "park2026luna": "2606.00613v2",
+  "ren2022derandomized": "2205.15461v5",
+  "sander2026textseal": "2605.12456v2",
+  "su2026anytime": "2602.14286v4",
+  "vovk2012conditional": "1209.2673v2",
+  "wang2026bytemark": "2610.14427v1",
+  "wu2024collision": "2406.02603v1",
+  "xie2025classroom": "2507.23113v1",
+  "zhao2024unigram": "2306.17439v2",
+  "zhou2026blade": "2610.23601v1"
+ },
+ "built_utc": "2026-10-22",
+ "entries": {
+  "aaronson2022lecture": {
+   "source": "the blog page (title and published_time meta tag)"
+  },
+  "aremu2026activation": {
+   "cover": "4 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2603.23171",
+   "version": 3
+  },
+  "bian2023training": {
+   "cover": "2 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2205.03647; Crossref 10.1214/23-EJS2145",
+   "version": 2
+  },
+  "bonet2026llmwatermark": {
+   "source": "GitHub API: repository, the measurement commit 6261c02 and the README commit e2d47ae (R13 F6)"
+  },
+  "cai2025collision": {
+   "cover": "5 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2510.22007",
+   "version": 1
+  },
+  "dathathri2024synthid": {
+   "source": "Crossref 10.1038/s41586-024-08025-4"
+  },
+  "delbianco2026compliance": {
+   "cover": "3 authors; a surname repeats on the cover, order compared on the first two only",
+   "source": "arXiv API id 2610.06317",
+   "version": 1
+  },
+  "ding2026reference": {
+   "cover": "4 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2609.32678",
+   "version": 1
+  },
+  "ec2026code": {
+   "source": "the document's cover (local text); the Commission's newsroom id"
+  },
+  "ec2026guidelines": {
+   "source": "the document's cover (local text); the service-desk URL from the industry screen"
+  },
+  "fernandez2023bricks": {
+   "cover": "5 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2308.00113; Crossref 10.1109/WIFS58808.2023.10374576",
+   "version": 2
+  },
+  "fernandez2026posthoc": {
+   "cover": "9 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2512.16904",
+   "version": 2
+  },
+  "fu2025multiuse": {
+   "cover": "2 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2506.15975",
+   "version": 1
+  },
+  "genhatharan2026nominal": {
+   "source": "GitHub API: repository, tags, the v1 commit"
+  },
+  "gloaguen2026automark": {
+   "cover": "3 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2609.37310",
+   "version": 1
+  },
+  "gloaguen2026diffusion": {
+   "cover": "4 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2509.24368; https://proceedings.iclr.cc/paper_files/paper/2026/file/a30d1f9de116aa3184e66a3e9d96b69d-Bibtex-Conference.bib",
+   "version": 3
+  },
+  "gloaguen2026unified": {
+   "cover": "4 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2602.06754",
+   "version": 1
+  },
+  "globalsketch2026": {
+   "cover": "1 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2606.04486",
+   "version": 1
+  },
+  "huang2023optimal": {
+   "cover": "7 authors; a surname repeats on the cover, order compared on the first two only",
+   "source": "arXiv API id 2312.07930",
+   "version": 3
+  },
+  "huang2026anytime": {
+   "cover": "5 authors; the extracted text's order differs from the arXiv record's; the v1 cover viewed 2026-10-20: Huang, Xu, Ramchandran, Jiao, Jordan, the arXiv order; the extracted text emits Jordan before Jiao; the arXiv order is used",
+   "source": "arXiv API id 2602.17608",
+   "version": 1
+  },
+  "islam2026reliable": {
+   "source": "Crossref 10.1016/j.cosrev.2026.101074"
+  },
+  "jovanovic2025image": {
+   "cover": "5 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2506.16349; Crossref 10.52202/085713-2411",
+   "version": 2
+  },
+  "kandpal2025commonpile": {
+   "cover": "no local PDF text: the cover was not checked",
+   "source": "arXiv API id 2506.05209; Crossref 10.52202/085713-1918",
+   "version": 1
+  },
+  "khachaturov2025repetition": {
+   "cover": "4 authors; not found on the cover text: ['Shumailov', 'Dathathri']",
+   "source": "arXiv API id 2504.12229",
+   "version": 1
+  },
+  "kirchenbauer2023watermark": {
+   "cover": "6 authors; a surname repeats on the cover, order compared on the first two only",
+   "source": "arXiv API id 2301.10226; https://proceedings.mlr.press/v202/kirchenbauer23a.html",
+   "version": 4
+  },
+  "kirchenbauer2024reliability": {
+   "cover": "10 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2306.04634; https://proceedings.iclr.cc/paper_files/paper/2024/file/d78e9e4316e1714fbb0f20be66f8044c-Bibtex-Conference.bib",
+   "version": 4
+  },
+  "kuditipudi2024distortion": {
+   "cover": "4 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2307.15593; https://jmlr.org/tmlr/papers/bib/FpaCL1MO2C.bib",
+   "version": 3
+  },
+  "li2025framework": {
+   "cover": "5 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2404.01245; Crossref 10.1214/24-AOS2468",
+   "version": 4
+  },
+  "li2025robust": {
+   "cover": "5 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2411.13868; Crossref 10.1093/jrsssb/qkaf056",
+   "version": 3
+  },
+  "li2026tiwm": {
+   "cover": "1 authors; a surname repeats on the cover, order compared on the first two only",
+   "source": "arXiv API id 2610.14378",
+   "version": 1
+  },
+  "liang2025algorithmic": {
+   "cover": "2 authors; a surname repeats on the cover, order compared on the first two only",
+   "source": "arXiv API id 2311.04295; Crossref 10.1214/25-AOS2510",
+   "version": 3
+  },
+  "lichen2026chainmark": {
+   "cover": "2 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2607.18445",
+   "version": 1
+  },
+  "lihe2026saccopula": {
+   "cover": "2 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2608.20839",
+   "version": 2
+  },
+  "luo2026anytime": {
+   "cover": "7 authors; a surname repeats on the cover, order compared on the first two only",
+   "source": "arXiv API id 2607.21958",
+   "version": 1
+  },
+  "ma2026predictive": {
+   "cover": "1 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2609.15657",
+   "version": 1
+  },
+  "nemecek2026crosslingual": {
+   "cover": "6 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2608.20047",
+   "version": 1
+  },
+  "nist2024ai1004": {
+   "source": "Crossref 10.6028/NIST.AI.100-4 (saved under bib_sources/crossref/); the title, institution and date confirmed against the report's cover (local text)"
+  },
+  "openai2026textgrain": {
+   "source": "the report's cover (local text); the URL from the industry screen of 2026-10-18"
+  },
+  "owen1956tables": {
+   "source": "Crossref 10.1214/aoms/1177728074"
+  },
+  "park2026luna": {
+   "cover": "4 authors; a surname repeats on the cover, order compared on the first two only",
+   "source": "arXiv API id 2606.00613",
+   "version": 2
+  },
+  "ren2022derandomized": {
+   "cover": "2 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2205.15461; Crossref 10.1093/jrsssb/qkad085",
+   "version": 5
+  },
+  "sander2026textseal": {
+   "cover": "13 authors; the cover's order differs from the arXiv record's, confirmed by eye, and is used",
+   "source": "arXiv API id 2605.12456",
+   "version": 2
+  },
+  "su2026anytime": {
+   "cover": "3 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2602.14286",
+   "version": 4
+  },
+  "vllm2026watermarking": {
+   "source": "the documentation page; the screen's record of 2026-10-18"
+  },
+  "vovk2012conditional": {
+   "cover": "1 authors; a surname repeats on the cover, order compared on the first two only",
+   "source": "arXiv API id 1209.2673; https://proceedings.mlr.press/v25/vovk12.html",
+   "version": 2
+  },
+  "wang2026bytemark": {
+   "cover": "2 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2610.14427",
+   "version": 1
+  },
+  "wikimedia2023dump": {
+   "source": "the freeze manifest outputs/corpora_manifest_v0.1.json (Hub revision and retrieval date)"
+  },
+  "wu2024collision": {
+   "cover": "no local PDF text: the cover was not checked",
+   "source": "arXiv API id 2406.02603",
+   "version": 1
+  },
+  "xie2025classroom": {
+   "cover": "4 authors in the arXiv order on the cover text",
+   "source": "arXiv API id 2507.23113; Crossref 10.1162/99608f92.072aebb0",
+   "version": 1
+  },
+  "xlr8harder2026synthid": {
+   "source": "GitHub API: repository and commit b3adb0f"
+  },
+  "yukhimchuk2026keylottery": {
+   "source": "GitHub API: repository, commit 8ebb6b4 and the user record (the author's name)"
+  },
+  "zhao2024unigram": {
+   "cover": "4 authors; a surname repeats on the cover, order compared on the first two only",
+   "source": "arXiv API id 2306.17439; https://proceedings.iclr.cc/paper_files/paper/2024/file/beae9ed5316bcc48e616754c06c11875-Bibtex-Conference.bib",
+   "version": 2
+  },
+  "zhou2026blade": {
+   "cover": "no local PDF text: the cover was not checked",
+   "source": "arXiv API id 2610.23601",
+   "version": 1
+  }
+ },
+ "projections": {
+  "pages_read_utc": {
+   "aaronson_lecture.html": "2026-10-19",
+   "kirchenbauer2023watermark.html": "2026-10-19",
+   "vovk2012conditional.html": "2026-10-19"
+  },
+  "private_record": "research/paper/bib_sources/raw_responses/ (the full GitHub and Crossref responses; excluded from the public snapshot) and bib_sources/pages/*.html (git-ignored); the distributed records under github/ and crossref/ are projections (R13 F10)",
+  "removed": {
+   "crossref/10.1016_j.cosrev.2026.101074.json": [],
+   "crossref/10.1038_s41586-024-08025-4.json": [
+    "message.abstract (1960 characters)"
+   ],
+   "crossref/10.1093_jrsssb_qkad085.json": [
+    "message.abstract (1224 characters)"
+   ],
+   "crossref/10.1093_jrsssb_qkaf056.json": [
+    "message.abstract (1433 characters)"
+   ],
+   "crossref/10.1109_WIFS58808.2023.10374576.json": [],
+   "crossref/10.1162_99608f92.072aebb0.json": [],
+   "crossref/10.1214_23-EJS2145.json": [
+    "message.abstract (1027 characters)"
+   ],
+   "crossref/10.1214_24-AOS2468.json": [
+    "message.abstract (1625 characters)"
+   ],
+   "crossref/10.1214_25-AOS2510.json": [
+    "message.abstract (1310 characters)"
+   ],
+   "crossref/10.1214_aoms_1177728074.json": [],
+   "crossref/10.52202_085713-1918.json": [],
+   "crossref/10.52202_085713-2411.json": [],
+   "crossref/10.6028_NIST.AI.100-4.json": [
+    "message.abstract (654 characters)"
+   ],
+   "github/genhatharan_repo.json": [],
+   "github/genhatharan_tags.json": [],
+   "github/genhatharan_v1_commit.json": [
+    "files[].patch of paper/arxiv/main.tex (677 characters)"
+   ],
+   "github/keylottery_commit.json": [
+    "files[].patch of proposal/proposal.tex (26629 characters)"
+   ],
+   "github/keylottery_repo.json": [],
+   "github/llmwatermark_commit.json": [
+    "files[].patch of tests/benchmarks/eval/EVAL.md (1930 characters)"
+   ],
+   "github/llmwatermark_readme_commit.json": [
+    "files[].patch of .github/workflows/ci.yml (368 characters)",
+    "files[].patch of README.md (9950 characters)",
+    "files[].patch of examples/animate_detection.py (5020 characters)",
+    "files[].patch of examples/detect_text.py (1455 characters)",
+    "files[].patch of examples/quickstart_transformers.py (1909 characters)",
+    "files[].patch of examples/quickstart_vllm.py (1815 characters)",
+    "files[].patch of examples/show_decision.py (2333 characters)",
+    "files[].patch of tests/test_readme.py (4599 characters)"
+   ],
+   "github/llmwatermark_repo.json": [],
+   "github/xlr8harder_synthid_commit.json": [
+    "files[].patch of README.md (621 characters)"
+   ],
+   "github/xlr8harder_synthid_repo.json": []
+  }
+ },
+ "resolved": [
+  "sander2026textseal: the PDF cover orders the authors ['Tom Sander', 'Hongyan Chang', 'Sylvestre-Alvise Rebuffi', 'Tom\u00e1\u0161 Sou\u010dek', 'Tuan Tran', 'Valeriu Lacatusu', 'Alexandre Mourachko', 'Surya Parimi', 'Christophe Ropers', 'Rashel Moritz', 'Vanessa Stark', 'Hady Elsahar', 'Pierre Fernandez'] while the arXiv record gives ['Tom Sander', 'Hongyan Chang', 'Tom\u00e1\u0161 Sou\u010dek', 'Tuan Tran', 'Valeriu Lacatusu', 'Sylvestre-Alvise Rebuffi', 'Alexandre Mourachko', 'Surya Parimi', 'Christophe Ropers', 'Rashel Moritz', 'Vanessa Stark', 'Hady Elsahar', 'Pierre Fernandez']; the cover order, confirmed by eye, is used and noted",
+  "kandpal2025commonpile: the published record's author order ['Kandpal', 'Lester', 'Raffel', 'Majstorovic', 'Biderman', 'Abbasi', 'Soldaini', 'Shippole', 'Cooper', 'Skowron', 'Longpre', 'Sutawika', 'Albalak', 'Xu', 'Penedo', 'Ben allal', 'Bakouch', 'Pressman', 'Fan', 'Stander', 'Song', 'Gokaslan', 'Kirchenbauer', 'Goldstein', 'Bartoldson', 'Kailkhura', 'Murray'] differs from the arXiv order ['Kandpal', 'Lester', 'Raffel', 'Majstorovic', 'Biderman', 'Abbasi', 'Soldaini', 'Shippole', 'Cooper', 'Skowron', 'Kirchenbauer', 'Longpre', 'Sutawika', 'Albalak', 'Xu', 'Penedo', 'Allal', 'Bakouch', 'Pressman', 'Fan', 'Stander', 'Song', 'Gokaslan', 'Goldstein', 'Bartoldson', 'Kailkhura', 'Murray']; the published order is used and noted"
+ ],
+ "warnings": [
+  "khachaturov2025repetition: author surname(s) ['Shumailov', 'Dathathri'] not in the first 1,500 characters of the local PDF text"
+ ]
+}

@@ -1,0 +1,40 @@
+loaded 2617347 units, 2617310 signatures (1s)
+exact-duplicate unions: 230 (2s)
+  band 0: candidates so far 14311, confirmed unions 1624, large groups 3 (4s)
+  band 1: candidates so far 28077, confirmed unions 2347, large groups 6 (5s)
+  band 2: candidates so far 43350, confirmed unions 2779, large groups 10 (5s)
+  band 3: candidates so far 57147, confirmed unions 3006, large groups 13 (6s)
+  band 4: candidates so far 71924, confirmed unions 3138, large groups 17 (6s)
+  band 5: candidates so far 86316, confirmed unions 3216, large groups 20 (7s)
+  band 6: candidates so far 102203, confirmed unions 3268, large groups 23 (8s)
+  band 7: candidates so far 116583, confirmed unions 3313, large groups 27 (8s)
+  band 8: candidates so far 133657, confirmed unions 3342, large groups 29 (8s)
+  band 9: candidates so far 148285, confirmed unions 3361, large groups 33 (9s)
+  band 10: candidates so far 163119, confirmed unions 3376, large groups 36 (10s)
+  band 11: candidates so far 176343, confirmed unions 3392, large groups 40 (10s)
+  band 12: candidates so far 190693, confirmed unions 3400, large groups 42 (11s)
+  band 13: candidates so far 206050, confirmed unions 3407, large groups 48 (11s)
+  band 14: candidates so far 221364, confirmed unions 3412, large groups 50 (12s)
+  band 15: candidates so far 237084, confirmed unions 3416, large groups 52 (12s)
+{
+ "n_units": 2617347,
+ "n_with_signature": 2617310,
+ "exact_duplicate_unions": 230,
+ "lsh_candidates": 237084,
+ "near_duplicate_unions": 3416,
+ "lsh_large_groups_chained": 52,
+ "n_clusters": 2613701,
+ "cross_source_clusters": 0,
+ "exposure_hits": 73,
+ "forced_open_units": 74,
+ "holdout_share_of_clusters": 0.1999524811751612,
+ "settings": {
+  "bands": 16,
+  "rows": 8,
+  "jaccard_estimate_threshold": 0.8,
+  "allpairs_max": 50,
+  "assignment": "holdout iff int(sha256(cluster_id)[:16],16) % 5 == 0 and the cluster holds no exposure record"
+ },
+ "seconds": 26
+}
+DONE partition

@@ -1,0 +1,56 @@
+loaded 2617347 units from 13 files (0 quarantined), 2617310 signatures (4s)
+exact-duplicate unions: 230 (6s)
+  band 0: buckets 995, largest 117, distinct candidate pairs so far 25440 (9s)
+  band 1: buckets 1906, largest 117, distinct candidate pairs so far 36729 (10s)
+  band 2: buckets 2897, largest 117, distinct candidate pairs so far 50941 (11s)
+  band 3: buckets 3901, largest 124, distinct candidate pairs so far 57342 (12s)
+  band 4: buckets 4859, largest 124, distinct candidate pairs so far 63809 (13s)
+  band 5: buckets 5787, largest 124, distinct candidate pairs so far 67571 (14s)
+  band 6: buckets 6750, largest 124, distinct candidate pairs so far 71830 (14s)
+  band 7: buckets 7734, largest 124, distinct candidate pairs so far 77021 (15s)
+  band 8: buckets 8637, largest 124, distinct candidate pairs so far 80960 (16s)
+  band 9: buckets 9643, largest 124, distinct candidate pairs so far 87707 (17s)
+  band 10: buckets 10582, largest 124, distinct candidate pairs so far 91549 (18s)
+  band 11: buckets 11498, largest 124, distinct candidate pairs so far 94596 (19s)
+  band 12: buckets 12424, largest 124, distinct candidate pairs so far 96698 (20s)
+  band 13: buckets 13332, largest 137, distinct candidate pairs so far 103609 (21s)
+  band 14: buckets 14181, largest 137, distinct candidate pairs so far 106831 (22s)
+  band 15: buckets 15054, largest 137, distinct candidate pairs so far 109819 (23s)
+exact confirmation: 109819 candidate pairs over 15355 units; shingle sets built (59s)
+pairs at or above the exact threshold 0.8: 41809; union operations that joined components: 3189; confusion {'est>=T&exact>=T': 40056, 'est>=T&exact<T': 1608, 'est<T&exact>=T': 1753, 'est<T&exact<T': 66402} (60s)
+{
+ "n_units": 2617347,
+ "n_files": 13,
+ "n_quarantined_files": 0,
+ "n_with_signature": 2617310,
+ "exact_duplicate_unions": 230,
+ "rejected_files": {},
+ "lsh": {
+  "bands": 16,
+  "rows": 8,
+  "buckets_with_2plus": 15054,
+  "largest_bucket": 137,
+  "bucket_pair_occurrences_across_bands": 394756,
+  "prefilter": "none: every distinct band-sharing pair is exactly confirmed"
+ },
+ "candidate_pairs_distinct": 109819,
+ "candidate_units": 15355,
+ "pairs_at_or_above_threshold": 41809,
+ "near_duplicate_unions": 3189,
+ "confusion_est_vs_exact_record_only": {
+  "est>=T&exact>=T": 40056,
+  "est>=T&exact<T": 1608,
+  "est<T&exact>=T": 1753,
+  "est<T&exact<T": 66402
+ },
+ "threshold_exact_jaccard": 0.8,
+ "n_clusters": 2613928,
+ "cross_source_clusters": 0,
+ "exposure_hits": 73,
+ "forced_open_units": 73,
+ "holdout_share_of_clusters": 0.19994697635129965,
+ "assignment": "holdout iff int(sha256(cluster_id)[:16],16) % 5 == 0 and the cluster holds no exposure record",
+ "seconds": 79,
+ "final_version": null
+}
+DONE partition

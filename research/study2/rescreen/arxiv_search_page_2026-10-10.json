@@ -1,0 +1,125 @@
+{
+ "q1": {
+  "query": "\"key-conditional\" watermark",
+  "total": "?",
+  "items": [
+   [
+    "2605.23175",
+    "Robust LLM Watermarking with Minimal Semantic Distortion for IP Protection",
+    "21 May, 2026"
+   ],
+   [
+    "2601.06639",
+    "Attack-Resistant Watermarking for AIGC Image Forensics via Diffusion-based Semantic Deflection",
+    "10 January, 2026"
+   ]
+  ]
+ },
+ "q2": {
+  "query": "\"fixed key\" watermark \"false positive\"",
+  "total": "0",
+  "items": []
+ },
+ "q3": {
+  "query": "\"per-key\" watermark",
+  "total": "0",
+  "items": []
+ },
+ "q4": {
+  "query": "watermark \"false positive rate\" key",
+  "total": "?",
+  "items": [
+   [
+    "2610.11848",
+    "SemField: A Simple, Linear, Continuous, yet Robust Semantic Watermark",
+    "8 October, 2026"
+   ],
+   [
+    "2610.04763",
+    "Tracing model-generated DNA with position-independent watermarking",
+    "3 October, 2026"
+   ],
+   [
+    "2609.37310",
+    "AutoMark: Enabling Autoresearch to Discover Better LLM Watermarks",
+    "29 September, 2026"
+   ],
+   [
+    "2608.27666",
+    "Semantic Watermarking with Order-Robust Detection over Sub-sentence Units",
+    "27 August, 2026"
+   ],
+   [
+    "2603.23171",
+    "Adaptively Robust LLM Monitoring via Activation Watermarking",
+    "29 July, 2026"
+   ],
+   [
+    "2603.07090",
+    "mAVE: A Watermark for Joint Audio-Visual Generation Models",
+    "8 October, 2026"
+   ],
+   [
+    "2602.10166",
+    "MerkleSpeech: Public-Key Verifiable, Chunk-Localised Speech Provenance via Perceptual Fingerprints and Merkle Commitments",
+    "10 February, 2026"
+   ],
+   [
+    "2412.12563",
+    "Task-Agnostic Language Model Watermarking via High Entropy Passthrough Layers",
+    "17 December, 2024"
+   ],
+   [
+    "2410.03168",
+    "Can Watermarked LLMs be Identified by Users via Crafted Prompts?",
+    "28 January, 2025"
+   ],
+   [
+    "2404.01245",
+    "A Statistical Framework of Watermarks for Large Language Models: Pivot, Detection Efficiency and Optimal Rules",
+    "26 August, 2025"
+   ]
+  ]
+ },
+ "q6": {
+  "query": "\"key-dependent\" watermark false positive",
+  "total": "0",
+  "items": []
+ },
+ "q7": {
+  "query": "watermark tokenizer \"false positive\" key",
+  "total": "?",
+  "items": [
+   [
+    "2610.11848",
+    "SemField: A Simple, Linear, Continuous, yet Robust Semantic Watermark",
+    "8 October, 2026"
+   ],
+   [
+    "2610.08668",
+    "Semantic Behavioral Watermarking: Paraphrase-Robust and Forgery-Resistant Provenance for LLM Agents",
+    "6 October, 2026"
+   ],
+   [
+    "2610.04763",
+    "Tracing model-generated DNA with position-independent watermarking",
+    "3 October, 2026"
+   ],
+   [
+    "2608.27666",
+    "Semantic Watermarking with Order-Robust Detection over Sub-sentence Units",
+    "27 August, 2026"
+   ],
+   [
+    "2405.08400",
+    "Stylometric Watermarks for Large Language Models",
+    "14 May, 2024"
+   ]
+  ]
+ },
+ "q9": {
+  "query": "watermark \"soundness given a key\"",
+  "total": "0",
+  "items": []
+ }
+}

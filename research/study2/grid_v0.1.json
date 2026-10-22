@@ -1,0 +1,249 @@
+{
+ "study": "study2_v0.1",
+ "N": 10000,
+ "K": 1000,
+ "K_fixed_h0": 1000,
+ "key_seed_start": 22000,
+ "validation_key_seed_start": 1000000,
+ "reserved_key_range": [
+  30000,
+  30999
+ ],
+ "key_chunk": 8,
+ "text_seed_base": 20261012,
+ "tokens_manifest": "outputs/study2_v0.1/tokens_manifest.json",
+ "cells": [
+  {
+   "tag": "news_en_256",
+   "source": "news",
+   "lang": "en",
+   "L_cell": 256,
+   "L": [
+    64,
+    128,
+    256
+   ]
+  },
+  {
+   "tag": "wikipedia_en_256",
+   "source": "wikipedia",
+   "lang": "en",
+   "L_cell": 256,
+   "L": [
+    64,
+    128,
+    256
+   ]
+  },
+  {
+   "tag": "stackexchange_en_256",
+   "source": "stackexchange",
+   "lang": "en",
+   "L_cell": 256,
+   "L": [
+    64,
+    128,
+    256
+   ]
+  },
+  {
+   "tag": "wikipedia_de_256",
+   "source": "wikipedia",
+   "lang": "de",
+   "L_cell": 256,
+   "L": [
+    64,
+    128,
+    256
+   ]
+  },
+  {
+   "tag": "wikipedia_ru_256",
+   "source": "wikipedia",
+   "lang": "ru",
+   "L_cell": 256,
+   "L": [
+    64,
+    128,
+    256
+   ]
+  },
+  {
+   "tag": "wikipedia_ar_256",
+   "source": "wikipedia",
+   "lang": "ar",
+   "L_cell": 256,
+   "L": [
+    64,
+    128,
+    256
+   ]
+  },
+  {
+   "tag": "wikipedia_zh_256",
+   "source": "wikipedia",
+   "lang": "zh",
+   "L_cell": 256,
+   "L": [
+    64,
+    128,
+    256
+   ]
+  },
+  {
+   "tag": "wikipedia_ja_256",
+   "source": "wikipedia",
+   "lang": "ja",
+   "L_cell": 256,
+   "L": [
+    64,
+    128,
+    256
+   ]
+  },
+  {
+   "tag": "wikipedia_en_1024",
+   "source": "wikipedia",
+   "lang": "en",
+   "L_cell": 1024,
+   "L": [
+    64,
+    128,
+    256,
+    512,
+    1024
+   ]
+  },
+  {
+   "tag": "gutenberg_en_1024",
+   "source": "gutenberg",
+   "lang": "en",
+   "L_cell": 1024,
+   "L": [
+    64,
+    128,
+    256,
+    512,
+    1024
+   ]
+  }
+ ],
+ "tokenizers": {
+  "llama": {
+   "V": 128256
+  },
+  "qwen": {
+   "V": 151936
+  }
+ },
+ "h": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "rules": [
+  "raw",
+  "distinct",
+  "first"
+ ],
+ "families": {
+  "kgw": {
+   "gamma": [
+    0.25,
+    0.5
+   ],
+   "colourings": [
+    "independent"
+   ],
+   "fixed_h0": true,
+   "note": "the red-green z-test centred at gamma; the independent colouring on every cell; the fixed-size colouring (exact, one global class) at h = 0 only, K_fixed_h0 keys"
+  },
+  "gumbel": {
+   "note": "the Gumbel-max score -ln(1 - U) summed over the retained positions against the exact Gamma(M, 1) upper-alpha quantile; no gamma; the same keys and uniforms"
+  }
+ },
+ "alpha": [
+  0.01,
+  0.05,
+  0.001
+ ],
+ "primary": {
+  "family": "kgw",
+  "gamma": 0.25,
+  "colouring": "independent",
+  "rules": [
+   "raw",
+   "distinct"
+  ],
+  "h": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "alpha": "0.01",
+  "min_mean_M": 30,
+  "min_theory_share": 0.75,
+  "band": [
+   0.6666666666666666,
+   1.5
+  ],
+  "min_resolved": 30,
+  "pass_share": 0.8
+ },
+ "deployer_subset": {
+  "h": [
+   0,
+   1,
+   2
+  ],
+  "rules": [
+   "raw",
+   "distinct"
+  ],
+  "longest_L_only": true,
+  "kgw_gamma": [
+   0.25
+  ],
+  "families": [
+   "kgw",
+   "gumbel"
+  ],
+  "note": "the crossed key-by-document bootstrap runs on these cells"
+ },
+ "validation": {
+  "law": {
+   "kind": "zipf",
+   "V": 128256,
+   "s": 1.0
+  },
+  "N": 600,
+  "L": [
+   64,
+   256
+  ],
+  "h": [
+   0,
+   1,
+   2
+  ],
+  "K": 100,
+  "K_fixed_h0": 100,
+  "tag": "syn_zipf_V128256_s1.0",
+  "tokenizer_label": "synthetic",
+  "note": "a retained pilot on SYNTHETIC tokens (a Zipf law at the Llama vocabulary size) with validation keys: implementation checks, timing rates and the analyzer's pilot execution; no real-text per-key level exists before the lock"
+ },
+ "reduction_order_if_over_budget": [
+  "K 1000 -> 500 (and K_fixed_h0 with it)",
+  "N 10000 -> 6000",
+  "drop h = 4",
+  "drop the first rule from the Gumbel family",
+  "drop gamma = 0.5",
+  "N 6000 -> 4000"
+ ],
+ "budget_hours": 10,
+ "text_bootstrap_B": 5,
+ "text_bootstrap_note": "text-bootstrap resamples per cell for the descriptive SEs of rho_bar, A_between and the realised identities (Study 1 used 30; with 30 the Study 2 code reproduces Study 1's cell statistics exactly, which the validation checks)"
+}

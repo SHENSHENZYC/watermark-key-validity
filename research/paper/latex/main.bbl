@@ -1,0 +1,438 @@
+\begin{thebibliography}{53}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aaronson(2022)]{aaronson2022lecture}
+Scott Aaronson.
+\newblock My ai safety lecture for ut effective altruism.
+\newblock Shtetl-Optimized (blog), \url{https://scottaaronson.blog/?p=6823}, 11
+  2022.
+
+\bibitem[Aremu et~al.(2026)Aremu, Ognev, Poppi, and Lukas]{aremu2026activation}
+Toluwani Aremu, Daniil Ognev, Samuele Poppi, and Nils Lukas.
+\newblock Adaptively robust llm monitoring via activation watermarking.
+\newblock arXiv e-print 2603.23171v3, 03 2026.
+\newblock URL \url{https://arxiv.org/abs/2603.23171v3}.
+
+\bibitem[Bian and Barber(2023)]{bian2023training}
+Michael Bian and Rina~Foygel Barber.
+\newblock Training-conditional coverage for distribution-free predictive
+  inference.
+\newblock \emph{Electronic Journal of Statistics}, 17\penalty0 (2):\penalty0
+  2044--2066, 2023.
+\newblock \doi{10.1214/23-EJS2145}.
+\newblock URL \url{https://arxiv.org/abs/2205.03647v2}.
+
+\bibitem[Cai et~al.(2025)Cai, Li, Long, Su, and Wen]{cai2025collision}
+T.~Tony Cai, Xiang Li, Qi~Long, Weijie~J. Su, and Garrett~G. Wen.
+\newblock Optimal detection for language watermarks with pseudorandom
+  collision.
+\newblock arXiv e-print 2510.22007v1, 10 2025.
+\newblock URL \url{https://arxiv.org/abs/2510.22007v1}.
+
+\bibitem[Dathathri et~al.(2024)Dathathri, See, Ghaisas, Huang, McAdam, Welbl,
+  Bachani, Kaskasoli, Stanforth, Matejovicova, Hayes, Vyas, Merey, Brown-Cohen,
+  Bunel, Balle, Cemgil, Ahmed, Stacpoole, Shumailov, Baetu, Gowal, Hassabis,
+  and Kohli]{dathathri2024synthid}
+Sumanth Dathathri, Abigail See, Sumedh Ghaisas, Po-Sen Huang, Rob McAdam,
+  Johannes Welbl, Vandana Bachani, Alex Kaskasoli, Robert Stanforth, Tatiana
+  Matejovicova, Jamie Hayes, Nidhi Vyas, Majd~Al Merey, Jonah Brown-Cohen, Rudy
+  Bunel, Borja Balle, Taylan Cemgil, Zahra Ahmed, Kitty Stacpoole, Ilia
+  Shumailov, Ciprian Baetu, Sven Gowal, Demis Hassabis, and Pushmeet Kohli.
+\newblock Scalable watermarking for identifying large language model outputs.
+\newblock \emph{Nature}, 634\penalty0 (8035):\penalty0 818--823, 2024.
+\newblock \doi{10.1038/s41586-024-08025-4}.
+
+\bibitem[Delbianco et~al.(2026)Delbianco, Tohm\'e, and
+  Acciarri]{delbianco2026compliance}
+Fernando Delbianco, Fernando Tohm\'e, and Hugo Acciarri.
+\newblock Watermarking: from impossibility to auditable compliance.
+\newblock arXiv e-print 2610.06317v1, 10 2026.
+\newblock URL \url{https://arxiv.org/abs/2610.06317v1}.
+
+\bibitem[Ding et~al.(2026)Ding, Wei, Zhu, and Dai]{ding2026reference}
+Yi~Ding, Lan Wei, Xuehu Zhu, and Wenlin Dai.
+\newblock Reference-null calibrated thresholds for e-processes with
+  applications to conformal martingales.
+\newblock arXiv e-print 2609.32678v1, 09 2026.
+\newblock URL \url{https://arxiv.org/abs/2609.32678v1}.
+
+\bibitem[{European Commission}(2026{\natexlab{a}})]{ec2026code}
+{European Commission}.
+\newblock Code of practice on transparency of ai-generated content (final
+  version).
+\newblock \url{https://ec.europa.eu/newsroom/dae/redirection/document/129555},
+  06 2026{\natexlab{a}}.
+
+\bibitem[{European Commission}(2026{\natexlab{b}})]{ec2026guidelines}
+{European Commission}.
+\newblock Guidelines on the implementation of the transparency obligations for
+  certain ai systems under article 50 of regulation (eu) 2024/1689 (the ai
+  act): Annex to the communication to the commission, c(2026) 5054 final.
+\newblock
+  \url{https://ai-act-service-desk.ec.europa.eu/sites/default/files/2026-07/guidelines_on_the_implementation_of_the_transparency_obligations_for_certain_ai_systems_under_article_50_of_the_ai_act_bzptwqhk0ikg1dtlddap41psfy_131215.pdf},
+  07 2026{\natexlab{b}}.
+
+\bibitem[Fernandez et~al.(2023)Fernandez, Chaffin, Tit, Chappelier, and
+  Furon]{fernandez2023bricks}
+Pierre Fernandez, Antoine Chaffin, Karim Tit, Vivien Chappelier, and Teddy
+  Furon.
+\newblock Three bricks to consolidate watermarks for large language models.
+\newblock In \emph{2023 IEEE International Workshop on Information Forensics
+  and Security (WIFS)}, pages 1--6. IEEE, 2023.
+\newblock \doi{10.1109/WIFS58808.2023.10374576}.
+\newblock URL \url{https://arxiv.org/abs/2308.00113v2}.
+
+\bibitem[Fernandez et~al.(2025)Fernandez, Sander, Elsahar, Chang, Sou\v{c}ek,
+  Lacatusu, Tran, Rebuffi, and Mourachko]{fernandez2026posthoc}
+Pierre Fernandez, Tom Sander, Hady Elsahar, Hongyan Chang, Tom\'a\v{s}
+  Sou\v{c}ek, Valeriu Lacatusu, Tuan Tran, Sylvestre-Alvise Rebuffi, and
+  Alexandre Mourachko.
+\newblock How good is post-hoc watermarking with language model rephrasing?
+\newblock arXiv e-print 2512.16904v2, 12 2025.
+\newblock URL \url{https://arxiv.org/abs/2512.16904v2}.
+
+\bibitem[Fu and Russell(2025)]{fu2025multiuse}
+Zihao Fu and Chris Russell.
+\newblock Multi-use llm watermarking and the false detection problem.
+\newblock arXiv e-print 2506.15975v1, 06 2025.
+\newblock URL \url{https://arxiv.org/abs/2506.15975v1}.
+
+\bibitem[Genhatharan(2026)]{genhatharan2026nominal}
+Nisaharan Genhatharan.
+\newblock When nominal false-positive rates fail: Key- and length-dependent
+  null behavior of canonical llm text watermarks.
+\newblock A paper released in a public GitHub repository (MIT licence), 09
+  2026.
+\newblock URL
+  \url{https://github.com/nisaharan/when-nominal-false-positive-rates-fail/blob/v1/paper/when-nominal-false-positive-rates-fail.pdf}.
+
+\bibitem[Gloaguen et~al.(2026{\natexlab{a}})Gloaguen, Staab, Jovanovi\'c, and
+  Vechev]{gloaguen2026diffusion}
+Thibaud Gloaguen, Robin Staab, Nikola Jovanovi\'c, and Martin Vechev.
+\newblock Watermarking diffusion language models.
+\newblock In \emph{The Fourteenth International Conference on Learning
+  Representations (ICLR 2026)}, pages 100104--100149. ICLR, 2026{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2509.24368v3}.
+
+\bibitem[Gloaguen et~al.(2026{\natexlab{b}})Gloaguen, Staab, Jovanovi\'c, and
+  Vechev]{gloaguen2026unified}
+Thibaud Gloaguen, Robin Staab, Nikola Jovanovi\'c, and Martin Vechev.
+\newblock A unified framework for llm watermarks.
+\newblock arXiv e-print 2602.06754v1, 02 2026{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2602.06754v1}.
+
+\bibitem[Gloaguen et~al.(2026{\natexlab{c}})Gloaguen, Staab, and
+  Vechev]{gloaguen2026automark}
+Thibaud Gloaguen, Robin Staab, and Martin Vechev.
+\newblock Automark: Enabling autoresearch to discover better llm watermarks.
+\newblock arXiv e-print 2609.37310v1, 09 2026{\natexlab{c}}.
+\newblock URL \url{https://arxiv.org/abs/2609.37310v1}.
+
+\bibitem[Huang et~al.(2023)Huang, Zhu, Zhu, Ramchandran, Jordan, Lee, and
+  Jiao]{huang2023optimal}
+Baihe Huang, Hanlin Zhu, Banghua Zhu, Kannan Ramchandran, Michael~I. Jordan,
+  Jason~D. Lee, and Jiantao Jiao.
+\newblock Towards optimal statistical watermarking.
+\newblock arXiv e-print 2312.07930v3, 12 2023.
+\newblock URL \url{https://arxiv.org/abs/2312.07930v3}.
+
+\bibitem[Huang et~al.(2026)Huang, Xu, Ramchandran, Jiao, and
+  Jordan]{huang2026anytime}
+Baihe Huang, Eric Xu, Kannan Ramchandran, Jiantao Jiao, and Michael~I. Jordan.
+\newblock Towards anytime-valid statistical watermarking.
+\newblock arXiv e-print 2602.17608v1, 02 2026.
+\newblock URL \url{https://arxiv.org/abs/2602.17608v1}.
+
+\bibitem[{HugoAlbertBonet}(2026)]{bonet2026llmwatermark}
+{HugoAlbertBonet}.
+\newblock llmwatermark: a kgw-style text watermarking library with
+  transformers, vllm, llama.cpp and sglang adapters (github repository).
+\newblock GitHub repository (MIT licence), 08 2026.
+\newblock URL
+  \url{https://github.com/HugoAlbertBonet/llmwatermark/blob/e2d47aef5f18c119647c65655dae44c877813895/README.md}.
+
+\bibitem[Islam et~al.(2026)Islam, Uddin, and Xiang]{islam2026reliable}
+Md~Rashedul Islam, Md~Palash Uddin, and Yong Xiang.
+\newblock Are llm watermarks reliable in practice? a systematic review of
+  evidence, robustness, threat models, and deployment assumptions.
+\newblock \emph{Computer Science Review}, 63:\penalty0 101074, 2026.
+\newblock \doi{10.1016/j.cosrev.2026.101074}.
+
+\bibitem[Jovanovi\'c et~al.(2025)Jovanovi\'c, Labiad, Sou\v{c}ek, Vechev, and
+  Fernandez]{jovanovic2025image}
+Nikola Jovanovi\'c, Ismail Labiad, Tom\'a\v{s} Sou\v{c}ek, Martin Vechev, and
+  Pierre Fernandez.
+\newblock Watermarking autoregressive image generation.
+\newblock In \emph{Advances in Neural Information Processing Systems 38
+  (NeurIPS 2025)}, pages 79891--79938. Neural Information Processing Systems
+  Foundation, Inc. (NeurIPS), 2025.
+\newblock \doi{10.52202/085713-2411}.
+\newblock URL \url{https://arxiv.org/abs/2506.16349v2}.
+
+\bibitem[Kandpal et~al.(2025)Kandpal, Lester, Raffel, Majstorovic, Biderman,
+  Abbasi, Soldaini, Shippole, Cooper, Skowron, Longpre, Sutawika, Albalak, Xu,
+  Penedo, allal, Bakouch, Pressman, Fan, Stander, Song, Gokaslan, Kirchenbauer,
+  Goldstein, Bartoldson, Kailkhura, and Murray]{kandpal2025commonpile}
+Nikhil Kandpal, Brian Lester, Colin Raffel, Sebastian Majstorovic, Stella
+  Biderman, Baber Abbasi, Luca Soldaini, Enrico Shippole, A.~Feder Cooper,
+  Aviya Skowron, Shayne Longpre, Lintang Sutawika, Alon Albalak, Zhenlin Xu,
+  Guilherme Penedo, Loubna~Ben allal, Elie Bakouch, John Pressman, Honglu Fan,
+  Dashiell Stander, Guangyu Song, Aaron Gokaslan, John Kirchenbauer, Tom
+  Goldstein, Brian Bartoldson, Bhavya Kailkhura, and Tyler Murray.
+\newblock The common pile v0.1: An 8tb dataset of public domain and openly
+  licensed text.
+\newblock In \emph{Advances in Neural Information Processing Systems 38
+  (NeurIPS 2025)}, pages 63792--63848. Neural Information Processing Systems
+  Foundation, Inc. (NeurIPS), 2025.
+\newblock \doi{10.52202/085713-1918}.
+\newblock URL \url{https://arxiv.org/abs/2506.05209v1}.
+
+\bibitem[Khachaturov et~al.(2025)Khachaturov, Mullins, Shumailov, and
+  Dathathri]{khachaturov2025repetition}
+David Khachaturov, Robert Mullins, Ilia Shumailov, and Sumanth Dathathri.
+\newblock Watermarking needs input repetition masking.
+\newblock arXiv e-print 2504.12229v1, 04 2025.
+\newblock URL \url{https://arxiv.org/abs/2504.12229v1}.
+
+\bibitem[Kirchenbauer et~al.(2023)Kirchenbauer, Geiping, Wen, Katz, Miers, and
+  Goldstein]{kirchenbauer2023watermark}
+John Kirchenbauer, Jonas Geiping, Yuxin Wen, Jonathan Katz, Ian Miers, and Tom
+  Goldstein.
+\newblock A watermark for large language models.
+\newblock In \emph{Proceedings of the 40th International Conference on Machine
+  Learning (ICML 2023)}, volume 202 of \emph{Proceedings of Machine Learning
+  Research}, pages 17061--17084. PMLR, 2023.
+\newblock URL \url{https://proceedings.mlr.press/v202/kirchenbauer23a.html}.
+
+\bibitem[Kirchenbauer et~al.(2024)Kirchenbauer, Geiping, Wen, Shu, Saifullah,
+  Kong, Fernando, Saha, Goldblum, and Goldstein]{kirchenbauer2024reliability}
+John Kirchenbauer, Jonas Geiping, Yuxin Wen, Manli Shu, Khalid Saifullah, Kezhi
+  Kong, Kasun Fernando, Aniruddha Saha, Micah Goldblum, and Tom Goldstein.
+\newblock On the reliability of watermarks for large language models.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations (ICLR 2024)}, pages 49660--49704. ICLR, 2024.
+\newblock URL \url{https://arxiv.org/abs/2306.04634v4}.
+
+\bibitem[Kuditipudi et~al.(2024)Kuditipudi, Thickstun, Hashimoto, and
+  Liang]{kuditipudi2024distortion}
+Rohith Kuditipudi, John Thickstun, Tatsunori Hashimoto, and Percy Liang.
+\newblock Robust distortion-free watermarks for language models.
+\newblock \emph{Transactions on Machine Learning Research}, 2024.
+\newblock ISSN 2835-8856.
+\newblock URL \url{https://openreview.net/forum?id=FpaCL1MO2C}.
+
+\bibitem[Li and He(2026)]{lihe2026saccopula}
+Baixin Li and Haiyun He.
+\newblock Sac-copula: Quality-preserving watermarking for diffusion language
+  models via smooth correlated gumbel fields.
+\newblock arXiv e-print 2608.20839v2, 08 2026.
+\newblock URL \url{https://arxiv.org/abs/2608.20839v2}.
+
+\bibitem[Li(2026)]{li2026tiwm}
+Tung-Ling Li.
+\newblock Tokenization-invariant watermarking: A byte-local method for llm
+  text.
+\newblock arXiv e-print 2610.14378v1, 10 2026.
+\newblock URL \url{https://arxiv.org/abs/2610.14378v1}.
+
+\bibitem[Li et~al.(2025{\natexlab{a}})Li, Ruan, Wang, Long, and
+  Su]{li2025framework}
+Xiang Li, Feng Ruan, Huiyuan Wang, Qi~Long, and Weijie~J. Su.
+\newblock A statistical framework of watermarks for large language models:
+  Pivot, detection efficiency and optimal rules.
+\newblock \emph{The Annals of Statistics}, 53\penalty0 (1):\penalty0 322--351,
+  2025{\natexlab{a}}.
+\newblock \doi{10.1214/24-AOS2468}.
+\newblock URL \url{https://arxiv.org/abs/2404.01245v4}.
+
+\bibitem[Li et~al.(2025{\natexlab{b}})Li, Ruan, Wang, Long, and
+  Su]{li2025robust}
+Xiang Li, Feng Ruan, Huiyuan Wang, Qi~Long, and Weijie~J. Su.
+\newblock Robust detection of watermarks for large language models under human
+  edits.
+\newblock \emph{Journal of the Royal Statistical Society Series B: Statistical
+  Methodology}, 88\penalty0 (2):\penalty0 491--515, 2025{\natexlab{b}}.
+\newblock \doi{10.1093/jrsssb/qkaf056}.
+\newblock URL \url{https://arxiv.org/abs/2411.13868v3}.
+
+\bibitem[Li et~al.(2026)Li, Wen, Chen, Long, Jain, Joly, Lam, Song, and
+  Su]{openai2026textgrain}
+Xiang Li, Garrett Wen, Xiaohong Chen, Qi~Long, Arzav Jain, Florent Joly, Mike
+  Lam, Qingquan Song, and Weijie Su.
+\newblock textgrain: Entropy-calibrated watermarking for language model text.
+\newblock Technical report accompanying openai's october 5th blog post, OpenAI,
+  10 2026.
+\newblock URL
+  \url{https://cdn.openai.com/pdf/e9508624-d767-41b6-a26d-e34ca798ada6/textgrain-entropy-calibrated-watermarking-for-language-model-text.pdf}.
+
+\bibitem[Li-Chen and Kim(2026)]{lichen2026chainmark}
+Chengheng Li-Chen and Kyuhee Kim.
+\newblock Chainmark: Model-free llm watermarking with closed-form calibration.
+\newblock arXiv e-print 2607.18445v1, 07 2026.
+\newblock URL \url{https://arxiv.org/abs/2607.18445v1}.
+
+\bibitem[Liang and Barber(2025)]{liang2025algorithmic}
+Ruiting Liang and Rina~Foygel Barber.
+\newblock Algorithmic stability implies training-conditional coverage for
+  distribution-free prediction methods.
+\newblock \emph{The Annals of Statistics}, 53\penalty0 (4):\penalty0
+  1457--1482, 2025.
+\newblock \doi{10.1214/25-AOS2510}.
+\newblock URL \url{https://arxiv.org/abs/2311.04295v3}.
+
+\bibitem[Luo et~al.(2026)Luo, Mo, Xu, Li, Xie, Li, and Tang]{luo2026anytime}
+Lu~Luo, Dandan Mo, Chengdong Xu, Ting Li, Jinhan Xie, Huiqiong Li, and
+  Niansheng Tang.
+\newblock Efficient online llm watermark detection via rao-blackwellized
+  e-processes.
+\newblock arXiv e-print 2607.21958v1, 07 2026.
+\newblock URL \url{https://arxiv.org/abs/2607.21958v1}.
+
+\bibitem[Ma(2026)]{ma2026predictive}
+Li~Ma.
+\newblock Predictive likelihood ratios for language model watermark detection.
+\newblock arXiv e-print 2609.15657v1, 09 2026.
+\newblock URL \url{https://arxiv.org/abs/2609.15657v1}.
+
+\bibitem[{National Institute of Standards and
+  Technology}(2024)]{nist2024ai1004}
+{National Institute of Standards and Technology}.
+\newblock Reducing risks posed by synthetic content: An overview of technical
+  approaches to digital content transparency.
+\newblock Technical Report NIST AI 100-4, National Institute of Standards and
+  Technology, 11 2024.
+\newblock URL \url{https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf}.
+
+\bibitem[Nemecek et~al.(2026)Nemecek, Zafar, Ganguly, Singh, Chaudhary, and
+  Ayday]{nemecek2026crosslingual}
+Alexander Nemecek, Osama Zafar, Debargha Ganguly, Vikash Singh, Vipin
+  Chaudhary, and Erman Ayday.
+\newblock Auditing cross-lingual fairness in language model watermarking.
+\newblock arXiv e-print 2608.20047v1, 08 2026.
+\newblock URL \url{https://arxiv.org/abs/2608.20047v1}.
+
+\bibitem[Owen(1956)]{owen1956tables}
+Donald~B. Owen.
+\newblock Tables for computing bivariate normal probabilities.
+\newblock \emph{The Annals of Mathematical Statistics}, 27\penalty0
+  (4):\penalty0 1075--1090, 1956.
+\newblock \doi{10.1214/aoms/1177728074}.
+
+\bibitem[Park et~al.(2026)Park, Park, An, and Han]{park2026luna}
+Shinwoo Park, Hyejin Park, Hyeseon An, and Yo-Sub Han.
+\newblock Linguistics-aware non-distortionary llm watermarking.
+\newblock arXiv e-print 2606.00613v2, 05 2026.
+\newblock URL \url{https://arxiv.org/abs/2606.00613v2}.
+
+\bibitem[Ren and Barber(2023)]{ren2022derandomized}
+Zhimei Ren and Rina~Foygel Barber.
+\newblock Derandomized knockoffs: leveraging e-values for false discovery rate
+  control.
+\newblock \emph{Journal of the Royal Statistical Society Series B: Statistical
+  Methodology}, 86\penalty0 (1):\penalty0 122--154, 2023.
+\newblock \doi{10.1093/jrsssb/qkad085}.
+\newblock URL \url{https://arxiv.org/abs/2205.15461v5}.
+
+\bibitem[Sander et~al.(2026)Sander, Chang, Rebuffi, Sou\v{c}ek, Tran, Lacatusu,
+  Mourachko, Parimi, Ropers, Moritz, Stark, Elsahar, and
+  Fernandez]{sander2026textseal}
+Tom Sander, Hongyan Chang, Sylvestre-Alvise Rebuffi, Tom\'a\v{s} Sou\v{c}ek,
+  Tuan Tran, Valeriu Lacatusu, Alexandre Mourachko, Surya Parimi, Christophe
+  Ropers, Rashel Moritz, Vanessa Stark, Hady Elsahar, and Pierre Fernandez.
+\newblock Textseal: A localized llm watermark for provenance \& distillation
+  protection.
+\newblock arXiv e-print 2605.12456v2, 05 2026.
+\newblock URL \url{https://arxiv.org/abs/2605.12456v2}.
+
+\bibitem[Su et~al.(2026)Su, Wang, and Zhao]{su2026anytime}
+Weijie Su, Ruodu Wang, and Zinan Zhao.
+\newblock Online llm watermark detection via e-processes.
+\newblock arXiv e-print 2602.14286v4, 02 2026.
+\newblock URL \url{https://arxiv.org/abs/2602.14286v4}.
+
+\bibitem[{vLLM project}(2026)]{vllm2026watermarking}
+{vLLM project}.
+\newblock Text watermarking (vllm documentation).
+\newblock \url{https://docs.vllm.ai/en/latest/features/watermarking/}, 10 2026.
+
+\bibitem[Vovk(2012)]{vovk2012conditional}
+Vladimir Vovk.
+\newblock Conditional validity of inductive conformal predictors.
+\newblock In \emph{Proceedings of the Asian Conference on Machine Learning
+  (ACML 2012)}, volume~25 of \emph{Proceedings of Machine Learning Research},
+  pages 475--490. PMLR, 2012.
+\newblock URL \url{https://proceedings.mlr.press/v25/vovk12.html}.
+
+\bibitem[Wang and Li(2026)]{wang2026bytemark}
+Xiaopu Wang and Runze Li.
+\newblock Bytemark: A unified byte-level watermark for detection across
+  language models.
+\newblock arXiv e-print 2610.14427v1, 10 2026.
+\newblock URL \url{https://arxiv.org/abs/2610.14427v1}.
+
+\bibitem[{Wikimedia Foundation}(2023)]{wikimedia2023dump}
+{Wikimedia Foundation}.
+\newblock Wikipedia dumps of 1 november 2023 (hugging face dataset
+  wikimedia/wikipedia, configurations 20231101.<lang>).
+\newblock \url{https://huggingface.co/datasets/wikimedia/wikipedia}, 11 2023.
+
+\bibitem[Wu et~al.(2024)Wu, Chen, Hu, Chen, Guo, Zhang, and
+  Huang]{wu2024collision}
+Yihan Wu, Ruibo Chen, Zhengmian Hu, Yanshuo Chen, Junfeng Guo, Hongyang Zhang,
+  and Heng Huang.
+\newblock Distortion-free watermarks are not truly distortion-free under
+  watermark key collisions.
+\newblock arXiv e-print 2406.02603v1, 06 2024.
+\newblock URL \url{https://arxiv.org/abs/2406.02603v1}.
+
+\bibitem[Xie et~al.(2026)Xie, Chen, Ren, and Su]{xie2025classroom}
+Yangxinyu Xie, Xuyang Chen, Zhimei Ren, and Weijie~J. Su.
+\newblock Watermark in the classroom: A conformal framework for adaptive ai
+  usage detection.
+\newblock \emph{Harvard Data Science Review}, 8\penalty0 (1), 2026.
+\newblock \doi{10.1162/99608f92.072aebb0}.
+\newblock URL \url{https://arxiv.org/abs/2507.23113v1}.
+
+\bibitem[{xlr8harder}(2026)]{xlr8harder2026synthid}
+{xlr8harder}.
+\newblock Reproducible synthid-text implementation for vllm, datasets,
+  detectors, and evaluation results (github repository).
+\newblock GitHub repository (MIT licence), 08 2026.
+\newblock URL
+  \url{https://github.com/xlr8harder/synthid/commit/b3adb0f13301506e6ee0f49be26e99f6abde5829}.
+
+\bibitem[Yukhimchuk(2026)]{yukhimchuk2026keylottery}
+Alexander Yukhimchuk.
+\newblock Key lottery: per-key false positives of llm text watermarks (github
+  repository; with the proposal ``audit the deployed key, not the scheme:
+  Per-key false-positive control for llm text watermarks'').
+\newblock GitHub repository (no licence file); a course project of MBZUAI's
+  ML8502 Machine Learning Security (Fall 2026), by its README, 10 2026.
+\newblock URL
+  \url{https://github.com/katcinskiy/keylottery/commit/8ebb6b4f52927d0adbe9084d53ba49f3f825d6eb}.
+
+\bibitem[Zhao(2026)]{globalsketch2026}
+Daniel Zhao.
+\newblock Global sketch-based watermarking for diffusion language models.
+\newblock arXiv e-print 2606.04486v1, 06 2026.
+\newblock URL \url{https://arxiv.org/abs/2606.04486v1}.
+
+\bibitem[Zhao et~al.(2024)Zhao, Ananth, Li, and Wang]{zhao2024unigram}
+Xuandong Zhao, Prabhanjan Ananth, Lei Li, and Yu-Xiang Wang.
+\newblock Provable robust watermarking for ai-generated text.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations (ICLR 2024)}, pages 43738--43772. ICLR, 2024.
+\newblock URL \url{https://arxiv.org/abs/2306.17439v2}.
+
+\bibitem[Zhou et~al.(2026)Zhou, Zhao, Shen, and Pu]{zhou2026blade}
+Rui Zhou, Licheng Zhao, Chao Shen, and Wenqiang Pu.
+\newblock Token-level attribution of multi-mode llm watermarks: Optimal rule
+  and belief weighting.
+\newblock arXiv e-print 2610.23601v1, 10 2026.
+\newblock URL \url{https://arxiv.org/abs/2610.23601v1}.
+
+\end{thebibliography}

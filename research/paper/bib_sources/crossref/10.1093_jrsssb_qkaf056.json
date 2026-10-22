@@ -1,0 +1,927 @@
+{
+ "_projection": "A projection of the API response for the public record (R13 F10): message.abstract (1433 characters) removed and kept in the private record under research/paper/bib_sources/raw_responses/, which the public snapshot excludes; every other field is verbatim.",
+ "message": {
+  "DOI": "10.1093/jrsssb/qkaf056",
+  "ISSN": [
+   "1369-7412",
+   "1467-9868"
+  ],
+  "URL": "https://doi.org/10.1093/jrsssb/qkaf056",
+  "author": [
+   {
+    "affiliation": [
+     {
+      "name": "Department of Biostatistics, Epidemiology & Informatics, University of Pennsylvania, Philadelphia, PA 19104 ,",
+      "place": [
+       "USA"
+      ]
+     }
+    ],
+    "family": "Li",
+    "given": "Xiang",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Department of Statistics and Data Science, Northwestern University, Evanston, IL 60208 ,",
+      "place": [
+       "USA"
+      ]
+     }
+    ],
+    "family": "Ruan",
+    "given": "Feng",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Department of Biostatistics, Epidemiology & Informatics, University of Pennsylvania, Philadelphia, PA 19104 ,",
+      "place": [
+       "USA"
+      ]
+     }
+    ],
+    "family": "Wang",
+    "given": "Huiyuan",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Department of Biostatistics, Epidemiology & Informatics, University of Pennsylvania, Philadelphia, PA 19104 ,",
+      "place": [
+       "USA"
+      ]
+     }
+    ],
+    "family": "Long",
+    "given": "Qi",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-1787-1219",
+    "affiliation": [
+     {
+      "name": "Department of Statistics and Data Science, University of Pennsylvania , Philadelphia, PA 19104 ,",
+      "place": [
+       "USA"
+      ]
+     }
+    ],
+    "authenticated-orcid": false,
+    "family": "Su",
+    "given": "Weijie J",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   }
+  ],
+  "container-title": [
+   "Journal of the Royal Statistical Society Series B: Statistical Methodology"
+  ],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": []
+  },
+  "created": {
+   "date-parts": [
+    [
+     2025,
+     8,
+     20
+    ]
+   ],
+   "date-time": "2025-08-20T11:55:35Z",
+   "timestamp": 1755690935000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     4,
+     13
+    ]
+   ],
+   "date-time": "2026-04-13T21:59:06Z",
+   "timestamp": 1776117546000
+  },
+  "funder": [
+   {
+    "DOI": "10.13039/100000002",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "asserted-by": "publisher",
+      "id": "10.13039/100000002",
+      "id-type": "DOI"
+     }
+    ],
+    "name": "NIH"
+   }
+  ],
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     5
+    ]
+   ],
+   "date-time": "2026-10-05T20:35:43Z",
+   "timestamp": 1791232543202,
+   "version": "4.1.0"
+  },
+  "is-referenced-by-count": 8,
+  "issn-type": [
+   {
+    "type": "print",
+    "value": "1369-7412"
+   },
+   {
+    "type": "electronic",
+    "value": "1467-9868"
+   }
+  ],
+  "issue": "2",
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     9,
+     22
+    ]
+   ]
+  },
+  "journal-issue": {
+   "issue": "2",
+   "published-online": {
+    "date-parts": [
+     [
+      2025,
+      9,
+      22
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2026,
+      4,
+      11
+     ]
+    ]
+   }
+  },
+  "language": "en",
+  "license": [
+   {
+    "URL": "https://academic.oup.com/pages/standard-publication-reuse-rights",
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "start": {
+     "date-parts": [
+      [
+       2025,
+       9,
+       22
+      ]
+     ],
+     "date-time": "2025-09-22T00:00:00Z",
+     "timestamp": 1758499200000
+    }
+   }
+  ],
+  "link": [
+   {
+    "URL": "https://academic.oup.com/jrsssb/article-pdf/88/2/491/64342452/qkaf056.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "https://academic.oup.com/jrsssb/article-pdf/88/2/491/64342452/qkaf056.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "member": "286",
+  "original-title": [],
+  "page": "491-515",
+  "prefix": "10.1093",
+  "published": {
+   "date-parts": [
+    [
+     2025,
+     9,
+     22
+    ]
+   ]
+  },
+  "published-online": {
+   "date-parts": [
+    [
+     2025,
+     9,
+     22
+    ]
+   ]
+  },
+  "published-other": {
+   "date-parts": [
+    [
+     2026,
+     4
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     2026,
+     4,
+     11
+    ]
+   ]
+  },
+  "publisher": "Oxford University Press (OUP)",
+  "reference": [
+   {
+    "author": "Aaronson",
+    "key": "2026041317585833100_qkaf056-B1",
+    "year": "2023"
+   },
+   {
+    "DOI": "10.1207/s15516709cog0901_7",
+    "article-title": "A learning algorithm for Boltzmann machines",
+    "author": "Ackley",
+    "doi-asserted-by": "publisher",
+    "first-page": "147",
+    "issue": "1",
+    "journal-title": "Cognitive Science",
+    "key": "2026041317585833100_qkaf056-B2",
+    "volume": "9",
+    "year": "1985"
+   },
+   {
+    "DOI": "10.1007/s11749-016-0499-x",
+    "article-title": "Distribution-free tests for sparse heterogeneous mixtures",
+    "author": "Arias-Castro",
+    "doi-asserted-by": "publisher",
+    "first-page": "71",
+    "issue": "1",
+    "journal-title": "Test",
+    "key": "2026041317585833100_qkaf056-B3",
+    "volume": "26",
+    "year": "2017"
+   },
+   {
+    "author": "Barak",
+    "key": "2026041317585833100_qkaf056-B4",
+    "year": "2021"
+   },
+   {
+    "article-title": "Language models are few-shot learners",
+    "author": "Brown",
+    "first-page": "1877",
+    "journal-title": "Advances in neural information processing systems",
+    "key": "2026041317585833100_qkaf056-B5",
+    "year": "2020"
+   },
+   {
+    "DOI": "10.1111/j.1467-9868.2011.00778.x",
+    "article-title": "Optimal detection of heterogeneous and heteroscedastic mixtures",
+    "author": "Cai",
+    "doi-asserted-by": "publisher",
+    "first-page": "629",
+    "issue": "5",
+    "journal-title": "Journal of the Royal Statistical Society: Series B, Statistical Methodology",
+    "key": "2026041317585833100_qkaf056-B6",
+    "volume": "73",
+    "year": "2011"
+   },
+   {
+    "DOI": "10.1109/TIT.2014.2304295",
+    "article-title": "Optimal detection of sparse mixtures against a given null distribution",
+    "author": "Cai",
+    "doi-asserted-by": "publisher",
+    "first-page": "2217",
+    "issue": "4",
+    "journal-title": "IEEE Transactions on Information Theory",
+    "key": "2026041317585833100_qkaf056-B7",
+    "volume": "60",
+    "year": "2014"
+   },
+   {
+    "DOI": "10.48550/arXiv.2403.13027",
+    "author": "Cai",
+    "doi-asserted-by": "publisher",
+    "key": "2026041317585833100_qkaf056-B8",
+    "year": "2024"
+   },
+   {
+    "author": "Christ",
+    "key": "2026041317585833100_qkaf056-B9",
+    "year": "2024"
+   },
+   {
+    "author": "Christ",
+    "key": "2026041317585833100_qkaf056-B10",
+    "year": "2024"
+   },
+   {
+    "DOI": "10.1201/9780203753064",
+    "author": "D\u2019Agostino",
+    "doi-asserted-by": "crossref",
+    "key": "2026041317585833100_qkaf056-B11",
+    "volume-title": "Goodness-of-fit-techniques",
+    "year": "2017"
+   },
+   {
+    "DOI": "10.1038/s41586-024-08025-4",
+    "article-title": "Scalable watermarking for identifying large language model outputs",
+    "author": "Dathathri",
+    "doi-asserted-by": "publisher",
+    "first-page": "818",
+    "issue": "8035",
+    "journal-title": "Nature",
+    "key": "2026041317585833100_qkaf056-B12",
+    "volume": "634",
+    "year": "2024"
+   },
+   {
+    "DOI": "10.1017/9781108943161",
+    "author": "Diakonikolas",
+    "doi-asserted-by": "crossref",
+    "key": "2026041317585833100_qkaf056-B13",
+    "volume-title": "Algorithmic high-dimensional robust statistics",
+    "year": "2023"
+   },
+   {
+    "DOI": "10.1137/1103015",
+    "article-title": "A statistical problem arising in the theory of detection of signals in the presence of noise in a multi-channel system and leading to stable distribution laws",
+    "author": "Dobrusin",
+    "doi-asserted-by": "publisher",
+    "first-page": "161",
+    "issue": "2",
+    "journal-title": "Theory of Probability & Its Applications",
+    "key": "2026041317585833100_qkaf056-B14",
+    "volume": "3",
+    "year": "1958"
+   },
+   {
+    "DOI": "10.1214/009053604000000265",
+    "article-title": "Higher criticism for detecting sparse heterogeneous mixtures",
+    "author": "Donoho",
+    "doi-asserted-by": "publisher",
+    "first-page": "962",
+    "issue": "3",
+    "journal-title": "Annals of Statistics",
+    "key": "2026041317585833100_qkaf056-B15",
+    "volume": "32",
+    "year": "2004"
+   },
+   {
+    "DOI": "10.1214/14-STS506",
+    "article-title": "Higher criticism for large-scale inference, especially for rare and weak effects",
+    "author": "Donoho",
+    "doi-asserted-by": "publisher",
+    "first-page": "1",
+    "issue": "1",
+    "journal-title": "Statistical Science",
+    "key": "2026041317585833100_qkaf056-B16",
+    "volume": "30",
+    "year": "2015"
+   },
+   {
+    "DOI": "10.1038/d41586-024-03418-x",
+    "article-title": "AI watermarking must be watertight to be effective",
+    "author": "Editorial",
+    "doi-asserted-by": "publisher",
+    "first-page": "753",
+    "issue": "8035",
+    "journal-title": "Nature",
+    "key": "2026041317585833100_qkaf056-B17",
+    "volume": "634",
+    "year": "2024"
+   },
+   {
+    "author": "Fernandez",
+    "key": "2026041317585833100_qkaf056-B18",
+    "year": "2023"
+   },
+   {
+    "DOI": "10.18653/v1/2024.acl-long.315",
+    "author": "Fu",
+    "doi-asserted-by": "publisher",
+    "key": "2026041317585833100_qkaf056-B19",
+    "year": "2024"
+   },
+   {
+    "DOI": "10.1371/journal.pdig.0000417",
+    "article-title": "Peer review of GPT-4 technical report and systems card",
+    "author": "Gallifant",
+    "doi-asserted-by": "crossref",
+    "first-page": "e0000417",
+    "journal-title": "PLOS digital health",
+    "key": "2026041317585833100_qkaf056-B20",
+    "year": "2024"
+   },
+   {
+    "author": "Giboulot",
+    "key": "2026041317585833100_qkaf056-B21",
+    "year": "2024"
+   },
+   {
+    "author": "Golowich",
+    "key": "2026041317585833100_qkaf056-B22",
+    "year": "2024"
+   },
+   {
+    "DOI": "10.1002/bimj.v57.1",
+    "article-title": "The intermediates take it all: Asymptotics of higher criticism statistics and a powerful alternative based on equal local levels",
+    "author": "Gontscharuk",
+    "doi-asserted-by": "publisher",
+    "first-page": "159",
+    "issue": "1",
+    "journal-title": "Biometrical Journal",
+    "key": "2026041317585833100_qkaf056-B23",
+    "volume": "57",
+    "year": "2015"
+   },
+   {
+    "author": "Gumbel",
+    "key": "2026041317585833100_qkaf056-B24",
+    "volume-title": "Statistical theory of extreme values and some practical applications: A series of lectures",
+    "year": "1948"
+   },
+   {
+    "DOI": "10.1214/009053607000000767",
+    "article-title": "Properties of higher criticism under strong dependence",
+    "author": "Hall",
+    "doi-asserted-by": "publisher",
+    "first-page": "381",
+    "issue": "1",
+    "journal-title": "Annals of Statistics",
+    "key": "2026041317585833100_qkaf056-B25",
+    "volume": "36",
+    "year": "2008"
+   },
+   {
+    "DOI": "10.1214/09-AOS764",
+    "article-title": "Innovated higher criticism for detecting sparse signals in correlated noise",
+    "author": "Hall",
+    "doi-asserted-by": "publisher",
+    "first-page": "1686",
+    "issue": "3",
+    "journal-title": "Annals of Statistics",
+    "key": "2026041317585833100_qkaf056-B26",
+    "volume": "38",
+    "year": "2010"
+   },
+   {
+    "DOI": "10.18653/v1/2024.naacl-long.226",
+    "article-title": "SemStamp: A semantic watermark with paraphrastic robustness for text generation",
+    "author": "Hou",
+    "doi-asserted-by": "publisher",
+    "first-page": "4067",
+    "journal-title": "North American chapter of the Association for Computational Linguistics: Human language technologies",
+    "key": "2026041317585833100_qkaf056-B27",
+    "year": "2024"
+   },
+   {
+    "author": "Hu",
+    "key": "2026041317585833100_qkaf056-B28",
+    "year": "2024"
+   },
+   {
+    "author": "Huang",
+    "key": "2026041317585833100_qkaf056-B29",
+    "year": "2023"
+   },
+   {
+    "DOI": "10.1007/978-1-4612-4380-9_35",
+    "author": "Huber",
+    "doi-asserted-by": "crossref",
+    "first-page": "492",
+    "key": "2026041317585833100_qkaf056-B30",
+    "volume-title": "Breakthroughs in statistics: Methodology and distribution",
+    "year": "1992"
+   },
+   {
+    "author": "Huber",
+    "key": "2026041317585833100_qkaf056-B31",
+    "volume-title": "Robust statistics",
+    "year": "2011"
+   },
+   {
+    "DOI": "10.20347/WIAS.PREPRINT.215",
+    "article-title": "Some problems of hypothesis testing leading to infinitely divisible distributions",
+    "author": "Ingster",
+    "doi-asserted-by": "publisher",
+    "first-page": "47",
+    "issue": "1",
+    "journal-title": "Mathematical Methods of Statistics",
+    "key": "2026041317585833100_qkaf056-B32",
+    "volume": "6",
+    "year": "1996"
+   },
+   {
+    "DOI": "10.1214/0009053607000000244",
+    "article-title": "Goodness-of-fit tests via phi-divergences",
+    "author": "Jager",
+    "doi-asserted-by": "publisher",
+    "first-page": "2018",
+    "issue": "5",
+    "journal-title": "Annals of Statistics",
+    "key": "2026041317585833100_qkaf056-B33",
+    "volume": "35",
+    "year": "2007"
+   },
+   {
+    "author": "Jang",
+    "key": "2026041317585833100_qkaf056-B34",
+    "year": "2016"
+   },
+   {
+    "DOI": "10.5705/ss.2014.138",
+    "article-title": "Rare and weak effects in large-scale inference: Methods and phase diagrams",
+    "author": "Jin",
+    "doi-asserted-by": "publisher",
+    "first-page": "1",
+    "issue": "1",
+    "journal-title": "Statistica Sinica",
+    "key": "2026041317585833100_qkaf056-B35",
+    "volume": "26",
+    "year": "2016"
+   },
+   {
+    "DOI": "10.1214/21-AOS2089",
+    "article-title": "Optimal adaptivity of signed-polygon statistics for network testing",
+    "author": "Jin",
+    "doi-asserted-by": "publisher",
+    "first-page": "3408",
+    "issue": "6",
+    "journal-title": "Annals of Statistics",
+    "key": "2026041317585833100_qkaf056-B36",
+    "volume": "49",
+    "year": "2021"
+   },
+   {
+    "DOI": "10.1214/14-AOS1243",
+    "article-title": "Covariance assisted screening and estimation",
+    "author": "Ke",
+    "doi-asserted-by": "publisher",
+    "first-page": "2202",
+    "issue": "6",
+    "journal-title": "Annals of Statistics",
+    "key": "2026041317585833100_qkaf056-B37",
+    "volume": "42",
+    "year": "2014"
+   },
+   {
+    "DOI": "10.1137/1126027",
+    "article-title": "Martingale approach in the theory of goodness-of-fit tests",
+    "author": "Khmaladze",
+    "doi-asserted-by": "publisher",
+    "first-page": "240",
+    "issue": "2",
+    "journal-title": "Theory of Probability & Its Applications",
+    "key": "2026041317585833100_qkaf056-B38",
+    "volume": "26",
+    "year": "1982"
+   },
+   {
+    "author": "Kirchenbauer",
+    "key": "2026041317585833100_qkaf056-B39",
+    "year": "2023"
+   },
+   {
+    "author": "Kirchenbauer",
+    "key": "2026041317585833100_qkaf056-B40",
+    "year": "2024"
+   },
+   {
+    "author": "Kuditipudi",
+    "key": "2026041317585833100_qkaf056-B41",
+    "year": "2024"
+   },
+   {
+    "DOI": "10.1214/15-AOS1312",
+    "article-title": "Higher criticism: p-values and criticism",
+    "author": "Li",
+    "doi-asserted-by": "publisher",
+    "first-page": "1323",
+    "issue": "3",
+    "journal-title": "Annals of Statistics",
+    "key": "2026041317585833100_qkaf056-B42",
+    "volume": "43",
+    "year": "2015"
+   },
+   {
+    "DOI": "10.1214/24-AOS2468",
+    "article-title": "A statistical framework of watermarks for large language models: Pivot, detection efficiency and optimal rules",
+    "author": "Li",
+    "doi-asserted-by": "publisher",
+    "first-page": "322",
+    "issue": "1",
+    "journal-title": "Annals of Statistics",
+    "key": "2026041317585833100_qkaf056-B43",
+    "volume": "53",
+    "year": "2025"
+   },
+   {
+    "author": "Liu",
+    "key": "2026041317585833100_qkaf056-B44",
+    "year": "2024"
+   },
+   {
+    "author": "Liu",
+    "key": "2026041317585833100_qkaf056-B45",
+    "year": "2024"
+   },
+   {
+    "author": "Maddison",
+    "key": "2026041317585833100_qkaf056-B46",
+    "year": "2014"
+   },
+   {
+    "DOI": "10.1038/s42256-023-00644-2",
+    "article-title": "Large language models challenge the future of higher education",
+    "author": "Milano",
+    "doi-asserted-by": "publisher",
+    "first-page": "333",
+    "issue": "4",
+    "journal-title": "Nature Machine Intelligence",
+    "key": "2026041317585833100_qkaf056-B47",
+    "volume": "5",
+    "year": "2023"
+   },
+   {
+    "DOI": "10.1145/219717.219748",
+    "article-title": "WordNet: A lexical database for English",
+    "author": "Miller",
+    "doi-asserted-by": "publisher",
+    "first-page": "39",
+    "issue": "11",
+    "journal-title": "Communications of the ACM",
+    "key": "2026041317585833100_qkaf056-B48",
+    "volume": "38",
+    "year": "1995"
+   },
+   {
+    "DOI": "10.1016/j.csda.2023.107769",
+    "article-title": "Fast calculation of p-values for one-sided Kolmogorov-Smirnov type statistics",
+    "author": "Moscovich",
+    "doi-asserted-by": "publisher",
+    "first-page": "107769",
+    "journal-title": "Computational Statistics & Data Analysis",
+    "key": "2026041317585833100_qkaf056-B49",
+    "volume": "185",
+    "year": "2023"
+   },
+   {
+    "DOI": "10.1017/CBO9780511530081",
+    "author": "Nikitin",
+    "doi-asserted-by": "crossref",
+    "key": "2026041317585833100_qkaf056-B50",
+    "volume-title": "Asymptotic efficiency of nonparametric tests",
+    "year": "1995"
+   },
+   {
+    "author": "OpenAI",
+    "key": "2026041317585833100_qkaf056-B51",
+    "year": "2023"
+   },
+   {
+    "author": "OpenAI",
+    "key": "2026041317585833100_qkaf056-B52",
+    "year": "2024"
+   },
+   {
+    "author": "Papandreou",
+    "key": "2026041317585833100_qkaf056-B53",
+    "year": "2011"
+   },
+   {
+    "DOI": "10.1109/SaTML64287.2025.00012",
+    "author": "Piet",
+    "doi-asserted-by": "publisher",
+    "key": "2026041317585833100_qkaf056-B54",
+    "year": "2023"
+   },
+   {
+    "DOI": "10.1007/BF01254282",
+    "article-title": "Large deviations and bahadur efficiency of the Khmaladze-Aki statistic",
+    "author": "Podkorytova",
+    "doi-asserted-by": "publisher",
+    "first-page": "560",
+    "issue": "4",
+    "journal-title": "Journal of Mathematical Sciences",
+    "key": "2026041317585833100_qkaf056-B55",
+    "volume": "68",
+    "year": "1994"
+   },
+   {
+    "author": "Radford",
+    "key": "2026041317585833100_qkaf056-B56",
+    "year": "2023"
+   },
+   {
+    "author": "Radford",
+    "key": "2026041317585833100_qkaf056-B57",
+    "year": "2019"
+   },
+   {
+    "article-title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+    "author": "Raffel",
+    "first-page": "5485",
+    "issue": "1",
+    "journal-title": "Journal of Machine Learning Research",
+    "key": "2026041317585833100_qkaf056-B58",
+    "volume": "21",
+    "year": "2020"
+   },
+   {
+    "DOI": "10.18653/v1/2024.findings-naacl.40",
+    "article-title": "A robust semantics-based watermark for large language model against paraphrasing",
+    "author": "Ren",
+    "doi-asserted-by": "publisher",
+    "first-page": "613",
+    "journal-title": "Findings of the Association for Computational Linguistics",
+    "key": "2026041317585833100_qkaf056-B59",
+    "year": "2024"
+   },
+   {
+    "author": "Schneier",
+    "key": "2026041317585833100_qkaf056-B60",
+    "volume-title": "Applied cryptography",
+    "year": "1996"
+   },
+   {
+    "DOI": "10.1038/s41586-024-07566-y",
+    "article-title": "AI models collapse when trained on recursively generated data",
+    "author": "Shumailov",
+    "doi-asserted-by": "publisher",
+    "first-page": "755",
+    "journal-title": "Nature",
+    "key": "2026041317585833100_qkaf056-B61",
+    "volume": "631",
+    "year": "2023"
+   },
+   {
+    "DOI": "10.1038/d41586-019-02235-x",
+    "article-title": "Disinformation\u2019s spread: Bots, trolls and all of US",
+    "author": "Starbird",
+    "doi-asserted-by": "publisher",
+    "first-page": "449",
+    "issue": "7766",
+    "journal-title": "Nature",
+    "key": "2026041317585833100_qkaf056-B62",
+    "volume": "571",
+    "year": "2019"
+   },
+   {
+    "DOI": "10.1038/d41586-022-04397-7",
+    "article-title": "AI bot ChatGPT writes smart essays-should professors worry?",
+    "author": "Stokel-Walker",
+    "doi-asserted-by": "publisher",
+    "journal-title": "Nature",
+    "key": "2026041317585833100_qkaf056-B63",
+    "year": "2022"
+   },
+   {
+    "DOI": "10.48550/arXiv.2302.13971",
+    "author": "Touvron",
+    "doi-asserted-by": "publisher",
+    "key": "2026041317585833100_qkaf056-B64",
+    "year": "2023"
+   },
+   {
+    "DOI": "10.1145/3531146.3533088",
+    "author": "Weidinger",
+    "doi-asserted-by": "publisher",
+    "key": "2026041317585833100_qkaf056-B65",
+    "year": "2022"
+   },
+   {
+    "author": "Wu",
+    "key": "2026041317585833100_qkaf056-B66",
+    "year": "2023"
+   },
+   {
+    "author": "Xia",
+    "key": "2026041317585833100_qkaf056-B67",
+    "year": "2024"
+   },
+   {
+    "DOI": "10.1080/01621459.2025.2520455",
+    "article-title": "Debiasing watermarks for large language models via maximal coupling",
+    "author": "Xie",
+    "doi-asserted-by": "publisher",
+    "first-page": "1",
+    "journal-title": "Journal of the American Statistical Association",
+    "key": "2026041317585833100_qkaf056-B68",
+    "year": "2025"
+   },
+   {
+    "DOI": "10.18653/v1/2023.acl-long.117",
+    "author": "Yoo",
+    "doi-asserted-by": "publisher",
+    "key": "2026041317585833100_qkaf056-B69",
+    "year": "2023"
+   },
+   {
+    "author": "Zellers",
+    "key": "2026041317585833100_qkaf056-B70",
+    "year": "2019"
+   },
+   {
+    "DOI": "10.48550/arXiv.2205.01068",
+    "author": "Zhang",
+    "doi-asserted-by": "publisher",
+    "key": "2026041317585833100_qkaf056-B71",
+    "year": "2022"
+   },
+   {
+    "author": "Zhao",
+    "key": "2026041317585833100_qkaf056-B72",
+    "year": "2024"
+   },
+   {
+    "author": "Zhao",
+    "key": "2026041317585833100_qkaf056-B73",
+    "year": "2025"
+   },
+   {
+    "DOI": "10.18653/v1/2024.findings-acl.678",
+    "article-title": "Duwak: Dual watermarks in large language models",
+    "author": "Zhu",
+    "doi-asserted-by": "publisher",
+    "first-page": "11416",
+    "journal-title": "Findings of the Association for Computational Linguistics: ACL 2024",
+    "key": "2026041317585833100_qkaf056-B74",
+    "year": "2024"
+   },
+   {
+    "author": "Zipf",
+    "key": "2026041317585833100_qkaf056-B75",
+    "volume-title": "Human behavior and the principle of least effort: An introduction to human ecology",
+    "year": "2016"
+   }
+  ],
+  "reference-count": 75,
+  "references-count": 75,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://academic.oup.com/jrsssb/article/88/2/491/8261309"
+   }
+  },
+  "score": 1,
+  "short-container-title": [],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "Robust detection of watermarks for large language models under human edits"
+  ],
+  "type": "journal-article",
+  "volume": "88"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

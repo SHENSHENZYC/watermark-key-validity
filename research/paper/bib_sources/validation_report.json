@@ -1,0 +1,46 @@
+{
+  "filepath": "research/paper/references.bib",
+  "total_entries": 53,
+  "valid_entries": 53,
+  "errors": [],
+  "warnings": [
+    {
+      "type": "missing_recommended_field",
+      "field": "volume",
+      "severity": "medium",
+      "message": "Entry kuditipudi2024distortion: Missing recommended field \"volume\"",
+      "entry": "kuditipudi2024distortion"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry kuditipudi2024distortion: Missing recommended field \"pages\"",
+      "entry": "kuditipudi2024distortion"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "doi",
+      "severity": "medium",
+      "message": "Entry kuditipudi2024distortion: Missing recommended field \"doi\"",
+      "entry": "kuditipudi2024distortion"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry xie2025classroom: Missing recommended field \"pages\"",
+      "entry": "xie2025classroom"
+    }
+  ],
+  "duplicates": [],
+  "venue_standard_checked": null,
+  "min_count_checked": null,
+  "manuscript_results": {
+    "checked": false,
+    "manuscript_filepath": null,
+    "cited_keys": [],
+    "missing_keys": [],
+    "unused_keys": []
+  }
+}

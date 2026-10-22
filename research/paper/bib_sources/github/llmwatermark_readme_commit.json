@@ -1,0 +1,189 @@
+{
+ "_projection": "A projection of the API response for the public record (R13 F10): files[].patch of .github/workflows/ci.yml (368 characters); files[].patch of README.md (9950 characters); files[].patch of examples/animate_detection.py (5020 characters); files[].patch of examples/detect_text.py (1455 characters); files[].patch of examples/quickstart_transformers.py (1909 characters); files[].patch of examples/quickstart_vllm.py (1815 characters); files[].patch of examples/show_decision.py (2333 characters); files[].patch of tests/test_readme.py (4599 characters) removed and kept in the private record under research/paper/bib_sources/raw_responses/, which the public snapshot excludes; every other field is verbatim.",
+ "author": {
+  "avatar_url": "https://avatars.githubusercontent.com/u/125313451?v=4",
+  "events_url": "https://api.github.com/users/HugoAlbertBonet/events{/privacy}",
+  "followers_url": "https://api.github.com/users/HugoAlbertBonet/followers",
+  "following_url": "https://api.github.com/users/HugoAlbertBonet/following{/other_user}",
+  "gists_url": "https://api.github.com/users/HugoAlbertBonet/gists{/gist_id}",
+  "gravatar_id": "",
+  "html_url": "https://github.com/HugoAlbertBonet",
+  "id": 125313451,
+  "login": "HugoAlbertBonet",
+  "node_id": "U_kgDOB3ghqw",
+  "organizations_url": "https://api.github.com/users/HugoAlbertBonet/orgs",
+  "received_events_url": "https://api.github.com/users/HugoAlbertBonet/received_events",
+  "repos_url": "https://api.github.com/users/HugoAlbertBonet/repos",
+  "site_admin": false,
+  "starred_url": "https://api.github.com/users/HugoAlbertBonet/starred{/owner}{/repo}",
+  "subscriptions_url": "https://api.github.com/users/HugoAlbertBonet/subscriptions",
+  "type": "User",
+  "url": "https://api.github.com/users/HugoAlbertBonet",
+  "user_view_type": "public"
+ },
+ "comments_url": "https://api.github.com/repos/HugoAlbertBonet/llmwatermark/commits/e2d47aef5f18c119647c65655dae44c877813895/comments",
+ "commit": {
+  "author": {
+   "date": "2026-08-31T02:48:26Z",
+   "email": "hugo.albert.16@gmail.com",
+   "name": "HugoAlbertBonet"
+  },
+  "comment_count": 0,
+  "committer": {
+   "date": "2026-08-31T02:48:26Z",
+   "email": "hugo.albert.16@gmail.com",
+   "name": "HugoAlbertBonet"
+  },
+  "message": "Add the README, examples and the detection animation\n\nThe spec's bar for the README is that it is sufficient for someone to use the\ntool, so it leads with a working quickstart, shows the three figures and the\nanimation, and gives the delta guidance as measured numbers rather than advice.\n\nIt also carries the five things that will bite a user, each of which cost this\nproject real time to learn: the watermark is not in the weights, so saving a model\nand serving it elsewhere silently produces clean text; delta is rescaled by\ntemperature, since the sampler sees delta/temperature; vocab_size is what the\nmodel generates over rather than len(tokenizer); detection from text re-derives\ntoken IDs and that round trip is lossy; and the false-positive rate is per-key\napproximate rather than exact. It states plainly that vLLM costs 5.2% against a\n2% target, because a README that hides a missed target is worth less than one\nthat admits it.\n\nExamples cover both backends, detection from text alone, and the HTML decision\nview - the last of which needs no model and so runs in the core test suite.\n\nThe README is verified rather than trusted. Its snippets must parse, every symbol\nthey import must exist, every extra it names must be declared, and every file and\nfigure it links to must be present. That catches the way documentation actually\nrots: a rename lands and the prose keeps the old name. Adapter modules whose\nbackend is absent are skipped there and checked in the runs that have it.\n\nCo-Authored-By: Claude Opus 5 <noreply@anthropic.com>",
+  "tree": {
+   "sha": "4f7b17c547fd0e3f796be762f02bbef7ac4506ab",
+   "url": "https://api.github.com/repos/HugoAlbertBonet/llmwatermark/git/trees/4f7b17c547fd0e3f796be762f02bbef7ac4506ab"
+  },
+  "url": "https://api.github.com/repos/HugoAlbertBonet/llmwatermark/git/commits/e2d47aef5f18c119647c65655dae44c877813895",
+  "verification": {
+   "payload": null,
+   "reason": "unsigned",
+   "signature": null,
+   "verified": false,
+   "verified_at": null
+  }
+ },
+ "committer": {
+  "avatar_url": "https://avatars.githubusercontent.com/u/125313451?v=4",
+  "events_url": "https://api.github.com/users/HugoAlbertBonet/events{/privacy}",
+  "followers_url": "https://api.github.com/users/HugoAlbertBonet/followers",
+  "following_url": "https://api.github.com/users/HugoAlbertBonet/following{/other_user}",
+  "gists_url": "https://api.github.com/users/HugoAlbertBonet/gists{/gist_id}",
+  "gravatar_id": "",
+  "html_url": "https://github.com/HugoAlbertBonet",
+  "id": 125313451,
+  "login": "HugoAlbertBonet",
+  "node_id": "U_kgDOB3ghqw",
+  "organizations_url": "https://api.github.com/users/HugoAlbertBonet/orgs",
+  "received_events_url": "https://api.github.com/users/HugoAlbertBonet/received_events",
+  "repos_url": "https://api.github.com/users/HugoAlbertBonet/repos",
+  "site_admin": false,
+  "starred_url": "https://api.github.com/users/HugoAlbertBonet/starred{/owner}{/repo}",
+  "subscriptions_url": "https://api.github.com/users/HugoAlbertBonet/subscriptions",
+  "type": "User",
+  "url": "https://api.github.com/users/HugoAlbertBonet",
+  "user_view_type": "public"
+ },
+ "files": [
+  {
+   "additions": 5,
+   "blob_url": "https://github.com/HugoAlbertBonet/llmwatermark/blob/e2d47aef5f18c119647c65655dae44c877813895/.github%2Fworkflows%2Fci.yml",
+   "changes": 5,
+   "contents_url": "https://api.github.com/repos/HugoAlbertBonet/llmwatermark/contents/.github%2Fworkflows%2Fci.yml?ref=e2d47aef5f18c119647c65655dae44c877813895",
+   "deletions": 0,
+   "filename": ".github/workflows/ci.yml",
+   "raw_url": "https://github.com/HugoAlbertBonet/llmwatermark/raw/e2d47aef5f18c119647c65655dae44c877813895/.github%2Fworkflows%2Fci.yml",
+   "sha": "3f345ccc97d8308325db3912273e43a9c4123084",
+   "status": "modified"
+  },
+  {
+   "additions": 187,
+   "blob_url": "https://github.com/HugoAlbertBonet/llmwatermark/blob/e2d47aef5f18c119647c65655dae44c877813895/README.md",
+   "changes": 203,
+   "contents_url": "https://api.github.com/repos/HugoAlbertBonet/llmwatermark/contents/README.md?ref=e2d47aef5f18c119647c65655dae44c877813895",
+   "deletions": 16,
+   "filename": "README.md",
+   "raw_url": "https://github.com/HugoAlbertBonet/llmwatermark/raw/e2d47aef5f18c119647c65655dae44c877813895/README.md",
+   "sha": "278880b99dbfa7f1996af33f28e36eca8b3d55a6",
+   "status": "modified"
+  },
+  {
+   "additions": 0,
+   "blob_url": "https://github.com/HugoAlbertBonet/llmwatermark/blob/e2d47aef5f18c119647c65655dae44c877813895/docs%2Ffigures%2Fdetection.gif",
+   "changes": 0,
+   "contents_url": "https://api.github.com/repos/HugoAlbertBonet/llmwatermark/contents/docs%2Ffigures%2Fdetection.gif?ref=e2d47aef5f18c119647c65655dae44c877813895",
+   "deletions": 0,
+   "filename": "docs/figures/detection.gif",
+   "raw_url": "https://github.com/HugoAlbertBonet/llmwatermark/raw/e2d47aef5f18c119647c65655dae44c877813895/docs%2Ffigures%2Fdetection.gif",
+   "sha": "74311b7087ea042a136a0f2ceb2fffea5dc3f642",
+   "status": "added"
+  },
+  {
+   "additions": 119,
+   "blob_url": "https://github.com/HugoAlbertBonet/llmwatermark/blob/e2d47aef5f18c119647c65655dae44c877813895/examples%2Fanimate_detection.py",
+   "changes": 119,
+   "contents_url": "https://api.github.com/repos/HugoAlbertBonet/llmwatermark/contents/examples%2Fanimate_detection.py?ref=e2d47aef5f18c119647c65655dae44c877813895",
+   "deletions": 0,
+   "filename": "examples/animate_detection.py",
+   "raw_url": "https://github.com/HugoAlbertBonet/llmwatermark/raw/e2d47aef5f18c119647c65655dae44c877813895/examples%2Fanimate_detection.py",
+   "sha": "c23da522a6067e60acd602be590702cf08eacc7e",
+   "status": "added"
+  },
+  {
+   "additions": 44,
+   "blob_url": "https://github.com/HugoAlbertBonet/llmwatermark/blob/e2d47aef5f18c119647c65655dae44c877813895/examples%2Fdetect_text.py",
+   "changes": 44,
+   "contents_url": "https://api.github.com/repos/HugoAlbertBonet/llmwatermark/contents/examples%2Fdetect_text.py?ref=e2d47aef5f18c119647c65655dae44c877813895",
+   "deletions": 0,
+   "filename": "examples/detect_text.py",
+   "raw_url": "https://github.com/HugoAlbertBonet/llmwatermark/raw/e2d47aef5f18c119647c65655dae44c877813895/examples%2Fdetect_text.py",
+   "sha": "f353bc8c464dc9d1bccfdf2263c263640912bd74",
+   "status": "added"
+  },
+  {
+   "additions": 48,
+   "blob_url": "https://github.com/HugoAlbertBonet/llmwatermark/blob/e2d47aef5f18c119647c65655dae44c877813895/examples%2Fquickstart_transformers.py",
+   "changes": 48,
+   "contents_url": "https://api.github.com/repos/HugoAlbertBonet/llmwatermark/contents/examples%2Fquickstart_transformers.py?ref=e2d47aef5f18c119647c65655dae44c877813895",
+   "deletions": 0,
+   "filename": "examples/quickstart_transformers.py",
+   "raw_url": "https://github.com/HugoAlbertBonet/llmwatermark/raw/e2d47aef5f18c119647c65655dae44c877813895/examples%2Fquickstart_transformers.py",
+   "sha": "b55af945877e9a38fdc17324c6b6a9d4cb3cd95d",
+   "status": "added"
+  },
+  {
+   "additions": 50,
+   "blob_url": "https://github.com/HugoAlbertBonet/llmwatermark/blob/e2d47aef5f18c119647c65655dae44c877813895/examples%2Fquickstart_vllm.py",
+   "changes": 50,
+   "contents_url": "https://api.github.com/repos/HugoAlbertBonet/llmwatermark/contents/examples%2Fquickstart_vllm.py?ref=e2d47aef5f18c119647c65655dae44c877813895",
+   "deletions": 0,
+   "filename": "examples/quickstart_vllm.py",
+   "raw_url": "https://github.com/HugoAlbertBonet/llmwatermark/raw/e2d47aef5f18c119647c65655dae44c877813895/examples%2Fquickstart_vllm.py",
+   "sha": "abb3a16a53e1d142e56a21a2547e5244ff7a62eb",
+   "status": "added"
+  },
+  {
+   "additions": 65,
+   "blob_url": "https://github.com/HugoAlbertBonet/llmwatermark/blob/e2d47aef5f18c119647c65655dae44c877813895/examples%2Fshow_decision.py",
+   "changes": 65,
+   "contents_url": "https://api.github.com/repos/HugoAlbertBonet/llmwatermark/contents/examples%2Fshow_decision.py?ref=e2d47aef5f18c119647c65655dae44c877813895",
+   "deletions": 0,
+   "filename": "examples/show_decision.py",
+   "raw_url": "https://github.com/HugoAlbertBonet/llmwatermark/raw/e2d47aef5f18c119647c65655dae44c877813895/examples%2Fshow_decision.py",
+   "sha": "7b097ca77340132ad24e63b52d7ab0a726098190",
+   "status": "added"
+  },
+  {
+   "additions": 108,
+   "blob_url": "https://github.com/HugoAlbertBonet/llmwatermark/blob/e2d47aef5f18c119647c65655dae44c877813895/tests%2Ftest_readme.py",
+   "changes": 108,
+   "contents_url": "https://api.github.com/repos/HugoAlbertBonet/llmwatermark/contents/tests%2Ftest_readme.py?ref=e2d47aef5f18c119647c65655dae44c877813895",
+   "deletions": 0,
+   "filename": "tests/test_readme.py",
+   "raw_url": "https://github.com/HugoAlbertBonet/llmwatermark/raw/e2d47aef5f18c119647c65655dae44c877813895/tests%2Ftest_readme.py",
+   "sha": "90b0a409fb8125e5f2f36a01765aea592ede548b",
+   "status": "added"
+  }
+ ],
+ "html_url": "https://github.com/HugoAlbertBonet/llmwatermark/commit/e2d47aef5f18c119647c65655dae44c877813895",
+ "node_id": "C_kwDOUHaODdoAKGUyZDQ3YWVmNWYxOGMxMTk2NDdjNjU2NTVkYWU0NGM4Nzc4MTM4OTU",
+ "parents": [
+  {
+   "html_url": "https://github.com/HugoAlbertBonet/llmwatermark/commit/6261c02de24cdc3005bc6eafe2147b9405cb63a7",
+   "sha": "6261c02de24cdc3005bc6eafe2147b9405cb63a7",
+   "url": "https://api.github.com/repos/HugoAlbertBonet/llmwatermark/commits/6261c02de24cdc3005bc6eafe2147b9405cb63a7"
+  }
+ ],
+ "sha": "e2d47aef5f18c119647c65655dae44c877813895",
+ "stats": {
+  "additions": 626,
+  "deletions": 16,
+  "total": 642
+ },
+ "url": "https://api.github.com/repos/HugoAlbertBonet/llmwatermark/commits/e2d47aef5f18c119647c65655dae44c877813895"
+}

@@ -1,0 +1,132 @@
+{
+ "law_zipf_V1000_s1.0": {
+  "V": 1000,
+  "sample_shape": [
+   200,
+   256
+  ],
+  "min": 0,
+  "max": 999,
+  "distinct_tokens_in_sample": 1000,
+  "marginal_top1_share": 0.13447265625
+ },
+ "law_zipf_V10000_s1.0": {
+  "V": 10000,
+  "sample_shape": [
+   200,
+   256
+  ],
+  "min": 0,
+  "max": 9999,
+  "distinct_tokens_in_sample": 6831,
+  "marginal_top1_share": 0.10263671875
+ },
+ "law_zipf_V50000_s1.0": {
+  "V": 50000,
+  "sample_shape": [
+   200,
+   256
+  ],
+  "min": 0,
+  "max": 49994,
+  "distinct_tokens_in_sample": 12908,
+  "marginal_top1_share": 0.08833984375
+ },
+ "law_zipf_V10000_s1.2": {
+  "V": 10000,
+  "sample_shape": [
+   200,
+   256
+  ],
+  "min": 0,
+  "max": 9997,
+  "distinct_tokens_in_sample": 4290,
+  "marginal_top1_share": 0.2067578125
+ },
+ "law_markov_V1000_S50_eps0.1_s1.0": {
+  "V": 1000,
+  "sample_shape": [
+   200,
+   256
+  ],
+  "min": 0,
+  "max": 998,
+  "distinct_tokens_in_sample": 986,
+  "marginal_top1_share": 0.07876953125
+ },
+ "law_markov_V10000_S50_eps0.1_s1.0": {
+  "V": 10000,
+  "sample_shape": [
+   200,
+   256
+  ],
+  "min": 0,
+  "max": 9999,
+  "distinct_tokens_in_sample": 5187,
+  "marginal_top1_share": 0.0718359375
+ },
+ "law_zipf_V10_s1.0": {
+  "V": 10,
+  "sample_shape": [
+   200,
+   256
+  ],
+  "min": 0,
+  "max": 9,
+  "distinct_tokens_in_sample": 10,
+  "marginal_top1_share": 0.341171875
+ },
+ "law_zipf_V100_s1.0": {
+  "V": 100,
+  "sample_shape": [
+   200,
+   256
+  ],
+  "min": 0,
+  "max": 99,
+  "distinct_tokens_in_sample": 100,
+  "marginal_top1_share": 0.19146484375
+ },
+ "law_twotoken_p0.9": {
+  "V": 2,
+  "sample_shape": [
+   200,
+   256
+  ],
+  "min": 0,
+  "max": 1,
+  "distinct_tokens_in_sample": 2,
+  "marginal_top1_share": 0.5086328125
+ },
+ "fixed_sampler_exact_count": {
+  "contexts_fully_queried": 6,
+  "all_equal_m": true,
+  "marginal_green": 0.5
+ },
+ "identity_fixed": {
+  "observed_var": 0.003528858980699061,
+  "identity": 0.003535416666666698,
+  "ratio": 0.998145144805854
+ },
+ "identity_indep": {
+  "observed_var": 0.06482447741020689,
+  "identity": 0.06515156250000013,
+  "ratio": 0.9949796278516997
+ },
+ "twotoken_h0_var_fixed": 2.8089999998259785e-07,
+ "twotoken_h1_var_fixed": 0.0799214457391915,
+ "binomial_marginal": {
+  "0.01": {
+   "overall": 0.0102625,
+   "se": 0.0004483899535830452,
+   "exact": 0.009852419798502616
+  },
+  "0.05": {
+   "overall": 0.0509125,
+   "se": 0.0015255944962087396,
+   "exact": 0.0498819669064913
+  }
+ }
+}
+timing: {'validation_run_seconds': 365.0, 'returncode': 0, 'zipf_V1000_core_cells': 102, 'zipf_V1000_seconds_total': 250.0, 'peak_rss_mb_this_process': 666.7, 'peak_rss_mb_children': 5521.9}
+DONE validation

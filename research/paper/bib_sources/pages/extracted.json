@@ -1,0 +1,99 @@
+{
+ "fetched_utc": "2026-10-19",
+ "lecture": {
+  "mentions_watermark": true,
+  "published_time": "2022-11-29",
+  "title": "Shtetl-Optimized  &raquo; Blog Archive   &raquo; My AI Safety Lecture for UT Effective Altruism"
+ },
+ "pmlr": {
+  "kirchenbauer2023watermark": {
+   "abstract_html_url": [
+    "https://proceedings.mlr.press/v202/kirchenbauer23a.html"
+   ],
+   "author": [
+    "John Kirchenbauer",
+    "Jonas Geiping",
+    "Yuxin Wen",
+    "Jonathan Katz",
+    "Ian Miers",
+    "Tom Goldstein"
+   ],
+   "conference_title": [
+    "International Conference on Machine Learning"
+   ],
+   "firstpage": [
+    "17061"
+   ],
+   "inbook_title": [
+    "International Conference on Machine Learning"
+   ],
+   "issn": [
+    "2640-3498"
+   ],
+   "language": [
+    "en"
+   ],
+   "lastpage": [
+    "17084"
+   ],
+   "pdf_url": [
+    "https://proceedings.mlr.press/v202/kirchenbauer23a/kirchenbauer23a.pdf"
+   ],
+   "publication_date": [
+    "2023/07/03"
+   ],
+   "publisher": [
+    "PMLR"
+   ],
+   "title": [
+    "A Watermark for Large Language Models"
+   ]
+  },
+  "vovk2012conditional": {
+   "abstract_html_url": [
+    "https://proceedings.mlr.press/v25/vovk12.html"
+   ],
+   "author": [
+    "Vladimir Vovk"
+   ],
+   "conference_sequence_num": [
+    "4"
+   ],
+   "conference_title": [
+    "Asian Conference on Machine Learning"
+   ],
+   "firstpage": [
+    "475"
+   ],
+   "inbook_title": [
+    "Asian Conference on Machine Learning"
+   ],
+   "issn": [
+    "1938-7228"
+   ],
+   "language": [
+    "en"
+   ],
+   "lastpage": [
+    "490"
+   ],
+   "pdf_url": [
+    "http://proceedings.mlr.press/v25/vovk12/vovk12.pdf"
+   ],
+   "publication_date": [
+    "2012/11/17"
+   ],
+   "publisher": [
+    "PMLR"
+   ],
+   "title": [
+    "Conditional Validity of Inductive Conformal Predictors"
+   ]
+  }
+ },
+ "read_utc": {
+  "aaronson_lecture.html": "2026-10-19",
+  "kirchenbauer2023watermark.html": "2026-10-19",
+  "vovk2012conditional.html": "2026-10-19"
+ }
+}

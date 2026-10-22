@@ -1,0 +1,812 @@
+{
+ "study": "study3_v0.1",
+ "run": "20261015T162040Z",
+ "note": "no per-key level on real text; validation keys and synthetic tokens only; real chains read for key-free sizes",
+ "fixtures": {
+  "b": {
+   "order_indices": {
+    "500|0.01": {
+     "j_conformal": 5,
+     "j_tolerance": 2
+    },
+    "500|0.05": {
+     "j_conformal": 25,
+     "j_tolerance": 17
+    },
+    "500|0.001": {
+     "j_conformal": 0,
+     "j_tolerance": 0
+    },
+    "1000|0.01": {
+     "j_conformal": 10,
+     "j_tolerance": 5
+    },
+    "1000|0.05": {
+     "j_conformal": 50,
+     "j_tolerance": 39
+    },
+    "1000|0.001": {
+     "j_conformal": 1,
+     "j_tolerance": 0
+    },
+    "2000|0.01": {
+     "j_conformal": 20,
+     "j_tolerance": 13
+    },
+    "2000|0.05": {
+     "j_conformal": 100,
+     "j_tolerance": 84
+    },
+    "2000|0.001": {
+     "j_conformal": 2,
+     "j_tolerance": 0
+    },
+    "5000|0.01": {
+     "j_conformal": 50,
+     "j_tolerance": 39
+    },
+    "5000|0.05": {
+     "j_conformal": 250,
+     "j_tolerance": 225
+    },
+    "5000|0.001": {
+     "j_conformal": 5,
+     "j_tolerance": 2
+    }
+   },
+   "tolerance_index_maximal": true,
+   "continuous_iid": {
+    "1000|0.01": {
+     "conformal_mean": 0.01000145761027311,
+     "exact_mean": 0.00999000999000999,
+     "conformal_sd": 0.0031324638963332973,
+     "exact_sd": 0.0031417302164418385,
+     "tolerance_share_above_alpha": 0.02805,
+     "exact_tail": 0.028686399999004478,
+     "ok": true
+    },
+    "5000|0.01": {
+     "conformal_mean": 0.00998764937607821,
+     "exact_mean": 0.009998000399920015,
+     "conformal_sd": 0.0013957901843086114,
+     "exact_sd": 0.0014067041447881844,
+     "tolerance_share_above_alpha": 0.0455,
+     "exact_tail": 0.04656573877667938,
+     "ok": true
+    },
+    "2000|0.05": {
+     "conformal_mean": 0.05001009853264246,
+     "exact_mean": 0.04997501249375312,
+     "conformal_sd": 0.004837862520687061,
+     "exact_sd": 0.004869809058857589,
+     "tolerance_share_above_alpha": 0.04065,
+     "exact_tail": 0.04231466007700745,
+     "ok": true
+    },
+    "5000|0.001": {
+     "conformal_mean": 0.0010014197833238762,
+     "exact_mean": 0.0009998000399920016,
+     "conformal_sd": 0.0004489262352313187,
+     "exact_sd": 0.00044685592296404836,
+     "tolerance_share_above_alpha": 0.03955,
+     "exact_tail": 0.040360310958191856,
+     "ok": true
+    }
+   },
+   "discrete_conformal": {
+    "mean_level": 0.00822137625,
+    "bound": 0.00999000999000999,
+    "ok": true
+   },
+   "scheme_thresholds_properties": true,
+   "counts_below_brute_force": true,
+   "predictor": {
+    "exact_beta": [
+     {
+      "n": 1000,
+      "alpha": 0.01,
+      "rel_err_mean": 2.046727973326057e-06,
+      "rel_err_sd": 5.0527725021010106e-05
+     },
+     {
+      "n": 5000,
+      "alpha": 0.01,
+      "rel_err_mean": 4.275559191135869e-07,
+      "rel_err_sd": 3.667207057178601e-05
+     },
+     {
+      "n": 2000,
+      "alpha": 0.05,
+      "rel_err_mean": 1.9670460427168024e-07,
+      "rel_err_sd": 3.441616686927773e-05
+     },
+     {
+      "n": 5000,
+      "alpha": 0.001,
+      "rel_err_mean": 4.02476095862081e-06,
+      "rel_err_sd": 6.943551884974752e-05
+     }
+    ],
+    "exact_beta_ok": true,
+    "monte_carlo": [
+     {
+      "pred_mean": 0.01673356493688506,
+      "mc_mean": 0.01673811047023059,
+      "pred_sd": 0.009392937315047098,
+      "mc_sd": 0.009382375886262586,
+      "pred_share": 0.7506935033051021,
+      "mc_share": 0.7518225,
+      "ok": true
+     },
+     {
+      "pred_mean": 0.012415584577804306,
+      "mc_mean": 0.012420261154760123,
+      "pred_sd": 0.003898561778350017,
+      "mc_sd": 0.0038988703626442844,
+      "pred_share": 0.7097718448209809,
+      "mc_share": 0.710565,
+      "ok": true
+     },
+     {
+      "pred_mean": 0.05831396751209405,
+      "mc_mean": 0.058300604266679636,
+      "pred_sd": 0.037907442973087326,
+      "mc_sd": 0.03790342794794486,
+      "pred_share": 0.49490024157241985,
+      "mc_share": 0.4949075,
+      "ok": true
+     }
+    ],
+    "monte_carlo_ok": true
+   },
+   "finite_shares": {
+    "within_law": [
+     {
+      "N_cal": 5000,
+      "j": 50,
+      "N_E": 10000,
+      "alpha": 0.01,
+      "finite_alpha": 0.4690949952680233,
+      "exact_alpha": 0.46909499528113086,
+      "finite_2alpha": 1.144334073764252e-07,
+      "exact_2alpha": 8.962472064499849e-07,
+      "finite_5alpha": 3.158601080749474e-115,
+      "exact_5alpha": 0.0,
+      "pop_alpha": 0.4809,
+      "exact_pop_alpha": 0.48090841319493877,
+      "ok": true
+     },
+     {
+      "N_cal": 5000,
+      "j": 39,
+      "N_E": 10000,
+      "alpha": 0.01,
+      "finite_alpha": 0.07672938111731623,
+      "exact_alpha": 0.0767302440961215,
+      "finite_2alpha": 2.558772415983841e-13,
+      "exact_2alpha": 7.053569950343785e-10,
+      "finite_5alpha": 1.052776471165243e-146,
+      "exact_5alpha": 0.0,
+      "pop_alpha": 0.04655,
+      "exact_pop_alpha": 0.04656573877667938,
+      "ok": true
+     },
+     {
+      "N_cal": 5000,
+      "j": 50,
+      "N_E": 7122,
+      "alpha": 0.01,
+      "finite_alpha": 0.47185540821564903,
+      "exact_alpha": 0.4718554106834616,
+      "finite_2alpha": 1.3144310474174656e-06,
+      "exact_2alpha": 3.270923124798486e-06,
+      "finite_5alpha": 1.2763901074153694e-83,
+      "exact_5alpha": 9.79438752324313e-13,
+      "pop_alpha": 0.4809,
+      "exact_pop_alpha": 0.48090841319493877,
+      "ok": true
+     },
+     {
+      "N_cal": 1000,
+      "j": 10,
+      "N_E": 10000,
+      "alpha": 0.01,
+      "finite_alpha": 0.45132801390138266,
+      "exact_alpha": 0.4513280138948793,
+      "finite_2alpha": 0.005995825209349332,
+      "exact_2alpha": 0.005995055720682929,
+      "finite_5alpha": 1.322919206690886e-55,
+      "exact_5alpha": 0.0,
+      "pop_alpha": 0.4573,
+      "exact_pop_alpha": 0.45730059217488683,
+      "ok": true
+     },
+     {
+      "N_cal": 2000,
+      "j": 100,
+      "N_E": 10000,
+      "alpha": 0.05,
+      "finite_alpha": 0.48206957802149053,
+      "exact_alpha": 0.48206957801295414,
+      "finite_2alpha": 1.9072238445535495e-37,
+      "exact_2alpha": 0.0,
+      "finite_5alpha": 0.0,
+      "exact_5alpha": 0.0,
+      "pop_alpha": 0.48565,
+      "exact_pop_alpha": 0.48567450840761295,
+      "ok": true
+     }
+    ],
+    "fixed_rho0": {
+     "finite": 0.47343746594184455,
+     "exact": 0.47343746594184455,
+     "ok": 1.0
+    },
+    "ok": 1.0
+   },
+   "cross_cov": {
+    "brute_and_study1_equal": true,
+    "across_keys": [
+     {
+      "h": 0,
+      "rule": "raw",
+      "identity": 4.4293836805555555,
+      "observed": 4.403482251330195,
+      "z": -0.26294115136641855
+     },
+     {
+      "h": 0,
+      "rule": "distinct",
+      "identity": 0.30215922314082105,
+      "observed": 0.29746020492613273,
+      "z": -0.7002444839714488
+     },
+     {
+      "h": 1,
+      "rule": "raw",
+      "identity": 0.3039215167548501,
+      "observed": 0.2953370759303582,
+      "z": -1.2840258896258847
+     },
+     {
+      "h": 1,
+      "rule": "distinct",
+      "identity": 0.09234161553307098,
+      "observed": 0.09054653709676697,
+      "z": -0.8538883769922774
+     }
+    ],
+    "across_keys_ok": true
+   }
+  },
+  "key_policy": {
+   "eval_ok": true,
+   "fit_ok": true,
+   "validation_ok": true,
+   "reserved": true,
+   "study2_range": true,
+   "study1_range": true,
+   "eval_as_fit": true,
+   "fit_as_eval": true,
+   "below_validation": true,
+   "audit_dev": true,
+   "all_ok": true
+  },
+  "lock": {
+   "accepted": [
+    "complete_canonical"
+   ],
+   "refused": {
+    "missing_approved_by": "lock lacks the field 'approved_by'",
+    "final_true": "lock must carry before_outcomes: true and final: false (Study 3 opens no held-out text)",
+    "before_outcomes_false": "lock must carry before_outcomes: true and final: false (Study 3 opens no held-out text)",
+    "approved_by_other": "lock must be approved_by 'Yichen'",
+    "non_iso_date": "lock date '14/10/2026' is not an ISO date",
+    "early_date": "lock date 2026-10-12 precedes protocol v0.1",
+    "wrong_study": "lock study 'study2_v0.1' is not 'study3_v0.1'",
+    "protocol_is_grid": "lock protocol 'research/study3/grid_v0.1.json' is not the canonical 'research/STUDY3_PROTOCOL_v0.1.md'",
+    "validation_noncanonical": "lock validation 'outputs/study2_v0.1/VALIDATION.json' is not the canonical 'outputs/study3_v0.1/VALIDATION.json'",
+    "inputs_noncanonical": "lock inputs 'outputs/study2_v0.1/INPUTS.json' is not the canonical 'outputs/study3_v0.1/INPUTS.json'",
+    "tokens_noncanonical": "lock tokens_manifest 'outputs/study2_v0.1/tokens_manifest.json' is not the canonical 'outputs/study3_v0.1/tokens_manifest.json'",
+    "checkpoint_R05": "lock review must name checkpoint R07 and the resolution research/reviews/R07_study3-protocol/RESOLUTION.md",
+    "resolution_R06": "lock review must name checkpoint R07 and the resolution research/reviews/R07_study3-protocol/RESOLUTION.md",
+    "tampered_digest": "LOCK MISMATCH: research/study3/s3_core.py differs from its locked digest",
+    "non_hex_digest": "lock digest for research/study3/s3_core.py is not a 64-hex sha256",
+    "missing_code_digest": "lock hashes must pin exactly ['outputs/study2_v0.1/RUN_MANIFEST.json', 'outputs/study2_v0.1/tokens_manifest.json', 'outputs/study3_v0.1/INPU",
+    "extra_digest": "lock hashes must pin exactly ['outputs/study2_v0.1/RUN_MANIFEST.json', 'outputs/study2_v0.1/tokens_manifest.json', 'outputs/study3_v0.1/INPU",
+    "missing_study2_manifest_digest": "lock hashes must pin exactly ['outputs/study2_v0.1/RUN_MANIFEST.json', 'outputs/study2_v0.1/tokens_manifest.json', 'outputs/study3_v0.1/INPU",
+    "key_record_mismatch": "lock key record does not match the grid",
+    "fit_start_mismatch": "lock key record does not match the grid",
+    "review_digest_wrong": "the reviewer's resolution memo is missing or differs from its locked digest",
+    "noncanonical_grid_argument": "the grid given (research/study2/grid_v0.1.json) is not the canonical grid research/study3/grid_v0.1.json"
+   },
+   "unexpected_accept": [],
+   "n_variants": 22,
+   "ok": true
+  },
+  "reuse": {
+   "matching_reusable": true,
+   "foreign_grid": true,
+   "other_unit": true,
+   "other_mode": true,
+   "tampered_npz": true,
+   "all_ok": true
+  },
+  "analyzer": {
+   "complete_accepted": true,
+   "missing_unit": true,
+   "missing_unit_reason": "inventory mismatch: missing ['eval__synthetic__synthetic_zipf_0__h0'], extra []",
+   "extra_unit": true,
+   "extra_unit_reason": "inventory mismatch: missing [], extra ['eval__x__y__h9']",
+   "npz_digest_mismatch": true,
+   "npz_digest_mismatch_reason": "eval__synthetic__synthetic_zipf_0__h0: its counts file is missing or differs from the recorded digest",
+   "wrong_mode": true,
+   "wrong_mode_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['mode']",
+   "wrong_unit_identity": true,
+   "wrong_unit_identity_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['unit']",
+   "threshold_digest_mismatch": true,
+   "threshold_digest_mismatch_reason": "eval__synthetic__synthetic_zipf_0__h0: the threshold map differs between the record and its provenance copy",
+   "count_above_N": true,
+   "count_above_N_reason": "array kgw|raw|fixed holds a count above N_E",
+   "not_nested_alpha": true,
+   "not_nested_alpha_reason": "array kgw|raw|same: counts not nested across alpha",
+   "wrong_shape": true,
+   "wrong_shape_reason": "array kgw|raw|same has shape (3, 7, 3, 64) dtype uint16; expected (3, 8, 3, 64) uint16",
+   "wrong_dtype": true,
+   "wrong_dtype_reason": "array kgw|raw|fixed has shape (2, 3, 64) dtype int32; expected (2, 3, 64) uint16",
+   "missing_crossed_variant": true,
+   "missing_crossed_variant_reason": "crossed block kgw|raw nominal missing or with the wrong B",
+   "crossed_wrong_B": true,
+   "crossed_wrong_B_reason": "crossed block kgw|raw nominal missing or with the wrong B",
+   "crossed_unpopulated": true,
+   "crossed_unpopulated_reason": "crossed block kgw|raw nominal max not populated",
+   "cal_boot_wrong_B": true,
+   "cal_boot_wrong_B_reason": "calibration bootstrap kgw|raw synthetic_zipf_0 conformal@1000 sd: not 50 finite values in [0, 1]",
+   "screen_constant_wrong": true,
+   "screen_constant_wrong_reason": "screening constants at alpha 0.01 differ from their recomputation",
+   "provenance_grid_sha256": true,
+   "provenance_grid_sha256_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['grid_sha256']",
+   "provenance_core_sha256": true,
+   "provenance_core_sha256_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['core_sha256']",
+   "provenance_run_sha256": true,
+   "provenance_run_sha256_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['run_sha256']",
+   "provenance_tokens_manifest_sha256": true,
+   "provenance_tokens_manifest_sha256_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['tokens_manifest_sha256']",
+   "provenance_tokens_sha256": true,
+   "provenance_tokens_sha256_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['tokens_sha256']",
+   "provenance_key_eval_start": true,
+   "provenance_key_eval_start_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['key_eval_start']",
+   "provenance_K": true,
+   "provenance_K_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['K']",
+   "provenance_key_fit_start": true,
+   "provenance_key_fit_start_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['key_fit_start']",
+   "provenance_K_fit": true,
+   "provenance_K_fit_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['K_fit']",
+   "provenance_N": true,
+   "provenance_N_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['N']",
+   "provenance_lock_sha256": true,
+   "provenance_lock_sha256_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['lock_sha256']",
+   "provenance_mode": true,
+   "provenance_mode_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['mode']",
+   "provenance_study": true,
+   "provenance_study_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['study']",
+   "cal_provenance_tokens_sha": true,
+   "cal_provenance_tokens_sha_reason": "cal__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['tokens_sha256']",
+   "threshold_map_empty": true,
+   "threshold_map_empty_reason": "eval__synthetic__synthetic_zipf_0__h0: the threshold map does not cover exactly the registered sources",
+   "threshold_map_one_source_missing": true,
+   "threshold_map_one_source_missing_reason": "eval__synthetic__synthetic_zipf_0__h0: the threshold map does not cover exactly the registered sources",
+   "threshold_map_foreign_digest": true,
+   "threshold_map_foreign_digest_reason": "eval__synthetic__synthetic_zipf_0__h0: the threshold map differs between the record and its provenance copy",
+   "threshold_map_copy_mismatch": true,
+   "threshold_map_copy_mismatch_reason": "eval__synthetic__synthetic_zipf_0__h0: the threshold map differs between the record and its provenance copy",
+   "committed_thresholds_missing": true,
+   "committed_thresholds_missing_reason": "cal__synthetic__synthetic_zipf_0__h0: the committed thresholds file is missing or differs from its digest",
+   "committed_thresholds_tampered": true,
+   "committed_thresholds_tampered_reason": "cal__synthetic__synthetic_zipf_0__h0: the committed thresholds file is missing or differs from its digest",
+   "cal_summary_missing": true,
+   "cal_summary_missing_reason": "cal__synthetic__synthetic_zipf_0__h0: the calibration record lacks its summary or info",
+   "cal_N_C_wrong": true,
+   "cal_N_C_wrong_reason": "calibration record field N_C is 1001; expected 1000",
+   "cal_alphas_reversed": true,
+   "cal_alphas_reversed_reason": "calibration record field alphas is [0.001, 0.05, 0.01]; expected [0.01, 0.05, 0.001]",
+   "cal_threshold_above_one": true,
+   "cal_threshold_above_one_reason": "thresholds array kgw|raw|conformal@1000|0.05 holds a non-finite value or one outside [0, 1]",
+   "cal_threshold_nonfinite": true,
+   "cal_threshold_nonfinite_reason": "thresholds array kgw|raw|conformal@1000|0.05 holds a non-finite value or one outside [0, 1]",
+   "cal_threshold_wrong_shape": true,
+   "cal_threshold_wrong_shape_reason": "thresholds array kgw|raw|conformal@1000|0.05 has shape (63,) dtype float64; expected (64,) float",
+   "cal_threshold_extra_key": true,
+   "cal_threshold_extra_key_reason": "thresholds arrays differ from the expected set: missing [], extra ['kgw|raw|extra|0.05']",
+   "cal_threshold_not_nested": true,
+   "cal_threshold_not_nested_reason": "thresholds kgw|raw conformal@1000 decrease from alpha 0.001 to 0.01",
+   "cal_abstention_violated": true,
+   "cal_abstention_violated_reason": "kgw|raw conformal@100 alpha 0.001: an abstaining method must carry an all-zero threshold",
+   "cal_empirical_above_alpha": true,
+   "cal_empirical_above_alpha_reason": "thresholds kgw|raw empirical decrease from alpha 0.01 to 0.05",
+   "N_E_wrong_screen_recomputed": true,
+   "N_E_wrong_screen_recomputed_reason": "N_E is 4000; the registered evaluation size is 2000",
+   "alphas_reversed": true,
+   "alphas_reversed_reason": "evaluation record field alphas is [0.001, 0.05, 0.01]; expected [0.01, 0.05, 0.001]",
+   "variants_same_reversed": true,
+   "variants_same_reversed_reason": "evaluation record field variants_same is ['tolerance@1000', 'tolerance@500', 'tolerance@100', 'conformal@1000', 'conform",
+   "variants_cross_wrong": true,
+   "variants_cross_wrong_reason": "evaluation record field variants_cross is ['empirical', 'pooled', 'conformal@1000', 'conformal@5000', 'tolerance@1000'];",
+   "cal_sources_reversed": true,
+   "cal_sources_reversed_reason": "evaluation record field cal_sources is ['synthetic_zipf_2', 'synthetic_zipf_1', 'synthetic_zipf_0']; expected ['syntheti",
+   "fixed_variants_wrong": true,
+   "fixed_variants_wrong_reason": "evaluation record field fixed_variants is ['nominal', 'guaranteed']; expected ['nominal', 'multiplier20']",
+   "cross_tokenizer_fabricated": true,
+   "cross_tokenizer_fabricated_reason": "evaluation record field cross_tokenizers is ['x']; expected []",
+   "extra_array_key": true,
+   "extra_array_key_reason": "count arrays differ from the expected set: missing [], extra ['kgw|raw|extra']",
+   "missing_array_key": true,
+   "missing_array_key_reason": "count arrays differ from the expected set: missing ['gumbel|distinct|same'], extra []",
+   "cal_boot_nan": true,
+   "cal_boot_nan_reason": "calibration bootstrap kgw|raw synthetic_zipf_0 conformal@1000 sd: not 50 finite values in [0, 1]",
+   "cal_boot_negative": true,
+   "cal_boot_negative_reason": "calibration bootstrap kgw|raw synthetic_zipf_0 conformal@1000 key_mean: not 50 finite values in [0, 1]",
+   "cal_boot_above_one": true,
+   "cal_boot_above_one_reason": "calibration bootstrap kgw|raw synthetic_zipf_0 tolerance@1000 q99: not 50 finite values in [0, 1]",
+   "screen_r_nan": true,
+   "screen_r_nan_reason": "screening constants at alpha 0.01 differ from their recomputation",
+   "screen_b_wrong": true,
+   "screen_b_wrong_reason": "screening constants at alpha 0.01 differ from their recomputation",
+   "crossed_se_nan": true,
+   "crossed_se_nan_reason": "crossed block kgw|raw nominal max not populated",
+   "all_ok": true,
+   "n": 61
+  },
+  "rep_decision": {
+   "equal": true,
+   "noise": true,
+   "gross": true,
+   "zero_se_equal": true
+  }
+ },
+ "token_cache": {
+  "study2_manifest_bound": true,
+  "plan_reproduced": true,
+  "arrays": true,
+  "seal_current": true,
+  "all_ok": true,
+  "cal_positions": {
+   "news_en_256": [
+    10000,
+    14999
+   ],
+   "wikipedia_en_256": [
+    10000,
+    15577
+   ],
+   "stackexchange_en_256": [
+    10000,
+    14999
+   ],
+   "wikipedia_de_256": [
+    10000,
+    14999
+   ],
+   "wikipedia_ru_256": [
+    10000,
+    14999
+   ],
+   "wikipedia_ar_256": [
+    10000,
+    14999
+   ],
+   "wikipedia_zh_256": [
+    10000,
+    14999
+   ],
+   "wikipedia_ja_256": [
+    10000,
+    14999
+   ],
+   "wikipedia_en_1024": [
+    10000,
+    15951
+   ],
+   "gutenberg_en_1024": [
+    7122,
+    12121
+   ]
+  },
+  "cal_skipped": {
+   "news_en_256": 0,
+   "wikipedia_en_256": 578,
+   "stackexchange_en_256": 0,
+   "wikipedia_de_256": 0,
+   "wikipedia_ru_256": 0,
+   "wikipedia_ar_256": 0,
+   "wikipedia_zh_256": 0,
+   "wikipedia_ja_256": 0,
+   "wikipedia_en_1024": 952,
+   "gutenberg_en_1024": 0
+  }
+ },
+ "validation_run": {
+  "dir": "outputs/study3_v0.1/validation_20261015T162040Z",
+  "seconds": 7.4,
+  "n_units": 12,
+  "pilot_status": "analyzed",
+  "pilot_counts": {
+   "T1_rows": 18,
+   "T1_eligible": 8,
+   "T2_rows": 18,
+   "T2_material": 18,
+   "descriptive_rows": 1872
+  }
+ },
+ "cost": {
+  "h0": {
+   "cal_seconds": 24.8,
+   "eval_seconds": 8.9,
+   "n_tuples_cal": 81541,
+   "n_tuples_eval": 104841
+  },
+  "h2": {
+   "cal_seconds": 56.8,
+   "eval_seconds": 39.8,
+   "n_tuples_cal": 1063724,
+   "n_tuples_eval": 2054763
+  },
+  "peak_rss_gb": 3.1,
+  "projection_hours": 0.91,
+  "per_unit_pair_seconds": {
+   "llama|news_en_256|h0": 31.6,
+   "llama|wikipedia_en_256|h0": 31.6,
+   "llama|stackexchange_en_256|h0": 31.7,
+   "llama|wikipedia_de_256|h0": 30.6,
+   "llama|wikipedia_ru_256|h0": 30.1,
+   "llama|wikipedia_ar_256|h0": 29.9,
+   "llama|wikipedia_zh_256|h0": 30.2,
+   "llama|wikipedia_ja_256|h0": 30.0,
+   "llama|wikipedia_en_1024|h0": 31.6,
+   "llama|gutenberg_en_1024|h0": 31.3,
+   "qwen|news_en_256|h0": 31.5,
+   "qwen|wikipedia_en_256|h0": 31.5,
+   "qwen|stackexchange_en_256|h0": 31.7,
+   "qwen|wikipedia_de_256|h0": 30.5,
+   "qwen|wikipedia_ru_256|h0": 29.9,
+   "qwen|wikipedia_ar_256|h0": 29.9,
+   "qwen|wikipedia_zh_256|h0": 30.9,
+   "qwen|wikipedia_ja_256|h0": 30.2,
+   "qwen|wikipedia_en_1024|h0": 31.5,
+   "qwen|gutenberg_en_1024|h0": 31.3,
+   "llama|news_en_256|h1": 56.8,
+   "llama|wikipedia_en_256|h1": 58.2,
+   "llama|stackexchange_en_256|h1": 58.0,
+   "llama|wikipedia_de_256|h1": 49.4,
+   "llama|wikipedia_ru_256|h1": 46.6,
+   "llama|wikipedia_ar_256|h1": 43.6,
+   "llama|wikipedia_zh_256|h1": 54.5,
+   "llama|wikipedia_ja_256|h1": 45.5,
+   "llama|wikipedia_en_1024|h1": 58.3,
+   "llama|gutenberg_en_1024|h1": 55.5,
+   "qwen|news_en_256|h1": 55.6,
+   "qwen|wikipedia_en_256|h1": 56.8,
+   "qwen|stackexchange_en_256|h1": 56.9,
+   "qwen|wikipedia_de_256|h1": 48.8,
+   "qwen|wikipedia_ru_256|h1": 42.2,
+   "qwen|wikipedia_ar_256|h1": 42.5,
+   "qwen|wikipedia_zh_256|h1": 60.0,
+   "qwen|wikipedia_ja_256|h1": 45.5,
+   "qwen|wikipedia_en_1024|h1": 57.0,
+   "qwen|gutenberg_en_1024|h1": 55.0,
+   "llama|news_en_256|h2": 83.6,
+   "llama|wikipedia_en_256|h2": 85.5,
+   "llama|stackexchange_en_256|h2": 85.9,
+   "llama|wikipedia_de_256|h2": 77.6,
+   "llama|wikipedia_ru_256|h2": 75.4,
+   "llama|wikipedia_ar_256|h2": 74.4,
+   "llama|wikipedia_zh_256|h2": 86.8,
+   "llama|wikipedia_ja_256|h2": 74.1,
+   "llama|wikipedia_en_1024|h2": 86.0,
+   "llama|gutenberg_en_1024|h2": 83.2,
+   "qwen|news_en_256|h2": 81.4,
+   "qwen|wikipedia_en_256|h2": 82.2,
+   "qwen|stackexchange_en_256|h2": 84.1,
+   "qwen|wikipedia_de_256|h2": 75.9,
+   "qwen|wikipedia_ru_256|h2": 68.4,
+   "qwen|wikipedia_ar_256|h2": 71.5,
+   "qwen|wikipedia_zh_256|h2": 88.8,
+   "qwen|wikipedia_ja_256|h2": 71.6,
+   "qwen|wikipedia_en_1024|h2": 83.0,
+   "qwen|gutenberg_en_1024|h2": 82.0
+  },
+  "model": {
+   "cal": [
+    22.143354547981385,
+    3.258048652847789e-05
+   ],
+   "eval": [
+    7.2386069288925405,
+    1.5846787717662552e-05
+   ],
+   "note": "seconds = a + b |D| per pass, from the two probe points; an extrapolation, not a guarantee"
+  }
+ },
+ "eligibility": {
+  "T1_eligible": 1494,
+  "T2_material": 879,
+  "T2_predicted_signs": {
+   "help": 336,
+   "harm": 543
+  },
+  "by_block": {
+   "T1": {
+    "h1|raw|llama|N1000|diagonal": 10,
+    "h1|raw|llama|N5000|diagonal": 0,
+    "h1|raw|llama|N1000|within_english": 18,
+    "h1|raw|llama|N5000|within_english": 18,
+    "h1|raw|llama|N1000|english_other": 50,
+    "h1|raw|llama|N5000|english_other": 50,
+    "h1|raw|llama|N1000|near_identical": 2,
+    "h1|raw|llama|N5000|near_identical": 0,
+    "h1|raw|llama|N1000|other_other": 20,
+    "h1|raw|llama|N5000|other_other": 20,
+    "h1|raw|qwen|N1000|diagonal": 10,
+    "h1|raw|qwen|N5000|diagonal": 0,
+    "h1|raw|qwen|N1000|within_english": 18,
+    "h1|raw|qwen|N5000|within_english": 18,
+    "h1|raw|qwen|N1000|english_other": 50,
+    "h1|raw|qwen|N5000|english_other": 50,
+    "h1|raw|qwen|N1000|near_identical": 2,
+    "h1|raw|qwen|N5000|near_identical": 0,
+    "h1|raw|qwen|N1000|other_other": 20,
+    "h1|raw|qwen|N5000|other_other": 20,
+    "h1|distinct|llama|N1000|diagonal": 10,
+    "h1|distinct|llama|N5000|diagonal": 0,
+    "h1|distinct|llama|N1000|within_english": 18,
+    "h1|distinct|llama|N5000|within_english": 18,
+    "h1|distinct|llama|N1000|english_other": 50,
+    "h1|distinct|llama|N5000|english_other": 50,
+    "h1|distinct|llama|N1000|near_identical": 2,
+    "h1|distinct|llama|N5000|near_identical": 0,
+    "h1|distinct|llama|N1000|other_other": 20,
+    "h1|distinct|llama|N5000|other_other": 20,
+    "h1|distinct|qwen|N1000|diagonal": 10,
+    "h1|distinct|qwen|N5000|diagonal": 0,
+    "h1|distinct|qwen|N1000|within_english": 18,
+    "h1|distinct|qwen|N5000|within_english": 18,
+    "h1|distinct|qwen|N1000|english_other": 50,
+    "h1|distinct|qwen|N5000|english_other": 50,
+    "h1|distinct|qwen|N1000|near_identical": 2,
+    "h1|distinct|qwen|N5000|near_identical": 0,
+    "h1|distinct|qwen|N1000|other_other": 20,
+    "h1|distinct|qwen|N5000|other_other": 20,
+    "h2|raw|llama|N1000|diagonal": 10,
+    "h2|raw|llama|N5000|diagonal": 0,
+    "h2|raw|llama|N1000|within_english": 18,
+    "h2|raw|llama|N5000|within_english": 15,
+    "h2|raw|llama|N1000|english_other": 50,
+    "h2|raw|llama|N5000|english_other": 49,
+    "h2|raw|llama|N1000|near_identical": 2,
+    "h2|raw|llama|N5000|near_identical": 0,
+    "h2|raw|llama|N1000|other_other": 20,
+    "h2|raw|llama|N5000|other_other": 20,
+    "h2|raw|qwen|N1000|diagonal": 10,
+    "h2|raw|qwen|N5000|diagonal": 0,
+    "h2|raw|qwen|N1000|within_english": 18,
+    "h2|raw|qwen|N5000|within_english": 17,
+    "h2|raw|qwen|N1000|english_other": 50,
+    "h2|raw|qwen|N5000|english_other": 50,
+    "h2|raw|qwen|N1000|near_identical": 2,
+    "h2|raw|qwen|N5000|near_identical": 0,
+    "h2|raw|qwen|N1000|other_other": 20,
+    "h2|raw|qwen|N5000|other_other": 20,
+    "h2|distinct|llama|N1000|diagonal": 10,
+    "h2|distinct|llama|N5000|diagonal": 0,
+    "h2|distinct|llama|N1000|within_english": 18,
+    "h2|distinct|llama|N5000|within_english": 15,
+    "h2|distinct|llama|N1000|english_other": 50,
+    "h2|distinct|llama|N5000|english_other": 49,
+    "h2|distinct|llama|N1000|near_identical": 2,
+    "h2|distinct|llama|N5000|near_identical": 0,
+    "h2|distinct|llama|N1000|other_other": 20,
+    "h2|distinct|llama|N5000|other_other": 20,
+    "h2|distinct|qwen|N1000|diagonal": 10,
+    "h2|distinct|qwen|N5000|diagonal": 0,
+    "h2|distinct|qwen|N1000|within_english": 18,
+    "h2|distinct|qwen|N5000|within_english": 17,
+    "h2|distinct|qwen|N1000|english_other": 50,
+    "h2|distinct|qwen|N5000|english_other": 50,
+    "h2|distinct|qwen|N1000|near_identical": 2,
+    "h2|distinct|qwen|N5000|near_identical": 0,
+    "h2|distinct|qwen|N1000|other_other": 20,
+    "h2|distinct|qwen|N5000|other_other": 20
+   },
+   "T2": {
+    "h1|raw|llama|N1000|diagonal": 10,
+    "h1|raw|llama|N5000|diagonal": 10,
+    "h1|raw|llama|N1000|within_english": 14,
+    "h1|raw|llama|N5000|within_english": 14,
+    "h1|raw|llama|N1000|english_other": 19,
+    "h1|raw|llama|N5000|english_other": 27,
+    "h1|raw|llama|N1000|near_identical": 2,
+    "h1|raw|llama|N5000|near_identical": 2,
+    "h1|raw|llama|N1000|other_other": 7,
+    "h1|raw|llama|N5000|other_other": 11,
+    "h1|raw|qwen|N1000|diagonal": 10,
+    "h1|raw|qwen|N5000|diagonal": 10,
+    "h1|raw|qwen|N1000|within_english": 12,
+    "h1|raw|qwen|N5000|within_english": 12,
+    "h1|raw|qwen|N1000|english_other": 28,
+    "h1|raw|qwen|N5000|english_other": 32,
+    "h1|raw|qwen|N1000|near_identical": 2,
+    "h1|raw|qwen|N5000|near_identical": 2,
+    "h1|raw|qwen|N1000|other_other": 16,
+    "h1|raw|qwen|N5000|other_other": 17,
+    "h1|distinct|llama|N1000|diagonal": 0,
+    "h1|distinct|llama|N5000|diagonal": 9,
+    "h1|distinct|llama|N1000|within_english": 3,
+    "h1|distinct|llama|N5000|within_english": 0,
+    "h1|distinct|llama|N1000|english_other": 38,
+    "h1|distinct|llama|N5000|english_other": 27,
+    "h1|distinct|llama|N1000|near_identical": 0,
+    "h1|distinct|llama|N5000|near_identical": 2,
+    "h1|distinct|llama|N1000|other_other": 19,
+    "h1|distinct|llama|N5000|other_other": 11,
+    "h1|distinct|qwen|N1000|diagonal": 3,
+    "h1|distinct|qwen|N5000|diagonal": 10,
+    "h1|distinct|qwen|N1000|within_english": 5,
+    "h1|distinct|qwen|N5000|within_english": 0,
+    "h1|distinct|qwen|N1000|english_other": 37,
+    "h1|distinct|qwen|N5000|english_other": 23,
+    "h1|distinct|qwen|N1000|near_identical": 2,
+    "h1|distinct|qwen|N5000|near_identical": 2,
+    "h1|distinct|qwen|N1000|other_other": 11,
+    "h1|distinct|qwen|N5000|other_other": 7,
+    "h2|raw|llama|N1000|diagonal": 4,
+    "h2|raw|llama|N5000|diagonal": 3,
+    "h2|raw|llama|N1000|within_english": 10,
+    "h2|raw|llama|N5000|within_english": 2,
+    "h2|raw|llama|N1000|english_other": 28,
+    "h2|raw|llama|N5000|english_other": 3,
+    "h2|raw|llama|N1000|near_identical": 1,
+    "h2|raw|llama|N5000|near_identical": 0,
+    "h2|raw|llama|N1000|other_other": 9,
+    "h2|raw|llama|N5000|other_other": 0,
+    "h2|raw|qwen|N1000|diagonal": 4,
+    "h2|raw|qwen|N5000|diagonal": 9,
+    "h2|raw|qwen|N1000|within_english": 7,
+    "h2|raw|qwen|N5000|within_english": 9,
+    "h2|raw|qwen|N1000|english_other": 22,
+    "h2|raw|qwen|N5000|english_other": 21,
+    "h2|raw|qwen|N1000|near_identical": 2,
+    "h2|raw|qwen|N5000|near_identical": 2,
+    "h2|raw|qwen|N1000|other_other": 1,
+    "h2|raw|qwen|N5000|other_other": 6,
+    "h2|distinct|llama|N1000|diagonal": 9,
+    "h2|distinct|llama|N5000|diagonal": 0,
+    "h2|distinct|llama|N1000|within_english": 18,
+    "h2|distinct|llama|N5000|within_english": 9,
+    "h2|distinct|llama|N1000|english_other": 50,
+    "h2|distinct|llama|N5000|english_other": 31,
+    "h2|distinct|llama|N1000|near_identical": 2,
+    "h2|distinct|llama|N5000|near_identical": 0,
+    "h2|distinct|llama|N1000|other_other": 20,
+    "h2|distinct|llama|N5000|other_other": 13,
+    "h2|distinct|qwen|N1000|diagonal": 4,
+    "h2|distinct|qwen|N5000|diagonal": 2,
+    "h2|distinct|qwen|N1000|within_english": 14,
+    "h2|distinct|qwen|N5000|within_english": 6,
+    "h2|distinct|qwen|N1000|english_other": 47,
+    "h2|distinct|qwen|N5000|english_other": 17,
+    "h2|distinct|qwen|N1000|near_identical": 0,
+    "h2|distinct|qwen|N5000|near_identical": 1,
+    "h2|distinct|qwen|N1000|other_other": 20,
+    "h2|distinct|qwen|N5000|other_other": 7
+   }
+  },
+  "n_primary_rows": 1600
+ },
+ "inputs_consistency_with_study2": {
+  "n": 108,
+  "max_abs_diff_rho": 2.97539771e-14,
+  "max_abs_diff_sigma2": 2.97539771e-14
+ },
+ "all_ok": true,
+ "seconds": 166.4
+}

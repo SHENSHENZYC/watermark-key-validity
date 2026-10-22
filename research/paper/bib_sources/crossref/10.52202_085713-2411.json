@@ -1,0 +1,204 @@
+{
+ "_projection": "A projection of the API response for the public record (R13 F10): nothing (this response carries no third-party text body) removed and kept in the private record under research/paper/bib_sources/raw_responses/, which the public snapshot excludes; every other field is verbatim.",
+ "message": {
+  "DOI": "10.52202/085713-2411",
+  "URL": "https://doi.org/10.52202/085713-2411",
+  "author": [
+   {
+    "affiliation": [
+     {
+      "name": "ETH Zurich"
+     }
+    ],
+    "family": "Jovanovi\u0107",
+    "given": "Nikola",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Universit\u00e9 Paris-Saclay"
+     }
+    ],
+    "family": "Labiad",
+    "given": "Ismail",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Facebook"
+     }
+    ],
+    "family": "Sou\u010dek",
+    "given": "Tom\u00e1\u0161",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "ETH Zurich and INSAIT, Sofia University"
+     }
+    ],
+    "family": "Vechev",
+    "given": "Martin",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Meta, FAIR"
+     }
+    ],
+    "family": "Fernandez",
+    "given": "Pierre",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   }
+  ],
+  "container-title": [
+   "Advances in Neural Information Processing Systems 38"
+  ],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": []
+  },
+  "created": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     6
+    ]
+   ],
+   "date-time": "2026-08-06T14:44:29Z",
+   "timestamp": 1786027469000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     19
+    ]
+   ],
+   "date-time": "2026-10-19T18:35:26Z",
+   "timestamp": 1792434926000
+  },
+  "event": {
+   "acronym": "NeurIPS 2025",
+   "end": {
+    "date-parts": [
+     [
+      2025,
+      12,
+      7
+     ]
+    ]
+   },
+   "location": "San Diego, California, USA and Mexico City, Mexico",
+   "name": "Advances in Neural Information Processing Systems 38",
+   "number": "38",
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      11,
+      30
+     ]
+    ]
+   },
+   "theme": "39th Conference on Neural Information Processing Systems (NeurIPS 2025)"
+  },
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     19
+    ]
+   ],
+   "date-time": "2026-10-19T18:43:11Z",
+   "timestamp": 1792435391299,
+   "version": "4.5.0"
+  },
+  "is-referenced-by-count": 1,
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "member": "29733",
+  "original-title": [],
+  "page": "79891-79938",
+  "prefix": "10.52202",
+  "published": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "publisher": "Neural Information Processing Systems Foundation, Inc. (NeurIPS)",
+  "publisher-location": "San Diego, California, USA",
+  "reference-count": 0,
+  "references-count": 0,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "http://www.proceedings.com/085713-2411.html"
+   }
+  },
+  "score": 1,
+  "short-container-title": [],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "Watermarking Autoregressive Image Generation"
+  ],
+  "type": "proceedings-article"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

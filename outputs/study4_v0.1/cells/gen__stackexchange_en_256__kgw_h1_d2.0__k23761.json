@@ -1,0 +1,73 @@
+{
+"unit": {
+"kind": "gen",
+"cell": "stackexchange_en_256",
+"arm": "kgw_h1_d2.0",
+"key": 23761,
+"n": 50,
+"prompt_range": [
+0,
+50
+]
+},
+"name": "gen__stackexchange_en_256__kgw_h1_d2.0__k23761",
+"n": 50,
+"n_new": 256,
+"npz_sha256": "9b9d0be89c208045a02d6c5eee060734b4b0205f6934649b5099945a1037c3f1",
+"seconds": 37.7,
+"tok_per_s": 339.5,
+"seconds_model": 18.3,
+"seconds_hook": 19.4,
+"cache_hits": 5483,
+"cache_misses": 7317,
+"green_share_hook": 0.580859375,
+"mean_logp": -2.7172207832336426,
+"eos_mass_mean": 0.001485196640715003,
+"peak_rss_gb": 2.92,
+"provenance": {
+"study": "study4_v0.1",
+"mode": "study",
+"lock_sha256": "7067b4e1457c7ed977a311409914e3034721993eae5eddc44f6934c8d1b4cdd9",
+"grid_sha256": "7a1c88f125f8689a65b0224b9f51e3707814c2f8a1d021fc61279defa3887ce2",
+"code_sha256": {
+"s4_gen.py": "fdd90379dcec56a8f99fbc1963a515e43c54c7416ae7b0991aca3efebf4731e1",
+"s4_wm.py": "72898e66c47a119b48aca725abe78d4da1572e85b617f6508fa425b3deb9786c",
+"s4_run.py": "91b5800a2566c5dd21e48d2aeb44235bfdab7c8cacd3cb081914a10f74dcd3c9",
+"s4_data.py": "200bbb7333e4be8658dc3d23dd4a77412874cb56155ced8795dd64efb8c93e48",
+"s4_keys.py": "be29db0b6cfb89b7ee2e3203a9c898c47c76de4bfd7558358e86517f857af1c4",
+"s4_record.py": "6f95c9925cc49a5cf9e69ece83c5b2cc49b965a15acbedff2c47b279e2761f76"
+},
+"prompts_manifest_sha256": "fe26deddc3663f846af6a2fdc375d58be2a481ada56f9a019ae867b8b9d88eca",
+"prompts_kind": "prod",
+"prompt_array_sha256": "73f73bf187cd107fc01454476e7f889217726dc962b23733a40c236e820ce6d5",
+"model": {
+"repo": "Qwen/Qwen2.5-1.5B",
+"revision": "8faed761d45a263340a0528343f099c05c9a4323",
+"weights_sha256": "a961db72e75d52b18e6b0c9d379e51a26973b233385e0e127fdda7d648aec796"
+},
+"unit": {
+"kind": "gen",
+"cell": "stackexchange_en_256",
+"arm": "kgw_h1_d2.0",
+"key": 23761,
+"n": 50,
+"prompt_range": [
+0,
+50
+]
+},
+"arm": {
+"name": "kgw_h1_d2.0",
+"family": "kgw",
+"h": 1,
+"delta": 2.0
+},
+"gamma": 0.25,
+"n_new": 256,
+"P": 64,
+"temperature": 1.0,
+"seed": 1806322617,
+"sampler": "inverse-CDF multinomial in float64 with one PCG64 uniform per row and step (the first entry whose cumulative mass exceeds the uniform); the generator seeded by (int(sha256(unit name)[:8], 16) + the batch offset, 20261016) per unit",
+"written_utc": "2026-10-17T12:40:14Z"
+}
+}

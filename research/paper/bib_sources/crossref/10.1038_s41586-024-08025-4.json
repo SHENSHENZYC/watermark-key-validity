@@ -1,0 +1,743 @@
+{
+ "_projection": "A projection of the API response for the public record (R13 F10): message.abstract (1960 characters) removed and kept in the private record under research/paper/bib_sources/raw_responses/, which the public snapshot excludes; every other field is verbatim.",
+ "message": {
+  "DOI": "10.1038/s41586-024-08025-4",
+  "ISSN": [
+   "0028-0836",
+   "1476-4687"
+  ],
+  "URL": "https://doi.org/10.1038/s41586-024-08025-4",
+  "alternative-id": [
+   "8025"
+  ],
+  "assertion": [
+   {
+    "group": {
+     "label": "Article History",
+     "name": "ArticleHistory"
+    },
+    "label": "Received",
+    "name": "received",
+    "order": 1,
+    "value": "8 April 2024"
+   },
+   {
+    "group": {
+     "label": "Article History",
+     "name": "ArticleHistory"
+    },
+    "label": "Accepted",
+    "name": "accepted",
+    "order": 2,
+    "value": "5 September 2024"
+   },
+   {
+    "group": {
+     "label": "Article History",
+     "name": "ArticleHistory"
+    },
+    "label": "First Online",
+    "name": "first_online",
+    "order": 3,
+    "value": "23 October 2024"
+   },
+   {
+    "group": {
+     "label": "Competing interests",
+     "name": "EthicsHeading"
+    },
+    "name": "Ethics",
+    "order": 1,
+    "value": "Work funded and performed by Google DeepMind, with some collaborators at Google. S.D., A.S., B.B., S. Ghasias, P.K., P.-S. H. and J. W. have filed patent applications EP23162983.3, PCT/EP2024/057423 and US18611417, currently pending publication, on behalf of DeepMind Technologies Limited, relating to the SynthID-Text watermarking method."
+   }
+  ],
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0009-0007-4937-9903",
+    "affiliation": [],
+    "authenticated-orcid": false,
+    "family": "Dathathri",
+    "given": "Sumanth",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-3137-6599",
+    "affiliation": [],
+    "authenticated-orcid": false,
+    "family": "See",
+    "given": "Abigail",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "Ghaisas",
+    "given": "Sumedh",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "Huang",
+    "given": "Po-Sen",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "McAdam",
+    "given": "Rob",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "Welbl",
+    "given": "Johannes",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "Bachani",
+    "given": "Vandana",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "Kaskasoli",
+    "given": "Alex",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "Stanforth",
+    "given": "Robert",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "Matejovicova",
+    "given": "Tatiana",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "Hayes",
+    "given": "Jamie",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "Vyas",
+    "given": "Nidhi",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "Merey",
+    "given": "Majd Al",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "Brown-Cohen",
+    "given": "Jonah",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "Bunel",
+    "given": "Rudy",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "Balle",
+    "given": "Borja",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "Cemgil",
+    "given": "Taylan",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "Ahmed",
+    "given": "Zahra",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "Stacpoole",
+    "given": "Kitty",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "Shumailov",
+    "given": "Ilia",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "Baetu",
+    "given": "Ciprian",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [],
+    "family": "Gowal",
+    "given": "Sven",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-2812-9917",
+    "affiliation": [],
+    "authenticated-orcid": false,
+    "family": "Hassabis",
+    "given": "Demis",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-7466-7997",
+    "affiliation": [],
+    "authenticated-orcid": false,
+    "family": "Kohli",
+    "given": "Pushmeet",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   }
+  ],
+  "container-title": [
+   "Nature"
+  ],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": [
+    "link.springer.com"
+   ]
+  },
+  "created": {
+   "date-parts": [
+    [
+     2024,
+     10,
+     23
+    ]
+   ],
+   "date-time": "2024-10-23T12:03:57Z",
+   "timestamp": 1729685037000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     10,
+     23
+    ]
+   ],
+   "date-time": "2024-10-23T12:07:53Z",
+   "timestamp": 1729685273000
+  },
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     19
+    ]
+   ],
+   "date-time": "2026-10-19T01:48:51Z",
+   "timestamp": 1792374531800,
+   "version": "4.4.0"
+  },
+  "is-referenced-by-count": 147,
+  "issn-type": [
+   {
+    "type": "print",
+    "value": "0028-0836"
+   },
+   {
+    "type": "electronic",
+    "value": "1476-4687"
+   }
+  ],
+  "issue": "8035",
+  "issued": {
+   "date-parts": [
+    [
+     2024,
+     10,
+     23
+    ]
+   ]
+  },
+  "journal-issue": {
+   "issue": "8035",
+   "published-print": {
+    "date-parts": [
+     [
+      2024,
+      10,
+      24
+     ]
+    ]
+   }
+  },
+  "language": "en",
+  "license": [
+   {
+    "URL": "https://creativecommons.org/licenses/by/4.0",
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "start": {
+     "date-parts": [
+      [
+       2024,
+       10,
+       23
+      ]
+     ],
+     "date-time": "2024-10-23T00:00:00Z",
+     "timestamp": 1729641600000
+    }
+   },
+   {
+    "URL": "https://creativecommons.org/licenses/by/4.0",
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "start": {
+     "date-parts": [
+      [
+       2024,
+       10,
+       23
+      ]
+     ],
+     "date-time": "2024-10-23T00:00:00Z",
+     "timestamp": 1729641600000
+    }
+   }
+  ],
+  "link": [
+   {
+    "URL": "https://www.nature.com/articles/s41586-024-08025-4.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://www.nature.com/articles/s41586-024-08025-4",
+    "content-type": "text/html",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://www.nature.com/articles/s41586-024-08025-4.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "member": "297",
+  "original-title": [],
+  "page": "818-823",
+  "prefix": "10.1038",
+  "published": {
+   "date-parts": [
+    [
+     2024,
+     10,
+     23
+    ]
+   ]
+  },
+  "published-online": {
+   "date-parts": [
+    [
+     2024,
+     10,
+     23
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     2024,
+     10,
+     24
+    ]
+   ]
+  },
+  "publisher": "Springer Science and Business Media LLC",
+  "reference": [
+   {
+    "DOI": "10.1016/j.chb.2020.106553",
+    "author": "N K\u00f6bis",
+    "doi-asserted-by": "publisher",
+    "first-page": "106553",
+    "journal-title": "Comput. Hum. Behav.",
+    "key": "8025_CR1",
+    "unstructured": "K\u00f6bis, N. & Mossink, L. D. Artificial intelligence versus Maya Angelou: experimental evidence that people cannot differentiate AI-generated from human-written poetry. Comput. Hum. Behav. 114, 106553 (2021).",
+    "volume": "114",
+    "year": "2021"
+   },
+   {
+    "DOI": "10.18653/v1/2021.acl-long.565",
+    "doi-asserted-by": "crossref",
+    "key": "8025_CR2",
+    "unstructured": "Clark, E. et al. All that\u2019s \u2018human\u2019 is not gold: evaluating human evaluation of generated text. In Proc. 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers) (eds. Zong, C. et al.) 7282\u20137296 (Association for Computational Linguistics, 2021)."
+   },
+   {
+    "DOI": "10.1073/pnas.2208839120",
+    "author": "M Jakesch",
+    "doi-asserted-by": "publisher",
+    "first-page": "2208839120",
+    "journal-title": "Proc. Natl Acad. Sci. USA",
+    "key": "8025_CR3",
+    "unstructured": "Jakesch, M., Hancock, J. T. & Naaman, M. Human heuristics for AI-generated language are flawed. Proc. Natl Acad. Sci. USA 120, 2208839120 (2023).",
+    "volume": "120",
+    "year": "2023"
+   },
+   {
+    "key": "8025_CR4",
+    "unstructured": "Wu, J. et al. A survey on LLM-generated text detection: necessity, methods, and future directions. Preprint at https://arxiv.org/abs/2310.14724 (2024)."
+   },
+   {
+    "key": "8025_CR5",
+    "unstructured": "Chen, C. et al. Accelerating large language model decoding with speculative sampling. Preprint at https://arxiv.org/abs/2302.01318 (2023)."
+   },
+   {
+    "key": "8025_CR6",
+    "unstructured": "Team, G. et al. Gemini: a family of highly capable multimodal models. Preprint at https://arxiv.org/abs/2312.11805 (2023)."
+   },
+   {
+    "key": "8025_CR7",
+    "unstructured": "SynthID-Team Code and data. GitHub https://github.com/google-deepmind/synthid-text (2024)."
+   },
+   {
+    "DOI": "10.1038/s41586-024-07566-y",
+    "author": "I Shumailov",
+    "doi-asserted-by": "publisher",
+    "first-page": "755",
+    "journal-title": "Nature",
+    "key": "8025_CR8",
+    "unstructured": "Shumailov, I. et al. AI models collapse when trained on recursively generated data. Nature 631, 755\u2013759 (2024).",
+    "volume": "631",
+    "year": "2024"
+   },
+   {
+    "key": "8025_CR9",
+    "unstructured": "Alemohammad, S. et al. Self-consuming generative models go MAD. In Proc. Twelfth International Conference on Learning Representations (ICLR, 2024)."
+   },
+   {
+    "key": "8025_CR10",
+    "unstructured": "Taori, R. & Hashimoto, T. Data feedback loops: model-driven amplification of dataset biases. In Proc. 40th International Conference on Machine Learning 33883\u201333920 (JMLR, 2023)."
+   },
+   {
+    "DOI": "10.1145/3630106.3659029",
+    "doi-asserted-by": "crossref",
+    "key": "8025_CR11",
+    "unstructured": "Wyllie, S., Shumailov, I. & Papernot, N. Fairness feedback loops: training on synthetic data amplifies bias. In Proc. 2024 ACM Conference on Fairness, Accountability, and Transparency 2113\u20132147 (Association for Computing Machinery, 2024)."
+   },
+   {
+    "key": "8025_CR12",
+    "unstructured": "Krishna, K., Song, Y., Karpinska, M., Wieting, J. F. & Iyyer, M. Paraphrasing evades detectors of AI-generated text, but retrieval is an effective defense. In Proc. Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS, 2023)."
+   },
+   {
+    "key": "8025_CR13",
+    "unstructured": "Mitchell, E., Lee, Y., Khazatsky, A., Manning, C. D. & Finn, C. DetectGPT: zero-shot machine-generated text detection using probability curvature. In Proc. 40th International Conference on Machine Learning 24950\u201324962 (JMLR, 2023)."
+   },
+   {
+    "DOI": "10.18653/v1/2024.naacl-long.95",
+    "doi-asserted-by": "crossref",
+    "key": "8025_CR14",
+    "unstructured": "Verma, V., Fleisig, E., Tomlin, N. & Klein, D. Ghostbuster: detecting text ghostwritten by large language models. In Proc. 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers) 1702\u20131717 (Association for Computational Linguistics, 2024)."
+   },
+   {
+    "key": "8025_CR15",
+    "unstructured": "Hans, A. et al. Spotting LLMs with binoculars: zero-shot detection of machine-generated text. In Proc. 41st International Conference on Machine Learning 17519-17537 (PMLR, 2024)."
+   },
+   {
+    "DOI": "10.1007/s40979-023-00140-5",
+    "author": "AM Elkhatat",
+    "doi-asserted-by": "publisher",
+    "journal-title": "Int. J. Educ. Integrity",
+    "key": "8025_CR16",
+    "unstructured": "Elkhatat, A. M., Elsaid, K. & Almeer, S. Evaluating the efficacy of AI content detection tools in differentiating between human and AI-generated text. Int. J. Educ. Integrity 19, 17 (2023).",
+    "volume": "19",
+    "year": "2023"
+   },
+   {
+    "DOI": "10.1016/j.patter.2023.100779",
+    "author": "W Liang",
+    "doi-asserted-by": "publisher",
+    "first-page": "100779",
+    "journal-title": "Patterns",
+    "key": "8025_CR17",
+    "unstructured": "Liang, W., Yuksekgonul, M., Mao, Y., Wu, E. & Zou, J. GPT detectors are biased against non-native English writers. Patterns 4, 100779 (2023).",
+    "volume": "4",
+    "year": "2023"
+   },
+   {
+    "DOI": "10.1109/ACCESS.2018.2796585",
+    "author": "NS Kamaruddin",
+    "doi-asserted-by": "publisher",
+    "first-page": "8011",
+    "journal-title": "IEEE Access",
+    "key": "8025_CR18",
+    "unstructured": "Kamaruddin, N. S., Kamsin, A., Por, L. Y. & Rahman, H. A review of text watermarking: theory, methods, and applications. IEEE Access 6, 8011\u20138028 (2018).",
+    "volume": "6",
+    "year": "2018"
+   },
+   {
+    "key": "8025_CR19",
+    "unstructured": "Gu, C., Huang, C., Zheng, X., Chang, K.-W. & Hsieh, C.-J. Watermarking pre-trained language models with backdooring. Preprint at https://arxiv.org/abs/2210.07543 (2022)."
+   },
+   {
+    "key": "8025_CR20",
+    "unstructured": "SynthID-Team Watermarking AI-generated text and video with SynthID. Google DeepMind Blog https://deepmind.google/discover/blog/watermarking-ai-generated-text-and-video-with-synthid (2024)."
+   },
+   {
+    "key": "8025_CR21",
+    "unstructured": "Piet, J., Sitawarin, C., Fang, V., Mu, N. & Wagner, D. Mark my words: analyzing and evaluating language model watermarks. Preprint at https://arxiv.org/abs/2312.00273 (2023)."
+   },
+   {
+    "key": "8025_CR22",
+    "unstructured": "Aaronson, S. & Kirchner, H. Watermarking of large language models. Scott Aaronson https://www.scottaaronson.com/talks/watermark.ppt (2022)."
+   },
+   {
+    "key": "8025_CR23",
+    "unstructured": "Kirchenbauer, J. et al. A watermark for large language models. In Proc. 40th International Conference on Machine Learning 17061\u201317084 (PMLR, 2023)."
+   },
+   {
+    "key": "8025_CR24",
+    "unstructured": "Kuditipudi, R., Thickstun, J., Hashimoto, T. & Liang, P. Robust distortion-free watermarks for language models. Trans. Mach. Learn. Res. https://openreview.net/pdf?id=FpaCL1MO2C (2024)."
+   },
+   {
+    "key": "8025_CR25",
+    "unstructured": "Christ, M., Gunn, S. & Zamir, O. Undetectable watermarks for language models. In Proc. Thirty Seventh Conference on Learning Theory 1125\u20131139 (PMLR, 2024)."
+   },
+   {
+    "key": "8025_CR26",
+    "unstructured": "Casper, S. et al. Open problems and fundamental limitations of reinforcement learning from human feedback. Trans. Mach. Learn. Res. https://openreview.net/pdf?id=bx24KpJ4Eb (2023)."
+   },
+   {
+    "key": "8025_CR27",
+    "unstructured": "Hu, Z. et al. Unbiased watermark for large language models. In Proc. Twelfth International Conference on Learning Representations (ICLR, 2024)."
+   },
+   {
+    "key": "8025_CR28",
+    "unstructured": "Team, G. et al. Gemma: open models based on Gemini research and technology. Preprint at https://arxiv.org/abs/2403.08295 (2024)."
+   },
+   {
+    "key": "8025_CR29",
+    "unstructured": "Jiang, A. Q. et al. Mistral 7B. Preprint at https://arxiv.org/abs/2310.06825 (2023)."
+   },
+   {
+    "DOI": "10.18653/v1/P19-1346",
+    "doi-asserted-by": "crossref",
+    "key": "8025_CR30",
+    "unstructured": "Fan, A. et al. ELI5: long form question answering. In Proc. 57th Annual Meeting of the Association for Computational Linguistics (eds Korhonen, A. et al.) 3558\u20133567 (Association for Computational Linguistics, 2019)."
+   },
+   {
+    "key": "8025_CR31",
+    "unstructured": "Cloud, G. TPU v5e. Google Cloud https://cloud.google.com/tpu/docs/v5e-inference (2024)."
+   },
+   {
+    "key": "8025_CR32",
+    "unstructured": "Jovanovi\u0107, N., Staab, R. & Vechev, M. Watermark stealing in large language models. In Proc. 41st International Conference on Machine Learning 22570\u201322593 (PMLR, 2024)."
+   },
+   {
+    "key": "8025_CR33",
+    "unstructured": "Zhang, H. et al. Watermarks in the sand: impossibility of strong watermarking for language models. In Proc. 41st International Conference on Machine Learning 58851\u201358880 (PMLR, 2024)."
+   },
+   {
+    "key": "8025_CR34",
+    "unstructured": "Holtzman, A., Buys, J., Du, L., Forbes, M. & Choi, Y. The curious case of neural text degeneration. In Proc. Eighth International Conference on Learning Representations (ICLR, 2020)."
+   },
+   {
+    "author": "DH Ackley",
+    "first-page": "147",
+    "journal-title": "Cogn. Sci.",
+    "key": "8025_CR35",
+    "unstructured": "Ackley, D. H., Hinton, G. E. & Sejnowski, T. J. A learning algorithm for Boltzmann machines. Cogn. Sci. 9, 147\u2013169 (1985).",
+    "volume": "9",
+    "year": "1985"
+   },
+   {
+    "DOI": "10.18653/v1/P18-1082",
+    "doi-asserted-by": "crossref",
+    "key": "8025_CR36",
+    "unstructured": "Fan, A., Lewis, M. & Dauphin, Y. Hierarchical neural story generation. In Proc. 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (eds Gurevych, I. & Miyao, Y.) 889\u2013898 (Association for Computational Linguistics, 2018)."
+   }
+  ],
+  "reference-count": 36,
+  "references-count": 36,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://www.nature.com/articles/s41586-024-08025-4"
+   }
+  },
+  "score": 1,
+  "short-container-title": [
+   "Nature"
+  ],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "Scalable watermarking for identifying large language model outputs"
+  ],
+  "type": "journal-article",
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "volume": "634"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

@@ -1,0 +1,7 @@
+$ <repository>/.venv/bin/python -u tools/corpora_partition.py outputs/corpora_units_v0.3 --bands 32 --rows 4 --threshold 0.65
+$ <repository>/.venv/bin/python -u tools/audit_corpora.py outputs/corpora_units_v0.3 --out outputs/corpora_audit_v0.3.json
+step 0: verdict PROVISIONAL (all rules pass; the partition is not finalised); failing cells: []
+$ <repository>/.venv/bin/python -u tools/corpora_partition.py outputs/corpora_units_v0.3 --bands 32 --rows 4 --threshold 0.65 --final 0.3
+$ <repository>/.venv/bin/python -u tools/audit_corpora.py outputs/corpora_units_v0.3 --out outputs/corpora_audit_v0.3.json --version 0.3
+FINAL: verdict PASS; partition {'file': 'partition_v0.3.parquet', 'finalised': True, 'sha256': '8b9cf24aa9cece47acbc9c8c61f6b9fc0199c06e5f451f8fe9a0b1c28f61feae'}
+DONE build

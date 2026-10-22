@@ -1,0 +1,57 @@
+QUERY: search_query=abs:watermark AND abs:tokenizer AND abs:"false positive"&sortBy=submittedDate&sortOrder=descending&max_results=20
+## SemField: A Simple, Linear, Continuous, yet Robust Semantic Watermark
+2610.11848v1 | 2026-10-08 | Varun Gumma, Navonil Majumdar, Soujanya Poria
+The rapid proliferation of Large Language Models (LLMs) necessitates reliable watermarking techniques to identify AI-generated text and ensure appropriate attribution. While token-based watermarks are vulnerable to paraphrasing, a central challenge for semantic watermarking is to turn sentence meanings into a stable, well-calibrated document-level signal. To this end, we introduce SemField, a simp
+
+## Semantic Behavioral Watermarking: Paraphrase-Robust and Forgery-Resistant Provenance for LLM Agents
+2610.08668v1 | 2026-10-06 | Suxin Ji, Hungtao Wan, Shaoxuan Chen, An Zhang
+Behavioral watermarking embeds an owner identifier in an LLM agent's high-level action choices, giving provenance without touching output tokens. Prior agent watermarks break in two ways. First, all three prior schemes bind the watermark to the exact action symbol, so renaming a tool desynchronizes decoding even when the observation is untouched; in AgentMark's own robustness test, paraphrasing th
+
+## Tracing model-generated DNA with position-independent watermarking
+2610.04763v1 | 2026-10-03 | Kimon Antonios Provatas1, Christos Galanopoulos, Ilias Georgakopoulos-Soares
+Genomic language models can write synthetic DNA that carries no record of its origin. A generation-time watermark could provide a provenance signal, if a verifier can detect it using only the DNA sequence, a key, and published detector settings, without knowing where the generated region starts, which strand it lies on, or how it was divided into six-base tokens. We embed the SynthID tournament wa
+
+## Semantic Watermarking with Order-Robust Detection over Sub-sentence Units
+2608.27666v1 | 2026-08-27 | Abdulrahman Diaa, Jonathan Petit, Florian Kerschbaum
+Semantic watermarks tie the mark to sentence meaning rather than token choices, promising robustness to content-preserving edits. However, the detector only observes attacker-supplied text, which can be reworded, reordered, or resegmented to evade detection without content loss. Rewording, reordering, and resegmentation all cause embedding displacement: detection tests embeddings different from th
+
+## A Locally Tokenized Generative Model for Robust Time-Series Watermarking
+2608.19727v1 | 2026-08-20 | Dongbin Kim, Geonwoo Shin, Yujin Choi, Soyeon Park et al.
+Watermarking is a central tool for provenance in generative models, yet its application to multivariate time series remains hindered by reliability failures under post-editing attacks. We show that existing detectors, which rely on globally coupled re-encoding, suffer from bidirectional drift of the null distribution: post-editing attacks can shift the z-score of non-watermarked samples in either 
+
+## CORE-BREW: LLR-Based Soft Decoding for Robust Multi-Bit LLM Watermarking
+2606.24163v2 | 2026-06-23 | Joeun Kim, HoEun Kim, Young-Sik Kim
+Reliable provenance for LLM outputs requires multi-bit watermarks that remain robust under editing while maintaining low false-positive rates. Existing ECC-based LLM watermarks rely on hard-decision decoding, discarding token-level reliability information and limiting robustness under post-generation edits. We propose CORE-BREW, a COnstant-hit-Rate Embedding extension of BREW for multi-bit waterma
+
+## Signature filtering: a lightweight enhancement for statistical watermark detection in large language models
+2606.18430v2 | 2026-06-16 | Chih-Duo Hong, Yen-Pang Chen, Fang Yu
+Statistical watermarks help organizations attribute large language model (LLM) outputs, yet existing detectors often struggle when watermark signals are weak, texts are repetitive, or watermarks are edited. We propose signature filtering, a detection-time module that enhances watermark detection without modifying watermark embedding and text generation. It learns a small set of ``signature'' token
+
+## Dataset Watermarking with Provable Black-Box Detection
+2605.06865v2 | 2026-05-07 | Pengrun Huang, Kamalika Chaudhuri, Yu-Xiang Wang
+Large Language Models (LLMs) are often pre-trained and post-trained on vast amounts of loosely curated data, and potentially have been trained on proprietary datasets or the benchmarks used for evaluation. This motivates dataset watermarking: designing datasets such that training on them leaves detectable signatures in the resulting model. Existing approaches embed watermarks by either injecting a
+
+## DMark: Order-Agnostic Watermarking for Diffusion Large Language Models
+2510.02902v1 | 2025-10-03 | Linyu Wu, Linhao Zhong, Wenjie Qu, Yuexin Li et al.
+Diffusion large language models (dLLMs) offer faster generation than autoregressive models while maintaining comparable quality, but existing watermarking methods fail on them due to their non-sequential decoding. Unlike autoregressive models that generate tokens left-to-right, dLLMs can finalize tokens in arbitrary order, breaking the causal design underlying traditional watermarks. We present DM
+
+## Agent Guide: A Simple Agent Behavioral Watermarking Framework
+2504.05871v3 | 2025-04-08 | Kaibo Huang, Zipei Zhang, Zhongliang Yang, Linna Zhou
+The increasing deployment of intelligent agents in digital ecosystems, such as social media platforms, has raised significant concerns about traceability and accountability, particularly in cybersecurity and digital content protection. Traditional large language model (LLM) watermarking techniques, which rely on token-level manipulations, are ill-suited for agents due to the challenges of behavior
+
+## Stylometric Watermarks for Large Language Models
+2405.08400v1 | 2024-05-14 | Georg Niess, Roman Kern
+The rapid advancement of large language models (LLMs) has made it increasingly difficult to distinguish between text written by humans and machines. Addressing this, we propose a novel method for generating watermarks that strategically alters token probabilities during generation. Unlike previous works, this method uniquely employs linguistic features such as stylometry. Concretely, we introduce 
+
+## Learnable Linguistic Watermarks for Tracing Model Extraction Attacks on Large Language Models
+2405.01509v1 | 2024-04-28 | Minhao Bai, Kaiyi Pang, Yongfeng Huang
+In the rapidly evolving domain of artificial intelligence, safeguarding the intellectual property of Large Language Models (LLMs) is increasingly crucial. Current watermarking techniques against model extraction attacks, which rely on signal insertion in model logits or post-processing of generated text, remain largely heuristic. We propose a novel method for embedding learnable linguistic waterma
+
+## FreqyWM: Frequency Watermarking for the New Data Economy
+2312.16547v1 | 2023-12-27 | Devriş İşler, Elisa Cabana, Alvaro Garcia-Recuero, Georgia Koutrika et al.
+We present a novel technique for modulating the appearance frequency of a few tokens within a dataset for encoding an invisible watermark that can be used to protect ownership rights upon data. We develop optimal as well as fast heuristic algorithms for creating and verifying such watermarks. We also demonstrate the robustness of our technique against various attacks and derive analytical bounds f
+
+## On the Reliability of Watermarks for Large Language Models
+2306.04634v4 | 2023-06-07 | John Kirchenbauer, Jonas Geiping, Yuxin Wen, Manli Shu et al.
+As LLMs become commonplace, machine-generated text has the potential to flood the internet with spam, social media bots, and valueless content. Watermarking is a simple and effective strategy for mitigating such harms by enabling the detection and documentation of LLM-generated text. Yet a crucial question remains: How reliable is watermarking in realistic settings in the wild? There, watermarked 
+

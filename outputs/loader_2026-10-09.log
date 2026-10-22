@@ -1,0 +1,75 @@
+start news-dolma-0000.json.gz (17:37:32Z)
+  news-dolma-0000.json.gz: 50000 records, 12s
+  news-dolma-0000.json.gz: 100000 records, 23s
+done news-dolma-0000.json.gz: {'physical_lines': 126673, 'unparseable_lines': 0, 'parsed_records': 126673} units=126673 (33s)
+start stackexchange-dolma-0000.json.gz (17:38:06Z)
+  stackexchange-dolma-0000.json.gz: 50000 records, 66s
+  stackexchange-dolma-0000.json.gz: 100000 records, 83s
+  stackexchange-dolma-0000.json.gz: 150000 records, 98s
+  stackexchange-dolma-0000.json.gz: 200000 records, 113s
+  stackexchange-dolma-0000.json.gz: 250000 records, 130s
+  stackexchange-dolma-0000.json.gz: 300000 records, 152s
+  stackexchange-dolma-0000.json.gz: 350000 records, 172s
+  stackexchange-dolma-0000.json.gz: 400000 records, 194s
+  stackexchange-dolma-0000.json.gz: 450000 records, 219s
+  stackexchange-dolma-0000.json.gz: 500000 records, 245s
+  stackexchange-dolma-0000.json.gz: 550000 records, 272s
+  stackexchange-dolma-0000.json.gz: 600000 records, 298s
+  stackexchange-dolma-0000.json.gz: 650000 records, 317s
+  stackexchange-dolma-0000.json.gz: 700000 records, 335s
+  stackexchange-dolma-0000.json.gz: 750000 records, 360s
+  stackexchange-dolma-0000.json.gz: 800000 records, 386s
+  stackexchange-dolma-0000.json.gz: 850000 records, 405s
+done stackexchange-dolma-0000.json.gz: {'physical_lines': 863130, 'unparseable_lines': 0, 'parsed_records': 863130} units=863130 (409s)
+start stackexchange-dolma-0022.json.gz (17:44:22Z)
+  stackexchange-dolma-0022.json.gz: 50000 records, 428s
+  stackexchange-dolma-0022.json.gz: 100000 records, 447s
+  stackexchange-dolma-0022.json.gz: 150000 records, 466s
+  stackexchange-dolma-0022.json.gz: 200000 records, 487s
+  stackexchange-dolma-0022.json.gz: 250000 records, 506s
+  stackexchange-dolma-0022.json.gz: 300000 records, 525s
+  stackexchange-dolma-0022.json.gz: 350000 records, 544s
+  stackexchange-dolma-0022.json.gz: 400000 records, 564s
+  stackexchange-dolma-0022.json.gz: 450000 records, 583s
+  stackexchange-dolma-0022.json.gz: 500000 records, 602s
+  stackexchange-dolma-0022.json.gz: 550000 records, 621s
+  stackexchange-dolma-0022.json.gz: 600000 records, 640s
+  stackexchange-dolma-0022.json.gz: 650000 records, 659s
+  stackexchange-dolma-0022.json.gz: 700000 records, 679s
+done stackexchange-dolma-0022.json.gz: {'physical_lines': 723470, 'unparseable_lines': 0, 'parsed_records': 723470} units=723470 (688s)
+start project_gutenberg-dolma-0000.json.gz (17:49:01Z)
+done project_gutenberg-dolma-0000.json.gz: {'physical_lines': 4025, 'unparseable_lines': 0, 'parsed_records': 4025} units=4025 (721s)
+start project_gutenberg-dolma-0003.json.gz (17:49:34Z)
+done project_gutenberg-dolma-0003.json.gz: {'physical_lines': 4004, 'unparseable_lines': 0, 'parsed_records': 4004} units=4004 (752s)
+start project_gutenberg-dolma-0007.json.gz (17:50:04Z)
+done project_gutenberg-dolma-0007.json.gz: {'physical_lines': 3305, 'unparseable_lines': 0, 'parsed_records': 3305} units=3305 (781s)
+start project_gutenberg-dolma-0011.json.gz (17:50:33Z)
+done project_gutenberg-dolma-0011.json.gz: {'physical_lines': 3966, 'unparseable_lines': 0, 'parsed_records': 3966} units=3966 (812s)
+start 20231101.ar/train-00000-of-00007.parquet (17:51:04Z)
+  20231101.ar/train-00000-of-00007.parquet: 50000 records, 848s
+  20231101.ar/train-00000-of-00007.parquet: 100000 records, 871s
+  20231101.ar/train-00000-of-00007.parquet: 150000 records, 891s
+done 20231101.ar/train-00000-of-00007.parquet: {'physical_lines': 174172, 'unparseable_lines': 0, 'parsed_records': 174172, 'footer_rows': 174172} units=174172 (899s)
+start 20231101.de/train-00000-of-00020.parquet (17:52:32Z)
+  20231101.de/train-00000-of-00020.parquet: 50000 records, 961s
+  20231101.de/train-00000-of-00020.parquet: 100000 records, 1006s
+done 20231101.de/train-00000-of-00020.parquet: {'physical_lines': 142266, 'unparseable_lines': 0, 'parsed_records': 142266, 'footer_rows': 142266} units=142266 (1038s)
+start 20231101.en/train-00000-of-00041.parquet (17:54:51Z)
+  20231101.en/train-00000-of-00041.parquet: 50000 records, 1068s
+  20231101.en/train-00000-of-00041.parquet: 100000 records, 1093s
+  20231101.en/train-00000-of-00041.parquet: 150000 records, 1118s
+done 20231101.en/train-00000-of-00041.parquet: {'physical_lines': 156289, 'unparseable_lines': 0, 'parsed_records': 156289, 'footer_rows': 156289} units=156289 (1122s)
+start 20231101.ja/train-00000-of-00015.parquet (17:56:14Z)
+  20231101.ja/train-00000-of-00015.parquet: 50000 records, 1188s
+done 20231101.ja/train-00000-of-00015.parquet: {'physical_lines': 92632, 'unparseable_lines': 0, 'parsed_records': 92632, 'footer_rows': 92632} units=92632 (1231s)
+start 20231101.ru/train-00000-of-00021.parquet (17:58:04Z)
+  20231101.ru/train-00000-of-00021.parquet: 50000 records, 1290s
+done 20231101.ru/train-00000-of-00021.parquet: {'physical_lines': 92623, 'unparseable_lines': 0, 'parsed_records': 92623, 'footer_rows': 92623} units=92623 (1328s)
+start 20231101.zh/train-00000-of-00006.parquet (17:59:40Z)
+  20231101.zh/train-00000-of-00006.parquet: 50000 records, 1367s
+  20231101.zh/train-00000-of-00006.parquet: 100000 records, 1388s
+  20231101.zh/train-00000-of-00006.parquet: 150000 records, 1408s
+  20231101.zh/train-00000-of-00006.parquet: 200000 records, 1426s
+done 20231101.zh/train-00000-of-00006.parquet: {'physical_lines': 230792, 'unparseable_lines': 0, 'parsed_records': 230792, 'footer_rows': 230792} units=230792 (1433s)
+WROTE outputs/corpora_units_v0.1 2617347 units 1433 s
+DONE

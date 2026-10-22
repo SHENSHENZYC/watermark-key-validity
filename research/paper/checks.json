@@ -1,0 +1,4095 @@
+{
+ "appendix_tables": {
+  "checks": [
+   {
+    "computed": 7.0,
+    "expected": 7.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix B1 (s1 rules) rows"
+   },
+   {
+    "computed": 5.0,
+    "expected": 5.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix B2 (s2 rules) rows"
+   },
+   {
+    "computed": 3.0,
+    "expected": 3.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix B3 (s3 rules) rows"
+   },
+   {
+    "computed": 3.0,
+    "expected": 3.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix B4 (s4 rules) rows"
+   },
+   {
+    "computed": 30.0,
+    "expected": 30.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D2a (s2 tokenizer_axis) rows"
+   },
+   {
+    "computed": 15.0,
+    "expected": 15.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D3a (s1 reduction) rows"
+   },
+   {
+    "computed": 3.0,
+    "expected": 3.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D3b (s2 reduction) rows"
+   },
+   {
+    "computed": 28.0,
+    "expected": 28.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D4a (s1 r1_failures) rows"
+   },
+   {
+    "computed": 39.0,
+    "expected": 39.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D4b (s2 s1_failures) rows"
+   },
+   {
+    "computed": 23.0,
+    "expected": 23.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D4c (s3 t1_failures) rows"
+   },
+   {
+    "computed": 5.0,
+    "expected": 5.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D4d (s4 w3_failures) rows"
+   },
+   {
+    "computed": 6.0,
+    "expected": 6.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D6a (s4 w2_rows) rows"
+   },
+   {
+    "computed": 6.0,
+    "expected": 6.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D6b (s4 w2_components) rows"
+   },
+   {
+    "computed": 36.0,
+    "expected": 36.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D7 (s4 model_null) rows"
+   },
+   {
+    "computed": 60.0,
+    "expected": 60.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D8a (s4 transfer) rows"
+   },
+   {
+    "computed": 32.0,
+    "expected": 32.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D8b (s3 remedy_diag) rows"
+   },
+   {
+    "computed": 15.0,
+    "expected": 15.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D9a (s4 quality) rows"
+   },
+   {
+    "computed": 18.0,
+    "expected": 18.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D9b (s4 pairing) rows"
+   },
+   {
+    "computed": 24.0,
+    "expected": 24.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D10a (s3 breakeven) rows"
+   },
+   {
+    "computed": 40.0,
+    "expected": 40.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D10b (s3 zcost) rows"
+   },
+   {
+    "computed": 48.0,
+    "expected": 48.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D10c (s3 calboot) rows"
+   },
+   {
+    "computed": 17.0,
+    "expected": 17.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D10d (s4 null_abstentions) rows"
+   },
+   {
+    "computed": 18.0,
+    "expected": 18.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D7b (s4 operating_points) rows"
+   },
+   {
+    "computed": 40.0,
+    "expected": 40.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D12a (s2 deployer_kgw) rows"
+   },
+   {
+    "computed": 40.0,
+    "expected": 40.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D12b (s2 deployer_gumbel) rows"
+   },
+   {
+    "computed": 120.0,
+    "expected": 120.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D13a (s3 remedy_class) rows"
+   },
+   {
+    "computed": 72.0,
+    "expected": 72.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D13b (s3 cross_tok) rows"
+   },
+   {
+    "computed": 80.0,
+    "expected": 80.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D13c (s3 t1_by_block) rows"
+   },
+   {
+    "computed": 24.0,
+    "expected": 24.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "appendix D11 (s2 language) rows"
+   },
+   {
+    "computed": 2590960.0,
+    "expected": 2590960.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "C1 total representatives = n_allowed_representatives"
+   },
+   {
+    "computed": 2590960.0,
+    "expected": 2590960.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "C1 open + holdout = allowed"
+   },
+   {
+    "computed": 2617347.0,
+    "expected": 2617347.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "C1 parsed = n_units"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "C1 unparseable = 0"
+   },
+   {
+    "computed": 19060.0,
+    "expected": 19060.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "C1 licence excluded = P1"
+   },
+   {
+    "computed": 1.493,
+    "expected": 1.49,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "E2 run hours s1"
+   },
+   {
+    "computed": 4.85,
+    "expected": 4.85,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "E2 run hours s2"
+   },
+   {
+    "computed": 0.967,
+    "expected": 0.967,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "E2 run hours s3"
+   },
+   {
+    "computed": 11.859,
+    "expected": 11.859,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "E2 run hours s4"
+   },
+   {
+    "computed": 309.0,
+    "expected": 309.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "D5 S1 stored crossed count = recomputed"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "D5 S1 mismatch_se = 0"
+   },
+   {
+    "computed": 0.873909016672493,
+    "expected": 0.874,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b news/en@256 h0 predicted"
+   },
+   {
+    "computed": 0.8633618512355905,
+    "expected": 0.863,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b news/en@256 h0 observed"
+   },
+   {
+    "computed": 0.3989052663394775,
+    "expected": 0.399,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b news/en@256 h1 predicted"
+   },
+   {
+    "computed": 0.38726538711326525,
+    "expected": 0.387,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b news/en@256 h1 observed"
+   },
+   {
+    "computed": 0.8990913554906187,
+    "expected": 0.899,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/en@256 h0 predicted"
+   },
+   {
+    "computed": 0.8899185424141794,
+    "expected": 0.89,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/en@256 h0 observed"
+   },
+   {
+    "computed": 0.4470610552340067,
+    "expected": 0.447,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/en@256 h1 predicted"
+   },
+   {
+    "computed": 0.40804927802183677,
+    "expected": 0.408,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/en@256 h1 observed"
+   },
+   {
+    "computed": 0.8551151253142996,
+    "expected": 0.855,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b stackexchange/en@256 h0 predicted"
+   },
+   {
+    "computed": 0.8441866436295962,
+    "expected": 0.844,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b stackexchange/en@256 h0 observed"
+   },
+   {
+    "computed": 0.44074792122833434,
+    "expected": 0.441,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b stackexchange/en@256 h1 predicted"
+   },
+   {
+    "computed": 0.4553234346376058,
+    "expected": 0.455,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b stackexchange/en@256 h1 observed"
+   },
+   {
+    "computed": 0.9078596462240023,
+    "expected": 0.908,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/en@1024 h0 predicted"
+   },
+   {
+    "computed": 0.8987021819901136,
+    "expected": 0.899,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/en@1024 h0 observed"
+   },
+   {
+    "computed": 0.4820314733449608,
+    "expected": 0.482,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/en@1024 h1 predicted"
+   },
+   {
+    "computed": 0.4404582826664177,
+    "expected": 0.44,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/en@1024 h1 observed"
+   },
+   {
+    "computed": 0.9441889952833794,
+    "expected": 0.944,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b gutenberg/en@1024 h0 predicted"
+   },
+   {
+    "computed": 0.9378311368371162,
+    "expected": 0.938,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b gutenberg/en@1024 h0 observed"
+   },
+   {
+    "computed": 0.7656444932415262,
+    "expected": 0.766,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b gutenberg/en@1024 h1 predicted"
+   },
+   {
+    "computed": 0.7829811733707073,
+    "expected": 0.783,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b gutenberg/en@1024 h1 observed"
+   },
+   {
+    "computed": 0.5791778953829462,
+    "expected": 0.579,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/de@256 h0 predicted"
+   },
+   {
+    "computed": 0.5671656195852989,
+    "expected": 0.567,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/de@256 h0 observed"
+   },
+   {
+    "computed": 0.08358543661459733,
+    "expected": 0.084,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/de@256 h1 predicted"
+   },
+   {
+    "computed": 0.06780812613386922,
+    "expected": 0.068,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/de@256 h1 observed"
+   },
+   {
+    "computed": 0.414583283433115,
+    "expected": 0.415,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/ru@256 h0 predicted"
+   },
+   {
+    "computed": 0.41010853016442567,
+    "expected": 0.41,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/ru@256 h0 observed"
+   },
+   {
+    "computed": 0.02771713718797281,
+    "expected": 0.028,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/ru@256 h1 predicted"
+   },
+   {
+    "computed": -0.002262901248612864,
+    "expected": -0.00226,
+    "ok": true,
+    "tol": 1.1300001e-05,
+    "what": "D2b wikipedia/ru@256 h1 observed"
+   },
+   {
+    "computed": 0.17127773621566306,
+    "expected": 0.171,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/ar@256 h0 predicted"
+   },
+   {
+    "computed": 0.1603588229465315,
+    "expected": 0.16,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/ar@256 h0 observed"
+   },
+   {
+    "computed": 0.03825863682452429,
+    "expected": 0.038,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/ar@256 h1 predicted"
+   },
+   {
+    "computed": 0.005699129823249161,
+    "expected": 0.0057,
+    "ok": true,
+    "tol": 2.8500001e-05,
+    "what": "D2b wikipedia/ar@256 h1 observed"
+   },
+   {
+    "computed": 0.06642481625943861,
+    "expected": 0.066,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/zh@256 h0 predicted"
+   },
+   {
+    "computed": 0.08742119873053228,
+    "expected": 0.087,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/zh@256 h0 observed"
+   },
+   {
+    "computed": 0.005643136112561566,
+    "expected": 0.00564,
+    "ok": true,
+    "tol": 2.8200001e-05,
+    "what": "D2b wikipedia/zh@256 h1 predicted"
+   },
+   {
+    "computed": 0.0075088515083541725,
+    "expected": 0.00751,
+    "ok": true,
+    "tol": 3.755000100000001e-05,
+    "what": "D2b wikipedia/zh@256 h1 observed"
+   },
+   {
+    "computed": 0.06534642226118215,
+    "expected": 0.065,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/ja@256 h0 predicted"
+   },
+   {
+    "computed": 0.09563408824923032,
+    "expected": 0.096,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/ja@256 h0 observed"
+   },
+   {
+    "computed": 0.004867798810502617,
+    "expected": 0.00487,
+    "ok": true,
+    "tol": 2.4350001000000002e-05,
+    "what": "D2b wikipedia/ja@256 h1 predicted"
+   },
+   {
+    "computed": -0.0125088849526331,
+    "expected": -0.013,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "D2b wikipedia/ja@256 h1 observed"
+   },
+   {
+    "computed": 410.0,
+    "expected": 410.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "D2b ids with the same string"
+   },
+   {
+    "computed": 128256.0,
+    "expected": 128256.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "D2b ids compared"
+   }
+  ],
+  "n": 82,
+  "n_failed": 0
+ },
+ "fig1_deployer": {
+  "checks": [
+   {
+    "computed": 4.840199999999999,
+    "expected": 4.8,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "F1 dep_raw_h1_q99_range min"
+   },
+   {
+    "computed": 38.2928,
+    "expected": 38.3,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "F1 dep_raw_h1_q99_range max"
+   },
+   {
+    "computed": 6.11,
+    "expected": 6.1,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "F1 dep_raw_h1_worst_range min"
+   },
+   {
+    "computed": 51.559999999999995,
+    "expected": 51.6,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "F1 dep_raw_h1_worst_range max"
+   },
+   {
+    "computed": 2.23,
+    "expected": 2.23,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F1 dep_raw_h1_median_range min"
+   },
+   {
+    "computed": 6.279999999999999,
+    "expected": 6.28,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F1 dep_raw_h1_median_range max"
+   },
+   {
+    "computed": 1.91,
+    "expected": 1.9,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "F1 dep_distinct_h1_q99_range min"
+   },
+   {
+    "computed": 3.650299999999999,
+    "expected": 3.7,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "F1 dep_distinct_h1_q99_range max"
+   },
+   {
+    "computed": 2.19,
+    "expected": 2.2,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "F1 dep_distinct_h1_worst_range min"
+   },
+   {
+    "computed": 6.58,
+    "expected": 6.6,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "F1 dep_distinct_h1_worst_range max"
+   },
+   {
+    "computed": 0.9199999999999999,
+    "expected": 0.92,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F1 dep_distinct_h1_median_range min"
+   },
+   {
+    "computed": 1.13,
+    "expected": 1.13,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F1 dep_distinct_h1_median_range max"
+   },
+   {
+    "computed": 1.67,
+    "expected": 1.7,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "F1 depg_distinct_h1_q99_range min"
+   },
+   {
+    "computed": 3.0210999999999992,
+    "expected": 3.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "F1 depg_distinct_h1_q99_range max"
+   },
+   {
+    "computed": 2.4299999999999997,
+    "expected": 2.4,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "F1 depg_distinct_h1_worst_range min"
+   },
+   {
+    "computed": 6.32,
+    "expected": 6.3,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "F1 depg_distinct_h1_worst_range max"
+   }
+  ],
+  "n": 16,
+  "n_failed": 0
+ },
+ "fig2_length": {
+  "checks": [
+   {
+    "computed": 100.0,
+    "expected": 100.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F2 S4 chains"
+   },
+   {
+    "computed": 24.0,
+    "expected": 24.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F2 S4 failing"
+   }
+  ],
+  "n": 2,
+  "n_failed": 0
+ },
+ "fig3_domain": {
+  "checks": [
+   {
+    "computed": 0.5616822924579797,
+    "expected": 0.562,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "F3 corr_llama_kgw_h1_distinct_en_en_median"
+   },
+   {
+    "computed": 0.026878397906697164,
+    "expected": 0.027,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "F3 corr_llama_kgw_h1_distinct_en_other_median"
+   },
+   {
+    "computed": 0.020643362648222578,
+    "expected": 0.021,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "F3 corr_llama_kgw_h1_distinct_other_other_median"
+   },
+   {
+    "computed": 0.827194422368542,
+    "expected": 0.827,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "F3 corr_llama_kgw_h0_raw_en_en_median"
+   },
+   {
+    "computed": 0.1250158748359183,
+    "expected": 0.125,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "F3 corr_llama_kgw_h0_raw_en_other_median"
+   },
+   {
+    "computed": 0.050692105737560486,
+    "expected": 0.051,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "F3 corr_llama_kgw_h0_raw_other_other_median"
+   },
+   {
+    "computed": 0.5443558817440867,
+    "expected": 0.544,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "F3 corr_qwen_kgw_h1_distinct_en_en_median"
+   },
+   {
+    "computed": 0.23341176520498422,
+    "expected": 0.233,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "F3 corr_qwen_kgw_h1_distinct_en_other_median"
+   },
+   {
+    "computed": 0.28345537804816273,
+    "expected": 0.283,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "F3 corr_qwen_kgw_h1_distinct_other_other_median"
+   }
+  ],
+  "n": 9,
+  "n_failed": 0
+ },
+ "fig4_remedies": {
+  "checks": [
+   {
+    "computed": 2.1999999999999997,
+    "expected": 2.2,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_nominal median key min"
+   },
+   {
+    "computed": 4.14,
+    "expected": 4.14,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_nominal median key max"
+   },
+   {
+    "computed": 4.7802,
+    "expected": 4.78,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_nominal 99% key min"
+   },
+   {
+    "computed": 14.4615,
+    "expected": 14.46,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_nominal 99% key max"
+   },
+   {
+    "computed": 7.8104499999999994,
+    "expected": 7.81,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_nominal q99 median"
+   },
+   {
+    "computed": 0.25,
+    "expected": 0.25,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_multiplier20 median key min"
+   },
+   {
+    "computed": 0.855,
+    "expected": 0.85,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_multiplier20 median key max"
+   },
+   {
+    "computed": 0.8,
+    "expected": 0.8,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_multiplier20 99% key min"
+   },
+   {
+    "computed": 3.9110999999999994,
+    "expected": 3.91,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_multiplier20 99% key max"
+   },
+   {
+    "computed": 1.8728674810446502,
+    "expected": 1.87,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_multiplier20 q99 median"
+   },
+   {
+    "computed": 0.13999999999999999,
+    "expected": 0.14,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_empirical median key min"
+   },
+   {
+    "computed": 0.5549999999999999,
+    "expected": 0.55,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_empirical median key max"
+   },
+   {
+    "computed": 0.9701,
+    "expected": 0.97,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_empirical 99% key min"
+   },
+   {
+    "computed": 1.8002999999999996,
+    "expected": 1.8,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_empirical 99% key max"
+   },
+   {
+    "computed": 1.344898806515023,
+    "expected": 1.34,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_empirical q99 median"
+   },
+   {
+    "computed": 0.5,
+    "expected": 0.5,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_pooled median key min"
+   },
+   {
+    "computed": 0.95,
+    "expected": 0.95,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_pooled median key max"
+   },
+   {
+    "computed": 1.4002,
+    "expected": 1.4,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_pooled 99% key min"
+   },
+   {
+    "computed": 4.141699999999998,
+    "expected": 4.14,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_pooled 99% key max"
+   },
+   {
+    "computed": 2.4957499999999992,
+    "expected": 2.5,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_pooled q99 median"
+   },
+   {
+    "computed": 0.7799999999999999,
+    "expected": 0.78,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_conformal1000 median key min"
+   },
+   {
+    "computed": 0.91,
+    "expected": 0.91,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_conformal1000 median key max"
+   },
+   {
+    "computed": 1.5601999999999998,
+    "expected": 1.56,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_conformal1000 99% key min"
+   },
+   {
+    "computed": 1.8803999999999998,
+    "expected": 1.88,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_conformal1000 99% key max"
+   },
+   {
+    "computed": 1.6901499999999996,
+    "expected": 1.69,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_conformal1000 q99 median"
+   },
+   {
+    "computed": 0.8099999999999999,
+    "expected": 0.81,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_conformal5000 median key min"
+   },
+   {
+    "computed": 0.9126649817467004,
+    "expected": 0.91,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_conformal5000 median key max"
+   },
+   {
+    "computed": 1.2103999999999997,
+    "expected": 1.21,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_conformal5000 99% key min"
+   },
+   {
+    "computed": 1.4200000000000002,
+    "expected": 1.42,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_conformal5000 99% key max"
+   },
+   {
+    "computed": 1.3,
+    "expected": 1.3,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_conformal5000 q99 median"
+   },
+   {
+    "computed": 0.37,
+    "expected": 0.37,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_tolerance1000 median key min"
+   },
+   {
+    "computed": 0.4493119910137602,
+    "expected": 0.45,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_tolerance1000 median key max"
+   },
+   {
+    "computed": 0.9802999999999997,
+    "expected": 0.98,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_tolerance1000 99% key min"
+   },
+   {
+    "computed": 1.1501,
+    "expected": 1.15,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_tolerance1000 99% key max"
+   },
+   {
+    "computed": 1.0351499999999998,
+    "expected": 1.04,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_tolerance1000 q99 median"
+   },
+   {
+    "computed": 0.63,
+    "expected": 0.63,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_tolerance5000 median key min"
+   },
+   {
+    "computed": 0.7160909856781803,
+    "expected": 0.72,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_tolerance5000 median key max"
+   },
+   {
+    "computed": 0.9900000000000001,
+    "expected": 0.99,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_tolerance5000 99% key min"
+   },
+   {
+    "computed": 1.1374613872507722,
+    "expected": 1.14,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_tolerance5000 99% key max"
+   },
+   {
+    "computed": 1.0651499999999998,
+    "expected": 1.07,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_raw_tolerance5000 q99 median"
+   },
+   {
+    "computed": 0.97,
+    "expected": 0.97,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_nominal median key min"
+   },
+   {
+    "computed": 1.13,
+    "expected": 1.13,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_nominal median key max"
+   },
+   {
+    "computed": 1.9900999999999998,
+    "expected": 1.99,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_nominal 99% key min"
+   },
+   {
+    "computed": 3.2604999999999995,
+    "expected": 3.26,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_nominal 99% key max"
+   },
+   {
+    "computed": 2.4403499999999996,
+    "expected": 2.44,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_nominal q99 median"
+   },
+   {
+    "computed": 0.05616399887672002,
+    "expected": 0.06,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_multiplier20 median key min"
+   },
+   {
+    "computed": 0.06999999999999999,
+    "expected": 0.07,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_multiplier20 median key max"
+   },
+   {
+    "computed": 0.18,
+    "expected": 0.18,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_multiplier20 99% key min"
+   },
+   {
+    "computed": 0.3101999999999998,
+    "expected": 0.31,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_multiplier20 99% key max"
+   },
+   {
+    "computed": 0.2246559955068801,
+    "expected": 0.22,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_multiplier20 q99 median"
+   },
+   {
+    "computed": 0.37,
+    "expected": 0.37,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_empirical median key min"
+   },
+   {
+    "computed": 0.63,
+    "expected": 0.63,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_empirical median key max"
+   },
+   {
+    "computed": 1.081297388374052,
+    "expected": 1.08,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_empirical 99% key min"
+   },
+   {
+    "computed": 1.5202999999999998,
+    "expected": 1.52,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_empirical 99% key max"
+   },
+   {
+    "computed": 1.3251999999999997,
+    "expected": 1.33,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_empirical q99 median"
+   },
+   {
+    "computed": 0.8500000000000001,
+    "expected": 0.85,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_pooled median key min"
+   },
+   {
+    "computed": 0.9900000000000001,
+    "expected": 0.99,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_pooled median key max"
+   },
+   {
+    "computed": 1.6904999999999992,
+    "expected": 1.69,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_pooled 99% key min"
+   },
+   {
+    "computed": 2.8802,
+    "expected": 2.88,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_pooled 99% key max"
+   },
+   {
+    "computed": 2.18,
+    "expected": 2.18,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_pooled q99 median"
+   },
+   {
+    "computed": 0.9299999999999999,
+    "expected": 0.93,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_conformal1000 median key min"
+   },
+   {
+    "computed": 0.9900000000000001,
+    "expected": 0.99,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_conformal1000 median key max"
+   },
+   {
+    "computed": 1.8000999999999996,
+    "expected": 1.8,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_conformal1000 99% key min"
+   },
+   {
+    "computed": 2.0602,
+    "expected": 2.06,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_conformal1000 99% key max"
+   },
+   {
+    "computed": 1.9452499999999997,
+    "expected": 1.95,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_conformal1000 q99 median"
+   },
+   {
+    "computed": 0.97,
+    "expected": 0.97,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_conformal5000 median key min"
+   },
+   {
+    "computed": 1.0,
+    "expected": 1.0,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_conformal5000 median key max"
+   },
+   {
+    "computed": 1.3800999999999999,
+    "expected": 1.38,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_conformal5000 99% key min"
+   },
+   {
+    "computed": 1.5023869699522605,
+    "expected": 1.5,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_conformal5000 99% key max"
+   },
+   {
+    "computed": 1.43,
+    "expected": 1.43,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_conformal5000 q99 median"
+   },
+   {
+    "computed": 0.4493119910137602,
+    "expected": 0.45,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_tolerance1000 median key min"
+   },
+   {
+    "computed": 0.47000000000000003,
+    "expected": 0.47,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_tolerance1000 median key max"
+   },
+   {
+    "computed": 1.1300999999999999,
+    "expected": 1.13,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_tolerance1000 99% key min"
+   },
+   {
+    "computed": 1.2407999999999992,
+    "expected": 1.24,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_tolerance1000 99% key max"
+   },
+   {
+    "computed": 1.1751999999999998,
+    "expected": 1.18,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_tolerance1000 q99 median"
+   },
+   {
+    "computed": 0.76,
+    "expected": 0.76,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_tolerance5000 median key min"
+   },
+   {
+    "computed": 0.7799999999999999,
+    "expected": 0.78,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_tolerance5000 median key max"
+   },
+   {
+    "computed": 1.1199999999999999,
+    "expected": 1.12,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_tolerance5000 99% key min"
+   },
+   {
+    "computed": 1.2356079752878404,
+    "expected": 1.24,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_tolerance5000 99% key max"
+   },
+   {
+    "computed": 1.17015,
+    "expected": 1.17,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F4 rem_h1_distinct_tolerance5000 q99 median"
+   }
+  ],
+  "n": 80,
+  "n_failed": 0
+ },
+ "fig5_transfer": {
+  "checks": [],
+  "n": 0,
+  "n_failed": 0
+ },
+ "fig6_operating_points": {
+  "checks": [
+   {
+    "computed": 86.0,
+    "expected": 86.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 news nominal share above \u03b1 (corpus)"
+   },
+   {
+    "computed": 90.0,
+    "expected": 90.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 news nominal share above \u03b1 (model null)"
+   },
+   {
+    "computed": 0.6465818602030378,
+    "expected": 0.65,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F6 news nominal corr"
+   },
+   {
+    "computed": 3.0,
+    "expected": 3.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 news multiplier20 share above \u03b1 (corpus)"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 news empirical share above \u03b1 (corpus)"
+   },
+   {
+    "computed": 22.0,
+    "expected": 22.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 news pooled share above \u03b1 (corpus)"
+   },
+   {
+    "computed": 21.0,
+    "expected": 21.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 news conformal@5000 share above \u03b1 (corpus)"
+   },
+   {
+    "computed": 23.0,
+    "expected": 23.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 news conformal@5000 share above \u03b1 (model null)"
+   },
+   {
+    "computed": 0.28011105242241335,
+    "expected": 0.28,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F6 news conformal@5000 corr"
+   },
+   {
+    "computed": 3.0,
+    "expected": 3.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 news tolerance@5000 share above \u03b1 (corpus)"
+   },
+   {
+    "computed": 95.0,
+    "expected": 95.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 wikipedia nominal share above \u03b1 (corpus)"
+   },
+   {
+    "computed": 95.0,
+    "expected": 95.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 wikipedia nominal share above \u03b1 (model null)"
+   },
+   {
+    "computed": 0.6605411496775264,
+    "expected": 0.66,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F6 wikipedia nominal corr"
+   },
+   {
+    "computed": 17.0,
+    "expected": 17.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 wikipedia multiplier20 share above \u03b1 (corpus)"
+   },
+   {
+    "computed": 3.0,
+    "expected": 3.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 wikipedia empirical share above \u03b1 (corpus)"
+   },
+   {
+    "computed": 17.0,
+    "expected": 17.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 wikipedia pooled share above \u03b1 (corpus)"
+   },
+   {
+    "computed": 12.0,
+    "expected": 12.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 wikipedia conformal@5000 share above \u03b1 (corpus)"
+   },
+   {
+    "computed": 18.0,
+    "expected": 18.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 wikipedia conformal@5000 share above \u03b1 (model null)"
+   },
+   {
+    "computed": 0.3117903559892996,
+    "expected": 0.31,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F6 wikipedia conformal@5000 corr"
+   },
+   {
+    "computed": 2.0,
+    "expected": 2.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 wikipedia tolerance@5000 share above \u03b1 (corpus)"
+   },
+   {
+    "computed": 100.0,
+    "expected": 100.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 stackexchange nominal share above \u03b1 (corpus)"
+   },
+   {
+    "computed": 100.0,
+    "expected": 100.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 stackexchange nominal share above \u03b1 (model null)"
+   },
+   {
+    "computed": 0.5710651673212849,
+    "expected": 0.57,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F6 stackexchange nominal corr"
+   },
+   {
+    "computed": 28.000000000000004,
+    "expected": 28.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 stackexchange multiplier20 share above \u03b1 (corpus)"
+   },
+   {
+    "computed": 3.0,
+    "expected": 3.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 stackexchange empirical share above \u03b1 (corpus)"
+   },
+   {
+    "computed": 42.0,
+    "expected": 42.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 stackexchange pooled share above \u03b1 (corpus)"
+   },
+   {
+    "computed": 24.0,
+    "expected": 24.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 stackexchange conformal@5000 share above \u03b1 (corpus)"
+   },
+   {
+    "computed": 45.0,
+    "expected": 45.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 stackexchange conformal@5000 share above \u03b1 (model null)"
+   },
+   {
+    "computed": 0.21792018746224454,
+    "expected": 0.22,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "F6 stackexchange conformal@5000 corr"
+   },
+   {
+    "computed": 1.0,
+    "expected": 1.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "F6 stackexchange tolerance@5000 share above \u03b1 (corpus)"
+   }
+  ],
+  "n": 30,
+  "n_failed": 0
+ },
+ "tables": {
+  "checks": [
+   {
+    "computed": 152.0,
+    "expected": 152.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s1 R1 consistent"
+   },
+   {
+    "computed": 152.0,
+    "expected": 152.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s1 R1 resolved"
+   },
+   {
+    "computed": 28.0,
+    "expected": 28.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s1 R1 unresolved"
+   },
+   {
+    "computed": 180.0,
+    "expected": 180.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s1 R1 eligible"
+   },
+   {
+    "computed": 360.0,
+    "expected": 360.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s1 R1 candidates"
+   },
+   {
+    "computed": 891.0,
+    "expected": 891.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s1 R2 checks"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s1 R2 flagged"
+   },
+   {
+    "computed": 18.0,
+    "expected": 18.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s1 R2 zeros"
+   },
+   {
+    "computed": 1098.0,
+    "expected": 1098.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s1 R3 checks"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s1 R3 gross"
+   },
+   {
+    "computed": 28.305257601668455,
+    "expected": 28.3,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T1 s1 R3 max reduction"
+   },
+   {
+    "computed": 40.0,
+    "expected": 40.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s1 R4 chains"
+   },
+   {
+    "computed": 4.0,
+    "expected": 4.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s1 R4b n"
+   },
+   {
+    "computed": 48.0,
+    "expected": 48.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s1 R5 chains"
+   },
+   {
+    "computed": 178.0,
+    "expected": 178.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s2 S1 consistent"
+   },
+   {
+    "computed": 184.0,
+    "expected": 184.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s2 S1 resolved"
+   },
+   {
+    "computed": 6.0,
+    "expected": 6.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s2 S1 inconsistent"
+   },
+   {
+    "computed": 33.0,
+    "expected": 33.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s2 S1 unresolved"
+   },
+   {
+    "computed": 217.0,
+    "expected": 217.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s2 S1 eligible"
+   },
+   {
+    "computed": 544.0,
+    "expected": 544.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s2 S1 candidate"
+   },
+   {
+    "computed": 3060.0,
+    "expected": 3060.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s2 S2 checks"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s2 S2 flagged"
+   },
+   {
+    "computed": 3468.0,
+    "expected": 3468.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s2 S3 checks"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s2 S3 gross"
+   },
+   {
+    "computed": 100.0,
+    "expected": 100.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s2 S4 chains"
+   },
+   {
+    "computed": 24.0,
+    "expected": 24.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s2 S4 failing"
+   },
+   {
+    "computed": 40.0,
+    "expected": 40.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s2 S5 chains"
+   },
+   {
+    "computed": 40.0,
+    "expected": 40.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s2 S5 holding"
+   },
+   {
+    "computed": 1471.0,
+    "expected": 1471.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s3 T1 consistent"
+   },
+   {
+    "computed": 1474.0,
+    "expected": 1474.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s3 T1 resolved"
+   },
+   {
+    "computed": 20.0,
+    "expected": 20.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s3 T1 unresolved"
+   },
+   {
+    "computed": 1494.0,
+    "expected": 1494.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s3 T1 eligible"
+   },
+   {
+    "computed": 1600.0,
+    "expected": 1600.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s3 T1 rows"
+   },
+   {
+    "computed": 3.0,
+    "expected": 3.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s3 T1 inconsistent"
+   },
+   {
+    "computed": 875.0,
+    "expected": 875.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s3 T2 agree"
+   },
+   {
+    "computed": 875.0,
+    "expected": 875.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s3 T2 resolved"
+   },
+   {
+    "computed": 4.0,
+    "expected": 4.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s3 T2 unresolved"
+   },
+   {
+    "computed": 879.0,
+    "expected": 879.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s3 T2 material"
+   },
+   {
+    "computed": 108.0,
+    "expected": 108.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s3 REP checks"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T1 s3 REP gross"
+   },
+   {
+    "computed": 2.0,
+    "expected": 2.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "T1 s4 W1 consistent"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "T1 s4 W1 inconsistent"
+   },
+   {
+    "computed": 1.0,
+    "expected": 1.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "T1 s4 W1 unresolved"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "T1 s4 W2 agree"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "T1 s4 W2 disagree"
+   },
+   {
+    "computed": 6.0,
+    "expected": 6.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "T1 s4 W2 unresolved"
+   },
+   {
+    "computed": 216.0,
+    "expected": 216.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "T1 s4 W3 consistent"
+   },
+   {
+    "computed": 216.0,
+    "expected": 216.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "T1 s4 W3 resolved"
+   },
+   {
+    "computed": 5.0,
+    "expected": 5.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "T1 s4 W3 unresolved"
+   },
+   {
+    "computed": 221.0,
+    "expected": 221.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "T1 s4 W3 eligible"
+   },
+   {
+    "computed": 240.0,
+    "expected": 240.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "T1 s4 W3 candidate"
+   },
+   {
+    "computed": 1.493,
+    "expected": 1.49,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T1 s1 run hours"
+   },
+   {
+    "computed": 4.85,
+    "expected": 4.85,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T1 s2 run hours"
+   },
+   {
+    "computed": 0.967,
+    "expected": 0.967,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "T1 s3 run hours"
+   },
+   {
+    "computed": 11.859,
+    "expected": 11.859,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "T1 s4 run hours"
+   },
+   {
+    "computed": 2.23,
+    "expected": 2.23,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T2 raw h1 median key min"
+   },
+   {
+    "computed": 6.279999999999999,
+    "expected": 6.28,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T2 raw h1 median key max"
+   },
+   {
+    "computed": 4.840199999999999,
+    "expected": 4.8,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T2 raw h1 99% key min"
+   },
+   {
+    "computed": 38.2928,
+    "expected": 38.3,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T2 raw h1 99% key max"
+   },
+   {
+    "computed": 6.11,
+    "expected": 6.1,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T2 raw h1 worst key min"
+   },
+   {
+    "computed": 51.559999999999995,
+    "expected": 51.6,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T2 raw h1 worst key max"
+   },
+   {
+    "computed": 55.50000000000001,
+    "expected": 55.5,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T2 raw h1 share 2\u03b1 min"
+   },
+   {
+    "computed": 100.0,
+    "expected": 100.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T2 raw h1 share 2\u03b1 max"
+   },
+   {
+    "computed": 0.9199999999999999,
+    "expected": 0.92,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T2 dep_distinct_h1_median_range min"
+   },
+   {
+    "computed": 1.13,
+    "expected": 1.13,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T2 dep_distinct_h1_median_range max"
+   },
+   {
+    "computed": 1.91,
+    "expected": 1.9,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T2 dep_distinct_h1_q99_range min"
+   },
+   {
+    "computed": 3.650299999999999,
+    "expected": 3.7,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T2 dep_distinct_h1_q99_range max"
+   },
+   {
+    "computed": 2.19,
+    "expected": 2.2,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T2 dep_distinct_h1_worst_range min"
+   },
+   {
+    "computed": 6.58,
+    "expected": 6.6,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T2 dep_distinct_h1_worst_range max"
+   },
+   {
+    "computed": 0.5,
+    "expected": 0.5,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T2 dep_distinct_h1_share2_range min"
+   },
+   {
+    "computed": 10.299999999999999,
+    "expected": 10.3,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T2 dep_distinct_h1_share2_range max"
+   },
+   {
+    "computed": 1.0931899999999999,
+    "expected": 1.09,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T2 dep_distinct_h1_keymean_range min"
+   },
+   {
+    "computed": 1.18169,
+    "expected": 1.18,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T2 dep_distinct_h1_keymean_range max"
+   },
+   {
+    "computed": 2.52181,
+    "expected": 2.52,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T2 dep_raw_h1_keymean_range min"
+   },
+   {
+    "computed": 8.65352,
+    "expected": 8.65,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T2 dep_raw_h1_keymean_range max"
+   },
+   {
+    "computed": 0.9788599999999998,
+    "expected": 0.98,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T2 depg_distinct_h1_keymean_range min"
+   },
+   {
+    "computed": 1.01291,
+    "expected": 1.01,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T2 depg_distinct_h1_keymean_range max"
+   },
+   {
+    "computed": 1.67,
+    "expected": 1.7,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T2 depg_distinct_h1_q99_range min"
+   },
+   {
+    "computed": 3.0210999999999992,
+    "expected": 3.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T2 depg_distinct_h1_q99_range max"
+   },
+   {
+    "computed": 2.4299999999999997,
+    "expected": 2.4,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T2 depg_distinct_h1_worst_range min"
+   },
+   {
+    "computed": 6.32,
+    "expected": 6.3,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T2 depg_distinct_h1_worst_range max"
+   },
+   {
+    "computed": 152.0,
+    "expected": 152.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 primary: \u03b3 = 0.5, raw and distinct, \u03b1 = 0.01 (R1) r1_consistent"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 primary: \u03b3 = 0.5, raw and distinct, \u03b1 = 0.01 (R1) r1_inconsistent"
+   },
+   {
+    "computed": 28.0,
+    "expected": 28.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 primary: \u03b3 = 0.5, raw and distinct, \u03b1 = 0.01 (R1) r1_unresolved"
+   },
+   {
+    "computed": 180.0,
+    "expected": 180.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 primary: \u03b3 = 0.5, raw and distinct, \u03b1 = 0.01 (R1) r1_eligible"
+   },
+   {
+    "computed": 152.0,
+    "expected": 152.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 primary: \u03b3 = 0.5, raw and distinct, \u03b1 = 0.01 (R1) resolved"
+   },
+   {
+    "computed": 0.9779674087135518,
+    "expected": 0.978,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "T3 1 primary: \u03b3 = 0.5, raw and distinct, \u03b1 = 0.01 (R1) median ratio"
+   },
+   {
+    "computed": 204.0,
+    "expected": 204.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 \u03b1 = 0.05 sec_alpha_0.05_consistent"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 \u03b1 = 0.05 sec_alpha_0.05_inconsistent"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 \u03b1 = 0.05 sec_alpha_0.05_unresolved"
+   },
+   {
+    "computed": 204.0,
+    "expected": 204.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 \u03b1 = 0.05 sec_alpha_0.05_eligible"
+   },
+   {
+    "computed": 204.0,
+    "expected": 204.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 \u03b1 = 0.05 resolved"
+   },
+   {
+    "computed": 0.983229234708388,
+    "expected": 0.983,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "T3 1 \u03b1 = 0.05 median ratio"
+   },
+   {
+    "computed": 71.0,
+    "expected": 71.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 \u03b1 = 0.001 sec_alpha_0.001_consistent"
+   },
+   {
+    "computed": 3.0,
+    "expected": 3.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 \u03b1 = 0.001 sec_alpha_0.001_inconsistent"
+   },
+   {
+    "computed": 61.0,
+    "expected": 61.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 \u03b1 = 0.001 sec_alpha_0.001_unresolved"
+   },
+   {
+    "computed": 135.0,
+    "expected": 135.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 \u03b1 = 0.001 sec_alpha_0.001_eligible"
+   },
+   {
+    "computed": 74.0,
+    "expected": 74.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 \u03b1 = 0.001 resolved"
+   },
+   {
+    "computed": 0.999393718719949,
+    "expected": 0.999,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "T3 1 \u03b1 = 0.001 median ratio"
+   },
+   {
+    "computed": 26.0,
+    "expected": 26.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the first rule sec_first_rule_consistent"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the first rule sec_first_rule_inconsistent"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the first rule sec_first_rule_unresolved"
+   },
+   {
+    "computed": 26.0,
+    "expected": 26.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the first rule sec_first_rule_eligible"
+   },
+   {
+    "computed": 26.0,
+    "expected": 26.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the first rule resolved"
+   },
+   {
+    "computed": 0.9921269188907247,
+    "expected": 0.992,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "T3 1 the first rule median ratio"
+   },
+   {
+    "computed": 47.0,
+    "expected": 47.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 \u03b3 = 0.25 (two laws) sec_gamma_extra_consistent"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 \u03b3 = 0.25 (two laws) sec_gamma_extra_inconsistent"
+   },
+   {
+    "computed": 10.0,
+    "expected": 10.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 \u03b3 = 0.25 (two laws) sec_gamma_extra_unresolved"
+   },
+   {
+    "computed": 57.0,
+    "expected": 57.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 \u03b3 = 0.25 (two laws) sec_gamma_extra_eligible"
+   },
+   {
+    "computed": 47.0,
+    "expected": 47.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 \u03b3 = 0.25 (two laws) resolved"
+   },
+   {
+    "computed": 1.0890468729653804,
+    "expected": 1.09,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T3 1 \u03b3 = 0.25 (two laws) median ratio"
+   },
+   {
+    "computed": 136.0,
+    "expected": 136.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the unit-variance predictor sec_unit_sigma_predictor_consistent"
+   },
+   {
+    "computed": 2.0,
+    "expected": 2.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the unit-variance predictor sec_unit_sigma_predictor_inconsistent"
+   },
+   {
+    "computed": 42.0,
+    "expected": 42.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the unit-variance predictor sec_unit_sigma_predictor_unresolved"
+   },
+   {
+    "computed": 180.0,
+    "expected": 180.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the unit-variance predictor sec_unit_sigma_predictor_eligible"
+   },
+   {
+    "computed": 138.0,
+    "expected": 138.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the unit-variance predictor resolved"
+   },
+   {
+    "computed": 0.9535733471925321,
+    "expected": 0.954,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "T3 1 the unit-variance predictor median ratio"
+   },
+   {
+    "computed": 74.0,
+    "expected": 74.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the illustration laws sec_illustration_consistent"
+   },
+   {
+    "computed": 3.0,
+    "expected": 3.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the illustration laws sec_illustration_inconsistent"
+   },
+   {
+    "computed": 22.0,
+    "expected": 22.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the illustration laws sec_illustration_unresolved"
+   },
+   {
+    "computed": 99.0,
+    "expected": 99.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the illustration laws sec_illustration_eligible"
+   },
+   {
+    "computed": 77.0,
+    "expected": 77.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the illustration laws resolved"
+   },
+   {
+    "computed": 1.0137271781609982,
+    "expected": 1.01,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T3 1 the illustration laws median ratio"
+   },
+   {
+    "computed": 106.0,
+    "expected": 106.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the fixed-size colouring (core subset) sec_fixed_colouring_consistent"
+   },
+   {
+    "computed": 3.0,
+    "expected": 3.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the fixed-size colouring (core subset) sec_fixed_colouring_inconsistent"
+   },
+   {
+    "computed": 38.0,
+    "expected": 38.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the fixed-size colouring (core subset) sec_fixed_colouring_unresolved"
+   },
+   {
+    "computed": 147.0,
+    "expected": 147.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the fixed-size colouring (core subset) sec_fixed_colouring_eligible"
+   },
+   {
+    "computed": 109.0,
+    "expected": 109.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 1 the fixed-size colouring (core subset) resolved"
+   },
+   {
+    "computed": 1.0111093793828443,
+    "expected": 1.01,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T3 1 the fixed-size colouring (core subset) median ratio"
+   },
+   {
+    "computed": 178.0,
+    "expected": 178.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 primary: \u03b3 = 0.25, raw and distinct, h \u2265 1, \u03b1 = 0.01 (S1) s1_consistent"
+   },
+   {
+    "computed": 6.0,
+    "expected": 6.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 primary: \u03b3 = 0.25, raw and distinct, h \u2265 1, \u03b1 = 0.01 (S1) s1_inconsistent"
+   },
+   {
+    "computed": 33.0,
+    "expected": 33.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 primary: \u03b3 = 0.25, raw and distinct, h \u2265 1, \u03b1 = 0.01 (S1) s1_unresolved"
+   },
+   {
+    "computed": 217.0,
+    "expected": 217.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 primary: \u03b3 = 0.25, raw and distinct, h \u2265 1, \u03b1 = 0.01 (S1) s1_eligible"
+   },
+   {
+    "computed": 184.0,
+    "expected": 184.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 primary: \u03b3 = 0.25, raw and distinct, h \u2265 1, \u03b1 = 0.01 (S1) resolved"
+   },
+   {
+    "computed": 1.2116484729202415,
+    "expected": 1.21,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T3 2 primary: \u03b3 = 0.25, raw and distinct, h \u2265 1, \u03b1 = 0.01 (S1) median ratio"
+   },
+   {
+    "computed": 1.2336561066466891,
+    "expected": 1.23,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T3 2 primary: \u03b3 = 0.25, raw and distinct, h \u2265 1, \u03b1 = 0.01 (S1) median ratio eligible"
+   },
+   {
+    "computed": 116.0,
+    "expected": 116.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 h = 0 sec_h0_kgw_indep_g0.25_raw_distinct_consistent"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 h = 0 sec_h0_kgw_indep_g0.25_raw_distinct_inconsistent"
+   },
+   {
+    "computed": 20.0,
+    "expected": 20.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 h = 0 sec_h0_kgw_indep_g0.25_raw_distinct_unresolved"
+   },
+   {
+    "computed": 136.0,
+    "expected": 136.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 h = 0 sec_h0_kgw_indep_g0.25_raw_distinct_eligible"
+   },
+   {
+    "computed": 116.0,
+    "expected": 116.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 h = 0 resolved"
+   },
+   {
+    "computed": 1.0932166531086616,
+    "expected": 1.09,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T3 2 h = 0 median ratio"
+   },
+   {
+    "computed": 1.1202196118593077,
+    "expected": 1.12,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T3 2 h = 0 median ratio eligible"
+   },
+   {
+    "computed": 89.0,
+    "expected": 89.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 the first rule sec_first_rule_kgw_indep_g0.25_consistent"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 the first rule sec_first_rule_kgw_indep_g0.25_inconsistent"
+   },
+   {
+    "computed": 8.0,
+    "expected": 8.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 the first rule sec_first_rule_kgw_indep_g0.25_unresolved"
+   },
+   {
+    "computed": 97.0,
+    "expected": 97.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 the first rule sec_first_rule_kgw_indep_g0.25_eligible"
+   },
+   {
+    "computed": 89.0,
+    "expected": 89.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 the first rule resolved"
+   },
+   {
+    "computed": 1.2301676866535676,
+    "expected": 1.23,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T3 2 the first rule median ratio"
+   },
+   {
+    "computed": 1.2524661413666973,
+    "expected": 1.25,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T3 2 the first rule median ratio eligible"
+   },
+   {
+    "computed": 348.0,
+    "expected": 348.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 \u03b3 = 0.5 sec_gamma0.5_kgw_indep_raw_distinct_consistent"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 \u03b3 = 0.5 sec_gamma0.5_kgw_indep_raw_distinct_inconsistent"
+   },
+   {
+    "computed": 5.0,
+    "expected": 5.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 \u03b3 = 0.5 sec_gamma0.5_kgw_indep_raw_distinct_unresolved"
+   },
+   {
+    "computed": 353.0,
+    "expected": 353.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 \u03b3 = 0.5 sec_gamma0.5_kgw_indep_raw_distinct_eligible"
+   },
+   {
+    "computed": 348.0,
+    "expected": 348.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 \u03b3 = 0.5 resolved"
+   },
+   {
+    "computed": 0.9835139663592948,
+    "expected": 0.984,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "T3 2 \u03b3 = 0.5 median ratio"
+   },
+   {
+    "computed": 0.9838084474744309,
+    "expected": 0.984,
+    "ok": true,
+    "tol": 0.000500001,
+    "what": "T3 2 \u03b3 = 0.5 median ratio eligible"
+   },
+   {
+    "computed": 315.0,
+    "expected": 315.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 \u03b1 = 0.05 sec_alpha0.05_primary_cells_consistent"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 \u03b1 = 0.05 sec_alpha0.05_primary_cells_inconsistent"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 \u03b1 = 0.05 sec_alpha0.05_primary_cells_unresolved"
+   },
+   {
+    "computed": 315.0,
+    "expected": 315.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 \u03b1 = 0.05 sec_alpha0.05_primary_cells_eligible"
+   },
+   {
+    "computed": 315.0,
+    "expected": 315.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 \u03b1 = 0.05 resolved"
+   },
+   {
+    "computed": 1.0781465403778356,
+    "expected": 1.08,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T3 2 \u03b1 = 0.05 median ratio"
+   },
+   {
+    "computed": 1.0781465403778356,
+    "expected": 1.08,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T3 2 \u03b1 = 0.05 median ratio eligible"
+   },
+   {
+    "computed": 25.0,
+    "expected": 25.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 \u03b1 = 0.001 sec_alpha0.001_primary_cells_consistent"
+   },
+   {
+    "computed": 35.0,
+    "expected": 35.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 \u03b1 = 0.001 sec_alpha0.001_primary_cells_inconsistent"
+   },
+   {
+    "computed": 34.0,
+    "expected": 34.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 \u03b1 = 0.001 sec_alpha0.001_primary_cells_unresolved"
+   },
+   {
+    "computed": 94.0,
+    "expected": 94.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 \u03b1 = 0.001 sec_alpha0.001_primary_cells_eligible"
+   },
+   {
+    "computed": 60.0,
+    "expected": 60.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 \u03b1 = 0.001 resolved"
+   },
+   {
+    "computed": 1.7219581771977295,
+    "expected": 1.72,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T3 2 \u03b1 = 0.001 median ratio"
+   },
+   {
+    "computed": 1.5739971957803829,
+    "expected": 1.57,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T3 2 \u03b1 = 0.001 median ratio eligible"
+   },
+   {
+    "computed": 241.0,
+    "expected": 241.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 the fixed-size colouring at h = 0 sec_fixed_h0_kgw_consistent"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 the fixed-size colouring at h = 0 sec_fixed_h0_kgw_inconsistent"
+   },
+   {
+    "computed": 31.0,
+    "expected": 31.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 the fixed-size colouring at h = 0 sec_fixed_h0_kgw_unresolved"
+   },
+   {
+    "computed": 272.0,
+    "expected": 272.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 the fixed-size colouring at h = 0 sec_fixed_h0_kgw_eligible"
+   },
+   {
+    "computed": 241.0,
+    "expected": 241.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 the fixed-size colouring at h = 0 resolved"
+   },
+   {
+    "computed": 1.002598670545182,
+    "expected": 1.0,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T3 2 the fixed-size colouring at h = 0 median ratio"
+   },
+   {
+    "computed": 1.0205490376414592,
+    "expected": 1.02,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T3 2 the fixed-size colouring at h = 0 median ratio eligible"
+   },
+   {
+    "computed": 115.0,
+    "expected": 115.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 Gumbel-max, raw and distinct sec_gumbel_raw_distinct_consistent"
+   },
+   {
+    "computed": 80.0,
+    "expected": 80.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 Gumbel-max, raw and distinct sec_gumbel_raw_distinct_inconsistent"
+   },
+   {
+    "computed": 140.0,
+    "expected": 140.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 Gumbel-max, raw and distinct sec_gumbel_raw_distinct_unresolved"
+   },
+   {
+    "computed": 335.0,
+    "expected": 335.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 Gumbel-max, raw and distinct sec_gumbel_raw_distinct_eligible"
+   },
+   {
+    "computed": 195.0,
+    "expected": 195.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 Gumbel-max, raw and distinct resolved"
+   },
+   {
+    "computed": 1.3299757230087443,
+    "expected": 1.33,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T3 2 Gumbel-max, raw and distinct median ratio"
+   },
+   {
+    "computed": 1.4575640906335154,
+    "expected": 1.46,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T3 2 Gumbel-max, raw and distinct median ratio eligible"
+   },
+   {
+    "computed": 23.0,
+    "expected": 23.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 Gumbel-max, the first rule sec_gumbel_first_consistent"
+   },
+   {
+    "computed": 26.0,
+    "expected": 26.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 Gumbel-max, the first rule sec_gumbel_first_inconsistent"
+   },
+   {
+    "computed": 29.0,
+    "expected": 29.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 Gumbel-max, the first rule sec_gumbel_first_unresolved"
+   },
+   {
+    "computed": 78.0,
+    "expected": 78.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 Gumbel-max, the first rule sec_gumbel_first_eligible"
+   },
+   {
+    "computed": 49.0,
+    "expected": 49.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "T3 2 Gumbel-max, the first rule resolved"
+   },
+   {
+    "computed": 1.6470021062676385,
+    "expected": 1.65,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T3 2 Gumbel-max, the first rule median ratio"
+   },
+   {
+    "computed": 1.5316268911225754,
+    "expected": 1.53,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T3 2 Gumbel-max, the first rule median ratio eligible"
+   },
+   {
+    "computed": 3.354555,
+    "expected": 3.35,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_nominal_keymean_median"
+   },
+   {
+    "computed": 1.3630565804921717,
+    "expected": 1.36,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_nominal_sd_median"
+   },
+   {
+    "computed": 7.8104499999999994,
+    "expected": 7.81,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_nominal_q99_median"
+   },
+   {
+    "computed": 99.85,
+    "expected": 99.8,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_raw_nominal_share_alpha_median"
+   },
+   {
+    "computed": 96.85501434999999,
+    "expected": 96.9,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_raw_nominal_pred_share_finite_median"
+   },
+   {
+    "computed": 0.6261612454366751,
+    "expected": 0.63,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_multiplier20_keymean_median"
+   },
+   {
+    "computed": 0.35177376510627106,
+    "expected": 0.35,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_multiplier20_sd_median"
+   },
+   {
+    "computed": 1.8728674810446502,
+    "expected": 1.87,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_multiplier20_q99_median"
+   },
+   {
+    "computed": 10.100000000000001,
+    "expected": 10.1,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_raw_multiplier20_share_alpha_median"
+   },
+   {
+    "computed": 1.0348129135,
+    "expected": 1.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_raw_multiplier20_pred_share_finite_median"
+   },
+   {
+    "computed": 0.4245300000000001,
+    "expected": 0.42,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_empirical_keymean_median"
+   },
+   {
+    "computed": 0.26062855587348766,
+    "expected": 0.26,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_empirical_sd_median"
+   },
+   {
+    "computed": 1.3448988065150231,
+    "expected": 1.34,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_empirical_q99_median"
+   },
+   {
+    "computed": 3.15,
+    "expected": 3.1,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_raw_empirical_share_alpha_median"
+   },
+   {
+    "computed": 5.253099075,
+    "expected": 5.3,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_raw_empirical_pred_share_finite_median"
+   },
+   {
+    "computed": 1.0360742221483301,
+    "expected": 1.04,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 zc_h1_raw_empirical_cost_q50_median"
+   },
+   {
+    "computed": 0.8910349999999999,
+    "expected": 0.89,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_pooled_keymean_median"
+   },
+   {
+    "computed": 0.4655765414435341,
+    "expected": 0.47,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_pooled_sd_median"
+   },
+   {
+    "computed": 2.4957499999999992,
+    "expected": 2.5,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_pooled_q99_median"
+   },
+   {
+    "computed": 28.449999999999996,
+    "expected": 28.4,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_raw_pooled_share_alpha_median"
+   },
+   {
+    "computed": 41.376007449999996,
+    "expected": 41.4,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_raw_pooled_pred_share_finite_median"
+   },
+   {
+    "computed": 0.6745234591172364,
+    "expected": 0.67,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 zc_h1_raw_pooled_cost_q50_median"
+   },
+   {
+    "computed": 0.8599599999999998,
+    "expected": 0.86,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_conformal1000_keymean_median"
+   },
+   {
+    "computed": 0.29073718220176425,
+    "expected": 0.29,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_conformal1000_sd_median"
+   },
+   {
+    "computed": 1.6901499999999996,
+    "expected": 1.69,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_conformal1000_q99_median"
+   },
+   {
+    "computed": 28.7,
+    "expected": 28.7,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_raw_conformal1000_share_alpha_median"
+   },
+   {
+    "computed": 42.845072949999995,
+    "expected": 42.8,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_raw_conformal1000_pred_share_finite_median"
+   },
+   {
+    "computed": 0.6022133065110178,
+    "expected": 0.6,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 zc_h1_raw_conformal1000_cost_q50_median"
+   },
+   {
+    "computed": 0.877955,
+    "expected": 0.88,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_conformal5000_keymean_median"
+   },
+   {
+    "computed": 0.1672465865106611,
+    "expected": 0.17,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_conformal5000_sd_median"
+   },
+   {
+    "computed": 1.3,
+    "expected": 1.3,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_conformal5000_q99_median"
+   },
+   {
+    "computed": 20.700000000000003,
+    "expected": 20.7,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_raw_conformal5000_share_alpha_median"
+   },
+   {
+    "computed": 46.8301533,
+    "expected": 46.8,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_raw_conformal5000_pred_share_finite_median"
+   },
+   {
+    "computed": 0.6022133065110178,
+    "expected": 0.6,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 zc_h1_raw_conformal5000_cost_q50_median"
+   },
+   {
+    "computed": 0.422725,
+    "expected": 0.42,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_tolerance1000_keymean_median"
+   },
+   {
+    "computed": 0.20168409890316372,
+    "expected": 0.2,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_tolerance1000_sd_median"
+   },
+   {
+    "computed": 1.03515,
+    "expected": 1.04,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_tolerance1000_q99_median"
+   },
+   {
+    "computed": 1.35,
+    "expected": 1.4,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_raw_tolerance1000_share_alpha_median"
+   },
+   {
+    "computed": 2.874515065,
+    "expected": 2.9,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_raw_tolerance1000_pred_share_finite_median"
+   },
+   {
+    "computed": 1.0360742221483301,
+    "expected": 1.04,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 zc_h1_raw_tolerance1000_cost_q50_median"
+   },
+   {
+    "computed": 0.6811400000000001,
+    "expected": 0.68,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_tolerance5000_keymean_median"
+   },
+   {
+    "computed": 0.14520441563307612,
+    "expected": 0.15,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_tolerance5000_sd_median"
+   },
+   {
+    "computed": 1.0651499999999998,
+    "expected": 1.07,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_raw_tolerance5000_q99_median"
+   },
+   {
+    "computed": 2.3,
+    "expected": 2.3,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_raw_tolerance5000_share_alpha_median"
+   },
+   {
+    "computed": 7.644408185000001,
+    "expected": 7.6,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_raw_tolerance5000_pred_share_finite_median"
+   },
+   {
+    "computed": 0.7468336117234551,
+    "expected": 0.75,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 zc_h1_raw_tolerance5000_cost_q50_median"
+   },
+   {
+    "computed": 1.13227,
+    "expected": 1.13,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_nominal_keymean_median"
+   },
+   {
+    "computed": 0.4412037652304053,
+    "expected": 0.44,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_nominal_sd_median"
+   },
+   {
+    "computed": 2.4403499999999996,
+    "expected": 2.44,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_nominal_q99_median"
+   },
+   {
+    "computed": 54.75000000000001,
+    "expected": 54.8,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_distinct_nominal_share_alpha_median"
+   },
+   {
+    "computed": 43.1376166,
+    "expected": 43.1,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_distinct_nominal_pred_share_finite_median"
+   },
+   {
+    "computed": 0.072065,
+    "expected": 0.07,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_multiplier20_keymean_median"
+   },
+   {
+    "computed": 0.04760555286711978,
+    "expected": 0.05,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_multiplier20_sd_median"
+   },
+   {
+    "computed": 0.2246559955068801,
+    "expected": 0.22,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_multiplier20_q99_median"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_distinct_multiplier20_share_alpha_median"
+   },
+   {
+    "computed": 1.2674331295e-09,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_distinct_multiplier20_pred_share_finite_median"
+   },
+   {
+    "computed": 0.5207645914069083,
+    "expected": 0.52,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_empirical_keymean_median"
+   },
+   {
+    "computed": 0.24039394736848466,
+    "expected": 0.24,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_empirical_sd_median"
+   },
+   {
+    "computed": 1.3251999999999997,
+    "expected": 1.33,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_empirical_q99_median"
+   },
+   {
+    "computed": 4.45,
+    "expected": 4.5,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_distinct_empirical_share_alpha_median"
+   },
+   {
+    "computed": 5.456597905000001,
+    "expected": 5.5,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_distinct_empirical_pred_share_finite_median"
+   },
+   {
+    "computed": 0.2964627237447337,
+    "expected": 0.3,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 zc_h1_distinct_empirical_cost_q50_median"
+   },
+   {
+    "computed": 0.99407,
+    "expected": 0.99,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_pooled_keymean_median"
+   },
+   {
+    "computed": 0.3969385144800827,
+    "expected": 0.4,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_pooled_sd_median"
+   },
+   {
+    "computed": 2.18,
+    "expected": 2.18,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_pooled_q99_median"
+   },
+   {
+    "computed": 41.4,
+    "expected": 41.4,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_distinct_pooled_share_alpha_median"
+   },
+   {
+    "computed": 43.1376166,
+    "expected": 43.1,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_distinct_pooled_pred_share_finite_median"
+   },
+   {
+    "computed": 0.05348878561381376,
+    "expected": 0.05,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 zc_h1_distinct_pooled_cost_q50_median"
+   },
+   {
+    "computed": 1.0017047879809042,
+    "expected": 1.0,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_conformal1000_keymean_median"
+   },
+   {
+    "computed": 0.3324989474116921,
+    "expected": 0.33,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_conformal1000_sd_median"
+   },
+   {
+    "computed": 1.9452499999999997,
+    "expected": 1.95,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_conformal1000_q99_median"
+   },
+   {
+    "computed": 45.35,
+    "expected": 45.4,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_distinct_conformal1000_share_alpha_median"
+   },
+   {
+    "computed": 45.26110235,
+    "expected": 45.3,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_distinct_conformal1000_pred_share_finite_median"
+   },
+   {
+    "computed": 0.03574048532847973,
+    "expected": 0.04,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 zc_h1_distinct_conformal1000_cost_q50_median"
+   },
+   {
+    "computed": 0.9963425470373491,
+    "expected": 1.0,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_conformal5000_keymean_median"
+   },
+   {
+    "computed": 0.17194330096237473,
+    "expected": 0.17,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_conformal5000_sd_median"
+   },
+   {
+    "computed": 1.43,
+    "expected": 1.43,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_conformal5000_q99_median"
+   },
+   {
+    "computed": 45.6,
+    "expected": 45.6,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_distinct_conformal5000_share_alpha_median"
+   },
+   {
+    "computed": 47.0109003,
+    "expected": 47.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_distinct_conformal5000_pred_share_finite_median"
+   },
+   {
+    "computed": 0.030402744844169938,
+    "expected": 0.03,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 zc_h1_distinct_conformal5000_cost_q50_median"
+   },
+   {
+    "computed": 0.50122,
+    "expected": 0.5,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_tolerance1000_keymean_median"
+   },
+   {
+    "computed": 0.23370202677353663,
+    "expected": 0.23,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_tolerance1000_sd_median"
+   },
+   {
+    "computed": 1.1751999999999998,
+    "expected": 1.18,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_tolerance1000_q99_median"
+   },
+   {
+    "computed": 3.3000000000000003,
+    "expected": 3.3,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_distinct_tolerance1000_share_alpha_median"
+   },
+   {
+    "computed": 3.2618657600000005,
+    "expected": 3.3,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_distinct_tolerance1000_pred_share_finite_median"
+   },
+   {
+    "computed": 0.3130853889650955,
+    "expected": 0.31,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 zc_h1_distinct_tolerance1000_cost_q50_median"
+   },
+   {
+    "computed": 0.77668,
+    "expected": 0.78,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_tolerance5000_keymean_median"
+   },
+   {
+    "computed": 0.15253486793930313,
+    "expected": 0.15,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_tolerance5000_sd_median"
+   },
+   {
+    "computed": 1.17015,
+    "expected": 1.17,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 rem_h1_distinct_tolerance5000_q99_median"
+   },
+   {
+    "computed": 7.35,
+    "expected": 7.3,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_distinct_tolerance5000_share_alpha_median"
+   },
+   {
+    "computed": 7.719900050000001,
+    "expected": 7.7,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T4 rem_h1_distinct_tolerance5000_pred_share_finite_median"
+   },
+   {
+    "computed": 0.12159577854088233,
+    "expected": 0.12,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T4 zc_h1_distinct_tolerance5000_cost_q50_median"
+   },
+   {
+    "computed": 0.17543345902690952,
+    "expected": 0.18,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T5 cls_near_identical_conformal5000_h1_distinct_sd_median"
+   },
+   {
+    "computed": 1.44505,
+    "expected": 1.45,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T5 cls_near_identical_conformal5000_h1_distinct_q99_median"
+   },
+   {
+    "computed": 0.9765635531763279,
+    "expected": 0.98,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T5 cls_near_identical_conformal5000_h1_distinct_ratio_median"
+   },
+   {
+    "computed": 0.46658421542529854,
+    "expected": 0.47,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T5 cls_within_english_conformal5000_h1_distinct_sd_median"
+   },
+   {
+    "computed": 2.5004,
+    "expected": 2.5,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T5 cls_within_english_conformal5000_h1_distinct_q99_median"
+   },
+   {
+    "computed": 1.005155229053051,
+    "expected": 1.01,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T5 cls_within_english_conformal5000_h1_distinct_ratio_median"
+   },
+   {
+    "computed": 0.5946873447294481,
+    "expected": 0.59,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T5 cls_english_other_conformal5000_h1_distinct_sd_median"
+   },
+   {
+    "computed": 3.0203499297950005,
+    "expected": 3.02,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T5 cls_english_other_conformal5000_h1_distinct_q99_median"
+   },
+   {
+    "computed": 0.985846921335396,
+    "expected": 0.99,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T5 cls_english_other_conformal5000_h1_distinct_ratio_median"
+   },
+   {
+    "computed": 0.523908242396802,
+    "expected": 0.52,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T5 cls_other_other_conformal5000_h1_distinct_sd_median"
+   },
+   {
+    "computed": 2.6905499999999996,
+    "expected": 2.69,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T5 cls_other_other_conformal5000_h1_distinct_q99_median"
+   },
+   {
+    "computed": 1.0414088198251026,
+    "expected": 1.04,
+    "ok": true,
+    "tol": 0.0050000010000000004,
+    "what": "T5 cls_other_other_conformal5000_h1_distinct_ratio_median"
+   },
+   {
+    "computed": 2.7135934509446122,
+    "expected": 2.7,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T5 transfer_factor_within_english"
+   },
+   {
+    "computed": 3.45862468267711,
+    "expected": 3.5,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T5 transfer_factor_english_other"
+   },
+   {
+    "computed": 3.046982577771061,
+    "expected": 3.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T5 transfer_factor_other_other"
+   },
+   {
+    "computed": 66.17999999999999,
+    "expected": 66.2,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 power news nominal raw"
+   },
+   {
+    "computed": 53.43999999999999,
+    "expected": 53.4,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 power wikipedia nominal raw"
+   },
+   {
+    "computed": 56.28000000000001,
+    "expected": 56.3,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 power stackexchange nominal raw"
+   },
+   {
+    "computed": 34.0,
+    "expected": 34.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_news_multiplier_raw_median_pp"
+   },
+   {
+    "computed": 27.999999999999993,
+    "expected": 28.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_wikipedia_multiplier_raw_median_pp"
+   },
+   {
+    "computed": 28.000000000000004,
+    "expected": 28.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_stackexchange_multiplier_raw_median_pp"
+   },
+   {
+    "computed": 37.0,
+    "expected": 37.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_news_empirical_raw_median_pp"
+   },
+   {
+    "computed": 42.00000000000001,
+    "expected": 42.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_wikipedia_empirical_raw_median_pp"
+   },
+   {
+    "computed": 36.0,
+    "expected": 36.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_stackexchange_empirical_raw_median_pp"
+   },
+   {
+    "computed": 19.999999999999996,
+    "expected": 20.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_news_pooled_raw_median_pp"
+   },
+   {
+    "computed": 27.999999999999993,
+    "expected": 28.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_wikipedia_pooled_raw_median_pp"
+   },
+   {
+    "computed": 24.0,
+    "expected": 24.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_stackexchange_pooled_raw_median_pp"
+   },
+   {
+    "computed": 13.99999999999999,
+    "expected": 14.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_news_conformal_raw_median_pp"
+   },
+   {
+    "computed": 52.2,
+    "expected": 52.2,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 power news conformal raw"
+   },
+   {
+    "computed": -3.9999999999999933,
+    "expected": -4.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost news conformal raw q5"
+   },
+   {
+    "computed": 34.0,
+    "expected": 34.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost news conformal raw q95"
+   },
+   {
+    "computed": 20.0,
+    "expected": 20.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_wikipedia_conformal_raw_median_pp"
+   },
+   {
+    "computed": 32.04,
+    "expected": 32.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 power wikipedia conformal raw"
+   },
+   {
+    "computed": 1.8999999999999968,
+    "expected": 1.9,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost wikipedia conformal raw q5"
+   },
+   {
+    "computed": 44.0,
+    "expected": 44.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost wikipedia conformal raw q95"
+   },
+   {
+    "computed": 26.0,
+    "expected": 26.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_stackexchange_conformal_raw_median_pp"
+   },
+   {
+    "computed": 30.4,
+    "expected": 30.4,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 power stackexchange conformal raw"
+   },
+   {
+    "computed": 10.000000000000004,
+    "expected": 10.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost stackexchange conformal raw q5"
+   },
+   {
+    "computed": 42.0,
+    "expected": 42.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost stackexchange conformal raw q95"
+   },
+   {
+    "computed": 17.999999999999993,
+    "expected": 18.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_news_tolerance_raw_median_pp"
+   },
+   {
+    "computed": 24.0,
+    "expected": 24.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_wikipedia_tolerance_raw_median_pp"
+   },
+   {
+    "computed": 29.999999999999993,
+    "expected": 30.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_stackexchange_tolerance_raw_median_pp"
+   },
+   {
+    "computed": 32.0,
+    "expected": 32.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_news_multiplier_distinct_median_pp"
+   },
+   {
+    "computed": 27.999999999999996,
+    "expected": 28.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_wikipedia_multiplier_distinct_median_pp"
+   },
+   {
+    "computed": 28.000000000000004,
+    "expected": 28.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_stackexchange_multiplier_distinct_median_pp"
+   },
+   {
+    "computed": 1.9999999999999933,
+    "expected": 2.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_news_pooled_distinct_median_pp"
+   },
+   {
+    "computed": 1.9999999999999962,
+    "expected": 2.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_wikipedia_pooled_distinct_median_pp"
+   },
+   {
+    "computed": 1.9999999999999962,
+    "expected": 2.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_stackexchange_pooled_distinct_median_pp"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_news_conformal_distinct_median_pp"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_wikipedia_conformal_distinct_median_pp"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost_stackexchange_conformal_distinct_median_pp"
+   },
+   {
+    "computed": 13.99999999999999,
+    "expected": 14.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 range input news conformal raw"
+   },
+   {
+    "computed": 20.0,
+    "expected": 20.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 range input wikipedia conformal raw"
+   },
+   {
+    "computed": 26.0,
+    "expected": 26.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 range input stackexchange conformal raw"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 range input news conformal distinct"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 range input wikipedia conformal distinct"
+   },
+   {
+    "computed": 0.0,
+    "expected": 0.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 range input stackexchange conformal distinct"
+   },
+   {
+    "computed": 99.98,
+    "expected": 100.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 power news nominal raw d2"
+   },
+   {
+    "computed": 99.94,
+    "expected": 99.9,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 power wikipedia nominal raw d2"
+   },
+   {
+    "computed": 99.84,
+    "expected": 99.8,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 power stackexchange nominal raw d2"
+   },
+   {
+    "computed": 9.999999999999998,
+    "expected": 10.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost news conformal raw h2"
+   },
+   {
+    "computed": 13.999999999999996,
+    "expected": 14.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost wikipedia conformal raw h2"
+   },
+   {
+    "computed": 16.000000000000004,
+    "expected": 16.0,
+    "ok": true,
+    "tol": 0.050000001,
+    "what": "T6 cost stackexchange conformal raw h2"
+   },
+   {
+    "computed": 4.0,
+    "expected": 4.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "G studies = locks with before_outcomes"
+   },
+   {
+    "computed": 5.0,
+    "expected": 5.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "G widths s1 = s2"
+   },
+   {
+    "computed": 3.0,
+    "expected": 3.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "G rules s1 = s2"
+   },
+   {
+    "computed": 2.0,
+    "expected": 2.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "G tokenizers = s2 n_tok"
+   },
+   {
+    "computed": 10.0,
+    "expected": 10.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "G cells s3 = s2 n_corpus"
+   },
+   {
+    "computed": 5.0,
+    "expected": 5.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "G English cells = s2 n_en_cells"
+   },
+   {
+    "computed": 6.0,
+    "expected": 6.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "G languages = language cells"
+   },
+   {
+    "computed": 5.0,
+    "expected": 5.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "G other-language cells = language cells \u2212 1"
+   },
+   {
+    "computed": 4.0,
+    "expected": 4.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "G sources = the audit's cell sources"
+   },
+   {
+    "computed": 3.0,
+    "expected": 3.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "G arms = s4 n_arms"
+   },
+   {
+    "computed": 10.0,
+    "expected": 10.0,
+    "ok": true,
+    "tol": 1e-09,
+    "what": "G core + illustration laws = n_laws"
+   },
+   {
+    "computed": 6.0,
+    "expected": 6.0,
+    "ok": true,
+    "tol": 0.500000001,
+    "what": "G core laws = s1"
+   }
+  ],
+  "n": 359,
+  "n_failed": 0
+ }
+}

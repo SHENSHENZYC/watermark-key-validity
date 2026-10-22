@@ -1,0 +1,417 @@
+{
+ "written_utc": "2026-10-13T23:20:53Z",
+ "note": "post-hoc side computation; not pre-registered; no key or per-key level produced (the stored q-hat values are read for the observed correlation only)",
+ "tokens_manifest_sha256": "07e8a00558234fdfc64922d6d6363f1ce158aece12d17249210a725f28494e3c",
+ "hash_input_note": "the colouring hash is a function of the integer ids alone (s1_core.context_ids/tuple_ids), never of V or the token string",
+ "semantic": {
+  "len_llama": 128256,
+  "len_qwen": 151665,
+  "ids_compared": 128256,
+  "ids_same_string": 410,
+  "share_same_of_compared": 0.0031967315369261476,
+  "first_differing_id": 410,
+  "note": "a semantic-alignment diagnostic: ids whose token STRING is the same in both vocabularies; not the hash-overlap estimand"
+ },
+ "cells": {
+  "news_en_256": {
+   "semantic_share_llama": {
+    "share_occurrences_on_same_string_ids": 0.2981296875,
+    "n_positions": 2560000,
+    "n_positions_outside_compared_range": 0
+   },
+   "semantic_share_qwen": {
+    "share_occurrences_on_same_string_ids": 0.339333984375,
+    "n_positions": 2560000,
+    "n_positions_outside_compared_range": 4894
+   },
+   "h0": {
+    "L": 256,
+    "n_tuples_llama": 51738,
+    "n_tuples_qwen": 49326,
+    "n_tuples_shared": 24192,
+    "A_llama": 0.005791584366149903,
+    "A_qwen": 0.006005648696289063,
+    "cross": 0.0051540054798889165,
+    "rho_pred_qhat": 0.873909016672493,
+    "weight_share_on_shared_tuples_llama": 0.7787332031249999,
+    "weight_share_on_shared_tuples_qwen": 0.8046906249999999,
+    "rho_obs_qhat_stored_values": 0.8633618512355905,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   },
+   "h1": {
+    "L": 256,
+    "n_tuples_llama": 772922,
+    "n_tuples_qwen": 739193,
+    "n_tuples_shared": 25175,
+    "A_llama": 0.00016939936485966937,
+    "A_qwen": 0.00034941975916955015,
+    "cross": 9.705086013071893e-05,
+    "rho_pred_qhat": 0.3989052663394775,
+    "weight_share_on_shared_tuples_llama": 0.123141568627451,
+    "weight_share_on_shared_tuples_qwen": 0.14607333333333333,
+    "rho_obs_qhat_stored_values": 0.38726538711326525,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   }
+  },
+  "wikipedia_en_256": {
+   "semantic_share_llama": {
+    "share_occurrences_on_same_string_ids": 0.35137734375,
+    "n_positions": 2560000,
+    "n_positions_outside_compared_range": 0
+   },
+   "semantic_share_qwen": {
+    "share_occurrences_on_same_string_ids": 0.4059953125,
+    "n_positions": 2560000,
+    "n_positions_outside_compared_range": 1342
+   },
+   "h0": {
+    "L": 256,
+    "n_tuples_llama": 50205,
+    "n_tuples_qwen": 48161,
+    "n_tuples_shared": 24720,
+    "A_llama": 0.0073935941921997065,
+    "A_qwen": 0.007817878070678713,
+    "cross": 0.006835591065826416,
+    "rho_pred_qhat": 0.8990913554906187,
+    "weight_share_on_shared_tuples_llama": 0.802225,
+    "weight_share_on_shared_tuples_qwen": 0.82629375,
+    "rho_obs_qhat_stored_values": 0.8899185424141794,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   },
+   "h1": {
+    "L": 256,
+    "n_tuples_llama": 822267,
+    "n_tuples_qwen": 782755,
+    "n_tuples_shared": 33462,
+    "A_llama": 0.00023925018562091498,
+    "A_qwen": 0.0005904806634371395,
+    "cross": 0.00016803347958477505,
+    "rho_pred_qhat": 0.4470610552340067,
+    "weight_share_on_shared_tuples_llama": 0.1648549019607843,
+    "weight_share_on_shared_tuples_qwen": 0.18865058823529413,
+    "rho_obs_qhat_stored_values": 0.40804927802183677,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   }
+  },
+  "stackexchange_en_256": {
+   "semantic_share_llama": {
+    "share_occurrences_on_same_string_ids": 0.315927734375,
+    "n_positions": 2560000,
+    "n_positions_outside_compared_range": 0
+   },
+   "semantic_share_qwen": {
+    "share_occurrences_on_same_string_ids": 0.34713671875,
+    "n_positions": 2560000,
+    "n_positions_outside_compared_range": 227
+   },
+   "h0": {
+    "L": 256,
+    "n_tuples_llama": 56197,
+    "n_tuples_qwen": 54628,
+    "n_tuples_shared": 35002,
+    "A_llama": 0.003851091882019043,
+    "A_qwen": 0.004120033650817871,
+    "cross": 0.0034061746319580077,
+    "rho_pred_qhat": 0.8551151253142996,
+    "weight_share_on_shared_tuples_llama": 0.92528671875,
+    "weight_share_on_shared_tuples_qwen": 0.93259609375,
+    "rho_obs_qhat_stored_values": 0.8441866436295962,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   },
+   "h1": {
+    "L": 256,
+    "n_tuples_llama": 820015,
+    "n_tuples_qwen": 787232,
+    "n_tuples_shared": 35319,
+    "A_llama": 8.914626097654749e-05,
+    "A_qwen": 0.00013160176147635527,
+    "cross": 4.773893102652826e-05,
+    "rho_pred_qhat": 0.44074792122833434,
+    "weight_share_on_shared_tuples_llama": 0.15291058823529413,
+    "weight_share_on_shared_tuples_qwen": 0.17327725490196078,
+    "rho_obs_qhat_stored_values": 0.4553234346376058,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   }
+  },
+  "wikipedia_de_256": {
+   "semantic_share_llama": {
+    "share_occurrences_on_same_string_ids": 0.2285078125,
+    "n_positions": 2560000,
+    "n_positions_outside_compared_range": 0
+   },
+   "semantic_share_qwen": {
+    "share_occurrences_on_same_string_ids": 0.266704296875,
+    "n_positions": 2560000,
+    "n_positions_outside_compared_range": 19760
+   },
+   "h0": {
+    "L": 256,
+    "n_tuples_llama": 27981,
+    "n_tuples_qwen": 26421,
+    "n_tuples_shared": 8387,
+    "A_llama": 0.0028000265841674806,
+    "A_qwen": 0.0030654866567993164,
+    "cross": 0.0016968473355102537,
+    "rho_pred_qhat": 0.5791778953829462,
+    "weight_share_on_shared_tuples_llama": 0.558738671875,
+    "weight_share_on_shared_tuples_qwen": 0.633229296875,
+    "rho_obs_qhat_stored_values": 0.5671656195852989,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   },
+   "h1": {
+    "L": 256,
+    "n_tuples_llama": 552122,
+    "n_tuples_qwen": 535570,
+    "n_tuples_shared": 11585,
+    "A_llama": 6.599487612456747e-05,
+    "A_qwen": 0.00020742470311418688,
+    "cross": 9.779484505959245e-06,
+    "rho_pred_qhat": 0.08358543661459733,
+    "weight_share_on_shared_tuples_llama": 0.059617254901960785,
+    "weight_share_on_shared_tuples_qwen": 0.07301607843137253,
+    "rho_obs_qhat_stored_values": 0.06780812613386922,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   }
+  },
+  "wikipedia_ru_256": {
+   "semantic_share_llama": {
+    "share_occurrences_on_same_string_ids": 0.10347109375,
+    "n_positions": 2560000,
+    "n_positions_outside_compared_range": 0
+   },
+   "semantic_share_qwen": {
+    "share_occurrences_on_same_string_ids": 0.13796953125,
+    "n_positions": 2560000,
+    "n_positions_outside_compared_range": 401085
+   },
+   "h0": {
+    "L": 256,
+    "n_tuples_llama": 17064,
+    "n_tuples_qwen": 13819,
+    "n_tuples_shared": 2392,
+    "A_llama": 0.0029710165386962893,
+    "A_qwen": 0.003461797649230957,
+    "cross": 0.00132958210357666,
+    "rho_pred_qhat": 0.414583283433115,
+    "weight_share_on_shared_tuples_llama": 0.1918203125,
+    "weight_share_on_shared_tuples_qwen": 0.23552187500000002,
+    "rho_obs_qhat_stored_values": 0.41010853016442567,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   },
+   "h1": {
+    "L": 256,
+    "n_tuples_llama": 463116,
+    "n_tuples_qwen": 337390,
+    "n_tuples_shared": 2081,
+    "A_llama": 0.0001459240095347943,
+    "A_qwen": 0.0002431331595540177,
+    "cross": 5.220761399461747e-06,
+    "rho_pred_qhat": 0.02771713718797281,
+    "weight_share_on_shared_tuples_llama": 0.011161176470588235,
+    "weight_share_on_shared_tuples_qwen": 0.02528666666666667,
+    "rho_obs_qhat_stored_values": -0.002262901248612864,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   }
+  },
+  "wikipedia_ar_256": {
+   "semantic_share_llama": {
+    "share_occurrences_on_same_string_ids": 0.071303515625,
+    "n_positions": 2560000,
+    "n_positions_outside_compared_range": 0
+   },
+   "semantic_share_qwen": {
+    "share_occurrences_on_same_string_ids": 0.11383671875,
+    "n_positions": 2560000,
+    "n_positions_outside_compared_range": 505951
+   },
+   "h0": {
+    "L": 256,
+    "n_tuples_llama": 14499,
+    "n_tuples_qwen": 13761,
+    "n_tuples_shared": 2319,
+    "A_llama": 0.0029925225195312497,
+    "A_qwen": 0.0038013337460327153,
+    "cross": 0.0005776803942871094,
+    "rho_pred_qhat": 0.17127773621566306,
+    "weight_share_on_shared_tuples_llama": 0.141996484375,
+    "weight_share_on_shared_tuples_qwen": 0.19189453125000003,
+    "rho_obs_qhat_stored_values": 0.1603588229465315,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   },
+   "h1": {
+    "L": 256,
+    "n_tuples_llama": 377675,
+    "n_tuples_qwen": 346486,
+    "n_tuples_shared": 1863,
+    "A_llama": 7.684102114571318e-05,
+    "A_qwen": 0.00021526716093810073,
+    "cross": 4.920564705882353e-06,
+    "rho_pred_qhat": 0.03825863682452429,
+    "weight_share_on_shared_tuples_llama": 0.010107450980392157,
+    "weight_share_on_shared_tuples_qwen": 0.02708980392156863,
+    "rho_obs_qhat_stored_values": 0.005699129823249161,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   }
+  },
+  "wikipedia_zh_256": {
+   "semantic_share_llama": {
+    "share_occurrences_on_same_string_ids": 0.09135078125,
+    "n_positions": 2560000,
+    "n_positions_outside_compared_range": 0
+   },
+   "semantic_share_qwen": {
+    "share_occurrences_on_same_string_ids": 0.11745546875,
+    "n_positions": 2560000,
+    "n_positions_outside_compared_range": 1446
+   },
+   "h0": {
+    "L": 256,
+    "n_tuples_llama": 21060,
+    "n_tuples_qwen": 35677,
+    "n_tuples_shared": 7174,
+    "A_llama": 0.0022481242193603517,
+    "A_qwen": 0.0038373767227172853,
+    "cross": 0.00019510020797729486,
+    "rho_pred_qhat": 0.06642481625943861,
+    "weight_share_on_shared_tuples_llama": 0.516449609375,
+    "weight_share_on_shared_tuples_qwen": 0.3135765625,
+    "rho_obs_qhat_stored_values": 0.08742119873053228,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   },
+   "h1": {
+    "L": 256,
+    "n_tuples_llama": 693146,
+    "n_tuples_qwen": 870625,
+    "n_tuples_shared": 3596,
+    "A_llama": 3.470587189542484e-05,
+    "A_qwen": 0.00012553434248366012,
+    "cross": 3.7248027681660896e-07,
+    "rho_pred_qhat": 0.005643136112561566,
+    "weight_share_on_shared_tuples_llama": 0.007517647058823529,
+    "weight_share_on_shared_tuples_qwen": 0.012211372549019607,
+    "rho_obs_qhat_stored_values": 0.0075088515083541725,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   }
+  },
+  "wikipedia_ja_256": {
+   "semantic_share_llama": {
+    "share_occurrences_on_same_string_ids": 0.06939453125,
+    "n_positions": 2560000,
+    "n_positions_outside_compared_range": 0
+   },
+   "semantic_share_qwen": {
+    "share_occurrences_on_same_string_ids": 0.140089453125,
+    "n_positions": 2560000,
+    "n_positions_outside_compared_range": 187037
+   },
+   "h0": {
+    "L": 256,
+    "n_tuples_llama": 16315,
+    "n_tuples_qwen": 18797,
+    "n_tuples_shared": 3216,
+    "A_llama": 0.003327433866577149,
+    "A_qwen": 0.004216549520568848,
+    "cross": 0.00024476827865600585,
+    "rho_pred_qhat": 0.06534642226118215,
+    "weight_share_on_shared_tuples_llama": 0.25946953125,
+    "weight_share_on_shared_tuples_qwen": 0.290684765625,
+    "rho_obs_qhat_stored_values": 0.09563408824923032,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   },
+   "h1": {
+    "L": 256,
+    "n_tuples_llama": 433025,
+    "n_tuples_qwen": 437844,
+    "n_tuples_shared": 2458,
+    "A_llama": 8.255163306420608e-05,
+    "A_qwen": 0.00020488556432141482,
+    "cross": 6.330691272587465e-07,
+    "rho_pred_qhat": 0.004867798810502617,
+    "weight_share_on_shared_tuples_llama": 0.006543137254901962,
+    "weight_share_on_shared_tuples_qwen": 0.01185529411764706,
+    "rho_obs_qhat_stored_values": -0.0125088849526331,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   }
+  },
+  "wikipedia_en_1024": {
+   "semantic_share_llama": {
+    "share_occurrences_on_same_string_ids": 0.34370400390625,
+    "n_positions": 10240000,
+    "n_positions_outside_compared_range": 0
+   },
+   "semantic_share_qwen": {
+    "share_occurrences_on_same_string_ids": 0.39434150390625,
+    "n_positions": 10240000,
+    "n_positions_outside_compared_range": 4575
+   },
+   "h0": {
+    "L": 1024,
+    "n_tuples_llama": 62434,
+    "n_tuples_qwen": 60040,
+    "n_tuples_shared": 35778,
+    "A_llama": 0.007230869551849366,
+    "A_qwen": 0.007599914746894837,
+    "cross": 0.00673005070186615,
+    "rho_pred_qhat": 0.9078596462240023,
+    "weight_share_on_shared_tuples_llama": 0.8597223632812501,
+    "weight_share_on_shared_tuples_qwen": 0.8725505859375001,
+    "rho_obs_qhat_stored_values": 0.8987021819901136,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   },
+   "h1": {
+    "L": 1024,
+    "n_tuples_llama": 2340083,
+    "n_tuples_qwen": 2235244,
+    "n_tuples_shared": 104656,
+    "A_llama": 0.00020076814964516034,
+    "A_qwen": 0.00047284651817579824,
+    "cross": 0.0001485193026949086,
+    "rho_pred_qhat": 0.4820314733449608,
+    "weight_share_on_shared_tuples_llama": 0.19987781036168134,
+    "weight_share_on_shared_tuples_qwen": 0.22172512218963833,
+    "rho_obs_qhat_stored_values": 0.4404582826664177,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   }
+  },
+  "gutenberg_en_1024": {
+   "semantic_share_llama": {
+    "share_occurrences_on_same_string_ids": 0.35364375,
+    "n_positions": 10240000,
+    "n_positions_outside_compared_range": 0
+   },
+   "semantic_share_qwen": {
+    "share_occurrences_on_same_string_ids": 0.36804873046875,
+    "n_positions": 10240000,
+    "n_positions_outside_compared_range": 1398
+   },
+   "h0": {
+    "L": 1024,
+    "n_tuples_llama": 54071,
+    "n_tuples_qwen": 52496,
+    "n_tuples_shared": 29481,
+    "A_llama": 0.008252388504734039,
+    "A_qwen": 0.008108373712482452,
+    "cross": 0.007723526581087112,
+    "rho_pred_qhat": 0.9441889952833794,
+    "weight_share_on_shared_tuples_llama": 0.846967578125,
+    "weight_share_on_shared_tuples_qwen": 0.8482500000000001,
+    "rho_obs_qhat_stored_values": 0.9378311368371162,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   },
+   "h1": {
+    "L": 1024,
+    "n_tuples_llama": 2054936,
+    "n_tuples_qwen": 2021521,
+    "n_tuples_shared": 94348,
+    "A_llama": 0.0002010901893401903,
+    "A_qwen": 0.00021152843244668805,
+    "cross": 0.00015790903528712535,
+    "rho_pred_qhat": 0.7656444932415262,
+    "weight_share_on_shared_tuples_llama": 0.22538797653958942,
+    "weight_share_on_shared_tuples_qwen": 0.2294375366568915,
+    "rho_obs_qhat_stored_values": 0.7829811733707073,
+    "A_check_against_cells": "equal within an absolute 1e-9 * max(1, A)"
+   }
+  }
+ }
+}

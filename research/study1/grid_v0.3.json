@@ -1,0 +1,166 @@
+{
+ "study": "study1_v0.3",
+ "N": 4000,
+ "K": 500,
+ "K_fixed_core": 200,
+ "key_seed_start": 20000,
+ "validation_key_seed_start": 1000000,
+ "reserved_key_range": [
+  30000,
+  30999
+ ],
+ "key_chunk": 48,
+ "L": [
+  64,
+  128,
+  256,
+  512,
+  1024,
+  2048
+ ],
+ "h": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "rules": [
+  "raw",
+  "distinct",
+  "first"
+ ],
+ "gamma": [
+  0.5,
+  0.25
+ ],
+ "alpha": [
+  0.01,
+  0.05,
+  0.001
+ ],
+ "colourings_core": [
+  "independent"
+ ],
+ "colourings_illustration": [
+  "independent",
+  "fixed"
+ ],
+ "h_illustration": [
+  0,
+  1,
+  2
+ ],
+ "L_illustration": [
+  64,
+  256,
+  1024
+ ],
+ "text_seed_base": 20261010,
+ "validation_seed_base": 99261010,
+ "laws": [
+  {
+   "kind": "zipf",
+   "V": 1000,
+   "s": 1.0,
+   "role": "core"
+  },
+  {
+   "kind": "zipf",
+   "V": 10000,
+   "s": 1.0,
+   "role": "core",
+   "gamma_extra": true
+  },
+  {
+   "kind": "zipf",
+   "V": 50000,
+   "s": 1.0,
+   "role": "core"
+  },
+  {
+   "kind": "zipf",
+   "V": 10000,
+   "s": 1.2,
+   "role": "core"
+  },
+  {
+   "kind": "markov",
+   "V": 1000,
+   "S": 50,
+   "eps": 0.1,
+   "s": 1.0,
+   "role": "core"
+  },
+  {
+   "kind": "markov",
+   "V": 10000,
+   "S": 50,
+   "eps": 0.1,
+   "s": 1.0,
+   "role": "core",
+   "gamma_extra": true
+  },
+  {
+   "kind": "zipf",
+   "V": 10,
+   "s": 1.0,
+   "role": "illustration",
+   "K_illustration": 2000
+  },
+  {
+   "kind": "zipf",
+   "V": 100,
+   "s": 1.0,
+   "role": "illustration",
+   "K_illustration": 500
+  },
+  {
+   "kind": "twotoken",
+   "p_stay": 0.9,
+   "role": "illustration",
+   "K_illustration": 2000
+  },
+  {
+   "kind": "support",
+   "V": 1000,
+   "s_support": 50,
+   "role": "illustration",
+   "K_illustration": 500,
+   "note": "T1 saturation control: uniform on 50 of 1,000 tokens; analytic h = 0 limits recorded"
+  }
+ ],
+ "fixed_subset_core": {
+  "h": [
+   0,
+   1
+  ],
+  "L": [
+   256,
+   2048
+  ],
+  "note": "the fixed-size colouring on this subset of the core cells at K_fixed_core keys: a reported comparison, not part of any rule's decision"
+ },
+ "validation_laws": [
+  {
+   "kind": "zipf",
+   "V": 1000,
+   "s": 1.0,
+   "role": "core"
+  },
+  {
+   "kind": "twotoken",
+   "p_stay": 0.9,
+   "role": "illustration",
+   "K_illustration": 2000
+  }
+ ],
+ "validation_note": "a retained pilot (protocol v0.3) on validation text seeds and validation key seeds (a namespace disjoint from the production keys 20,000+ and the reserved range 30,000-30,999); used for timing, memory and the implementation checks; its per-cell statistics are not study outcomes",
+ "reduction_order_if_over_budget": [
+  "K 500 -> 300",
+  "N 4000 -> 2000",
+  "drop gamma 0.25",
+  "drop L 2048"
+ ],
+ "budget_hours": 6
+}

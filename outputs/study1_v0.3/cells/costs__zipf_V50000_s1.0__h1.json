@@ -1,0 +1,265 @@
+{
+ "tag": "zipf_V50000_s1.0__h1",
+ "n_tuples": 3852681,
+ "n_contexts": 50000,
+ "N": 4000,
+ "L_max": 2048,
+ "build_seconds": 3.2,
+ "colourings": [
+  {
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "seconds": 10.5
+  },
+  {
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 200,
+   "seconds": 233.5
+  }
+ ],
+ "cells": [
+  {
+   "file": "zipf_V50000_s1.0__h1__independent__g0.5__L64__raw.json",
+   "L": 64,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 250803,
+   "seconds": 2.8
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__independent__g0.5__L64__distinct.json",
+   "L": 64,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 250803,
+   "seconds": 2.8
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__independent__g0.5__L64__first.json",
+   "L": 64,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 208937,
+   "seconds": 2.8
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__independent__g0.5__L128__raw.json",
+   "L": 128,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 503510,
+   "seconds": 3.0
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__independent__g0.5__L128__distinct.json",
+   "L": 128,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 503510,
+   "seconds": 3.0
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__independent__g0.5__L128__first.json",
+   "L": 128,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 391445,
+   "seconds": 3.0
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__independent__g0.5__L256__raw.json",
+   "L": 256,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 1004396,
+   "seconds": 3.5
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__independent__g0.5__L256__distinct.json",
+   "L": 256,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 1004396,
+   "seconds": 3.5
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__independent__g0.5__L256__first.json",
+   "L": 256,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 726218,
+   "seconds": 3.3
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__independent__g0.5__L512__raw.json",
+   "L": 512,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 1992485,
+   "seconds": 4.3
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__independent__g0.5__L512__distinct.json",
+   "L": 512,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 1992485,
+   "seconds": 4.3
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__independent__g0.5__L512__first.json",
+   "L": 512,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 1332214,
+   "seconds": 3.9
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__independent__g0.5__L1024__raw.json",
+   "L": 1024,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 3934531,
+   "seconds": 6.0
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__independent__g0.5__L1024__distinct.json",
+   "L": 1024,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 3934531,
+   "seconds": 6.0
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__independent__g0.5__L1024__first.json",
+   "L": 1024,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 2419984,
+   "seconds": 4.9
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__independent__g0.5__L2048__raw.json",
+   "L": 2048,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 7734969,
+   "seconds": 8.8
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__independent__g0.5__L2048__distinct.json",
+   "L": 2048,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 7734969,
+   "seconds": 8.7
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__independent__g0.5__L2048__first.json",
+   "L": 2048,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 4346947,
+   "seconds": 6.8
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__fixed__g0.5__L256__raw.json",
+   "L": 256,
+   "rule": "raw",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 200,
+   "nnz": 1004396,
+   "seconds": 2.3
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__fixed__g0.5__L256__distinct.json",
+   "L": 256,
+   "rule": "distinct",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 200,
+   "nnz": 1004396,
+   "seconds": 2.3
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__fixed__g0.5__L256__first.json",
+   "L": 256,
+   "rule": "first",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 200,
+   "nnz": 726218,
+   "seconds": 2.1
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__fixed__g0.5__L2048__raw.json",
+   "L": 2048,
+   "rule": "raw",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 200,
+   "nnz": 7734969,
+   "seconds": 5.5
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__fixed__g0.5__L2048__distinct.json",
+   "L": 2048,
+   "rule": "distinct",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 200,
+   "nnz": 7734969,
+   "seconds": 5.5
+  },
+  {
+   "file": "zipf_V50000_s1.0__h1__fixed__g0.5__L2048__first.json",
+   "L": 2048,
+   "rule": "first",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 200,
+   "nnz": 4346947,
+   "seconds": 4.5
+  }
+ ],
+ "chain_seconds": 351.0
+}

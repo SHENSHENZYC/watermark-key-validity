@@ -1,0 +1,46 @@
+{
+ "degenerate": true,
+ "reason": "m = floor(gamma V) = 0 with V = 2: no dispersion across keys (every key colours alike)",
+ "law": {
+  "kind": "twotoken",
+  "p_stay": 0.9,
+  "role": "illustration",
+  "K_illustration": 2000
+ },
+ "h": 2,
+ "L": 64,
+ "rule": "raw",
+ "colouring": "independent",
+ "gamma": 0.25,
+ "N": 4000,
+ "K": 2000,
+ "provenance": {
+  "study": "study1_v0.3",
+  "mode": "study",
+  "lock_sha256": "ff265b500f0dbd0cc019c883b7764fab01dd3b73b5b9e3350e2dd912337dd4fd",
+  "grid_sha256": "9e3474adfe098294018982ebfb787da76769fe2e992eb41ec1e1364d16544cb5",
+  "core_sha256": "69a18a98481122e18fee8c46c00c601f0ceb233abbceb9a98406c40bef9105ae",
+  "run_sha256": "f86470aa83608688f97ddf2507f9e86d51fd9b1249dde8d5681c1e99ae3d44dc",
+  "text_seed_base": 20261010,
+  "text_seed": 2247096790,
+  "key_start": 20000,
+  "K": 2000,
+  "slot": {
+   "name": "twotoken_p0.9",
+   "law": {
+    "kind": "twotoken",
+    "p_stay": 0.9,
+    "role": "illustration",
+    "K_illustration": 2000
+   },
+   "h": 2,
+   "L": 64,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 2000,
+   "degenerate": true
+  },
+  "written_utc": "2026-10-10T04:54:35Z"
+ }
+}

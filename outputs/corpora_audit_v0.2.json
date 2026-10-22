@@ -1,0 +1,858 @@
+{
+ "date_utc": "2026-10-09T20:13:02Z",
+ "units_dir": "outputs/corpora_units_v0.2",
+ "partition": {
+  "file": "partition_v0.2.parquet",
+  "finalised": true,
+  "sha256": "4e810c0269f78923d79de4b1b99838a875e6da7e94946f09dd3c83e3ac8ea9d0"
+ },
+ "verdict": "PASS",
+ "n_units": 2617347,
+ "n_clusters": 2610022,
+ "n_allowed_representatives": 2590962,
+ "flow": {
+  "news-dolma-0000.json.gz": {
+   "physical_lines": 126673,
+   "unparseable_lines": 0,
+   "parsed_records": 126673,
+   "licence_excluded": 0,
+   "non_representative_duplicates": 243,
+   "representatives_allowed": 126430,
+   "open_representatives": 101153,
+   "holdout_representatives": 25277
+  },
+  "stackexchange-dolma-0000.json.gz": {
+   "physical_lines": 863130,
+   "unparseable_lines": 0,
+   "parsed_records": 863130,
+   "licence_excluded": 19060,
+   "non_representative_duplicates": 149,
+   "representatives_allowed": 843921,
+   "open_representatives": 675341,
+   "holdout_representatives": 168580
+  },
+  "stackexchange-dolma-0022.json.gz": {
+   "physical_lines": 723470,
+   "unparseable_lines": 0,
+   "parsed_records": 723470,
+   "licence_excluded": 0,
+   "non_representative_duplicates": 30,
+   "representatives_allowed": 723440,
+   "open_representatives": 578717,
+   "holdout_representatives": 144723
+  },
+  "project_gutenberg-dolma-0000.json.gz": {
+   "physical_lines": 4025,
+   "unparseable_lines": 0,
+   "parsed_records": 4025,
+   "licence_excluded": 0,
+   "non_representative_duplicates": 7,
+   "representatives_allowed": 4018,
+   "open_representatives": 3235,
+   "holdout_representatives": 783
+  },
+  "project_gutenberg-dolma-0003.json.gz": {
+   "physical_lines": 4004,
+   "unparseable_lines": 0,
+   "parsed_records": 4004,
+   "licence_excluded": 0,
+   "non_representative_duplicates": 20,
+   "representatives_allowed": 3984,
+   "open_representatives": 3219,
+   "holdout_representatives": 765
+  },
+  "project_gutenberg-dolma-0007.json.gz": {
+   "physical_lines": 3305,
+   "unparseable_lines": 0,
+   "parsed_records": 3305,
+   "licence_excluded": 0,
+   "non_representative_duplicates": 10,
+   "representatives_allowed": 3295,
+   "open_representatives": 2671,
+   "holdout_representatives": 624
+  },
+  "project_gutenberg-dolma-0011.json.gz": {
+   "physical_lines": 3966,
+   "unparseable_lines": 0,
+   "parsed_records": 3966,
+   "licence_excluded": 0,
+   "non_representative_duplicates": 12,
+   "representatives_allowed": 3954,
+   "open_representatives": 3164,
+   "holdout_representatives": 790
+  },
+  "20231101.ar/train-00000-of-00007.parquet": {
+   "physical_lines": 174172,
+   "unparseable_lines": 0,
+   "parsed_records": 174172,
+   "footer_rows": 174172,
+   "licence_excluded": 0,
+   "non_representative_duplicates": 4793,
+   "representatives_allowed": 169379,
+   "open_representatives": 135529,
+   "holdout_representatives": 33850
+  },
+  "20231101.de/train-00000-of-00020.parquet": {
+   "physical_lines": 142266,
+   "unparseable_lines": 0,
+   "parsed_records": 142266,
+   "footer_rows": 142266,
+   "licence_excluded": 0,
+   "non_representative_duplicates": 53,
+   "representatives_allowed": 142213,
+   "open_representatives": 113649,
+   "holdout_representatives": 28564
+  },
+  "20231101.en/train-00000-of-00041.parquet": {
+   "physical_lines": 156289,
+   "unparseable_lines": 0,
+   "parsed_records": 156289,
+   "footer_rows": 156289,
+   "licence_excluded": 0,
+   "non_representative_duplicates": 381,
+   "representatives_allowed": 155908,
+   "open_representatives": 124725,
+   "holdout_representatives": 31183
+  },
+  "20231101.ja/train-00000-of-00015.parquet": {
+   "physical_lines": 92632,
+   "unparseable_lines": 0,
+   "parsed_records": 92632,
+   "footer_rows": 92632,
+   "licence_excluded": 0,
+   "non_representative_duplicates": 139,
+   "representatives_allowed": 92493,
+   "open_representatives": 73910,
+   "holdout_representatives": 18583
+  },
+  "20231101.ru/train-00000-of-00021.parquet": {
+   "physical_lines": 92623,
+   "unparseable_lines": 0,
+   "parsed_records": 92623,
+   "footer_rows": 92623,
+   "licence_excluded": 0,
+   "non_representative_duplicates": 84,
+   "representatives_allowed": 92539,
+   "open_representatives": 74033,
+   "holdout_representatives": 18506
+  },
+  "20231101.zh/train-00000-of-00006.parquet": {
+   "physical_lines": 230792,
+   "unparseable_lines": 0,
+   "parsed_records": 230792,
+   "footer_rows": 230792,
+   "licence_excluded": 0,
+   "non_representative_duplicates": 1404,
+   "representatives_allowed": 229388,
+   "open_representatives": 183556,
+   "holdout_representatives": 45832
+  }
+ },
+ "rules": {
+  "P1": {
+   "pass": true,
+   "admitted_identities": [
+    "cc-by-4.0",
+    "cc-by-sa-2.5",
+    "cc-by-sa-3.0",
+    "cc-by-sa-4.0",
+    "public-domain"
+   ],
+   "licence_excluded_units": 19060,
+   "identities": {
+    "cc-by-sa-3.0": 1944770,
+    "cc-by-sa-4.0": 353964,
+    "cc-by-sa-3.0|cc-by-sa-4.0": 159736,
+    "cc-by-4.0": 109938,
+    "public-domain": 15300,
+    "cc-by-sa-3.0|OTHER:'None'": 8251,
+    "cc-by-sa-4.0|OTHER:'None'": 8205,
+    "cc-by-sa-2.5|cc-by-sa-3.0": 6387,
+    "cc-by-sa-2.5": 5576,
+    "cc-by-sa-2.5|cc-by-sa-3.0|cc-by-sa-4.0": 2223,
+    "cc-by-sa-3.0|cc-by-sa-4.0|OTHER:'None'": 1239,
+    "cc-by-sa-2.5|cc-by-sa-3.0|OTHER:'None'": 633,
+    "cc-by-sa-2.5|OTHER:'None'": 608,
+    "cc-by-sa-2.5|cc-by-sa-4.0": 393
+   },
+   "quarantined_files": {}
+  },
+  "P2": {
+   "pass": true,
+   "open_eligible_256": {
+    "news/en@256": 37696,
+    "wikipedia/en@256": 95048,
+    "stackexchange/en@256": 982015
+   },
+   "sites_with_>=200": 28,
+   "n_sites": 35
+  },
+  "P3": {
+   "pass": true,
+   "open_eligible_256": {
+    "wikipedia/de@256": 100065,
+    "wikipedia/ru@256": 62249,
+    "wikipedia/ar@256": 85264,
+    "wikipedia/zh@256": 121418,
+    "wikipedia/ja@256": 68208
+   }
+  },
+  "P4": {
+   "pass": true,
+   "open_eligible_1024": {
+    "gutenberg/en@1024": 12124,
+    "wikipedia/en@1024": 36046
+   }
+  },
+  "P5": {
+   "pass": true,
+   "reconciliation": {
+    "news-dolma-0000.json.gz": {
+     "kind": "external (card)",
+     "card_count": 126673,
+     "parsed": 126673,
+     "exact": true
+    },
+    "stackexchange-dolma-0000.json.gz": {
+     "kind": "parse-complete only (partial shard; the card total is a whole-source comparator)",
+     "parsed": 863130,
+     "unparseable": 0,
+     "exact": true
+    },
+    "stackexchange-dolma-0022.json.gz": {
+     "kind": "parse-complete only (partial shard; the card total is a whole-source comparator)",
+     "parsed": 723470,
+     "unparseable": 0,
+     "exact": true
+    },
+    "project_gutenberg-dolma-0000.json.gz": {
+     "kind": "parse-complete only (partial shard; the card total is a whole-source comparator)",
+     "parsed": 4025,
+     "unparseable": 0,
+     "exact": true
+    },
+    "project_gutenberg-dolma-0003.json.gz": {
+     "kind": "parse-complete only (partial shard; the card total is a whole-source comparator)",
+     "parsed": 4004,
+     "unparseable": 0,
+     "exact": true
+    },
+    "project_gutenberg-dolma-0007.json.gz": {
+     "kind": "parse-complete only (partial shard; the card total is a whole-source comparator)",
+     "parsed": 3305,
+     "unparseable": 0,
+     "exact": true
+    },
+    "project_gutenberg-dolma-0011.json.gz": {
+     "kind": "parse-complete only (partial shard; the card total is a whole-source comparator)",
+     "parsed": 3966,
+     "unparseable": 0,
+     "exact": true
+    },
+    "20231101.ar/train-00000-of-00007.parquet": {
+     "kind": "external (parquet footer)",
+     "footer_rows": 174172,
+     "parsed": 174172,
+     "exact": true
+    },
+    "20231101.de/train-00000-of-00020.parquet": {
+     "kind": "external (parquet footer)",
+     "footer_rows": 142266,
+     "parsed": 142266,
+     "exact": true
+    },
+    "20231101.en/train-00000-of-00041.parquet": {
+     "kind": "external (parquet footer)",
+     "footer_rows": 156289,
+     "parsed": 156289,
+     "exact": true
+    },
+    "20231101.ja/train-00000-of-00015.parquet": {
+     "kind": "external (parquet footer)",
+     "footer_rows": 92632,
+     "parsed": 92632,
+     "exact": true
+    },
+    "20231101.ru/train-00000-of-00021.parquet": {
+     "kind": "external (parquet footer)",
+     "footer_rows": 92623,
+     "parsed": 92623,
+     "exact": true
+    },
+    "20231101.zh/train-00000-of-00006.parquet": {
+     "kind": "external (parquet footer)",
+     "footer_rows": 230792,
+     "parsed": 230792,
+     "exact": true
+    }
+   }
+  },
+  "P6": {
+   "pass": true,
+   "seal_test": {
+    "open_load": "OK (https://360info.org/2021-was-a-critical-year-for-climate-2022-will-be-even-bigger/, 6247 chars)",
+    "holdout_no_lock": "refused as required (held-out partition requested without a final lock)",
+    "holdout_rows_as_open": "refused as required (1 requested ids belong to another partition than 'open', e.g. 'https://360info.org/accounting-for-microfinances-flaws/')",
+    "holdout_unregistered_lock": "refused as required (lock file is not registered in the seal allow-list)",
+    "fixture_suite": "tools/test_seal.py (14 cases) must also pass; run separately"
+   }
+  },
+  "P7": {
+   "pass_all_ten": true,
+   "holdout_eligible": {
+    "news/en@256": 9362,
+    "wikipedia/en@256": 23738,
+    "stackexchange/en@256": 245245,
+    "wikipedia/de@256": 25259,
+    "wikipedia/ru@256": 15500,
+    "wikipedia/ar@256": 21459,
+    "wikipedia/zh@256": 30284,
+    "wikipedia/ja@256": 17165,
+    "wikipedia/en@1024": 8941,
+    "gutenberg/en@1024": 2917
+   },
+   "failed_excluded_cells": []
+  },
+  "P8": {
+   "expansion_needed": false,
+   "order": {
+    "wikipedia.<lang>": [
+     "train-00001",
+     "train-00002"
+    ],
+    "stackexchange": [
+     "-0011",
+     "-0033"
+    ],
+    "gutenberg": [
+     "-0001",
+     "-0005"
+    ],
+    "news": "no further shard: a failed news count is a FAIL"
+   }
+  }
+ },
+ "cells": {
+  "news/en@256": {
+   "open": 37696,
+   "open_qwen": 37695,
+   "holdout": 9362,
+   "holdout_qwen": 9362
+  },
+  "wikipedia/en@256": {
+   "open": 95048,
+   "open_qwen": 95045,
+   "holdout": 23738,
+   "holdout_qwen": 23737
+  },
+  "stackexchange/en@256": {
+   "open": 982015,
+   "open_qwen": 982004,
+   "holdout": 245245,
+   "holdout_qwen": 245238
+  },
+  "wikipedia/de@256": {
+   "open": 100065,
+   "open_qwen": 100042,
+   "holdout": 25259,
+   "holdout_qwen": 25253
+  },
+  "wikipedia/ru@256": {
+   "open": 62249,
+   "open_qwen": 62249,
+   "holdout": 15500,
+   "holdout_qwen": 15500
+  },
+  "wikipedia/ar@256": {
+   "open": 85264,
+   "open_qwen": 84999,
+   "holdout": 21459,
+   "holdout_qwen": 21409
+  },
+  "wikipedia/zh@256": {
+   "open": 121418,
+   "open_qwen": 116578,
+   "holdout": 30284,
+   "holdout_qwen": 29073
+  },
+  "wikipedia/ja@256": {
+   "open": 68208,
+   "open_qwen": 68120,
+   "holdout": 17165,
+   "holdout_qwen": 17143
+  },
+  "wikipedia/en@1024": {
+   "open": 36046,
+   "open_qwen": 36045,
+   "holdout": 8941,
+   "holdout_qwen": 8941
+  },
+  "gutenberg/en@1024": {
+   "open": 12124,
+   "open_qwen": 12124,
+   "holdout": 2917,
+   "holdout_qwen": 2917
+  }
+ },
+ "bins_by_source_lang": {
+  "gutenberg/da": {
+   "128": {
+    "open": 1,
+    "holdout": 0
+   },
+   "256": {
+    "open": 1,
+    "holdout": 0
+   },
+   "512": {
+    "open": 1,
+    "holdout": 0
+   },
+   "1024": {
+    "open": 1,
+    "holdout": 0
+   },
+   "2048": {
+    "open": 1,
+    "holdout": 0
+   }
+  },
+  "gutenberg/en": {
+   "128": {
+    "open": 12223,
+    "holdout": 2947
+   },
+   "256": {
+    "open": 12205,
+    "holdout": 2944
+   },
+   "512": {
+    "open": 12174,
+    "holdout": 2935
+   },
+   "1024": {
+    "open": 12124,
+    "holdout": 2917
+   },
+   "2048": {
+    "open": 12002,
+    "holdout": 2884
+   }
+  },
+  "news/en": {
+   "128": {
+    "open": 48012,
+    "holdout": 11924
+   },
+   "256": {
+    "open": 37696,
+    "holdout": 9362
+   },
+   "512": {
+    "open": 28505,
+    "holdout": 7041
+   },
+   "1024": {
+    "open": 15190,
+    "holdout": 3801
+   },
+   "2048": {
+    "open": 2067,
+    "holdout": 524
+   }
+  },
+  "stackexchange/en": {
+   "128": {
+    "open": 1196096,
+    "holdout": 298854
+   },
+   "256": {
+    "open": 982015,
+    "holdout": 245245
+   },
+   "512": {
+    "open": 573058,
+    "holdout": 143160
+   },
+   "1024": {
+    "open": 200996,
+    "holdout": 50047
+   },
+   "2048": {
+    "open": 42686,
+    "holdout": 10784
+   }
+  },
+  "wikipedia/ar": {
+   "128": {
+    "open": 109776,
+    "holdout": 27513
+   },
+   "256": {
+    "open": 85264,
+    "holdout": 21459
+   },
+   "512": {
+    "open": 57845,
+    "holdout": 14570
+   },
+   "1024": {
+    "open": 34890,
+    "holdout": 8723
+   },
+   "2048": {
+    "open": 16403,
+    "holdout": 4218
+   }
+  },
+  "wikipedia/de": {
+   "128": {
+    "open": 107649,
+    "holdout": 27158
+   },
+   "256": {
+    "open": 100065,
+    "holdout": 25259
+   },
+   "512": {
+    "open": 87074,
+    "holdout": 22049
+   },
+   "1024": {
+    "open": 66543,
+    "holdout": 16872
+   },
+   "2048": {
+    "open": 41678,
+    "holdout": 10515
+   }
+  },
+  "wikipedia/en": {
+   "128": {
+    "open": 112093,
+    "holdout": 28035
+   },
+   "256": {
+    "open": 95048,
+    "holdout": 23738
+   },
+   "512": {
+    "open": 67262,
+    "holdout": 16826
+   },
+   "1024": {
+    "open": 36046,
+    "holdout": 8941
+   },
+   "2048": {
+    "open": 13982,
+    "holdout": 3591
+   }
+  },
+  "wikipedia/ja": {
+   "128": {
+    "open": 71864,
+    "holdout": 18091
+   },
+   "256": {
+    "open": 68208,
+    "holdout": 17165
+   },
+   "512": {
+    "open": 60299,
+    "holdout": 15172
+   },
+   "1024": {
+    "open": 46585,
+    "holdout": 11697
+   },
+   "2048": {
+    "open": 30721,
+    "holdout": 7659
+   }
+  },
+  "wikipedia/ru": {
+   "128": {
+    "open": 69760,
+    "holdout": 17422
+   },
+   "256": {
+    "open": 62249,
+    "holdout": 15500
+   },
+   "512": {
+    "open": 50942,
+    "holdout": 12561
+   },
+   "1024": {
+    "open": 37119,
+    "holdout": 9265
+   },
+   "2048": {
+    "open": 23235,
+    "holdout": 5757
+   }
+  },
+  "wikipedia/zh": {
+   "128": {
+    "open": 151053,
+    "holdout": 37662
+   },
+   "256": {
+    "open": 121418,
+    "holdout": 30284
+   },
+   "512": {
+    "open": 87583,
+    "holdout": 21948
+   },
+   "1024": {
+    "open": 54447,
+    "holdout": 13844
+   },
+   "2048": {
+    "open": 28122,
+    "holdout": 7110
+   }
+  }
+ },
+ "forum_sites_top": {
+  "stackoverflow.com": 484881,
+  "askubuntu.com": 235887,
+  "apple.stackexchange.com": 70189,
+  "academia.stackexchange.com": 31511,
+  "android.stackexchange.com": 28269,
+  "aviation.stackexchange.com": 18046,
+  "biology.stackexchange.com": 17395,
+  "bitcoin.stackexchange.com": 17332,
+  "arduino.stackexchange.com": 17264,
+  "bicycles.stackexchange.com": 15681,
+  "astronomy.stackexchange.com": 10443,
+  "ai.stackexchange.com": 7881,
+  "anime.stackexchange.com": 7007,
+  "avp.stackexchange.com": 5171,
+  "bioinformatics.stackexchange.com": 4214,
+  "3dprinting.stackexchange.com": 4105,
+  "apple.meta.stackexchange.com": 828,
+  "academia.meta.stackexchange.com": 822,
+  "beer.stackexchange.com": 788,
+  "anime.meta.stackexchange.com": 578,
+  "android.meta.stackexchange.com": 535,
+  "biology.meta.stackexchange.com": 478,
+  "blender.meta.stackexchange.com": 455,
+  "aviation.meta.stackexchange.com": 443,
+  "bioacoustics.stackexchange.com": 359,
+  "bicycles.meta.stackexchange.com": 284,
+  "bitcoin.meta.stackexchange.com": 205,
+  "astronomy.meta.stackexchange.com": 204,
+  "ai.meta.stackexchange.com": 186,
+  "arduino.meta.stackexchange.com": 167
+ },
+ "news_outlets": {
+  "news-globalvoices": 12344,
+  "news-factly": 5456,
+  "news-milwaukeenns": 4996,
+  "news-educeleb": 3388,
+  "news-altnews": 3304,
+  "news-newcanadianmedia": 2197,
+  "news-libertytvradio": 1854,
+  "news-360info": 1100,
+  "news-thepublicrecord": 876,
+  "news-freedom": 643,
+  "news-balkandiskurs": 535,
+  "news-zimfact": 318,
+  "news-oxpeckers": 317,
+  "news-mekongeye": 239,
+  "news-minorityafrica": 126,
+  "news-propastop": 2,
+  "news-solutionsjournalism": 1
+ },
+ "partition_summary": {
+  "n_units": 2617347,
+  "n_files": 13,
+  "n_quarantined_files": 0,
+  "n_with_signature": 2617310,
+  "exact_duplicate_unions": 230,
+  "lsh": {
+   "bands": 32,
+   "rows": 4,
+   "buckets_with_2plus": 95730,
+   "largest_bucket": 993,
+   "bucket_pairs_examined": 5061391,
+   "prefilter_margin": 0.15
+  },
+  "candidate_pairs": 286347,
+  "candidate_units": 24781,
+  "near_duplicate_unions": 7095,
+  "confusion_est_vs_exact": {
+   "est>=T&exact>=T": 73465,
+   "est>=T&exact<T": 8293,
+   "est<T&exact>=T": 11975,
+   "est<T&exact<T": 192614
+  },
+  "exact_jaccard_histogram_20bins": [
+   8,
+   12,
+   10,
+   5,
+   3,
+   4,
+   42,
+   815,
+   10611,
+   27785,
+   37652,
+   70712,
+   53248,
+   23722,
+   10288,
+   9415,
+   6284,
+   12294,
+   20734,
+   2703
+  ],
+  "threshold_exact_jaccard": 0.65,
+  "n_clusters": 2610022,
+  "cross_source_clusters": 0,
+  "exposure_hits": 73,
+  "forced_open_units": 73,
+  "holdout_share_of_clusters": 0.19996038347569484,
+  "by_source_lang": {
+   "gutenberg/da": {
+    "clusters": 1,
+    "holdout": 0,
+    "holdout_share": 0.0
+   },
+   "gutenberg/en": {
+    "clusters": 15250,
+    "holdout": 2962,
+    "holdout_share": 0.1942295081967213
+   },
+   "news/en": {
+    "clusters": 126430,
+    "holdout": 25277,
+    "holdout_share": 0.1999288143636795
+   },
+   "stackexchange/en": {
+    "clusters": 1586421,
+    "holdout": 317144,
+    "holdout_share": 0.19991162497218581
+   },
+   "wikipedia/ar": {
+    "clusters": 169379,
+    "holdout": 33850,
+    "holdout_share": 0.19984767887400445
+   },
+   "wikipedia/de": {
+    "clusters": 142213,
+    "holdout": 28564,
+    "holdout_share": 0.20085364910380907
+   },
+   "wikipedia/en": {
+    "clusters": 155908,
+    "holdout": 31183,
+    "holdout_share": 0.20000897965466813
+   },
+   "wikipedia/ja": {
+    "clusters": 92493,
+    "holdout": 18583,
+    "holdout_share": 0.20091250148659898
+   },
+   "wikipedia/ru": {
+    "clusters": 92539,
+    "holdout": 18506,
+    "holdout_share": 0.19998054874161164
+   },
+   "wikipedia/zh": {
+    "clusters": 229388,
+    "holdout": 45832,
+    "holdout_share": 0.19980121017664393
+   }
+  },
+  "assignment": "holdout iff int(sha256(cluster_id)[:16],16) % 5 == 0 and the cluster holds no exposure record",
+  "seconds": 67,
+  "final_version": "0.2",
+  "partition_sha256": "4e810c0269f78923d79de4b1b99838a875e6da7e94946f09dd3c83e3ac8ea9d0"
+ },
+ "loader_meta": {
+  "written_utc": "2026-10-09T19:02:59Z",
+  "limit": null,
+  "n_units": 2617347,
+  "n_signatures": 2617310,
+  "tokenizers": {
+   "llama": [
+    "meta-llama/Llama-3.2-1B",
+    "4e20de362430cd3b72f300e6b0f18e50e7166e08"
+   ],
+   "qwen": [
+    "Qwen/Qwen2.5-1.5B",
+    "8faed761d45a263340a0528343f099c05c9a4323"
+   ]
+  },
+  "tok_cap_chars": {
+   "news": 12000,
+   "stackexchange": 12000,
+   "wikipedia": 12000,
+   "gutenberg": 24000
+  },
+  "shingle_caps": {
+   "word": 20000,
+   "char": 8000
+  },
+  "tokenizer_provenance": {
+   "llama": {
+    "repo": "meta-llama/Llama-3.2-1B",
+    "revision": "4e20de362430cd3b72f300e6b0f18e50e7166e08",
+    "files_sha256": {
+     "tokenizer.json": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+     "tokenizer_config.json": "8004530facf809ac432114de2a4dcc65fcb632da5ec16d666091aeb6a2ee444a",
+     "special_tokens_map.json": "cc2e013b7545f183ef03e079a3c91c6f364fa37e4068c512d7dd843e59024535"
+    },
+    "vocab_size": 128256,
+    "add_special_tokens": false,
+    "note": "counts are of the capped character prefix (TOK_CAP) without special tokens; tok_censored marks truncation"
+   },
+   "qwen": {
+    "repo": "Qwen/Qwen2.5-1.5B",
+    "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+    "files_sha256": {
+     "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+     "tokenizer_config.json": "c91efca15ceff6e9ee9424db58a6f59cd41294e550a86cbd07e3c1fb500b34f9"
+    },
+    "vocab_size": 151665,
+    "add_special_tokens": false,
+    "note": "counts are of the capped character prefix (TOK_CAP) without special tokens; tok_censored marks truncation"
+   }
+  },
+  "licence_allowlist": {
+   "labels": {
+    "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/": "cc-by-4.0",
+    "Creative Commons - Attribution Share-Alike - https://creativecommons.org/licenses/by-sa/2.5/": "cc-by-sa-2.5",
+    "Creative Commons - Attribution Share-Alike - https://creativecommons.org/licenses/by-sa/3.0/": "cc-by-sa-3.0",
+    "Creative Commons - Attribution Share-Alike - https://creativecommons.org/licenses/by-sa/4.0/": "cc-by-sa-4.0",
+    "Public Domain": "public-domain"
+   },
+   "wikipedia_label": "project:CC BY-SA 3.0/4.0 + GFDL (inherited)",
+   "allowed_identities": [
+    "cc-by-4.0",
+    "cc-by-sa-2.5",
+    "cc-by-sa-3.0",
+    "cc-by-sa-4.0",
+    "public-domain"
+   ]
+  },
+  "minhash": {
+   "n_perm": 128,
+   "seed": 20261009,
+   "hash": "CPython str.hash with PYTHONHASHSEED=20261009; h_i(x) = ((a_i x + b_i) mod 2^64) >> 32",
+   "domain": "candidate generation only: shingles of the normalised-text prefix (SHINGLE_CAP); confirmation uses exact Jaccard on the full normalised text (corpora_partition.py)"
+  },
+  "lsh": {
+   "bands": 16,
+   "rows": 8
+  },
+  "book_skip_tokens": 1000,
+  "seconds": 1264
+ }
+}

@@ -1,0 +1,1016 @@
+{
+ "datasets": {
+  "Hello-SimpleAI/HC3": {
+   "api_status": 200,
+   "card_license": "cc-by-sa-4.0",
+   "configs": {
+    "all": {
+     "estimated_num_rows": null,
+     "num_rows": 24322,
+     "original_bytes": 73722850,
+     "parquet_bytes": 39283467,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 24322,
+       "parquet_bytes": 39283467
+      }
+     },
+     "viewer_count_is_partial": false
+    },
+    "finance": {
+     "estimated_num_rows": null,
+     "num_rows": 3933,
+     "original_bytes": 9889186,
+     "parquet_bytes": 5175401,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 3933,
+       "parquet_bytes": 5175401
+      }
+     },
+     "viewer_count_is_partial": false
+    },
+    "medicine": {
+     "estimated_num_rows": null,
+     "num_rows": 1248,
+     "original_bytes": 2683640,
+     "parquet_bytes": 1396999,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 1248,
+       "parquet_bytes": 1396999
+      }
+     },
+     "viewer_count_is_partial": false
+    },
+    "open_qa": {
+     "estimated_num_rows": null,
+     "num_rows": 1187,
+     "original_bytes": 2910828,
+     "parquet_bytes": 1381111,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 1187,
+       "parquet_bytes": 1381111
+      }
+     },
+     "viewer_count_is_partial": false
+    },
+    "reddit_eli5": {
+     "estimated_num_rows": null,
+     "num_rows": 17112,
+     "original_bytes": 55448695,
+     "parquet_bytes": 30268716,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 17112,
+       "parquet_bytes": 30268716
+      }
+     },
+     "viewer_count_is_partial": false
+    },
+    "wiki_csai": {
+     "estimated_num_rows": null,
+     "num_rows": 842,
+     "original_bytes": 2198039,
+     "parquet_bytes": 1076332,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 842,
+       "parquet_bytes": 1076332
+      }
+     },
+     "viewer_count_is_partial": false
+    }
+   },
+   "features": {
+    "config": "all",
+    "names": [
+     "id",
+     "question",
+     "human_answers",
+     "chatgpt_answers",
+     "source"
+    ],
+    "split": "train"
+   },
+   "files": {
+    ".": {
+     "error": null,
+     "examples": [
+      ".gitattributes",
+      "HC3.py",
+      "README.md"
+     ],
+     "n_dirs": 0,
+     "n_files": 9,
+     "total_bytes": 146866556
+    }
+   },
+   "gated": false,
+   "lastModified": "2023-01-21T13:10:10.000Z",
+   "license_tags": [
+    "license:cc-by-sa-4.0"
+   ],
+   "n_siblings": 9,
+   "private": false,
+   "sha": "4d0ff18143b5a7e1b1e79beb540c04549d1e59d3",
+   "size_api_status": 200,
+   "size_partial": false
+  },
+  "HuggingFaceH4/stack-exchange-preferences": {
+   "api_status": 200,
+   "card_license": "cc-by-sa-4.0",
+   "configs": {
+    "default": {
+     "estimated_num_rows": null,
+     "num_rows": 10807695,
+     "original_bytes": 19674538593,
+     "parquet_bytes": 19674538593,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 10807695,
+       "parquet_bytes": 19674538593
+      }
+     },
+     "viewer_count_is_partial": false
+    }
+   },
+   "features": {
+    "config": "default",
+    "names": [
+     "qid",
+     "question",
+     "answers",
+     "date",
+     "metadata"
+    ],
+    "split": "train"
+   },
+   "files": {},
+   "gated": false,
+   "lastModified": "2023-03-08T03:37:53.000Z",
+   "license_tags": [
+    "license:cc-by-sa-4.0"
+   ],
+   "n_siblings": 762,
+   "private": false,
+   "sha": "c7bda74048748f55749cd663c3d8d1025a841fd9",
+   "size_api_status": 200,
+   "size_partial": false
+  },
+  "Salesforce/wikitext": {
+   "api_status": 200,
+   "card_license": [
+    "cc-by-sa-3.0",
+    "gfdl"
+   ],
+   "configs": {
+    "wikitext-103-raw-v1": {
+     "estimated_num_rows": null,
+     "num_rows": 1809468,
+     "original_bytes": 315466397,
+     "parquet_bytes": 315466397,
+     "splits": {
+      "test": {
+       "estimated_num_rows": null,
+       "num_rows": 4358,
+       "parquet_bytes": 732610
+      },
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 1801350,
+       "parquet_bytes": 314076578
+      },
+      "validation": {
+       "estimated_num_rows": null,
+       "num_rows": 3760,
+       "parquet_bytes": 657209
+      }
+     },
+     "viewer_count_is_partial": false
+    }
+   },
+   "features": {
+    "config": "wikitext-103-raw-v1",
+    "names": [
+     "text"
+    ],
+    "split": "validation"
+   },
+   "files": {
+    "wikitext-103-raw-v1": {
+     "error": null,
+     "examples": [
+      "wikitext-103-raw-v1/test-00000-of-00001.parquet",
+      "wikitext-103-raw-v1/train-00000-of-00002.parquet",
+      "wikitext-103-raw-v1/train-00001-of-00002.parquet"
+     ],
+     "n_dirs": 0,
+     "n_files": 4,
+     "total_bytes": 315466397
+    }
+   },
+   "gated": false,
+   "lastModified": "2024-01-04T16:49:18.000Z",
+   "license_tags": [
+    "license:cc-by-sa-3.0",
+    "license:gfdl"
+   ],
+   "n_siblings": 16,
+   "private": false,
+   "sha": "b08601e04326c79dfdd32d625aee71d232d685c3",
+   "size_api_status": 200,
+   "size_partial": false
+  },
+  "allenai/c4": {
+   "api_status": 200,
+   "card_license": [
+    "odc-by"
+   ],
+   "configs": {
+    "realnewslike": {
+     "estimated_num_rows": 13782739,
+     "num_rows": 1823447,
+     "original_bytes": null,
+     "parquet_bytes": 3179185383,
+     "splits": {
+      "train": {
+       "estimated_num_rows": 13768876,
+       "num_rows": 1809584,
+       "parquet_bytes": 3155325948
+      },
+      "validation": {
+       "estimated_num_rows": null,
+       "num_rows": 13863,
+       "parquet_bytes": 23859435
+      }
+     },
+     "viewer_count_is_partial": true
+    }
+   },
+   "features": {
+    "config": "realnewslike",
+    "names": [
+     "text",
+     "timestamp",
+     "url"
+    ],
+    "split": "validation"
+   },
+   "files": {
+    "realnewslike": {
+     "error": null,
+     "examples": [
+      "realnewslike/c4-train.00000-of-00512.json.gz",
+      "realnewslike/c4-train.00001-of-00512.json.gz",
+      "realnewslike/c4-train.00002-of-00512.json.gz"
+     ],
+     "n_dirs": 0,
+     "n_files": 513,
+     "total_bytes": 15435025687
+    }
+   },
+   "gated": false,
+   "lastModified": "2024-01-09T19:14:03.000Z",
+   "license_tags": [
+    "license:odc-by"
+   ],
+   "n_siblings": 69221,
+   "private": false,
+   "sha": "1588ec454efa1a09f29cd18ddd04fe05fc8653a2",
+   "size_api_status": 200,
+   "size_partial": true
+  },
+  "common-pile/news": {
+   "api_status": 200,
+   "card_license": null,
+   "configs": {
+    "default": {
+     "estimated_num_rows": null,
+     "num_rows": 172308,
+     "original_bytes": 155156179,
+     "parquet_bytes": 240779474,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 172308,
+       "parquet_bytes": 240779474
+      }
+     },
+     "viewer_count_is_partial": false
+    }
+   },
+   "features": {
+    "config": "default",
+    "names": [
+     "id",
+     "text",
+     "source",
+     "added",
+     "created",
+     "metadata"
+    ],
+    "split": "train"
+   },
+   "files": {
+    ".": {
+     "error": null,
+     "examples": [
+      ".gitattributes",
+      "README.md"
+     ],
+     "n_dirs": 1,
+     "n_files": 2,
+     "total_bytes": 5591
+    },
+    "data": {
+     "error": "HTTPError: HTTP Error 404: Not Found",
+     "examples": [],
+     "n_dirs": 0,
+     "n_files": 0,
+     "total_bytes": 0
+    }
+   },
+   "gated": false,
+   "lastModified": "2025-06-06T03:57:27.000Z",
+   "license_tags": [],
+   "n_siblings": 19,
+   "private": false,
+   "sha": "13e76bdc8d49ed14d710fac7e3b61186cf74c8d3",
+   "size_api_status": 200,
+   "size_partial": false
+  },
+  "common-pile/news_filtered": {
+   "api_status": 200,
+   "card_license": null,
+   "configs": {
+    "default": {
+     "estimated_num_rows": null,
+     "num_rows": 126673,
+     "original_bytes": 98092770,
+     "parquet_bytes": 152673253,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 126673,
+       "parquet_bytes": 152673253
+      }
+     },
+     "viewer_count_is_partial": false
+    }
+   },
+   "features": {
+    "config": "default",
+    "names": [
+     "added",
+     "created",
+     "id",
+     "metadata",
+     "source",
+     "text"
+    ],
+    "split": "train"
+   },
+   "files": {
+    ".": {
+     "error": null,
+     "examples": [
+      ".gitattributes",
+      "README.md",
+      "news-dolma-0000.json.gz"
+     ],
+     "n_dirs": 0,
+     "n_files": 3,
+     "total_bytes": 98098364
+    },
+    "data": {
+     "error": "HTTPError: HTTP Error 404: Not Found",
+     "examples": [],
+     "n_dirs": 0,
+     "n_files": 0,
+     "total_bytes": 0
+    }
+   },
+   "gated": false,
+   "lastModified": "2025-06-06T03:57:37.000Z",
+   "license_tags": [],
+   "n_siblings": 3,
+   "private": false,
+   "sha": "59aaa8f104e189e6fb8033f0ed319c5c343a03b1",
+   "size_api_status": 200,
+   "size_partial": false
+  },
+  "common-pile/project_gutenberg_filtered": {
+   "api_status": 200,
+   "card_license": null,
+   "configs": {
+    "default": {
+     "estimated_num_rows": 57115,
+     "num_rows": 14354,
+     "original_bytes": null,
+     "parquet_bytes": 3094836069,
+     "splits": {
+      "train": {
+       "estimated_num_rows": 57115,
+       "num_rows": 14354,
+       "parquet_bytes": 3094836069
+      }
+     },
+     "viewer_count_is_partial": true
+    }
+   },
+   "features": {
+    "config": "default",
+    "names": [
+     "added",
+     "id",
+     "metadata",
+     "source",
+     "text"
+    ],
+    "split": "train"
+   },
+   "files": {
+    ".": {
+     "error": null,
+     "examples": [
+      ".gitattributes",
+      "README.md",
+      "project_gutenberg-dolma-0000.json.gz"
+     ],
+     "n_dirs": 0,
+     "n_files": 17,
+     "total_bytes": 7628675140
+    },
+    "data": {
+     "error": "HTTPError: HTTP Error 404: Not Found",
+     "examples": [],
+     "n_dirs": 0,
+     "n_files": 0,
+     "total_bytes": 0
+    }
+   },
+   "gated": false,
+   "lastModified": "2025-06-06T03:59:35.000Z",
+   "license_tags": [],
+   "n_siblings": 17,
+   "private": false,
+   "sha": "3cdf6879c807f4e4e063f2ceb23bc268d8c29ab7",
+   "size_api_status": 200,
+   "size_partial": true
+  },
+  "common-pile/stackexchange_filtered": {
+   "api_status": 200,
+   "card_license": null,
+   "configs": {
+    "default": {
+     "estimated_num_rows": 27497605,
+     "num_rows": 1282779,
+     "original_bytes": null,
+     "parquet_bytes": 2459669981,
+     "splits": {
+      "train": {
+       "estimated_num_rows": 27497605,
+       "num_rows": 1282779,
+       "parquet_bytes": 2459669981
+      }
+     },
+     "viewer_count_is_partial": true
+    }
+   },
+   "features": {
+    "config": "default",
+    "names": [
+     "added",
+     "created",
+     "id",
+     "metadata",
+     "source",
+     "text"
+    ],
+    "split": "train"
+   },
+   "files": {
+    ".": {
+     "error": null,
+     "examples": [
+      ".gitattributes",
+      "README.md",
+      "stackexchange-dolma-0000.json.gz"
+     ],
+     "n_dirs": 0,
+     "n_files": 46,
+     "total_bytes": 34925454063
+    },
+    "data": {
+     "error": "HTTPError: HTTP Error 404: Not Found",
+     "examples": [],
+     "n_dirs": 0,
+     "n_files": 0,
+     "total_bytes": 0
+    }
+   },
+   "gated": false,
+   "lastModified": "2025-06-06T04:02:09.000Z",
+   "license_tags": [],
+   "n_siblings": 46,
+   "private": false,
+   "sha": "c0ac7373830c688a43fc12d1988c4b19ccd884ab",
+   "size_api_status": 200,
+   "size_partial": true
+  },
+  "donfu/oa-stackexchange": {
+   "api_status": 200,
+   "card_license": "cc-by-sa-4.0",
+   "configs": {
+    "default": {
+     "estimated_num_rows": null,
+     "num_rows": 6331083,
+     "original_bytes": 3755782987,
+     "parquet_bytes": 3755782987,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 6331083,
+       "parquet_bytes": 3755782987
+      }
+     },
+     "viewer_count_is_partial": false
+    }
+   },
+   "features": {
+    "config": "default",
+    "names": [
+     "INSTRUCTION",
+     "RESPONSE",
+     "SOURCE",
+     "METADATA"
+    ],
+    "split": "train"
+   },
+   "files": {
+    ".": {
+     "error": null,
+     "examples": [
+      ".gitattributes",
+      ".gitignore",
+      "README.md"
+     ],
+     "n_dirs": 1,
+     "n_files": 9,
+     "total_bytes": 19579
+    },
+    "data": {
+     "error": null,
+     "examples": [
+      "data/train-00000-of-00014-ef5f91dca37ef8a2.parquet",
+      "data/train-00001-of-00014-54c4a57fdb051fb7.parquet",
+      "data/train-00002-of-00014-e77c4d2fb933a587.parquet"
+     ],
+     "n_dirs": 0,
+     "n_files": 14,
+     "total_bytes": 3755782987
+    }
+   },
+   "gated": false,
+   "lastModified": "2023-04-23T17:45:09.000Z",
+   "license_tags": [
+    "license:cc-by-sa-4.0"
+   ],
+   "n_siblings": 23,
+   "private": false,
+   "sha": "ae54b00b7c688866e86acf4605034ed2bded75f3",
+   "size_api_status": 200,
+   "size_partial": false
+  },
+  "izumi-lab/wikinews-en-20230728": {
+   "api_status": 200,
+   "card_license": "cc-by-2.5",
+   "configs": {
+    "default": {
+     "estimated_num_rows": null,
+     "num_rows": 43246,
+     "original_bytes": 38557626,
+     "parquet_bytes": 38557626,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 43246,
+       "parquet_bytes": 38557626
+      }
+     },
+     "viewer_count_is_partial": false
+    }
+   },
+   "features": {
+    "config": "default",
+    "names": [
+     "text",
+     "title",
+     "url"
+    ],
+    "split": "train"
+   },
+   "files": {
+    ".": {
+     "error": null,
+     "examples": [
+      ".gitattributes",
+      "README.md"
+     ],
+     "n_dirs": 1,
+     "n_files": 2,
+     "total_bytes": 2775
+    }
+   },
+   "gated": false,
+   "lastModified": "2023-07-29T03:07:56.000Z",
+   "license_tags": [
+    "license:cc-by-2.5"
+   ],
+   "n_siblings": 3,
+   "private": false,
+   "sha": "682cb1079b7b726cdb337275b2343043d10f9fd6",
+   "size_api_status": 200,
+   "size_partial": false
+  },
+  "wikimedia/wikipedia": {
+   "api_status": 200,
+   "card_license": [
+    "cc-by-sa-3.0",
+    "gfdl"
+   ],
+   "configs": {
+    "20231101.ar": {
+     "estimated_num_rows": null,
+     "num_rows": 1219201,
+     "original_bytes": 1323304271,
+     "parquet_bytes": 1323304271,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 1219201,
+       "parquet_bytes": 1323304271
+      }
+     },
+     "viewer_count_is_partial": false
+    },
+    "20231101.bg": {
+     "estimated_num_rows": null,
+     "num_rows": 294275,
+     "original_bytes": 512344058,
+     "parquet_bytes": 512344058,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 294275,
+       "parquet_bytes": 512344058
+      }
+     },
+     "viewer_count_is_partial": false
+    },
+    "20231101.de": {
+     "estimated_num_rows": null,
+     "num_rows": 2845308,
+     "original_bytes": 5771317942,
+     "parquet_bytes": 5771317942,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 2845308,
+       "parquet_bytes": 5771317942
+      }
+     },
+     "viewer_count_is_partial": false
+    },
+    "20231101.en": {
+     "estimated_num_rows": null,
+     "num_rows": 6407814,
+     "original_bytes": 11630929031,
+     "parquet_bytes": 11630929031,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 6407814,
+       "parquet_bytes": 11630929031
+      }
+     },
+     "viewer_count_is_partial": false
+    },
+    "20231101.es": {
+     "estimated_num_rows": null,
+     "num_rows": 1841155,
+     "original_bytes": 3493595869,
+     "parquet_bytes": 3493595869,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 1841155,
+       "parquet_bytes": 3493595869
+      }
+     },
+     "viewer_count_is_partial": false
+    },
+    "20231101.fr": {
+     "estimated_num_rows": null,
+     "num_rows": 2564646,
+     "original_bytes": 4614488286,
+     "parquet_bytes": 4614488286,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 2564646,
+       "parquet_bytes": 4614488286
+      }
+     },
+     "viewer_count_is_partial": false
+    },
+    "20231101.hi": {
+     "estimated_num_rows": null,
+     "num_rows": 163093,
+     "original_bytes": 237834604,
+     "parquet_bytes": 237834604,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 163093,
+       "parquet_bytes": 237834604
+      }
+     },
+     "viewer_count_is_partial": false
+    },
+    "20231101.ja": {
+     "estimated_num_rows": null,
+     "num_rows": 1389467,
+     "original_bytes": 3941998526,
+     "parquet_bytes": 3941998526,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 1389467,
+       "parquet_bytes": 3941998526
+      }
+     },
+     "viewer_count_is_partial": false
+    },
+    "20231101.ko": {
+     "estimated_num_rows": null,
+     "num_rows": 647897,
+     "original_bytes": 782677061,
+     "parquet_bytes": 782677061,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 647897,
+       "parquet_bytes": 782677061
+      }
+     },
+     "viewer_count_is_partial": false
+    },
+    "20231101.ru": {
+     "estimated_num_rows": null,
+     "num_rows": 1945063,
+     "original_bytes": 4876849588,
+     "parquet_bytes": 4876849588,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 1945063,
+       "parquet_bytes": 4876849588
+      }
+     },
+     "viewer_count_is_partial": false
+    },
+    "20231101.uk": {
+     "estimated_num_rows": null,
+     "num_rows": 1294720,
+     "original_bytes": 2276769383,
+     "parquet_bytes": 2276769383,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 1294720,
+       "parquet_bytes": 2276769383
+      }
+     },
+     "viewer_count_is_partial": false
+    },
+    "20231101.zh": {
+     "estimated_num_rows": null,
+     "num_rows": 1384748,
+     "original_bytes": 1721150260,
+     "parquet_bytes": 1721150260,
+     "splits": {
+      "train": {
+       "estimated_num_rows": null,
+       "num_rows": 1384748,
+       "parquet_bytes": 1721150260
+      }
+     },
+     "viewer_count_is_partial": false
+    }
+   },
+   "features": {
+    "config": "20231101.ja",
+    "names": [
+     "id",
+     "url",
+     "title",
+     "text"
+    ],
+    "split": "train"
+   },
+   "files": {
+    "20231101.ar": {
+     "error": null,
+     "examples": [
+      "20231101.ar/train-00000-of-00007.parquet",
+      "20231101.ar/train-00001-of-00007.parquet",
+      "20231101.ar/train-00002-of-00007.parquet"
+     ],
+     "n_dirs": 0,
+     "n_files": 7,
+     "total_bytes": 1323304271
+    },
+    "20231101.bg": {
+     "error": null,
+     "examples": [
+      "20231101.bg/train-00000-of-00003.parquet",
+      "20231101.bg/train-00001-of-00003.parquet",
+      "20231101.bg/train-00002-of-00003.parquet"
+     ],
+     "n_dirs": 0,
+     "n_files": 3,
+     "total_bytes": 512344058
+    },
+    "20231101.de": {
+     "error": null,
+     "examples": [
+      "20231101.de/train-00000-of-00020.parquet",
+      "20231101.de/train-00001-of-00020.parquet",
+      "20231101.de/train-00002-of-00020.parquet"
+     ],
+     "n_dirs": 0,
+     "n_files": 20,
+     "total_bytes": 5771317942
+    },
+    "20231101.en": {
+     "error": null,
+     "examples": [
+      "20231101.en/train-00000-of-00041.parquet",
+      "20231101.en/train-00001-of-00041.parquet",
+      "20231101.en/train-00002-of-00041.parquet"
+     ],
+     "n_dirs": 0,
+     "n_files": 41,
+     "total_bytes": 11630929031
+    },
+    "20231101.es": {
+     "error": null,
+     "examples": [
+      "20231101.es/train-00000-of-00013.parquet",
+      "20231101.es/train-00001-of-00013.parquet",
+      "20231101.es/train-00002-of-00013.parquet"
+     ],
+     "n_dirs": 0,
+     "n_files": 13,
+     "total_bytes": 3493595869
+    },
+    "20231101.fr": {
+     "error": null,
+     "examples": [
+      "20231101.fr/train-00000-of-00017.parquet",
+      "20231101.fr/train-00001-of-00017.parquet",
+      "20231101.fr/train-00002-of-00017.parquet"
+     ],
+     "n_dirs": 0,
+     "n_files": 17,
+     "total_bytes": 4614488286
+    },
+    "20231101.hi": {
+     "error": null,
+     "examples": [
+      "20231101.hi/train-00000-of-00002.parquet",
+      "20231101.hi/train-00001-of-00002.parquet"
+     ],
+     "n_dirs": 0,
+     "n_files": 2,
+     "total_bytes": 237834604
+    },
+    "20231101.ja": {
+     "error": null,
+     "examples": [
+      "20231101.ja/train-00000-of-00015.parquet",
+      "20231101.ja/train-00001-of-00015.parquet",
+      "20231101.ja/train-00002-of-00015.parquet"
+     ],
+     "n_dirs": 0,
+     "n_files": 15,
+     "total_bytes": 3941998526
+    },
+    "20231101.ko": {
+     "error": null,
+     "examples": [
+      "20231101.ko/train-00000-of-00003.parquet",
+      "20231101.ko/train-00001-of-00003.parquet",
+      "20231101.ko/train-00002-of-00003.parquet"
+     ],
+     "n_dirs": 0,
+     "n_files": 3,
+     "total_bytes": 782677061
+    },
+    "20231101.ru": {
+     "error": null,
+     "examples": [
+      "20231101.ru/train-00000-of-00021.parquet",
+      "20231101.ru/train-00001-of-00021.parquet",
+      "20231101.ru/train-00002-of-00021.parquet"
+     ],
+     "n_dirs": 0,
+     "n_files": 21,
+     "total_bytes": 4876849588
+    },
+    "20231101.uk": {
+     "error": null,
+     "examples": [
+      "20231101.uk/train-00000-of-00010.parquet",
+      "20231101.uk/train-00001-of-00010.parquet",
+      "20231101.uk/train-00002-of-00010.parquet"
+     ],
+     "n_dirs": 0,
+     "n_files": 10,
+     "total_bytes": 2276769383
+    },
+    "20231101.zh": {
+     "error": null,
+     "examples": [
+      "20231101.zh/train-00000-of-00006.parquet",
+      "20231101.zh/train-00001-of-00006.parquet",
+      "20231101.zh/train-00002-of-00006.parquet"
+     ],
+     "n_dirs": 0,
+     "n_files": 6,
+     "total_bytes": 1721150260
+    }
+   },
+   "gated": false,
+   "lastModified": "2024-01-09T09:40:51.000Z",
+   "license_tags": [
+    "license:cc-by-sa-3.0",
+    "license:gfdl"
+   ],
+   "n_siblings": 557,
+   "private": false,
+   "sha": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+   "size_api_status": 200,
+   "size_partial": false
+  }
+ },
+ "date_utc": "2026-10-09T16:06:23Z",
+ "models": {
+  "Qwen/Qwen2.5-1.5B": {
+   "api_status": 200,
+   "card_license": "apache-2.0",
+   "gated": false,
+   "lastModified": "2024-10-08T10:56:50.000Z",
+   "local_snapshots": [
+    "8faed761d45a263340a0528343f099c05c9a4323"
+   ],
+   "local_tokenizer": {
+    "added_tokens": 22,
+    "matches_hub_sha": true,
+    "snapshot": "8faed761d45a263340a0528343f099c05c9a4323",
+    "type": "BPE",
+    "vocab": 151643
+   },
+   "sha": "8faed761d45a263340a0528343f099c05c9a4323"
+  },
+  "meta-llama/Llama-3.2-1B": {
+   "api_status": 200,
+   "card_license": "llama3.2",
+   "gated": "manual",
+   "lastModified": "2024-10-24T15:08:03.000Z",
+   "local_snapshots": [
+    "4e20de362430cd3b72f300e6b0f18e50e7166e08"
+   ],
+   "local_tokenizer": {
+    "added_tokens": 256,
+    "matches_hub_sha": true,
+    "snapshot": "4e20de362430cd3b72f300e6b0f18e50e7166e08",
+    "type": "BPE",
+    "vocab": 128000
+   },
+   "sha": "4e20de362430cd3b72f300e6b0f18e50e7166e08"
+  }
+ },
+ "note": "metadata only; nothing downloaded; row counts are the datasets-server's viewer numbers, which are PARTIAL for large configs (see estimated_num_rows and viewer_count_is_partial); the dataset card is the published count",
+ "user_agent": "watermark-key-validity-lab census (metadata only; one request per second)"
+}

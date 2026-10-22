@@ -1,0 +1,141 @@
+{
+ "study": "study4_v0.1",
+ "written_utc": "2026-10-16T03:25:13Z",
+ "P": 64,
+ "L": 192,
+ "tokenizer": {
+  "repo": "Qwen/Qwen2.5-1.5B",
+  "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "V": 151936,
+  "note": "V = the model config's vocab_size 151936 (the dimension a KGW permutation acts on); len(tokenizer) = 151665, so 271 ids never occur in text",
+  "name": "qwen"
+ },
+ "study3_manifest": "outputs/study3_v0.1/tokens_manifest.json",
+ "study3_manifest_sha256": "3385c73775d9d772f8a3b2a5b4d7256f8cbeb87836cb246fa9320fbfdef7d778",
+ "study2_manifest_sha256": "07e8a00558234fdfc64922d6d6363f1ce158aece12d17249210a725f28494e3c",
+ "units_dir": "outputs/corpora_units_v0.3",
+ "units_version": "0.3",
+ "pilot_seed_base": 99261015,
+ "add_special_tokens": false,
+ "text_cap_chars": {
+  "news": 12000,
+  "stackexchange": 12000,
+  "wikipedia": 12000,
+  "gutenberg": 24000
+ },
+ "cells": {
+  "news_en_256": {
+   "pool_size": 37695,
+   "pool_sha256": "a16891041f949c619413d933b7bb0bce8bab5c09ad04c6f2c23fd4e6e94c3832",
+   "perm_seed": 3619899595,
+   "cal_end_position": 14999,
+   "n_consumed_global": 146054,
+   "prod_positions": [
+    15000,
+    20019
+   ],
+   "prod_ids_sha256": "a6cd04833ffbe0f40cd9ab10db9ea01ca7e4dd31993f83aa2d67d80e152e743b",
+   "pilot_seed": 3698899598,
+   "pilot_ids_sha256": "ef8167434324fa8748bfb3b84b293b12b3c5633e034abf1ba15b4579db08d111",
+   "cell": "news/en@256",
+   "tag": "news_en_256",
+   "kinds": {
+    "prod": {
+     "file": "outputs/study4_v0.1/prompts/news_en_256__qwen__prod.npy",
+     "n": 5000,
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "3f72ea7637bc76ff2a0231dc20cb1249b2a16b489c974410651bd4159bc96279",
+     "ids_sha256": "a6cd04833ffbe0f40cd9ab10db9ea01ca7e4dd31993f83aa2d67d80e152e743b",
+     "first_ids": [
+      "https://educeleb.com/google-to-offer-scholarships-to-30000-mobile-developers/",
+      "https://globalvoices.org/2021/01/28/pandemic-soca-how-covid-19-is-shaping-the-sound-of-trinidad-tobagos-cancelled-carnival/",
+      "https://www.altnews.in/englishclone/old-unrelated-video-of-woman-dancing-shared-as-that-of-congress-worker-shilpi-singh/"
+     ],
+     "capped_prefix_tokens_median": 917,
+     "capped_prefix_tokens_min": 257
+    }
+   }
+  },
+  "wikipedia_en_256": {
+   "pool_size": 95045,
+   "pool_sha256": "fd4ab4b7a799218b0483e5dba075a52880d5c6c8ff51673d018f229df570e69f",
+   "perm_seed": 830094426,
+   "cal_end_position": 15577,
+   "n_consumed_global": 146054,
+   "prod_positions": [
+    15578,
+    21650
+   ],
+   "prod_ids_sha256": "070ac24561a5b047f3070f993167c7e6f1660eb246bb5100e8b8f8f54f1efa9f",
+   "pilot_seed": 909094429,
+   "pilot_ids_sha256": "38bd1dd523a2e36e224ff1e1f7148cc6bc9466fdfa4d6e80b1237e37efae80ef",
+   "cell": "wikipedia/en@256",
+   "tag": "wikipedia_en_256",
+   "kinds": {
+    "prod": {
+     "file": "outputs/study4_v0.1/prompts/wikipedia_en_256__qwen__prod.npy",
+     "n": 5000,
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "0b1a4b9fc0abb50c4d82ae2a92d07d86e9c074a5d93022bd161432ac1b60833f",
+     "ids_sha256": "070ac24561a5b047f3070f993167c7e6f1660eb246bb5100e8b8f8f54f1efa9f",
+     "first_ids": [
+      "wiki:en:4533454",
+      "wiki:en:5231803",
+      "wiki:en:5125026"
+     ],
+     "capped_prefix_tokens_median": 691,
+     "capped_prefix_tokens_min": 258
+    }
+   }
+  },
+  "stackexchange_en_256": {
+   "pool_size": 982004,
+   "pool_sha256": "a48d474601c5d2184ee138e09f184d076098fe52a85b48116518763585963e84",
+   "perm_seed": 3457223252,
+   "cal_end_position": 14999,
+   "n_consumed_global": 146054,
+   "prod_positions": [
+    15000,
+    19999
+   ],
+   "prod_ids_sha256": "1b98789fd71ac9a6885142ea873af0be7c96a69a7cd9af8feb679747cfeaf07d",
+   "pilot_seed": 3536223255,
+   "pilot_ids_sha256": "ff2afa55881c453370fc5b3f67854ecd3838c1114a9e9b21d2b7fbc4fcaabc80",
+   "cell": "stackexchange/en@256",
+   "tag": "stackexchange_en_256",
+   "kinds": {
+    "prod": {
+     "file": "outputs/study4_v0.1/prompts/stackexchange_en_256__qwen__prod.npy",
+     "n": 5000,
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "73f73bf187cd107fc01454476e7f889217726dc962b23733a40c236e820ce6d5",
+     "ids_sha256": "1b98789fd71ac9a6885142ea873af0be7c96a69a7cd9af8feb679747cfeaf07d",
+     "first_ids": [
+      "https://askubuntu.com/questions/629179",
+      "https://stackoverflow.com/questions/32356392",
+      "https://android.stackexchange.com/questions/91535"
+     ],
+     "capped_prefix_tokens_median": 594,
+     "capped_prefix_tokens_min": 256
+    }
+   }
+  }
+ },
+ "seal": {
+  "partition_sha256": "8b9cf24aa9cece47acbc9c8c61f6b9fc0199c06e5f451f8fe9a0b1c28f61feae",
+  "units_sha256": "911d2a24487b347f0b72fc62ecc3edd0326d546d00f984cf1d0f6f902574cdd9",
+  "manifest_sha256": "3bc890fc0e913dbe102a67a8b0d18c75de3d37f68b778d6417acd536bf9b5783"
+ }
+}

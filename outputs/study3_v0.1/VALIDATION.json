@@ -1,0 +1,2848 @@
+{
+ "study": "study3_v0.1",
+ "run": "20261015T193602Z",
+ "note": "no per-key level on real text; validation keys and synthetic tokens only; real chains read for key-free sizes",
+ "fixtures": {
+  "b": {
+   "order_indices": {
+    "500|0.01": {
+     "j_conformal": 5,
+     "j_tolerance": 2
+    },
+    "500|0.05": {
+     "j_conformal": 25,
+     "j_tolerance": 17
+    },
+    "500|0.001": {
+     "j_conformal": 0,
+     "j_tolerance": 0
+    },
+    "1000|0.01": {
+     "j_conformal": 10,
+     "j_tolerance": 5
+    },
+    "1000|0.05": {
+     "j_conformal": 50,
+     "j_tolerance": 39
+    },
+    "1000|0.001": {
+     "j_conformal": 1,
+     "j_tolerance": 0
+    },
+    "2000|0.01": {
+     "j_conformal": 20,
+     "j_tolerance": 13
+    },
+    "2000|0.05": {
+     "j_conformal": 100,
+     "j_tolerance": 84
+    },
+    "2000|0.001": {
+     "j_conformal": 2,
+     "j_tolerance": 0
+    },
+    "5000|0.01": {
+     "j_conformal": 50,
+     "j_tolerance": 39
+    },
+    "5000|0.05": {
+     "j_conformal": 250,
+     "j_tolerance": 225
+    },
+    "5000|0.001": {
+     "j_conformal": 5,
+     "j_tolerance": 2
+    }
+   },
+   "tolerance_index_maximal": true,
+   "continuous_iid": {
+    "1000|0.01": {
+     "conformal_mean": 0.01000145761027311,
+     "exact_mean": 0.00999000999000999,
+     "conformal_sd": 0.0031324638963332973,
+     "exact_sd": 0.0031417302164418385,
+     "tolerance_share_above_alpha": 0.02805,
+     "exact_tail": 0.028686399999004478,
+     "ok": true
+    },
+    "5000|0.01": {
+     "conformal_mean": 0.00998764937607821,
+     "exact_mean": 0.009998000399920015,
+     "conformal_sd": 0.0013957901843086114,
+     "exact_sd": 0.0014067041447881844,
+     "tolerance_share_above_alpha": 0.0455,
+     "exact_tail": 0.04656573877667938,
+     "ok": true
+    },
+    "2000|0.05": {
+     "conformal_mean": 0.05001009853264246,
+     "exact_mean": 0.04997501249375312,
+     "conformal_sd": 0.004837862520687061,
+     "exact_sd": 0.004869809058857589,
+     "tolerance_share_above_alpha": 0.04065,
+     "exact_tail": 0.04231466007700745,
+     "ok": true
+    },
+    "5000|0.001": {
+     "conformal_mean": 0.0010014197833238762,
+     "exact_mean": 0.0009998000399920016,
+     "conformal_sd": 0.0004489262352313187,
+     "exact_sd": 0.00044685592296404836,
+     "tolerance_share_above_alpha": 0.03955,
+     "exact_tail": 0.040360310958191856,
+     "ok": true
+    }
+   },
+   "discrete_conformal": {
+    "mean_level": 0.00822137625,
+    "bound": 0.00999000999000999,
+    "ok": true
+   },
+   "scheme_thresholds_properties": true,
+   "counts_below_brute_force": true,
+   "predictor": {
+    "exact_beta": [
+     {
+      "n": 1000,
+      "alpha": 0.01,
+      "rel_err_mean": 2.046727973326057e-06,
+      "rel_err_sd": 5.0527725021010106e-05
+     },
+     {
+      "n": 5000,
+      "alpha": 0.01,
+      "rel_err_mean": 4.275559191135869e-07,
+      "rel_err_sd": 3.667207057178601e-05
+     },
+     {
+      "n": 2000,
+      "alpha": 0.05,
+      "rel_err_mean": 1.9670460427168024e-07,
+      "rel_err_sd": 3.441616686927773e-05
+     },
+     {
+      "n": 5000,
+      "alpha": 0.001,
+      "rel_err_mean": 4.02476095862081e-06,
+      "rel_err_sd": 6.943551884974752e-05
+     }
+    ],
+    "exact_beta_ok": true,
+    "monte_carlo": [
+     {
+      "pred_mean": 0.01673356493688506,
+      "mc_mean": 0.01673811047023059,
+      "pred_sd": 0.009392937315047098,
+      "mc_sd": 0.009382375886262586,
+      "pred_share": 0.7506935033051021,
+      "mc_share": 0.7518225,
+      "ok": true
+     },
+     {
+      "pred_mean": 0.012415584577804306,
+      "mc_mean": 0.012420261154760123,
+      "pred_sd": 0.003898561778350017,
+      "mc_sd": 0.0038988703626442844,
+      "pred_share": 0.7097718448209809,
+      "mc_share": 0.710565,
+      "ok": true
+     },
+     {
+      "pred_mean": 0.05831396751209405,
+      "mc_mean": 0.058300604266679636,
+      "pred_sd": 0.037907442973087326,
+      "mc_sd": 0.03790342794794486,
+      "pred_share": 0.49490024157241985,
+      "mc_share": 0.4949075,
+      "ok": true
+     }
+    ],
+    "monte_carlo_ok": true
+   },
+   "finite_shares": {
+    "within_law": [
+     {
+      "N_cal": 5000,
+      "j": 50,
+      "N_E": 10000,
+      "alpha": 0.01,
+      "finite_alpha": 0.4690949952680232,
+      "exact_alpha": 0.46909499528113086,
+      "finite_2alpha": 1.1443340737642516e-07,
+      "exact_2alpha": 8.962472064499849e-07,
+      "finite_5alpha": 3.1586010807494733e-115,
+      "exact_5alpha": 0.0,
+      "pop_alpha": 0.4809,
+      "exact_pop_alpha": 0.48090841319493877,
+      "ok": true
+     },
+     {
+      "N_cal": 5000,
+      "j": 39,
+      "N_E": 10000,
+      "alpha": 0.01,
+      "finite_alpha": 0.07672938111731625,
+      "exact_alpha": 0.0767302440961215,
+      "finite_2alpha": 2.55877241598384e-13,
+      "exact_2alpha": 7.053569950343785e-10,
+      "finite_5alpha": 1.0527764711652427e-146,
+      "exact_5alpha": 0.0,
+      "pop_alpha": 0.04655,
+      "exact_pop_alpha": 0.04656573877667938,
+      "ok": true
+     },
+     {
+      "N_cal": 5000,
+      "j": 50,
+      "N_E": 7122,
+      "alpha": 0.01,
+      "finite_alpha": 0.47185540821564903,
+      "exact_alpha": 0.4718554106834616,
+      "finite_2alpha": 1.3144310474174656e-06,
+      "exact_2alpha": 3.270923124798486e-06,
+      "finite_5alpha": 1.2763901074153694e-83,
+      "exact_5alpha": 9.79438752324313e-13,
+      "pop_alpha": 0.4809,
+      "exact_pop_alpha": 0.48090841319493877,
+      "ok": true
+     },
+     {
+      "N_cal": 1000,
+      "j": 10,
+      "N_E": 10000,
+      "alpha": 0.01,
+      "finite_alpha": 0.4513280139013828,
+      "exact_alpha": 0.4513280138948793,
+      "finite_2alpha": 0.005995825209349333,
+      "exact_2alpha": 0.005995055720682929,
+      "finite_5alpha": 1.3229192066908859e-55,
+      "exact_5alpha": 0.0,
+      "pop_alpha": 0.4573,
+      "exact_pop_alpha": 0.45730059217488683,
+      "ok": true
+     },
+     {
+      "N_cal": 2000,
+      "j": 100,
+      "N_E": 10000,
+      "alpha": 0.05,
+      "finite_alpha": 0.4820695780214905,
+      "exact_alpha": 0.48206957801295414,
+      "finite_2alpha": 1.9072238445535495e-37,
+      "exact_2alpha": 0.0,
+      "finite_5alpha": 0.0,
+      "exact_5alpha": 0.0,
+      "pop_alpha": 0.48565,
+      "exact_pop_alpha": 0.48567450840761295,
+      "ok": true
+     }
+    ],
+    "fixed_rho0": {
+     "finite": 0.47343746594184455,
+     "exact": 0.47343746594184455,
+     "ok": 1.0
+    },
+    "convergence_perkey": [
+     {
+      "name": "max_v",
+      "block": "h0|raw",
+      "pair": "llama|gutenberg_en_1024->qwen|wikipedia_ja_256",
+      "N_cal": 1000,
+      "alpha": 0.01,
+      "method": "conformal",
+      "v": 3.01828786,
+      "ratio": 1.020858173699227,
+      "N_E": 10000,
+      "j": 10,
+      "max_abs_diff_Q_vs_4Q": 1.003457513359951e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.48483441275310546,
+       "share_above_2alpha_finite": 0.3906523367798471,
+       "share_above_5alpha_finite": 0.261805730763507
+      },
+      "ok": true
+     },
+     {
+      "name": "min_v",
+      "block": "h2|distinct",
+      "pair": "llama|wikipedia_en_1024->llama|wikipedia_en_1024",
+      "N_cal": 2000,
+      "alpha": 0.01,
+      "method": "conformal",
+      "v": 6.95900318e-09,
+      "ratio": 0.9999486924875357,
+      "N_E": 10000,
+      "j": 20,
+      "max_abs_diff_Q_vs_4Q": 6.906014255403598e-05,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.4618882427308453,
+       "share_above_2alpha_finite": 0.0003072670542253734,
+       "share_above_5alpha_finite": 0.0
+      },
+      "ok": true
+     },
+     {
+      "name": "max_ratio",
+      "block": "h0|raw",
+      "pair": "qwen|wikipedia_zh_256->llama|news_en_256",
+      "N_cal": 500,
+      "alpha": 0.01,
+      "method": "conformal",
+      "v": 2.31369448,
+      "ratio": 1.6906181713004995,
+      "N_E": 10000,
+      "j": 5,
+      "max_abs_diff_Q_vs_4Q": 2.226435144372929e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.2663011253893336,
+       "share_above_2alpha_finite": 0.19709228056837091,
+       "share_above_5alpha_finite": 0.11608959583717428
+      },
+      "ok": true
+     },
+     {
+      "name": "min_ratio",
+      "block": "h0|raw",
+      "pair": "llama|news_en_256->qwen|wikipedia_zh_256",
+      "N_cal": 5000,
+      "alpha": 0.01,
+      "method": "conformal",
+      "v": 2.3110426,
+      "ratio": 0.6118768872488299,
+      "N_E": 10000,
+      "j": 50,
+      "max_abs_diff_Q_vs_4Q": 4.2048545090267453e-07,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.7077909275385791,
+       "share_above_2alpha_finite": 0.5990883929128544,
+       "share_above_5alpha_finite": 0.4230479975353787
+      },
+      "ok": true
+     },
+     {
+      "name": "gutenberg_E_max_v",
+      "block": "h0|raw",
+      "pair": "qwen|wikipedia_ja_256->llama|gutenberg_en_1024",
+      "N_cal": 500,
+      "alpha": 0.01,
+      "method": "conformal",
+      "v": 3.00979676,
+      "ratio": 0.9919885858180995,
+      "N_E": 7122,
+      "j": 5,
+      "max_abs_diff_Q_vs_4Q": 1.8080371307904741e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.49098389159365224,
+       "share_above_2alpha_finite": 0.39815416574110624,
+       "share_above_5alpha_finite": 0.26972167724078844
+      },
+      "ok": true
+     },
+     {
+      "name": "random_0",
+      "block": "h1|raw",
+      "pair": "llama|wikipedia_ja_256->qwen|gutenberg_en_1024",
+      "N_cal": 5000,
+      "alpha": 0.001,
+      "method": "tolerance",
+      "v": 0.0746744316,
+      "ratio": 1.075352077270503,
+      "N_E": 7122,
+      "j": 2,
+      "max_abs_diff_Q_vs_4Q": 2.4693623601593218e-05,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.07481791013092982,
+       "share_above_2alpha_finite": 0.016011632291554907,
+       "share_above_5alpha_finite": 0.0006551713923937662
+      },
+      "ok": true
+     },
+     {
+      "name": "random_1",
+      "block": "h0|raw",
+      "pair": "llama|wikipedia_ru_256->qwen|wikipedia_ar_256",
+      "N_cal": 2000,
+      "alpha": 0.001,
+      "method": "conformal",
+      "v": 1.42309883,
+      "ratio": 0.8019843842554176,
+      "N_E": 10000,
+      "j": 2,
+      "max_abs_diff_Q_vs_4Q": 5.192573467649453e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.6130792148543638,
+       "share_above_2alpha_finite": 0.5182120309048948,
+       "share_above_5alpha_finite": 0.37926106415095107
+      },
+      "ok": true
+     },
+     {
+      "name": "random_2",
+      "block": "h1|raw",
+      "pair": "qwen|wikipedia_zh_256->qwen|wikipedia_ar_256",
+      "N_cal": 1000,
+      "alpha": 0.01,
+      "method": "tolerance",
+      "v": 0.0467239719,
+      "ratio": 1.0827273744369323,
+      "N_E": 10000,
+      "j": 5,
+      "max_abs_diff_Q_vs_4Q": 1.6973634280215144e-05,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.0523618695764858,
+       "share_above_2alpha_finite": 0.0023759184959246393,
+       "share_above_5alpha_finite": 1.2367590807793658e-06
+      },
+      "ok": true
+     },
+     {
+      "name": "random_3",
+      "block": "h2|distinct",
+      "pair": "llama|wikipedia_ar_256->qwen|stackexchange_en_256",
+      "N_cal": 1000,
+      "alpha": 0.01,
+      "method": "tolerance",
+      "v": 0.00412110098,
+      "ratio": 0.9993845152989809,
+      "N_E": 10000,
+      "j": 5,
+      "max_abs_diff_Q_vs_4Q": 2.7682852257570516e-05,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.04650255863028094,
+       "share_above_2alpha_finite": 0.00014089918069889437,
+       "share_above_5alpha_finite": 2.5095999328802025e-17
+      },
+      "ok": true
+     },
+     {
+      "name": "random_4",
+      "block": "h1|raw",
+      "pair": "qwen|gutenberg_en_1024->llama|wikipedia_ar_256",
+      "N_cal": 2000,
+      "alpha": 0.01,
+      "method": "tolerance",
+      "v": 0.0728296728,
+      "ratio": 0.9422210902413312,
+      "N_E": 10000,
+      "j": 13,
+      "max_abs_diff_Q_vs_4Q": 1.0688375155248897e-05,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.34329478034856864,
+       "share_above_2alpha_finite": 0.06298991122367531,
+       "share_above_5alpha_finite": 0.0005977663936006488
+      },
+      "ok": true
+     },
+     {
+      "name": "random_5",
+      "block": "h0|distinct",
+      "pair": "llama|stackexchange_en_256->qwen|wikipedia_ja_256",
+      "N_cal": 500,
+      "alpha": 0.01,
+      "method": "conformal",
+      "v": 0.342518693,
+      "ratio": 1.0288655352919798,
+      "N_E": 10000,
+      "j": 5,
+      "max_abs_diff_Q_vs_4Q": 4.410167636248463e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.4593452175026902,
+       "share_above_2alpha_finite": 0.30751089154245687,
+       "share_above_5alpha_finite": 0.13432908285299577
+      },
+      "ok": true
+     },
+     {
+      "name": "random_6",
+      "block": "h0|raw",
+      "pair": "qwen|wikipedia_ar_256->llama|gutenberg_en_1024",
+      "N_cal": 1000,
+      "alpha": 0.001,
+      "method": "conformal",
+      "v": 2.64703762,
+      "ratio": 0.9201698260079771,
+      "N_E": 7122,
+      "j": 1,
+      "max_abs_diff_Q_vs_4Q": 2.6603446292017274e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.48844347758777834,
+       "share_above_2alpha_finite": 0.41728139948114945,
+       "share_above_5alpha_finite": 0.3180066836030127
+      },
+      "ok": true
+     },
+     {
+      "name": "random_7",
+      "block": "h1|distinct",
+      "pair": "qwen|wikipedia_en_256->llama|wikipedia_en_1024",
+      "N_cal": 5000,
+      "alpha": 0.05,
+      "method": "conformal",
+      "v": 0.0347880759,
+      "ratio": 0.9880666906893742,
+      "N_E": 10000,
+      "j": 250,
+      "max_abs_diff_Q_vs_4Q": 2.0292374375632805e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.5175277603764229,
+       "share_above_2alpha_finite": 0.032535219661067906,
+       "share_above_5alpha_finite": 2.725899133950744e-07
+      },
+      "ok": true
+     },
+     {
+      "name": "random_8",
+      "block": "h2|raw",
+      "pair": "qwen|wikipedia_ar_256->qwen|wikipedia_en_1024",
+      "N_cal": 5000,
+      "alpha": 0.05,
+      "method": "conformal",
+      "v": 0.0135500674,
+      "ratio": 1.0955241365006312,
+      "N_E": 10000,
+      "j": 250,
+      "max_abs_diff_Q_vs_4Q": 8.771248717398539e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.24580559147366987,
+       "share_above_2alpha_finite": 4.68134950824975e-05,
+       "share_above_5alpha_finite": 5.005555122821905e-21
+      },
+      "ok": true
+     },
+     {
+      "name": "random_9",
+      "block": "h0|raw",
+      "pair": "qwen|wikipedia_en_256->qwen|wikipedia_de_256",
+      "N_cal": 2000,
+      "alpha": 0.05,
+      "method": "tolerance",
+      "v": 1.33095597,
+      "ratio": 1.191358114781838,
+      "N_E": 10000,
+      "j": 84,
+      "max_abs_diff_Q_vs_4Q": 3.483826007538715e-07,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.3881712399494249,
+       "share_above_2alpha_finite": 0.24000371381060043,
+       "share_above_5alpha_finite": 0.07896141660172432
+      },
+      "ok": true
+     },
+     {
+      "name": "random_10",
+      "block": "h1|raw",
+      "pair": "llama|gutenberg_en_1024->llama|wikipedia_ar_256",
+      "N_cal": 1000,
+      "alpha": 0.01,
+      "method": "tolerance",
+      "v": 0.0715047217,
+      "ratio": 0.982195109665053,
+      "N_E": 10000,
+      "j": 5,
+      "max_abs_diff_Q_vs_4Q": 1.4379544027928737e-05,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.16950032511089552,
+       "share_above_2alpha_finite": 0.023262079374792764,
+       "share_above_5alpha_finite": 0.00017147333766142798
+      },
+      "ok": true
+     },
+     {
+      "name": "random_11",
+      "block": "h2|raw",
+      "pair": "qwen|wikipedia_ja_256->llama|wikipedia_en_256",
+      "N_cal": 500,
+      "alpha": 0.05,
+      "method": "conformal",
+      "v": 0.0143603784,
+      "ratio": 1.0805615323372428,
+      "N_E": 10000,
+      "j": 25,
+      "max_abs_diff_Q_vs_4Q": 1.4282671695755884e-05,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.311584233185946,
+       "share_above_2alpha_finite": 0.001522407020679113,
+       "share_above_5alpha_finite": 3.499468053293965e-14
+      },
+      "ok": true
+     },
+     {
+      "name": "random_12",
+      "block": "h1|raw",
+      "pair": "qwen|gutenberg_en_1024->qwen|wikipedia_ar_256",
+      "N_cal": 500,
+      "alpha": 0.05,
+      "method": "tolerance",
+      "v": 0.0883010666,
+      "ratio": 1.058499197092367,
+      "N_E": 10000,
+      "j": 17,
+      "max_abs_diff_Q_vs_4Q": 9.962215810427333e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.17829253504211423,
+       "share_above_2alpha_finite": 0.010814408267798285,
+       "share_above_5alpha_finite": 2.003512749979197e-06
+      },
+      "ok": true
+     },
+     {
+      "name": "random_13",
+      "block": "h0|raw",
+      "pair": "llama|wikipedia_ar_256->qwen|gutenberg_en_1024",
+      "N_cal": 1000,
+      "alpha": 0.01,
+      "method": "conformal",
+      "v": 2.35665034,
+      "ratio": 0.8755947564409401,
+      "N_E": 7122,
+      "j": 10,
+      "max_abs_diff_Q_vs_4Q": 1.422139652151877e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.5522856512651838,
+       "share_above_2alpha_finite": 0.44493280456954326,
+       "share_above_5alpha_finite": 0.292541806670845
+      },
+      "ok": true
+     },
+     {
+      "name": "random_14",
+      "block": "h0|distinct",
+      "pair": "qwen|news_en_256->qwen|news_en_256",
+      "N_cal": 1000,
+      "alpha": 0.001,
+      "method": "conformal",
+      "v": 1.52951217e-05,
+      "ratio": 0.9988016843232954,
+      "N_E": 10000,
+      "j": 1,
+      "max_abs_diff_Q_vs_4Q": 6.3690048256737075e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.35249117255122786,
+       "share_above_2alpha_finite": 0.13631254513263968,
+       "share_above_5alpha_finite": 0.0078264443839837
+      },
+      "ok": true
+     },
+     {
+      "name": "random_15",
+      "block": "h2|raw",
+      "pair": "llama|wikipedia_ja_256->llama|wikipedia_de_256",
+      "N_cal": 2000,
+      "alpha": 0.05,
+      "method": "conformal",
+      "v": 0.00609770295,
+      "ratio": 1.0703345212897477,
+      "N_E": 10000,
+      "j": 100,
+      "max_abs_diff_Q_vs_4Q": 1.014492964296343e-05,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.25453287168398203,
+       "share_above_2alpha_finite": 8.616101921081178e-07,
+       "share_above_5alpha_finite": 2.1817482979547136e-35
+      },
+      "ok": true
+     },
+     {
+      "name": "random_16",
+      "block": "h0|distinct",
+      "pair": "llama|wikipedia_ru_256->qwen|gutenberg_en_1024",
+      "N_cal": 1000,
+      "alpha": 0.001,
+      "method": "conformal",
+      "v": 0.282360709,
+      "ratio": 0.9398279887470389,
+      "N_E": 7122,
+      "j": 1,
+      "max_abs_diff_Q_vs_4Q": 7.955043238472292e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.4650031831319829,
+       "share_above_2alpha_finite": 0.34749959747406567,
+       "share_above_5alpha_finite": 0.19902976588280785
+      },
+      "ok": true
+     },
+     {
+      "name": "random_17",
+      "block": "h2|raw",
+      "pair": "qwen|wikipedia_ja_256->qwen|news_en_256",
+      "N_cal": 500,
+      "alpha": 0.01,
+      "method": "conformal",
+      "v": 0.0315133957,
+      "ratio": 1.1179136367851163,
+      "N_E": 10000,
+      "j": 5,
+      "max_abs_diff_Q_vs_4Q": 1.7930258882019323e-05,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.248884741657926,
+       "share_above_2alpha_finite": 0.03406586859955402,
+       "share_above_5alpha_finite": 0.0001391846606431887
+      },
+      "ok": true
+     },
+     {
+      "name": "random_18",
+      "block": "h1|raw",
+      "pair": "qwen|wikipedia_ja_256->llama|wikipedia_ja_256",
+      "N_cal": 1000,
+      "alpha": 0.05,
+      "method": "tolerance",
+      "v": 0.0753129951,
+      "ratio": 1.0340835795859808,
+      "N_E": 10000,
+      "j": 39,
+      "max_abs_diff_Q_vs_4Q": 6.8017372964468414e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.2568526795499569,
+       "share_above_2alpha_finite": 0.013636896851094397,
+       "share_above_5alpha_finite": 7.374547919327632e-07
+      },
+      "ok": true
+     },
+     {
+      "name": "random_19",
+      "block": "h1|distinct",
+      "pair": "llama|wikipedia_ja_256->llama|gutenberg_en_1024",
+      "N_cal": 500,
+      "alpha": 0.01,
+      "method": "tolerance",
+      "v": 0.0365228134,
+      "ratio": 1.0040589988153992,
+      "N_E": 7122,
+      "j": 2,
+      "max_abs_diff_Q_vs_4Q": 2.178833149316453e-05,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.09574476824075794,
+       "share_above_2alpha_finite": 0.011776032472199455,
+       "share_above_5alpha_finite": 6.951609523301148e-05
+      },
+      "ok": true
+     },
+     {
+      "name": "random_20",
+      "block": "h2|raw",
+      "pair": "qwen|stackexchange_en_256->llama|wikipedia_ar_256",
+      "N_cal": 1000,
+      "alpha": 0.001,
+      "method": "conformal",
+      "v": 0.00714797301,
+      "ratio": 1.0084619515312034,
+      "N_E": 10000,
+      "j": 1,
+      "max_abs_diff_Q_vs_4Q": 7.340030651519294e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.33734509952219127,
+       "share_above_2alpha_finite": 0.13278042215967936,
+       "share_above_5alpha_finite": 0.009663087083647036
+      },
+      "ok": true
+     },
+     {
+      "name": "random_21",
+      "block": "h1|distinct",
+      "pair": "qwen|gutenberg_en_1024->qwen|wikipedia_en_1024",
+      "N_cal": 2000,
+      "alpha": 0.01,
+      "method": "conformal",
+      "v": 0.0236149162,
+      "ratio": 1.0172182322732533,
+      "N_E": 10000,
+      "j": 20,
+      "max_abs_diff_Q_vs_4Q": 1.4427062827608583e-05,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.4344468534953099,
+       "share_above_2alpha_finite": 0.04661460017385614,
+       "share_above_5alpha_finite": 3.204683934220866e-05
+      },
+      "ok": true
+     },
+     {
+      "name": "random_22",
+      "block": "h0|distinct",
+      "pair": "llama|wikipedia_en_1024->qwen|wikipedia_ar_256",
+      "N_cal": 500,
+      "alpha": 0.05,
+      "method": "conformal",
+      "v": 0.36212549,
+      "ratio": 1.1639887936979596,
+      "N_E": 10000,
+      "j": 25,
+      "max_abs_diff_Q_vs_4Q": 1.5352935551077307e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.422841304439523,
+       "share_above_2alpha_finite": 0.24129711747431698,
+       "share_above_5alpha_finite": 0.06049355237273106
+      },
+      "ok": true
+     },
+     {
+      "name": "random_23",
+      "block": "h1|raw",
+      "pair": "qwen|wikipedia_de_256->llama|gutenberg_en_1024",
+      "N_cal": 5000,
+      "alpha": 0.001,
+      "method": "tolerance",
+      "v": 0.10127558,
+      "ratio": 0.9914953744163182,
+      "N_E": 7122,
+      "j": 2,
+      "max_abs_diff_Q_vs_4Q": 1.8163270791821118e-05,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.17694969783965225,
+       "share_above_2alpha_finite": 0.06143179534759453,
+       "share_above_5alpha_finite": 0.006662128064444283
+      },
+      "ok": true
+     },
+     {
+      "name": "random_24",
+      "block": "h1|distinct",
+      "pair": "qwen|wikipedia_en_256->qwen|wikipedia_de_256",
+      "N_cal": 1000,
+      "alpha": 0.05,
+      "method": "tolerance",
+      "v": 0.0365292214,
+      "ratio": 0.9794284890727715,
+      "N_E": 10000,
+      "j": 39,
+      "max_abs_diff_Q_vs_4Q": 6.278727866126932e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.30627318695652905,
+       "share_above_2alpha_finite": 0.011696393549077274,
+       "share_above_5alpha_finite": 8.723898203159024e-08
+      },
+      "ok": true
+     },
+     {
+      "name": "random_25",
+      "block": "h1|raw",
+      "pair": "qwen|stackexchange_en_256->llama|wikipedia_ar_256",
+      "N_cal": 500,
+      "alpha": 0.05,
+      "method": "tolerance",
+      "v": 0.0481502896,
+      "ratio": 1.0315566498215445,
+      "N_E": 10000,
+      "j": 17,
+      "max_abs_diff_Q_vs_4Q": 1.152009691446354e-05,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.14774722709528337,
+       "share_above_2alpha_finite": 0.0026428440616825975,
+       "share_above_5alpha_finite": 4.109441409443838e-09
+      },
+      "ok": true
+     },
+     {
+      "name": "random_26",
+      "block": "h2|raw",
+      "pair": "llama|wikipedia_ru_256->qwen|wikipedia_zh_256",
+      "N_cal": 5000,
+      "alpha": 0.05,
+      "method": "conformal",
+      "v": 0.00845879924,
+      "ratio": 0.9161341118882453,
+      "N_E": 10000,
+      "j": 250,
+      "max_abs_diff_Q_vs_4Q": 1.2484686686686786e-05,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.7820337921869148,
+       "share_above_2alpha_finite": 0.0004081359846578157,
+       "share_above_5alpha_finite": 1.45044163568216e-25
+      },
+      "ok": true
+     },
+     {
+      "name": "random_27",
+      "block": "h0|distinct",
+      "pair": "qwen|wikipedia_en_1024->llama|wikipedia_ru_256",
+      "N_cal": 5000,
+      "alpha": 0.01,
+      "method": "conformal",
+      "v": 0.286629006,
+      "ratio": 1.011984850677791,
+      "N_E": 10000,
+      "j": 50,
+      "max_abs_diff_Q_vs_4Q": 7.999399755237446e-07,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.4871326211463001,
+       "share_above_2alpha_finite": 0.31346248011385364,
+       "share_above_5alpha_finite": 0.12127069141059307
+      },
+      "ok": true
+     },
+     {
+      "name": "random_28",
+      "block": "h1|distinct",
+      "pair": "llama|wikipedia_ar_256->qwen|wikipedia_en_1024",
+      "N_cal": 500,
+      "alpha": 0.01,
+      "method": "conformal",
+      "v": 0.0476520837,
+      "ratio": 1.0272919036466455,
+      "N_E": 10000,
+      "j": 5,
+      "max_abs_diff_Q_vs_4Q": 1.1823094743679263e-05,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.40957205289105897,
+       "share_above_2alpha_finite": 0.11475234835520998,
+       "share_above_5alpha_finite": 0.0034446963100355013
+      },
+      "ok": true
+     },
+     {
+      "name": "random_29",
+      "block": "h1|raw",
+      "pair": "llama|wikipedia_ja_256->llama|wikipedia_ar_256",
+      "N_cal": 2000,
+      "alpha": 0.05,
+      "method": "tolerance",
+      "v": 0.0396608523,
+      "ratio": 1.0193802615483087,
+      "N_E": 10000,
+      "j": 84,
+      "max_abs_diff_Q_vs_4Q": 6.734170216515789e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.2748369463603669,
+       "share_above_2alpha_finite": 0.0032425610495749853,
+       "share_above_5alpha_finite": 1.601545427509144e-10
+      },
+      "ok": true
+     },
+     {
+      "name": "random_30",
+      "block": "h2|raw",
+      "pair": "qwen|wikipedia_de_256->llama|wikipedia_de_256",
+      "N_cal": 1000,
+      "alpha": 0.05,
+      "method": "tolerance",
+      "v": 0.0137645281,
+      "ratio": 1.0293139319142242,
+      "N_E": 10000,
+      "j": 39,
+      "max_abs_diff_Q_vs_4Q": 1.3465547967994596e-05,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.13208383161554363,
+       "share_above_2alpha_finite": 4.984911583633392e-05,
+       "share_above_5alpha_finite": 6.141759058073946e-19
+      },
+      "ok": true
+     },
+     {
+      "name": "random_31",
+      "block": "h2|distinct",
+      "pair": "llama|stackexchange_en_256->llama|wikipedia_zh_256",
+      "N_cal": 500,
+      "alpha": 0.01,
+      "method": "tolerance",
+      "v": 0.00213647646,
+      "ratio": 0.9995445323293132,
+      "N_E": 10000,
+      "j": 2,
+      "max_abs_diff_Q_vs_4Q": 6.341422051132212e-05,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.0455138021684625,
+       "share_above_2alpha_finite": 0.0007481886243470665,
+       "share_above_5alpha_finite": 1.5387046100502637e-19
+      },
+      "ok": true
+     },
+     {
+      "name": "random_32",
+      "block": "h1|distinct",
+      "pair": "qwen|wikipedia_ar_256->qwen|wikipedia_ru_256",
+      "N_cal": 500,
+      "alpha": 0.05,
+      "method": "tolerance",
+      "v": 0.0304900848,
+      "ratio": 1.0028852227672984,
+      "N_E": 10000,
+      "j": 17,
+      "max_abs_diff_Q_vs_4Q": 1.042192814731946e-05,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.17489974640680295,
+       "share_above_2alpha_finite": 0.0034520853742834494,
+       "share_above_5alpha_finite": 5.439007009783168e-09
+      },
+      "ok": true
+     },
+     {
+      "name": "random_33",
+      "block": "h1|raw",
+      "pair": "llama|wikipedia_en_256->qwen|wikipedia_ar_256",
+      "N_cal": 2000,
+      "alpha": 0.01,
+      "method": "conformal",
+      "v": 0.110973124,
+      "ratio": 0.930489007712162,
+      "N_E": 10000,
+      "j": 20,
+      "max_abs_diff_Q_vs_4Q": 6.354961884919019e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.6004847656452393,
+       "share_above_2alpha_finite": 0.2405559317499503,
+       "share_above_5alpha_finite": 0.015604876444954195
+      },
+      "ok": true
+     },
+     {
+      "name": "random_34",
+      "block": "h0|distinct",
+      "pair": "qwen|news_en_256->qwen|wikipedia_ar_256",
+      "N_cal": 1000,
+      "alpha": 0.01,
+      "method": "tolerance",
+      "v": 0.374013637,
+      "ratio": 1.1340252361266336,
+      "N_E": 10000,
+      "j": 5,
+      "max_abs_diff_Q_vs_4Q": 3.4207826571097666e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.27056615862797917,
+       "share_above_2alpha_finite": 0.1637776985087349,
+       "share_above_5alpha_finite": 0.06271321366133668
+      },
+      "ok": true
+     },
+     {
+      "name": "random_35",
+      "block": "h0|raw",
+      "pair": "llama|wikipedia_ar_256->qwen|wikipedia_en_256",
+      "N_cal": 500,
+      "alpha": 0.05,
+      "method": "tolerance",
+      "v": 2.22157906,
+      "ratio": 0.982709955375358,
+      "N_E": 10000,
+      "j": 17,
+      "max_abs_diff_Q_vs_4Q": 7.997859485797676e-07,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.4322856507362193,
+       "share_above_2alpha_finite": 0.30083994651970003,
+       "share_above_5alpha_finite": 0.13361222724150912
+      },
+      "ok": true
+     },
+     {
+      "name": "random_36",
+      "block": "h2|raw",
+      "pair": "qwen|wikipedia_en_1024->llama|wikipedia_en_256",
+      "N_cal": 1000,
+      "alpha": 0.05,
+      "method": "tolerance",
+      "v": 0.0321727707,
+      "ratio": 1.0146863256178564,
+      "N_E": 10000,
+      "j": 39,
+      "max_abs_diff_Q_vs_4Q": 9.420990394082285e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.22826279734686705,
+       "share_above_2alpha_finite": 0.0030363128920194095,
+       "share_above_5alpha_finite": 4.770942583241855e-10
+      },
+      "ok": true
+     },
+     {
+      "name": "random_37",
+      "block": "h2|distinct",
+      "pair": "qwen|wikipedia_zh_256->llama|wikipedia_zh_256",
+      "N_cal": 500,
+      "alpha": 0.01,
+      "method": "conformal",
+      "v": 0.00336097404,
+      "ratio": 0.9983231357842042,
+      "N_E": 10000,
+      "j": 5,
+      "max_abs_diff_Q_vs_4Q": 2.4377606145375985e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.4412661768740141,
+       "share_above_2alpha_finite": 0.04035408820794342,
+       "share_above_5alpha_finite": 2.0141764362811017e-07
+      },
+      "ok": true
+     },
+     {
+      "name": "random_38",
+      "block": "h1|raw",
+      "pair": "qwen|gutenberg_en_1024->qwen|news_en_256",
+      "N_cal": 5000,
+      "alpha": 0.05,
+      "method": "conformal",
+      "v": 0.071610995,
+      "ratio": 1.12351719817296,
+      "N_E": 10000,
+      "j": 250,
+      "max_abs_diff_Q_vs_4Q": 1.6204434243327626e-06,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.33940612056071345,
+       "share_above_2alpha_finite": 0.02748087597551971,
+       "share_above_5alpha_finite": 4.532379976912044e-06
+      },
+      "ok": true
+     },
+     {
+      "name": "random_39",
+      "block": "h2|raw",
+      "pair": "qwen|stackexchange_en_256->qwen|wikipedia_ja_256",
+      "N_cal": 1000,
+      "alpha": 0.01,
+      "method": "conformal",
+      "v": 0.0120378189,
+      "ratio": 1.0048538181516533,
+      "N_E": 10000,
+      "j": 10,
+      "max_abs_diff_Q_vs_4Q": 1.9755509048959008e-05,
+      "shares_Q": {
+       "share_above_alpha_finite": 0.44407204739972583,
+       "share_above_2alpha_finite": 0.027160532940119192,
+       "share_above_5alpha_finite": 4.883530945026304e-07
+      },
+      "ok": true
+     }
+    ],
+    "convergence_fixed": [
+     {
+      "block": "h0|raw",
+      "set": "qwen|news_en_256|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 1.53727325,
+      "max_abs_diff": 1.1026506430145133e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "qwen|news_en_256|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 1.53727325,
+      "max_abs_diff": 5.3462400728676585e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "qwen|news_en_256|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 1.53727325,
+      "max_abs_diff": 6.054291568080572e-09,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "qwen|news_en_256|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 1.53727325,
+      "max_abs_diff": 1.8030669346469352e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "qwen|news_en_256|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 1.53727325,
+      "max_abs_diff": 4.5713195229168946e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "qwen|news_en_256|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 1.53727325,
+      "max_abs_diff": 2.587019711786098e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "llama|wikipedia_en_256|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 0.0608693519,
+      "max_abs_diff": 5.451419473612162e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "llama|wikipedia_en_256|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 0.0608693519,
+      "max_abs_diff": 3.862017952487029e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "llama|wikipedia_en_256|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 0.0608693519,
+      "max_abs_diff": 2.624820146790441e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "llama|wikipedia_en_256|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 0.0608693519,
+      "max_abs_diff": 4.921129837643203e-09,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "llama|wikipedia_en_256|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 0.0608693519,
+      "max_abs_diff": 1.650389415353004e-06,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "llama|wikipedia_en_256|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 0.0608693519,
+      "max_abs_diff": 2.339209349694338e-06,
+      "ok": true
+     },
+     {
+      "block": "h2|raw",
+      "set": "llama|news_en_256|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 0.00634107867,
+      "max_abs_diff": 2.8080836549371213e-06,
+      "ok": true
+     },
+     {
+      "block": "h2|raw",
+      "set": "llama|news_en_256|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 0.00634107867,
+      "max_abs_diff": 1.5124540400002302e-21,
+      "ok": true
+     },
+     {
+      "block": "h2|raw",
+      "set": "llama|news_en_256|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 0.00634107867,
+      "max_abs_diff": 1.5731403766316987e-06,
+      "ok": true
+     },
+     {
+      "block": "h2|raw",
+      "set": "llama|news_en_256|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 0.00634107867,
+      "max_abs_diff": 3.41227882133658e-39,
+      "ok": true
+     },
+     {
+      "block": "h2|raw",
+      "set": "llama|news_en_256|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 0.00634107867,
+      "max_abs_diff": 7.173572594102606e-07,
+      "ok": true
+     },
+     {
+      "block": "h2|raw",
+      "set": "llama|news_en_256|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 0.00634107867,
+      "max_abs_diff": 4.957567667126954e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "qwen|wikipedia_de_256|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 0.0527561617,
+      "max_abs_diff": 6.037137481040844e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "qwen|wikipedia_de_256|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 0.0527561617,
+      "max_abs_diff": 2.9695267071434134e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "qwen|wikipedia_de_256|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 0.0527561617,
+      "max_abs_diff": 2.956410665166942e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "qwen|wikipedia_de_256|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 0.0527561617,
+      "max_abs_diff": 1.9910221345291424e-09,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "qwen|wikipedia_de_256|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 0.0527561617,
+      "max_abs_diff": 1.8369323715461405e-06,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "qwen|wikipedia_de_256|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 0.0527561617,
+      "max_abs_diff": 2.7306570304641564e-06,
+      "ok": true
+     },
+     {
+      "block": "h2|raw",
+      "set": "llama|wikipedia_en_1024|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 0.00255007894,
+      "max_abs_diff": 4.527696450762342e-06,
+      "ok": true
+     },
+     {
+      "block": "h2|raw",
+      "set": "llama|wikipedia_en_1024|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 0.00255007894,
+      "max_abs_diff": 9.76423260602145e-43,
+      "ok": true
+     },
+     {
+      "block": "h2|raw",
+      "set": "llama|wikipedia_en_1024|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 0.00255007894,
+      "max_abs_diff": 2.5477421495834207e-06,
+      "ok": true
+     },
+     {
+      "block": "h2|raw",
+      "set": "llama|wikipedia_en_1024|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 0.00255007894,
+      "max_abs_diff": 3.375249928583361e-86,
+      "ok": true
+     },
+     {
+      "block": "h2|raw",
+      "set": "llama|wikipedia_en_1024|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 0.00255007894,
+      "max_abs_diff": 1.580378577569345e-07,
+      "ok": true
+     },
+     {
+      "block": "h2|raw",
+      "set": "llama|wikipedia_en_1024|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 0.00255007894,
+      "max_abs_diff": 3.0801342172096186e-08,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "qwen|news_en_256|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 0.0354919171,
+      "max_abs_diff": 5.015876546540787e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "qwen|news_en_256|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 0.0354919171,
+      "max_abs_diff": 4.050806122724273e-11,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "qwen|news_en_256|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 0.0354919171,
+      "max_abs_diff": 1.1742105976431105e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "qwen|news_en_256|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 0.0354919171,
+      "max_abs_diff": 2.0540369718784242e-14,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "qwen|news_en_256|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 0.0354919171,
+      "max_abs_diff": 2.753463807986245e-06,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "qwen|news_en_256|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 0.0354919171,
+      "max_abs_diff": 1.9900283387535913e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|gutenberg_en_1024|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 0.0203273809,
+      "max_abs_diff": 8.47578616222644e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|gutenberg_en_1024|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 0.0203273809,
+      "max_abs_diff": 2.0307797531723388e-13,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|gutenberg_en_1024|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 0.0203273809,
+      "max_abs_diff": 1.8802478152224467e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|gutenberg_en_1024|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 0.0203273809,
+      "max_abs_diff": 3.6741055772558886e-19,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|gutenberg_en_1024|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 0.0203273809,
+      "max_abs_diff": 3.3776649407818438e-06,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|gutenberg_en_1024|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 0.0203273809,
+      "max_abs_diff": 3.3097894083884355e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 0.023652859,
+      "max_abs_diff": 5.682898453207574e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 0.023652859,
+      "max_abs_diff": 4.686224935940442e-13,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 0.023652859,
+      "max_abs_diff": 1.3783678182166526e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 0.023652859,
+      "max_abs_diff": 6.968249313349941e-18,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 0.023652859,
+      "max_abs_diff": 3.329210140387562e-06,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 0.023652859,
+      "max_abs_diff": 8.024373188814519e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|distinct",
+      "set": "qwen|wikipedia_ar_256|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 0.277396953,
+      "max_abs_diff": 1.4154199390326028e-07,
+      "ok": true
+     },
+     {
+      "block": "h0|distinct",
+      "set": "qwen|wikipedia_ar_256|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 0.277396953,
+      "max_abs_diff": 2.3943554444683102e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|distinct",
+      "set": "qwen|wikipedia_ar_256|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 0.277396953,
+      "max_abs_diff": 3.4427917350310366e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|distinct",
+      "set": "qwen|wikipedia_ar_256|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 0.277396953,
+      "max_abs_diff": 4.678792004438742e-09,
+      "ok": true
+     },
+     {
+      "block": "h0|distinct",
+      "set": "qwen|wikipedia_ar_256|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 0.277396953,
+      "max_abs_diff": 9.734522803950263e-07,
+      "ok": true
+     },
+     {
+      "block": "h0|distinct",
+      "set": "qwen|wikipedia_ar_256|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 0.277396953,
+      "max_abs_diff": 2.626261994889689e-07,
+      "ok": true
+     },
+     {
+      "block": "h2|distinct",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 0.00575476458,
+      "max_abs_diff": 2.4233512875435287e-07,
+      "ok": true
+     },
+     {
+      "block": "h2|distinct",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 0.00575476458,
+      "max_abs_diff": 1.0486434793889358e-31,
+      "ok": true
+     },
+     {
+      "block": "h2|distinct",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 0.00575476458,
+      "max_abs_diff": 1.6997207485935917e-07,
+      "ok": true
+     },
+     {
+      "block": "h2|distinct",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 0.00575476458,
+      "max_abs_diff": 8.071029758812251e-51,
+      "ok": true
+     },
+     {
+      "block": "h2|distinct",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 0.00575476458,
+      "max_abs_diff": 4.520581537544727e-06,
+      "ok": true
+     },
+     {
+      "block": "h2|distinct",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 0.00575476458,
+      "max_abs_diff": 4.15328229628671e-12,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|wikipedia_ja_256|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 0.015466163,
+      "max_abs_diff": 5.604535863248938e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|wikipedia_ja_256|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 0.015466163,
+      "max_abs_diff": 3.477788721891526e-16,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|wikipedia_ja_256|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 0.015466163,
+      "max_abs_diff": 1.5752263632373698e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|wikipedia_ja_256|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 0.015466163,
+      "max_abs_diff": 1.9117062186783626e-23,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|wikipedia_ja_256|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 0.015466163,
+      "max_abs_diff": 3.892511600468718e-06,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|wikipedia_ja_256|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 0.015466163,
+      "max_abs_diff": 1.6548659032890546e-08,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|stackexchange_en_256|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 0.0159747924,
+      "max_abs_diff": 5.643524719316229e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|stackexchange_en_256|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 0.0159747924,
+      "max_abs_diff": 6.774280570699268e-16,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|stackexchange_en_256|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 0.0159747924,
+      "max_abs_diff": 1.5616470466772725e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|stackexchange_en_256|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 0.0159747924,
+      "max_abs_diff": 6.232575287102912e-23,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|stackexchange_en_256|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 0.0159747924,
+      "max_abs_diff": 3.852364170373046e-06,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|stackexchange_en_256|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 0.0159747924,
+      "max_abs_diff": 1.9212483934400232e-08,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|wikipedia_de_256|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 0.0133160359,
+      "max_abs_diff": 5.353321493595242e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|wikipedia_de_256|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 0.0133160359,
+      "max_abs_diff": 1.173022090727973e-17,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|wikipedia_de_256|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 0.0133160359,
+      "max_abs_diff": 1.633355639629741e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|wikipedia_de_256|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 0.0133160359,
+      "max_abs_diff": 4.733009322005213e-26,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|wikipedia_de_256|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 0.0133160359,
+      "max_abs_diff": 4.069275735249511e-06,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|wikipedia_de_256|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 0.0133160359,
+      "max_abs_diff": 7.69882440742552e-09,
+      "ok": true
+     },
+     {
+      "block": "h0|distinct",
+      "set": "qwen|wikipedia_ja_256|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 0.201164026,
+      "max_abs_diff": 1.8707302640308399e-07,
+      "ok": true
+     },
+     {
+      "block": "h0|distinct",
+      "set": "qwen|wikipedia_ja_256|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 0.201164026,
+      "max_abs_diff": 2.3218006725989754e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|distinct",
+      "set": "qwen|wikipedia_ja_256|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 0.201164026,
+      "max_abs_diff": 4.455435886896453e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|distinct",
+      "set": "qwen|wikipedia_ja_256|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 0.201164026,
+      "max_abs_diff": 3.3329550991941653e-09,
+      "ok": true
+     },
+     {
+      "block": "h0|distinct",
+      "set": "qwen|wikipedia_ja_256|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 0.201164026,
+      "max_abs_diff": 1.230451789208109e-06,
+      "ok": true
+     },
+     {
+      "block": "h0|distinct",
+      "set": "qwen|wikipedia_ja_256|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 0.201164026,
+      "max_abs_diff": 3.5117768134012434e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "llama|wikipedia_ja_256|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 0.0208969493,
+      "max_abs_diff": 1.1828485146914147e-06,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "llama|wikipedia_ja_256|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 0.0208969493,
+      "max_abs_diff": 6.777563237463959e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "llama|wikipedia_ja_256|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 0.0208969493,
+      "max_abs_diff": 3.460955667056176e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "llama|wikipedia_ja_256|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 0.0208969493,
+      "max_abs_diff": 3.010859303372226e-11,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "llama|wikipedia_ja_256|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 0.0208969493,
+      "max_abs_diff": 1.6750486908634343e-06,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "llama|wikipedia_ja_256|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 0.0208969493,
+      "max_abs_diff": 4.4598382139271475e-06,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|news_en_256|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 0.0251634381,
+      "max_abs_diff": 5.620715362308903e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|news_en_256|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 0.0251634381,
+      "max_abs_diff": 1.0526221927149756e-12,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|news_en_256|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 0.0251634381,
+      "max_abs_diff": 1.3475332588663846e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|news_en_256|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 0.0251634381,
+      "max_abs_diff": 2.954499459205002e-17,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|news_en_256|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 0.0251634381,
+      "max_abs_diff": 3.2425946798753102e-06,
+      "ok": true
+     },
+     {
+      "block": "h1|distinct",
+      "set": "llama|news_en_256|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 0.0251634381,
+      "max_abs_diff": 9.517183100468954e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 0.886044167,
+      "max_abs_diff": 3.936972925444593e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 0.886044167,
+      "max_abs_diff": 7.964951620476057e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 0.886044167,
+      "max_abs_diff": 1.2075024202751194e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 0.886044167,
+      "max_abs_diff": 3.142395665900466e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 0.886044167,
+      "max_abs_diff": 2.207938628595585e-07,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 0.886044167,
+      "max_abs_diff": 2.619927252367482e-07,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "qwen|wikipedia_en_1024|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 2.02953238,
+      "max_abs_diff": 7.564323389885885e-09,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "qwen|wikipedia_en_1024|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 2.02953238,
+      "max_abs_diff": 3.841882678656816e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "qwen|wikipedia_en_1024|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 2.02953238,
+      "max_abs_diff": 4.706528611286842e-09,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "qwen|wikipedia_en_1024|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 2.02953238,
+      "max_abs_diff": 1.3861675307591526e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "qwen|wikipedia_en_1024|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 2.02953238,
+      "max_abs_diff": 2.915342645071206e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "qwen|wikipedia_en_1024|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 2.02953238,
+      "max_abs_diff": 1.715388491252412e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 0.0618602824,
+      "max_abs_diff": 5.535866278716384e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 0.0618602824,
+      "max_abs_diff": 3.7018119369326696e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 0.0618602824,
+      "max_abs_diff": 2.588801192304757e-07,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 0.0618602824,
+      "max_abs_diff": 4.890870129031777e-09,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 0.0618602824,
+      "max_abs_diff": 1.6780606735267156e-06,
+      "ok": true
+     },
+     {
+      "block": "h1|raw",
+      "set": "qwen|wikipedia_ru_256|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 0.0618602824,
+      "max_abs_diff": 2.436965281571446e-06,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "llama|wikipedia_de_256|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "rho": 0.716634184,
+      "max_abs_diff": 5.555545357083247e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "llama|wikipedia_de_256|E",
+      "alpha": 0.01,
+      "method": "multiplier20",
+      "rho": 0.716634184,
+      "max_abs_diff": 9.832968361767058e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "llama|wikipedia_de_256|E",
+      "alpha": 0.05,
+      "method": "nominal",
+      "rho": 0.716634184,
+      "max_abs_diff": 1.694267659502202e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "llama|wikipedia_de_256|E",
+      "alpha": 0.05,
+      "method": "multiplier20",
+      "rho": 0.716634184,
+      "max_abs_diff": 3.849307447789663e-08,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "llama|wikipedia_de_256|E",
+      "alpha": 0.001,
+      "method": "nominal",
+      "rho": 0.716634184,
+      "max_abs_diff": 2.974990571669167e-07,
+      "ok": true
+     },
+     {
+      "block": "h0|raw",
+      "set": "llama|wikipedia_de_256|E",
+      "alpha": 0.001,
+      "method": "multiplier20",
+      "rho": 0.716634184,
+      "max_abs_diff": 3.125769625356156e-07,
+      "ok": true
+     }
+    ],
+    "monte_carlo": [
+     {
+      "pair": "llama|wikipedia_en_1024->llama|wikipedia_zh_256",
+      "N_cal": 5000,
+      "alpha": 0.01,
+      "method": "conformal",
+      "level": "alpha",
+      "pred": 0.652206428,
+      "mc": 0.6529975,
+      "mc_se": 0.0007526482661139764,
+      "ok": true
+     },
+     {
+      "pair": "llama|wikipedia_en_1024->llama|wikipedia_zh_256",
+      "N_cal": 5000,
+      "alpha": 0.01,
+      "method": "conformal",
+      "level": "2alpha",
+      "pred": 0.542666086,
+      "mc": 0.54173,
+      "mc_se": 0.0007878112196141917,
+      "ok": true
+     },
+     {
+      "pair": "llama|gutenberg_en_1024->llama|wikipedia_ja_256",
+      "N_cal": 5000,
+      "alpha": 0.01,
+      "method": "conformal",
+      "level": "alpha",
+      "pred": 0.490433035,
+      "mc": 0.4908775,
+      "mc_se": 0.0007904378217066634,
+      "ok": true
+     },
+     {
+      "pair": "llama|gutenberg_en_1024->llama|wikipedia_ja_256",
+      "N_cal": 5000,
+      "alpha": 0.01,
+      "method": "conformal",
+      "level": "2alpha",
+      "pred": 0.393261411,
+      "mc": 0.39287,
+      "mc_se": 0.0007722097563162485,
+      "ok": true
+     },
+     {
+      "set": "llama|news_en_256|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "level": "2alpha",
+      "pred": 0.609754953,
+      "mc": 0.61042,
+      "mc_se": 0.0007710502960248443,
+      "ok": true
+     },
+     {
+      "set": "llama|news_en_256|E",
+      "alpha": 0.01,
+      "method": "nominal",
+      "level": "5alpha",
+      "pred": 0.437757071,
+      "mc": 0.4382675,
+      "mc_se": 0.0007845207110773908,
+      "ok": true
+     }
+    ],
+    "n_candidates_positive_v": 46767,
+    "acceptance": {
+     "within_law_abs": 1e-05,
+     "within_law_population_share_abs": 0.001,
+     "fixed_rho0_abs": 1e-09,
+     "convergence_perkey_abs": 0.0001,
+     "convergence_fixed_abs": 1e-05,
+     "monte_carlo": "4 SE + 1e-4",
+     "monte_carlo_se_guard": "sqrt(max(p(1 - p), 1e-12) / 400000)"
+    },
+    "ok": true
+   },
+   "cross_cov": {
+    "brute_and_study1_equal": true,
+    "across_keys": [
+     {
+      "h": 0,
+      "rule": "raw",
+      "identity": 4.4293836805555555,
+      "observed": 4.403482251330195,
+      "z": -0.26294115136641855
+     },
+     {
+      "h": 0,
+      "rule": "distinct",
+      "identity": 0.30215922314082105,
+      "observed": 0.29746020492613273,
+      "z": -0.7002444839714488
+     },
+     {
+      "h": 1,
+      "rule": "raw",
+      "identity": 0.3039215167548501,
+      "observed": 0.2953370759303582,
+      "z": -1.2840258896258847
+     },
+     {
+      "h": 1,
+      "rule": "distinct",
+      "identity": 0.09234161553307098,
+      "observed": 0.09054653709676697,
+      "z": -0.8538883769922774
+     }
+    ],
+    "across_keys_ok": true
+   }
+  },
+  "key_policy": {
+   "eval_ok": true,
+   "fit_ok": true,
+   "validation_ok": true,
+   "reserved": true,
+   "study2_range": true,
+   "study1_range": true,
+   "eval_as_fit": true,
+   "fit_as_eval": true,
+   "below_validation": true,
+   "audit_dev": true,
+   "all_ok": true
+  },
+  "lock": {
+   "accepted": [
+    "complete_canonical"
+   ],
+   "refused": {
+    "missing_approved_by": "lock lacks the field 'approved_by'",
+    "final_true": "lock must carry before_outcomes: true and final: false (Study 3 opens no held-out text)",
+    "before_outcomes_false": "lock must carry before_outcomes: true and final: false (Study 3 opens no held-out text)",
+    "approved_by_other": "lock must be approved_by 'Yichen'",
+    "non_iso_date": "lock date '14/10/2026' is not an ISO date",
+    "early_date": "lock date 2026-10-12 precedes protocol v0.1",
+    "wrong_study": "lock study 'study2_v0.1' is not 'study3_v0.1'",
+    "protocol_is_grid": "lock protocol 'research/study3/grid_v0.1.json' is not the canonical 'research/STUDY3_PROTOCOL_v0.1.md'",
+    "validation_noncanonical": "lock validation 'outputs/study2_v0.1/VALIDATION.json' is not the canonical 'outputs/study3_v0.1/VALIDATION.json'",
+    "inputs_noncanonical": "lock inputs 'outputs/study2_v0.1/INPUTS.json' is not the canonical 'outputs/study3_v0.1/INPUTS.json'",
+    "tokens_noncanonical": "lock tokens_manifest 'outputs/study2_v0.1/tokens_manifest.json' is not the canonical 'outputs/study3_v0.1/tokens_manifest.json'",
+    "checkpoint_R05": "lock review must name checkpoint R07 and the resolution research/reviews/R07_study3-protocol/RESOLUTION.md",
+    "resolution_R06": "lock review must name checkpoint R07 and the resolution research/reviews/R07_study3-protocol/RESOLUTION.md",
+    "tampered_digest": "LOCK MISMATCH: research/study3/s3_core.py differs from its locked digest",
+    "non_hex_digest": "lock digest for research/study3/s3_core.py is not a 64-hex sha256",
+    "missing_code_digest": "lock hashes must pin exactly ['outputs/study2_v0.1/RUN_MANIFEST.json', 'outputs/study2_v0.1/tokens_manifest.json', 'outputs/study3_v0.1/INPU",
+    "extra_digest": "lock hashes must pin exactly ['outputs/study2_v0.1/RUN_MANIFEST.json', 'outputs/study2_v0.1/tokens_manifest.json', 'outputs/study3_v0.1/INPU",
+    "missing_study2_manifest_digest": "lock hashes must pin exactly ['outputs/study2_v0.1/RUN_MANIFEST.json', 'outputs/study2_v0.1/tokens_manifest.json', 'outputs/study3_v0.1/INPU",
+    "key_record_mismatch": "lock key record does not match the grid",
+    "fit_start_mismatch": "lock key record does not match the grid",
+    "review_digest_wrong": "the reviewer's resolution memo is missing or differs from its locked digest",
+    "noncanonical_grid_argument": "the grid given (research/study2/grid_v0.1.json) is not the canonical grid research/study3/grid_v0.1.json"
+   },
+   "unexpected_accept": [],
+   "n_variants": 22,
+   "ok": true
+  },
+  "reuse": {
+   "matching_reusable": true,
+   "foreign_grid": true,
+   "other_unit": true,
+   "other_mode": true,
+   "tampered_npz": true,
+   "all_ok": true
+  },
+  "analyzer": {
+   "complete_accepted": true,
+   "missing_unit": true,
+   "missing_unit_reason": "inventory mismatch: missing ['eval__synthetic__synthetic_zipf_0__h0'], extra []",
+   "extra_unit": true,
+   "extra_unit_reason": "inventory mismatch: missing [], extra ['eval__x__y__h9']",
+   "npz_digest_mismatch": true,
+   "npz_digest_mismatch_reason": "eval__synthetic__synthetic_zipf_0__h0: its counts file is missing or differs from the recorded digest",
+   "wrong_mode": true,
+   "wrong_mode_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['mode']",
+   "wrong_unit_identity": true,
+   "wrong_unit_identity_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['unit']",
+   "threshold_digest_mismatch": true,
+   "threshold_digest_mismatch_reason": "eval__synthetic__synthetic_zipf_0__h0: the threshold map differs between the record and its provenance copy",
+   "count_above_N": true,
+   "count_above_N_reason": "array kgw|raw|fixed holds a count above N_E",
+   "not_nested_alpha": true,
+   "not_nested_alpha_reason": "array kgw|raw|same: counts not nested across alpha",
+   "wrong_shape": true,
+   "wrong_shape_reason": "array kgw|raw|same has shape (3, 7, 3, 64) dtype uint16; expected (3, 8, 3, 64) uint16",
+   "wrong_dtype": true,
+   "wrong_dtype_reason": "array kgw|raw|fixed has shape (2, 3, 64) dtype int32; expected (2, 3, 64) uint16",
+   "missing_crossed_variant": true,
+   "missing_crossed_variant_reason": "crossed block kgw|raw nominal missing or with the wrong B",
+   "crossed_wrong_B": true,
+   "crossed_wrong_B_reason": "crossed block kgw|raw nominal missing or with the wrong B",
+   "crossed_unpopulated": true,
+   "crossed_unpopulated_reason": "crossed block kgw|raw nominal max not populated",
+   "cal_boot_wrong_B": true,
+   "cal_boot_wrong_B_reason": "calibration bootstrap kgw|raw synthetic_zipf_0 conformal@1000 sd: not 50 finite values in [0, 1]",
+   "screen_constant_wrong": true,
+   "screen_constant_wrong_reason": "screening constants at alpha 0.01 differ from their recomputation",
+   "provenance_grid_sha256": true,
+   "provenance_grid_sha256_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['grid_sha256']",
+   "provenance_core_sha256": true,
+   "provenance_core_sha256_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['core_sha256']",
+   "provenance_run_sha256": true,
+   "provenance_run_sha256_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['run_sha256']",
+   "provenance_tokens_manifest_sha256": true,
+   "provenance_tokens_manifest_sha256_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['tokens_manifest_sha256']",
+   "provenance_tokens_sha256": true,
+   "provenance_tokens_sha256_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['tokens_sha256']",
+   "provenance_key_eval_start": true,
+   "provenance_key_eval_start_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['key_eval_start']",
+   "provenance_K": true,
+   "provenance_K_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['K']",
+   "provenance_key_fit_start": true,
+   "provenance_key_fit_start_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['key_fit_start']",
+   "provenance_K_fit": true,
+   "provenance_K_fit_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['K_fit']",
+   "provenance_N": true,
+   "provenance_N_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['N']",
+   "provenance_lock_sha256": true,
+   "provenance_lock_sha256_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['lock_sha256']",
+   "provenance_mode": true,
+   "provenance_mode_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['mode']",
+   "provenance_study": true,
+   "provenance_study_reason": "eval__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['study']",
+   "cal_provenance_tokens_sha": true,
+   "cal_provenance_tokens_sha_reason": "cal__synthetic__synthetic_zipf_0__h0: provenance differs from the registered execution in ['tokens_sha256']",
+   "threshold_map_empty": true,
+   "threshold_map_empty_reason": "eval__synthetic__synthetic_zipf_0__h0: the threshold map does not cover exactly the registered sources",
+   "threshold_map_one_source_missing": true,
+   "threshold_map_one_source_missing_reason": "eval__synthetic__synthetic_zipf_0__h0: the threshold map does not cover exactly the registered sources",
+   "threshold_map_foreign_digest": true,
+   "threshold_map_foreign_digest_reason": "eval__synthetic__synthetic_zipf_0__h0: the threshold map differs between the record and its provenance copy",
+   "threshold_map_copy_mismatch": true,
+   "threshold_map_copy_mismatch_reason": "eval__synthetic__synthetic_zipf_0__h0: the threshold map differs between the record and its provenance copy",
+   "committed_thresholds_missing": true,
+   "committed_thresholds_missing_reason": "cal__synthetic__synthetic_zipf_0__h0: the committed thresholds file is missing or differs from its digest",
+   "committed_thresholds_tampered": true,
+   "committed_thresholds_tampered_reason": "cal__synthetic__synthetic_zipf_0__h0: the committed thresholds file is missing or differs from its digest",
+   "cal_summary_missing": true,
+   "cal_summary_missing_reason": "cal__synthetic__synthetic_zipf_0__h0: the calibration record lacks its summary or info",
+   "cal_N_C_wrong": true,
+   "cal_N_C_wrong_reason": "calibration record field N_C is 1001; expected 1000",
+   "cal_alphas_reversed": true,
+   "cal_alphas_reversed_reason": "calibration record field alphas is [0.001, 0.05, 0.01]; expected [0.01, 0.05, 0.001]",
+   "cal_threshold_above_one": true,
+   "cal_threshold_above_one_reason": "thresholds array kgw|raw|conformal@1000|0.05 holds a non-finite value or one outside [0, 1]",
+   "cal_threshold_nonfinite": true,
+   "cal_threshold_nonfinite_reason": "thresholds array kgw|raw|conformal@1000|0.05 holds a non-finite value or one outside [0, 1]",
+   "cal_threshold_wrong_shape": true,
+   "cal_threshold_wrong_shape_reason": "thresholds array kgw|raw|conformal@1000|0.05 has shape (63,) dtype float64; expected (64,) float",
+   "cal_threshold_extra_key": true,
+   "cal_threshold_extra_key_reason": "thresholds arrays differ from the expected set: missing [], extra ['kgw|raw|extra|0.05']",
+   "cal_threshold_not_nested": true,
+   "cal_threshold_not_nested_reason": "thresholds kgw|raw conformal@1000 decrease from alpha 0.001 to 0.01",
+   "cal_abstention_violated": true,
+   "cal_abstention_violated_reason": "kgw|raw conformal@100 alpha 0.001: an abstaining method must carry an all-zero threshold",
+   "cal_empirical_above_alpha": true,
+   "cal_empirical_above_alpha_reason": "thresholds kgw|raw empirical decrease from alpha 0.01 to 0.05",
+   "cal_z_summary_emptied": true,
+   "cal_z_summary_emptied_reason": "kgw|raw conformal@1000 alpha 0.01: the z summary is missing or lacks the promised fields",
+   "cal_abstaining_z_removed": true,
+   "cal_abstaining_z_removed_reason": "kgw|raw conformal@100 alpha 0.001: the z summary is missing or lacks the promised fields",
+   "cal_cost_mean_wrong": true,
+   "cal_cost_mean_wrong_reason": "kgw|raw conformal@1000 alpha 0.01: z summary field cost_mean differs from its recomputation",
+   "cal_n_abstain_wrong": true,
+   "cal_n_abstain_wrong_reason": "kgw|raw conformal@1000 alpha 0.01: z summary field n_abstain differs from its recomputation",
+   "cal_cost_field_missing": true,
+   "cal_cost_field_missing_reason": "kgw|raw conformal@1000 alpha 0.01: the z summary is missing or lacks the promised fields",
+   "cal_kappa_wrong": true,
+   "cal_kappa_wrong_reason": "kgw|raw alpha 0.01: kappa_emp differs from alpha / t_emp",
+   "cal_z_emp_wrong": true,
+   "cal_z_emp_wrong_reason": "kgw|raw alpha 0.01: z_emp differs from its recomputation",
+   "cal_emp_detail_wrong": true,
+   "cal_emp_detail_wrong_reason": "kgw|raw alpha 0.01: the empirical multiplier's fit detail is missing or inconsistent",
+   "cal_zero_threshold_kappa_inf_accepted": true,
+   "cal_zero_threshold_kappa_finite": true,
+   "cal_zero_threshold_kappa_finite_reason": "kgw|raw alpha 0.001: kappa_emp differs from alpha / t_emp",
+   "cal_zero_threshold_kappa_one": true,
+   "cal_zero_threshold_kappa_one_reason": "kgw|raw alpha 0.001: kappa_emp differs from alpha / t_emp",
+   "N_E_wrong_screen_recomputed": true,
+   "N_E_wrong_screen_recomputed_reason": "N_E is 4000; the registered evaluation size is 2000",
+   "alphas_reversed": true,
+   "alphas_reversed_reason": "evaluation record field alphas is [0.001, 0.05, 0.01]; expected [0.01, 0.05, 0.001]",
+   "variants_same_reversed": true,
+   "variants_same_reversed_reason": "evaluation record field variants_same is ['tolerance@1000', 'tolerance@500', 'tolerance@100', 'conformal@1000', 'conform",
+   "variants_cross_wrong": true,
+   "variants_cross_wrong_reason": "evaluation record field variants_cross is ['empirical', 'pooled', 'conformal@1000', 'conformal@5000', 'tolerance@1000'];",
+   "cal_sources_reversed": true,
+   "cal_sources_reversed_reason": "evaluation record field cal_sources is ['synthetic_zipf_2', 'synthetic_zipf_1', 'synthetic_zipf_0']; expected ['syntheti",
+   "fixed_variants_wrong": true,
+   "fixed_variants_wrong_reason": "evaluation record field fixed_variants is ['nominal', 'guaranteed']; expected ['nominal', 'multiplier20']",
+   "cross_tokenizer_fabricated": true,
+   "cross_tokenizer_fabricated_reason": "evaluation record field cross_tokenizers is ['x']; expected []",
+   "extra_array_key": true,
+   "extra_array_key_reason": "count arrays differ from the expected set: missing [], extra ['kgw|raw|extra']",
+   "missing_array_key": true,
+   "missing_array_key_reason": "count arrays differ from the expected set: missing ['gumbel|distinct|same'], extra []",
+   "cal_boot_nan": true,
+   "cal_boot_nan_reason": "calibration bootstrap kgw|raw synthetic_zipf_0 conformal@1000 sd: not 50 finite values in [0, 1]",
+   "cal_boot_negative": true,
+   "cal_boot_negative_reason": "calibration bootstrap kgw|raw synthetic_zipf_0 conformal@1000 key_mean: not 50 finite values in [0, 1]",
+   "cal_boot_above_one": true,
+   "cal_boot_above_one_reason": "calibration bootstrap kgw|raw synthetic_zipf_0 tolerance@1000 q99: not 50 finite values in [0, 1]",
+   "screen_r_nan": true,
+   "screen_r_nan_reason": "screening constants at alpha 0.01 differ from their recomputation",
+   "screen_b_wrong": true,
+   "screen_b_wrong_reason": "screening constants at alpha 0.01 differ from their recomputation",
+   "crossed_se_nan": true,
+   "crossed_se_nan_reason": "crossed block kgw|raw nominal max not populated",
+   "all_ok": true,
+   "n": 72
+  },
+  "rep_decision": {
+   "equal": true,
+   "noise": true,
+   "gross": true,
+   "zero_se_equal": true
+  }
+ },
+ "token_cache": {
+  "study2_manifest_bound": true,
+  "plan_reproduced": true,
+  "arrays": true,
+  "seal_current": true,
+  "all_ok": true,
+  "cal_positions": {
+   "news_en_256": [
+    10000,
+    14999
+   ],
+   "wikipedia_en_256": [
+    10000,
+    15577
+   ],
+   "stackexchange_en_256": [
+    10000,
+    14999
+   ],
+   "wikipedia_de_256": [
+    10000,
+    14999
+   ],
+   "wikipedia_ru_256": [
+    10000,
+    14999
+   ],
+   "wikipedia_ar_256": [
+    10000,
+    14999
+   ],
+   "wikipedia_zh_256": [
+    10000,
+    14999
+   ],
+   "wikipedia_ja_256": [
+    10000,
+    14999
+   ],
+   "wikipedia_en_1024": [
+    10000,
+    15951
+   ],
+   "gutenberg_en_1024": [
+    7122,
+    12121
+   ]
+  },
+  "cal_skipped": {
+   "news_en_256": 0,
+   "wikipedia_en_256": 578,
+   "stackexchange_en_256": 0,
+   "wikipedia_de_256": 0,
+   "wikipedia_ru_256": 0,
+   "wikipedia_ar_256": 0,
+   "wikipedia_zh_256": 0,
+   "wikipedia_ja_256": 0,
+   "wikipedia_en_1024": 952,
+   "gutenberg_en_1024": 0
+  }
+ },
+ "validation_run": {
+  "dir": "outputs/study3_v0.1/validation_20261015T193602Z",
+  "seconds": 7.5,
+  "n_units": 12,
+  "pilot_status": "analyzed",
+  "pilot_counts": {
+   "T1_rows": 18,
+   "T1_eligible": 8,
+   "T2_rows": 18,
+   "T2_material": 18,
+   "descriptive_rows": 1872
+  }
+ },
+ "cost": {
+  "h0": {
+   "cal_seconds": 24.7,
+   "eval_seconds": 9.1,
+   "n_tuples_cal": 81541,
+   "n_tuples_eval": 104841
+  },
+  "h2": {
+   "cal_seconds": 58.1,
+   "eval_seconds": 40.9,
+   "n_tuples_cal": 1063724,
+   "n_tuples_eval": 2054763
+  },
+  "peak_rss_gb": 3.17,
+  "projection_hours": 0.92,
+  "per_unit_pair_seconds": {
+   "llama|news_en_256|h0": 31.6,
+   "llama|wikipedia_en_256|h0": 31.6,
+   "llama|stackexchange_en_256|h0": 31.8,
+   "llama|wikipedia_de_256|h0": 30.5,
+   "llama|wikipedia_ru_256|h0": 30.0,
+   "llama|wikipedia_ar_256|h0": 29.9,
+   "llama|wikipedia_zh_256|h0": 30.2,
+   "llama|wikipedia_ja_256|h0": 30.0,
+   "llama|wikipedia_en_1024|h0": 31.6,
+   "llama|gutenberg_en_1024|h0": 31.4,
+   "qwen|news_en_256|h0": 31.5,
+   "qwen|wikipedia_en_256|h0": 31.5,
+   "qwen|stackexchange_en_256|h0": 31.7,
+   "qwen|wikipedia_de_256|h0": 30.5,
+   "qwen|wikipedia_ru_256|h0": 29.9,
+   "qwen|wikipedia_ar_256|h0": 29.9,
+   "qwen|wikipedia_zh_256|h0": 30.9,
+   "qwen|wikipedia_ja_256|h0": 30.1,
+   "qwen|wikipedia_en_1024|h0": 31.5,
+   "qwen|gutenberg_en_1024|h0": 31.3,
+   "llama|news_en_256|h1": 57.7,
+   "llama|wikipedia_en_256|h1": 59.2,
+   "llama|stackexchange_en_256|h1": 59.0,
+   "llama|wikipedia_de_256|h1": 50.1,
+   "llama|wikipedia_ru_256|h1": 47.2,
+   "llama|wikipedia_ar_256|h1": 44.1,
+   "llama|wikipedia_zh_256|h1": 55.3,
+   "llama|wikipedia_ja_256|h1": 46.1,
+   "llama|wikipedia_en_1024|h1": 59.3,
+   "llama|gutenberg_en_1024|h1": 56.4,
+   "qwen|news_en_256|h1": 56.5,
+   "qwen|wikipedia_en_256|h1": 57.7,
+   "qwen|stackexchange_en_256|h1": 57.8,
+   "qwen|wikipedia_de_256|h1": 49.5,
+   "qwen|wikipedia_ru_256|h1": 42.6,
+   "qwen|wikipedia_ar_256|h1": 42.9,
+   "qwen|wikipedia_zh_256|h1": 61.1,
+   "qwen|wikipedia_ja_256|h1": 46.1,
+   "qwen|wikipedia_en_1024|h1": 57.9,
+   "qwen|gutenberg_en_1024|h1": 55.9,
+   "llama|news_en_256|h2": 85.5,
+   "llama|wikipedia_en_256|h2": 87.4,
+   "llama|stackexchange_en_256|h2": 87.9,
+   "llama|wikipedia_de_256|h2": 79.3,
+   "llama|wikipedia_ru_256|h2": 77.0,
+   "llama|wikipedia_ar_256|h2": 76.0,
+   "llama|wikipedia_zh_256|h2": 88.9,
+   "llama|wikipedia_ja_256|h2": 75.7,
+   "llama|wikipedia_en_1024|h2": 88.0,
+   "llama|gutenberg_en_1024|h2": 85.2,
+   "qwen|news_en_256|h2": 83.2,
+   "qwen|wikipedia_en_256|h2": 84.1,
+   "qwen|stackexchange_en_256|h2": 86.1,
+   "qwen|wikipedia_de_256|h2": 77.5,
+   "qwen|wikipedia_ru_256|h2": 69.7,
+   "qwen|wikipedia_ar_256|h2": 73.0,
+   "qwen|wikipedia_zh_256|h2": 90.9,
+   "qwen|wikipedia_ja_256|h2": 73.1,
+   "qwen|wikipedia_en_1024|h2": 84.9,
+   "qwen|gutenberg_en_1024|h2": 83.9
+  },
+  "model": {
+   "cal": [
+    21.92712630945557,
+    3.4005882814098805e-05
+   ],
+   "eval": [
+    7.390216839442808,
+    1.6308344641477964e-05
+   ],
+   "note": "seconds = a + b |D| per pass, from the two probe points; an extrapolation, not a guarantee"
+  }
+ },
+ "eligibility": {
+  "T1_eligible": 1494,
+  "T2_material": 879,
+  "T2_predicted_signs": {
+   "help": 336,
+   "harm": 543
+  },
+  "by_block": {
+   "T1": {
+    "h1|raw|llama|N1000|diagonal": 10,
+    "h1|raw|llama|N5000|diagonal": 0,
+    "h1|raw|llama|N1000|within_english": 18,
+    "h1|raw|llama|N5000|within_english": 18,
+    "h1|raw|llama|N1000|english_other": 50,
+    "h1|raw|llama|N5000|english_other": 50,
+    "h1|raw|llama|N1000|near_identical": 2,
+    "h1|raw|llama|N5000|near_identical": 0,
+    "h1|raw|llama|N1000|other_other": 20,
+    "h1|raw|llama|N5000|other_other": 20,
+    "h1|raw|qwen|N1000|diagonal": 10,
+    "h1|raw|qwen|N5000|diagonal": 0,
+    "h1|raw|qwen|N1000|within_english": 18,
+    "h1|raw|qwen|N5000|within_english": 18,
+    "h1|raw|qwen|N1000|english_other": 50,
+    "h1|raw|qwen|N5000|english_other": 50,
+    "h1|raw|qwen|N1000|near_identical": 2,
+    "h1|raw|qwen|N5000|near_identical": 0,
+    "h1|raw|qwen|N1000|other_other": 20,
+    "h1|raw|qwen|N5000|other_other": 20,
+    "h1|distinct|llama|N1000|diagonal": 10,
+    "h1|distinct|llama|N5000|diagonal": 0,
+    "h1|distinct|llama|N1000|within_english": 18,
+    "h1|distinct|llama|N5000|within_english": 18,
+    "h1|distinct|llama|N1000|english_other": 50,
+    "h1|distinct|llama|N5000|english_other": 50,
+    "h1|distinct|llama|N1000|near_identical": 2,
+    "h1|distinct|llama|N5000|near_identical": 0,
+    "h1|distinct|llama|N1000|other_other": 20,
+    "h1|distinct|llama|N5000|other_other": 20,
+    "h1|distinct|qwen|N1000|diagonal": 10,
+    "h1|distinct|qwen|N5000|diagonal": 0,
+    "h1|distinct|qwen|N1000|within_english": 18,
+    "h1|distinct|qwen|N5000|within_english": 18,
+    "h1|distinct|qwen|N1000|english_other": 50,
+    "h1|distinct|qwen|N5000|english_other": 50,
+    "h1|distinct|qwen|N1000|near_identical": 2,
+    "h1|distinct|qwen|N5000|near_identical": 0,
+    "h1|distinct|qwen|N1000|other_other": 20,
+    "h1|distinct|qwen|N5000|other_other": 20,
+    "h2|raw|llama|N1000|diagonal": 10,
+    "h2|raw|llama|N5000|diagonal": 0,
+    "h2|raw|llama|N1000|within_english": 18,
+    "h2|raw|llama|N5000|within_english": 15,
+    "h2|raw|llama|N1000|english_other": 50,
+    "h2|raw|llama|N5000|english_other": 49,
+    "h2|raw|llama|N1000|near_identical": 2,
+    "h2|raw|llama|N5000|near_identical": 0,
+    "h2|raw|llama|N1000|other_other": 20,
+    "h2|raw|llama|N5000|other_other": 20,
+    "h2|raw|qwen|N1000|diagonal": 10,
+    "h2|raw|qwen|N5000|diagonal": 0,
+    "h2|raw|qwen|N1000|within_english": 18,
+    "h2|raw|qwen|N5000|within_english": 17,
+    "h2|raw|qwen|N1000|english_other": 50,
+    "h2|raw|qwen|N5000|english_other": 50,
+    "h2|raw|qwen|N1000|near_identical": 2,
+    "h2|raw|qwen|N5000|near_identical": 0,
+    "h2|raw|qwen|N1000|other_other": 20,
+    "h2|raw|qwen|N5000|other_other": 20,
+    "h2|distinct|llama|N1000|diagonal": 10,
+    "h2|distinct|llama|N5000|diagonal": 0,
+    "h2|distinct|llama|N1000|within_english": 18,
+    "h2|distinct|llama|N5000|within_english": 15,
+    "h2|distinct|llama|N1000|english_other": 50,
+    "h2|distinct|llama|N5000|english_other": 49,
+    "h2|distinct|llama|N1000|near_identical": 2,
+    "h2|distinct|llama|N5000|near_identical": 0,
+    "h2|distinct|llama|N1000|other_other": 20,
+    "h2|distinct|llama|N5000|other_other": 20,
+    "h2|distinct|qwen|N1000|diagonal": 10,
+    "h2|distinct|qwen|N5000|diagonal": 0,
+    "h2|distinct|qwen|N1000|within_english": 18,
+    "h2|distinct|qwen|N5000|within_english": 17,
+    "h2|distinct|qwen|N1000|english_other": 50,
+    "h2|distinct|qwen|N5000|english_other": 50,
+    "h2|distinct|qwen|N1000|near_identical": 2,
+    "h2|distinct|qwen|N5000|near_identical": 0,
+    "h2|distinct|qwen|N1000|other_other": 20,
+    "h2|distinct|qwen|N5000|other_other": 20
+   },
+   "T2": {
+    "h1|raw|llama|N1000|diagonal": 10,
+    "h1|raw|llama|N5000|diagonal": 10,
+    "h1|raw|llama|N1000|within_english": 14,
+    "h1|raw|llama|N5000|within_english": 14,
+    "h1|raw|llama|N1000|english_other": 19,
+    "h1|raw|llama|N5000|english_other": 27,
+    "h1|raw|llama|N1000|near_identical": 2,
+    "h1|raw|llama|N5000|near_identical": 2,
+    "h1|raw|llama|N1000|other_other": 7,
+    "h1|raw|llama|N5000|other_other": 11,
+    "h1|raw|qwen|N1000|diagonal": 10,
+    "h1|raw|qwen|N5000|diagonal": 10,
+    "h1|raw|qwen|N1000|within_english": 12,
+    "h1|raw|qwen|N5000|within_english": 12,
+    "h1|raw|qwen|N1000|english_other": 28,
+    "h1|raw|qwen|N5000|english_other": 32,
+    "h1|raw|qwen|N1000|near_identical": 2,
+    "h1|raw|qwen|N5000|near_identical": 2,
+    "h1|raw|qwen|N1000|other_other": 16,
+    "h1|raw|qwen|N5000|other_other": 17,
+    "h1|distinct|llama|N1000|diagonal": 0,
+    "h1|distinct|llama|N5000|diagonal": 9,
+    "h1|distinct|llama|N1000|within_english": 3,
+    "h1|distinct|llama|N5000|within_english": 0,
+    "h1|distinct|llama|N1000|english_other": 38,
+    "h1|distinct|llama|N5000|english_other": 27,
+    "h1|distinct|llama|N1000|near_identical": 0,
+    "h1|distinct|llama|N5000|near_identical": 2,
+    "h1|distinct|llama|N1000|other_other": 19,
+    "h1|distinct|llama|N5000|other_other": 11,
+    "h1|distinct|qwen|N1000|diagonal": 3,
+    "h1|distinct|qwen|N5000|diagonal": 10,
+    "h1|distinct|qwen|N1000|within_english": 5,
+    "h1|distinct|qwen|N5000|within_english": 0,
+    "h1|distinct|qwen|N1000|english_other": 37,
+    "h1|distinct|qwen|N5000|english_other": 23,
+    "h1|distinct|qwen|N1000|near_identical": 2,
+    "h1|distinct|qwen|N5000|near_identical": 2,
+    "h1|distinct|qwen|N1000|other_other": 11,
+    "h1|distinct|qwen|N5000|other_other": 7,
+    "h2|raw|llama|N1000|diagonal": 4,
+    "h2|raw|llama|N5000|diagonal": 3,
+    "h2|raw|llama|N1000|within_english": 10,
+    "h2|raw|llama|N5000|within_english": 2,
+    "h2|raw|llama|N1000|english_other": 28,
+    "h2|raw|llama|N5000|english_other": 3,
+    "h2|raw|llama|N1000|near_identical": 1,
+    "h2|raw|llama|N5000|near_identical": 0,
+    "h2|raw|llama|N1000|other_other": 9,
+    "h2|raw|llama|N5000|other_other": 0,
+    "h2|raw|qwen|N1000|diagonal": 4,
+    "h2|raw|qwen|N5000|diagonal": 9,
+    "h2|raw|qwen|N1000|within_english": 7,
+    "h2|raw|qwen|N5000|within_english": 9,
+    "h2|raw|qwen|N1000|english_other": 22,
+    "h2|raw|qwen|N5000|english_other": 21,
+    "h2|raw|qwen|N1000|near_identical": 2,
+    "h2|raw|qwen|N5000|near_identical": 2,
+    "h2|raw|qwen|N1000|other_other": 1,
+    "h2|raw|qwen|N5000|other_other": 6,
+    "h2|distinct|llama|N1000|diagonal": 9,
+    "h2|distinct|llama|N5000|diagonal": 0,
+    "h2|distinct|llama|N1000|within_english": 18,
+    "h2|distinct|llama|N5000|within_english": 9,
+    "h2|distinct|llama|N1000|english_other": 50,
+    "h2|distinct|llama|N5000|english_other": 31,
+    "h2|distinct|llama|N1000|near_identical": 2,
+    "h2|distinct|llama|N5000|near_identical": 0,
+    "h2|distinct|llama|N1000|other_other": 20,
+    "h2|distinct|llama|N5000|other_other": 13,
+    "h2|distinct|qwen|N1000|diagonal": 4,
+    "h2|distinct|qwen|N5000|diagonal": 2,
+    "h2|distinct|qwen|N1000|within_english": 14,
+    "h2|distinct|qwen|N5000|within_english": 6,
+    "h2|distinct|qwen|N1000|english_other": 47,
+    "h2|distinct|qwen|N5000|english_other": 17,
+    "h2|distinct|qwen|N1000|near_identical": 0,
+    "h2|distinct|qwen|N5000|near_identical": 1,
+    "h2|distinct|qwen|N1000|other_other": 20,
+    "h2|distinct|qwen|N5000|other_other": 7
+   }
+  },
+  "n_primary_rows": 1600
+ },
+ "inputs_consistency_with_study2": {
+  "n": 108,
+  "max_abs_diff_rho": 2.97539771e-14,
+  "max_abs_diff_sigma2": 2.97539771e-14
+ },
+ "all_ok": true,
+ "seconds": 211.7
+}

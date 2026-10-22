@@ -1,0 +1,927 @@
+{
+ "*": [
+  {
+   "literal": "1%",
+   "context": "nominal 1%",
+   "reason": "the nominal level α = 1% named in words (the grid's primary α)"
+  },
+  {
+   "literal": "1%",
+   "context": "is not 1%",
+   "reason": "the nominal level α = 1% named in words"
+  },
+  {
+   "literal": "1%",
+   "context": "rate at 1%",
+   "reason": "the phrase 'a false-positive rate at 1%' quoted as the reported convention (Study 2 report §5)",
+   "source": {
+    "file": "research/STUDY2_REPORT_v0.1.md",
+    "regex": "false-positive rate at 1%"
+   }
+  },
+  {
+   "literal": "1%",
+   "context": "below 1% for V",
+   "reason": "the registered fixed-size statement's threshold, the Study 1 protocol's rule",
+   "source": {
+    "file": "research/STUDY1_PROTOCOL_v0.3.md",
+    "regex": "below 1%"
+   }
+  },
+  {
+   "literal": "1%",
+   "context": "at or above 1%",
+   "reason": "the registered fixed-size statement's threshold, the Study 1 protocol's rule",
+   "source": {
+    "file": "research/STUDY1_PROTOCOL_v0.3.md",
+    "regex": "below 1%"
+   }
+  },
+  {
+   "literal": "two",
+   "context": "two sources of variability",
+   "reason": "Ren and Barber's phrase, quoted (p. 11)"
+  },
+  {
+   "literal": "two",
+   "context": "two negative classes",
+   "reason": "LUNA's two negative classes (the model's own text and human text), a definition"
+  },
+  {
+   "literal": "two",
+   "context": "two keys calibrated separately",
+   "reason": "the two-key artefact's own key count (R11 F7; the claim gate's row)"
+  },
+  {
+   "literal": "Two",
+   "context": "Two text/code discrepancies",
+   "reason": "the two disclosed discrepancies of constraint 29, (i) and (ii), enumerated in Appendix B.6"
+  },
+  {
+   "literal": "two",
+   "context": "two text/code discrepancies",
+   "reason": "the two disclosed discrepancies of constraint 29, (i) and (ii), enumerated in Appendix B.6"
+  },
+  {
+   "literal": "Three",
+   "context": "Three readers",
+   "reason": "the discussion's three readers (deployer, designer, auditor), a structural count"
+  },
+  {
+   "literal": "two",
+   "context": "two SE constructions",
+   "reason": "the two SE constructions of the secondary diagnostic (crossed and key-only), a definition"
+  },
+  {
+   "literal": "three",
+   "context": "three collision quantities",
+   "reason": "the three collision quantities defined in §3.4, a definition"
+  },
+  {
+   "literal": "Three",
+   "context": "Three collision quantities",
+   "reason": "the three collision quantities defined in §3.4, a definition"
+  },
+  {
+   "literal": "Three",
+   "context": "Three normalisations",
+   "reason": "the three weight normalisations defined in §3.4 and A.1, a definition"
+  },
+  {
+   "literal": "three",
+   "context": "three normalisations",
+   "reason": "the three weight normalisations defined in §3.4 and A.1, a definition"
+  },
+  {
+   "literal": "two",
+   "context": "two texts",
+   "reason": "a covariance or an orthant probability is between two texts, algebra"
+  },
+  {
+   "literal": "Two",
+   "context": "Two exceedance estimands",
+   "reason": "the two exceedance estimands defined in §3.6 and A.5, a definition"
+  },
+  {
+   "literal": "Two",
+   "context": "Two predicted shares",
+   "reason": "the two exceedance estimands defined in §3.6 and A.5, a definition"
+  },
+  {
+   "literal": "two",
+   "context": "two probability scales",
+   "reason": "the two Beta variables U and W of the finite-share integral, algebra"
+  },
+  {
+   "literal": "two",
+   "context": "two laws with identical weights",
+   "reason": "the transfer counterexample of A.6 (two laws), a mathematical example"
+  },
+  {
+   "literal": "Two",
+   "context": "Two null laws",
+   "reason": "the transfer counterexample of A.6, a mathematical example"
+  },
+  {
+   "literal": "half",
+   "context": "half of $P$'s texts",
+   "reason": "the transfer counterexample's level 1/2, a mathematical example re-derived by enumeration"
+  },
+  {
+   "literal": "four",
+   "context": "other four green sets",
+   "reason": "the transfer counterexample's remaining 2-subsets of a 4-token vocabulary, enumerated"
+  },
+  {
+   "literal": "two",
+   "context": "two distinct tokens of one class",
+   "reason": "the fixed-size covariance is between two tokens, algebra"
+  },
+  {
+   "literal": "three",
+   "context": "three equally likely prefixes",
+   "reason": "the occupancy counterexample of A.1 (R01), a mathematical example re-checked by enumeration"
+  },
+  {
+   "literal": "six",
+   "context": "six distinct private tokens",
+   "reason": "the occupancy counterexample of A.1 (R01), a mathematical example re-checked by enumeration"
+  },
+  {
+   "literal": "two",
+   "context": "two disjoint seeded subsamples",
+   "reason": "the pairwise predictor's two subsamples, the locked code's design (s1_core.PAIR_SUBSAMPLE)",
+   "source": {
+    "file": "research/study1/s1_core.py",
+    "regex": "PAIR_SUBSAMPLE\\s*=\\s*300"
+   }
+  },
+  {
+   "literal": "300",
+   "context": "subsamples of 300 texts",
+   "reason": "the pairwise predictor's subsample size, pinned by the Study 1 lock",
+   "source": {
+    "file": "research/study1/s1_core.py",
+    "regex": "PAIR_SUBSAMPLE\\s*=\\s*300"
+   }
+  },
+  {
+   "literal": "1,000",
+   "context": "1,000 nodes per scale",
+   "reason": "the finite-share midpoint rule's node count, pinned by the Study 3 lock",
+   "source": {
+    "file": "research/study3/s3_core.py",
+    "regex": "SHARE_Q\\s*=\\s*1000"
+   }
+  },
+  {
+   "literal": "4,000",
+   "context": "4,000 nodes of",
+   "reason": "the fixed-threshold share's node count, pinned by the Study 3 lock",
+   "source": {
+    "file": "research/study3/s3_core.py",
+    "regex": "SHARE_Q_FIXED\\s*=\\s*4000"
+   }
+  },
+  {
+   "literal": "three",
+   "context": "three text-bootstrap SEs",
+   "reason": "R4b's tolerance as the Study 1 protocol states it",
+   "source": {
+    "file": "research/STUDY1_PROTOCOL_v0.3.md",
+    "regex": "support control[^\\n]{0,300}?(?:3|three)[^\\n]{0,80}?SE"
+   }
+  },
+  {
+   "literal": "1",
+   "context": "SD close to 1",
+   "reason": "the standardised discrepancy's reference SD of 1 (a standard normal), algebra"
+  },
+  {
+   "literal": "1",
+   "context": "below 1 in",
+   "reason": "the ratio boundary 1 of W2's pre-stated side, the Study 4 protocol's rule",
+   "source": {
+    "file": "research/study4/grid_v0.1.json",
+    "regex": "below_1"
+   }
+  },
+  {
+   "literal": "1",
+   "context": "\"below 1\"",
+   "reason": "the ratio boundary 1 of W2's pre-stated side, the Study 4 protocol's rule",
+   "source": {
+    "file": "research/study4/grid_v0.1.json",
+    "regex": "below_1"
+   }
+  },
+  {
+   "literal": "1",
+   "context": "excludes 1",
+   "reason": "the ratio boundary 1 of T2's agreement rule, the Study 3 protocol's rule",
+   "source": {
+    "file": "research/STUDY3_PROTOCOL_v0.1.md",
+    "regex": "excludes 1"
+   }
+  },
+  {
+   "literal": "6",
+   "context": "6-SE threshold",
+   "reason": "the gross-failure threshold 6·SE of R3 and S3, the protocols' rule",
+   "source": {
+    "file": "research/STUDY2_PROTOCOL_v0.1.md",
+    "regex": "6·SE"
+   }
+  },
+  {
+   "literal": "0",
+   "context": "at or below 0 never rejects",
+   "reason": "a threshold of zero on the p scale rejects nothing, algebra"
+  },
+  {
+   "literal": "0",
+   "context": "exactly 0",
+   "reason": "a stored p-value of exactly zero, the abstention's definition (Study 3 report)"
+  },
+  {
+   "literal": "half",
+   "context": "about half the keys sit above α",
+   "reason": "the reference law's population share near one half (the registered value 48.1%, Table 4), stated in words"
+  },
+  {
+   "literal": "2",
+   "context": "a factor 2",
+   "reason": "the disparity ratio's pre-stated threshold (above 2 and above 5), the Study 2 protocol",
+   "source": {
+    "file": "research/STUDY2_PROTOCOL_v0.1.md",
+    "regex": "above 2 and above 5"
+   }
+  },
+  {
+   "literal": "5%",
+   "context": "between 5% and 95%",
+   "reason": "the level band the Study 4 report pre-states for the h = 0 model-null count",
+   "source": {
+    "file": "research/STUDY4_REPORT_v0.1.md",
+    "regex": "between 5% and 95%"
+   }
+  },
+  {
+   "literal": "95%",
+   "context": "between 5% and 95%",
+   "reason": "the level band the Study 4 report pre-states for the h = 0 model-null count",
+   "source": {
+    "file": "research/STUDY4_REPORT_v0.1.md",
+    "regex": "between 5% and 95%"
+   }
+  },
+  {
+   "literal": "two",
+   "context": "two shapes",
+   "reason": "the two null-law shapes compared (human text, the model's text), a definition"
+  },
+  {
+   "literal": "three",
+   "context": "in three settings",
+   "reason": "Figure 3's three panels, enumerated in the caption"
+  },
+  {
+   "literal": "two",
+   "context": "two labelled side computations",
+   "reason": "Tables D2b and D5 come from the two labelled side computations (the tokenizer overlap; the two-way SE check), a structural count"
+  },
+  {
+   "literal": "third",
+   "context": "third panel",
+   "reason": "the panel of Study 2's Figure 4 that Figure D6 reproduces"
+  },
+  {
+   "literal": "two",
+   "context": "two panels",
+   "reason": "the two panels of Study 3's Figure 3 that Figure D7 reproduces"
+  },
+  {
+   "literal": "two",
+   "context": "two non-English languages",
+   "reason": "the other–other pair class (two non-English cells), a definition of the Study 3 analyzer's class"
+  },
+  {
+   "literal": "0",
+   "context": "0 modulo 5",
+   "reason": "the holdout assignment rule recorded in the data audit",
+   "source": {
+    "file": "outputs/corpora_audit_v0.3.json",
+    "regex": "% 5 == 0"
+   }
+  },
+  {
+   "literal": "5",
+   "context": "0 modulo 5",
+   "reason": "the holdout assignment rule recorded in the data audit",
+   "source": {
+    "file": "outputs/corpora_audit_v0.3.json",
+    "regex": "% 5 == 0"
+   }
+  },
+  {
+   "literal": "sixteen",
+   "context": "sixteen hexadecimal digits",
+   "reason": "the holdout assignment rule recorded in the data audit",
+   "source": {
+    "file": "outputs/corpora_audit_v0.3.json",
+    "regex": "\\[:16\\]"
+   }
+  },
+  {
+   "literal": "two",
+   "context": "two 1,024-token cells",
+   "reason": "the two cells whose longest length is 1,024 (the Study 2 grid)",
+   "source": {
+    "file": "research/study2/grid_v0.1.json",
+    "regex": "\"L_cell\": 1024"
+   }
+  },
+  {
+   "literal": "two",
+   "context": "never confuse the two",
+   "reason": "the two per-key statements just defined (PAC over keys; the given key), a pronoun"
+  },
+  {
+   "literal": "4",
+   "context": "\\{0, \\dots, 4\\}",
+   "reason": "the width set of the grids written with an ellipsis",
+   "source": {
+    "file": "research/study2/grid_v0.1.json",
+    "regex": "\"h\": \\[\\s*0,\\s*1,\\s*2,\\s*3,\\s*4\\s*\\]"
+   }
+  },
+  {
+   "literal": "3",
+   "context": "3\\,\\mathrm{SE}",
+   "reason": "R4b's tolerance of three text-bootstrap SEs, the Study 1 protocol's rule",
+   "source": {
+    "file": "research/STUDY1_PROTOCOL_v0.3.md",
+    "regex": "support control[^\\n]{0,300}?(?:3|three)[^\\n]{0,80}?SE"
+   }
+  },
+  {
+   "literal": "10^{-9}",
+   "context": "3\\,\\mathrm{SE} + 10^{-9}",
+   "reason": "the implemented R4b tolerance's absolute slack, the disclosed discrepancy of constraint 29",
+   "source": {
+    "file": "research/CLAIM_GATE_v0.1.md",
+    "regex": "3·SE \\+ 10⁻⁹"
+   }
+  },
+  {
+   "literal": "Zero",
+   "context": "Zero thresholds at a positive order index",
+   "reason": "a threshold equal to zero (the abstention), a value, not a count"
+  },
+  {
+   "literal": "zero",
+   "context": "stored zero thresholds",
+   "reason": "a threshold equal to zero (the abstention), a value, not a count"
+  },
+  {
+   "literal": "zero",
+   "context": "are zero at a positive order index",
+   "reason": "a threshold equal to zero (the abstention), a value, not a count"
+  },
+  {
+   "literal": "zero",
+   "context": "small and not zero",
+   "reason": "the measured maximum cost is positive (a value statement about the registered numbers beside it)"
+  },
+  {
+   "literal": "zero",
+   "context": "near zero under the distinct rule",
+   "reason": "the measured distinct-rule median cost of 0.0 pp (Table 3) in words"
+  },
+  {
+   "literal": "zero",
+   "context": "zero when $\\gamma V$ is an integer",
+   "reason": "the mean offset vanishes at an integer γV, algebra"
+  },
+  {
+   "literal": "zero",
+   "context": "zero only at $s = V$",
+   "reason": "the covered-support limit vanishes only at full coverage, algebra"
+  },
+  {
+   "literal": "one synthetic law",
+   "context": "(a) one synthetic law",
+   "reason": "the law the panel shows (one of the ten synthetic laws), named in the caption with its parameters"
+  },
+  {
+   "literal": "one synthetic law",
+   "context": "on one synthetic law under",
+   "reason": "the law Study 1's figure shows (one of the ten), named in the figure's own title"
+  },
+  {
+   "literal": "one law",
+   "context": "set on one law's",
+   "reason": "the calibration law as a law, not a count of the design's laws"
+  },
+  {
+   "literal": "one law",
+   "context": "Within one law",
+   "reason": "the same-law case of the predictor, not a count of the design's laws"
+  },
+  {
+   "literal": "two",
+   "context": "two scores sharing the shift",
+   "reason": "the orthant probability is of two scores, algebra"
+  },
+  {
+   "literal": "6",
+   "context": "1 - 6g(1-g)",
+   "reason": "the Bernoulli fourth cumulant's coefficient, algebra",
+   "source": {
+    "file": "research/STUDY2_PROTOCOL_v0.1.md",
+    "regex": "κ₄ = g\\(1−g\\)\\(1−6g\\(1−g\\)\\)"
+   }
+  },
+  {
+   "literal": "6",
+   "context": "6\\,\\mathrm{SE}",
+   "reason": "the gross-failure threshold 6·SE of R3 and S3, the protocols' rule",
+   "source": {
+    "file": "research/STUDY2_PROTOCOL_v0.1.md",
+    "regex": "6·SE"
+   }
+  },
+  {
+   "literal": "6",
+   "context": "6\\sqrt{\\mathrm{se}_3^2",
+   "reason": "REP's gross-failure multiple, the Study 3 protocol's rule",
+   "source": {
+    "file": "research/STUDY3_PROTOCOL_v0.1.md",
+    "regex": "6·√\\(se₃² \\+ se₂²\\) \\+ 10⁻¹²"
+   }
+  },
+  {
+   "literal": "10^{-12}",
+   "context": "+ 10^{-12}$",
+   "reason": "REP's absolute slack, the Study 3 protocol's rule",
+   "source": {
+    "file": "research/STUDY3_PROTOCOL_v0.1.md",
+    "regex": "6·√\\(se₃² \\+ se₂²\\) \\+ 10⁻¹²"
+   }
+  },
+  {
+   "literal": "10^{-9}",
+   "context": "\\tau = 10^{-9} g(1-g) A",
+   "reason": "the identity check's scale-aware tolerance, the protocols' rule",
+   "source": {
+    "file": "research/STUDY2_PROTOCOL_v0.1.md",
+    "regex": "τ = 10⁻⁹·g\\(1−g\\)·A"
+   }
+  },
+  {
+   "literal": "10^{-9}",
+   "context": "10^{-9} A",
+   "reason": "the Gumbel-max identity check's tolerance, the Study 2 protocol's rule",
+   "source": {
+    "file": "research/STUDY2_PROTOCOL_v0.1.md",
+    "regex": "10⁻⁹·A \\(Gumbel\\)"
+   }
+  },
+  {
+   "literal": "10^{-9}",
+   "context": "B \\le 10^{-9} V A",
+   "reason": "the structural-zero recognition's tolerance, the protocols' rule",
+   "source": {
+    "file": "research/STUDY2_PROTOCOL_v0.1.md",
+    "regex": "V·A − B ≤ 10⁻⁹·V·A"
+   }
+  },
+  {
+   "literal": "6",
+   "context": "\\kappa_4 = 6",
+   "reason": "the exponential distribution's fourth cumulant, algebra (the Study 2 protocol's SE)",
+   "source": {
+    "file": "research/STUDY2_PROTOCOL_v0.1.md",
+    "regex": "Gumbel: κ₄ = 6"
+   }
+  },
+  {
+   "literal": "10^{-6}",
+   "context": "flagged below $10^{-6}$",
+   "reason": "the audits' flag level, the protocols' rule",
+   "source": {
+    "file": "research/STUDY2_PROTOCOL_v0.1.md",
+    "regex": "flagged below 10⁻⁶"
+   }
+  },
+  {
+   "literal": "10^{-6}",
+   "context": "at most $10^{-6}$",
+   "reason": "the audits' per-check false-audit probability, the protocols' calibration",
+   "source": {
+    "file": "research/STUDY2_PROTOCOL_v0.1.md",
+    "regex": "at most 10⁻⁶"
+   }
+  },
+  {
+   "literal": "10^{-6}",
+   "context": "times $10^{-6}$",
+   "reason": "the union bound over checks, the protocols' calibration",
+   "source": {
+    "file": "research/STUDY2_PROTOCOL_v0.1.md",
+    "regex": "× 10⁻⁶"
+   }
+  },
+  {
+   "literal": "10^{-6}",
+   "context": "K < 10^{-6}",
+   "reason": "the dead-detector flag condition, the protocols' calibration",
+   "source": {
+    "file": "research/STUDY2_PROTOCOL_v0.1.md",
+    "regex": "2\\(1 − μ_a\\)\\^K < 10⁻⁶"
+   }
+  },
+  {
+   "literal": "4",
+   "context": "$h = 1$–$4$",
+   "reason": "the width range of the failing news chains (the grid's widths)",
+   "source": {
+    "file": "research/study2/grid_v0.1.json",
+    "regex": "\"h\": \\[\\s*0,\\s*1,\\s*2,\\s*3,\\s*4\\s*\\]"
+   }
+  },
+  {
+   "literal": "10^{-9}",
+   "context": "-\\tau_v(1 + 10^{-9})",
+   "reason": "the v floor's relative slack in the locked code and the Study 3 protocol §9",
+   "source": {
+    "file": "research/study3/s3_core.py",
+    "regex": "V_NEG_TOL = 1e-9"
+   }
+  },
+  {
+   "literal": "10^{-300}",
+   "context": "- 10^{-300}$",
+   "reason": "the v floor's absolute guard in the locked code and the Study 3 protocol §9",
+   "source": {
+    "file": "research/study3/s3_core.py",
+    "regex": "1e-300"
+   }
+  },
+  {
+   "literal": "j = 0",
+   "context": "($j = 0$ never rejects)",
+   "reason": "the order index's zero case, the protocol's definition of the conformal threshold",
+   "source": {
+    "file": "research/STUDY3_PROTOCOL_v0.1.md",
+    "regex": "j = 0"
+   }
+  },
+  {
+   "literal": "j \\ge 1",
+   "context": "\\max\\{j \\ge 1",
+   "reason": "the tolerance index's range, the protocol's definition",
+   "source": {
+    "file": "research/STUDY3_PROTOCOL_v0.1.md",
+    "regex": "j_δ"
+   }
+  },
+  {
+   "literal": "0",
+   "context": "the integers 0, 1 and 2 inside formulas",
+   "reason": "the scan's own rule, described in E.2"
+  },
+  {
+   "literal": "1",
+   "context": "the integers 0, 1 and 2 inside formulas",
+   "reason": "the scan's own rule, described in E.2"
+  },
+  {
+   "literal": "2",
+   "context": "the integers 0, 1 and 2 inside formulas",
+   "reason": "the scan's own rule, described in E.2"
+  }
+ ],
+ "01_introduction.md": [
+  {
+   "literal": "0%",
+   "context": "0% training-conditional coverage",
+   "reason": "Bian and Barber's sentence, quoted verbatim (p. 2)"
+  },
+  {
+   "literal": "ten",
+   "context": "ten and 128 keys",
+   "reason": "Genhatharan 2026's own key counts, page-confirmed at the claim gate"
+  },
+  {
+   "literal": "128",
+   "context": "ten and 128 keys",
+   "reason": "Genhatharan 2026's own key counts, page-confirmed at the claim gate"
+  },
+  {
+   "literal": "third",
+   "context": "at least third in line",
+   "reason": "the historical placement decided at J10 (constraint 16)"
+  },
+  {
+   "literal": "1,000",
+   "context": "over 1,000 keys on five domains under a single tokenizer",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "five",
+   "context": "over 1,000 keys on five domains under a single tokenizer",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  }
+ ],
+ "02_related_work.md": [
+  {
+   "literal": "100",
+   "context": "100 keys on 10,000 texts",
+   "reason": "Gloaguen et al. 2026's own measurement (p. 21), page-confirmed at the claim gate"
+  },
+  {
+   "literal": "10,000",
+   "context": "100 keys on 10,000 texts",
+   "reason": "Gloaguen et al. 2026's own measurement (p. 21), page-confirmed at the claim gate"
+  },
+  {
+   "literal": "two",
+   "context": "two context sizes",
+   "reason": "Gloaguen et al. 2026's own design (p. 21), page-confirmed at the claim gate"
+  },
+  {
+   "literal": "ten",
+   "context": "ten and 128 keys",
+   "reason": "Genhatharan 2026's own key counts, page-confirmed at the claim gate"
+  },
+  {
+   "literal": "128",
+   "context": "ten and 128 keys",
+   "reason": "Genhatharan 2026's own key counts, page-confirmed at the claim gate"
+  },
+  {
+   "literal": "eleven",
+   "context": "eleven languages",
+   "reason": "Nemecek et al. 2026's own language count, page-confirmed at the claim gate"
+  },
+  {
+   "literal": "two",
+   "context": "two keys separately",
+   "reason": "the two-key artefact's own counts (two keys, three negatives, six corpora), confirmed at R11"
+  },
+  {
+   "literal": "three",
+   "context": "three negatives",
+   "reason": "the two-key artefact's own counts, confirmed at R11"
+  },
+  {
+   "literal": "six",
+   "context": "six negative corpora",
+   "reason": "the two-key artefact's own counts, confirmed at R11"
+  },
+  {
+   "literal": "1,000",
+   "context": "over 1,000 keys on five domains of the OPT tokenizer",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "five",
+   "context": "over 1,000 keys on five domains of the OPT tokenizer",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "203",
+   "context": "in 203 of its 210 cells",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "210",
+   "context": "in 203 of its 210 cells",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  }
+ ],
+ "11_appendix_A.md": [
+  {
+   "literal": "B = 1",
+   "context": "($B = 1$)",
+   "reason": "the single-context case (one seed class), algebra of the identity"
+  },
+  {
+   "literal": "B = 1",
+   "context": "$A = 1/s$ and $B = 1$",
+   "reason": "the single-class covered-support limit, algebra of the identity"
+  },
+  {
+   "literal": "6",
+   "context": "6\\cdot(1/6)^2 = 1/6",
+   "reason": "the occupancy counterexample's six private tokens; the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "L = 2",
+   "context": "at $L = 2$",
+   "reason": "the occupancy counterexample's length; the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "6",
+   "context": "6\\cdot(1/9)^2 + (1/3)^2 = 5/27",
+   "reason": "the occupancy counterexample; the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "9",
+   "context": "6\\cdot(1/9)^2 + (1/3)^2 = 5/27",
+   "reason": "the occupancy counterexample; the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "3",
+   "context": "6\\cdot(1/9)^2 + (1/3)^2 = 5/27",
+   "reason": "the occupancy counterexample; the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "5",
+   "context": "6\\cdot(1/9)^2 + (1/3)^2 = 5/27",
+   "reason": "the occupancy counterexample; the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "27",
+   "context": "6\\cdot(1/9)^2 + (1/3)^2 = 5/27",
+   "reason": "the occupancy counterexample; the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "L = 3",
+   "context": "at $L = 3$",
+   "reason": "the occupancy counterexample's length; the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "0.9",
+   "context": "(0.9, 0.1)",
+   "reason": "the two-token example law of the first rule; the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "0.1",
+   "context": "(0.9, 0.1)",
+   "reason": "the two-token example law of the first rule; the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "V = 2",
+   "context": "with $V = 2$",
+   "reason": "the two-token example's vocabulary; the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "m = 1",
+   "context": "and $m = 1$",
+   "reason": "the two-token example's green-list size; the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "4",
+   "context": "variance $4/25$",
+   "reason": "the two-token example's limiting variance; the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "25",
+   "context": "variance $4/25$",
+   "reason": "the two-token example's limiting variance; the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "V = 4",
+   "context": "with $V = 4$",
+   "reason": "the transfer counterexample's vocabulary; the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "m = 2",
+   "context": "$m = 2$, $h = 0$",
+   "reason": "the transfer counterexample's green-list size; the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "M = 2",
+   "context": "and $M = 2$",
+   "reason": "the transfer counterexample's text length; the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "3",
+   "context": "$(1, 2)$ or $(3, 4)$ and $P'$ one of $(1, 3)$, $(1, 4)$, $(2, 3)$, $(2, 4)$",
+   "reason": "the transfer counterexample's texts (token ids); the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "4",
+   "context": "$(1, 2)$ or $(3, 4)$ and $P'$ one of $(1, 3)$, $(1, 4)$, $(2, 3)$, $(2, 4)$",
+   "reason": "the transfer counterexample's texts (token ids); the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "4",
+   "context": "occupancy weight $1/4$",
+   "reason": "the transfer counterexample's uniform occupancy weight over four tokens; the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "3",
+   "context": "\\{3, 4\\}",
+   "reason": "the transfer counterexample's green sets (token ids); the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  },
+  {
+   "literal": "4",
+   "context": "\\{3, 4\\}",
+   "reason": "the transfer counterexample's green sets (token ids); the worked example of Appendix A, re-derived by enumeration at R01 and re-checked at R12"
+  }
+ ],
+ "05_dispersion.md": [
+  {
+   "literal": "1,000",
+   "context": "over 1,000 keys on five domains under a single tokenizer",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "five",
+   "context": "over 1,000 keys on five domains under a single tokenizer",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "1",
+   "context": "sweep over widths 1 to 8",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "8",
+   "context": "sweep over widths 1 to 8",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "five",
+   "context": "the most dispersed of its five under the OPT tokenizer",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "half",
+   "context": "about half as large under Qwen2.5",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  }
+ ],
+ "06_remedies.md": [
+  {
+   "literal": "1,000",
+   "context": "same-domain reference text over 1,000 keys",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  }
+ ],
+ "08_discussion.md": [
+  {
+   "literal": "δ = 1",
+   "context": "at δ = 1, α = 0.0001 on clean text",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "−0.4",
+   "context": "−0.4 points",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "−5.1",
+   "context": "[−5.1, 4.2]",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "4.2",
+   "context": "[−5.1, 4.2]",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "8.7",
+   "context": "8.7 points at",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "0.01",
+   "context": "at ε = 0.01",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "20%",
+   "context": "keeps the 20% of keys",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "five",
+   "context": "across the five reference domains",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "10",
+   "context": "10 screened against 10 random keys",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "400",
+   "context": "400 prompts each",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "α = 0.0001",
+   "context": "α = 0.0001 on clean text",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  },
+  {
+   "literal": "0.0001",
+   "context": "α = 0.0001 on clean text",
+   "reason": "keylottery's own number (katcinskiy/keylottery at commit 8ebb6b4: README, proposal/proposal.tex, report/claims.json, report/screening.json, results/window_sweep_prf.json), read at the final gate (2026-10-21); constraint 34"
+  }
+ ]
+}

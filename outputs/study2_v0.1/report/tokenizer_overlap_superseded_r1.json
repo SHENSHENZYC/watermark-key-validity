@@ -1,0 +1,155 @@
+{
+ "written_utc": "2026-10-13T18:42:31Z",
+ "note": "post-hoc side computation; not pre-registered; no key or per-key level involved",
+ "tokens_manifest_sha256": "07e8a00558234fdfc64922d6d6363f1ce158aece12d17249210a725f28494e3c",
+ "len_llama": 128256,
+ "len_qwen": 151665,
+ "ids_compared": 128256,
+ "ids_same_string": 410,
+ "share_same_of_compared": 0.0031967315369261476,
+ "same_within_first_100256": 410,
+ "first_differing_id": 410,
+ "longest_common_prefix_of_identical_ids": 410,
+ "cells": {
+  "news_en_256": {
+   "llama": {
+    "share_occurrences_on_coinciding_ids": 0.2981296875,
+    "n_positions": 2560000,
+    "distinct_ids": 51738,
+    "distinct_ids_coinciding": 320
+   },
+   "qwen": {
+    "share_occurrences_on_coinciding_ids": 0.3399839380440577,
+    "n_positions": 2560000,
+    "distinct_ids": 49326,
+    "distinct_ids_coinciding": 309
+   }
+  },
+  "wikipedia_en_256": {
+   "llama": {
+    "share_occurrences_on_coinciding_ids": 0.35137734375,
+    "n_positions": 2560000,
+    "distinct_ids": 50205,
+    "distinct_ids_coinciding": 325
+   },
+   "qwen": {
+    "share_occurrences_on_coinciding_ids": 0.406208254483405,
+    "n_positions": 2560000,
+    "distinct_ids": 48161,
+    "distinct_ids_coinciding": 309
+   }
+  },
+  "stackexchange_en_256": {
+   "llama": {
+    "share_occurrences_on_coinciding_ids": 0.315927734375,
+    "n_positions": 2560000,
+    "distinct_ids": 56197,
+    "distinct_ids_coinciding": 314
+   },
+   "qwen": {
+    "share_occurrences_on_coinciding_ids": 0.34716750274340735,
+    "n_positions": 2560000,
+    "distinct_ids": 54628,
+    "distinct_ids_coinciding": 287
+   }
+  },
+  "wikipedia_de_256": {
+   "llama": {
+    "share_occurrences_on_coinciding_ids": 0.2285078125,
+    "n_positions": 2560000,
+    "distinct_ids": 27981,
+    "distinct_ids_coinciding": 321
+   },
+   "qwen": {
+    "share_occurrences_on_coinciding_ids": 0.26877893427392685,
+    "n_positions": 2560000,
+    "distinct_ids": 26421,
+    "distinct_ids_coinciding": 306
+   }
+  },
+  "wikipedia_ru_256": {
+   "llama": {
+    "share_occurrences_on_coinciding_ids": 0.10347109375,
+    "n_positions": 2560000,
+    "distinct_ids": 17064,
+    "distinct_ids_coinciding": 329
+   },
+   "qwen": {
+    "share_occurrences_on_coinciding_ids": 0.16360162396388928,
+    "n_positions": 2560000,
+    "distinct_ids": 13819,
+    "distinct_ids_coinciding": 310
+   }
+  },
+  "wikipedia_ar_256": {
+   "llama": {
+    "share_occurrences_on_coinciding_ids": 0.071303515625,
+    "n_positions": 2560000,
+    "distinct_ids": 14499,
+    "distinct_ids_coinciding": 328
+   },
+   "qwen": {
+    "share_occurrences_on_coinciding_ids": 0.1418768490917208,
+    "n_positions": 2560000,
+    "distinct_ids": 13761,
+    "distinct_ids_coinciding": 313
+   }
+  },
+  "wikipedia_zh_256": {
+   "llama": {
+    "share_occurrences_on_coinciding_ids": 0.09135078125,
+    "n_positions": 2560000,
+    "distinct_ids": 21060,
+    "distinct_ids_coinciding": 332
+   },
+   "qwen": {
+    "share_occurrences_on_coinciding_ids": 0.11752185023259232,
+    "n_positions": 2560000,
+    "distinct_ids": 35677,
+    "distinct_ids_coinciding": 320
+   }
+  },
+  "wikipedia_ja_256": {
+   "llama": {
+    "share_occurrences_on_coinciding_ids": 0.06939453125,
+    "n_positions": 2560000,
+    "distinct_ids": 16315,
+    "distinct_ids_coinciding": 326
+   },
+   "qwen": {
+    "share_occurrences_on_coinciding_ids": 0.15113130714638198,
+    "n_positions": 2560000,
+    "distinct_ids": 18797,
+    "distinct_ids_coinciding": 311
+   }
+  },
+  "wikipedia_en_1024": {
+   "llama": {
+    "share_occurrences_on_coinciding_ids": 0.34370400390625,
+    "n_positions": 10240000,
+    "distinct_ids": 62434,
+    "distinct_ids_coinciding": 347
+   },
+   "qwen": {
+    "share_occurrences_on_coinciding_ids": 0.39451776550558476,
+    "n_positions": 10240000,
+    "distinct_ids": 60040,
+    "distinct_ids_coinciding": 325
+   }
+  },
+  "gutenberg_en_1024": {
+   "llama": {
+    "share_occurrences_on_coinciding_ids": 0.35364375,
+    "n_positions": 10240000,
+    "distinct_ids": 54071,
+    "distinct_ids_coinciding": 315
+   },
+   "qwen": {
+    "share_occurrences_on_coinciding_ids": 0.36809898460746887,
+    "n_positions": 10240000,
+    "distinct_ids": 52496,
+    "distinct_ids_coinciding": 304
+   }
+  }
+ }
+}

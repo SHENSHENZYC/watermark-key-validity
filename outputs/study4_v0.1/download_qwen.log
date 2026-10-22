@@ -1,0 +1,40 @@
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files:  78%|███████▊  | 7/9 [00:00<00:00, 30.94it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 31.77it/s]
+{
+ "LICENSE": [
+  11343,
+  true
+ ],
+ "README.md": [
+  3850,
+  true
+ ],
+ "config.json": [
+  684,
+  true
+ ],
+ "generation_config.json": [
+  138,
+  true
+ ],
+ "merges.txt": [
+  1671839,
+  true
+ ],
+ "model.safetensors": [
+  3087467144,
+  true
+ ],
+ "tokenizer.json": [
+  7031645,
+  true
+ ],
+ "tokenizer_config.json": [
+  7228,
+  true
+ ],
+ "vocab.json": [
+  2776833,
+  true
+ ]
+}
+seconds 0.4

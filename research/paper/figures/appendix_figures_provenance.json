@@ -1,0 +1,92 @@
+{
+ "figD1_keys_length": {
+  "checkpoint": "R04",
+  "files": {
+   "png": {
+    "bytes": 129924,
+    "sha256": "ddce0cfa76d49db60be580d85fe32669f41b3c7c7f1f9840b9a2c6849a255c7b",
+    "source": "outputs/study1_v0.3/report/fig4_keys.png"
+   },
+   "svg": {
+    "bytes": 91230,
+    "sha256": "225992b9086a50fd58c2c141b14fa43fd902e2a1589b8c5e7271d92d9060435c",
+    "source": "outputs/study1_v0.3/report/fig4_keys.svg"
+   }
+  },
+  "report_figure": 4,
+  "study": "study1_v0.3",
+  "what": "the distribution of per-key levels over the keys against length (one law, three rules)"
+ },
+ "figD2_breakeven": {
+  "checkpoint": "R08",
+  "files": {
+   "png": {
+    "bytes": 295239,
+    "sha256": "053566ed1685ce446fb3cb054bc1761ec1df8afd75e2b5c48fbf0ddd23bbdc14",
+    "source": "outputs/study3_v0.1/report/fig4_breakeven.png"
+   },
+   "svg": {
+    "bytes": 108415,
+    "sha256": "a592bd835e246040c204ad59a568d43737acd2e55c182fe593e3047af6c55e8f",
+    "source": "outputs/study3_v0.1/report/fig4_breakeven.svg"
+   }
+  },
+  "report_figure": 4,
+  "study": "study3_v0.1",
+  "what": "the break-even calibration size on the diagonal"
+ },
+ "figD3_w1_costs": {
+  "checkpoint": "R10",
+  "files": {
+   "png": {
+    "bytes": 100151,
+    "sha256": "df2a2ead5946ec2b354b9b8cf1037bed1aa021cc09ceb1cab0f865645669841f",
+    "source": "outputs/study4_v0.1/report/fig2_w1_costs.png"
+   },
+   "svg": {
+    "bytes": 101501,
+    "sha256": "8bb24ff98da176a6e3d453e7fef10ab177750ab4a2f88a05cf9520a7f569c4f5",
+    "source": "outputs/study4_v0.1/report/fig2_w1_costs.svg"
+   }
+  },
+  "report_figure": 1,
+  "study": "study4_v0.1",
+  "what": "W1: the realised cost per key against the threshold-shift prediction"
+ },
+ "figD4_power_length": {
+  "checkpoint": "R10",
+  "files": {
+   "png": {
+    "bytes": 235240,
+    "sha256": "225392245e988ee7a15fdd7e538de63ec0bef2874ff9e2a8e5579840f10cd280",
+    "source": "outputs/study4_v0.1/report/fig4_length.png"
+   },
+   "svg": {
+    "bytes": 113493,
+    "sha256": "29c75e2c63264b7cfc0a60c2c96ff55f31d480452a783114f19a881f6624d9fd",
+    "source": "outputs/study4_v0.1/report/fig4_length.svg"
+   }
+  },
+  "report_figure": 5,
+  "study": "study4_v0.1",
+  "what": "power against length at the primary arm"
+ },
+ "figD5_zcost": {
+  "checkpoint": "R08",
+  "files": {
+   "png": {
+    "bytes": 118928,
+    "sha256": "9078be944213678af6d48b4400936db397a2efbff0d3f7a98a71b1373af61f2c",
+    "source": "outputs/study3_v0.1/report/fig5_zcost.png"
+   },
+   "svg": {
+    "bytes": 95981,
+    "sha256": "fb502e2612b014dfb7879634afa79bc647b0544acd0c8ba4f9d00b04c44b533e",
+    "source": "outputs/study3_v0.1/report/fig5_zcost.svg"
+   }
+  },
+  "report_figure": 5,
+  "study": "study3_v0.1",
+  "what": "the null-side cost in z of each method"
+ }
+}

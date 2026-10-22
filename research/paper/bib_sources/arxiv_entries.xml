@@ -1,0 +1,1096 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bKuz/TOlaEP5Gjdu8Cll1mBbjd8</id>
+  <title>arXiv Query: search_query=&amp;id_list=1209.2673,2205.03647,2205.15461,2301.10226,2306.04634,2306.17439,2307.15593,2308.00113,2311.04295,2312.07930,2404.01245,2406.02603,2411.13868,2504.12229,2506.05209,2506.15975,2506.16349,2507.23113,2509.24368,2510.22007,2512.16904,2602.06754,2602.14286,2602.17608,2603.23171,2605.12456,2606.00613,2606.04486,2607.18445,2607.21958,2608.20047,2608.20839,2609.15657,2609.32678,2609.37310,2610.06317,2610.14378,2610.14427,2610.23601&amp;start=0&amp;max_results=100</title>
+  <updated>2026-10-21T16:19:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=100&amp;id_list=1209.2673,2205.03647,2205.15461,2301.10226,2306.04634,2306.17439,2307.15593,2308.00113,2311.04295,2312.07930,2404.01245,2406.02603,2411.13868,2504.12229,2506.05209,2506.15975,2506.16349,2507.23113,2509.24368,2510.22007,2512.16904,2602.06754,2602.14286,2602.17608,2603.23171,2605.12456,2606.00613,2606.04486,2607.18445,2607.21958,2608.20047,2608.20839,2609.15657,2609.32678,2609.37310,2610.06317,2610.14378,2610.14427,2610.23601" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>100</opensearch:itemsPerPage>
+  <opensearch:totalResults>39</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2301.10226v4</id>
+    <title>A Watermark for Large Language Models</title>
+    <updated>2024-05-01T22:04:31Z</updated>
+    <link href="https://arxiv.org/abs/2301.10226v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.10226v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Potential harms of large language models can be mitigated by watermarking model output, i.e., embedding signals into generated text that are invisible to humans but algorithmically detectable from a short span of tokens. We propose a watermarking framework for proprietary language models. The watermark can be embedded with negligible impact on text quality, and can be detected using an efficient open-source algorithm without access to the language model API or parameters. The watermark works by selecting a randomized set of "green" tokens before a word is generated, and then softly promoting use of green tokens during sampling. We propose a statistical test for detecting the watermark with interpretable p-values, and derive an information-theoretic framework for analyzing the sensitivity of the watermark. We test the watermark using a multi-billion parameter model from the Open Pretrained Transformer (OPT) family, and discuss robustness and security.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-24T18:52:59Z</published>
+    <arxiv:comment>13 pages in the main body. Published at ICML 2023. Code is available at github.com/jwkirchenbauer/lm-watermarking</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>John Kirchenbauer</name>
+    </author>
+    <author>
+      <name>Jonas Geiping</name>
+    </author>
+    <author>
+      <name>Yuxin Wen</name>
+    </author>
+    <author>
+      <name>Jonathan Katz</name>
+    </author>
+    <author>
+      <name>Ian Miers</name>
+    </author>
+    <author>
+      <name>Tom Goldstein</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.16349v2</id>
+    <title>Watermarking Autoregressive Image Generation</title>
+    <updated>2025-10-23T17:33:59Z</updated>
+    <link href="https://arxiv.org/abs/2506.16349v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.16349v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Watermarking the outputs of generative models has emerged as a promising approach for tracking their provenance. Despite significant interest in autoregressive image generation models and their potential for misuse, no prior work has attempted to watermark their outputs at the token level. In this work, we present the first such approach by adapting language model watermarking techniques to this setting. We identify a key challenge: the lack of reverse cycle-consistency (RCC), wherein re-tokenizing generated image tokens significantly alters the token sequence, effectively erasing the watermark. To address this and to make our method robust to common image transformations, neural compression, and removal attacks, we introduce (i) a custom tokenizer-detokenizer finetuning procedure that improves RCC, and (ii) a complementary watermark synchronization layer. As our experiments demonstrate, our approach enables reliable and robust watermark detection with theoretically grounded p-values. Code and models are available at https://github.com/facebookresearch/wmar.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-19T14:25:51Z</published>
+    <arxiv:comment>NeurIPS 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nikola Jovanović</name>
+    </author>
+    <author>
+      <name>Ismail Labiad</name>
+    </author>
+    <author>
+      <name>Tomáš Souček</name>
+    </author>
+    <author>
+      <name>Martin Vechev</name>
+    </author>
+    <author>
+      <name>Pierre Fernandez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.01245v4</id>
+    <title>A Statistical Framework of Watermarks for Large Language Models: Pivot, Detection Efficiency and Optimal Rules</title>
+    <updated>2025-08-26T19:09:58Z</updated>
+    <link href="https://arxiv.org/abs/2404.01245v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.01245v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Since ChatGPT was introduced in November 2022, embedding (nearly) unnoticeable statistical signals into text generated by large language models (LLMs), also known as watermarking, has been used as a principled approach to provable detection of LLM-generated text from its human-written counterpart. In this paper, we introduce a general and flexible framework for reasoning about the statistical efficiency of watermarks and designing powerful detection rules. Inspired by the hypothesis testing formulation of watermark detection, our framework starts by selecting a pivotal statistic of the text and a secret key -- provided by the LLM to the verifier -- to enable controlling the false positive rate (the error of mistakenly detecting human-written text as LLM-generated). Next, this framework allows one to evaluate the power of watermark detection rules by obtaining a closed-form expression of the asymptotic false negative rate (the error of incorrectly classifying LLM-generated text as human-written). Our framework further reduces the problem of determining the optimal detection rule to solving a minimax optimization program. We apply this framework to two representative watermarks -- one of which has been internally implemented at OpenAI -- and obtain several findings that can be instrumental in guiding the practice of implementing watermarks. In particular, we derive optimal detection rules for these watermarks under our framework. These theoretically derived detection rules are demonstrated to be competitive and sometimes enjoy a higher power than existing detection approaches through numerical experiments.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-01T17:03:41Z</published>
+    <arxiv:comment>Accepted by Annals of Statistics</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <arxiv:journal_ref>Ann. Statist. 53(1): 322-351 (February 2025)</arxiv:journal_ref>
+    <author>
+      <name>Xiang Li</name>
+    </author>
+    <author>
+      <name>Feng Ruan</name>
+    </author>
+    <author>
+      <name>Huiyuan Wang</name>
+    </author>
+    <author>
+      <name>Qi Long</name>
+    </author>
+    <author>
+      <name>Weijie J. Su</name>
+    </author>
+    <arxiv:doi>10.1214/24-AOS2468</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1214/24-AOS2468" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.18445v1</id>
+    <title>ChainMark: Model-Free LLM Watermarking with Closed-Form Calibration</title>
+    <updated>2026-07-20T18:56:53Z</updated>
+    <link href="https://arxiv.org/abs/2607.18445v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.18445v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Regulatory regimes such as the EU AI Act mandate machine-readable marking of synthetic text, but existing watermark detectors rely on the generating LM and on heuristic thresholds with no closed-form calibration. We introduce ChainMark, an active watermark that partitions the vocabulary into S states via keyed SHA-256 and forces a hard Markov transition on a fraction rho of positions; the detector replays the partition from the same key in O(n) hash operations, with no LM access. We derive a closed-form S*(n, rho, alpha) mapping a target FPR, text length, and budget to the minimum state count (Theorem 1), prove a universal robustness threshold delta* = 1 - 1/sqrt(2) approximately 29.3% that is invariant in (S, rho, n) (Theorem 2), and generalise both to any k-regular transition topology (Theorem 3). Across three instruction-tuned LLMs and four domains, ChainMark strictly dominates KGW and SWEET under translation and random-substitution attacks at matched budget; a one-corpus empirical recalibration restores the 1% target FPR on natural-language text.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-20T18:56:53Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Chengheng Li-Chen</name>
+    </author>
+    <author>
+      <name>Kyuhee Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.23171v3</id>
+    <title>Adaptively Robust LLM Monitoring via Activation Watermarking</title>
+    <updated>2026-07-29T15:06:33Z</updated>
+    <link href="https://arxiv.org/abs/2603.23171v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.23171v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Providers monitor deployed large language models (LLMs) to detect misuse that they cannot prevent. LLM monitoring is deterministic and often openly available, so $\emph{adaptive}$ attackers with a local copy can search offline for prompts that elicit harmful behavior and evade detection. These attacks are especially concerning because providers never observe the misuse and cannot patch their defenses post-hoc. The core challenge is resisting adaptive attackers while preserving detection rates against non-adaptive ones. We propose $\emph{Activation Watermarking}$ (AWM), which randomizes monitoring through limited fine-tuning that aligns the LLM's hidden states with a secret key-derived direction whenever a response violates a policy. Detection is a similarity test on activations the provider already computes, and attackers who know everything but the key must optimize against differently keyed surrogate detectors. At a matched $1\%$ false-positive rate, such surrogate-based attacks evade every evaluated baseline at least $79\%$ of the time, but AWM more than halves this evasion rate. AWM also achieves the lowest evasion rate on three of four non-adaptive jailbreak families at a small drop in utility measured across seven benchmarks. Because random high-dimensional directions are near-orthogonal, assigning one watermark per policy enables attribution. Across 20 monitored policies, AWM identifies the violated policy with $80\%$ accuracy versus a $5\%$ chance baseline. AWM is (i) efficient, (ii) substantially more robust against adaptive attackers than related work and (iii) can attribute which policies were violated.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-24T13:13:23Z</published>
+    <arxiv:comment>17 pages, 17 figures, 8 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Toluwani Aremu</name>
+    </author>
+    <author>
+      <name>Daniil Ognev</name>
+    </author>
+    <author>
+      <name>Samuele Poppi</name>
+    </author>
+    <author>
+      <name>Nils Lukas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.32678v1</id>
+    <title>Reference-Null Calibrated Thresholds for E-Processes with Applications to Conformal Martingales</title>
+    <updated>2026-09-26T14:35:44Z</updated>
+    <link href="https://arxiv.org/abs/2609.32678v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.32678v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>E-processes provide a flexible framework for anytime-valid inference, with the conventional rejection boundary $1/α$ typically justified by Ville's inequality. Such a boundary is universal but can be conservative, as it does not exploit additional information about the null distribution. We propose a reference-null calibration framework that uses independent null samples to construct sharper rejection thresholds while preserving type-I error control. To study the statistical gain from sharper thresholds, we specialize the framework to conformal martingales. Building on histogram-based betting, we incorporate Krichevsky--Trofimov smoothing and develop a restart-mixture construction for distribution shift detection. We establish quantitative results for detection power and detection delay and characterize how the reduction in the rejection boundary translates into power and delay gains relative to the conventional Ville boundary. Numerical experiments corroborate the theoretical findings across a range of distributional changes. Finally, we apply the proposed calibration strategy to an existing e-process for online LLM watermark detection, showing that the method can improve sequential detection performance without modifying the underlying e-process. These results demonstrate that reference-null calibration provides a general and modular way to enhance the efficiency of e-process-based sequential inference.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-26T14:35:44Z</published>
+    <arxiv:comment>45 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Yi Ding</name>
+    </author>
+    <author>
+      <name>Lan Wei</name>
+    </author>
+    <author>
+      <name>Xuehu Zhu</name>
+    </author>
+    <author>
+      <name>Wenlin Dai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.14427v1</id>
+    <title>ByteMark: A Unified Byte-Level Watermark for Detection Across Language Models</title>
+    <updated>2026-10-10T00:46:38Z</updated>
+    <link href="https://arxiv.org/abs/2610.14427v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.14427v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As watermarking of LLM-generated text enters deployment, users increasingly need to check text whose source is unknown. Existing detectors read the watermark through a specific tokenizer or embedding pipeline, and even if all providers adopted the same watermarking method, differences in these representations would leave their watermarks incompatible, and the text alone does not reveal which representation produced it. We propose ByteMark, a unified watermarking scheme that defines its signal on the UTF-8 bytes of published text. Models with different tokenizers embed this signal under one public specification and key, and a single detector verifies the text from the text and key alone. When the tokenizer or embedding model of a baseline detector is replaced, its detection degrades sharply, whereas ByteMark, which uses neither, retains its detection rate; ByteMark also remains detectable when participating models continue or rewrite the text.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-10T00:46:38Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Xiaopu Wang</name>
+    </author>
+    <author>
+      <name>Runze Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.23601v1</id>
+    <title>Token-Level Attribution of Multi-Mode LLM Watermarks: Optimal Rule and Belief Weighting</title>
+    <updated>2026-10-16T15:18:28Z</updated>
+    <link href="https://arxiv.org/abs/2610.23601v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.23601v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A watermark verifier may hold many modes, i.e., secret keys, and a document may mix spans of different modes with unwatermarked text. Directly reporting the mode with the largest pivotal statistic (pivot) inflates the Type I error, and restoring the nominal level reduces power as candidate modes are added. We formulate token-level multi-mode attribution for the Gumbel-max watermark as maximizing correct-label power under a Type I error constraint given a mode prior. We show that the optimal rule reports the mode with the largest prior-weighted alternative density and rejects when this density exceeds one common threshold. Based on this rule, we propose the Belief-weighted Likelihood Attribution with Density Estimation (BLADE) detector. It estimates the mode prior from neighboring pivots and the alternative density from reference token probabilities. Under a conditional product model of the pivots, it keeps the exact Type I error. We further show that BLADE approaches the optimal rule as its prior and density estimates improve, with a sharp coefficient on the density error. On OPT-1.3B and other open-weight large language models, BLADE attains higher correct-label power than the compared detectors across candidate counts, token-substitution rates, generation temperatures and generator models.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-16T15:18:28Z</published>
+    <arxiv:comment>13 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Rui Zhou</name>
+    </author>
+    <author>
+      <name>Licheng Zhao</name>
+    </author>
+    <author>
+      <name>Chao Shen</name>
+    </author>
+    <author>
+      <name>Wenqiang Pu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14286v4</id>
+    <title>Online LLM watermark detection via e-processes</title>
+    <updated>2026-04-10T15:05:33Z</updated>
+    <link href="https://arxiv.org/abs/2602.14286v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14286v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Watermarking for large language models (LLMs) has emerged as an effective tool for distinguishing AI-generated text from human-written content. Statistically, watermark schemes induce dependence between generated tokens and a pseudo-random sequence, reducing watermark detection to a hypothesis testing problem on independence. We develop a unified framework for LLM watermark detection based on e-processes, providing anytime-valid guarantees for online testing. We propose various methods to construct empirically adaptive e-processes that can enhance the detection power. The proposed methods are applicable to any sequential testing problem where independent pivotal statistics are available. In addition, theoretical results are established to characterize the power properties of the proposed procedures. Some experiments demonstrate that the proposed framework achieves competitive performance compared to existing watermark detection methods.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T19:37:06Z</published>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Weijie Su</name>
+    </author>
+    <author>
+      <name>Ruodu Wang</name>
+    </author>
+    <author>
+      <name>Zinan Zhao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.17608v1</id>
+    <title>Towards Anytime-Valid Statistical Watermarking</title>
+    <updated>2026-02-19T18:32:26Z</updated>
+    <link href="https://arxiv.org/abs/2602.17608v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.17608v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The proliferation of Large Language Models (LLMs) necessitates efficient mechanisms to distinguish machine-generated content from human text. While statistical watermarking has emerged as a promising solution, existing methods suffer from two critical limitations: the lack of a principled approach for selecting sampling distributions and the reliance on fixed-horizon hypothesis testing, which precludes valid early stopping. In this paper, we bridge this gap by developing the first e-value-based watermarking framework, Anchored E-Watermarking, that unifies optimal sampling with anytime-valid inference. Unlike traditional approaches where optional stopping invalidates Type-I error guarantees, our framework enables valid, anytime-inference by constructing a test supermartingale for the detection process. By leveraging an anchor distribution to approximate the target model, we characterize the optimal e-value with respect to the worst-case log-growth rate and derive the optimal expected stopping time. Our theoretical claims are substantiated by simulations and evaluations on established benchmarks, showing that our framework can significantly enhance sample efficiency, reducing the average token budget required for detection by 13-15% relative to state-of-the-art baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-19T18:32:26Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Baihe Huang</name>
+    </author>
+    <author>
+      <name>Eric Xu</name>
+    </author>
+    <author>
+      <name>Kannan Ramchandran</name>
+    </author>
+    <author>
+      <name>Jiantao Jiao</name>
+    </author>
+    <author>
+      <name>Michael I. Jordan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.22007v1</id>
+    <title>Optimal Detection for Language Watermarks with Pseudorandom Collision</title>
+    <updated>2025-10-24T20:21:52Z</updated>
+    <link href="https://arxiv.org/abs/2510.22007v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.22007v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Text watermarking plays a crucial role in ensuring the traceability and accountability of large language model (LLM) outputs and mitigating misuse. While promising, most existing methods assume perfect pseudorandomness. In practice, repetition in generated text induces collisions that create structured dependence, compromising Type I error control and invalidating standard analyses.
+  We introduce a statistical framework that captures this structure through a hierarchical two-layer partition. At its core is the concept of minimal units -- the smallest groups treatable as independent across units while permitting dependence within. Using minimal units, we define a non-asymptotic efficiency measure and cast watermark detection as a minimax hypothesis testing problem.
+  Applied to Gumbel-max and inverse-transform watermarks, our framework produces closed-form optimal rules. It explains why discarding repeated statistics often improves performance and shows that within-unit dependence must be addressed unless degenerate. Both theory and experiments confirm improved detection power with rigorous Type I error control. These results provide the first principled foundation for watermark detection under imperfect pseudorandomness, offering both theoretical insight and practical guidance for reliable tracing of model outputs.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-24T20:21:52Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>T. Tony Cai</name>
+    </author>
+    <author>
+      <name>Xiang Li</name>
+    </author>
+    <author>
+      <name>Qi Long</name>
+    </author>
+    <author>
+      <name>Weijie J. Su</name>
+    </author>
+    <author>
+      <name>Garrett G. Wen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.16904v2</id>
+    <title>How Good is Post-Hoc Watermarking With Language Model Rephrasing?</title>
+    <updated>2026-01-16T15:38:06Z</updated>
+    <link href="https://arxiv.org/abs/2512.16904v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.16904v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generation-time text watermarking embeds statistical signals into text for traceability of AI-generated content. We explore *post-hoc watermarking* where an LLM rewrites existing text while applying generation-time watermarking, to protect copyrighted documents, or detect their use in training or RAG via watermark radioactivity. Unlike generation-time approaches, which is constrained by how LLMs are served, this setting offers additional degrees of freedom for both generation and detection. We investigate how allocating compute (through larger rephrasing models, beam search, multi-candidate generation, or entropy filtering at detection) affects the quality-detectability trade-off. Our strategies achieve strong detectability and semantic fidelity on open-ended text such as books. Among our findings, the simple Gumbel-max scheme surprisingly outperforms more recent alternatives under nucleus sampling, and most methods benefit significantly from beam search. However, most approaches struggle when watermarking verifiable text such as code, where we counterintuitively find that smaller models outperform larger ones. This study reveals both the potential and limitations of post-hoc watermarking, laying groundwork for practical applications and future research.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-18T18:57:33Z</published>
+    <arxiv:comment>Code at https://github.com/facebookresearch/textseal</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Pierre Fernandez</name>
+    </author>
+    <author>
+      <name>Tom Sander</name>
+    </author>
+    <author>
+      <name>Hady Elsahar</name>
+    </author>
+    <author>
+      <name>Hongyan Chang</name>
+    </author>
+    <author>
+      <name>Tomáš Souček</name>
+    </author>
+    <author>
+      <name>Valeriu Lacatusu</name>
+    </author>
+    <author>
+      <name>Tuan Tran</name>
+    </author>
+    <author>
+      <name>Sylvestre-Alvise Rebuffi</name>
+    </author>
+    <author>
+      <name>Alexandre Mourachko</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.21958v1</id>
+    <title>Efficient Online LLM Watermark Detection via Rao-Blackwellized E-Processes</title>
+    <updated>2026-07-24T04:10:36Z</updated>
+    <link href="https://arxiv.org/abs/2607.21958v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.21958v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As large language models (LLMs) are increasingly deployed, reliable and efficient mechanisms for distinguishing AI-generated text from human-written content have become essential. Statistical watermarking has emerged as a promising solution, yet most existing methods are typically fixed-horizon procedures, precluding valid early stopping in streaming generation. In this paper, we develop an efficient online watermark detection framework with anytime-valid inference based on Rao-Blackwellized e-processes, enabling recursive token-level evidence updates without storing the full history. In particular, we instantiate the framework for the Gumbel-max watermark and reduce the original token-level dependence testing problem to a pivot-induced sequential testing problem with an explicit null distribution. Theoretically, we prove anytime-valid Type I error control under arbitrary optional stopping and establish positive asymptotic log-growth under watermarking, implying consistency of the proposed stopping rules. Simulations and experiments on real LLM-generated text demonstrate efficient online detection with rigorous anytime-valid guarantees.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-24T04:10:36Z</published>
+    <arxiv:comment>25 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Lu Luo</name>
+    </author>
+    <author>
+      <name>Dandan Mo</name>
+    </author>
+    <author>
+      <name>Chengdong Xu</name>
+    </author>
+    <author>
+      <name>Ting Li</name>
+    </author>
+    <author>
+      <name>Jinhan Xie</name>
+    </author>
+    <author>
+      <name>Huiqiong Li</name>
+    </author>
+    <author>
+      <name>Niansheng Tang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.06317v1</id>
+    <title>Watermarking: from Impossibility to Auditable Compliance</title>
+    <updated>2026-10-05T13:32:41Z</updated>
+    <link href="https://arxiv.org/abs/2610.06317v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.06317v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Article 50 (2) of the EU Artificial Intelligence Act requires providers of generative systems to make synthetic outputs machine-readable and detectable, while qualifying the effectiveness, interoperability, robustness, and reliability by technical feasibility, cost, content-specific limits, and the state of the art. For free-form text, one important implementation route is the implementation of a generative watermarking procedure, which poses a compliance problem that is hard to address. Strong watermarking is impossible against adaptive removal, while ordinary edits attenuate statistical evidence, and unmarked human text may overlap distributionally with machine output. This article develops an auditable alternative. First, it defines a description-length robustness profile. A finite-sample bound shows that detectable bias decays and that the required sample size grows with the inverse square of the decay rate. This replaces an unidentified Shannon-entropy constant with collision entropy. Second, it constructs label-conditional conformal prediction sets with separate false-attribution and false-exclusion levels, reporting ``watermark supported,'' ``not supported,'' or ``inconclusive''. Coverage is obtained as a finite-sample result and is class-conditional under exchangeability. A small reproducible simulation of a tournament watermark confirms both claims and shows that the surviving-token rule overstates the tolerable edit rate roughly twofold. The resulting premarket certificate, signed detector report, and postmarket recalibration protocol operationalize the Commission's 2026 Code of Practice without claiming universal robustness.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-05T13:32:41Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Fernando Delbianco</name>
+    </author>
+    <author>
+      <name>Fernando Tohmé</name>
+    </author>
+    <author>
+      <name>Hugo Acciarri</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.37310v1</id>
+    <title>AutoMark: Enabling Autoresearch to Discover Better LLM Watermarks</title>
+    <updated>2026-09-29T11:45:47Z</updated>
+    <link href="https://arxiv.org/abs/2609.37310v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.37310v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With LLM watermarking being deployed commercially and now required by regulations, improving its reliability and effectiveness has become crucial. Yet, recent progress in the field of LLM watermarking has increasingly been driven by improving details of existing methods, an effort fundamentally limited by the pace of human researchers. In this work, we enable for the first time the autonomous discovery of new distortion-free state-of-the-art watermarking schemes. To enable this, we (i) establish strict criteria to ensure that watermarks are reliable (e.g., they do not have an unexpectedly high false positive rate), (ii) propose rigorous statistical tests to automatically evaluate whether a watermarking scheme satisfies our criteria, and (iii) design an evaluation suite to rank watermarks along three key dimensions: detectability, quality, and robustness. By running our framework with 3 frontier models (GPT-6 Astra, Opus 5, Gemini-3.8 Flash), we discover over 50 different watermarking schemes, including several that outperform prior works along all key dimensions. We complement this by a manual study of the discovered schemes, distilling the key ideas into smaller components, and individually studying the impact of each component across dimensions (detectability, quality, robustness) to better understand how the proposed schemes operate. Importantly, we find that the agents, on top of improving existing ideas, also discover fundamentally new ideas (e.g., aligning watermark scores with random per-request direction). Overall, our work establishes the first steps of fully autonomous watermarking research, enabling the discovery of more reliable and effective watermarks. Our code is available at https://github.com/eth-sri/automark, and a blogpost to visualize our results at https://www.sri.inf.ethz.ch/blog/automark.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-29T11:45:47Z</published>
+    <arxiv:comment>52 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Thibaud Gloaguen</name>
+    </author>
+    <author>
+      <name>Robin Staab</name>
+    </author>
+    <author>
+      <name>Martin Vechev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.03647v2</id>
+    <title>Training-conditional coverage for distribution-free predictive inference</title>
+    <updated>2023-01-17T22:45:41Z</updated>
+    <link href="https://arxiv.org/abs/2205.03647v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.03647v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The field of distribution-free predictive inference provides tools for provably valid prediction without any assumptions on the distribution of the data, which can be paired with any regression algorithm to provide accurate and reliable predictive intervals. The guarantees provided by these methods are typically marginal, meaning that predictive accuracy holds on average over both the training data set and the test point that is queried. However, it may be preferable to obtain a stronger guarantee of training-conditional coverage, which would ensure that most draws of the training data set result in accurate predictive accuracy on future test points. This property is known to hold for the split conformal prediction method. In this work, we examine the training-conditional coverage properties of several other distribution-free predictive inference methods, and find that training-conditional coverage is achieved by some methods but is impossible to guarantee without further assumptions for others.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-07T13:03:56Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Michael Bian</name>
+    </author>
+    <author>
+      <name>Rina Foygel Barber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1209.2673v2</id>
+    <title>Conditional validity of inductive conformal predictors</title>
+    <updated>2012-09-24T18:28:44Z</updated>
+    <link href="https://arxiv.org/abs/1209.2673v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1209.2673v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Conformal predictors are set predictors that are automatically valid in the sense of having coverage probability equal to or exceeding a given confidence level. Inductive conformal predictors are a computationally efficient version of conformal predictors satisfying the same property of validity. However, inductive conformal predictors have been only known to control unconditional coverage probability. This paper explores various versions of conditional validity and various ways to achieve them using inductive conformal predictors and their modifications.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-09-12T17:39:37Z</published>
+    <arxiv:comment>23 pages, 9 figures, 2 tables; to appear in the ACML 2012 Proceedings</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Vladimir Vovk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06754v1</id>
+    <title>A Unified Framework for LLM Watermarks</title>
+    <updated>2026-02-06T15:00:30Z</updated>
+    <link href="https://arxiv.org/abs/2602.06754v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06754v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM watermarks allow tracing AI-generated texts by inserting a detectable signal into their generated content. Recent works have proposed a wide range of watermarking algorithms, each with distinct designs, usually built using a bottom-up approach. Crucially, there is no general and principled formulation for LLM watermarking.
+  In this work, we show that most existing and widely used watermarking schemes can in fact be derived from a principled constrained optimization problem. Our formulation unifies existing watermarking methods and explicitly reveals the constraints that each method optimizes. In particular, it highlights an understudied quality-diversity-power trade-off. At the same time, our framework also provides a principled approach for designing novel watermarking schemes tailored to specific requirements. For instance, it allows us to directly use perplexity as a proxy for quality, and derive new schemes that are optimal with respect to this constraint. Our experimental evaluation validates our framework: watermarking schemes derived from a given constraint consistently maximize detection power with respect to that constraint.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T15:00:30Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Thibaud Gloaguen</name>
+    </author>
+    <author>
+      <name>Robin Staab</name>
+    </author>
+    <author>
+      <name>Nikola Jovanović</name>
+    </author>
+    <author>
+      <name>Martin Vechev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.13868v3</id>
+    <title>Robust Detection of Watermarks for Large Language Models Under Human Edits</title>
+    <updated>2025-08-26T18:52:43Z</updated>
+    <link href="https://arxiv.org/abs/2411.13868v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.13868v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Watermarking has offered an effective approach to distinguishing text generated by large language models (LLMs) from human-written text. However, the pervasive presence of human edits on LLM-generated text dilutes watermark signals, thereby significantly degrading detection performance of existing methods. In this paper, by modeling human edits through mixture model detection, we introduce a new method in the form of a truncated goodness-of-fit test for detecting watermarked text under human edits, which we refer to as Tr-GoF. We prove that the Tr-GoF test achieves optimality in robust detection of the Gumbel-max watermark in a certain asymptotic regime of substantial text modifications and vanishing watermark signals. Importantly, Tr-GoF achieves this optimality \textit{adaptively} as it does not require precise knowledge of human edit levels or probabilistic specifications of the LLMs, in contrast to the optimal but impractical (Neyman--Pearson) likelihood ratio test. Moreover, we establish that the Tr-GoF test attains the highest detection efficiency rate in a certain regime of moderate text modifications. In stark contrast, we show that sum-based detection rules, as employed by existing methods, fail to achieve optimal robustness in both regimes because the additive nature of their statistics is less resilient to edit-induced noise. Finally, we demonstrate the competitive and sometimes superior empirical performance of the Tr-GoF test on both synthetic data and open-source LLMs in the OPT and LLaMA families.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-21T06:06:04Z</published>
+    <arxiv:comment>To appear in Journal of the Royal Statistical Society: Series B</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Xiang Li</name>
+    </author>
+    <author>
+      <name>Feng Ruan</name>
+    </author>
+    <author>
+      <name>Huiyuan Wang</name>
+    </author>
+    <author>
+      <name>Qi Long</name>
+    </author>
+    <author>
+      <name>Weijie J. Su</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.05209v1</id>
+    <title>The Common Pile v0.1: An 8TB Dataset of Public Domain and Openly Licensed Text</title>
+    <updated>2025-06-05T16:21:30Z</updated>
+    <link href="https://arxiv.org/abs/2506.05209v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.05209v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are typically trained on enormous quantities of unlicensed text, a practice that has led to scrutiny due to possible intellectual property infringement and ethical concerns. Training LLMs on openly licensed text presents a first step towards addressing these issues, but prior data collection efforts have yielded datasets too small or low-quality to produce performant LLMs. To address this gap, we collect, curate, and release the Common Pile v0.1, an eight terabyte collection of openly licensed text designed for LLM pretraining. The Common Pile comprises content from 30 sources that span diverse domains including research papers, code, books, encyclopedias, educational materials, audio transcripts, and more. Crucially, we validate our efforts by training two 7 billion parameter LLMs on text from the Common Pile: Comma v0.1-1T and Comma v0.1-2T, trained on 1 and 2 trillion tokens respectively. Both models attain competitive performance to LLMs trained on unlicensed text with similar computational budgets, such as Llama 1 and 2 7B. In addition to releasing the Common Pile v0.1 itself, we also release the code used in its creation as well as the training mixture and checkpoints for the Comma v0.1 models.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-05T16:21:30Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Nikhil Kandpal</name>
+    </author>
+    <author>
+      <name>Brian Lester</name>
+    </author>
+    <author>
+      <name>Colin Raffel</name>
+    </author>
+    <author>
+      <name>Sebastian Majstorovic</name>
+    </author>
+    <author>
+      <name>Stella Biderman</name>
+    </author>
+    <author>
+      <name>Baber Abbasi</name>
+    </author>
+    <author>
+      <name>Luca Soldaini</name>
+    </author>
+    <author>
+      <name>Enrico Shippole</name>
+    </author>
+    <author>
+      <name>A. Feder Cooper</name>
+    </author>
+    <author>
+      <name>Aviya Skowron</name>
+    </author>
+    <author>
+      <name>John Kirchenbauer</name>
+    </author>
+    <author>
+      <name>Shayne Longpre</name>
+    </author>
+    <author>
+      <name>Lintang Sutawika</name>
+    </author>
+    <author>
+      <name>Alon Albalak</name>
+    </author>
+    <author>
+      <name>Zhenlin Xu</name>
+    </author>
+    <author>
+      <name>Guilherme Penedo</name>
+    </author>
+    <author>
+      <name>Loubna Ben Allal</name>
+    </author>
+    <author>
+      <name>Elie Bakouch</name>
+    </author>
+    <author>
+      <name>John David Pressman</name>
+    </author>
+    <author>
+      <name>Honglu Fan</name>
+    </author>
+    <author>
+      <name>Dashiell Stander</name>
+    </author>
+    <author>
+      <name>Guangyu Song</name>
+    </author>
+    <author>
+      <name>Aaron Gokaslan</name>
+    </author>
+    <author>
+      <name>Tom Goldstein</name>
+    </author>
+    <author>
+      <name>Brian R. Bartoldson</name>
+    </author>
+    <author>
+      <name>Bhavya Kailkhura</name>
+    </author>
+    <author>
+      <name>Tyler Murray</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.00613v2</id>
+    <title>Linguistics-Aware Non-Distortionary LLM Watermarking</title>
+    <updated>2026-08-29T10:17:03Z</updated>
+    <link href="https://arxiv.org/abs/2606.00613v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.00613v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Watermarking should identify language-model output without degrading quality or limiting verification to the model provider. Multilingual deployment makes this harder because morphology, segmentation, and script change where watermark evidence can be naturally embedded. We introduce LUNA, a linguistically adaptive watermark that combines model-free detection with single-token non-distortion under the standard random-key model. LUNA estimates normalized next-tag entropy from part-of-speech contexts in an external corpus and uses it to set the depth of a non-distortionary binary tournament sampler; the detector reconstructs the same schedule from text, a tokenizer, a tagger, and a secret key. We evaluate LUNA on six typologically diverse languages and two domains against eight primary baselines. LUNA attains an AUROC of 0.9959 and the lowest mean absolute median perplexity shift, 0.045, across the 12 settings; its 95% bootstrap interval [0.022, 0.073] lies below all baseline intervals. LUNA also records the lowest mean on Self-BLEU, Distinct-1, surprisal, and entropy shifts; it is the only method that simultaneously achieves AUROC &gt; 0.99 and an absolute median perplexity shift below 0.1 in a majority of settings, reaching this regime in 9 of the 12 settings while no baseline reaches it in more than 2. Our code is available at https://github.com/Shinwoo-Park/luna_watermark.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-30T08:29:56Z</published>
+    <arxiv:comment>EMNLP 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shinwoo Park</name>
+    </author>
+    <author>
+      <name>Hyejin Park</name>
+    </author>
+    <author>
+      <name>Hyeseon An</name>
+    </author>
+    <author>
+      <name>Yo-Sub Han</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.20839v2</id>
+    <title>SAC-Copula: Quality-Preserving Watermarking for Diffusion Language Models via Smooth Correlated Gumbel Fields</title>
+    <updated>2026-09-10T08:17:02Z</updated>
+    <link href="https://arxiv.org/abs/2608.20839v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.20839v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Watermarking diffusion language models (DLMs) requires mechanisms compatible with iterative parallel unmasking rather than autoregressive decoding. Existing sampling-based watermarking methods typically inject position-wise i.i.d. perturbations, which can be poorly aligned with DLM decoding dynamics and degrade generation quality. We propose SAC-Copula, a quality-preserving watermarking method for DLMs based on smooth, locally correlated Gumbel perturbation fields constructed via a Gaussian copula. We further develop a SAC-aware detector using covariance-aware filtering and native-sample calibration. Mechanism-level analysis shows that local correlation reduces latent perturbation roughness and better matches iterative refinement dynamics. Experiments on LLaDA show that SAC-Copula achieves a favorable quality-detectability trade-off compared with existing baselines. In particular, further evaluations on Dream-7B and additional datasets show that SAC-Copula substantially improves PPL tail stability over the i.i.d. Gumbel baseline, while maintaining strong low-FPR detectability and competitive overall generation quality. Additional token-edit stress tests further assess watermark robustness under controlled synchronization drift. Code is available at https://github.com/PunkyKnife/SAC-Copula.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-21T08:03:18Z</published>
+    <arxiv:comment>24 pages, 14 figures. Accepted to Findings of EMNLP 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Baixin Li</name>
+    </author>
+    <author>
+      <name>Haiyun He</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.04634v4</id>
+    <title>On the Reliability of Watermarks for Large Language Models</title>
+    <updated>2024-05-01T21:20:36Z</updated>
+    <link href="https://arxiv.org/abs/2306.04634v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.04634v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As LLMs become commonplace, machine-generated text has the potential to flood the internet with spam, social media bots, and valueless content. Watermarking is a simple and effective strategy for mitigating such harms by enabling the detection and documentation of LLM-generated text. Yet a crucial question remains: How reliable is watermarking in realistic settings in the wild? There, watermarked text may be modified to suit a user's needs, or entirely rewritten to avoid detection. We study the robustness of watermarked text after it is re-written by humans, paraphrased by a non-watermarked LLM, or mixed into a longer hand-written document. We find that watermarks remain detectable even after human and machine paraphrasing. While these attacks dilute the strength of the watermark, paraphrases are statistically likely to leak n-grams or even longer fragments of the original text, resulting in high-confidence detections when enough tokens are observed. For example, after strong human paraphrasing the watermark is detectable after observing 800 tokens on average, when setting a 1e-5 false positive rate. We also consider a range of new detection schemes that are sensitive to short spans of watermarked text embedded inside a large document, and we compare the robustness of watermarking to other kinds of detectors.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-07T17:58:48Z</published>
+    <arxiv:comment>9 pages in the main body. Published at ICLR 2024. Code is available at https://github.com/jwkirchenbauer/lm-watermarking</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>John Kirchenbauer</name>
+    </author>
+    <author>
+      <name>Jonas Geiping</name>
+    </author>
+    <author>
+      <name>Yuxin Wen</name>
+    </author>
+    <author>
+      <name>Manli Shu</name>
+    </author>
+    <author>
+      <name>Khalid Saifullah</name>
+    </author>
+    <author>
+      <name>Kezhi Kong</name>
+    </author>
+    <author>
+      <name>Kasun Fernando</name>
+    </author>
+    <author>
+      <name>Aniruddha Saha</name>
+    </author>
+    <author>
+      <name>Micah Goldblum</name>
+    </author>
+    <author>
+      <name>Tom Goldstein</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.15593v3</id>
+    <title>Robust Distortion-free Watermarks for Language Models</title>
+    <updated>2024-06-06T04:53:25Z</updated>
+    <link href="https://arxiv.org/abs/2307.15593v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.15593v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a methodology for planting watermarks in text from an autoregressive language model that are robust to perturbations without changing the distribution over text up to a certain maximum generation budget. We generate watermarked text by mapping a sequence of random numbers -- which we compute using a randomized watermark key -- to a sample from the language model. To detect watermarked text, any party who knows the key can align the text to the random number sequence. We instantiate our watermark methodology with two sampling schemes: inverse transform sampling and exponential minimum sampling. We apply these watermarks to three language models -- OPT-1.3B, LLaMA-7B and Alpaca-7B -- to experimentally validate their statistical power and robustness to various paraphrasing attacks. Notably, for both the OPT-1.3B and LLaMA-7B models, we find we can reliably detect watermarked text ($p \leq 0.01$) from $35$ tokens even after corrupting between $40$-$50\%$ of the tokens via random edits (i.e., substitutions, insertions or deletions). For the Alpaca-7B model, we conduct a case study on the feasibility of watermarking responses to typical user instructions. Due to the lower entropy of the responses, detection is more difficult: around $25\%$ of the responses -- whose median length is around $100$ tokens -- are detectable with $p \leq 0.01$, and the watermark is also less robust to certain automated paraphrasing attacks we implement.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-28T14:52:08Z</published>
+    <arxiv:comment>reformatting of camera-ready version accepted to TMLR, with minor edits to introduction</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Rohith Kuditipudi</name>
+    </author>
+    <author>
+      <name>John Thickstun</name>
+    </author>
+    <author>
+      <name>Tatsunori Hashimoto</name>
+    </author>
+    <author>
+      <name>Percy Liang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.04295v3</id>
+    <title>Algorithmic stability implies training-conditional coverage for distribution-free prediction methods</title>
+    <updated>2025-06-28T00:00:16Z</updated>
+    <link href="https://arxiv.org/abs/2311.04295v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.04295v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a supervised learning problem, given a predicted value that is the output of some trained model, how can we quantify our uncertainty around this prediction? Distribution-free predictive inference aims to construct prediction intervals around this output, with valid coverage that does not rely on assumptions on the distribution of the data or the nature of the model training algorithm. Existing methods in this area, including conformal prediction and jackknife+, offer theoretical guarantees that hold marginally (i.e., on average over a draw of training and test data). In contrast, training-conditional coverage is a stronger notion of validity that ensures predictive coverage of the test point for most draws of the training data, and is thus a more desirable property in practice. Training-conditional coverage was shown by Vovk [2012] to hold for the split conformal method, but recent work by Bian and Barber [2023] proves that such validity guarantees are not possible for the full conformal and jackknife+ methods without further assumptions. In this paper, we show that an assumption of algorithmic stability ensures that the training-conditional coverage property holds for the full conformal and jackknife+ methods.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-07T19:08:59Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Ruiting Liang</name>
+    </author>
+    <author>
+      <name>Rina Foygel Barber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.23113v1</id>
+    <title>Watermark in the Classroom: A Conformal Framework for Adaptive AI Usage Detection</title>
+    <updated>2025-07-30T21:32:39Z</updated>
+    <link href="https://arxiv.org/abs/2507.23113v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.23113v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As artificial intelligence tools become ubiquitous in education, maintaining academic integrity while accommodating pedagogically beneficial AI assistance presents unprecedented challenges. Current AI detection systems fail to control false positive rates (FPR) and suffer from bias against minority student groups, prompting institutional suspensions of these technologies. Watermarking techniques offer statistical rigor through precise $p$-values but remain untested in educational contexts where students may use varying levels of permitted AI edits. We present the first adaptation of watermarking-based detection methods for classroom settings, introducing conformal methods that effectively control FPR across diverse classroom settings. Using essays from native and non-native English speakers, we simulate seven levels of AI editing interventions--from grammar correction to content expansion--across multiple language models and watermarking schemes, and evaluate our proposal under these different setups. Our findings provide educators with quantitative frameworks to enforce academic integrity standards while embracing AI integration in the classroom.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-30T21:32:39Z</published>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>Yangxinyu Xie</name>
+    </author>
+    <author>
+      <name>Xuyang Chen</name>
+    </author>
+    <author>
+      <name>Zhimei Ren</name>
+    </author>
+    <author>
+      <name>Weijie J. Su</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.12456v2</id>
+    <title>TextSeal: A Localized LLM Watermark for Provenance &amp; Distillation Protection</title>
+    <updated>2026-05-21T17:19:23Z</updated>
+    <link href="https://arxiv.org/abs/2605.12456v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.12456v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce TextSeal, a state-of-the-art watermark for large language models. Building on Gumbel-max sampling, TextSeal introduces dual-key generation to restore output diversity, along with entropy-weighted scoring and multi-region localization for improved detection. It supports serving optimizations such as speculative decoding and multi-token prediction, and does not add any inference overhead. TextSeal strictly dominates baselines like SynthID-text in detection strength and is robust to dilution, maintaining confident localized detection even in heavily mixed human/AI documents. The scheme is theoretically distortion-free, and evaluation across reasoning benchmarks confirms that it preserves downstream performance; while a multilingual human evaluation (6000 A/B comparisons, 5 languages) shows no perceptible quality difference. Beyond its use for provenance detection, TextSeal is also ``radioactive'': its watermark signal transfers through model distillation, enabling detection of unauthorized use.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-12T17:44:41Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Tom Sander</name>
+    </author>
+    <author>
+      <name>Hongyan Chang</name>
+    </author>
+    <author>
+      <name>Tomáš Souček</name>
+    </author>
+    <author>
+      <name>Tuan Tran</name>
+    </author>
+    <author>
+      <name>Valeriu Lacatusu</name>
+    </author>
+    <author>
+      <name>Sylvestre-Alvise Rebuffi</name>
+    </author>
+    <author>
+      <name>Alexandre Mourachko</name>
+    </author>
+    <author>
+      <name>Surya Parimi</name>
+    </author>
+    <author>
+      <name>Christophe Ropers</name>
+    </author>
+    <author>
+      <name>Rashel Moritz</name>
+    </author>
+    <author>
+      <name>Vanessa Stark</name>
+    </author>
+    <author>
+      <name>Hady Elsahar</name>
+    </author>
+    <author>
+      <name>Pierre Fernandez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.15657v1</id>
+    <title>Predictive Likelihood Ratios for Language Model Watermark Detection</title>
+    <updated>2026-09-14T14:39:29Z</updated>
+    <link href="https://arxiv.org/abs/2609.15657v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.15657v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Keyed watermark detection tests dependence between observed tokens and pseudorandom variables reconstructed from a secret key. Building on the pivotal framework of Li et al. (2025), we construct predictive likelihood ratios that average over uncertain probability deficits and residual-tail distributions. The aim is robust detection power across alternative specifications without requiring a single signal-strength tuning. A mixture prior combines tail shape and effective width; hierarchical extensions allow within-document variation in deficit or width. The test maximizes prior-averaged power at a fixed size, but is not generally uniformly most powerful or minimax. Under the exact conditional pivot null, normalized predictive alternatives selected before each observation yield a Bayes factor that is also a test martingale: Type I error control is unaffected by alternative misspecification and remains valid under optional stopping. This guarantee does not cover violations of the conditional null, and the interpolated implementation has no certified anytime guarantee. Gumbel marginal likelihoods are evaluated by fixed quadrature. Across the evaluated tail-shape and tail-width alternatives and three horizons, the union-tail mixture has maximum observed Type II error regret .0080, compared with .0962 for the equal-tail mixture, relative to the best tested rule. On temperature-matched outputs from two open models, it improves AUC over the equal-tail baseline in all eight non-saturated model-temperature cells, although the leading reference score generally has higher AUC. Supplementary experiments show retained power under independent null-like replacement and smaller changes from hierarchical dependence modeling. The evidence supports robustness across the evaluated alternatives, not uniform power guarantees or resistance to arbitrary text edits.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-14T14:39:29Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Li Ma</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.24368v3</id>
+    <title>Watermarking Diffusion Language Models</title>
+    <updated>2026-09-17T11:16:26Z</updated>
+    <link href="https://arxiv.org/abs/2509.24368v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.24368v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the first watermark tailored for diffusion language models (DLMs), an emergent LLM paradigm able to generate tokens in arbitrary order, in contrast to standard autoregressive language models (ARLMs) which generate tokens sequentially. While there has been much work in ARLM watermarking, a key challenge when attempting to apply these schemes directly to the DLM setting is that they rely on previously generated tokens, which are not always available with DLM generation. In this work we address this challenge by: (i) applying the watermark in expectation over the context even when some context tokens are yet to be determined, and (ii) promoting tokens which increase the watermark strength when used as context for other tokens. This is accomplished while keeping the watermark detector unchanged. Our experimental evaluation demonstrates that the DLM watermark leads to a &gt;99% true positive rate with minimal quality impact and achieves similar robustness to existing ARLM watermarks, enabling for the first time reliable DLM watermarking.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-29T07:11:40Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Thibaud Gloaguen</name>
+    </author>
+    <author>
+      <name>Robin Staab</name>
+    </author>
+    <author>
+      <name>Nikola Jovanović</name>
+    </author>
+    <author>
+      <name>Martin Vechev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.15461v5</id>
+    <title>Derandomized knockoffs: leveraging e-values for false discovery rate control</title>
+    <updated>2023-08-31T01:38:52Z</updated>
+    <link href="https://arxiv.org/abs/2205.15461v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.15461v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Model-X knockoffs is a flexible wrapper method for high-dimensional regression algorithms, which provides guaranteed control of the false discovery rate (FDR). Due to the randomness inherent to the method, different runs of model-X knockoffs on the same dataset often result in different sets of selected variables, which is undesirable in practice. In this paper, we introduce a methodology for derandomizing model-X knockoffs with provable FDR control. The key insight of our proposed method lies in the discovery that the knockoffs procedure is in essence an e-BH procedure. We make use of this connection, and derandomize model-X knockoffs by aggregating the e-values resulting from multiple knockoff realizations. We prove that the derandomized procedure controls the FDR at the desired level, without any additional conditions (in contrast, previously proposed methods for derandomization are not able to guarantee FDR control). The proposed method is evaluated with numerical experiments, where we find that the derandomized procedure achieves comparable power and dramatically decreased selection variability when compared with model-X knockoffs.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-30T23:15:11Z</published>
+    <arxiv:comment>Accepted by Journal of the Royal Statistical Society: Series B (JRSSB); 35 pages</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Zhimei Ren</name>
+    </author>
+    <author>
+      <name>Rina Foygel Barber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.07930v3</id>
+    <title>Towards Optimal Statistical Watermarking</title>
+    <updated>2024-02-06T21:01:28Z</updated>
+    <link href="https://arxiv.org/abs/2312.07930v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.07930v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study statistical watermarking by formulating it as a hypothesis testing problem, a general framework which subsumes all previous statistical watermarking methods. Key to our formulation is a coupling of the output tokens and the rejection region, realized by pseudo-random generators in practice, that allows non-trivial trade-offs between the Type I error and Type II error. We characterize the Uniformly Most Powerful (UMP) watermark in the general hypothesis testing setting and the minimax Type II error in the model-agnostic setting. In the common scenario where the output is a sequence of $n$ tokens, we establish nearly matching upper and lower bounds on the number of i.i.d. tokens required to guarantee small Type I and Type II errors. Our rate of $Θ(h^{-1} \log (1/h))$ with respect to the average entropy per token $h$ highlights potentials for improvement from the rate of $h^{-2}$ in the previous works. Moreover, we formulate the robust watermarking problem where the user is allowed to perform a class of perturbations on the generated texts, and characterize the optimal Type II error of robust UMP tests via a linear programming problem. To the best of our knowledge, this is the first systematic statistical treatment on the watermarking problem with near-optimal rates in the i.i.d. setting, which might be of interest for future works.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-13T06:57:00Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Baihe Huang</name>
+    </author>
+    <author>
+      <name>Hanlin Zhu</name>
+    </author>
+    <author>
+      <name>Banghua Zhu</name>
+    </author>
+    <author>
+      <name>Kannan Ramchandran</name>
+    </author>
+    <author>
+      <name>Michael I. Jordan</name>
+    </author>
+    <author>
+      <name>Jason D. Lee</name>
+    </author>
+    <author>
+      <name>Jiantao Jiao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.17439v2</id>
+    <title>Provable Robust Watermarking for AI-Generated Text</title>
+    <updated>2023-10-13T04:50:04Z</updated>
+    <link href="https://arxiv.org/abs/2306.17439v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.17439v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the problem of watermarking large language models (LLMs) generated text -- one of the most promising approaches for addressing the safety challenges of LLM usage. In this paper, we propose a rigorous theoretical framework to quantify the effectiveness and robustness of LLM watermarks. We propose a robust and high-quality watermark method, Unigram-Watermark, by extending an existing approach with a simplified fixed grouping strategy. We prove that our watermark method enjoys guaranteed generation quality, correctness in watermark detection, and is robust against text editing and paraphrasing. Experiments on three varying LLMs and two datasets verify that our Unigram-Watermark achieves superior detection accuracy and comparable generation quality in perplexity, thus promoting the responsible use of LLMs. Code is available at https://github.com/XuandongZhao/Unigram-Watermark.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-30T07:24:32Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xuandong Zhao</name>
+    </author>
+    <author>
+      <name>Prabhanjan Ananth</name>
+    </author>
+    <author>
+      <name>Lei Li</name>
+    </author>
+    <author>
+      <name>Yu-Xiang Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.00113v2</id>
+    <title>Three Bricks to Consolidate Watermarks for Large Language Models</title>
+    <updated>2023-11-08T18:56:19Z</updated>
+    <link href="https://arxiv.org/abs/2308.00113v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.00113v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The task of discerning between generated and natural texts is increasingly challenging. In this context, watermarking emerges as a promising technique for ascribing generated text to a specific model. It alters the sampling generation process so as to leave an invisible trace in the generated output, facilitating later detection. This research consolidates watermarks for large language models based on three theoretical and empirical considerations. First, we introduce new statistical tests that offer robust theoretical guarantees which remain valid even at low false-positive rates (less than 10$^{\text{-6}}$). Second, we compare the effectiveness of watermarks using classical benchmarks in the field of natural language processing, gaining insights into their real-world applicability. Third, we develop advanced detection schemes for scenarios where access to the LLM is available, as well as multi-bit watermarking.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-26T17:56:36Z</published>
+    <arxiv:comment>Published at WIFS 2023. Code at https://github.com/facebookresearch/three_bricks - webpage at https://pierrefdz.github.io/publications/threebricks/</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Pierre Fernandez</name>
+    </author>
+    <author>
+      <name>Antoine Chaffin</name>
+    </author>
+    <author>
+      <name>Karim Tit</name>
+    </author>
+    <author>
+      <name>Vivien Chappelier</name>
+    </author>
+    <author>
+      <name>Teddy Furon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.12229v1</id>
+    <title>Watermarking Needs Input Repetition Masking</title>
+    <updated>2025-04-16T16:25:26Z</updated>
+    <link href="https://arxiv.org/abs/2504.12229v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.12229v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advancements in Large Language Models (LLMs) raised concerns over potential misuse, such as for spreading misinformation. In response two counter measures emerged: machine learning-based detectors that predict if text is synthetic, and LLM watermarking, which subtly marks generated text for identification and attribution. Meanwhile, humans are known to adjust language to their conversational partners both syntactically and lexically. By implication, it is possible that humans or unwatermarked LLMs could unintentionally mimic properties of LLM generated text, making counter measures unreliable. In this work we investigate the extent to which such conversational adaptation happens. We call the concept $\textit{mimicry}$ and demonstrate that both humans and LLMs end up mimicking, including the watermarking signal even in seemingly improbable settings. This challenges current academic assumptions and suggests that for long-term watermarking to be reliable, the likelihood of false positives needs to be significantly lower, while longer word sequences should be used for seeding watermarking mechanisms.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-16T16:25:26Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>David Khachaturov</name>
+    </author>
+    <author>
+      <name>Robert Mullins</name>
+    </author>
+    <author>
+      <name>Ilia Shumailov</name>
+    </author>
+    <author>
+      <name>Sumanth Dathathri</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.15975v1</id>
+    <title>Multi-use LLM Watermarking and the False Detection Problem</title>
+    <updated>2025-06-19T02:37:02Z</updated>
+    <link href="https://arxiv.org/abs/2506.15975v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.15975v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Digital watermarking is a promising solution for mitigating some of the risks arising from the misuse of automatically generated text. These approaches either embed non-specific watermarks to allow for the detection of any text generated by a particular sampler, or embed specific keys that allow the identification of the LLM user. However, simultaneously using the same embedding for both detection and user identification leads to a false detection problem, whereby, as user capacity grows, unwatermarked text is increasingly likely to be falsely detected as watermarked. Through theoretical analysis, we identify the underlying causes of this phenomenon. Building on these insights, we propose Dual Watermarking which jointly encodes detection and identification watermarks into generated text, significantly reducing false positives while maintaining high detection accuracy. Our experimental results validate our theoretical findings and demonstrate the effectiveness of our approach.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-19T02:37:02Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zihao Fu</name>
+    </author>
+    <author>
+      <name>Chris Russell</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.02603v1</id>
+    <title>Distortion-free Watermarks are not Truly Distortion-free under Watermark Key Collisions</title>
+    <updated>2024-06-02T04:07:32Z</updated>
+    <link href="https://arxiv.org/abs/2406.02603v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.02603v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language model (LM) watermarking techniques inject a statistical signal into LM-generated content by substituting the random sampling process with pseudo-random sampling, using watermark keys as the random seed. Among these statistical watermarking approaches, distortion-free watermarks are particularly crucial because they embed watermarks into LM-generated content without compromising generation quality. However, one notable limitation of pseudo-random sampling compared to true-random sampling is that, under the same watermark keys (i.e., key collision), the results of pseudo-random sampling exhibit correlations. This limitation could potentially undermine the distortion-free property. Our studies reveal that key collisions are inevitable due to the limited availability of watermark keys, and existing distortion-free watermarks exhibit a significant distribution bias toward the original LM distribution in the presence of key collisions. Moreover, achieving a perfect distortion-free watermark is impossible as no statistical signal can be embedded under key collisions. To reduce the distribution bias caused by key collisions, we introduce a new family of distortion-free watermarks--beta-watermark. Experimental results support that the beta-watermark can effectively reduce the distribution bias under key collisions.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-02T04:07:32Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yihan Wu</name>
+    </author>
+    <author>
+      <name>Ruibo Chen</name>
+    </author>
+    <author>
+      <name>Zhengmian Hu</name>
+    </author>
+    <author>
+      <name>Yanshuo Chen</name>
+    </author>
+    <author>
+      <name>Junfeng Guo</name>
+    </author>
+    <author>
+      <name>Hongyang Zhang</name>
+    </author>
+    <author>
+      <name>Heng Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.04486v1</id>
+    <title>Global Sketch-Based Watermarking for Diffusion Language Models</title>
+    <updated>2026-06-03T06:08:58Z</updated>
+    <link href="https://arxiv.org/abs/2606.04486v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.04486v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Watermarking methods for language models have been studied extensively in the autoregressive setting, where tokens are generated sequentially. These works largely focus on local-context schemes that perturb the next token's distribution as a function of its preceding tokens. In diffusion language models, distributions over many unresolved positions are jointly sampled, allowing additive statistics of the entire sequence to be tractable during generation. We propose a watermark for masked diffusion language models that controls a global, vector-valued sketch representation of the text. Compared to context-dependent watermarking, the sketch formulation decouples detection from the local contexts seen during generation, resulting in an order-agnostic statistic and a watermarking rule which does not manifest as a simple token bias. We analyze the distortion, soundness, and robustness properties of the method.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-03T06:08:58Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Daniel Zhao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.20047v1</id>
+    <title>Auditing Cross-Lingual Fairness in Language Model Watermarking</title>
+    <updated>2026-08-20T13:48:12Z</updated>
+    <link href="https://arxiv.org/abs/2608.20047v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.20047v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Watermarking schemes for large language model output are evaluated almost exclusively on English text using each scheme's detection threshold and a narrow set of quality measurements. Multilingual deployment exposes evaluation-design choices that are inconsequential on English but determine conclusions cross-lingually. We propose an evaluation framework with four components: detection thresholds calibrated empirically per deployment context, a threshold-independent companion measurement that distinguishes calibration failures from detection failures, three disjoint quality measurement paradigms (distributional, paired-semantic, and reference-perplexity), and a generalized-entropy decomposition of cross-language disparity over a typological family partition. Applied to six watermarking schemes, three open-weight generators, eleven languages spanning four scripts and eight typological families, and both base and instruction-tuned regimes, the framework reveals failure modes that single-language single-paradigm evaluation cannot surface. Across detection and quality, observed disparity is predominantly between-family on the typological partition, indicating that cross-lingual fairness gaps in watermarking are structural to language properties rather than idiosyncratic to particular languages.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-20T13:48:12Z</published>
+    <arxiv:comment>24 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Alexander Nemecek</name>
+    </author>
+    <author>
+      <name>Osama Zafar</name>
+    </author>
+    <author>
+      <name>Debargha Ganguly</name>
+    </author>
+    <author>
+      <name>Vikash Singh</name>
+    </author>
+    <author>
+      <name>Vipin Chaudhary</name>
+    </author>
+    <author>
+      <name>Erman Ayday</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.14378v1</id>
+    <title>Tokenization-Invariant Watermarking: A Byte-Local Method for LLM Text</title>
+    <updated>2026-10-09T22:52:04Z</updated>
+    <link href="https://arxiv.org/abs/2610.14378v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.14378v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce Tokenization-Invariant Watermarking (TI-WM), a method that embeds a watermark during token generation but keys and scores it on canonicalized UTF-8 bytes. The detector does not invoke the tokenizer. Canonicalizer-preserving edits leave its score unchanged; other localized canonical-byte edits affect a bounded number of scoring windows. Across three fixed keys and 128 prompts per key and model, a deterministic white-box attack at a 5% word-edit budget leaves mean attacked-AUC 0.530 on Qwen3-8B and 0.664 on Gemma 4 E4B, compared with 0.410 and 0.489 for Unigram with detection-side deletion. These operating points are not jointly matched on quality and clean detectability. Bias sweeps show model-dependent distortion costs, and shared-rule controls support a locality interpretation without establishing a unique advantage of bytes. Visible insertion outside the canonicalizer's deletion set defeats the default design. Alphabetic filtering closes that channel but does not resolve source shift or calibrated detection power. TI-WM thus provides a concrete construction with local scoring guarantees and measured attack-ranking gains, not a general robustness or low-false-positive-rate deployment guarantee.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-09T22:52:04Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Tung-Ling Li</name>
+    </author>
+  </entry>
+</feed>

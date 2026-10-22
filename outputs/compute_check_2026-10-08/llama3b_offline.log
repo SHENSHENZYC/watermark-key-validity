@@ -1,0 +1,13 @@
+=== Qwen/Qwen2.5-1.5B-Instruct ===
+FAILED Qwen/Qwen2.5-1.5B-Instruct: OSError: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+=== meta-llama/Llama-3.2-3B ===
+load: 6.0s; params=3.21B
+forward bs=1 seq=256: 0.158s/call = 1615 tok/s (logits incl.)
+forward bs=8 seq=256: 1.244s/call = 1647 tok/s (logits incl.)
+generate bs=1: 128 new tokens in 8.4s = 15.2 tok/s
+[transformers] The attention mask is not set with a batched input, and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+generate bs=8: 1024 new tokens in 9.2s = 110.8 tok/s
+driver allocated: 7.24 GB
+DONE
+exit=0

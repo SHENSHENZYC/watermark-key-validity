@@ -1,0 +1,9 @@
+QUERY: search_query=all:watermark AND all:"key-conditional"&sortBy=submittedDate&sortOrder=descending&max_results=20
+## Robust LLM Watermarking with Minimal Semantic Distortion for IP Protection
+2605.23175v1 | 2026-05-22 | Kieu Dang, Phung Lai, NhatHai Phan, Yelong Shen et al.
+Proprietary large language models (LLMs) face risks of intellectual property (IP) violation, as adversaries can replicate an LLM by collecting input-output pairs to train a surrogate model, causing financial setbacks. Watermarks offer a promising defense to verify ownership, but existing methods often struggle with semantic distortion, factual inconsistency, and adversarial attacks. In addition, k
+
+## Attack-Resistant Watermarking for AIGC Image Forensics via Diffusion-based Semantic Deflection
+2601.06639v1 | 2026-01-10 | Qingyu Liu, Yitao Zhang, Zhongjie Ba, Chao Shuai et al.
+Protecting the copyright of user-generated AI images is an emerging challenge as AIGC becomes pervasive in creative workflows. Existing watermarking methods (1) remain vulnerable to real-world adversarial threats, often forced to trade off between defenses against spoofing and removal attacks; and (2) cannot support semantic-level tamper localization. We introduce PAI, a training-free inherent wat
+

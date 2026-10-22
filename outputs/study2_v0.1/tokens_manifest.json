@@ -1,0 +1,556 @@
+{
+ "study": "study2_v0.1",
+ "written_utc": "2026-10-11T03:45:46Z",
+ "N": 10000,
+ "seed_base": 20261012,
+ "units_dir": "outputs/corpora_units_v0.3",
+ "units_version": "0.3",
+ "tokenizers": {
+  "llama": {
+   "repo": "meta-llama/Llama-3.2-1B",
+   "revision": "4e20de362430cd3b72f300e6b0f18e50e7166e08",
+   "V": 128256,
+   "note": "V = the model config's vocab_size (the dimension a KGW permutation acts on); len(tokenizer) = 128256",
+   "files_sha256": {
+    "tokenizer.json": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+    "tokenizer_config.json": "8004530facf809ac432114de2a4dcc65fcb632da5ec16d666091aeb6a2ee444a",
+    "special_tokens_map.json": "cc2e013b7545f183ef03e079a3c91c6f364fa37e4068c512d7dd843e59024535"
+   }
+  },
+  "qwen": {
+   "repo": "Qwen/Qwen2.5-1.5B",
+   "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+   "V": 151936,
+   "note": "V = the model config's vocab_size 151936 (the dimension a KGW permutation acts on); len(tokenizer) = 151665, so 271 ids never occur in text",
+   "files_sha256": {
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "tokenizer_config.json": "c91efca15ceff6e9ee9424db58a6f59cd41294e550a86cbd07e3c1fb500b34f9"
+   }
+  }
+ },
+ "book_skip_tokens": 1000,
+ "text_cap_chars": {
+  "news": 12000,
+  "stackexchange": 12000,
+  "wikipedia": 12000,
+  "gutenberg": 24000
+ },
+ "add_special_tokens": false,
+ "cells": {
+  "news_en_256": {
+   "cell": "news/en@256",
+   "tag": "news_en_256",
+   "L_max": 256,
+   "need_tokens": 256,
+   "pool": {
+    "open_representatives": 101153,
+    "eligible_llama": 37696,
+    "eligible_both": 37695
+   },
+   "pool_size": 37695,
+   "pool_sha256": "a16891041f949c619413d933b7bb0bce8bab5c09ad04c6f2c23fd4e6e94c3832",
+   "seed": 3619899595,
+   "N": 10000,
+   "ids_sha256": "d563d7e58d39807ad1f3a516d71b2d66dd0fc5ddfde3df2bc1b2957b86a1b78e",
+   "first_ids": [
+    "https://milwaukeenns.org/2018/06/13/community-to-get-first-look-at-new-americas-black-holocaust-museum/",
+    "https://educeleb.com/asup-vows-to-continue-strike-despite-some-demands-met/",
+    "https://www.thepublicrecord.ca/2021/11/a-2017-omb-settlement-promised-no-evictions-at-ventura-towers-why-are-they-happening-today/"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study2_v0.1/tokens/news_en_256__llama.npy",
+     "shape": [
+      10000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "9114a2b28d4dbe402744f3ddd4878dadfc44d973d8adf64ebd538ad0dccf5eb6",
+     "max_id": 127999,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 871,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 51738
+    },
+    "qwen": {
+     "file": "outputs/study2_v0.1/tokens/news_en_256__qwen.npy",
+     "shape": [
+      10000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "1d06d52e75469da23f4977607e699b0492832dee717be816328a30203870741a",
+     "max_id": 151521,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 900,
+     "capped_prefix_tokens_min": 257,
+     "distinct_ids_in_window": 49326
+    }
+   }
+  },
+  "wikipedia_en_256": {
+   "cell": "wikipedia/en@256",
+   "tag": "wikipedia_en_256",
+   "L_max": 256,
+   "need_tokens": 256,
+   "pool": {
+    "open_representatives": 124725,
+    "eligible_llama": 95048,
+    "eligible_both": 95045
+   },
+   "pool_size": 95045,
+   "pool_sha256": "fd4ab4b7a799218b0483e5dba075a52880d5c6c8ff51673d018f229df570e69f",
+   "seed": 830094426,
+   "N": 10000,
+   "ids_sha256": "f259504d9f478b743afa58578508991ca2eecace380189a2725b0ce8b5ea19cf",
+   "first_ids": [
+    "wiki:en:4726797",
+    "wiki:en:4479757",
+    "wiki:en:4580789"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study2_v0.1/tokens/wikipedia_en_256__llama.npy",
+     "shape": [
+      10000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "91878025ec9b3048132b66b1ad5ada2e359384bed9c0582235186d6d97e05599",
+     "max_id": 127991,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 791,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 50205
+    },
+    "qwen": {
+     "file": "outputs/study2_v0.1/tokens/wikipedia_en_256__qwen.npy",
+     "shape": [
+      10000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "33c59c54468e86efae39c957b3622b4f897e03c918b443813c051c0dc58bba4d",
+     "max_id": 151474,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 832,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 48161
+    }
+   }
+  },
+  "stackexchange_en_256": {
+   "cell": "stackexchange/en@256",
+   "tag": "stackexchange_en_256",
+   "L_max": 256,
+   "need_tokens": 256,
+   "pool": {
+    "open_representatives": 1254058,
+    "eligible_llama": 982015,
+    "eligible_both": 982004
+   },
+   "pool_size": 982004,
+   "pool_sha256": "a48d474601c5d2184ee138e09f184d076098fe52a85b48116518763585963e84",
+   "seed": 3457223252,
+   "N": 10000,
+   "ids_sha256": "e0cd859a72b98f1c3d230c31349e36401557da6c3cac21d519ab5e84802c2a9f",
+   "first_ids": [
+    "https://apple.stackexchange.com/questions/246152",
+    "https://stackoverflow.com/questions/33346052",
+    "https://stackoverflow.com/questions/32865400"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study2_v0.1/tokens/stackexchange_en_256__llama.npy",
+     "shape": [
+      10000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "76e507617824d3adb0b74299bdb10881a8477149cc081e0b2dff86341ca0d6e2",
+     "max_id": 127988,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 587,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 56197
+    },
+    "qwen": {
+     "file": "outputs/study2_v0.1/tokens/stackexchange_en_256__qwen.npy",
+     "shape": [
+      10000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "5eb6f367b3429a0a5a9c5a6f34e9edab81325e37edf68fb32485dfe332c7023a",
+     "max_id": 150388,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 600,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 54628
+    }
+   }
+  },
+  "wikipedia_de_256": {
+   "cell": "wikipedia/de@256",
+   "tag": "wikipedia_de_256",
+   "L_max": 256,
+   "need_tokens": 256,
+   "pool": {
+    "open_representatives": 113649,
+    "eligible_llama": 100065,
+    "eligible_both": 100042
+   },
+   "pool_size": 100042,
+   "pool_sha256": "39e4455b64c5aed41a244dac928a19e3dcca2b664ec8ad1adc6391ab5aded862",
+   "seed": 4110997187,
+   "N": 10000,
+   "ids_sha256": "a819838e8804cc84a3dff2f9528d8f8636b2482b1696bf7bbdcf97d5efa2498b",
+   "first_ids": [
+    "wiki:de:340843",
+    "wiki:de:104761",
+    "wiki:de:46426"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study2_v0.1/tokens/wikipedia_de_256__llama.npy",
+     "shape": [
+      10000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "af835abcfde95c20571190bebd529899fe5d4fc975d3b88ee5f22093e1c084c0",
+     "max_id": 127988,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 1584,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 27981
+    },
+    "qwen": {
+     "file": "outputs/study2_v0.1/tokens/wikipedia_de_256__qwen.npy",
+     "shape": [
+      10000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "123451efdcd88db85b29427baa6dfca8563adf0710ca215708ca9590d5566273",
+     "max_id": 151601,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 1634,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 26421
+    }
+   }
+  },
+  "wikipedia_ru_256": {
+   "cell": "wikipedia/ru@256",
+   "tag": "wikipedia_ru_256",
+   "L_max": 256,
+   "need_tokens": 256,
+   "pool": {
+    "open_representatives": 74033,
+    "eligible_llama": 62249,
+    "eligible_both": 62249
+   },
+   "pool_size": 62249,
+   "pool_sha256": "9d46e6ac7fef47f5ad0147102b06aca5b8b4ce028ac5a6a47d7c35617b88850e",
+   "seed": 600419922,
+   "N": 10000,
+   "ids_sha256": "199faa8dbd3c4f7fb04a7722f053fe3adc8c7c98fdaa9da115445fe5b45f126e",
+   "first_ids": [
+    "wiki:ru:123536",
+    "wiki:ru:202794",
+    "wiki:ru:157841"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study2_v0.1/tokens/wikipedia_ru_256__llama.npy",
+     "shape": [
+      10000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "ccd3ebd2a80c8612f43232d5d07d9f4b84bb9f246dc6198842852dac03f3172e",
+     "max_id": 127997,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 1393,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 17064
+    },
+    "qwen": {
+     "file": "outputs/study2_v0.1/tokens/wikipedia_ru_256__qwen.npy",
+     "shape": [
+      10000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "fe1d1448d6d284bb59082a6656a1f91cb9e7c7dc529cf8991fc0d607cde2ddc2",
+     "max_id": 151252,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 1567,
+     "capped_prefix_tokens_min": 261,
+     "distinct_ids_in_window": 13819
+    }
+   }
+  },
+  "wikipedia_ar_256": {
+   "cell": "wikipedia/ar@256",
+   "tag": "wikipedia_ar_256",
+   "L_max": 256,
+   "need_tokens": 256,
+   "pool": {
+    "open_representatives": 135529,
+    "eligible_llama": 85264,
+    "eligible_both": 84999
+   },
+   "pool_size": 84999,
+   "pool_sha256": "f0b445521e941e89bfcca117e3b7c71b9a60117433f726442e7a5b3b76701b21",
+   "seed": 1203591029,
+   "N": 10000,
+   "ids_sha256": "f8c7826471bea4a9d1c89a58ad4acac26b8123cfbd3b2fe26855f3ebe9794997",
+   "first_ids": [
+    "wiki:ar:619751",
+    "wiki:ar:900227",
+    "wiki:ar:295141"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study2_v0.1/tokens/wikipedia_ar_256__llama.npy",
+     "shape": [
+      10000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "631ca398beca5544d6f7f4011d8070e8e3564741c28e6b3b126dcbb224d935d3",
+     "max_id": 127996,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 800,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 14499
+    },
+    "qwen": {
+     "file": "outputs/study2_v0.1/tokens/wikipedia_ar_256__qwen.npy",
+     "shape": [
+      10000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "7a3532ff61783050caeffebb9ad3b1d8320ad777674d2e61eef840dabcc2a5ee",
+     "max_id": 151458,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 821,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 13761
+    }
+   }
+  },
+  "wikipedia_zh_256": {
+   "cell": "wikipedia/zh@256",
+   "tag": "wikipedia_zh_256",
+   "L_max": 256,
+   "need_tokens": 256,
+   "pool": {
+    "open_representatives": 183556,
+    "eligible_llama": 121418,
+    "eligible_both": 116578
+   },
+   "pool_size": 116578,
+   "pool_sha256": "aaeef825a216b3e572556bd813ee2cef032670b3e4c57b89849562643d123151",
+   "seed": 1139551260,
+   "N": 10000,
+   "ids_sha256": "aebf025bafefdc87649491df512fb4ed320646ca42297d50cd4584819e8b9816",
+   "first_ids": [
+    "wiki:zh:741843",
+    "wiki:zh:764640",
+    "wiki:zh:130490"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study2_v0.1/tokens/wikipedia_zh_256__llama.npy",
+     "shape": [
+      10000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "3e5f2e1549f065291a9ed0cd0422386c46536cfaf15176147e1b26333d9979bc",
+     "max_id": 127999,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 959,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 21060
+    },
+    "qwen": {
+     "file": "outputs/study2_v0.1/tokens/wikipedia_zh_256__qwen.npy",
+     "shape": [
+      10000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "0455b986f2cb4ec98a4b989c35f1e8d3dc26e7dbfd8d59025af56062a08077f0",
+     "max_id": 151603,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 876,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 35677
+    }
+   }
+  },
+  "wikipedia_ja_256": {
+   "cell": "wikipedia/ja@256",
+   "tag": "wikipedia_ja_256",
+   "L_max": 256,
+   "need_tokens": 256,
+   "pool": {
+    "open_representatives": 73910,
+    "eligible_llama": 68208,
+    "eligible_both": 68120
+   },
+   "pool_size": 68120,
+   "pool_sha256": "f2a0a79978bcaf367724f03d3d20329569177571fc0d82beb548587f8934a08d",
+   "seed": 1700106028,
+   "N": 10000,
+   "ids_sha256": "4af5f259118af696ea05791d7c453f43ac370813a02a35d99b1b7932b00c5f13",
+   "first_ids": [
+    "wiki:ja:91438",
+    "wiki:ja:154140",
+    "wiki:ja:18667"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study2_v0.1/tokens/wikipedia_ja_256__llama.npy",
+     "shape": [
+      10000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "a5d79cb9c44cb5feba9e576836c63a4f09a8c08f04a12fc71efe9f5634ec55a2",
+     "max_id": 127998,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 1756,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 16315
+    },
+    "qwen": {
+     "file": "outputs/study2_v0.1/tokens/wikipedia_ja_256__qwen.npy",
+     "shape": [
+      10000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "68fe3dcd26693c25cc956cfa87693aaffbd7f70cc0a9d03520f7f19dd4f53775",
+     "max_id": 151637,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 1832,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 18797
+    }
+   }
+  },
+  "wikipedia_en_1024": {
+   "cell": "wikipedia/en@1024",
+   "tag": "wikipedia_en_1024",
+   "L_max": 1024,
+   "need_tokens": 1024,
+   "pool": {
+    "open_representatives": 124725,
+    "eligible_llama": 36046,
+    "eligible_both": 36045
+   },
+   "pool_size": 36045,
+   "pool_sha256": "9767bf33fc616f41d4b4c702b823f1ffcd59e8e97aeeef519c90ac6c9baaa239",
+   "seed": 3627444835,
+   "N": 10000,
+   "ids_sha256": "9e2d0d83ff134c934ffd6f9db8a7627496b927f3cc0dcc0975533e554490360f",
+   "first_ids": [
+    "wiki:en:4516085",
+    "wiki:en:4762233",
+    "wiki:en:4070381"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study2_v0.1/tokens/wikipedia_en_1024__llama.npy",
+     "shape": [
+      10000,
+      1024
+     ],
+     "dtype": "int32",
+     "sha256": "19255b74c4fefa42d480a6135e93b3afed17ee74af21d12bf6fb347d20ec9ff8",
+     "max_id": 127991,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 1726,
+     "capped_prefix_tokens_min": 1024,
+     "distinct_ids_in_window": 62434
+    },
+    "qwen": {
+     "file": "outputs/study2_v0.1/tokens/wikipedia_en_1024__qwen.npy",
+     "shape": [
+      10000,
+      1024
+     ],
+     "dtype": "int32",
+     "sha256": "3473456206b0b54ec63989ae5eece5a221e55ff4da3bc6fb82a979cab1ebf897",
+     "max_id": 151611,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 1808,
+     "capped_prefix_tokens_min": 1028,
+     "distinct_ids_in_window": 60040
+    }
+   }
+  },
+  "gutenberg_en_1024": {
+   "cell": "gutenberg/en@1024",
+   "tag": "gutenberg_en_1024",
+   "L_max": 1024,
+   "need_tokens": 2024,
+   "pool": {
+    "open_representatives": 12286,
+    "eligible_llama": 12122,
+    "eligible_both": 12122
+   },
+   "pool_size": 12122,
+   "pool_sha256": "43716262be8127ce236b8b66a32a210e41de75a4b02389c66f9c4328d973c192",
+   "seed": 3878523167,
+   "N": 10000,
+   "ids_sha256": "075644849f51f257755e8edc0f5903c3a7b47e522a6eb7b2b2b63cf764ada69b",
+   "first_ids": [
+    "https://www.gutenberg.org/ebooks/60262.txt.utf-8",
+    "https://www.gutenberg.org/ebooks/42584.txt.utf-8",
+    "https://www.gutenberg.org/ebooks/42672.txt.utf-8"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study2_v0.1/tokens/gutenberg_en_1024__llama.npy",
+     "shape": [
+      10000,
+      1024
+     ],
+     "dtype": "int32",
+     "sha256": "9fd83bf3d2d8d6e6f20010a3787ad587b7764a94a71a2a9e9c87714923f52775",
+     "max_id": 127951,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 5809,
+     "capped_prefix_tokens_min": 2029,
+     "distinct_ids_in_window": 54071
+    },
+    "qwen": {
+     "file": "outputs/study2_v0.1/tokens/gutenberg_en_1024__qwen.npy",
+     "shape": [
+      10000,
+      1024
+     ],
+     "dtype": "int32",
+     "sha256": "4dd8315912111635803585754560ccca5dfbd899c7ee8e47220241739664c2d5",
+     "max_id": 150043,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 5852,
+     "capped_prefix_tokens_min": 2030,
+     "distinct_ids_in_window": 52496
+    }
+   }
+  }
+ },
+ "seal": {
+  "partition_sha256": "8b9cf24aa9cece47acbc9c8c61f6b9fc0199c06e5f451f8fe9a0b1c28f61feae",
+  "units_sha256": "911d2a24487b347f0b72fc62ecc3edd0326d546d00f984cf1d0f6f902574cdd9",
+  "manifest_sha256": "3bc890fc0e913dbe102a67a8b0d18c75de3d37f68b778d6417acd536bf9b5783"
+ }
+}

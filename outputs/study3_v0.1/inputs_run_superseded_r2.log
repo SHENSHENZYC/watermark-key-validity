@@ -1,0 +1,7 @@
+2026-10-15T16:03:57Z h=0 rule=raw: 400 pairs in 174.0s (peak RSS 0.76 GB)
+2026-10-15T16:06:59Z h=0 rule=distinct: 400 pairs in 182.3s (peak RSS 0.78 GB)
+2026-10-15T16:10:11Z h=1 rule=raw: 400 pairs in 192.1s (peak RSS 1.2 GB)
+2026-10-15T16:13:26Z h=1 rule=distinct: 400 pairs in 195.1s (peak RSS 1.37 GB)
+2026-10-15T16:16:59Z h=2 rule=raw: 400 pairs in 213.0s (peak RSS 1.88 GB)
+2026-10-15T16:20:36Z h=2 rule=distinct: 400 pairs in 216.5s (peak RSS 2.05 GB)
+DONE {'n': 108, 'max_abs_diff_rho': 2.9753977059954195e-14, 'max_abs_diff_sigma2': 2.9753977059954195e-14} {'n_predictions': 28800, 'n_negative_raw': 687, 'n_flagged_below_floor': 0, 'min_relative_v_raw': -0.09052106912473991} english eval overlap 1068 1175.2

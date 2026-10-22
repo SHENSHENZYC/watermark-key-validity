@@ -1,0 +1,254 @@
+{
+ "study": "study4_v0.1",
+ "written_utc": "2026-10-16T04:00:54Z",
+ "grid_sha256": "01098b9186ab4b42dfb7b5060b95b772227a9815b4edb9d8b09c5fb3e255606a",
+ "record_dir": "outputs/study4_v0.1/validation_runner_test/cells",
+ "fixtures": {
+  "F1_hook_equals_detector": {
+   "ok": true,
+   "detail": {
+    "0": {
+     "green_equal_on_scored": true,
+     "uniforms_equal_on_scored": true,
+     "batch_hash_equal": true,
+     "n_scored": 640
+    },
+    "1": {
+     "green_equal_on_scored": true,
+     "uniforms_equal_on_scored": true,
+     "batch_hash_equal": true,
+     "n_scored": 624
+    },
+    "2": {
+     "green_equal_on_scored": true,
+     "uniforms_equal_on_scored": true,
+     "batch_hash_equal": true,
+     "n_scored": 608
+    }
+   }
+  },
+  "F2_record_binding": {
+   "ok": true,
+   "detail": {
+    "inventory_sha256": "c270ab818620c1f3189f83cb3095f1a7ed5b30064c9895f54e4e24b6f6c1733d",
+    "lock_sha256": "0e2889287d9d814166213e360766e93097de63401842516e3cb308056c666df6",
+    "keys": [
+     23000,
+     23999
+    ],
+    "tampered_threshold": "refused: RecordError: 1 record files differ from their manifest digests, e.g. ['cal__qwen__news_en_256__h1__thre",
+    "relabelled_record": "refused: RecordError: 1 record files differ from their manifest digests, e.g. ['cal__qwen__news_en_256__h1.json'",
+    "missing_file": "refused: RecordError: cells directory differs from the manifest: missing ['eval__llama__news_en_256__h0.npz'], e",
+    "lock_digest_mismatch": "refused: RecordError: the lock file's digest differs from the manifest's",
+    "relabelled_record_with_consistent_digests": "refused: RecordError: cal__qwen__news_en_256__h1: the record's unit field {'kind': 'cal', 'tokenizer': 'qwen', '"
+   }
+  },
+  "F3_core_selftests": {
+   "ok": true,
+   "detail": "ALL OK"
+  },
+  "F7_pilot_law_inputs": {
+   "ok": true,
+   "detail": {
+    "arms": {
+     "kgw_h1_d0.5": {
+      "n": 512,
+      "power_nominal_0.01_raw256": 0.65234375,
+      "loop_share": 0.0,
+      "ppl": 20.07
+     },
+     "kgw_h1_d2.0": {
+      "n": 512,
+      "power_nominal_0.01_raw256": 1.0,
+      "loop_share": 0.001953125,
+      "ppl": 28.99
+     },
+     "kgw_h2_d0.5": {
+      "n": 512,
+      "power_nominal_0.01_raw256": 0.603515625,
+      "loop_share": 0.0,
+      "ppl": 20.52
+     }
+    },
+    "human_ppl": {
+     "news_en_256": 11.63,
+     "wikipedia_en_256": 9.51,
+     "stackexchange_en_256": 8.94
+    }
+   }
+  },
+  "F8_prompts_and_keys": {
+   "ok": true,
+   "detail": {
+    "cells": {
+     "news_en_256": {
+      "array_digest_ok": true,
+      "ids_digest_ok": true,
+      "pilot_ids_ok": true,
+      "n": 5000,
+      "positions": [
+       15000,
+       20019
+      ]
+     },
+     "wikipedia_en_256": {
+      "array_digest_ok": true,
+      "ids_digest_ok": true,
+      "pilot_ids_ok": true,
+      "n": 5000,
+      "positions": [
+       15578,
+       21650
+      ]
+     },
+     "stackexchange_en_256": {
+      "array_digest_ok": true,
+      "ids_digest_ok": true,
+      "pilot_ids_ok": true,
+      "n": 5000,
+      "positions": [
+       15000,
+       19999
+      ]
+     }
+    },
+    "keys_reproduced": true,
+    "policy": {
+     "fitting_key": "refused: KeyPolicyError: keys 24000-24000 touch Study 3's fitting range (24000, 24999); fitting keys never enter St",
+     "reserved_key": "refused: KeyPolicyError: keys 30005-30005 touch the reserved confirmatory range",
+     "wrong_subset": "refused: KeyPolicyError: the power keys must be exactly the seeded K4 subset of Study 3's evaluation keys",
+     "low_validation_key": "refused: KeyPolicyError: validation keys must be >= 1000000; got 999-999"
+    }
+   }
+  },
+  "F4_analyzer": {
+   "ok": true,
+   "detail": {
+    "accepted": true,
+    "units": 7,
+    "seconds": 206.7,
+    "W1_rows": 1,
+    "W2_rows": 2,
+    "W3_candidates": 80,
+    "descriptive_rows": 5508,
+    "null_rows": 11016,
+    "contract_failures": 0,
+    "null_inputs_max_abs_diff": {
+     "n": 720,
+     "max_abs_diff_rho": 4.7567527694525324e-09,
+     "max_abs_diff_sigma2": 4.993008007048161e-09
+    },
+    "results_bytes": 7324108,
+    "mutations": {
+     "missing_unit": "refused: InventoryError: null__news_en_256__c0: record or array missing",
+     "extra_file": "refused: InventoryError: extra files in the record: ['extra.npz']",
+     "tampered_array_digest": "refused: InventoryError: gen__news_en_256__kgw_h2_d0.5__k1000502: array digest differs from the record",
+     "relabelled_provenance": "refused: InventoryError: gen__news_en_256__kgw_h2_d0.5__k1000502: provenance differs from the expected",
+     "token_outside_vocabulary": "refused: BodyError: gen__news_en_256__kgw_h2_d0.5__k1000502: token ids outside [0, V)",
+     "positive_logprob": "refused: BodyError: gen__news_en_256__kgw_h2_d0.5__k1000502: log-probabilities not finite or positive",
+     "flipped_hook_flag": "counted: 1 contract failure(s), run_void=True"
+    }
+   }
+  },
+  "F5_lock_schema": {
+   "ok": true,
+   "detail": {
+    "well_formed": "accepted",
+    "missing_pinned": "refused: ProvenanceError: lock pins ['research/study4/s4_core.py'] differently from the canonical set",
+    "changed_digest": "refused: ProvenanceError: pinned file research/study4/s4_run.py differs from its locked digest",
+    "wrong_checkpoint": "refused: ProvenanceError: the lock's review record is not R09's resolution at its digest",
+    "wrong_keys": "refused: ProvenanceError: the lock's key record differs from the grid's",
+    "wrong_record_digest": "refused: ProvenanceError: Study 3's record digests differ between the lock, the grid and the record",
+    "final_true": "refused: ProvenanceError: lock field 'final' is True, expected False",
+    "before_outcomes_false": "refused: ProvenanceError: lock field 'before_outcomes' is False, expected True",
+    "non_iso_date": "refused: ProvenanceError: lock date is not an ISO date",
+    "extra_pinned": "refused: ProvenanceError: lock pins ['research/study4/extra.py'] differently from the canonical set",
+    "wrong_resolution_digest": "refused: ProvenanceError: the lock's review record is not R09's resolution at its digest",
+    "placeholders_for_missing_pinned_files": []
+   }
+  },
+  "F6_cost_projection": {
+   "ok": true,
+   "detail": {
+    "validation_units": 7,
+    "wall_seconds_per_gen_unit_by_arm": {
+     "kgw_h1_d0.5": 37.0,
+     "kgw_h1_d2.0": 36.0,
+     "kgw_h2_d0.5": 39.5
+    },
+    "wall_seconds_per_null_text": 0.51,
+    "generation_call_seconds_sum": 273.5,
+    "production_units": {
+     "gen": 900,
+     "null": 30
+    },
+    "projected_hours": 11.5,
+    "projected_results_json_bytes_rough": 21972324,
+    "analyzer_seconds_validation": 206.7,
+    "model_rss_gb_runner": 3.02
+   }
+  },
+  "F9_rule_row_branches": {
+   "ok": true,
+   "detail": {
+    "W1_consistent": "consistent (expected consistent)",
+    "W1_inconsistent": "inconsistent (expected inconsistent)",
+    "W1_unresolved": "unresolved (expected unresolved)",
+    "W2_raw_agree_below_1": "agree (expected agree)",
+    "W2_raw_disagree": "disagree (expected disagree)",
+    "W2_distinct_agree_inside_band": "agree (expected agree)",
+    "W2_distinct_disagree": "disagree (expected disagree)",
+    "W2_unresolved_zero_denominator": "unresolved (expected unresolved)",
+    "W3_consistent": "consistent (expected consistent)",
+    "W3_inconsistent": "inconsistent (expected inconsistent)",
+    "W3_unresolved": "unresolved (expected unresolved)",
+    "W3_ineligible_theory_share": "ineligible (expected ineligible)",
+    "W3_ineligible_flag": "ineligible (expected ineligible)"
+   }
+  }
+ },
+ "all_ok": true,
+ "cost": {
+  "validation_units": 7,
+  "wall_seconds_per_gen_unit_by_arm": {
+   "kgw_h1_d0.5": 37.0,
+   "kgw_h1_d2.0": 36.0,
+   "kgw_h2_d0.5": 39.5
+  },
+  "wall_seconds_per_null_text": 0.51,
+  "generation_call_seconds_sum": 273.5,
+  "production_units": {
+   "gen": 900,
+   "null": 30
+  },
+  "projected_hours": 11.5,
+  "projected_results_json_bytes_rough": 21972324,
+  "analyzer_seconds_validation": 206.7,
+  "model_rss_gb_runner": 3.02
+ },
+ "inputs_sha256": "38c1e3e54e8cf303c856793cee46f353020e03f181a222635d9763c56da5e334",
+ "prompts_manifest_sha256": "fe26deddc3663f846af6a2fdc375d58be2a481ada56f9a019ae867b8b9d88eca",
+ "model_manifest_sha256": "9592ad78aba3eb464dd7be2733c3a81577bd96d03f249a12b752e9a0c304bbff",
+ "analysis_validation_summary": {
+  "W1": {
+   "n_rows": 1,
+   "n_consistent": 1,
+   "n_inconsistent": 0,
+   "pass": false
+  },
+  "W2": {
+   "n_rows": 2,
+   "n_agree": 0,
+   "n_disagree": 0,
+   "pass": false
+  },
+  "W3": {
+   "n_candidate": 80,
+   "n_eligible": 0,
+   "n_resolved": 0,
+   "n_consistent": 0,
+   "pass": false
+  },
+  "note": "validation keys with the record's thresholds standing in; every code path exercised; no scientific meaning"
+ }
+}

@@ -1,0 +1,259 @@
+{
+ "written_utc": "2026-10-09T19:02:59Z",
+ "limit": null,
+ "n_units": 2617347,
+ "n_signatures": 2617310,
+ "files": [
+  {
+   "path": "news-dolma-0000.json.gz",
+   "units_file": "units__news__news-dolma-0000.json.gz.parquet",
+   "signatures_file": "signatures__news__news-dolma-0000.json.gz.npy",
+   "n_units": 126673,
+   "n_signatures": 126673,
+   "accounting_identity": true
+  },
+  {
+   "path": "stackexchange-dolma-0000.json.gz",
+   "units_file": "units__stackexchange__stackexchange-dolma-0000.json.gz.parquet",
+   "signatures_file": "signatures__stackexchange__stackexchange-dolma-0000.json.gz.npy",
+   "n_units": 863130,
+   "n_signatures": 863130,
+   "accounting_identity": true
+  },
+  {
+   "path": "stackexchange-dolma-0022.json.gz",
+   "units_file": "units__stackexchange__stackexchange-dolma-0022.json.gz.parquet",
+   "signatures_file": "signatures__stackexchange__stackexchange-dolma-0022.json.gz.npy",
+   "n_units": 723470,
+   "n_signatures": 723470,
+   "accounting_identity": true
+  },
+  {
+   "path": "project_gutenberg-dolma-0000.json.gz",
+   "units_file": "units__gutenberg__project_gutenberg-dolma-0000.json.gz.parquet",
+   "signatures_file": "signatures__gutenberg__project_gutenberg-dolma-0000.json.gz.npy",
+   "n_units": 4025,
+   "n_signatures": 4025,
+   "accounting_identity": true
+  },
+  {
+   "path": "project_gutenberg-dolma-0003.json.gz",
+   "units_file": "units__gutenberg__project_gutenberg-dolma-0003.json.gz.parquet",
+   "signatures_file": "signatures__gutenberg__project_gutenberg-dolma-0003.json.gz.npy",
+   "n_units": 4004,
+   "n_signatures": 4004,
+   "accounting_identity": true
+  },
+  {
+   "path": "project_gutenberg-dolma-0007.json.gz",
+   "units_file": "units__gutenberg__project_gutenberg-dolma-0007.json.gz.parquet",
+   "signatures_file": "signatures__gutenberg__project_gutenberg-dolma-0007.json.gz.npy",
+   "n_units": 3305,
+   "n_signatures": 3305,
+   "accounting_identity": true
+  },
+  {
+   "path": "project_gutenberg-dolma-0011.json.gz",
+   "units_file": "units__gutenberg__project_gutenberg-dolma-0011.json.gz.parquet",
+   "signatures_file": "signatures__gutenberg__project_gutenberg-dolma-0011.json.gz.npy",
+   "n_units": 3966,
+   "n_signatures": 3966,
+   "accounting_identity": true
+  },
+  {
+   "path": "20231101.ar/train-00000-of-00007.parquet",
+   "units_file": "units__wikipedia__20231101.ar__train-00000-of-00007.parquet.parquet",
+   "signatures_file": "signatures__wikipedia__20231101.ar__train-00000-of-00007.parquet.npy",
+   "n_units": 174172,
+   "n_signatures": 174168,
+   "accounting_identity": true
+  },
+  {
+   "path": "20231101.de/train-00000-of-00020.parquet",
+   "units_file": "units__wikipedia__20231101.de__train-00000-of-00020.parquet.parquet",
+   "signatures_file": "signatures__wikipedia__20231101.de__train-00000-of-00020.parquet.npy",
+   "n_units": 142266,
+   "n_signatures": 142266,
+   "accounting_identity": true
+  },
+  {
+   "path": "20231101.en/train-00000-of-00041.parquet",
+   "units_file": "units__wikipedia__20231101.en__train-00000-of-00041.parquet.parquet",
+   "signatures_file": "signatures__wikipedia__20231101.en__train-00000-of-00041.parquet.npy",
+   "n_units": 156289,
+   "n_signatures": 156262,
+   "accounting_identity": true
+  },
+  {
+   "path": "20231101.ja/train-00000-of-00015.parquet",
+   "units_file": "units__wikipedia__20231101.ja__train-00000-of-00015.parquet.parquet",
+   "signatures_file": "signatures__wikipedia__20231101.ja__train-00000-of-00015.parquet.npy",
+   "n_units": 92632,
+   "n_signatures": 92628,
+   "accounting_identity": true
+  },
+  {
+   "path": "20231101.ru/train-00000-of-00021.parquet",
+   "units_file": "units__wikipedia__20231101.ru__train-00000-of-00021.parquet.parquet",
+   "signatures_file": "signatures__wikipedia__20231101.ru__train-00000-of-00021.parquet.npy",
+   "n_units": 92623,
+   "n_signatures": 92623,
+   "accounting_identity": true
+  },
+  {
+   "path": "20231101.zh/train-00000-of-00006.parquet",
+   "units_file": "units__wikipedia__20231101.zh__train-00000-of-00006.parquet.parquet",
+   "signatures_file": "signatures__wikipedia__20231101.zh__train-00000-of-00006.parquet.npy",
+   "n_units": 230792,
+   "n_signatures": 230790,
+   "accounting_identity": true
+  }
+ ],
+ "counts_per_file": {
+  "news-dolma-0000.json.gz": {
+   "physical_lines": 126673,
+   "unparseable_lines": 0,
+   "parsed_records": 126673
+  },
+  "stackexchange-dolma-0000.json.gz": {
+   "physical_lines": 863130,
+   "unparseable_lines": 0,
+   "parsed_records": 863130
+  },
+  "stackexchange-dolma-0022.json.gz": {
+   "physical_lines": 723470,
+   "unparseable_lines": 0,
+   "parsed_records": 723470
+  },
+  "project_gutenberg-dolma-0000.json.gz": {
+   "physical_lines": 4025,
+   "unparseable_lines": 0,
+   "parsed_records": 4025
+  },
+  "project_gutenberg-dolma-0003.json.gz": {
+   "physical_lines": 4004,
+   "unparseable_lines": 0,
+   "parsed_records": 4004
+  },
+  "project_gutenberg-dolma-0007.json.gz": {
+   "physical_lines": 3305,
+   "unparseable_lines": 0,
+   "parsed_records": 3305
+  },
+  "project_gutenberg-dolma-0011.json.gz": {
+   "physical_lines": 3966,
+   "unparseable_lines": 0,
+   "parsed_records": 3966
+  },
+  "20231101.ar/train-00000-of-00007.parquet": {
+   "physical_lines": 174172,
+   "unparseable_lines": 0,
+   "parsed_records": 174172,
+   "footer_rows": 174172
+  },
+  "20231101.de/train-00000-of-00020.parquet": {
+   "physical_lines": 142266,
+   "unparseable_lines": 0,
+   "parsed_records": 142266,
+   "footer_rows": 142266
+  },
+  "20231101.en/train-00000-of-00041.parquet": {
+   "physical_lines": 156289,
+   "unparseable_lines": 0,
+   "parsed_records": 156289,
+   "footer_rows": 156289
+  },
+  "20231101.ja/train-00000-of-00015.parquet": {
+   "physical_lines": 92632,
+   "unparseable_lines": 0,
+   "parsed_records": 92632,
+   "footer_rows": 92632
+  },
+  "20231101.ru/train-00000-of-00021.parquet": {
+   "physical_lines": 92623,
+   "unparseable_lines": 0,
+   "parsed_records": 92623,
+   "footer_rows": 92623
+  },
+  "20231101.zh/train-00000-of-00006.parquet": {
+   "physical_lines": 230792,
+   "unparseable_lines": 0,
+   "parsed_records": 230792,
+   "footer_rows": 230792
+  }
+ },
+ "tokenizers": {
+  "llama": [
+   "meta-llama/Llama-3.2-1B",
+   "4e20de362430cd3b72f300e6b0f18e50e7166e08"
+  ],
+  "qwen": [
+   "Qwen/Qwen2.5-1.5B",
+   "8faed761d45a263340a0528343f099c05c9a4323"
+  ]
+ },
+ "tok_cap_chars": {
+  "news": 12000,
+  "stackexchange": 12000,
+  "wikipedia": 12000,
+  "gutenberg": 24000
+ },
+ "shingle_caps": {
+  "word": 20000,
+  "char": 8000
+ },
+ "tokenizer_provenance": {
+  "llama": {
+   "repo": "meta-llama/Llama-3.2-1B",
+   "revision": "4e20de362430cd3b72f300e6b0f18e50e7166e08",
+   "files_sha256": {
+    "tokenizer.json": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+    "tokenizer_config.json": "8004530facf809ac432114de2a4dcc65fcb632da5ec16d666091aeb6a2ee444a",
+    "special_tokens_map.json": "cc2e013b7545f183ef03e079a3c91c6f364fa37e4068c512d7dd843e59024535"
+   },
+   "vocab_size": 128256,
+   "add_special_tokens": false,
+   "note": "counts are of the capped character prefix (TOK_CAP) without special tokens; tok_censored marks truncation"
+  },
+  "qwen": {
+   "repo": "Qwen/Qwen2.5-1.5B",
+   "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+   "files_sha256": {
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "tokenizer_config.json": "c91efca15ceff6e9ee9424db58a6f59cd41294e550a86cbd07e3c1fb500b34f9"
+   },
+   "vocab_size": 151665,
+   "add_special_tokens": false,
+   "note": "counts are of the capped character prefix (TOK_CAP) without special tokens; tok_censored marks truncation"
+  }
+ },
+ "licence_allowlist": {
+  "labels": {
+   "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/": "cc-by-4.0",
+   "Creative Commons - Attribution Share-Alike - https://creativecommons.org/licenses/by-sa/2.5/": "cc-by-sa-2.5",
+   "Creative Commons - Attribution Share-Alike - https://creativecommons.org/licenses/by-sa/3.0/": "cc-by-sa-3.0",
+   "Creative Commons - Attribution Share-Alike - https://creativecommons.org/licenses/by-sa/4.0/": "cc-by-sa-4.0",
+   "Public Domain": "public-domain"
+  },
+  "wikipedia_label": "project:CC BY-SA 3.0/4.0 + GFDL (inherited)",
+  "allowed_identities": [
+   "cc-by-4.0",
+   "cc-by-sa-2.5",
+   "cc-by-sa-3.0",
+   "cc-by-sa-4.0",
+   "public-domain"
+  ]
+ },
+ "minhash": {
+  "n_perm": 128,
+  "seed": 20261009,
+  "hash": "CPython str.hash with PYTHONHASHSEED=20261009; h_i(x) = ((a_i x + b_i) mod 2^64) >> 32",
+  "domain": "candidate generation only: shingles of the normalised-text prefix (SHINGLE_CAP); confirmation uses exact Jaccard on the full normalised text (corpora_partition.py)"
+ },
+ "lsh": {
+  "bands": 16,
+  "rows": 8
+ },
+ "book_skip_tokens": 1000,
+ "seconds": 1264
+}

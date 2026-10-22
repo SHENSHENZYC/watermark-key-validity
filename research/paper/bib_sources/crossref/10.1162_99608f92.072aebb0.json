@@ -1,0 +1,185 @@
+{
+ "_projection": "A projection of the API response for the public record (R13 F10): nothing (this response carries no third-party text body) removed and kept in the private record under research/paper/bib_sources/raw_responses/, which the public snapshot excludes; every other field is verbatim.",
+ "message": {
+  "DOI": "10.1162/99608f92.072aebb0",
+  "URL": "https://doi.org/10.1162/99608f92.072aebb0",
+  "author": [
+   {
+    "affiliation": [
+     {
+      "name": "University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+     }
+    ],
+    "family": "Xie",
+    "given": "Yangxinyu",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+     }
+    ],
+    "family": "Chen",
+    "given": "Xuyang",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+     }
+    ],
+    "family": "Ren",
+    "given": "Zhimei",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+     }
+    ],
+    "family": "Su",
+    "given": "Weijie J.",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   }
+  ],
+  "container-title": [
+   "Harvard Data Science Review"
+  ],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": []
+  },
+  "created": {
+   "date-parts": [
+    [
+     2026,
+     1,
+     21
+    ]
+   ],
+   "date-time": "2026-01-21T20:09:21Z",
+   "timestamp": 1769026161000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     2,
+     18
+    ]
+   ],
+   "date-time": "2026-02-18T17:37:12Z",
+   "timestamp": 1771436232000
+  },
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     2,
+     18
+    ]
+   ],
+   "date-time": "2026-02-18T18:16:52Z",
+   "timestamp": 1771438612223,
+   "version": "3.50.1"
+  },
+  "is-referenced-by-count": 0,
+  "issue": "1",
+  "issue-title": [
+   "Issue 8.1, Winter 2026"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     2,
+     18
+    ]
+   ]
+  },
+  "journal-issue": {
+   "issue": "1",
+   "published-online": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      29
+     ]
+    ]
+   }
+  },
+  "language": "en",
+  "member": "281",
+  "original-title": [],
+  "prefix": "10.1162",
+  "published": {
+   "date-parts": [
+    [
+     2026,
+     2,
+     18
+    ]
+   ]
+  },
+  "published-online": {
+   "date-parts": [
+    [
+     2026,
+     2,
+     18
+    ]
+   ]
+  },
+  "publisher": "MIT Press",
+  "reference-count": 0,
+  "references-count": 0,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://hdsr.mitpress.mit.edu/pub/ifxlo12v"
+   }
+  },
+  "score": 1,
+  "short-container-title": [],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "Watermark in the Classroom: A Conformal Framework for Adaptive AI Usage Detection"
+  ],
+  "type": "journal-article",
+  "volume": "8"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

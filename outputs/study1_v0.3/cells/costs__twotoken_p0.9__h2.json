@@ -1,0 +1,205 @@
+{
+ "tag": "twotoken_p0.9__h2",
+ "n_tuples": 8,
+ "n_contexts": 4,
+ "N": 4000,
+ "L_max": 1024,
+ "build_seconds": 0.8,
+ "colourings": [
+  {
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 2000,
+   "seconds": 0.0
+  },
+  {
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 2000,
+   "seconds": 0.0
+  }
+ ],
+ "cells": [
+  {
+   "file": "twotoken_p0.9__h2__independent__g0.5__L64__raw.json",
+   "L": 64,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 2000,
+   "nnz": 25938,
+   "seconds": 0.7
+  },
+  {
+   "file": "twotoken_p0.9__h2__independent__g0.5__L64__distinct.json",
+   "L": 64,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 2000,
+   "nnz": 25938,
+   "seconds": 0.7
+  },
+  {
+   "file": "twotoken_p0.9__h2__independent__g0.5__L64__first.json",
+   "L": 64,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 2000,
+   "nnz": 15928,
+   "seconds": 0.7
+  },
+  {
+   "file": "twotoken_p0.9__h2__independent__g0.5__L256__raw.json",
+   "L": 256,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 2000,
+   "nnz": 29697,
+   "seconds": 0.7
+  },
+  {
+   "file": "twotoken_p0.9__h2__independent__g0.5__L256__distinct.json",
+   "L": 256,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 2000,
+   "nnz": 29697,
+   "seconds": 0.7
+  },
+  {
+   "file": "twotoken_p0.9__h2__independent__g0.5__L256__first.json",
+   "L": 256,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 2000,
+   "nnz": 16000,
+   "seconds": 0.7
+  },
+  {
+   "file": "twotoken_p0.9__h2__independent__g0.5__L1024__raw.json",
+   "L": 1024,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 2000,
+   "nnz": 31942,
+   "seconds": 0.7
+  },
+  {
+   "file": "twotoken_p0.9__h2__independent__g0.5__L1024__distinct.json",
+   "L": 1024,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 2000,
+   "nnz": 31942,
+   "seconds": 0.7
+  },
+  {
+   "file": "twotoken_p0.9__h2__independent__g0.5__L1024__first.json",
+   "L": 1024,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 2000,
+   "nnz": 16000,
+   "seconds": 0.7
+  },
+  {
+   "file": "twotoken_p0.9__h2__fixed__g0.5__L64__raw.json",
+   "L": 64,
+   "rule": "raw",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 2000,
+   "nnz": 25938,
+   "seconds": 0.7
+  },
+  {
+   "file": "twotoken_p0.9__h2__fixed__g0.5__L64__distinct.json",
+   "L": 64,
+   "rule": "distinct",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 2000,
+   "nnz": 25938,
+   "seconds": 0.7
+  },
+  {
+   "file": "twotoken_p0.9__h2__fixed__g0.5__L64__first.json",
+   "L": 64,
+   "rule": "first",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 2000,
+   "nnz": 15928,
+   "seconds": 0.7
+  },
+  {
+   "file": "twotoken_p0.9__h2__fixed__g0.5__L256__raw.json",
+   "L": 256,
+   "rule": "raw",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 2000,
+   "nnz": 29697,
+   "seconds": 0.7
+  },
+  {
+   "file": "twotoken_p0.9__h2__fixed__g0.5__L256__distinct.json",
+   "L": 256,
+   "rule": "distinct",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 2000,
+   "nnz": 29697,
+   "seconds": 0.7
+  },
+  {
+   "file": "twotoken_p0.9__h2__fixed__g0.5__L256__first.json",
+   "L": 256,
+   "rule": "first",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 2000,
+   "nnz": 16000,
+   "seconds": 0.7
+  },
+  {
+   "file": "twotoken_p0.9__h2__fixed__g0.5__L1024__raw.json",
+   "L": 1024,
+   "rule": "raw",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 2000,
+   "nnz": 31942,
+   "seconds": 0.7
+  },
+  {
+   "file": "twotoken_p0.9__h2__fixed__g0.5__L1024__distinct.json",
+   "L": 1024,
+   "rule": "distinct",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 2000,
+   "nnz": 31942,
+   "seconds": 0.7
+  },
+  {
+   "file": "twotoken_p0.9__h2__fixed__g0.5__L1024__first.json",
+   "L": 1024,
+   "rule": "first",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 2000,
+   "nnz": 16000,
+   "seconds": 0.7
+  }
+ ],
+ "chain_seconds": 13.1
+}

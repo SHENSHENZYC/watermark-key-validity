@@ -1,0 +1,32 @@
+{
+ "study": "study1_v0.3",
+ "date": "2026-10-10",
+ "approved_by": "Yichen",
+ "before_outcomes": true,
+ "final": false,
+ "grid": "research/study1/grid_v0.3.json",
+ "protocol": "research/STUDY1_PROTOCOL_v0.3.md",
+ "validation": "outputs/study1_v0.3/VALIDATION.json",
+ "hashes": {
+  "outputs/study1_v0.3/VALIDATION.json": "bddc40b57a58113088c957cca9dbd6082f3636b5e3e6d558f961b1e99a0634c2",
+  "research/STUDY1_PROTOCOL_v0.3.md": "0df505ef7597d4c72f884d09714621b1985604cfef3c4097a2671b4e3d556ea8",
+  "research/study1/grid_v0.3.json": "9e3474adfe098294018982ebfb787da76769fe2e992eb41ec1e1364d16544cb5",
+  "research/study1/s1_analyze.py": "1a2e801986b5faa91bdb14cae5ded4fe0328efedbedc64b0658ce13be65c6f58",
+  "research/study1/s1_core.py": "69a18a98481122e18fee8c46c00c601f0ceb233abbceb9a98406c40bef9105ae",
+  "research/study1/s1_run.py": "f86470aa83608688f97ddf2507f9e86d51fd9b1249dde8d5681c1e99ae3d44dc",
+  "research/study1/s1_validate.py": "bc1442837e411a213916fb20cc5952e8ab5fee02034aa5c2ecd59422512039c3",
+  "tools/key_policy.py": "b1fe47d7c6721b5024eaa03400daf43b16e4fcde0e34942a7e4bb8209d9d8ec4"
+ },
+ "review": {
+  "checkpoint": "R03",
+  "resolution": "research/reviews/R03_study1-protocol/RESOLUTION.md",
+  "sha256": "c2c5dc96a54cad187762e81b76fc6891a3c42ed271b5f627695097c5e4457547"
+ },
+ "keys": {
+  "production_start": 20000,
+  "K": 500,
+  "K_fixed_core": 200
+ },
+ "note": "Written on Yichen's 'lock and run' (2026-10-10) after checkpoint R03's AGREE at round 4. No study cell existed. The run reads this lock; the analyzer verifies it; cells carry its digest.",
+ "written_utc": "2026-10-10T03:15:35Z"
+}

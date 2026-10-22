@@ -1,0 +1,199 @@
+{
+ "tag": "zipf_V50000_s1.0__h3",
+ "n_tuples": 8078263,
+ "n_contexts": 7225736,
+ "N": 4000,
+ "L_max": 2048,
+ "build_seconds": 3.5,
+ "colourings": [
+  {
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "seconds": 22.4
+  }
+ ],
+ "cells": [
+  {
+   "file": "zipf_V50000_s1.0__h3__independent__g0.5__L64__raw.json",
+   "L": 64,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 243999,
+   "seconds": 7.7
+  },
+  {
+   "file": "zipf_V50000_s1.0__h3__independent__g0.5__L64__distinct.json",
+   "L": 64,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 243999,
+   "seconds": 7.8
+  },
+  {
+   "file": "zipf_V50000_s1.0__h3__independent__g0.5__L64__first.json",
+   "L": 64,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 243973,
+   "seconds": 7.6
+  },
+  {
+   "file": "zipf_V50000_s1.0__h3__independent__g0.5__L128__raw.json",
+   "L": 128,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 499995,
+   "seconds": 7.8
+  },
+  {
+   "file": "zipf_V50000_s1.0__h3__independent__g0.5__L128__distinct.json",
+   "L": 128,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 499995,
+   "seconds": 7.6
+  },
+  {
+   "file": "zipf_V50000_s1.0__h3__independent__g0.5__L128__first.json",
+   "L": 128,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 499909,
+   "seconds": 7.6
+  },
+  {
+   "file": "zipf_V50000_s1.0__h3__independent__g0.5__L256__raw.json",
+   "L": 256,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 1011991,
+   "seconds": 8.2
+  },
+  {
+   "file": "zipf_V50000_s1.0__h3__independent__g0.5__L256__distinct.json",
+   "L": 256,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 1011991,
+   "seconds": 8.1
+  },
+  {
+   "file": "zipf_V50000_s1.0__h3__independent__g0.5__L256__first.json",
+   "L": 256,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 1011683,
+   "seconds": 8.1
+  },
+  {
+   "file": "zipf_V50000_s1.0__h3__independent__g0.5__L512__raw.json",
+   "L": 512,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 2035977,
+   "seconds": 9.4
+  },
+  {
+   "file": "zipf_V50000_s1.0__h3__independent__g0.5__L512__distinct.json",
+   "L": 512,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 2035977,
+   "seconds": 9.4
+  },
+  {
+   "file": "zipf_V50000_s1.0__h3__independent__g0.5__L512__first.json",
+   "L": 512,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 2034836,
+   "seconds": 9.4
+  },
+  {
+   "file": "zipf_V50000_s1.0__h3__independent__g0.5__L1024__raw.json",
+   "L": 1024,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 4083929,
+   "seconds": 11.9
+  },
+  {
+   "file": "zipf_V50000_s1.0__h3__independent__g0.5__L1024__distinct.json",
+   "L": 1024,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 4083929,
+   "seconds": 11.9
+  },
+  {
+   "file": "zipf_V50000_s1.0__h3__independent__g0.5__L1024__first.json",
+   "L": 1024,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 4079818,
+   "seconds": 11.8
+  },
+  {
+   "file": "zipf_V50000_s1.0__h3__independent__g0.5__L2048__raw.json",
+   "L": 2048,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 8179726,
+   "seconds": 16.7
+  },
+  {
+   "file": "zipf_V50000_s1.0__h3__independent__g0.5__L2048__distinct.json",
+   "L": 2048,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 8179726,
+   "seconds": 16.4
+  },
+  {
+   "file": "zipf_V50000_s1.0__h3__independent__g0.5__L2048__first.json",
+   "L": 2048,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 8165264,
+   "seconds": 16.4
+  }
+ ],
+ "chain_seconds": 209.8
+}

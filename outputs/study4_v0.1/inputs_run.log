@@ -1,0 +1,17 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9757.55it/s]
+2026-10-16T15:52:22Z pilot law kgw_h1_d0.5 on news_en_256: 512 texts in 444.7s; flags ok True; power@0.01 raw@256 0.670
+2026-10-16T15:59:45Z pilot law kgw_h1_d0.5 on wikipedia_en_256: 512 texts in 443.2s; flags ok True; power@0.01 raw@256 0.512
+2026-10-16T16:07:09Z pilot law kgw_h1_d0.5 on stackexchange_en_256: 512 texts in 444.0s; flags ok True; power@0.01 raw@256 0.580
+2026-10-16T16:14:39Z pilot law kgw_h1_d2.0 on news_en_256: 512 texts in 449.7s; flags ok True; power@0.01 raw@256 1.000
+2026-10-16T16:22:05Z pilot law kgw_h1_d2.0 on wikipedia_en_256: 512 texts in 445.9s; flags ok True; power@0.01 raw@256 0.996
+2026-10-16T16:29:34Z pilot law kgw_h1_d2.0 on stackexchange_en_256: 512 texts in 448.7s; flags ok True; power@0.01 raw@256 1.000
+2026-10-16T16:37:39Z pilot law kgw_h2_d0.5 on news_en_256: 512 texts in 485.6s; flags ok True; power@0.01 raw@256 0.658
+2026-10-16T16:45:41Z pilot law kgw_h2_d0.5 on wikipedia_en_256: 512 texts in 481.7s; flags ok True; power@0.01 raw@256 0.471
+2026-10-16T16:53:45Z pilot law kgw_h2_d0.5 on stackexchange_en_256: 512 texts in 484.5s; flags ok True; power@0.01 raw@256 0.502
+2026-10-16T16:53:45Z W1 tolerance news_en_256: predicted median 15.23 pp; cluster SE 2.58 pp; tolerance 5.16 pp
+2026-10-16T16:53:45Z W1 tolerance wikipedia_en_256: predicted median 20.12 pp; cluster SE 3.17 pp; tolerance 6.34 pp
+2026-10-16T16:53:45Z W1 tolerance stackexchange_en_256: predicted median 25.00 pp; cluster SE 2.88 pp; tolerance 5.77 pp
+2026-10-16T16:55:16Z human reference news_en_256: ppl 11.63 (0 tokens were excluded ids)
+2026-10-16T16:56:48Z human reference wikipedia_en_256: ppl 9.50 (0 tokens were excluded ids)
+2026-10-16T16:58:19Z human reference stackexchange_en_256: ppl 8.93 (0 tokens were excluded ids)
+DONE 4401.5 s; peak RSS 0.8

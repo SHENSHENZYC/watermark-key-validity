@@ -1,0 +1,72 @@
+{
+ "_projection": "A projection of the API response for the public record (R13 F10): files[].patch of proposal/proposal.tex (26629 characters) removed and kept in the private record under research/paper/bib_sources/raw_responses/, which the public snapshot excludes; every other field is verbatim.",
+ "author": null,
+ "comments_url": "https://api.github.com/repos/katcinskiy/keylottery/commits/8ebb6b4f52927d0adbe9084d53ba49f3f825d6eb/comments",
+ "commit": {
+  "author": {
+   "date": "2026-10-20T16:25:20Z",
+   "email": "alexander.yukhimchuk@mbzuai.ac.ae",
+   "name": "Alexander Yukhimchuk"
+  },
+  "comment_count": 0,
+  "committer": {
+   "date": "2026-10-20T16:25:20Z",
+   "email": "alexander.yukhimchuk@mbzuai.ac.ae",
+   "name": "Alexander Yukhimchuk"
+  },
+  "message": "Proposal: plain wording instead of internal process jargon\n\nDrop internal hypothesis labels and dates; \"pilot\" becomes \"preliminary\nexperiment\"; \"pre-registered\" is kept only in the falsification section.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+  "tree": {
+   "sha": "b367a136bb639e4260d728f3ae9fde4749e3cbda",
+   "url": "https://api.github.com/repos/katcinskiy/keylottery/git/trees/b367a136bb639e4260d728f3ae9fde4749e3cbda"
+  },
+  "url": "https://api.github.com/repos/katcinskiy/keylottery/git/commits/8ebb6b4f52927d0adbe9084d53ba49f3f825d6eb",
+  "verification": {
+   "payload": null,
+   "reason": "unsigned",
+   "signature": null,
+   "verified": false,
+   "verified_at": null
+  }
+ },
+ "committer": null,
+ "files": [
+  {
+   "additions": 0,
+   "blob_url": "https://github.com/katcinskiy/keylottery/blob/8ebb6b4f52927d0adbe9084d53ba49f3f825d6eb/proposal%2Fproposal.pdf",
+   "changes": 0,
+   "contents_url": "https://api.github.com/repos/katcinskiy/keylottery/contents/proposal%2Fproposal.pdf?ref=8ebb6b4f52927d0adbe9084d53ba49f3f825d6eb",
+   "deletions": 0,
+   "filename": "proposal/proposal.pdf",
+   "raw_url": "https://github.com/katcinskiy/keylottery/raw/8ebb6b4f52927d0adbe9084d53ba49f3f825d6eb/proposal%2Fproposal.pdf",
+   "sha": "a0efa32776f76757016d459407cceee3ed59b0a4",
+   "status": "modified"
+  },
+  {
+   "additions": 12,
+   "blob_url": "https://github.com/katcinskiy/keylottery/blob/8ebb6b4f52927d0adbe9084d53ba49f3f825d6eb/proposal%2Fproposal.tex",
+   "changes": 24,
+   "contents_url": "https://api.github.com/repos/katcinskiy/keylottery/contents/proposal%2Fproposal.tex?ref=8ebb6b4f52927d0adbe9084d53ba49f3f825d6eb",
+   "deletions": 12,
+   "filename": "proposal/proposal.tex",
+   "raw_url": "https://github.com/katcinskiy/keylottery/raw/8ebb6b4f52927d0adbe9084d53ba49f3f825d6eb/proposal%2Fproposal.tex",
+   "sha": "5d5c6a68816805f896d4ca91c1389a786eb99047",
+   "status": "modified"
+  }
+ ],
+ "html_url": "https://github.com/katcinskiy/keylottery/commit/8ebb6b4f52927d0adbe9084d53ba49f3f825d6eb",
+ "node_id": "C_kwDOVRDOQNoAKDhlYmI2YjRmNTI5MjdkMGFkYmU5MDg0ZDUzYmE0OWYzZjgyNWQ2ZWI",
+ "parents": [
+  {
+   "html_url": "https://github.com/katcinskiy/keylottery/commit/1727e8bfd8ac2fcfb69d57679124efd7ef76d6e2",
+   "sha": "1727e8bfd8ac2fcfb69d57679124efd7ef76d6e2",
+   "url": "https://api.github.com/repos/katcinskiy/keylottery/commits/1727e8bfd8ac2fcfb69d57679124efd7ef76d6e2"
+  }
+ ],
+ "sha": "8ebb6b4f52927d0adbe9084d53ba49f3f825d6eb",
+ "stats": {
+  "additions": 12,
+  "deletions": 12,
+  "total": 24
+ },
+ "url": "https://api.github.com/repos/katcinskiy/keylottery/commits/8ebb6b4f52927d0adbe9084d53ba49f3f825d6eb"
+}

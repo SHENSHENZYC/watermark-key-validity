@@ -1,0 +1,302 @@
+{
+ "_projection": "A projection of the API response for the public record (R13 F10): message.abstract (1027 characters) removed and kept in the private record under research/paper/bib_sources/raw_responses/, which the public snapshot excludes; every other field is verbatim.",
+ "message": {
+  "DOI": "10.1214/23-ejs2145",
+  "ISSN": [
+   "1935-7524",
+   "1935-7524"
+  ],
+  "URL": "https://doi.org/10.1214/23-ejs2145",
+  "author": [
+   {
+    "affiliation": [
+     {
+      "name": "Department of Statistics, University of Chicago"
+     }
+    ],
+    "family": "Bian",
+    "given": "Michael",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Department of Statistics, University of Chicago"
+     }
+    ],
+    "family": "Barber",
+    "given": "Rina Foygel",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   }
+  ],
+  "container-title": [
+   "Electronic Journal of Statistics"
+  ],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": []
+  },
+  "created": {
+   "date-parts": [
+    [
+     2023,
+     9,
+     6
+    ]
+   ],
+   "date-time": "2023-09-06T05:17:24Z",
+   "timestamp": 1693977444000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     7
+    ]
+   ],
+   "date-time": "2026-10-07T19:02:34Z",
+   "timestamp": 1791399754000
+  },
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     7
+    ]
+   ],
+   "date-time": "2026-10-07T19:52:45Z",
+   "timestamp": 1791402765596,
+   "version": "4.3.3"
+  },
+  "is-referenced-by-count": 7,
+  "issn-type": [
+   {
+    "type": "print",
+    "value": "1935-7524"
+   },
+   {
+    "type": "electronic",
+    "value": "1935-7524"
+   }
+  ],
+  "issue": "2",
+  "issued": {
+   "date-parts": [
+    [
+     2023,
+     1,
+     1
+    ]
+   ]
+  },
+  "journal-issue": {
+   "issue": "2",
+   "published-online": {
+    "date-parts": [
+     [
+      2023,
+      1,
+      1
+     ]
+    ]
+   }
+  },
+  "member": "108",
+  "original-title": [],
+  "page": "2044-2066",
+  "prefix": "10.1214",
+  "published": {
+   "date-parts": [
+    [
+     2023,
+     1,
+     1
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     2023,
+     1,
+     1
+    ]
+   ]
+  },
+  "publisher": "Institute of Mathematical Statistics",
+  "reference": [
+   {
+    "key": "7",
+    "unstructured": "<small>Kivaranovic, D.</small>, <small>Johnson, K. D.</small> and <small>Leeb, H.</small> (2020). Adaptive, distribution-free prediction intervals for deep networks. In <i>International Conference on Artificial Intelligence and Statistics</i> 4346\u20134356. PMLR."
+   },
+   {
+    "DOI": "10.1080/01621459.2017.1307116",
+    "doi-asserted-by": "crossref",
+    "key": "9",
+    "unstructured": "<small>Lei, J.</small>, <small>G\u2019Sell, M.</small>, <small>Rinaldo, A.</small>, <small>Tibshirani, R. J.</small> and <small>Wasserman, L.</small> (2018). Distribution-free predictive inference for regression. <i>Journal of the American Statistical Association</i> <b>113</b> 1094\u20131111."
+   },
+   {
+    "key": "19",
+    "unstructured": "<small>Vovk, V.</small>, <small>Gammerman, A.</small> and <small>Shafer, G.</small> (2005). <i>Algorithmic learning in a random world</i>. Springer Science &amp; Business Media."
+   },
+   {
+    "key": "20",
+    "unstructured": "<small>Vovk, V.</small>, <small>Nouretdinov, I.</small>, <small>Manokhin, V.</small> and <small>Gammerman, A.</small> (2018). Cross-conformal predictive distributions. In <i>Conformal and Probabilistic Prediction and Applications</i> 37\u201351. PMLR."
+   },
+   {
+    "DOI": "10.1093/biomet/asz046",
+    "doi-asserted-by": "publisher",
+    "key": "8",
+    "unstructured": "<small>LEI, J.</small> (2019). Fast exact conformalization of the lasso using piecewise linear homotopy. <i>Biometrika</i> <b>106</b> 749\u2013764."
+   },
+   {
+    "DOI": "10.1093/biomet/asaa027",
+    "doi-asserted-by": "crossref",
+    "key": "21",
+    "unstructured": "<small>VOVK, V.</small> and <small>WANG, R.</small> (2020). Combining p-values via averaging. <i>Biometrika</i> <b>107</b> 791\u2013808."
+   },
+   {
+    "DOI": "10.1214/20-AOS1965",
+    "doi-asserted-by": "crossref",
+    "key": "1",
+    "unstructured": "<small>BARBER, R. F.</small>, <small>CAND\u00c8S, E. J.</small>, <small>RAMDAS, A.</small> and <small>TIBSHIRANI, R. J.</small> (2021). Predictive inference with the jackknife+. <i>The Annals of Statistics</i> <b>49</b> 486\u2013507."
+   },
+   {
+    "DOI": "10.1093/imaiai/iaaa017",
+    "doi-asserted-by": "crossref",
+    "key": "2",
+    "unstructured": "<small>BARBER, R. F.</small>, <small>CAND\u00c8S, E. J.</small>, <small>RAMDAS, A.</small> and <small>TIBSHIRANI, R. J.</small> (2021). The limits of distribution-free conditional predictive inference. <i>Information and Inference: A Journal of the IMA</i> <b>10</b> 455\u2013482."
+   },
+   {
+    "DOI": "10.1145/3478535",
+    "doi-asserted-by": "crossref",
+    "key": "3",
+    "unstructured": "<small>BATES, S.</small>, <small>ANGELOPOULOS, A.</small>, <small>LEI, L.</small>, <small>MALIK, J.</small> and <small>JORDAN, M.</small> (2021). Distribution-free, risk-controlling prediction sets. <i>Journal of the ACM (JACM)</i> <b>68</b> 1\u201334."
+   },
+   {
+    "DOI": "10.1007/978-1-4419-6950-7",
+    "doi-asserted-by": "crossref",
+    "key": "5",
+    "unstructured": "<small>DUDLEY, R. M.</small> and <small>NORVAI\u0160A, R.</small> (2011). <i>Concrete functional calculus</i>. Springer."
+   },
+   {
+    "DOI": "10.1214/21-AOS2133",
+    "doi-asserted-by": "crossref",
+    "key": "6",
+    "unstructured": "<small>HASTIE, T.</small>, <small>MONTANARI, A.</small>, <small>ROSSET, S.</small> and <small>TIBSHIRANI, R. J.</small> (2022). Surprises in high-dimensional ridgeless least squares interpolation. <i>The Annals of Statistics</i> <b>50</b> 949\u2013986."
+   },
+   {
+    "DOI": "10.1111/rssb.12021",
+    "doi-asserted-by": "crossref",
+    "key": "10",
+    "unstructured": "<small>LEI, J.</small> and <small>WASSERMAN, L.</small> (2014). Distribution-free prediction bands for non-parametric regression. <i>Journal of the Royal Statistical Society: Series B (Statistical Methodology)</i> <b>76</b> 71\u201396."
+   },
+   {
+    "DOI": "10.3233/IDA-150786",
+    "doi-asserted-by": "crossref",
+    "key": "11",
+    "unstructured": "<small>L\u00d6FSTR\u00d6M, T.</small>, <small>BOSTR\u00d6M, H.</small>, <small>LINUSSON, H.</small> and <small>JOHANSSON, U.</small> (2015). Bias reduction through conditional conformal prediction. <i>Intelligent Data Analysis</i> <b>19</b> 1355\u20131375."
+   },
+   {
+    "key": "12",
+    "unstructured": "<small>PARK, S.</small>, <small>DOBRIBAN, E.</small>, <small>LEE, I.</small> and <small>BASTANI, O.</small> (2022). PAC prediction sets under covariate shift. In <i>The 10th International Conference on Learning Representations, ICLR 2022</i>."
+   },
+   {
+    "key": "13",
+    "unstructured": "<small>PARK, S.</small>, <small>LI, S.</small>, <small>LEE, I.</small> and <small>BASTANI, O.</small> (2021). PAC confidence predictions for deep neural network classifiers. In <i>The 9th International Conference on Learning Representations, ICLR 2021</i>."
+   },
+   {
+    "DOI": "10.1093/jrsssb/qkad069",
+    "doi-asserted-by": "crossref",
+    "key": "14",
+    "unstructured": "<small>QIU, H.</small>, <small>DOBRIBAN, E.</small> and <small>TCHETGEN, E. T.</small> (2023). Prediction sets adaptive to unknown covariate shift. To appear in <i>Journal of the Royal Statistical Society Series B: Statistical Methodology</i>."
+   },
+   {
+    "DOI": "10.2307/1426677",
+    "doi-asserted-by": "crossref",
+    "key": "15",
+    "unstructured": "<small>R\u00dcSCHENDORF, L.</small> (1982). Random variables with maximum sums. <i>Advances in Applied Probability</i> <b>14</b> 623\u2013632."
+   },
+   {
+    "DOI": "10.1214/22-AOS2250",
+    "doi-asserted-by": "crossref",
+    "key": "16",
+    "unstructured": "<small>STEINBERGER, L.</small> and <small>LEEB, H.</small> (2023). Conditional predictive inference for stable algorithms. <i>The Annals of Statistics</i> <b>51(1)</b> 290\u2013311."
+   },
+   {
+    "key": "17",
+    "unstructured": "<small>VOVK, V.</small> (2012). Conditional validity of inductive conformal predictors. In <i>Asian conference on machine learning</i> 475\u2013490. PMLR."
+   },
+   {
+    "DOI": "10.1007/s10472-013-9368-4",
+    "doi-asserted-by": "crossref",
+    "key": "18",
+    "unstructured": "<small>VOVK, V.</small> (2015). Cross-conformal predictors. <i>Annals of Mathematics and Artificial Intelligence</i> <b>74</b> 9\u201328."
+   },
+   {
+    "DOI": "10.1214/aoms/1177731491",
+    "doi-asserted-by": "crossref",
+    "key": "22",
+    "unstructured": "<small>WALD, A.</small> (1943). An extension of Wilks\u2019 method for setting tolerance limits. <i>The Annals of Mathematical Statistics</i> <b>14</b> 45\u201355."
+   },
+   {
+    "DOI": "10.1214/aoms/1177731788",
+    "doi-asserted-by": "crossref",
+    "key": "23",
+    "unstructured": "<small>WILKS, S. S.</small> (1941). Determination of sample sizes for setting tolerance limits. <i>The Annals of Mathematical Statistics</i> <b>12</b> 91\u201396."
+   },
+   {
+    "key": "24",
+    "unstructured": "<small>YANG, Y.</small> and <small>KUCHIBHOTLA, A. K.</small> (2021). Finite-sample efficient conformal prediction. <i>arXiv preprint arXiv:</i><a href=\"https://arxiv.org/abs/2104.13871\">2104.13871</a>."
+   },
+   {
+    "key": "25",
+    "unstructured": "<small>YANG, Y.</small>, <small>KUCHIBHOTLA, A. K.</small> and <small>TCHETGEN, E. T.</small> (2022). Doubly Robust Calibration of Prediction Sets under Covariate Shift. <i>arXiv preprint arXiv:</i><a href=\"https://arxiv.org/abs/2203.01761\">2203.01761</a>."
+   },
+   {
+    "DOI": "10.1002/sta4.173",
+    "doi-asserted-by": "publisher",
+    "key": "4",
+    "unstructured": "<small>CHEN, W.</small>, <small>CHUN, K.-J.</small> and <small>BARBER, R. F.</small> (2018). Discretized conformal prediction for efficient distribution-free inference. <i>Stat</i> <b>7</b> e173."
+   }
+  ],
+  "reference-count": 25,
+  "references-count": 25,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-17/issue-2/Training-conditional-coverage-for-distribution-free-predictive-inference/10.1214/23-EJS2145.full"
+   }
+  },
+  "score": 1,
+  "short-container-title": [
+   "Electron. J. Statist."
+  ],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "Training-conditional coverage for distribution-free predictive inference"
+  ],
+  "type": "journal-article",
+  "volume": "17"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

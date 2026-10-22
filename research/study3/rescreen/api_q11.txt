@@ -1,0 +1,5 @@
+QUERY: id_list=2609.37310
+## AutoMark: Enabling Autoresearch to Discover Better LLM Watermarks
+2609.37310v1 | 2026-09-29 | Thibaud Gloaguen, Robin Staab, Martin Vechev
+With LLM watermarking being deployed commercially and now required by regulations, improving its reliability and effectiveness has become crucial. Yet, recent progress in the field of LLM watermarking has increasingly been driven by improving details of existing methods, an effort fundamentally limited by the pace of human researchers. In this work, we enable for the first time the autonomous disc
+

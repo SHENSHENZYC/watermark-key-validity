@@ -1,0 +1,312 @@
+{
+ "study": "study4_v0.1",
+ "decisions": "D12 scope A, D13 model and generations, D14 sizes M (Yichen, 2026-10-16 UTC)",
+ "model": {
+  "name": "qwen",
+  "repo": "Qwen/Qwen2.5-1.5B",
+  "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "license": "apache-2.0",
+  "tokenizer": "qwen",
+  "V": 151936,
+  "dtype": "bfloat16",
+  "device": "mps",
+  "weights_manifest": "outputs/study4_v0.1/model_manifest_qwen2.5-1.5b.json"
+ },
+ "record": {
+  "cells_dir": "outputs/study3_v0.1/cells",
+  "run_manifest": "outputs/study3_v0.1/RUN_MANIFEST.json",
+  "lock": "outputs/study3_v0.1/PRE_RUN_LOCK.json",
+  "grid": "research/study3/grid_v0.1.json",
+  "inventory_sha256": "c270ab818620c1f3189f83cb3095f1a7ed5b30064c9895f54e4e24b6f6c1733d",
+  "lock_sha256": "0e2889287d9d814166213e360766e93097de63401842516e3cb308056c666df6"
+ },
+ "keys": {
+  "K4": 100,
+  "subset_seed": 20261016,
+  "power_keys": [
+   23013,
+   23016,
+   23028,
+   23044,
+   23070,
+   23071,
+   23072,
+   23073,
+   23075,
+   23092,
+   23093,
+   23105,
+   23109,
+   23130,
+   23135,
+   23138,
+   23158,
+   23160,
+   23161,
+   23182,
+   23201,
+   23209,
+   23234,
+   23238,
+   23250,
+   23279,
+   23292,
+   23293,
+   23303,
+   23304,
+   23311,
+   23335,
+   23353,
+   23368,
+   23370,
+   23372,
+   23379,
+   23388,
+   23393,
+   23397,
+   23421,
+   23435,
+   23451,
+   23454,
+   23457,
+   23463,
+   23467,
+   23493,
+   23498,
+   23501,
+   23503,
+   23511,
+   23515,
+   23520,
+   23541,
+   23542,
+   23566,
+   23585,
+   23631,
+   23647,
+   23652,
+   23657,
+   23658,
+   23668,
+   23677,
+   23684,
+   23694,
+   23707,
+   23729,
+   23748,
+   23750,
+   23751,
+   23759,
+   23761,
+   23762,
+   23776,
+   23816,
+   23830,
+   23844,
+   23847,
+   23848,
+   23863,
+   23875,
+   23878,
+   23882,
+   23886,
+   23914,
+   23915,
+   23924,
+   23943,
+   23946,
+   23959,
+   23966,
+   23970,
+   23977,
+   23982,
+   23985,
+   23988,
+   23989,
+   23992
+  ],
+  "null_keys": [
+   23000,
+   23999
+  ],
+  "key_chunk_null": 8,
+  "validation_key_seed_start": 1000000
+ },
+ "prompts": {
+  "P": 64,
+  "L_human": 192,
+  "n_prod": 5000,
+  "n_watermarked": 50,
+  "manifest": "outputs/study4_v0.1/prompts_manifest.json",
+  "pilot_manifest": "outputs/study4_v0.1/pilot/prompts_manifest.json"
+ },
+ "cells": [
+  "news_en_256",
+  "wikipedia_en_256",
+  "stackexchange_en_256"
+ ],
+ "generation": {
+  "n_new": 256,
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "exclude_special_and_padding_ids": true,
+  "eos_suppressed": true,
+  "batch_watermarked": 50,
+  "batch_null": 50,
+  "sampler": "inverse-CDF multinomial in float64 with one PCG64 uniform per row and step (the first entry whose cumulative mass exceeds the uniform); the generator seeded by (int(sha256(unit name)[:8], 16) + the batch offset, 20261016) per unit"
+ },
+ "arms": [
+  {
+   "name": "kgw_h1_d0.5",
+   "family": "kgw",
+   "h": 1,
+   "delta": 0.5
+  },
+  {
+   "name": "kgw_h1_d2.0",
+   "family": "kgw",
+   "h": 1,
+   "delta": 2.0
+  },
+  {
+   "name": "kgw_h2_d0.5",
+   "family": "kgw",
+   "h": 2,
+   "delta": 0.5
+  }
+ ],
+ "primary_arm": "kgw_h1_d0.5",
+ "null_arm": {
+  "name": "none",
+  "n_texts": 5000,
+  "n_per_unit": 500,
+  "widths": [
+   0,
+   1,
+   2
+  ],
+  "families": [
+   "kgw",
+   "gumbel"
+  ]
+ },
+ "gamma": 0.25,
+ "rules": [
+  "raw",
+  "distinct"
+ ],
+ "lengths": [
+  64,
+  128,
+  256
+ ],
+ "primary_length": 256,
+ "alpha": [
+  0.01,
+  0.05,
+  0.001
+ ],
+ "primary_alpha": 0.01,
+ "beta": 0.05,
+ "delta_tol": 0.05,
+ "N_cal": [
+  500,
+  1000,
+  2000,
+  5000
+ ],
+ "methods_fixed": [
+  "nominal",
+  "multiplier20"
+ ],
+ "methods_scheme": [
+  "empirical",
+  "pooled"
+ ],
+ "methods_per_key": [
+  "conformal",
+  "tolerance"
+ ],
+ "primary_method": {
+  "method": "conformal",
+  "N_cal": 5000
+ },
+ "key_bootstrap_B": 200,
+ "W1": {
+  "arm": "kgw_h1_d0.5",
+  "rule": "raw",
+  "length": 256,
+  "alpha": 0.01,
+  "source": "diagonal",
+  "method": "conformal",
+  "N_cal": 5000,
+  "tolerance_pp": 5.0,
+  "min_consistent_cells": 2,
+  "pilot_law": {
+   "keys_start": 1000401,
+   "n_keys": 8,
+   "n_prompts": 64,
+   "salt": 20261018,
+   "cells": "each"
+  },
+  "max_inconsistent_cells": 0,
+  "tolerance_rule": "max(tolerance_pp, 2 x the key-and-prompt cluster-bootstrap SE of the predicted key-median, in pp, computed before the lock and recorded in INPUTS.json)"
+ },
+ "W2": {
+  "arm": "kgw_h1_d0.5",
+  "length": 256,
+  "alpha": 0.01,
+  "source": "diagonal",
+  "method": "conformal",
+  "N_cal": 5000,
+  "predicted_side": {
+   "raw": "below_1",
+   "distinct": "inside_band"
+  },
+  "band": [
+   0.6666666666666666,
+   1.5
+  ],
+  "min_agree_rows": 5,
+  "max_disagree_rows": 0,
+  "min_finite_resample_share": 0.9
+ },
+ "W3": {
+  "family": "kgw",
+  "widths": [
+   1,
+   2
+  ],
+  "rules": [
+   "raw",
+   "distinct"
+  ],
+  "method": "conformal",
+  "N_cal": [
+   1000,
+   5000
+  ],
+  "alpha": 0.01,
+  "length": 256,
+  "theory_share_min": 0.75,
+  "band": [
+   0.6666666666666666,
+   1.5
+  ],
+  "min_resolved": 30,
+  "min_consistent_share": 0.8
+ },
+ "integrity": {
+  "max_contract_failure_share": 0.05,
+  "loop_bar_rep4": 0.5
+ },
+ "stop": {
+  "max_hours_factor_over_projection": 2.0
+ },
+ "validation": {
+  "keys_start": 1000501,
+  "n_keys": 2,
+  "n_prompts": 50,
+  "null_n": 96
+ }
+}

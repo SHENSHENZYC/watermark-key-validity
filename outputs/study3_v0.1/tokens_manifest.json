@@ -1,0 +1,611 @@
+{
+ "study": "study3_v0.1",
+ "written_utc": "2026-10-14T00:29:13Z",
+ "L": 256,
+ "N_cal": 5000,
+ "N_eval": 10000,
+ "N_eval_gutenberg": 7122,
+ "seed_base": 20261012,
+ "study2_manifest": "outputs/study2_v0.1/tokens_manifest.json",
+ "study2_manifest_sha256": "07e8a00558234fdfc64922d6d6363f1ce158aece12d17249210a725f28494e3c",
+ "units_dir": "outputs/corpora_units_v0.3",
+ "units_version": "0.3",
+ "tokenizers": {
+  "llama": {
+   "repo": "meta-llama/Llama-3.2-1B",
+   "revision": "4e20de362430cd3b72f300e6b0f18e50e7166e08",
+   "V": 128256,
+   "note": "V = the model config's vocab_size (the dimension a KGW permutation acts on); len(tokenizer) = 128256",
+   "files_sha256": {
+    "tokenizer.json": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+    "tokenizer_config.json": "8004530facf809ac432114de2a4dcc65fcb632da5ec16d666091aeb6a2ee444a",
+    "special_tokens_map.json": "cc2e013b7545f183ef03e079a3c91c6f364fa37e4068c512d7dd843e59024535"
+   }
+  },
+  "qwen": {
+   "repo": "Qwen/Qwen2.5-1.5B",
+   "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+   "V": 151936,
+   "note": "V = the model config's vocab_size 151936 (the dimension a KGW permutation acts on); len(tokenizer) = 151665, so 271 ids never occur in text",
+   "files_sha256": {
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "tokenizer_config.json": "c91efca15ceff6e9ee9424db58a6f59cd41294e550a86cbd07e3c1fb500b34f9"
+   }
+  }
+ },
+ "book_skip_tokens": 1000,
+ "text_cap_chars": {
+  "news": 12000,
+  "stackexchange": 12000,
+  "wikipedia": 12000,
+  "gutenberg": 24000
+ },
+ "add_special_tokens": false,
+ "cells": {
+  "news_en_256": {
+   "pool_size": 37695,
+   "pool_sha256": "a16891041f949c619413d933b7bb0bce8bab5c09ad04c6f2c23fd4e6e94c3832",
+   "pool_counts": {
+    "open_representatives": 101153,
+    "eligible_llama": 37696,
+    "eligible_both": 37695
+   },
+   "seed": 3619899595,
+   "eval_n": 10000,
+   "eval_ids_sha256": "d563d7e58d39807ad1f3a516d71b2d66dd0fc5ddfde3df2bc1b2957b86a1b78e",
+   "cal_positions": [
+    10000,
+    14999
+   ],
+   "cal_skipped": 0,
+   "cal_ids_sha256": "81c5cb7c1288c5eed110e5a1ec82856da44d667fe801f5b05909bade141d6bcc",
+   "cell": "news/en@256",
+   "tag": "news_en_256",
+   "L_window_tokenised": 256,
+   "first_cal_ids": [
+    "https://educeleb.com/lagos-govt-organises-virtual-schools-debate-competition/",
+    "https://globalvoices.org/2016/10/17/whatsapp-and-viber-blocked-on-election-day-in-montenegro/",
+    "https://factly.in/there-is-no-player-with-the-name-david-dicks-associated-with-the-arsenal-football-club/"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study3_v0.1/tokens/news_en_256__llama__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "313641dc627eef0dda1b3aa06f281613e364f44c2a3eae9d5460dcc0fb1d45a2",
+     "max_id": 127986,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 850,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 43156
+    },
+    "qwen": {
+     "file": "outputs/study3_v0.1/tokens/news_en_256__qwen__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "3d26f9c5161e903e7ac9f7eff38cbb2cc7051e6df181cd8bd607eb501d9457a3",
+     "max_id": 151521,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 876,
+     "capped_prefix_tokens_min": 258,
+     "distinct_ids_in_window": 41086
+    }
+   }
+  },
+  "wikipedia_en_256": {
+   "pool_size": 95045,
+   "pool_sha256": "fd4ab4b7a799218b0483e5dba075a52880d5c6c8ff51673d018f229df570e69f",
+   "pool_counts": {
+    "open_representatives": 124725,
+    "eligible_llama": 95048,
+    "eligible_both": 95045
+   },
+   "seed": 830094426,
+   "eval_n": 10000,
+   "eval_ids_sha256": "f259504d9f478b743afa58578508991ca2eecace380189a2725b0ce8b5ea19cf",
+   "cal_positions": [
+    10000,
+    15577
+   ],
+   "cal_skipped": 578,
+   "cal_ids_sha256": "42f90fb9d96739788f51d03010cf2362d6806532005f31a6692e0fd2f0d7ef2d",
+   "cell": "wikipedia/en@256",
+   "tag": "wikipedia_en_256",
+   "L_window_tokenised": 256,
+   "first_cal_ids": [
+    "wiki:en:4149522",
+    "wiki:en:4957275",
+    "wiki:en:4172006"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study3_v0.1/tokens/wikipedia_en_256__llama__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "9a35b4a976a130c3cc2c9e8fcd8c5471d97c1315f74e07f1b56ffe516d5d819b",
+     "max_id": 127988,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 699,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 42747
+    },
+    "qwen": {
+     "file": "outputs/study3_v0.1/tokens/wikipedia_en_256__qwen__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "ad0848d6a63eda9579f206c41ea799bf25c574a451d68feada1a930c49fa20b5",
+     "max_id": 150829,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 735,
+     "capped_prefix_tokens_min": 257,
+     "distinct_ids_in_window": 41051
+    }
+   }
+  },
+  "stackexchange_en_256": {
+   "pool_size": 982004,
+   "pool_sha256": "a48d474601c5d2184ee138e09f184d076098fe52a85b48116518763585963e84",
+   "pool_counts": {
+    "open_representatives": 1254058,
+    "eligible_llama": 982015,
+    "eligible_both": 982004
+   },
+   "seed": 3457223252,
+   "eval_n": 10000,
+   "eval_ids_sha256": "e0cd859a72b98f1c3d230c31349e36401557da6c3cac21d519ab5e84802c2a9f",
+   "cal_positions": [
+    10000,
+    14999
+   ],
+   "cal_skipped": 0,
+   "cal_ids_sha256": "0d42b12c87a4c7f24e4fb944f4d09d37cf9f901c4ff0dcd54dc3e16463a63354",
+   "cell": "stackexchange/en@256",
+   "tag": "stackexchange_en_256",
+   "L_window_tokenised": 256,
+   "first_cal_ids": [
+    "https://askubuntu.com/questions/570999",
+    "https://aviation.stackexchange.com/questions/25781",
+    "https://stackoverflow.com/questions/32991716"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study3_v0.1/tokens/stackexchange_en_256__llama__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "997392a3d7fa5598af9038e831fb5a7c9cd7c8305e135d656881b6fae438ed14",
+     "max_id": 127988,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 576,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 44825
+    },
+    "qwen": {
+     "file": "outputs/study3_v0.1/tokens/stackexchange_en_256__qwen__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "1702fb5adeabd66bde88e6af125f968a48d01b997e8291945edf776f33bdd8c9",
+     "max_id": 150294,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 589,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 43381
+    }
+   }
+  },
+  "wikipedia_de_256": {
+   "pool_size": 100042,
+   "pool_sha256": "39e4455b64c5aed41a244dac928a19e3dcca2b664ec8ad1adc6391ab5aded862",
+   "pool_counts": {
+    "open_representatives": 113649,
+    "eligible_llama": 100065,
+    "eligible_both": 100042
+   },
+   "seed": 4110997187,
+   "eval_n": 10000,
+   "eval_ids_sha256": "a819838e8804cc84a3dff2f9528d8f8636b2482b1696bf7bbdcf97d5efa2498b",
+   "cal_positions": [
+    10000,
+    14999
+   ],
+   "cal_skipped": 0,
+   "cal_ids_sha256": "5bd3de95dc4e3fd8f61f110e2365f965a0cf552b7a5659f225b27955068f059d",
+   "cell": "wikipedia/de@256",
+   "tag": "wikipedia_de_256",
+   "L_window_tokenised": 256,
+   "first_cal_ids": [
+    "wiki:de:115542",
+    "wiki:de:241398",
+    "wiki:de:144167"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study3_v0.1/tokens/wikipedia_de_256__llama__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "b6b68c64726b9a2ed176ab99c4f806ec6e9ef0f9cb89329447553bb75204b174",
+     "max_id": 127988,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 1577,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 22550
+    },
+    "qwen": {
+     "file": "outputs/study3_v0.1/tokens/wikipedia_de_256__qwen__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "87ccab3991154b5acfebdc1e5db0986b2e1cd31afdd3abb577a504a78c5d1b3d",
+     "max_id": 150744,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 1638,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 21314
+    }
+   }
+  },
+  "wikipedia_ru_256": {
+   "pool_size": 62249,
+   "pool_sha256": "9d46e6ac7fef47f5ad0147102b06aca5b8b4ce028ac5a6a47d7c35617b88850e",
+   "pool_counts": {
+    "open_representatives": 74033,
+    "eligible_llama": 62249,
+    "eligible_both": 62249
+   },
+   "seed": 600419922,
+   "eval_n": 10000,
+   "eval_ids_sha256": "199faa8dbd3c4f7fb04a7722f053fe3adc8c7c98fdaa9da115445fe5b45f126e",
+   "cal_positions": [
+    10000,
+    14999
+   ],
+   "cal_skipped": 0,
+   "cal_ids_sha256": "a7345cc4211fb59b5c33fdb3f970efd515671613a9ef94c7c279c906b752531e",
+   "cell": "wikipedia/ru@256",
+   "tag": "wikipedia_ru_256",
+   "L_window_tokenised": 256,
+   "first_cal_ids": [
+    "wiki:ru:107485",
+    "wiki:ru:107723",
+    "wiki:ru:175490"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study3_v0.1/tokens/wikipedia_ru_256__llama__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "4d9756bbd7e53beca245b268d3fce757e296856f4b724478f8b742c2ca3afff9",
+     "max_id": 127997,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 1374,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 13237
+    },
+    "qwen": {
+     "file": "outputs/study3_v0.1/tokens/wikipedia_ru_256__qwen__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "ed7aaa9b482c5bea1d513b1d1ae9f2a5b040f738550bb6137aedf9da0fe917ac",
+     "max_id": 150814,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 1551,
+     "capped_prefix_tokens_min": 279,
+     "distinct_ids_in_window": 10361
+    }
+   }
+  },
+  "wikipedia_ar_256": {
+   "pool_size": 84999,
+   "pool_sha256": "f0b445521e941e89bfcca117e3b7c71b9a60117433f726442e7a5b3b76701b21",
+   "pool_counts": {
+    "open_representatives": 135529,
+    "eligible_llama": 85264,
+    "eligible_both": 84999
+   },
+   "seed": 1203591029,
+   "eval_n": 10000,
+   "eval_ids_sha256": "f8c7826471bea4a9d1c89a58ad4acac26b8123cfbd3b2fe26855f3ebe9794997",
+   "cal_positions": [
+    10000,
+    14999
+   ],
+   "cal_skipped": 0,
+   "cal_ids_sha256": "ef83341c3386feefdbcbba21cb426c865e79a33b62964bd853362b83ba351797",
+   "cell": "wikipedia/ar@256",
+   "tag": "wikipedia_ar_256",
+   "L_window_tokenised": 256,
+   "first_cal_ids": [
+    "wiki:ar:362640",
+    "wiki:ar:286522",
+    "wiki:ar:276045"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study3_v0.1/tokens/wikipedia_ar_256__llama__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "e7daa548b6a4e46ef7074106355f5679d1a2a0dca8413fc22eafe5936b09c894",
+     "max_id": 127996,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 794,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 10203
+    },
+    "qwen": {
+     "file": "outputs/study3_v0.1/tokens/wikipedia_ar_256__qwen__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "0bd28f96a4a8b7181d7cb19c351669d9d2cb155509455a8825f67dbda747bb00",
+     "max_id": 151279,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 812,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 9766
+    }
+   }
+  },
+  "wikipedia_zh_256": {
+   "pool_size": 116578,
+   "pool_sha256": "aaeef825a216b3e572556bd813ee2cef032670b3e4c57b89849562643d123151",
+   "pool_counts": {
+    "open_representatives": 183556,
+    "eligible_llama": 121418,
+    "eligible_both": 116578
+   },
+   "seed": 1139551260,
+   "eval_n": 10000,
+   "eval_ids_sha256": "aebf025bafefdc87649491df512fb4ed320646ca42297d50cd4584819e8b9816",
+   "cal_positions": [
+    10000,
+    14999
+   ],
+   "cal_skipped": 0,
+   "cal_ids_sha256": "4d05bbae856b887aefbf70512520f92d4e7cfbe2f1fdc7d7e4996d8f0196ae2c",
+   "cell": "wikipedia/zh@256",
+   "tag": "wikipedia_zh_256",
+   "L_window_tokenised": 256,
+   "first_cal_ids": [
+    "wiki:zh:21102",
+    "wiki:zh:218827",
+    "wiki:zh:855414"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study3_v0.1/tokens/wikipedia_zh_256__llama__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "85ab42450fa842f1c32ee34d5edf19a73f6b1acf37de20c27c3f194b594ea8db",
+     "max_id": 127999,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 938,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 15681
+    },
+    "qwen": {
+     "file": "outputs/study3_v0.1/tokens/wikipedia_zh_256__qwen__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "55e130e9a94f13d44ee32c9d563c996e9a63495b12a4773859be401ca9c871b3",
+     "max_id": 151603,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 849,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 28369
+    }
+   }
+  },
+  "wikipedia_ja_256": {
+   "pool_size": 68120,
+   "pool_sha256": "f2a0a79978bcaf367724f03d3d20329569177571fc0d82beb548587f8934a08d",
+   "pool_counts": {
+    "open_representatives": 73910,
+    "eligible_llama": 68208,
+    "eligible_both": 68120
+   },
+   "seed": 1700106028,
+   "eval_n": 10000,
+   "eval_ids_sha256": "4af5f259118af696ea05791d7c453f43ac370813a02a35d99b1b7932b00c5f13",
+   "cal_positions": [
+    10000,
+    14999
+   ],
+   "cal_skipped": 0,
+   "cal_ids_sha256": "b3cf98ab9a94d5485482de8484f38a3d3e8b31df1780d767fbe4b33a103a3816",
+   "cell": "wikipedia/ja@256",
+   "tag": "wikipedia_ja_256",
+   "L_window_tokenised": 256,
+   "first_cal_ids": [
+    "wiki:ja:13100",
+    "wiki:ja:129345",
+    "wiki:ja:190031"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study3_v0.1/tokens/wikipedia_ja_256__llama__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "37af4fbd4346a2fc942aa839fda1ab576acf2e7d3126c808dd9b973ddc10fb9a",
+     "max_id": 127998,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 1729,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 12432
+    },
+    "qwen": {
+     "file": "outputs/study3_v0.1/tokens/wikipedia_ja_256__qwen__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "c16c2c0842e50ec0c07e55fb5853e99fef6d22c07d259ffce1b79334552425d9",
+     "max_id": 151608,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 1793,
+     "capped_prefix_tokens_min": 256,
+     "distinct_ids_in_window": 14592
+    }
+   }
+  },
+  "wikipedia_en_1024": {
+   "pool_size": 36045,
+   "pool_sha256": "9767bf33fc616f41d4b4c702b823f1ffcd59e8e97aeeef519c90ac6c9baaa239",
+   "pool_counts": {
+    "open_representatives": 124725,
+    "eligible_llama": 36046,
+    "eligible_both": 36045
+   },
+   "seed": 3627444835,
+   "eval_n": 10000,
+   "eval_ids_sha256": "9e2d0d83ff134c934ffd6f9db8a7627496b927f3cc0dcc0975533e554490360f",
+   "cal_positions": [
+    10000,
+    15951
+   ],
+   "cal_skipped": 952,
+   "cal_ids_sha256": "86549c80de8a8a65dabdc913f9db45e13bf1d783a079955c6c27a34ed92301dc",
+   "cell": "wikipedia/en@1024",
+   "tag": "wikipedia_en_1024",
+   "L_window_tokenised": 1024,
+   "first_cal_ids": [
+    "wiki:en:3470",
+    "wiki:en:4820946",
+    "wiki:en:4961768"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study3_v0.1/tokens/wikipedia_en_1024__llama__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "eddb7d9804df557d6fa5938d25365297d235d751d7832c59f0d29786f06535ff",
+     "max_id": 127951,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 1757,
+     "capped_prefix_tokens_min": 1024,
+     "distinct_ids_in_window": 42609
+    },
+    "qwen": {
+     "file": "outputs/study3_v0.1/tokens/wikipedia_en_1024__qwen__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "4ebf967ab568426c59b0e3bbd5473acd511a310442fda296bca7a4bd0e4d3d38",
+     "max_id": 151539,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 1842,
+     "capped_prefix_tokens_min": 1030,
+     "distinct_ids_in_window": 41050
+    }
+   }
+  },
+  "gutenberg_en_1024": {
+   "pool_size": 12122,
+   "pool_sha256": "43716262be8127ce236b8b66a32a210e41de75a4b02389c66f9c4328d973c192",
+   "pool_counts": {
+    "open_representatives": 12286,
+    "eligible_llama": 12122,
+    "eligible_both": 12122
+   },
+   "seed": 3878523167,
+   "eval_n": 7122,
+   "eval_ids_sha256": "f7e0289083f4da49c83bfbcfe0f8470ba994e5a1b4eb24ca0065bc46cdcc8d7a",
+   "cal_positions": [
+    7122,
+    12121
+   ],
+   "cal_skipped": 0,
+   "cal_ids_sha256": "31a3eb44b05ab0836c9558c3788a79360db84e7b7dbfa78b76e320ab10d8002e",
+   "cell": "gutenberg/en@1024",
+   "tag": "gutenberg_en_1024",
+   "L_window_tokenised": 1024,
+   "first_cal_ids": [
+    "https://www.gutenberg.org/ebooks/24808.txt.utf-8",
+    "https://www.gutenberg.org/ebooks/60881.txt.utf-8",
+    "https://www.gutenberg.org/ebooks/28096.txt.utf-8"
+   ],
+   "tokenizers": {
+    "llama": {
+     "file": "outputs/study3_v0.1/tokens/gutenberg_en_1024__llama__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "59925d3199966916d4f3d7fe680b68e94848a1d9f7de3e6da5afbca7fba334dc",
+     "max_id": 127889,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 5806,
+     "capped_prefix_tokens_min": 2029,
+     "distinct_ids_in_window": 39567
+    },
+    "qwen": {
+     "file": "outputs/study3_v0.1/tokens/gutenberg_en_1024__qwen__cal.npy",
+     "shape": [
+      5000,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "c8e95a7bc98c45b97b9508c235b528b68160a925b212c003be954fcd47b1367f",
+     "max_id": 146756,
+     "min_id": 0,
+     "capped_prefix_tokens_median": 5850,
+     "capped_prefix_tokens_min": 2030,
+     "distinct_ids_in_window": 38666
+    }
+   }
+  }
+ },
+ "seal": {
+  "partition_sha256": "8b9cf24aa9cece47acbc9c8c61f6b9fc0199c06e5f451f8fe9a0b1c28f61feae",
+  "units_sha256": "911d2a24487b347f0b72fc62ecc3edd0326d546d00f984cf1d0f6f902574cdd9",
+  "manifest_sha256": "3bc890fc0e913dbe102a67a8b0d18c75de3d37f68b778d6417acd536bf9b5783"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "mismatches": [],
+ "verified": {
+  "descriptive_rows": 16524,
+  "W1_rows": 3,
+  "W2_rows": 6,
+  "null_rows": 33048,
+  "W3_rows": 240,
+  "null_abstention_rows_all_zero": 4320
+ },
+ "unused_registered_values": [
+  "w1_stackexchange_band",
+  "w1_stackexchange_ci_2dp",
+  "w1_stackexchange_overshoot_pp",
+  "w1_wikipedia_band",
+  "w1_wikipedia_ci_2dp",
+  "w1_wikipedia_overshoot_pp"
+ ],
+ "tables": [
+  "timing",
+  "rules",
+  "w1_rows",
+  "w2_rows",
+  "w2_components",
+  "w3_by_block",
+  "w3_failures",
+  "power_primary",
+  "operating_points",
+  "mechanism",
+  "length",
+  "remedy",
+  "transfer",
+  "model_null",
+  "quality",
+  "pairing",
+  "null_abstentions",
+  "integrity",
+  "checklist"
+ ],
+ "figures": [
+  "fig1_operating_points",
+  "fig2_w1_costs",
+  "fig3_w2",
+  "fig4_length",
+  "fig5_w3",
+  "fig6_pairing"
+ ],
+ "mode": "STUDY"
+}

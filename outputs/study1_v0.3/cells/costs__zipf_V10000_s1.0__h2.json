@@ -1,0 +1,385 @@
+{
+ "tag": "zipf_V10000_s1.0__h2",
+ "n_tuples": 6486988,
+ "n_contexts": 2497573,
+ "N": 4000,
+ "L_max": 2048,
+ "build_seconds": 3.4,
+ "colourings": [
+  {
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "seconds": 18.2
+  },
+  {
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "seconds": 17.9
+  }
+ ],
+ "cells": [
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.5__L64__raw.json",
+   "L": 64,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 247941,
+   "seconds": 5.4
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.5__L64__distinct.json",
+   "L": 64,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 247941,
+   "seconds": 5.2
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.5__L64__first.json",
+   "L": 64,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 245937,
+   "seconds": 5.1
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.5__L128__raw.json",
+   "L": 128,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 503799,
+   "seconds": 5.4
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.5__L128__distinct.json",
+   "L": 128,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 503799,
+   "seconds": 5.4
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.5__L128__first.json",
+   "L": 128,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 496399,
+   "seconds": 5.4
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.5__L256__raw.json",
+   "L": 256,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 1015238,
+   "seconds": 5.9
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.5__L256__distinct.json",
+   "L": 256,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 1015238,
+   "seconds": 6.0
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.5__L256__first.json",
+   "L": 256,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 989422,
+   "seconds": 5.9
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.5__L512__raw.json",
+   "L": 512,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 2037374,
+   "seconds": 7.1
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.5__L512__distinct.json",
+   "L": 512,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 2037374,
+   "seconds": 7.0
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.5__L512__first.json",
+   "L": 512,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 1955043,
+   "seconds": 6.8
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.5__L1024__raw.json",
+   "L": 1024,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 4078405,
+   "seconds": 9.3
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.5__L1024__distinct.json",
+   "L": 1024,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 4078405,
+   "seconds": 9.2
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.5__L1024__first.json",
+   "L": 1024,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 3834514,
+   "seconds": 8.9
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.5__L2048__raw.json",
+   "L": 2048,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 8150110,
+   "seconds": 13.0
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.5__L2048__distinct.json",
+   "L": 2048,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 8150110,
+   "seconds": 13.1
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.5__L2048__first.json",
+   "L": 2048,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 7472921,
+   "seconds": 12.6
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.25__L64__raw.json",
+   "L": 64,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 247941,
+   "seconds": 5.4
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.25__L64__distinct.json",
+   "L": 64,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 247941,
+   "seconds": 5.2
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.25__L64__first.json",
+   "L": 64,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 245937,
+   "seconds": 5.1
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.25__L128__raw.json",
+   "L": 128,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 503799,
+   "seconds": 5.4
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.25__L128__distinct.json",
+   "L": 128,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 503799,
+   "seconds": 5.5
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.25__L128__first.json",
+   "L": 128,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 496399,
+   "seconds": 5.4
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.25__L256__raw.json",
+   "L": 256,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 1015238,
+   "seconds": 5.9
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.25__L256__distinct.json",
+   "L": 256,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 1015238,
+   "seconds": 6.0
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.25__L256__first.json",
+   "L": 256,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 989422,
+   "seconds": 5.9
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.25__L512__raw.json",
+   "L": 512,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 2037374,
+   "seconds": 6.9
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.25__L512__distinct.json",
+   "L": 512,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 2037374,
+   "seconds": 7.0
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.25__L512__first.json",
+   "L": 512,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 1955043,
+   "seconds": 6.8
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.25__L1024__raw.json",
+   "L": 1024,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 4078405,
+   "seconds": 9.2
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.25__L1024__distinct.json",
+   "L": 1024,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 4078405,
+   "seconds": 9.4
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.25__L1024__first.json",
+   "L": 1024,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 3834514,
+   "seconds": 9.0
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.25__L2048__raw.json",
+   "L": 2048,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 8150110,
+   "seconds": 13.0
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.25__L2048__distinct.json",
+   "L": 2048,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 8150110,
+   "seconds": 13.0
+  },
+  {
+   "file": "zipf_V10000_s1.0__h2__independent__g0.25__L2048__first.json",
+   "L": 2048,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 7472921,
+   "seconds": 12.6
+  }
+ ],
+ "chain_seconds": 313.3
+}

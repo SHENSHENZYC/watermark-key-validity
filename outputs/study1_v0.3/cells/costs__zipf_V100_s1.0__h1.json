@@ -1,0 +1,397 @@
+{
+ "tag": "zipf_V100_s1.0__h1",
+ "n_tuples": 10000,
+ "n_contexts": 100,
+ "N": 4000,
+ "L_max": 1024,
+ "build_seconds": 1.0,
+ "colourings": [
+  {
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "seconds": 0.0
+  },
+  {
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "seconds": 0.0
+  },
+  {
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "seconds": 0.4
+  },
+  {
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "seconds": 0.4
+  }
+ ],
+ "cells": [
+  {
+   "file": "zipf_V100_s1.0__h1__independent__g0.5__L64__raw.json",
+   "L": 64,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 230668,
+   "seconds": 0.2
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__independent__g0.5__L64__distinct.json",
+   "L": 64,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 230668,
+   "seconds": 0.2
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__independent__g0.5__L64__first.json",
+   "L": 64,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 123802,
+   "seconds": 0.2
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__independent__g0.5__L256__raw.json",
+   "L": 256,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 814982,
+   "seconds": 0.3
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__independent__g0.5__L256__distinct.json",
+   "L": 256,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 814982,
+   "seconds": 0.3
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__independent__g0.5__L256__first.json",
+   "L": 256,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 266141,
+   "seconds": 0.2
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__independent__g0.5__L1024__raw.json",
+   "L": 1024,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 2558419,
+   "seconds": 0.6
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__independent__g0.5__L1024__distinct.json",
+   "L": 1024,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 2558419,
+   "seconds": 0.6
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__independent__g0.5__L1024__first.json",
+   "L": 1024,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 384128,
+   "seconds": 0.3
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__independent__g0.25__L64__raw.json",
+   "L": 64,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 230668,
+   "seconds": 0.2
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__independent__g0.25__L64__distinct.json",
+   "L": 64,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 230668,
+   "seconds": 0.2
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__independent__g0.25__L64__first.json",
+   "L": 64,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 123802,
+   "seconds": 0.2
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__independent__g0.25__L256__raw.json",
+   "L": 256,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 814982,
+   "seconds": 0.3
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__independent__g0.25__L256__distinct.json",
+   "L": 256,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 814982,
+   "seconds": 0.3
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__independent__g0.25__L256__first.json",
+   "L": 256,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 266141,
+   "seconds": 0.2
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__independent__g0.25__L1024__raw.json",
+   "L": 1024,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 2558419,
+   "seconds": 0.6
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__independent__g0.25__L1024__distinct.json",
+   "L": 1024,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 2558419,
+   "seconds": 0.6
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__independent__g0.25__L1024__first.json",
+   "L": 1024,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 384128,
+   "seconds": 0.2
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__fixed__g0.5__L64__raw.json",
+   "L": 64,
+   "rule": "raw",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 230668,
+   "seconds": 0.2
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__fixed__g0.5__L64__distinct.json",
+   "L": 64,
+   "rule": "distinct",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 230668,
+   "seconds": 0.2
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__fixed__g0.5__L64__first.json",
+   "L": 64,
+   "rule": "first",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 123802,
+   "seconds": 0.2
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__fixed__g0.5__L256__raw.json",
+   "L": 256,
+   "rule": "raw",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 814982,
+   "seconds": 0.3
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__fixed__g0.5__L256__distinct.json",
+   "L": 256,
+   "rule": "distinct",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 814982,
+   "seconds": 0.3
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__fixed__g0.5__L256__first.json",
+   "L": 256,
+   "rule": "first",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 266141,
+   "seconds": 0.2
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__fixed__g0.5__L1024__raw.json",
+   "L": 1024,
+   "rule": "raw",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 2558419,
+   "seconds": 0.6
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__fixed__g0.5__L1024__distinct.json",
+   "L": 1024,
+   "rule": "distinct",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 2558419,
+   "seconds": 0.6
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__fixed__g0.5__L1024__first.json",
+   "L": 1024,
+   "rule": "first",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 384128,
+   "seconds": 0.2
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__fixed__g0.25__L64__raw.json",
+   "L": 64,
+   "rule": "raw",
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 230668,
+   "seconds": 0.2
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__fixed__g0.25__L64__distinct.json",
+   "L": 64,
+   "rule": "distinct",
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 230668,
+   "seconds": 0.2
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__fixed__g0.25__L64__first.json",
+   "L": 64,
+   "rule": "first",
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 123802,
+   "seconds": 0.2
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__fixed__g0.25__L256__raw.json",
+   "L": 256,
+   "rule": "raw",
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 814982,
+   "seconds": 0.3
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__fixed__g0.25__L256__distinct.json",
+   "L": 256,
+   "rule": "distinct",
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 814982,
+   "seconds": 0.3
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__fixed__g0.25__L256__first.json",
+   "L": 256,
+   "rule": "first",
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 266141,
+   "seconds": 0.2
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__fixed__g0.25__L1024__raw.json",
+   "L": 1024,
+   "rule": "raw",
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 2558419,
+   "seconds": 0.6
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__fixed__g0.25__L1024__distinct.json",
+   "L": 1024,
+   "rule": "distinct",
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 2558419,
+   "seconds": 0.6
+  },
+  {
+   "file": "zipf_V100_s1.0__h1__fixed__g0.25__L1024__first.json",
+   "L": 1024,
+   "rule": "first",
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 384128,
+   "seconds": 0.3
+  }
+ ],
+ "chain_seconds": 13.1
+}

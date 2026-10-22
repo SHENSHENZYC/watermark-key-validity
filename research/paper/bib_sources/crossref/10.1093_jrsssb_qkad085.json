@@ -1,0 +1,576 @@
+{
+ "_projection": "A projection of the API response for the public record (R13 F10): message.abstract (1224 characters) removed and kept in the private record under research/paper/bib_sources/raw_responses/, which the public snapshot excludes; every other field is verbatim.",
+ "message": {
+  "DOI": "10.1093/jrsssb/qkad085",
+  "ISSN": [
+   "1369-7412",
+   "1467-9868"
+  ],
+  "URL": "https://doi.org/10.1093/jrsssb/qkad085",
+  "author": [
+   {
+    "affiliation": [
+     {
+      "name": "Department of Statistics and Data Science, Wharton School, University of Pennsylvania , Philadelphia, PA , USA"
+     }
+    ],
+    "family": "Ren",
+    "given": "Zhimei",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-4854-8644",
+    "affiliation": [
+     {
+      "name": "Department of Statistics, University of Chicago , Chicago, IL , USA"
+     }
+    ],
+    "authenticated-orcid": false,
+    "family": "Barber",
+    "given": "Rina Foygel",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   }
+  ],
+  "container-title": [
+   "Journal of the Royal Statistical Society Series B: Statistical Methodology"
+  ],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": []
+  },
+  "created": {
+   "date-parts": [
+    [
+     2023,
+     8,
+     22
+    ]
+   ],
+   "date-time": "2023-08-22T17:30:23Z",
+   "timestamp": 1692725423000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     9,
+     7
+    ]
+   ],
+   "date-time": "2024-09-07T01:00:27Z",
+   "timestamp": 1725670827000
+  },
+  "funder": [
+   {
+    "DOI": "10.13039/100000006",
+    "award": [
+     "N00014-20-1-2337"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "N00014-20-1-2337"
+      ]
+     }
+    ],
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "asserted-by": "publisher",
+      "id": "10.13039/100000006",
+      "id-type": "DOI"
+     }
+    ],
+    "name": "Office of Naval Research"
+   },
+   {
+    "DOI": "10.13039/100000001",
+    "award": [
+     "DMS-1654076"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "DMS-1654076"
+      ]
+     }
+    ],
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "asserted-by": "publisher",
+      "id": "10.13039/100000001",
+      "id-type": "DOI"
+     }
+    ],
+    "name": "National Science Foundation"
+   },
+   {
+    "DOI": "10.13039/100000001",
+    "award": [
+     "DMS-2023109"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "DMS-2023109"
+      ]
+     }
+    ],
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "asserted-by": "publisher",
+      "id": "10.13039/100000001",
+      "id-type": "DOI"
+     }
+    ],
+    "name": "National Science Foundation"
+   }
+  ],
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     8
+    ]
+   ],
+   "date-time": "2026-10-08T07:12:22Z",
+   "timestamp": 1791443542581,
+   "version": "4.3.3"
+  },
+  "is-referenced-by-count": 40,
+  "issn-type": [
+   {
+    "type": "print",
+    "value": "1369-7412"
+   },
+   {
+    "type": "electronic",
+    "value": "1467-9868"
+   }
+  ],
+  "issue": "1",
+  "issued": {
+   "date-parts": [
+    [
+     2023,
+     9,
+     7
+    ]
+   ]
+  },
+  "journal-issue": {
+   "issue": "1",
+   "published-online": {
+    "date-parts": [
+     [
+      2023,
+      9,
+      7
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2024,
+      2,
+      8
+     ]
+    ]
+   }
+  },
+  "language": "en",
+  "license": [
+   {
+    "URL": "https://academic.oup.com/pages/standard-publication-reuse-rights",
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "start": {
+     "date-parts": [
+      [
+       2023,
+       9,
+       7
+      ]
+     ],
+     "date-time": "2023-09-07T00:00:00Z",
+     "timestamp": 1694044800000
+    }
+   }
+  ],
+  "link": [
+   {
+    "URL": "https://academic.oup.com/jrsssb/article-pdf/86/1/122/56629998/qkad085.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "https://academic.oup.com/jrsssb/article-pdf/86/1/122/56629998/qkad085.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "member": "286",
+  "original-title": [],
+  "page": "122-154",
+  "prefix": "10.1093",
+  "published": {
+   "date-parts": [
+    [
+     2023,
+     9,
+     7
+    ]
+   ]
+  },
+  "published-online": {
+   "date-parts": [
+    [
+     2023,
+     9,
+     7
+    ]
+   ]
+  },
+  "published-other": {
+   "date-parts": [
+    [
+     2024,
+     2
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     2024,
+     2,
+     8
+    ]
+   ]
+  },
+  "publisher": "Oxford University Press (OUP)",
+  "reference": [
+   {
+    "DOI": "10.1214/15-AOS1337",
+    "article-title": "Controlling the false discovery rate via knockoffs",
+    "author": "Barber",
+    "doi-asserted-by": "crossref",
+    "first-page": "2055",
+    "issue": "5",
+    "journal-title": "The Annals of Statistics",
+    "key": "2024090700052077000_qkad085-B1",
+    "volume": "43",
+    "year": "2015"
+   },
+   {
+    "DOI": "10.1214/19-AOS1852",
+    "article-title": "Robust inference with knockoffs",
+    "author": "Barber",
+    "doi-asserted-by": "crossref",
+    "first-page": "1409",
+    "issue": "3",
+    "journal-title": "The Annals of Statistics",
+    "key": "2024090700052077000_qkad085-B2",
+    "volume": "48",
+    "year": "2020"
+   },
+   {
+    "DOI": "10.1080/01621459.2020.1729163",
+    "article-title": "Metropolized knockoff sampling",
+    "author": "Bates",
+    "doi-asserted-by": "crossref",
+    "first-page": "1413",
+    "issue": "535",
+    "journal-title": "Journal of the American Statistical Association",
+    "key": "2024090700052077000_qkad085-B3",
+    "volume": "116",
+    "year": "2021"
+   },
+   {
+    "DOI": "10.1111/j.2517-6161.1995.tb02031.x",
+    "article-title": "Controlling the false discovery rate: A practical and powerful approach to multiple testing",
+    "author": "Benjamini",
+    "doi-asserted-by": "crossref",
+    "first-page": "289",
+    "issue": "1",
+    "journal-title": "Journal of the Royal Statistical Society: Series B (Methodological)",
+    "key": "2024090700052077000_qkad085-B4",
+    "volume": "57",
+    "year": "1995"
+   },
+   {
+    "DOI": "10.1111/rssb.12265",
+    "article-title": "Panning for gold: \u2018Model-x\u2019 knockoffs for high dimensional controlled variable selection",
+    "author": "Cand\u00e8s",
+    "doi-asserted-by": "crossref",
+    "first-page": "551",
+    "issue": "3",
+    "journal-title": "Journal of the Royal Statistical Society: Series B (Statistical Methodology)",
+    "key": "2024090700052077000_qkad085-B5",
+    "volume": "80",
+    "year": "2018"
+   },
+   {
+    "article-title": "False discovery rate control via data splitting",
+    "author": "Dai",
+    "first-page": "1",
+    "issue": "0",
+    "journal-title": "Journal of the American Statistical Association",
+    "key": "2024090700052077000_qkad085-B6",
+    "volume": "0",
+    "year": "2022"
+   },
+   {
+    "article-title": "A scale-free approach for false discovery rate control in generalized linear models",
+    "author": "Dai",
+    "first-page": "1",
+    "issue": "0",
+    "journal-title": "Journal of the American Statistical Association",
+    "key": "2024090700052077000_qkad085-B7",
+    "volume": "0",
+    "year": "2023"
+   },
+   {
+    "author": "Dai",
+    "key": "2024090700052077000_qkad085-B8",
+    "year": "2016"
+   },
+   {
+    "author": "Emery",
+    "key": "2024090700052077000_qkad085-B9",
+    "year": "2019"
+   },
+   {
+    "author": "Gimenez",
+    "key": "2024090700052077000_qkad085-B10",
+    "year": "2019"
+   },
+   {
+    "DOI": "10.1214/16-EJS1129",
+    "article-title": "Familywise error rate control via knockoffs",
+    "author": "Janson",
+    "doi-asserted-by": "crossref",
+    "first-page": "960",
+    "issue": "1",
+    "journal-title": "Electronic Journal of Statistics",
+    "key": "2024090700052077000_qkad085-B11",
+    "volume": "10",
+    "year": "2016"
+   },
+   {
+    "author": "Koyuncu",
+    "key": "2024090700052077000_qkad085-B12",
+    "year": "2022"
+   },
+   {
+    "DOI": "10.1093/biomet/asab055",
+    "article-title": "Searching for robust associations with a multi-environment knockoff filter",
+    "author": "Li",
+    "doi-asserted-by": "crossref",
+    "first-page": "611",
+    "issue": "3",
+    "journal-title": "Biometrika",
+    "key": "2024090700052077000_qkad085-B13",
+    "volume": "109",
+    "year": "2021"
+   },
+   {
+    "author": "Liu H., Roeder K., & Wasserman L.",
+    "key": "2024090700052077000_qkad085-B14",
+    "year": "2010"
+   },
+   {
+    "author": "Luo",
+    "key": "2024090700052077000_qkad085-B15",
+    "year": "2022"
+   },
+   {
+    "DOI": "10.1111/j.1467-9868.2010.00740.x",
+    "article-title": "Stability selection",
+    "author": "Meinshausen",
+    "doi-asserted-by": "crossref",
+    "first-page": "417",
+    "issue": "4",
+    "journal-title": "Journal of the Royal Statistical Society: Series B (Statistical Methodology)",
+    "key": "2024090700052077000_qkad085-B16",
+    "volume": "72",
+    "year": "2010"
+   },
+   {
+    "author": "Nguyen",
+    "key": "2024090700052077000_qkad085-B17",
+    "year": "2020"
+   },
+   {
+    "author": "Patterson",
+    "key": "2024090700052077000_qkad085-B18",
+    "year": "2018"
+   },
+   {
+    "DOI": "10.1214/22-AOAS1663",
+    "article-title": "Knockoffs with side information",
+    "author": "Ren",
+    "doi-asserted-by": "crossref",
+    "first-page": "1152",
+    "issue": "2",
+    "journal-title": "The Annals of Applied Statistics",
+    "key": "2024090700052077000_qkad085-B19",
+    "volume": "17",
+    "year": "2023"
+   },
+   {
+    "DOI": "10.1080/01621459.2021.1962720",
+    "article-title": "Derandomizing knockoffs",
+    "author": "Ren",
+    "doi-asserted-by": "crossref",
+    "first-page": "948",
+    "issue": "542",
+    "journal-title": "Journal of the American Statistical Association",
+    "key": "2024090700052077000_qkad085-B20",
+    "volume": "118",
+    "year": "2023"
+   },
+   {
+    "DOI": "10.1073/pnas.0607274103",
+    "article-title": "Genotypic predictors of human immunodeficiency virus type 1 drug resistance",
+    "author": "Rhee",
+    "doi-asserted-by": "crossref",
+    "first-page": "17355",
+    "issue": "46",
+    "journal-title": "Proceedings of the National Academy of Sciences",
+    "key": "2024090700052077000_qkad085-B21",
+    "volume": "103",
+    "year": "2006"
+   },
+   {
+    "DOI": "10.1080/01621459.2019.1660174",
+    "article-title": "Deep knockoffs",
+    "author": "Romano",
+    "doi-asserted-by": "crossref",
+    "first-page": "1861",
+    "issue": "532",
+    "journal-title": "Journal of the American Statistical Association",
+    "key": "2024090700052077000_qkad085-B22",
+    "volume": "115",
+    "year": "2020"
+   },
+   {
+    "DOI": "10.1093/biomet/asy033",
+    "article-title": "Gene hunting with hidden Markov model knockoffs",
+    "author": "Sesia",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "issue": "1",
+    "journal-title": "Biometrika",
+    "key": "2024090700052077000_qkad085-B23",
+    "volume": "106",
+    "year": "2019"
+   },
+   {
+    "DOI": "10.1111/j.1467-9868.2011.01034.x",
+    "article-title": "Variable selection with error control: Another look at stability selection",
+    "author": "Shah",
+    "doi-asserted-by": "crossref",
+    "first-page": "55",
+    "issue": "1",
+    "journal-title": "Journal of the Royal Statistical Society: Series B (Statistical Methodology)",
+    "key": "2024090700052077000_qkad085-B24",
+    "volume": "75",
+    "year": "2013"
+   },
+   {
+    "DOI": "10.1214/21-AOS2104",
+    "article-title": "Powerful knockoffs via minimizing reconstructability",
+    "author": "Spector",
+    "doi-asserted-by": "crossref",
+    "first-page": "252",
+    "issue": "1",
+    "journal-title": "The Annals of Statistics",
+    "key": "2024090700052077000_qkad085-B25",
+    "volume": "50",
+    "year": "2022"
+   },
+   {
+    "author": "Vovk",
+    "key": "2024090700052077000_qkad085-B26",
+    "year": "2020"
+   },
+   {
+    "DOI": "10.1214/20-AOS2020",
+    "article-title": "E-values: Calibration, combination and applications",
+    "author": "Vovk",
+    "doi-asserted-by": "crossref",
+    "first-page": "1736",
+    "issue": "3",
+    "journal-title": "The Annals of Statistics",
+    "key": "2024090700052077000_qkad085-B27",
+    "volume": "49",
+    "year": "2021"
+   },
+   {
+    "DOI": "10.1111/rssb.12489",
+    "article-title": "False discovery rate control with e-values",
+    "author": "Wang",
+    "doi-asserted-by": "crossref",
+    "first-page": "822",
+    "issue": "3",
+    "journal-title": "Journal of the Royal Statistical Society: Series B (Statistical Methodology)",
+    "key": "2024090700052077000_qkad085-B28",
+    "volume": "84",
+    "year": "2022"
+   },
+   {
+    "DOI": "10.1073/pnas.1922664117",
+    "article-title": "Universal inference",
+    "author": "Wasserman",
+    "doi-asserted-by": "crossref",
+    "first-page": "16880",
+    "issue": "29",
+    "journal-title": "Proceedings of the National Academy of Sciences",
+    "key": "2024090700052077000_qkad085-B29",
+    "volume": "117",
+    "year": "2020"
+   }
+  ],
+  "reference-count": 29,
+  "references-count": 29,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://academic.oup.com/jrsssb/article/86/1/122/7262479"
+   }
+  },
+  "score": 1,
+  "short-container-title": [],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "Derandomised knockoffs: leveraging\n                    <i>e</i>\n                    -values for false discovery rate control"
+  ],
+  "type": "journal-article",
+  "volume": "86"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

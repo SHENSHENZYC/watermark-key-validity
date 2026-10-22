@@ -1,0 +1,397 @@
+{
+ "tag": "support_V1000_s50__h1",
+ "n_tuples": 2500,
+ "n_contexts": 50,
+ "N": 4000,
+ "L_max": 1024,
+ "build_seconds": 1.0,
+ "colourings": [
+  {
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "seconds": 0.0
+  },
+  {
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "seconds": 0.0
+  },
+  {
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "seconds": 0.1
+  },
+  {
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "seconds": 0.1
+  }
+ ],
+ "cells": [
+  {
+   "file": "support_V1000_s50__h1__independent__g0.5__L64__raw.json",
+   "L": 64,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 248921,
+   "seconds": 0.2
+  },
+  {
+   "file": "support_V1000_s50__h1__independent__g0.5__L64__distinct.json",
+   "L": 64,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 248921,
+   "seconds": 0.2
+  },
+  {
+   "file": "support_V1000_s50__h1__independent__g0.5__L64__first.json",
+   "L": 64,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 144190,
+   "seconds": 0.2
+  },
+  {
+   "file": "support_V1000_s50__h1__independent__g0.5__L256__raw.json",
+   "L": 256,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 970331,
+   "seconds": 0.3
+  },
+  {
+   "file": "support_V1000_s50__h1__independent__g0.5__L256__distinct.json",
+   "L": 256,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 970331,
+   "seconds": 0.3
+  },
+  {
+   "file": "support_V1000_s50__h1__independent__g0.5__L256__first.json",
+   "L": 256,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 198856,
+   "seconds": 0.2
+  },
+  {
+   "file": "support_V1000_s50__h1__independent__g0.5__L1024__raw.json",
+   "L": 1024,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 3359872,
+   "seconds": 0.7
+  },
+  {
+   "file": "support_V1000_s50__h1__independent__g0.5__L1024__distinct.json",
+   "L": 1024,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 3359872,
+   "seconds": 0.7
+  },
+  {
+   "file": "support_V1000_s50__h1__independent__g0.5__L1024__first.json",
+   "L": 1024,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 200000,
+   "seconds": 0.2
+  },
+  {
+   "file": "support_V1000_s50__h1__independent__g0.25__L64__raw.json",
+   "L": 64,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 248921,
+   "seconds": 0.2
+  },
+  {
+   "file": "support_V1000_s50__h1__independent__g0.25__L64__distinct.json",
+   "L": 64,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 248921,
+   "seconds": 0.2
+  },
+  {
+   "file": "support_V1000_s50__h1__independent__g0.25__L64__first.json",
+   "L": 64,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 144190,
+   "seconds": 0.2
+  },
+  {
+   "file": "support_V1000_s50__h1__independent__g0.25__L256__raw.json",
+   "L": 256,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 970331,
+   "seconds": 0.3
+  },
+  {
+   "file": "support_V1000_s50__h1__independent__g0.25__L256__distinct.json",
+   "L": 256,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 970331,
+   "seconds": 0.3
+  },
+  {
+   "file": "support_V1000_s50__h1__independent__g0.25__L256__first.json",
+   "L": 256,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 198856,
+   "seconds": 0.2
+  },
+  {
+   "file": "support_V1000_s50__h1__independent__g0.25__L1024__raw.json",
+   "L": 1024,
+   "rule": "raw",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 3359872,
+   "seconds": 0.7
+  },
+  {
+   "file": "support_V1000_s50__h1__independent__g0.25__L1024__distinct.json",
+   "L": 1024,
+   "rule": "distinct",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 3359872,
+   "seconds": 0.7
+  },
+  {
+   "file": "support_V1000_s50__h1__independent__g0.25__L1024__first.json",
+   "L": 1024,
+   "rule": "first",
+   "colouring": "independent",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 200000,
+   "seconds": 0.2
+  },
+  {
+   "file": "support_V1000_s50__h1__fixed__g0.5__L64__raw.json",
+   "L": 64,
+   "rule": "raw",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 248921,
+   "seconds": 0.2
+  },
+  {
+   "file": "support_V1000_s50__h1__fixed__g0.5__L64__distinct.json",
+   "L": 64,
+   "rule": "distinct",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 248921,
+   "seconds": 0.2
+  },
+  {
+   "file": "support_V1000_s50__h1__fixed__g0.5__L64__first.json",
+   "L": 64,
+   "rule": "first",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 144190,
+   "seconds": 0.2
+  },
+  {
+   "file": "support_V1000_s50__h1__fixed__g0.5__L256__raw.json",
+   "L": 256,
+   "rule": "raw",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 970331,
+   "seconds": 0.3
+  },
+  {
+   "file": "support_V1000_s50__h1__fixed__g0.5__L256__distinct.json",
+   "L": 256,
+   "rule": "distinct",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 970331,
+   "seconds": 0.3
+  },
+  {
+   "file": "support_V1000_s50__h1__fixed__g0.5__L256__first.json",
+   "L": 256,
+   "rule": "first",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 198856,
+   "seconds": 0.2
+  },
+  {
+   "file": "support_V1000_s50__h1__fixed__g0.5__L1024__raw.json",
+   "L": 1024,
+   "rule": "raw",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 3359872,
+   "seconds": 0.7
+  },
+  {
+   "file": "support_V1000_s50__h1__fixed__g0.5__L1024__distinct.json",
+   "L": 1024,
+   "rule": "distinct",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 3359872,
+   "seconds": 0.7
+  },
+  {
+   "file": "support_V1000_s50__h1__fixed__g0.5__L1024__first.json",
+   "L": 1024,
+   "rule": "first",
+   "colouring": "fixed",
+   "gamma": 0.5,
+   "K": 500,
+   "nnz": 200000,
+   "seconds": 0.2
+  },
+  {
+   "file": "support_V1000_s50__h1__fixed__g0.25__L64__raw.json",
+   "L": 64,
+   "rule": "raw",
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 248921,
+   "seconds": 0.2
+  },
+  {
+   "file": "support_V1000_s50__h1__fixed__g0.25__L64__distinct.json",
+   "L": 64,
+   "rule": "distinct",
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 248921,
+   "seconds": 0.2
+  },
+  {
+   "file": "support_V1000_s50__h1__fixed__g0.25__L64__first.json",
+   "L": 64,
+   "rule": "first",
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 144190,
+   "seconds": 0.2
+  },
+  {
+   "file": "support_V1000_s50__h1__fixed__g0.25__L256__raw.json",
+   "L": 256,
+   "rule": "raw",
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 970331,
+   "seconds": 0.3
+  },
+  {
+   "file": "support_V1000_s50__h1__fixed__g0.25__L256__distinct.json",
+   "L": 256,
+   "rule": "distinct",
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 970331,
+   "seconds": 0.3
+  },
+  {
+   "file": "support_V1000_s50__h1__fixed__g0.25__L256__first.json",
+   "L": 256,
+   "rule": "first",
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 198856,
+   "seconds": 0.2
+  },
+  {
+   "file": "support_V1000_s50__h1__fixed__g0.25__L1024__raw.json",
+   "L": 1024,
+   "rule": "raw",
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 3359872,
+   "seconds": 0.7
+  },
+  {
+   "file": "support_V1000_s50__h1__fixed__g0.25__L1024__distinct.json",
+   "L": 1024,
+   "rule": "distinct",
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 3359872,
+   "seconds": 0.7
+  },
+  {
+   "file": "support_V1000_s50__h1__fixed__g0.25__L1024__first.json",
+   "L": 1024,
+   "rule": "first",
+   "colouring": "fixed",
+   "gamma": 0.25,
+   "K": 500,
+   "nnz": 200000,
+   "seconds": 0.2
+  }
+ ],
+ "chain_seconds": 12.4
+}

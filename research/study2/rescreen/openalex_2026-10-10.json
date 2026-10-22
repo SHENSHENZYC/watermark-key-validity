@@ -1,0 +1,526 @@
+{
+ "oa1": {
+  "query": "watermark false positive key language model",
+  "count": 173,
+  "items": [
+   [
+    "2026-10-09",
+    "LLMDPA: pre-execution privacy auditing of DP-SGD via evidence-constrained semantic analysis",
+    "https://doi.org/10.1186/s42400-026-00657-5"
+   ],
+   [
+    "2026-10-08",
+    "ARTIFICIAL INTELLIGENCE IN FINANCIAL STATEMENT FRAUD DETECTION: A CRITICAL SYNTHESIS OF EMERGING TRENDS, METHODOLOGIES, AND FUTURE DIRECTIONS FOR U.S. PUBLICLY TRADED COMPANIES",
+    "https://doi.org/10.30574/msarr.2026.18.1.0191"
+   ],
+   [
+    "2026-10-08",
+    "SemField: A Simple, Linear, Continuous, yet Robust Semantic Watermark",
+    "https://doi.org/10.48550/arxiv.2610.11848"
+   ],
+   [
+    "2026-10-07",
+    "Making Theft Useless: Adulteration-Based Protection of Proprietary Knowledge Graphs in GraphRAG Systems",
+    "https://doi.org/10.1145/3832783.3837418"
+   ],
+   [
+    "2026-10-07",
+    "Shifts in neural representations, not gaze, track how people reinterpret ambiguous social scenes",
+    "https://doi.org/10.64898/2026.10.06.749912"
+   ],
+   [
+    "2026-10-06",
+    "MCGMark: An Encodable and Robust Online Watermark for Tracing LLM-Generated Malicious Code",
+    "https://doi.org/10.1145/3846177"
+   ],
+   [
+    "2026-10-06",
+    "Cluster-Aware Attacks on Graph Watermarks",
+    "https://doi.org/10.1007/978-3-032-38702-8_19"
+   ],
+   [
+    "2026-10-06",
+    "A Cusp Catastrophe Model for Early Identifying Scientific Breakthroughs",
+    "https://doi.org/10.21203/rs.3.rs-10941810/v1"
+   ],
+   [
+    "2026-10-05",
+    "Representation learning in diffusion and flow-based model: an application aspect",
+    "https://doi.org/10.1007/s44336-026-00042-3"
+   ],
+   [
+    "2026-10-05",
+    "Hybrid deep learning for three-way classification of human-written, AI-generated, and AI-rephrased text",
+    "https://doi.org/10.1038/s41598-026-73841-9"
+   ],
+   [
+    "2026-10-05",
+    "A hybrid deep learning\u2013based OCR model for handwritten medical prescriptions",
+    "https://doi.org/10.3389/fmed.2026.1856485"
+   ],
+   [
+    "2026-10-05",
+    "Are LLM watermarks reliable in practice? A systematic review of evidence, robustness, threat models, and deployment assumptions",
+    "https://doi.org/10.1016/j.cosrev.2026.101074"
+   ],
+   [
+    "2026-10-05",
+    "SimpleMark: Fast Multi-Bit Text Watermarking under f -Divergence Constraints",
+    "https://doi.org/10.48550/arxiv.2610.05712"
+   ],
+   [
+    "2026-10-05",
+    "AI-Generated Disinformation in the UK: Risk of Harm, Context, and Classification",
+    "https://doi.org/10.48550/arxiv.2610.06084"
+   ],
+   [
+    "2026-10-04",
+    "Image Synthesis as an Intermediate for Controllable Time Series Generation",
+    "https://doi.org/10.48550/arxiv.2610.05211"
+   ],
+   [
+    "2026-10-04",
+    "Grammar-Guided Code Watermarking with Green Temperature",
+    "https://doi.org/10.48550/arxiv.2610.05323"
+   ],
+   [
+    "2026-10-03",
+    "Tracing model-generated DNA with position-independent watermarking",
+    "https://doi.org/10.48550/arxiv.2610.04763"
+   ],
+   [
+    "2026-10-03",
+    "Language Model Fingerprinting Requires Rethinking Watermark Teachers",
+    "https://doi.org/10.48550/arxiv.2610.04169"
+   ],
+   [
+    "2026-10-02",
+    "Adaptive calibration and spatio-temporal filtering for robust highway wrong-way driving detection",
+    "https://doi.org/10.3389/ffutr.2026.1935771"
+   ],
+   [
+    "2026-10-02",
+    "RMCW: A Deletion-Robust Watermark Based on Reed--Muller Codes for Language Models",
+    "https://doi.org/10.48550/arxiv.2610.02817"
+   ],
+   [
+    "2026-10-02",
+    "A Kinetic Theory of the Gated Self-Evolving LLM Agent",
+    "https://doi.org/10.48550/arxiv.2610.03243"
+   ],
+   [
+    "2026-10-02",
+    "The Fragility of Trigger-Tag Mechanisms for Misuse Detection in Open-Weight LLMs",
+    "https://doi.org/10.48550/arxiv.2610.03124"
+   ],
+   [
+    "2026-10-01",
+    "Deep learning-based automated brain tumor detection using a proposed convolutional neural network architecture",
+    "https://doi.org/10.11591/eei.v15i5.11511"
+   ],
+   [
+    "2026-10-01",
+    "Performance Evaluation of Support Vector Machine and Deep Neural Network for Cover Image Selection Model in Reversible Image Steganography",
+    "https://doi.org/10.7759/s44389-025-00084-6"
+   ],
+   [
+    "2026-10-01",
+    "AI-Generated Content Detection: A Cross-Modal Survey of Methods, Challenges, and Future Directions",
+    "https://doi.org/10.21203/rs.3.rs-10864156/v1"
+   ]
+  ]
+ },
+ "oa2": {
+  "query": "watermark per-key false positive rate",
+  "count": 171,
+  "items": [
+   [
+    "2026-10-09",
+    "LLMDPA: pre-execution privacy auditing of DP-SGD via evidence-constrained semantic analysis",
+    "https://doi.org/10.1186/s42400-026-00657-5"
+   ],
+   [
+    "2026-10-08",
+    "Dynamic pixel-wise hybrid multi-chaotic image encryption with DCT steganography and CNN-assisted restoration",
+    "https://doi.org/10.1038/s41598-026-70726-9"
+   ],
+   [
+    "2026-10-08",
+    "ARTIFICIAL INTELLIGENCE IN FINANCIAL STATEMENT FRAUD DETECTION: A CRITICAL SYNTHESIS OF EMERGING TRENDS, METHODOLOGIES, AND FUTURE DIRECTIONS FOR U.S. PUBLICLY TRADED COMPANIES",
+    "https://doi.org/10.30574/msarr.2026.18.1.0191"
+   ],
+   [
+    "2026-10-07",
+    "Making Theft Useless: Adulteration-Based Protection of Proprietary Knowledge Graphs in GraphRAG Systems",
+    "https://doi.org/10.1145/3832783.3837418"
+   ],
+   [
+    "2026-10-07",
+    "Shifts in neural representations, not gaze, track how people reinterpret ambiguous social scenes",
+    "https://doi.org/10.64898/2026.10.06.749912"
+   ],
+   [
+    "2026-10-06",
+    "Cluster-Aware Attacks on Graph Watermarks",
+    "https://doi.org/10.1007/978-3-032-38702-8_19"
+   ],
+   [
+    "2026-10-06",
+    "A Cusp Catastrophe Model for Early Identifying Scientific Breakthroughs",
+    "https://doi.org/10.21203/rs.3.rs-10941810/v1"
+   ],
+   [
+    "2026-10-05",
+    "Representation learning in diffusion and flow-based model: an application aspect",
+    "https://doi.org/10.1007/s44336-026-00042-3"
+   ],
+   [
+    "2026-10-05",
+    "Hybrid deep learning for three-way classification of human-written, AI-generated, and AI-rephrased text",
+    "https://doi.org/10.1038/s41598-026-73841-9"
+   ],
+   [
+    "2026-10-05",
+    "A hybrid deep learning\u2013based OCR model for handwritten medical prescriptions",
+    "https://doi.org/10.3389/fmed.2026.1856485"
+   ],
+   [
+    "2026-10-05",
+    "Are LLM watermarks reliable in practice? A systematic review of evidence, robustness, threat models, and deployment assumptions",
+    "https://doi.org/10.1016/j.cosrev.2026.101074"
+   ],
+   [
+    "2026-10-05",
+    "A hybrid deep learning and cryptographic framework using signcryption for robust biometric template protection",
+    "https://doi.org/10.1038/s41598-026-74048-8"
+   ],
+   [
+    "2026-10-05",
+    "SimpleMark: Fast Multi-Bit Text Watermarking under f -Divergence Constraints",
+    "https://doi.org/10.48550/arxiv.2610.05712"
+   ],
+   [
+    "2026-10-04",
+    "Image Synthesis as an Intermediate for Controllable Time Series Generation",
+    "https://doi.org/10.48550/arxiv.2610.05211"
+   ],
+   [
+    "2026-10-04",
+    "Grammar-Guided Code Watermarking with Green Temperature",
+    "https://doi.org/10.48550/arxiv.2610.05323"
+   ],
+   [
+    "2026-10-03",
+    "Tracing model-generated DNA with position-independent watermarking",
+    "https://doi.org/10.48550/arxiv.2610.04763"
+   ],
+   [
+    "2026-10-03",
+    "Language Model Fingerprinting Requires Rethinking Watermark Teachers",
+    "https://doi.org/10.48550/arxiv.2610.04169"
+   ],
+   [
+    "2026-10-02",
+    "Adaptive calibration and spatio-temporal filtering for robust highway wrong-way driving detection",
+    "https://doi.org/10.3389/ffutr.2026.1935771"
+   ],
+   [
+    "2026-10-02",
+    "RMCW: A Deletion-Robust Watermark Based on Reed--Muller Codes for Language Models",
+    "https://doi.org/10.48550/arxiv.2610.02817"
+   ],
+   [
+    "2026-10-02",
+    "LiBRA: Detection-Aware Image Watermark Removal via Bidirectional Latent Optimization",
+    "https://doi.org/10.48550/arxiv.2610.03166"
+   ],
+   [
+    "2026-10-02",
+    "A Kinetic Theory of the Gated Self-Evolving LLM Agent",
+    "https://doi.org/10.48550/arxiv.2610.03243"
+   ],
+   [
+    "2026-10-02",
+    "The Fragility of Trigger-Tag Mechanisms for Misuse Detection in Open-Weight LLMs",
+    "https://doi.org/10.48550/arxiv.2610.03124"
+   ],
+   [
+    "2026-10-01",
+    "Performance Evaluation of Support Vector Machine and Deep Neural Network for Cover Image Selection Model in Reversible Image Steganography",
+    "https://doi.org/10.7759/s44389-025-00084-6"
+   ],
+   [
+    "2026-10-01",
+    "AI-Generated Content Detection: A Cross-Modal Survey of Methods, Challenges, and Future Directions",
+    "https://doi.org/10.21203/rs.3.rs-10864156/v1"
+   ],
+   [
+    "2026-10-01",
+    "MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning",
+    "https://doi.org/10.48550/arxiv.2610.01352"
+   ]
+  ]
+ },
+ "oa3": {
+  "query": "watermark key-conditional false positive",
+  "count": 84,
+  "items": [
+   [
+    "2026-10-09",
+    "LLMDPA: pre-execution privacy auditing of DP-SGD via evidence-constrained semantic analysis",
+    "https://doi.org/10.1186/s42400-026-00657-5"
+   ],
+   [
+    "2026-10-05",
+    "Representation learning in diffusion and flow-based model: an application aspect",
+    "https://doi.org/10.1007/s44336-026-00042-3"
+   ],
+   [
+    "2026-10-05",
+    "Are LLM watermarks reliable in practice? A systematic review of evidence, robustness, threat models, and deployment assumptions",
+    "https://doi.org/10.1016/j.cosrev.2026.101074"
+   ],
+   [
+    "2026-10-05",
+    "SimpleMark: Fast Multi-Bit Text Watermarking under f -Divergence Constraints",
+    "https://doi.org/10.48550/arxiv.2610.05712"
+   ],
+   [
+    "2026-10-04",
+    "Image Synthesis as an Intermediate for Controllable Time Series Generation",
+    "https://doi.org/10.48550/arxiv.2610.05211"
+   ],
+   [
+    "2026-10-04",
+    "Grammar-Guided Code Watermarking with Green Temperature",
+    "https://doi.org/10.48550/arxiv.2610.05323"
+   ],
+   [
+    "2026-10-03",
+    "A blockchain-based non-fungible tokens framework for ownership and intellectual property preserving with controlled access to medical datasets",
+    "https://doi.org/10.1038/s41598-026-67808-z"
+   ],
+   [
+    "2026-10-02",
+    "A Kinetic Theory of the Gated Self-Evolving LLM Agent",
+    "https://doi.org/10.48550/arxiv.2610.03243"
+   ],
+   [
+    "2026-10-02",
+    "The Fragility of Trigger-Tag Mechanisms for Misuse Detection in Open-Weight LLMs",
+    "https://doi.org/10.48550/arxiv.2610.03124"
+   ],
+   [
+    "2026-10-01",
+    "AI-Generated Content Detection: A Cross-Modal Survey of Methods, Challenges, and Future Directions",
+    "https://doi.org/10.21203/rs.3.rs-10864156/v1"
+   ],
+   [
+    "2026-09-30",
+    "Function-preserving watermarking of AI-generated proteins",
+    "https://doi.org/10.1038/s41586-026-10965-y"
+   ],
+   [
+    "2026-09-30",
+    "Anchor-ECC: Local Integrity Checking for Watermarked LLM Outputs via Error-Correcting Codes",
+    "https://doi.org/10.48550/arxiv.2609.38722"
+   ],
+   [
+    "2026-09-30",
+    "Semantic Watermarking for Malicious Image Manipulation Detection",
+    "https://doi.org/10.48550/arxiv.2609.39623"
+   ],
+   [
+    "2026-09-30",
+    "Unveiling the Value of Motion for Cinematic Camera Trajectories",
+    "https://doi.org/10.48550/arxiv.2609.38683"
+   ],
+   [
+    "2026-09-30",
+    "SEW: Style-Encoded Watermarking of LLM-Generated Code",
+    "https://doi.org/10.48550/arxiv.2609.39414"
+   ],
+   [
+    "2026-09-30",
+    "Code That Works, Environments That Don't: Measuring Environment Reproducibility in AI-Generated Software",
+    "https://doi.org/10.48550/arxiv.2610.00425"
+   ],
+   [
+    "2026-09-30",
+    "Do Defenses Against LLM Extraction Work Across Attacks? A Lifecycle Benchmark of Black-Box Model Extraction",
+    "https://doi.org/10.48550/arxiv.2610.00839"
+   ],
+   [
+    "2026-09-30",
+    "Research Ethics, Integrity and Plagiarism in the Artificial Intelligence Era",
+    "https://doi.org/10.70593/978-81-6632-098-9"
+   ],
+   [
+    "2026-09-29",
+    "Beyond Semantic Narrowing: Robust and Efficient LLM Watermarking with Hamming Neighborhoods",
+    "https://doi.org/10.48550/arxiv.2609.37218"
+   ],
+   [
+    "2026-09-29",
+    "Beyond Sub-Gaussian Detector Scores: Robust Weighted Profile-Loss Change Point Detection for Human-LLM Text Segmentation",
+    "https://doi.org/10.48550/arxiv.2609.36888"
+   ],
+   [
+    "2026-09-29",
+    "AutoMark: Enabling Autoresearch to Discover Better LLM Watermarks",
+    "https://doi.org/10.48550/arxiv.2609.37310"
+   ],
+   [
+    "2026-09-28",
+    "AI Approaches for Industrial Control System Cybersecurity: A Comprehensive Review of Methodological Contexts",
+    "https://doi.org/10.64189/ict.26318"
+   ],
+   [
+    "2026-09-28",
+    "Trustworthy synthetic visual media: Evidence across the media lifecycle",
+    "https://doi.org/10.48550/arxiv.2609.34232"
+   ],
+   [
+    "2026-09-28",
+    "AuxMark: Defending Against Unauthorized Agent Distillation via Auxiliary Behavioral Watermarking",
+    "https://doi.org/10.48550/arxiv.2609.34597"
+   ],
+   [
+    "2026-09-28",
+    "Using LLMs to Detect LLM-Generated Texts: A Cross-Generation Analysis",
+    "https://doi.org/10.48550/arxiv.2609.34691"
+   ]
+  ]
+ },
+ "oa4": {
+  "query": "LLM watermark fixed key calibration null",
+  "count": 29,
+  "items": [
+   [
+    "2026-10-05",
+    "Are LLM watermarks reliable in practice? A systematic review of evidence, robustness, threat models, and deployment assumptions",
+    "https://doi.org/10.1016/j.cosrev.2026.101074"
+   ],
+   [
+    "2026-10-03",
+    "Language Model Fingerprinting Requires Rethinking Watermark Teachers",
+    "https://doi.org/10.48550/arxiv.2610.04169"
+   ],
+   [
+    "2026-09-30",
+    "SEW: Style-Encoded Watermarking of LLM-Generated Code",
+    "https://doi.org/10.48550/arxiv.2609.39414"
+   ],
+   [
+    "2026-09-30",
+    "Do Defenses Against LLM Extraction Work Across Attacks? A Lifecycle Benchmark of Black-Box Model Extraction",
+    "https://doi.org/10.48550/arxiv.2610.00839"
+   ],
+   [
+    "2026-09-29",
+    "Beyond Semantic Narrowing: Robust and Efficient LLM Watermarking with Hamming Neighborhoods",
+    "https://doi.org/10.48550/arxiv.2609.37218"
+   ],
+   [
+    "2026-09-29",
+    "Beyond Sub-Gaussian Detector Scores: Robust Weighted Profile-Loss Change Point Detection for Human-LLM Text Segmentation",
+    "https://doi.org/10.48550/arxiv.2609.36888"
+   ],
+   [
+    "2026-09-29",
+    "Reprogramming Vision-Language Models via Structured Prompt Reparameterization",
+    "https://doi.org/10.48550/arxiv.2609.36680"
+   ],
+   [
+    "2026-09-29",
+    "AutoMark: Enabling Autoresearch to Discover Better LLM Watermarks",
+    "https://doi.org/10.48550/arxiv.2609.37310"
+   ],
+   [
+    "2026-09-28",
+    "Trustworthy synthetic visual media: Evidence across the media lifecycle",
+    "https://doi.org/10.48550/arxiv.2609.34232"
+   ],
+   [
+    "2026-09-28",
+    "Using LLMs to Detect LLM-Generated Texts: A Cross-Generation Analysis",
+    "https://doi.org/10.48550/arxiv.2609.34691"
+   ],
+   [
+    "2026-09-28",
+    "TANGO: Watermarking Masked Diffusion Language Models in Token Pairs",
+    "https://doi.org/10.48550/arxiv.2609.35224"
+   ],
+   [
+    "2026-09-28",
+    "A Few GPUs, A Whole Lotta Scale: Faithful LLM Training Emulation with CrystalLLM",
+    "https://doi.org/10.1145/3830418.3843852"
+   ],
+   [
+    "2026-09-27",
+    "Tokens Change, Structure Endures: Spectral Watermarking for Generated Speech",
+    "https://doi.org/10.48550/arxiv.2609.33774"
+   ],
+   [
+    "2026-09-27",
+    "GenoTrace: Inheritable Watermarks for Genome Foundation Model Distillation",
+    "https://doi.org/10.48550/arxiv.2609.35881"
+   ],
+   [
+    "2026-09-26",
+    "Reference-Null Calibrated Thresholds for E-Processes with Applications to Conformal Martingales",
+    "https://doi.org/10.48550/arxiv.2609.32678"
+   ],
+   [
+    "2026-09-26",
+    "Retrospective Distillation Attribution via Normalized Response Similarity",
+    "https://doi.org/10.48550/arxiv.2609.32749"
+   ],
+   [
+    "2026-09-25",
+    "Agents Can Use Base Models to Evade AI Detection",
+    "https://doi.org/10.48550/arxiv.2609.31876"
+   ],
+   [
+    "2026-09-24",
+    "The Tokens Remember: When Tokenization Bypasses Knowledge Editing and Unlearning",
+    "https://doi.org/10.48550/arxiv.2609.29045"
+   ],
+   [
+    "2026-09-23",
+    "System Attribution in LLM Brand Recommendations: Single Responses Identify the System, Aggregated Brand Profiles Do Not Transfer",
+    "https://doi.org/10.48550/arxiv.2610.00253"
+   ],
+   [
+    "2026-09-22",
+    "Sample-Efficient Multiple Testing with Adaptive Data Collection",
+    "https://doi.org/10.48550/arxiv.2609.26651"
+   ],
+   [
+    "2026-09-21",
+    "CrisisFake: Benchmark Validity of AI-Generated Text Detection for Disaster Social Sensing",
+    "https://doi.org/10.48550/arxiv.2609.35821"
+   ],
+   [
+    "2026-09-20",
+    "TTS-Guard: Black-Box Ownership Verification of Text-to-Speech Models via Adaptive Adversarial Speaker-Pair Fingerprints",
+    "https://doi.org/10.48550/arxiv.2609.23729"
+   ],
+   [
+    "2026-09-14",
+    "Predictive Likelihood Ratios for Language Model Watermark Detection",
+    "https://doi.org/10.48550/arxiv.2609.15657"
+   ],
+   [
+    "2026-09-13",
+    "DenMark: Robust Semantic Watermarking for Diffusion Language Models",
+    "https://doi.org/10.48550/arxiv.2609.14257"
+   ],
+   [
+    "2026-09-11",
+    "SynthSentry: Detecting Synthetic Data Contamination in Language Model Training Data",
+    "https://doi.org/10.48550/arxiv.2609.12353"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,154 @@
+{
+ "study": "study1_v0.1",
+ "N": 4000,
+ "K": 500,
+ "key_seed_start": 0,
+ "key_chunk": 48,
+ "L": [
+  64,
+  128,
+  256,
+  512,
+  1024,
+  2048
+ ],
+ "h": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "rules": [
+  "raw",
+  "distinct",
+  "first"
+ ],
+ "gamma": [
+  0.5,
+  0.25
+ ],
+ "alpha": [
+  0.01,
+  0.05,
+  0.001
+ ],
+ "colourings_core": [
+  "independent"
+ ],
+ "colourings_illustration": [
+  "independent",
+  "fixed"
+ ],
+ "text_seed_base": 20261010,
+ "validation_seed_base": 99261010,
+ "laws": [
+  {
+   "kind": "zipf",
+   "V": 1000,
+   "s": 1.0,
+   "role": "core"
+  },
+  {
+   "kind": "zipf",
+   "V": 10000,
+   "s": 1.0,
+   "role": "core",
+   "gamma_extra": true
+  },
+  {
+   "kind": "zipf",
+   "V": 50000,
+   "s": 1.0,
+   "role": "core"
+  },
+  {
+   "kind": "zipf",
+   "V": 10000,
+   "s": 1.2,
+   "role": "core"
+  },
+  {
+   "kind": "markov",
+   "V": 1000,
+   "S": 50,
+   "eps": 0.1,
+   "s": 1.0,
+   "role": "core"
+  },
+  {
+   "kind": "markov",
+   "V": 10000,
+   "S": 50,
+   "eps": 0.1,
+   "s": 1.0,
+   "role": "core",
+   "gamma_extra": true
+  },
+  {
+   "kind": "zipf",
+   "V": 10,
+   "s": 1.0,
+   "role": "illustration",
+   "K_illustration": 2000
+  },
+  {
+   "kind": "zipf",
+   "V": 100,
+   "s": 1.0,
+   "role": "illustration",
+   "K_illustration": 500
+  },
+  {
+   "kind": "twotoken",
+   "p_stay": 0.9,
+   "role": "illustration",
+   "K_illustration": 2000
+  }
+ ],
+ "fixed_subset_core": {
+  "h": [
+   0,
+   1
+  ],
+  "L": [
+   256,
+   2048
+  ],
+  "note": "the fixed-size colouring is also run on this subset of the core cells (R3 reported as indistinguishable or not)"
+ },
+ "validation_laws": [
+  {
+   "kind": "zipf",
+   "V": 1000,
+   "s": 1.0,
+   "role": "core"
+  },
+  {
+   "kind": "twotoken",
+   "p_stay": 0.9,
+   "role": "illustration",
+   "K_illustration": 2000
+  }
+ ],
+ "validation_note": "validation seeds differ from the study seeds; validation cells are used for timing, memory and the identity checks only and are discarded",
+ "reduction_order_if_over_budget": [
+  "K 500 -> 300",
+  "N 4000 -> 2000",
+  "drop gamma 0.25",
+  "drop L 2048"
+ ],
+ "budget_hours": 6,
+ "K_fixed_core": 200,
+ "h_illustration": [
+  0,
+  1,
+  2
+ ],
+ "L_illustration": [
+  64,
+  256,
+  1024
+ ],
+ "budget_note": "validation of 2026-10-09 (restructured runner): the Zipf V=1,000 family of five chains ran in 339 s with K=500, N=4,000; the cost is dominated by the dictionary size (up to 8.2M tuples at h >= 1 for large V), so the projection for the full grid is about 2 hours (core 30 chains x <= 120 s; gamma 0.25 extras; the fixed colouring on the core subset at K=200; the illustration laws at h <= 2, L <= 1024), within the 6-hour budget without reductions"
+}

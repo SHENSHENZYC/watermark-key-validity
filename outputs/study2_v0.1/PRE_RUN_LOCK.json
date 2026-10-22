@@ -1,0 +1,41 @@
+{
+ "study": "study2_v0.1",
+ "date": "2026-10-12",
+ "approved_by": "Yichen",
+ "before_outcomes": true,
+ "final": false,
+ "grid": "research/study2/grid_v0.1.json",
+ "protocol": "research/STUDY2_PROTOCOL_v0.1.md",
+ "validation": "outputs/study2_v0.1/VALIDATION.json",
+ "inputs": "outputs/study2_v0.1/INPUTS.json",
+ "tokens_manifest": "outputs/study2_v0.1/tokens_manifest.json",
+ "hashes": {
+  "outputs/study2_v0.1/INPUTS.json": "35da63acce7a914a947368414be01e75b63cbbae4150792e8b446dcf4e46b55b",
+  "outputs/study2_v0.1/VALIDATION.json": "a09b8c1f027ddd2c7dfd5b7e0fae0e44c8b9189ba87abbaec3590946bae58884",
+  "outputs/study2_v0.1/tokens_manifest.json": "07e8a00558234fdfc64922d6d6363f1ce158aece12d17249210a725f28494e3c",
+  "research/STUDY2_PROTOCOL_v0.1.md": "a8425622af0199463bd005d3471bd14113fadb521677753e6dfa0f2ae9d672b4",
+  "research/study1/s1_core.py": "69a18a98481122e18fee8c46c00c601f0ceb233abbceb9a98406c40bef9105ae",
+  "research/study2/grid_v0.1.json": "709f6adfd9b68708fb3c47599b92837fed30eb56053ee3a8cbd25c5ed8d0558a",
+  "research/study2/s2_analyze.py": "2c92f78dbe2a7c634215016de6fae979ec8de2872a27cadec8375b9af297f81d",
+  "research/study2/s2_core.py": "646cdf871b67065c489249fda2bbad66ccbf5dcb9dd6896bd7b3f93e8378bab4",
+  "research/study2/s2_data.py": "73d5c2d2f50dcba9f1f96672f3adfee45912dc29a22b15c70c083c05f35b3eaf",
+  "research/study2/s2_inputs.py": "7091139fbe060dc3f9d766f061f0aec1f9df298d112646998b3fa50198659b5f",
+  "research/study2/s2_keys.py": "30783a7f0f1a3f55726f9c84798e9b2716f829d1383e450059a7c344f4e271a9",
+  "research/study2/s2_run.py": "920b35e3ebfc02c440226633300378c1dc1af1ff52c82e2e9c8da36e7b557016",
+  "research/study2/s2_validate.py": "8f8634aed9c0ebb78a2872c77a558b48d99505755368fa22e6f34e19a389b18d",
+  "tools/corpora_access.py": "88212c134616bb1a83b7169113974ba26367266be81355b00369900f3bbeaf81",
+  "tools/key_policy.py": "b1fe47d7c6721b5024eaa03400daf43b16e4fcde0e34942a7e4bb8209d9d8ec4"
+ },
+ "review": {
+  "checkpoint": "R05",
+  "resolution": "research/reviews/R05_study2-protocol/RESOLUTION.md",
+  "sha256": "deb2569f7f742944cf3f435adb57b9f9a0940e51eba76984cacf2bb9aa1950ec"
+ },
+ "keys": {
+  "production_start": 22000,
+  "K": 1000,
+  "K_fixed_h0": 1000
+ },
+ "note": "Written on Yichen's 'lock now, run in Milestone 4' (2026-10-12) after checkpoint R05's AGREE at round 3. No study cell existed; the held-out partition is never opened by this study (final: false). The run reads this lock; the analyzer verifies it; cells carry its digest.",
+ "written_utc": "2026-10-13T02:49:15Z"
+}

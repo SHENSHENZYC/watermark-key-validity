@@ -1,0 +1,350 @@
+{
+ "_projection": "A projection of the API response for the public record (R13 F10): message.abstract (1310 characters) removed and kept in the private record under research/paper/bib_sources/raw_responses/, which the public snapshot excludes; every other field is verbatim.",
+ "message": {
+  "DOI": "10.1214/25-aos2510",
+  "ISSN": [
+   "0090-5364",
+   "2168-8966"
+  ],
+  "URL": "https://doi.org/10.1214/25-aos2510",
+  "author": [
+   {
+    "affiliation": [
+     {
+      "name": "Committee on Computational and Applied Mathematics, University of Chicago"
+     }
+    ],
+    "family": "Liang",
+    "given": "Ruiting",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Department of Statistics, University of Chicago"
+     }
+    ],
+    "family": "Barber",
+    "given": "Rina Foygel",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   }
+  ],
+  "container-title": [
+   "The Annals of Statistics"
+  ],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": []
+  },
+  "created": {
+   "date-parts": [
+    [
+     2025,
+     9,
+     12
+    ]
+   ],
+   "date-time": "2025-09-12T05:22:49Z",
+   "timestamp": 1757654569000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     7
+    ]
+   ],
+   "date-time": "2026-10-07T16:37:42Z",
+   "timestamp": 1791391062000
+  },
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     7
+    ]
+   ],
+   "date-time": "2026-10-07T16:59:37Z",
+   "timestamp": 1791392377323,
+   "version": "4.3.3"
+  },
+  "is-referenced-by-count": 1,
+  "issn-type": [
+   {
+    "type": "print",
+    "value": "0090-5364"
+   },
+   {
+    "type": "electronic",
+    "value": "2168-8966"
+   }
+  ],
+  "issue": "4",
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     8,
+     1
+    ]
+   ]
+  },
+  "journal-issue": {
+   "issue": "4",
+   "published-online": {
+    "date-parts": [
+     [
+      2025,
+      8,
+      1
+     ]
+    ]
+   }
+  },
+  "member": "108",
+  "original-title": [],
+  "page": "1457-1482",
+  "prefix": "10.1214",
+  "published": {
+   "date-parts": [
+    [
+     2025,
+     8,
+     1
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     2025,
+     8,
+     1
+    ]
+   ]
+  },
+  "publisher": "Institute of Mathematical Statistics",
+  "reference": [
+   {
+    "DOI": "10.1080/01621459.2017.1307116",
+    "doi-asserted-by": "publisher",
+    "key": "18",
+    "unstructured": "<small>Lei, J.</small>, <small>G\u2019Sell, M.</small>, <small>Rinaldo, A.</small>, <small>Tibshirani, R. J.</small> and <small>Wasserman, L.</small> (2018). Distribution-free predictive inference for regression. <i>J. Amer. Statist. Assoc.</i> <b>113</b> 1094\u20131111."
+   },
+   {
+    "DOI": "10.1007/s10994-013-5355-6",
+    "doi-asserted-by": "publisher",
+    "key": "30",
+    "unstructured": "<small>Vovk, V.</small> (2013). Conditional validity of inductive conformal predictors. <i>Mach. Learn.</i> <b>92</b> 349\u2013376."
+   },
+   {
+    "DOI": "10.1007/BF00058655",
+    "doi-asserted-by": "publisher",
+    "key": "5",
+    "unstructured": "<small>Breiman, L.</small> (1996). Bagging predictors. <i>Mach. Learn.</i> <b>24</b> 123\u2013140."
+   },
+   {
+    "DOI": "10.1023/A:1010933404324",
+    "doi-asserted-by": "crossref",
+    "key": "6",
+    "unstructured": "<small>Breiman, L.</small> (2001). Random forests. <i>Mach. Learn.</i> <b>45</b> 5\u201332."
+   },
+   {
+    "DOI": "10.1111/j.1467-9868.2010.00740.x",
+    "doi-asserted-by": "publisher",
+    "key": "20",
+    "unstructured": "<small>Meinshausen, N.</small> and <small>B\u00fchlmann, P.</small> (2010). Stability selection. <i>J. R. Stat. Soc. Ser. B. Stat. Methodol.</i> <b>72</b> 417\u2013473."
+   },
+   {
+    "DOI": "10.1109/FOCS.2016.59",
+    "doi-asserted-by": "publisher",
+    "key": "22",
+    "unstructured": "<small>ROGERS, R.</small>, <small>ROTH, A.</small>, <small>SMITH, A.</small> and <small>THAKKAR, O.</small> (2016). Max-information, differential privacy, and post-selection hypothesis testing. In 57<i>th Annual IEEE Symposium on Foundations of Computer Science\u2014FOCS</i> 2016 487\u2013494. IEEE Computer Soc., Los Alamitos, CA."
+   },
+   {
+    "DOI": "10.1214/22-aos2250",
+    "doi-asserted-by": "publisher",
+    "key": "29",
+    "unstructured": "<small>STEINBERGER, L.</small> and <small>LEEB, H.</small> (2023). Conditional predictive inference for stable algorithms. <i>Ann. Statist.</i> <b>51</b> 290\u2013311."
+   },
+   {
+    "DOI": "10.1007/3-540-36755-1_29",
+    "doi-asserted-by": "publisher",
+    "key": "21",
+    "unstructured": "<small>PAPADOPOULOS, H.</small>, <small>PROEDROU, K.</small>, <small>VOVK, V.</small> and <small>GAMMERMAN, A.</small> (2002). Inductive confidence machines for regression. In <i>Machine Learning</i>: <i>ECML</i> 2002. <i>Lecture Notes in Computer Science</i> <b>2430</b> 345\u2013356. Springer, Berlin."
+   },
+   {
+    "DOI": "10.1214/20-AOS1965",
+    "doi-asserted-by": "publisher",
+    "key": "2",
+    "unstructured": "<small>BARBER, R. F.</small>, <small>CAND\u00c8S, E. J.</small>, <small>RAMDAS, A.</small> and <small>TIBSHIRANI, R. J.</small> (2021). Predictive inference with the jackknife+. <i>Ann. Statist.</i> <b>49</b> 486\u2013507."
+   },
+   {
+    "DOI": "10.1007/s10472-013-9368-4",
+    "doi-asserted-by": "publisher",
+    "key": "31",
+    "unstructured": "<small>VOVK, V.</small> (2015). Cross-conformal predictors. <i>Ann. Math. Artif. Intell.</i> <b>74</b> 9\u201328."
+   },
+   {
+    "DOI": "10.1162/153244302760200704",
+    "doi-asserted-by": "publisher",
+    "key": "4",
+    "unstructured": "<small>Bousquet, O.</small> and <small>Elisseeff, A.</small> (2002). Stability and generalization. <i>J. Mach. Learn. Res.</i> <b>2</b> 499\u2013526."
+   },
+   {
+    "DOI": "10.1214/aos/1176344196",
+    "doi-asserted-by": "crossref",
+    "key": "23",
+    "unstructured": "<small>Rogers, W. H.</small> and <small>Wagner, T. J.</small> (1978). A finite sample distribution-free performance bound for local discrimination rules. <i>Ann. Statist.</i> <b>6</b> 506\u2013514."
+   },
+   {
+    "key": "32",
+    "unstructured": "<small>Vovk, V.</small>, <small>Gammerman, A.</small> and <small>Shafer, G.</small> (2005). <i>Algorithmic Learning in a Random World</i>. Springer, New York."
+   },
+   {
+    "DOI": "10.1214/23-aos2303",
+    "doi-asserted-by": "publisher",
+    "key": "33",
+    "unstructured": "<small>ZRNIC, T.</small> and <small>JORDAN, M. I.</small> (2023). Post-selection inference via algorithmic stability. <i>Ann. Statist.</i> <b>51</b> 1666\u20131691."
+   },
+   {
+    "DOI": "10.1002/sta4.261",
+    "doi-asserted-by": "publisher",
+    "key": "25",
+    "unstructured": "<small>SESIA, M.</small> and <small>CAND\u00c8S, E. J.</small> (2020). A comparison of some conformal quantile regression methods. <i>Stat</i> <b>9</b> e261, 8."
+   },
+   {
+    "key": "1",
+    "unstructured": "<small>AMANN, N.</small>, <small>LEEB, H.</small> and <small>STEINBERGER, L.</small> (2023). Assumption-lean conditional predictive inference via the Jackknife and the Jackknife<b>+</b>. Preprint. Available at arXiv:<a href=\"https://arxiv.org/abs/2312.14596\">2312.14596</a>."
+   },
+   {
+    "DOI": "10.1214/23-ejs2145",
+    "doi-asserted-by": "publisher",
+    "key": "3",
+    "unstructured": "<small>BIAN, M.</small> and <small>BARBER, R. F.</small> (2023). Training-conditional coverage for distribution-free predictive inference. <i>Electron. J. Stat.</i> <b>17</b> 2044\u20132066."
+   },
+   {
+    "DOI": "10.1109/TIT.1979.1056087",
+    "doi-asserted-by": "publisher",
+    "key": "8",
+    "unstructured": "<small>DEVROYE, L. P.</small> and <small>WAGNER, T. J.</small> (1979a). Distribution-free performance bounds for potential function rules. <i>IEEE Trans. Inf. Theory</i> <b>25</b> 601\u2013604."
+   },
+   {
+    "DOI": "10.1109/TIT.1979.1056032",
+    "doi-asserted-by": "publisher",
+    "key": "9",
+    "unstructured": "<small>DEVROYE, L. P.</small> and <small>WAGNER, T. J.</small> (1979b). Distribution-free inequalities for the deleted and holdout error estimates. <i>IEEE Trans. Inf. Theory</i> <b>25</b> 202\u2013207."
+   },
+   {
+    "DOI": "10.1007/3-540-45014-9_1",
+    "doi-asserted-by": "crossref",
+    "key": "10",
+    "unstructured": "<small>DIETTERICH, T. G.</small> (2000). Ensemble methods in machine learning. In <i>International Workshop on Multiple Classifier Systems</i> 1\u201315. Springer, Berlin."
+   },
+   {
+    "key": "11",
+    "unstructured": "<small>DWORK, C.</small>, <small>FELDMAN, V.</small>, <small>HARDT, M.</small>, <small>PITASSI, T.</small>, <small>REINGOLD, O.</small> and <small>ROTH, A.</small> (2015a). Generalization in adaptive data analysis and holdout reuse. <i>Adv. Neural Inf. Process. Syst.</i> <b>28</b>."
+   },
+   {
+    "DOI": "10.1145/2746539.2746580",
+    "doi-asserted-by": "crossref",
+    "key": "12",
+    "unstructured": "<small>DWORK, C.</small>, <small>FELDMAN, V.</small>, <small>HARDT, M.</small>, <small>PITASSI, T.</small>, <small>REINGOLD, O.</small> and <small>ROTH, A.</small> (2015b). Preserving statistical validity in adaptive data analysis [extended abstract]. In <i>STOC\u2019</i>15<i>\u2014Proceedings of the</i> 2015 <i>ACM Symposium on Theory of Computing</i> 117\u2013126. ACM, New York."
+   },
+   {
+    "key": "13",
+    "unstructured": "<small>ELISSEEFF, A.</small>, <small>EVGENIOU, T.</small> and <small>PONTIL, M.</small> (2005). Stability of randomized learning algorithms. <i>J. Mach. Learn. Res.</i> <b>6</b> 55\u201379."
+   },
+   {
+    "DOI": "10.1023/B:MACH.0000027783.34431.42",
+    "doi-asserted-by": "crossref",
+    "key": "14",
+    "unstructured": "<small>GRANDVALET, Y.</small> (2004). Bagging equalizes influence. <i>Mach. Learn.</i> <b>55</b> 251\u2013270."
+   },
+   {
+    "DOI": "10.1145/267460.267491",
+    "doi-asserted-by": "crossref",
+    "key": "15",
+    "unstructured": "<small>KEARNS, M.</small> and <small>RON, D.</small> (1997). Algorithmic stability and sanity-check bounds for leave-one-out cross-validation. In <i>Proceedings of the Tenth Annual Conference on Computational Learning Theory</i> 152\u2013162."
+   },
+   {
+    "DOI": "10.1093/imaiai/iaad039",
+    "doi-asserted-by": "publisher",
+    "key": "16",
+    "unstructured": "<small>KIM, B.</small> and <small>BARBER, R. F.</small> (2023). Black-box tests for algorithmic stability. <i>Inf. Inference</i> <b>12</b> Paper No. iaad039, 30."
+   },
+   {
+    "key": "17",
+    "unstructured": "<small>LANGE, T.</small>, <small>BRAUN, M.</small>, <small>ROTH, V.</small> and <small>BUHMANN, J.</small> (2002). Stability-based model selection. <i>Adv. Neural Inf. Process. Syst.</i> <b>15</b>."
+   },
+   {
+    "DOI": "10.1214/25-AOS2510SUPP",
+    "doi-asserted-by": "crossref",
+    "key": "19",
+    "unstructured": "<small>LIANG, R.</small> and <small>BARBER, R. F</small> (2025). Supplement to \u201cAlgorithmic stability implies training-conditional coverage for distribution-free prediction methods.\u201d <a href=\"https://doi.org/10.1214/25-AOS2510SUPP\">https://doi.org/10.1214/25-AOS2510SUPP</a>"
+   },
+   {
+    "key": "27",
+    "unstructured": "<small>SOLOFF, J. A.</small>, <small>BARBER, R. F.</small> and <small>WILLET, R.</small> (2024a). Stability via resampling: Statistical problems beyond the real line. Preprint. Available at arXiv:<a href=\"https://arxiv.org/abs/2405.09511\">2405.09511</a>."
+   },
+   {
+    "key": "28",
+    "unstructured": "<small>SOLOFF, J. A.</small>, <small>BARBER, R. F.</small> and <small>WILLETT, R.</small> (2024b). Bagging provides assumption-free stability. <i>J. Mach. Learn. Res.</i> <b>25</b> Paper No. [131], 35."
+   },
+   {
+    "DOI": "10.1111/j.1467-9868.2011.01034.x",
+    "doi-asserted-by": "publisher",
+    "key": "26",
+    "unstructured": "<small>SHAH, R. D.</small> and <small>SAMWORTH, R. J.</small> (2013). Variable selection with error control: Another look at stability selection. <i>J. R. Stat. Soc. Ser. B. Stat. Methodol.</i> <b>75</b> 55\u201380."
+   },
+   {
+    "key": "24",
+    "unstructured": "<small>ROMANO, Y.</small>, <small>PATTERSON, E.</small> and <small>CANDES, E.</small> (2019). Conformalized quantile regression. <i>Adv. Neural Inf. Process. Syst.</i> <b>32</b>."
+   },
+   {
+    "DOI": "10.1214/aos/1031689014",
+    "doi-asserted-by": "publisher",
+    "key": "7",
+    "unstructured": "<small>B\u00dcHLMANN, P.</small> and <small>YU, B.</small> (2002). Analyzing bagging. <i>Ann. Statist.</i> <b>30</b> 927\u2013961."
+   }
+  ],
+  "reference-count": 33,
+  "references-count": 33,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-4/Algorithmic-stability-implies-training-conditional-coverage-for-distribution-free-prediction/10.1214/25-AOS2510.full"
+   }
+  },
+  "score": 1,
+  "short-container-title": [
+   "Ann. Statist."
+  ],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "Algorithmic stability implies training-conditional coverage for distribution-free prediction methods"
+  ],
+  "type": "journal-article",
+  "volume": "53"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

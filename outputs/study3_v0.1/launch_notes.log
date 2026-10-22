@@ -1,0 +1,5 @@
+launch 2026-10-15T19:47:53Z HEAD=5e44a2e4b7013c5f1f44e15e7a47d0181abe23f8 lock_sha256=0e2889287d9d814166213e360766e93097de63401842516e3cb308056c666df6
+vm.swapusage: total = 2048.00M  used = 474.94M  free = 1573.06M  (encrypted)
+Pages free:                                   116439.
+Pages inactive:                               195564.
+command: caffeinate -i env PYTHONHASHSEED=0 .venv/bin/python -u research/study3/s3_run.py --grid research/study3/grid_v0.1.json

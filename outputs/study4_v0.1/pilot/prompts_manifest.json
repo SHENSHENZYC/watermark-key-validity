@@ -1,0 +1,177 @@
+{
+ "study": "study4_v0.1",
+ "written_utc": "2026-10-16T01:27:43Z",
+ "P": 64,
+ "L": 192,
+ "tokenizer": {
+  "repo": "Qwen/Qwen2.5-1.5B",
+  "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "V": 151936,
+  "note": "V = the model config's vocab_size 151936 (the dimension a KGW permutation acts on); len(tokenizer) = 151665, so 271 ids never occur in text",
+  "name": "qwen"
+ },
+ "study3_manifest": "outputs/study3_v0.1/tokens_manifest.json",
+ "study3_manifest_sha256": "3385c73775d9d772f8a3b2a5b4d7256f8cbeb87836cb246fa9320fbfdef7d778",
+ "study2_manifest_sha256": "07e8a00558234fdfc64922d6d6363f1ce158aece12d17249210a725f28494e3c",
+ "units_dir": "outputs/corpora_units_v0.3",
+ "units_version": "0.3",
+ "pilot_seed_base": 99261015,
+ "add_special_tokens": false,
+ "text_cap_chars": {
+  "news": 12000,
+  "stackexchange": 12000,
+  "wikipedia": 12000,
+  "gutenberg": 24000
+ },
+ "cells": {
+  "news_en_256": {
+   "pool_size": 37695,
+   "pool_sha256": "a16891041f949c619413d933b7bb0bce8bab5c09ad04c6f2c23fd4e6e94c3832",
+   "perm_seed": 3619899595,
+   "cal_end_position": 14999,
+   "n_consumed_global": 146054,
+   "prod_positions": [
+    null,
+    null
+   ],
+   "prod_ids_sha256": null,
+   "pilot_seed": 3698899598,
+   "pilot_ids_sha256": "ef8167434324fa8748bfb3b84b293b12b3c5633e034abf1ba15b4579db08d111",
+   "cell": "news/en@256",
+   "tag": "news_en_256",
+   "kinds": {
+    "pilot": {
+     "file": "outputs/study4_v0.1/pilot/prompts/news_en_256__qwen__pilot.npy",
+     "n": 96,
+     "shape": [
+      96,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "bafa8f46fd256fa95cd4ca78d64dcff6996353c0021ba234927ce5e6dfc5e21e",
+     "ids_sha256": "ef8167434324fa8748bfb3b84b293b12b3c5633e034abf1ba15b4579db08d111",
+     "first_ids": [
+      "https://globalvoices.org/2011/08/05/cote-divoire-the-surprise-ousting-of-pascal-brou-aka-from-television-channel-rti/",
+      "https://milwaukeenns.org/2022/03/07/post-from-community-city-departments-to-detail-anti-eviction-measures-results-at-committee-meeting/",
+      "https://zimfact.org/fact-check-can-convicted-criminals-run-for-elections/"
+     ],
+     "capped_prefix_tokens_median": 843,
+     "capped_prefix_tokens_min": 266
+    }
+   }
+  },
+  "wikipedia_en_256": {
+   "pool_size": 95045,
+   "pool_sha256": "fd4ab4b7a799218b0483e5dba075a52880d5c6c8ff51673d018f229df570e69f",
+   "perm_seed": 830094426,
+   "cal_end_position": 15577,
+   "n_consumed_global": 146054,
+   "prod_positions": [
+    null,
+    null
+   ],
+   "prod_ids_sha256": null,
+   "pilot_seed": 909094429,
+   "pilot_ids_sha256": "38bd1dd523a2e36e224ff1e1f7148cc6bc9466fdfa4d6e80b1237e37efae80ef",
+   "cell": "wikipedia/en@256",
+   "tag": "wikipedia_en_256",
+   "kinds": {
+    "pilot": {
+     "file": "outputs/study4_v0.1/pilot/prompts/wikipedia_en_256__qwen__pilot.npy",
+     "n": 96,
+     "shape": [
+      96,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "dc4787dbf2cb7eef49a7d161d87df9598b8c866a4fea532db73d8adae4ed6f7c",
+     "ids_sha256": "38bd1dd523a2e36e224ff1e1f7148cc6bc9466fdfa4d6e80b1237e37efae80ef",
+     "first_ids": [
+      "wiki:en:5272925",
+      "wiki:en:4363077",
+      "wiki:en:4970164"
+     ],
+     "capped_prefix_tokens_median": 614,
+     "capped_prefix_tokens_min": 264
+    }
+   }
+  },
+  "stackexchange_en_256": {
+   "pool_size": 982004,
+   "pool_sha256": "a48d474601c5d2184ee138e09f184d076098fe52a85b48116518763585963e84",
+   "perm_seed": 3457223252,
+   "cal_end_position": 14999,
+   "n_consumed_global": 146054,
+   "prod_positions": [
+    null,
+    null
+   ],
+   "prod_ids_sha256": null,
+   "pilot_seed": 3536223255,
+   "pilot_ids_sha256": "ff2afa55881c453370fc5b3f67854ecd3838c1114a9e9b21d2b7fbc4fcaabc80",
+   "cell": "stackexchange/en@256",
+   "tag": "stackexchange_en_256",
+   "kinds": {
+    "pilot": {
+     "file": "outputs/study4_v0.1/pilot/prompts/stackexchange_en_256__qwen__pilot.npy",
+     "n": 96,
+     "shape": [
+      96,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "76a568cbb6c06e605a3357686601d7aed2d3231b88f8a599d50f191807aab34f",
+     "ids_sha256": "ff2afa55881c453370fc5b3f67854ecd3838c1114a9e9b21d2b7fbc4fcaabc80",
+     "first_ids": [
+      "https://stackoverflow.com/questions/32007432",
+      "https://askubuntu.com/questions/22268",
+      "https://stackoverflow.com/questions/31994061"
+     ],
+     "capped_prefix_tokens_median": 558,
+     "capped_prefix_tokens_min": 260
+    }
+   }
+  },
+  "wikipedia_zh_256": {
+   "pool_size": 116578,
+   "pool_sha256": "aaeef825a216b3e572556bd813ee2cef032670b3e4c57b89849562643d123151",
+   "perm_seed": 1139551260,
+   "cal_end_position": 14999,
+   "n_consumed_global": 146054,
+   "prod_positions": [
+    null,
+    null
+   ],
+   "prod_ids_sha256": null,
+   "pilot_seed": 1218551263,
+   "pilot_ids_sha256": "ed8053330824f70b9c1127819d6228f579d44901c0fd3073c53d1e8120c023a0",
+   "cell": "wikipedia/zh@256",
+   "tag": "wikipedia_zh_256",
+   "kinds": {
+    "pilot": {
+     "file": "outputs/study4_v0.1/pilot/prompts/wikipedia_zh_256__qwen__pilot.npy",
+     "n": 96,
+     "shape": [
+      96,
+      256
+     ],
+     "dtype": "int32",
+     "sha256": "4eeebe7ceb79296b6e4dee189f08a3b8c3caeb7a1c837d1ab1adca3fd5a6e39d",
+     "ids_sha256": "ed8053330824f70b9c1127819d6228f579d44901c0fd3073c53d1e8120c023a0",
+     "first_ids": [
+      "wiki:zh:283052",
+      "wiki:zh:717507",
+      "wiki:zh:577072"
+     ],
+     "capped_prefix_tokens_median": 1072,
+     "capped_prefix_tokens_min": 262
+    }
+   }
+  }
+ },
+ "seal": {
+  "partition_sha256": "8b9cf24aa9cece47acbc9c8c61f6b9fc0199c06e5f451f8fe9a0b1c28f61feae",
+  "units_sha256": "911d2a24487b347f0b72fc62ecc3edd0326d546d00f984cf1d0f6f902574cdd9",
+  "manifest_sha256": "3bc890fc0e913dbe102a67a8b0d18c75de3d37f68b778d6417acd536bf9b5783"
+ }
+}

@@ -1,0 +1,580 @@
+{
+ "_projection": "A projection of the API response for the public record (R13 F10): message.abstract (1625 characters) removed and kept in the private record under research/paper/bib_sources/raw_responses/, which the public snapshot excludes; every other field is verbatim.",
+ "message": {
+  "DOI": "10.1214/24-aos2468",
+  "ISSN": [
+   "0090-5364",
+   "2168-8966"
+  ],
+  "URL": "https://doi.org/10.1214/24-aos2468",
+  "author": [
+   {
+    "affiliation": [
+     {
+      "name": "University of Pennsylvania"
+     }
+    ],
+    "family": "Li",
+    "given": "Xiang",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Northwestern University"
+     }
+    ],
+    "family": "Ruan",
+    "given": "Feng",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "University of Pennsylvania"
+     }
+    ],
+    "family": "Wang",
+    "given": "Huiyuan",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "University of Pennsylvania"
+     }
+    ],
+    "family": "Long",
+    "given": "Qi",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "University of Pennsylvania"
+     }
+    ],
+    "family": "Su",
+    "given": "Weijie J.",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   }
+  ],
+  "container-title": [
+   "The Annals of Statistics"
+  ],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": []
+  },
+  "created": {
+   "date-parts": [
+    [
+     2025,
+     2,
+     14
+    ]
+   ],
+   "date-time": "2025-02-14T01:37:08Z",
+   "timestamp": 1739497028000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     7
+    ]
+   ],
+   "date-time": "2026-10-07T16:58:20Z",
+   "timestamp": 1791392300000
+  },
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     7
+    ]
+   ],
+   "date-time": "2026-10-07T17:51:14Z",
+   "timestamp": 1791395474134,
+   "version": "4.3.3"
+  },
+  "is-referenced-by-count": 21,
+  "issn-type": [
+   {
+    "type": "print",
+    "value": "0090-5364"
+   },
+   {
+    "type": "electronic",
+    "value": "2168-8966"
+   }
+  ],
+  "issue": "1",
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     2,
+     1
+    ]
+   ]
+  },
+  "journal-issue": {
+   "issue": "1",
+   "published-online": {
+    "date-parts": [
+     [
+      2025,
+      2,
+      1
+     ]
+    ]
+   }
+  },
+  "member": "108",
+  "original-title": [],
+  "page": "322-351",
+  "prefix": "10.1214",
+  "published": {
+   "date-parts": [
+    [
+     2025,
+     2,
+     1
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     2025,
+     2,
+     1
+    ]
+   ]
+  },
+  "publisher": "Institute of Mathematical Statistics",
+  "reference": [
+   {
+    "DOI": "10.1002/cpa.3160360204",
+    "doi-asserted-by": "publisher",
+    "key": "19",
+    "unstructured": "<small>Donsker, M. D.</small> and <small>Varadhan, S. R. S.</small> (1983). Asymptotic evaluation of certain Markov process expectations for large time. IV. <i>Comm. Pure Appl. Math.</i> <b>36</b> 183\u2013212."
+   },
+   {
+    "DOI": "10.1017/CBO9780511802256",
+    "doi-asserted-by": "publisher",
+    "key": "62",
+    "unstructured": "<small>van der Vaart, A. W.</small> (1998). <i>Asymptotic Statistics</i>. <i>Cambridge Series in Statistical and Probabilistic Mathematics</i> <b>3</b>. Cambridge Univ. Press, Cambridge."
+   },
+   {
+    "DOI": "10.1007/978-3-642-03311-7",
+    "doi-asserted-by": "publisher",
+    "key": "17",
+    "unstructured": "<small>Dembo, A.</small> and <small>Zeitouni, O.</small> (2010). <i>Large Deviations Techniques and Applications</i>. <i>Stochastic Modelling and Applied Probability</i> <b>38</b>. Springer, Berlin. Corrected reprint of the second (1998) edition."
+   },
+   {
+    "DOI": "10.1007/978-3-662-02796-7",
+    "doi-asserted-by": "crossref",
+    "key": "26",
+    "unstructured": "<small>Hiriart-Urruty, J.-B.</small> and <small>Lemar\u00e9chal, C.</small> (1993). <i>Convex Analysis and Minimization Algorithms. I</i>: <i>Fundamentals</i>. <i>Grundlehren der Mathematischen Wissenschaften</i> [<i>Fundamental Principles of Mathematical Sciences</i>] <b>305</b>. Springer, Berlin."
+   },
+   {
+    "DOI": "10.1145/355744.355749",
+    "doi-asserted-by": "publisher",
+    "key": "65",
+    "unstructured": "<small>WALKER, A. J.</small> (1977). An efficient method for generating discrete random variables with general distributions. <i>ACM Trans. Math. Software</i> <b>3</b> 253\u2013256."
+   },
+   {
+    "key": "1",
+    "unstructured": "<small>AARONSON, S.</small> (2023). Watermarking of large language models. <a href=\"https://simons.berkeley.edu/talks/scott-aaronson-ut-austin-openai-2023-08-17\">https://simons.berkeley.edu/talks/scott-aaronson-ut-austin-openai-2023-08-17</a>."
+   },
+   {
+    "key": "2",
+    "unstructured": "<small>ACHIAM, J.</small>, <small>ADLER, S.</small>, <small>AGARWAL, S.</small>, <small>AHMAD, L.</small>, <small>AKKAYA, I.</small>, <small>ALEMAN, F. L.</small>, <small>ALMEIDA, D.</small>, <small>ALTENSCHMIDT, J.</small>, <small>ALTMAN, S.</small> et al. (2023). GPT-4 technical report. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2303.08774\">2303.08774</a>."
+   },
+   {
+    "DOI": "10.1016/S0364-0213(85)80012-4",
+    "doi-asserted-by": "crossref",
+    "key": "3",
+    "unstructured": "<small>ACKLEY, D. H.</small>, <small>HINTON, G. E.</small> and <small>SEJNOWSKI, T. J.</small> (1985). A learning algorithm for Boltzmann machines. <i>Cogn. Sci.</i> <b>9</b> 147\u2013169."
+   },
+   {
+    "DOI": "10.1007/3-540-45496-9_14",
+    "doi-asserted-by": "crossref",
+    "key": "4",
+    "unstructured": "<small>ATALLAH, M. J.</small>, <small>RASKIN, V.</small>, <small>CROGAN, M.</small>, <small>HEMPELMANN, C.</small>, <small>KERSCHBAUM, F.</small>, <small>MOHAMED, D.</small> and <small>NAIK, S.</small> (2001). Natural language watermarking: Design, analysis, and a proof-of-concept implementation. In <i>Information Hiding</i> 185\u2013200."
+   },
+   {
+    "key": "5",
+    "unstructured": "<small>BAHADUR, R. R.</small> (1960). On the asymptotic efficiency of tests and estimates. <i>Sankhy\u0101</i> <b>22</b> 229\u2013252."
+   },
+   {
+    "key": "6",
+    "unstructured": "<small>BAO, G.</small>, <small>ZHAO, Y.</small>, <small>TENG, Z.</small>, <small>YANG, L.</small> and <small>ZHANG, Y.</small> (2023). Fast-Detectgpt: Efficient zero-shot detection of machine-generated text via conditional probability curvature. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2310.05130\">2310.05130</a>."
+   },
+   {
+    "key": "7",
+    "unstructured": "<small>BARAK, B.</small> (2021). An intensive introduction to cryptography, lectures notes for Harvard CS 127. <a href=\"https://intensecrypto.org/public/index.html\">https://intensecrypto.org/public/index.html</a>."
+   },
+   {
+    "key": "8",
+    "unstructured": "<small>BARTZ, D.</small> and <small>HU, K.</small> (2023). OpenAI, Google, others pledge to watermark AI content for safety, White House says. <a href=\"https://www.reuters.com/technology/openai-google-others-pledge-watermark-ai-content-safety-white-house-2023-07-21/\">https://www.reuters.com/technology/openai-google-others-pledge-watermark-ai-content-safety-white-house-2023-07-21/</a>. Accessed: 2023-10-03."
+   },
+   {
+    "key": "9",
+    "unstructured": "<small>BIDEN, J.</small> (2023). Fact sheet: President Biden issues executive order on safe, secure, and trustworthy artificial intelligence. <a href=\"https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence/\">https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence/</a>. Accessed: 2023-11-01."
+   },
+   {
+    "key": "10",
+    "unstructured": "<small>BROWN, T.</small>, <small>MANN, B.</small>, <small>RYDER, N.</small>, <small>SUBBIAH, M.</small>, <small>KAPLAN, J. D.</small>, <small>DHARIWAL, P.</small>, <small>NEELAKANTAN, A.</small>, <small>SHYAM, P.</small>, <small>SASTRY, G.</small> et al. (2020). Language models are few-shot learners. In <i>Advances in Neural Information Processing Systems</i> <b>33</b> 1877\u20131901."
+   },
+   {
+    "key": "11",
+    "unstructured": "<small>CAI, Z.</small>, <small>LIU, S.</small>, <small>WANG, H.</small>, <small>ZHONG, H.</small> and <small>LI, X.</small> (2024). Towards better statistical understanding of watermarking LLMs. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2403.13027\">2403.13027</a>."
+   },
+   {
+    "DOI": "10.1109/TSP.2005.855418",
+    "doi-asserted-by": "publisher",
+    "key": "12",
+    "unstructured": "<small>CAYRE, F.</small>, <small>FONTAINE, C.</small> and <small>FURON, T.</small> (2005). Watermarking security: Theory and practice. <i>IEEE Trans. Signal Process.</i> <b>53</b> 3976\u20133987."
+   },
+   {
+    "key": "13",
+    "unstructured": "<small>CHAKRABORTY, S.</small>, <small>BEDI, A. S.</small>, <small>ZHU, S.</small>, <small>AN, B.</small>, <small>MANOCHA, D.</small> and <small>HUANG, F.</small> (2023). On the possibilities of AI-generated text detection. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2304.04736\">2304.04736</a>."
+   },
+   {
+    "key": "14",
+    "unstructured": "<small>CHRIST, M.</small>, <small>GUNN, S.</small> and <small>ZAMIR, O.</small> (2024). Undetectable watermarks for language models. In <i>Conference on Learning Theory</i> 1125\u20131139. PMLR."
+   },
+   {
+    "key": "15",
+    "unstructured": "<small>COX, I.</small>, <small>MILLER, M.</small>, <small>BLOOM, J.</small>, <small>FRIDRICH, J.</small> and <small>KALKER, T.</small> (2007). <i>Digital Watermarking and Steganography</i>. Morgan Kaufmann."
+   },
+   {
+    "key": "16",
+    "unstructured": "<small>DAS, D.</small>, <small>DE LANGIS, K.</small>, <small>MARTIN, A.</small>, <small>KIM, J.</small>, <small>LEE, M.</small>, <small>KIM, Z. M.</small>, <small>HAYATI, S.</small>, <small>OWAN, R.</small>, <small>HU, B.</small> et al. (2024). Under the surface: Tracking the artifactuality of LLM-generated data. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2401.14698\">2401.14698</a>."
+   },
+   {
+    "DOI": "10.1016/S0927-0507(06)13004-2",
+    "doi-asserted-by": "crossref",
+    "key": "18",
+    "unstructured": "<small>DEVROYE, L.</small> (2006). Nonuniform random variate generation. <i>Handbooks Oper. Res. Management Sci.</i> <b>13</b> 83\u2013121."
+   },
+   {
+    "key": "20",
+    "unstructured": "<small>FERNANDEZ, P.</small>, <small>CHAFFIN, A.</small>, <small>TIT, K.</small>, <small>CHAPPELIER, V.</small> and <small>FURON, T.</small> (2023). Three bricks to consolidate watermarks for large language models. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2308.00113\">2308.00113</a>."
+   },
+   {
+    "DOI": "10.18653/v1/P19-3019",
+    "doi-asserted-by": "crossref",
+    "key": "21",
+    "unstructured": "<small>GEHRMANN, S.</small>, <small>STROBELT, H.</small> and <small>RUSH, A.</small> (2019). GLTR: Statistical detection and visualization of generated text. In <i>Annual Meeting of the Association for Computational Linguistics</i>: <i>System Demonstrations</i>."
+   },
+   {
+    "key": "22",
+    "unstructured": "<small>GIBOULOT, E.</small> and <small>TEDDY, F.</small> (2024). WaterMax: Breaking the LLM watermark detectability-robustness-quality trade-off. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2403.04808\">2403.04808</a>."
+   },
+   {
+    "key": "23",
+    "unstructured": "<small>GPTZERO</small> (2023). GPTZero: More than an AI detector preserve what\u2019s human. <a href=\"https://gptzero.me/\">https://gptzero.me/</a>."
+   },
+   {
+    "key": "24",
+    "unstructured": "<small>GUMBEL, E. J.</small> (1954). <i>Statistical Theory of Extreme Values and Some Practical Applications. A Series of Lectures</i>. <i>National Bureau of Standards Applied Mathematics Series</i> <b>33</b>. U. S. Government Printing Office, Washington, DC."
+   },
+   {
+    "key": "25",
+    "unstructured": "<small>HAZAN, T.</small> and <small>JAAKKOLA, T.</small> (2012). On the partition function and random maximum a-posteriori perturbations. In <i>International Conference on Machine Learning</i> 1667\u20131674."
+   },
+   {
+    "key": "27",
+    "unstructured": "<small>HU, Z.</small>, <small>CHEN, L.</small>, <small>WU, X.</small>, <small>WU, Y.</small>, <small>ZHANG, H.</small> and <small>HUANG, H.</small> (2024). Unbiased watermark for large language models. In <i>International Conference on Learning Representations</i>."
+   },
+   {
+    "key": "28",
+    "unstructured": "<small>HUANG, B.</small>, <small>ZHU, H.</small>, <small>ZHU, B.</small>, <small>RAMCHANDRAN, K.</small>, <small>JORDAN, M. I.</small>, <small>LEE, J. D.</small> and <small>JIAO, J.</small> (2023). Towards optimal statistical watermarking. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2312.07930\">2312.07930</a>."
+   },
+   {
+    "key": "29",
+    "unstructured": "<small>JANG, E.</small>, <small>GU, S.</small> and <small>POOLE, B.</small> (2016). Categorical reparameterization with Gumbel-softmax. In <i>International Conference on Learning Representations</i>."
+   },
+   {
+    "key": "30",
+    "unstructured": "<small>KATZ, J.</small> and <small>LINDELL, Y.</small> (2008). <i>Introduction to Modern Cryptography</i>. <i>Chapman &amp; Hall/CRC Cryptography and Network Security</i>. CRC Press/CRC, Boca Raton, FL."
+   },
+   {
+    "key": "31",
+    "unstructured": "<small>KIRCHENBAUER, J.</small>, <small>GEIPING, J.</small>, <small>WEN, Y.</small>, <small>KATZ, J.</small>, <small>MIERS, I.</small> and <small>GOLDSTEIN, T.</small> (2023). A watermark for large language models. In <i>International Conference on Machine Learning</i> <b>202</b> 17061\u201317084."
+   },
+   {
+    "key": "32",
+    "unstructured": "<small>KIRCHENBAUER, J.</small>, <small>GEIPING, J.</small>, <small>WEN, Y.</small>, <small>SHU, M.</small>, <small>SAIFULLAH, K.</small>, <small>KONG, K.</small>, <small>FERNANDO, K.</small>, <small>SAHA, A.</small>, <small>GOLDBLUM, M.</small> et al. (2024). On the reliability of watermarks for large language models. In <i>International Conference on Learning Representations</i>."
+   },
+   {
+    "DOI": "10.52202/075280-1195",
+    "doi-asserted-by": "crossref",
+    "key": "33",
+    "unstructured": "<small>KRISHNA, K.</small>, <small>SONG, Y.</small>, <small>KARPINSKA, M.</small>, <small>WIETING, J.</small> and <small>IYYER, M.</small> (2024). Paraphrasing evades detectors of AI-generated text, but retrieval is an effective defense. In <i>Advances in Neural Information Processing Systems</i> <b>36</b>."
+   },
+   {
+    "key": "34",
+    "unstructured": "<small>KUDITIPUDI, R.</small>, <small>THICKSTUN, J.</small>, <small>HASHIMOTO, T.</small> and <small>LIANG, P.</small> (2024). Robust distortion-free watermarks for language models. <i>Trans. Mach. Learn. Res.</i>."
+   },
+   {
+    "key": "35",
+    "unstructured": "<small>LI, X.</small>, <small>RUAN, F.</small>, <small>WANG, H.</small>, <small>LONG, Q.</small> and <small>SU, W. J.</small> (2024). Robust detection of watermarks for large language models under human edits. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2411.13868\">2411.13868</a>."
+   },
+   {
+    "DOI": "10.1214/24-AOS2468SUPPA",
+    "doi-asserted-by": "crossref",
+    "key": "36",
+    "unstructured": "<small>LI, X.</small>, <small>RUAN, F.</small>, <small>WANG, H.</small>, <small>LONG, Q.</small> and <small>SU, W. J.</small> (2025). Supplement to \u201cA statistical framework of watermarks for large language models: Pivot, detection efficiency and optimal rules.\u201d <a href=\"https://doi.org/10.1214/24-AOS2468SUPPA\">https://doi.org/10.1214/24-AOS2468SUPPA</a>"
+   },
+   {
+    "DOI": "10.1214/24-AOS2468SUPPB",
+    "doi-asserted-by": "crossref",
+    "key": "37",
+    "unstructured": "<small>LI, X.</small>, <small>RUAN, F.</small>, <small>WANG, H.</small>, <small>LONG, Q.</small> and <small>SU, W. J.</small> (2025). Source codes to \u201cA statistical framework of watermarks for large language models: Pivot, detection efficiency and optimal rules.\u201d <a href=\"https://doi.org/10.1214/24-AOS2468SUPPB\">https://doi.org/10.1214/24-AOS2468SUPPB</a>"
+   },
+   {
+    "DOI": "10.1016/j.patter.2023.100779",
+    "doi-asserted-by": "crossref",
+    "key": "38",
+    "unstructured": "<small>LIANG, W.</small>, <small>YUKSEKGONUL, M.</small>, <small>MAO, Y.</small>, <small>WU, E.</small> and <small>ZOU, J.</small> (2023). GPT detectors are biased against non-native English writers. In <i>ICLR</i> 2023 <i>Workshop on Trustworthy and Reliable Large-Scale Machine Learning Models</i>."
+   },
+   {
+    "key": "39",
+    "unstructured": "<small>LIN, T.</small>, <small>JIN, C.</small> and <small>JORDAN, M. I.</small> (2020). Near-optimal algorithms for minimax optimization. In <i>Conference on Learning Theory</i> 2738\u20132779. PMLR."
+   },
+   {
+    "key": "40",
+    "unstructured": "<small>LIU, Y.</small> and <small>BU, Y.</small> (2024). Adaptive text watermark for large language models. In <i>International Conference on Machine Learning</i>."
+   },
+   {
+    "key": "41",
+    "unstructured": "<small>MADDISON, C. J.</small>, <small>TARLOW, D.</small> and <small>MINKA, T.</small> (2014). A* sampling. In <i>Advances in Neural Information Processing Systems</i> <b>27</b>."
+   },
+   {
+    "DOI": "10.1038/s42256-023-00644-2",
+    "doi-asserted-by": "crossref",
+    "key": "42",
+    "unstructured": "<small>MILANO, S.</small>, <small>MCGRANE, J. A.</small> and <small>LEONELLI, S.</small> (2023). Large language models challenge the future of higher education. <i>Nat. Mach. Intell.</i> <b>5</b> 333\u2013334."
+   },
+   {
+    "key": "43",
+    "unstructured": "<small>MITCHELL, E.</small>, <small>LEE, Y.</small>, <small>KHAZATSKY, A.</small>, <small>MANNING, C. D.</small> and <small>FINN, C.</small> (2023). Detectgpt: Zero-shot machine-generated text detection using probability curvature. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2301.11305\">2301.11305</a>."
+   },
+   {
+    "key": "44",
+    "unstructured": "<small>OPENAI</small> (2023). ChatGPT: Optimizing language models for dialogue."
+   },
+   {
+    "DOI": "10.1007/978-3-642-04101-3",
+    "doi-asserted-by": "crossref",
+    "key": "45",
+    "unstructured": "<small>PAAR, C.</small> and <small>PELZL, J.</small> (2009). <i>Understanding Cryptography</i>: <i>A Textbook for Students and Practitioners</i>. Springer."
+   },
+   {
+    "DOI": "10.1109/ICCV.2011.6126242",
+    "doi-asserted-by": "crossref",
+    "key": "46",
+    "unstructured": "<small>PAPANDREOU, G.</small> and <small>YUILLE, A. L.</small> (2011). Perturb-and-map random fields: Using discrete optimization to learn and sample from energy models. In 2011 <i>International Conference on Computer Vision</i> 193\u2013200. IEEE."
+   },
+   {
+    "key": "47",
+    "unstructured": "<small>PIET, J.</small>, <small>SITAWARIN, C.</small>, <small>FANG, V.</small>, <small>MU, N.</small> and <small>WAGNER, D.</small> (2023). Mark my words: Analyzing and evaluating language model watermarks. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2312.00273\">2312.00273</a>."
+   },
+   {
+    "key": "48",
+    "unstructured": "<small>RADFORD, A.</small>, <small>KIM, J. W.</small>, <small>XU, T.</small>, <small>BROCKMAN, G.</small>, <small>MCLEAVEY, C.</small> and <small>SUTSKEVER, I.</small> (2023). Robust speech recognition via large-scale weak supervision. In <i>International Conference on Machine Learning</i> 28492\u201328518. PMLR."
+   },
+   {
+    "key": "49",
+    "unstructured": "<small>RADFORD, A.</small>, <small>WU, J.</small>, <small>CHILD, R.</small>, <small>LUAN, D.</small>, <small>AMODEI, D.</small>, <small>SUTSKEVER, I.</small> et al. (2019). Language models are unsupervised multitask learners. <i>OpenAI Blog</i> <b>1</b> 9."
+   },
+   {
+    "key": "50",
+    "unstructured": "<small>RAFFEL, C.</small>, <small>SHAZEER, N.</small>, <small>ROBERTS, A.</small>, <small>LEE, K.</small>, <small>NARANG, S.</small>, <small>MATENA, M.</small>, <small>ZHOU, Y.</small>, <small>LI, W.</small> and <small>LIU, P. J.</small> (2020). Exploring the limits of transfer learning with a unified text-to-text transformer. <i>J. Mach. Learn. Res.</i> <b>21</b> 5485\u20135551."
+   },
+   {
+    "DOI": "10.5802/ojmo.15",
+    "doi-asserted-by": "publisher",
+    "key": "51",
+    "unstructured": "<small>RAHIMIAN, H.</small> and <small>MEHROTRA, S.</small> (2022). Frameworks and results in distributionally robust optimization. <i>Open J. Math. Optim.</i> <b>3</b> Art. No. 4, 85."
+   },
+   {
+    "key": "52",
+    "unstructured": "<small>SADASIVAN, V. S.</small>, <small>KUMAR, A.</small>, <small>BALASUBRAMANIAN, S.</small>, <small>WANG, W.</small> and <small>FEIZI, S.</small> (2023). Can AI-generated text be reliably detected? arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2303.11156\">2303.11156</a>."
+   },
+   {
+    "key": "53",
+    "unstructured": "<small>SCHNEIER, B.</small> (1996). <i>Applied Cryptography</i>. Wiley."
+   },
+   {
+    "key": "54",
+    "unstructured": "<small>SHUMAILOV, I.</small>, <small>SHUMAYLOV, Z.</small>, <small>ZHAO, Y.</small>, <small>GAL, Y.</small>, <small>PAPERNOT, N.</small> and <small>ANDERSON, R.</small> (2023). The curse of recursion: Training on generated data makes models forget. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2305.17493\">2305.17493</a>."
+   },
+   {
+    "key": "55",
+    "unstructured": "<small>SOUFIANI, H. A.</small>, <small>PARKES, D. C.</small> and <small>XIA, L.</small> (2012). Random utility theory for social choice. In <i>Neural Information Processing Systems</i> 126\u2013134."
+   },
+   {
+    "DOI": "10.1038/d41586-019-02235-x",
+    "doi-asserted-by": "crossref",
+    "key": "56",
+    "unstructured": "<small>STARBIRD, K.</small> (2019). Disinformation\u2019s spread: Bots, trolls and all of us. <i>Nature</i> <b>571</b> 449\u2013450."
+   },
+   {
+    "key": "57",
+    "unstructured": "<small>STINSON, D. R.</small> (2006). <i>Cryptography</i>: <i>Theory and Practice</i>, 3rd ed. <i>Discrete Mathematics and Its Applications</i> (<i>Boca Raton</i>). CRC Press/CRC, Boca Raton, FL."
+   },
+   {
+    "DOI": "10.1038/d41586-022-04397-7",
+    "doi-asserted-by": "crossref",
+    "key": "58",
+    "unstructured": "<small>STOKEL-WALKER, C.</small> (2022). AI bot ChatGPT writes smart essays\u2014Should professors worry? <i>Nat. News</i>."
+   },
+   {
+    "DOI": "10.1145/1161366.1161397",
+    "doi-asserted-by": "crossref",
+    "key": "59",
+    "unstructured": "<small>TOPKARA, U.</small>, <small>TOPKARA, M.</small> and <small>ATALLAH, M. J.</small> (2006). The hiding virtues of ambiguity: Quantifiably resilient watermarking of natural language text through synonym substitutions. In <i>Proceedings of the</i> 8<i>th Workshop on Multimedia and Security</i> 164\u2013174."
+   },
+   {
+    "key": "60",
+    "unstructured": "<small>TOUVRON, H.</small>, <small>LAVRIL, T.</small>, <small>IZACARD, G.</small>, <small>MARTINET, X.</small>, <small>LACHAUX, M.-A.</small>, <small>LACROIX, T.</small>, <small>ROZI\u00c8RE, B.</small>, <small>GOYAL, N.</small>, <small>HAMBRO, E.</small> et al. (2023). LLaMA: Open and efficient foundation language models. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2302.13971\">2302.13971</a>."
+   },
+   {
+    "DOI": "10.52202/075280-1706",
+    "doi-asserted-by": "crossref",
+    "key": "61",
+    "unstructured": "<small>TULCHINSKII, E.</small>, <small>KUZNETSOV, K.</small>, <small>KUSHNAREVA, L.</small>, <small>CHERNIAVSKII, D.</small>, <small>NIKOLENKO, S.</small>, <small>BURNAEV, E.</small>, <small>BARANNIKOV, S.</small> and <small>PIONTKOVSKAYA, I.</small> (2024). Intrinsic dimension estimation for robust detection of AI-generated texts. In <i>Advances in Neural Information Processing Systems</i> <b>36</b>."
+   },
+   {
+    "key": "63",
+    "unstructured": "<small>VASWANI, A.</small>, <small>SHAZEER, N.</small>, <small>PARMAR, N.</small>, <small>USZKOREIT, J.</small>, <small>JONES, L.</small>, <small>GOMEZ, A. N.</small>, <small>KAISER, \u0141.</small> and <small>POLOSUKHIN, I.</small> (2017). Attention is all you need. In <i>Advances in Neural Information Processing Systems</i> <b>30</b>."
+   },
+   {
+    "DOI": "10.1049/el:19740097",
+    "doi-asserted-by": "crossref",
+    "key": "64",
+    "unstructured": "<small>WALKER, A. J.</small> (1974). New fast method for generating discrete random numbers with arbitrary frequency distributions. <i>Electron. Lett.</i> <b>8</b> 127\u2013128."
+   },
+   {
+    "key": "66",
+    "unstructured": "<small>WEBER-WULFF, D.</small>, <small>ANOHINA-NAUMECA, A.</small>, <small>BJELOBABA, S.</small>, <small>FOLT\u1ef2NEK, T.</small>, <small>GUERRERO-DIB, J.</small>, <small>POPOOLA, O.</small>, <small>\u0160IGUT, P.</small> and <small>WADDINGTON, L.</small> (2023). Testing of detection tools for AI-generated text. <i>Int. J. Educ. Integr.</i> <b>19</b> 26."
+   },
+   {
+    "key": "67",
+    "unstructured": "<small>WEIDINGER, L.</small>, <small>MELLOR, J.</small>, <small>RAUH, M.</small>, <small>GRIFFIN, C.</small>, <small>UESATO, J.</small>, <small>HUANG, P.-S.</small>, <small>CHENG, M.</small>, <small>GLAESE, M.</small>, <small>BALLE, B.</small> et al. (2021). Ethical and social risks of harm from language models. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2112.04359\">2112.04359</a>."
+   },
+   {
+    "key": "68",
+    "unstructured": "<small>WU, Y.</small>, <small>HU, Z.</small>, <small>ZHANG, H.</small> and <small>HUANG, H.</small> (2023). DiPmark: A stealthy, efficient and resilient watermark for large language models. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2310.07710\">2310.07710</a>."
+   },
+   {
+    "key": "69",
+    "unstructured": "<small>XIA, M.</small>, <small>GAO, T.</small>, <small>ZENG, Z.</small> and <small>CHEN, D.</small> (2023). Sheared LLaMA: Accelerating language model pre-training via structured pruning. In <i>International Conference on Learning Representations</i>."
+   },
+   {
+    "key": "70",
+    "unstructured": "<small>XIE, Y.</small>, <small>LI, X.</small>, <small>MALLICK, T.</small>, <small>SU, W. J.</small> and <small>ZHANG, R.</small> (2024). Debiasing watermarks for large language models via maximal coupling. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2411.11203\">2411.11203</a>."
+   },
+   {
+    "key": "71",
+    "unstructured": "<small>YANG, X.</small>, <small>CHENG, W.</small>, <small>PETZOLD, L.</small>, <small>WANG, W. Y.</small> and <small>CHEN, H.</small> (2023). DNA-GPT: Divergent N-gram analysis for training-free detection of GPT-generated text. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2305.17359\">2305.17359</a>."
+   },
+   {
+    "key": "72",
+    "unstructured": "<small>ZELLERS, R.</small>, <small>HOLTZMAN, A.</small>, <small>RASHKIN, H.</small>, <small>BISK, Y.</small>, <small>FARHADI, A.</small>, <small>ROESNER, F.</small> and <small>CHOI, Y.</small> (2019). Defending against neural fake news. In <i>Advances in Neural Information Processing Systems</i> <b>32</b>."
+   },
+   {
+    "key": "73",
+    "unstructured": "<small>ZEROGPT</small> (2023). ZeroGPT: Trusted GPT-4, ChatGPT and AI detector tool by ZeroGPT. <a href=\"https://www.zerogpt.com/\">https://www.zerogpt.com/</a>."
+   },
+   {
+    "key": "74",
+    "unstructured": "<small>ZHANG, H.</small>, <small>EDELMAN, B. L.</small>, <small>FRANCATI, D.</small>, <small>VENTURI, D.</small>, <small>ATENIESE, G.</small> and <small>BARAK, B.</small> (2023). Watermarks in the sand: Impossibility of strong watermarking for generative models. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2311.04378\">2311.04378</a>."
+   },
+   {
+    "key": "75",
+    "unstructured": "<small>ZHANG, S.</small>, <small>ROLLER, S.</small>, <small>GOYAL, N.</small>, <small>ARTETXE, M.</small>, <small>CHEN, M.</small>, <small>CHEN, S.</small>, <small>DEWAN, C.</small>, <small>DIAB, M.</small>, <small>LI, X.</small> et al. (2022). OPT: Open pre-trained transformer language models. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2205.01068\">2205.01068</a>."
+   },
+   {
+    "key": "76",
+    "unstructured": "<small>ZHAO, X.</small>, <small>ANANTH, P. V.</small>, <small>LI, L.</small> and <small>WANG, Y.-X.</small> (2024). Provable robust watermarking for AI-generated text. In <i>International Conference on Learning Representations</i>."
+   },
+   {
+    "key": "77",
+    "unstructured": "<small>ZHAO, X.</small>, <small>LI, L.</small> and <small>WANG, Y.-X.</small> (2024). Permute-and-flip: An optimally robust and watermarkable decoder for LLMs. arXiv preprint arXiv:<a href=\"https://arxiv.org/abs/2402.05864\">2402.05864</a>."
+   },
+   {
+    "DOI": "10.1109/EBISS.2009.5138072",
+    "doi-asserted-by": "crossref",
+    "key": "78",
+    "unstructured": "<small>ZHOU, X.</small>, <small>ZHAO, W.</small>, <small>WANG, Z.</small> and <small>PAN, L.</small> (2009). Security theory and attack analysis for text watermarking. In <i>International Conference on E-Business and Information System Security</i> 1\u20136."
+   },
+   {
+    "key": "79",
+    "unstructured": "<small>ZIPF, G. K.</small> (2016). <i>Human Behavior and the Principle of Least Effort</i>: <i>An Introduction to Human Ecology</i>. Ravenio Books."
+   }
+  ],
+  "reference-count": 79,
+  "references-count": 79,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-1/A-statistical-framework-of-watermarks-for-large-language-models/10.1214/24-AOS2468.full"
+   }
+  },
+  "score": 1,
+  "short-container-title": [
+   "Ann. Statist."
+  ],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "A statistical framework of watermarks for large language models: Pivot, detection efficiency and optimal rules"
+  ],
+  "type": "journal-article",
+  "volume": "53"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

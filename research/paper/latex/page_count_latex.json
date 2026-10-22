@@ -1,0 +1,39 @@
+{
+ "engine": "Tectonic 0.17.0",
+ "full_pdf_pages": 115,
+ "statements_start_page": 21,
+ "references_start_page": 22,
+ "appendices_start_page": 27,
+ "main_text_pages_before_statements": 20,
+ "overfull_hbox_lines": 16,
+ "tables": 47,
+ "figures": 13,
+ "cited_keys": 53,
+ "bib_entries": 53,
+ "column_panels": {
+  "Table D4a": [
+   "scriptsize landscape",
+   "footnotesize portrait"
+  ],
+  "Table D4b": [
+   "scriptsize landscape",
+   "scriptsize landscape"
+  ],
+  "Table D4c": [
+   "scriptsize landscape",
+   "scriptsize portrait"
+  ],
+  "Table D4d": [
+   "scriptsize landscape",
+   "scriptsize portrait"
+  ],
+  "Table D6a": [
+   "scriptsize landscape",
+   "footnotesize portrait"
+  ],
+  "Table D13a": [
+   "scriptsize landscape",
+   "footnotesize portrait"
+  ]
+ }
+}

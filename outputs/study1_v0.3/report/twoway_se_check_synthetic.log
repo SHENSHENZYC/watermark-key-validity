@@ -1,0 +1,7 @@
+synthetic 500 4000 beta_mean0.0115_sd0.0044 (Study 2's distinct h = 1 nominal scale) 22.3 s
+synthetic 500 4000 beta_mean0.030_sd0.0136 (Study 2's raw h = 1 nominal scale) 22.5 s
+synthetic 500 4000 logistic key-by-text (mu = logit 0.012, sigma_key 0.35, sigma_text 0.8) 24.5 s
+synthetic 1000 10000 beta_mean0.0115_sd0.0044 (Study 2's distinct h = 1 nominal scale) 202.9 s
+synthetic 1000 10000 beta_mean0.030_sd0.0136 (Study 2's raw h = 1 nominal scale) 201.8 s
+synthetic 1000 10000 logistic key-by-text (mu = logit 0.012, sigma_key 0.35, sigma_text 0.8) 209.8 s
+DONE 683.8 s

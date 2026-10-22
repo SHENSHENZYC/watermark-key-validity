@@ -1,0 +1,13 @@
+[     8s] (a) token caches {'study2_manifest_bound': True, 'plan_reproduced': True, 'arrays': True, 'seal_current': True, 'all_ok': True}
+<repository>/.venv/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+[    13s] (b) fixtures: tolerance maximal True; continuous True; discrete True; scheme True; counts True; predictor True/True; cross_cov True/True
+[    13s] (c)(d) key policy True; lock accepted ['complete_canonical'] refused 22 of 22
+DONE
+[    27s] (g) validation run {'dir': 'outputs/study3_v0.1/validation_20261014T010933Z', 'seconds': 7.5, 'n_units': 12, 'pilot_status': 'analyzed', 'pilot_counts': {'T1_rows': 18, 'T1_eligible': 8, 'T2_rows': 18, 'T2_material': 18, 'descriptive_rows': 1872}}
+[    28s] (e) reuse True; (f) analyzer True over 16; REP decision {'equal': True, 'noise': True, 'gross': True, 'zero_se_equal': True}
+[    63s] (h) probe h=0: pass 1 24.9s (|D| 81541), pass 2 9.2s (|D| 104841)
+[   166s] (h) probe h=2: pass 1 59.6s (|D| 1063724), pass 2 42.0s (|D| 2054763)
+[   166s] (h) projection 0.94 h (budget 10 h); peak RSS 2.92 GB
+[   166s] (i) T1 eligible 1494, T2 material 879 {'help': 336, 'harm': 543} of 1600
+[   166s] DONE all_ok = True

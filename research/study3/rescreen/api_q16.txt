@@ -1,0 +1,5 @@
+QUERY: search_query=abs:watermark AND abs:"p-value" AND abs:key&sortBy=lastUpdatedDate&sortOrder=descending&max_results=20
+## Watermarking Autoregressive Image Generation
+2506.16349v2 | 2025-06-19 | Nikola Jovanović, Ismail Labiad, Tomáš Souček, Martin Vechev et al.
+Watermarking the outputs of generative models has emerged as a promising approach for tracking their provenance. Despite significant interest in autoregressive image generation models and their potential for misuse, no prior work has attempted to watermark their outputs at the token level. In this work, we present the first such approach by adapting language model watermarking techniques to this s
+

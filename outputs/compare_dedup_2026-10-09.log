@@ -1,0 +1,4 @@
+0.80/16x8: candidates 67,939 | near-dup unions 3,186 | clusters 2,613,931 | cross-source 0 | largest cluster 153 | multi-cluster units by source {'gutenberg': 52, 'news': 305, 'stackexchange': 45, 'wikipedia': 4008} | 52s
+0.70/32x4: candidates 194,608 | near-dup unions 5,389 | clusters 2,611,728 | cross-source 0 | largest cluster 154 | multi-cluster units by source {'gutenberg': 79, 'news': 409, 'stackexchange': 158, 'wikipedia': 6641} | 64s
+0.65/32x4: candidates 286,347 | near-dup unions 7,095 | clusters 2,610,022 | cross-source 0 | largest cluster 170 | multi-cluster units by source {'gutenberg': 89, 'news': 468, 'stackexchange': 271, 'wikipedia': 8483} | 67s
+DONE compare

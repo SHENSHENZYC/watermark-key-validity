@@ -1,0 +1,15 @@
+stored part 3582 10404 89.8 s
+regen zipf_V1000_s1.0__h0__independent__g0.5__L64__raw.json 3.3 s
+regen zipf_V1000_s1.0__h1__independent__g0.5__L256__raw.json 5.8 s
+regen zipf_V1000_s1.0__h1__independent__g0.5__L256__distinct.json 1.1 s
+regen zipf_V10000_s1.0__h0__independent__g0.5__L2048__distinct.json 3.9 s
+regen zipf_V10000_s1.0__h1__independent__g0.5__L2048__raw.json 18.5 s
+regen zipf_V10000_s1.2__h1__independent__g0.5__L1024__distinct.json 8.1 s
+regen markov_V1000_S50_eps0.1_s1.0__h2__independent__g0.5__L2048__distinct.json 12.9 s
+synthetic 500 4000 beta_mean0.0115_sd0.0044 (Study 2's distinct h = 1 nominal scale) 13.0 s
+synthetic 500 4000 beta_mean0.030_sd0.0136 (Study 2's raw h = 1 nominal scale) 13.6 s
+synthetic 500 4000 logistic key-by-text (mu = logit 0.012, sigma_key 0.35, sigma_text 0.8) 13.3 s
+synthetic 1000 10000 beta_mean0.0115_sd0.0044 (Study 2's distinct h = 1 nominal scale) 70.6 s
+synthetic 1000 10000 beta_mean0.030_sd0.0136 (Study 2's raw h = 1 nominal scale) 71.1 s
+synthetic 1000 10000 logistic key-by-text (mu = logit 0.012, sigma_key 0.35, sigma_text 0.8) 74.4 s
+DONE 416.9 s

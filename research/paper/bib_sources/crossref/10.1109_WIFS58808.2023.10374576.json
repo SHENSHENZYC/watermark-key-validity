@@ -1,0 +1,469 @@
+{
+ "_projection": "A projection of the API response for the public record (R13 F10): nothing (this response carries no third-party text body) removed and kept in the private record under research/paper/bib_sources/raw_responses/, which the public snapshot excludes; every other field is verbatim.",
+ "message": {
+  "DOI": "10.1109/wifs58808.2023.10374576",
+  "URL": "https://doi.org/10.1109/wifs58808.2023.10374576",
+  "author": [
+   {
+    "affiliation": [
+     {
+      "name": "l&#x0027;Universit&#x00E9; de Rennes,Centre Inria de"
+     }
+    ],
+    "family": "Fernandez",
+    "given": "Pierre",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "l&#x0027;Universit&#x00E9; de Rennes,Centre Inria de"
+     }
+    ],
+    "family": "Chaffin",
+    "given": "Antoine",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "l&#x0027;Universit&#x00E9; de Rennes,Centre Inria de"
+     }
+    ],
+    "family": "Tit",
+    "given": "Karim",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Imatag"
+     }
+    ],
+    "family": "Chappelier",
+    "given": "Vivien",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "l&#x0027;Universit&#x00E9; de Rennes,Centre Inria de"
+     }
+    ],
+    "family": "Furon",
+    "given": "Teddy",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   }
+  ],
+  "container-title": [
+   "2023 IEEE International Workshop on Information Forensics and Security (WIFS)"
+  ],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": []
+  },
+  "created": {
+   "date-parts": [
+    [
+     2024,
+     1,
+     1
+    ]
+   ],
+   "date-time": "2024-01-01T14:32:20Z",
+   "timestamp": 1704119540000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     1,
+     12
+    ]
+   ],
+   "date-time": "2024-01-12T20:00:54Z",
+   "timestamp": 1705089654000
+  },
+  "event": {
+   "end": {
+    "date-parts": [
+     [
+      2023,
+      12,
+      7
+     ]
+    ]
+   },
+   "location": "N\u00fcrnberg, Germany",
+   "name": "2023 IEEE International Workshop on Information Forensics and Security (WIFS)",
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      12,
+      4
+     ]
+    ]
+   }
+  },
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     28
+    ]
+   ],
+   "date-time": "2026-09-28T18:57:15Z",
+   "timestamp": 1790621835463,
+   "version": "4.1.0"
+  },
+  "is-referenced-by-count": 29,
+  "issued": {
+   "date-parts": [
+    [
+     2023,
+     12,
+     4
+    ]
+   ]
+  },
+  "license": [
+   {
+    "URL": "https://doi.org/10.15223/policy-029",
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "start": {
+     "date-parts": [
+      [
+       2023,
+       12,
+       4
+      ]
+     ],
+     "date-time": "2023-12-04T00:00:00Z",
+     "timestamp": 1701648000000
+    }
+   },
+   {
+    "URL": "https://doi.org/10.15223/policy-037",
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "start": {
+     "date-parts": [
+      [
+       2023,
+       12,
+       4
+      ]
+     ],
+     "date-time": "2023-12-04T00:00:00Z",
+     "timestamp": 1701648000000
+    }
+   }
+  ],
+  "link": [
+   {
+    "URL": "http://xplorestaging.ieee.org/ielx7/10374479/10374570/10374576.pdf?arnumber=10374576",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "member": "263",
+  "original-title": [],
+  "page": "1-6",
+  "prefix": "10.1109",
+  "published": {
+   "date-parts": [
+    [
+     2023,
+     12,
+     4
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     2023,
+     12,
+     4
+    ]
+   ]
+  },
+  "publisher": "IEEE",
+  "reference": [
+   {
+    "article-title": "ChatGPT: Optimizing language models for dialogue",
+    "journal-title": "OpenAI",
+    "key": "ref1",
+    "year": "2022"
+   },
+   {
+    "article-title": "Introducing Claude",
+    "journal-title": "AnthropicAI",
+    "key": "ref2",
+    "year": "2023"
+   },
+   {
+    "article-title": "Llama: Open and efficient foundation language models",
+    "author": "Touvron",
+    "journal-title": "arXiv",
+    "key": "ref3",
+    "year": "2023"
+   },
+   {
+    "DOI": "10.1145/3531146.3533088",
+    "doi-asserted-by": "publisher",
+    "key": "ref4"
+   },
+   {
+    "article-title": "Machine generated text: A comprehensive survey of threat models and detection methods",
+    "author": "Crothers",
+    "journal-title": "arXiv",
+    "key": "ref5",
+    "year": "2022"
+   },
+   {
+    "DOI": "10.1561/116.00000138",
+    "doi-asserted-by": "publisher",
+    "key": "ref6"
+   },
+   {
+    "DOI": "10.1163/18750230-02901005",
+    "doi-asserted-by": "publisher",
+    "key": "ref7"
+   },
+   {
+    "DOI": "10.1017/XPS.2020.37",
+    "doi-asserted-by": "publisher",
+    "key": "ref8"
+   },
+   {
+    "DOI": "10.1016/j.osnem.2017.12.002",
+    "doi-asserted-by": "publisher",
+    "key": "ref9"
+   },
+   {
+    "author": "Review",
+    "journal-title": "Junk websites filled with ai-generated text are pulling in money from programmatic ads",
+    "key": "ref10",
+    "year": "2023"
+   },
+   {
+    "article-title": "Automatic detection of generated text is easiest when humans are fooled",
+    "author": "Ippolito",
+    "journal-title": "arXiv",
+    "key": "ref11",
+    "year": "2019"
+   },
+   {
+    "article-title": "Detectgpt: Zero-shot machine-generated text detection using probability curvature",
+    "author": "Mitchell",
+    "journal-title": "arXiv",
+    "key": "ref12",
+    "year": "2023"
+   },
+   {
+    "article-title": "Responsible disclosure of generative models using scalable fingerprinting",
+    "author": "Yu",
+    "journal-title": "ICLR",
+    "key": "ref13",
+    "year": "2022"
+   },
+   {
+    "article-title": "The stable signature: Rooting watermarks in latent diffusion models",
+    "author": "Fernandez",
+    "journal-title": "ICCV",
+    "key": "ref14",
+    "year": "2023"
+   },
+   {
+    "article-title": "Tree-ring watermarks: Fingerprints for diffusion images that are invisible and robust",
+    "author": "Wen",
+    "journal-title": "arXiv",
+    "key": "ref15",
+    "year": "2023"
+   },
+   {
+    "author": "Aaronson",
+    "journal-title": "Watermarking GPT Outputs",
+    "key": "ref16",
+    "year": "2023"
+   },
+   {
+    "article-title": "A watermark for large language models",
+    "author": "Kirchenbauer",
+    "journal-title": "ICML",
+    "key": "ref17",
+    "year": "2023"
+   },
+   {
+    "author": "Kirchenbauer",
+    "journal-title": "On the reliability of watermarks for large language models",
+    "key": "ref18",
+    "year": "2023"
+   },
+   {
+    "article-title": "Undetectable watermarks for language models",
+    "author": "Christ",
+    "journal-title": "Cryptology ePrint Archive",
+    "key": "ref19",
+    "year": "2023"
+   },
+   {
+    "article-title": "Provable robust watermarking for ai-generated text",
+    "author": "Zhao",
+    "journal-title": "arXiv",
+    "key": "ref20",
+    "year": "2023"
+   },
+   {
+    "article-title": "A neural probabilistic language model",
+    "author": "Bengio",
+    "journal-title": "NeurIPS",
+    "key": "ref21",
+    "volume": "13",
+    "year": "2000"
+   },
+   {
+    "DOI": "10.18653/v1/P18-1082",
+    "doi-asserted-by": "publisher",
+    "key": "ref22"
+   },
+   {
+    "article-title": "Language models are unsupervised multitask learners",
+    "author": "Radford",
+    "journal-title": "OpenAI",
+    "key": "ref23",
+    "year": "2019"
+   },
+   {
+    "article-title": "The curious case of neural text degeneration",
+    "author": "Holtzman",
+    "journal-title": "arXiv",
+    "key": "ref24",
+    "year": "2019"
+   },
+   {
+    "article-title": "Protecting language generation models via invisible watermarking",
+    "author": "Zhao",
+    "journal-title": "arXiv",
+    "key": "ref25",
+    "year": "2023"
+   },
+   {
+    "article-title": "Qlora: Efficient finetuning of quantized llms",
+    "author": "Dettmers",
+    "journal-title": "arXiv",
+    "key": "ref26",
+    "year": "2023"
+   },
+   {
+    "author": "Taori",
+    "journal-title": "Stanford Alpaca: An instruction-following LLaMA model",
+    "key": "ref27",
+    "year": "2023"
+   },
+   {
+    "DOI": "10.18653/v1/D19-1410",
+    "doi-asserted-by": "publisher",
+    "key": "ref28"
+   },
+   {
+    "DOI": "10.1162/tacl_a_00276",
+    "doi-asserted-by": "publisher",
+    "key": "ref29"
+   },
+   {
+    "DOI": "10.18653/v1/P17-1147",
+    "doi-asserted-by": "publisher",
+    "key": "ref30"
+   },
+   {
+    "article-title": "Measuring mathematical problem solving with the math dataset",
+    "author": "Hendrycks",
+    "journal-title": "arXiv",
+    "key": "ref31",
+    "year": "2021"
+   },
+   {
+    "article-title": "Training verifiers to solve math word problems",
+    "author": "Cobbe",
+    "journal-title": "arXiv",
+    "key": "ref32",
+    "year": "2021"
+   },
+   {
+    "article-title": "Evaluating large language models trained on code",
+    "author": "Chen",
+    "journal-title": "arXiv",
+    "key": "ref33",
+    "year": "2021"
+   },
+   {
+    "author": "Austin",
+    "key": "ref34",
+    "volume-title": "Program synthesis with large language models",
+    "year": "2021"
+   },
+   {
+    "DOI": "10.1117/12.344661",
+    "doi-asserted-by": "publisher",
+    "key": "ref35"
+   }
+  ],
+  "reference-count": 35,
+  "references-count": 35,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://ieeexplore.ieee.org/document/10374576/"
+   }
+  },
+  "score": 1,
+  "short-container-title": [],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "Three Bricks to Consolidate Watermarks for Large Language Models"
+  ],
+  "type": "proceedings-article"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

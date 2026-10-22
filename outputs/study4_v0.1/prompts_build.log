@@ -1,0 +1,7 @@
+news/en@256 prod: 5000 ids; loading texts through the seal
+  (5000, 256) sha 3f72ea7637bc
+wikipedia/en@256 prod: 5000 ids; loading texts through the seal
+  (5000, 256) sha 0b1a4b9fc0ab
+stackexchange/en@256 prod: 5000 ids; loading texts through the seal
+  (5000, 256) sha 73f73bf187cd
+production prompt cache written: {'news_en_256': '3f72ea7637bc', 'wikipedia_en_256': '0b1a4b9fc0ab', 'stackexchange_en_256': '73f73bf187cd'}

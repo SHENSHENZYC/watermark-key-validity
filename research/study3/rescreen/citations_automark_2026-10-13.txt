@@ -1,0 +1,9 @@
+### OpenAlex cites:W7214977141 (AutoMark)
+count 0
+### Semantic Scholar citations of arXiv:2609.37310
+{"offset": 0, "data": []}
+
+HTTP 200
+### Semantic Scholar paper record arXiv:2609.37310
+{"message": "Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form", "code": "429"}
+HTTP 429

@@ -1,0 +1,260 @@
+{
+ "note": "records whose text was read during the loader's format inspection (2026-10-09); their clusters are forced open",
+ "records": [
+  {
+   "file": "gutenberg/project_gutenberg-dolma-0000.json.gz",
+   "line": 1,
+   "id": "1",
+   "url": "https://www.gutenberg.org/ebooks/1.txt.utf-8",
+   "provenance": "project_gutenberg-dolma-0000.json.gz:1"
+  },
+  {
+   "file": "gutenberg/project_gutenberg-dolma-0000.json.gz",
+   "line": 2,
+   "id": "10",
+   "url": "https://www.gutenberg.org/ebooks/10.txt.utf-8",
+   "provenance": "project_gutenberg-dolma-0000.json.gz:2"
+  },
+  {
+   "file": "gutenberg/project_gutenberg-dolma-0000.json.gz",
+   "line": 3,
+   "id": "100",
+   "url": "https://www.gutenberg.org/ebooks/100.txt.utf-8",
+   "provenance": "project_gutenberg-dolma-0000.json.gz:3"
+  },
+  {
+   "file": "gutenberg/project_gutenberg-dolma-0003.json.gz",
+   "line": 1,
+   "id": "24538",
+   "url": "https://www.gutenberg.org/ebooks/24538.txt.utf-8",
+   "provenance": "project_gutenberg-dolma-0003.json.gz:1"
+  },
+  {
+   "file": "gutenberg/project_gutenberg-dolma-0003.json.gz",
+   "line": 2,
+   "id": "24539",
+   "url": "https://www.gutenberg.org/ebooks/24539.txt.utf-8",
+   "provenance": "project_gutenberg-dolma-0003.json.gz:2"
+  },
+  {
+   "file": "gutenberg/project_gutenberg-dolma-0003.json.gz",
+   "line": 3,
+   "id": "2454",
+   "url": "https://www.gutenberg.org/ebooks/2454.txt.utf-8",
+   "provenance": "project_gutenberg-dolma-0003.json.gz:3"
+  },
+  {
+   "file": "gutenberg/project_gutenberg-dolma-0007.json.gz",
+   "line": 1,
+   "id": "42399",
+   "url": "https://www.gutenberg.org/ebooks/42399.txt.utf-8",
+   "provenance": "project_gutenberg-dolma-0007.json.gz:1"
+  },
+  {
+   "file": "gutenberg/project_gutenberg-dolma-0007.json.gz",
+   "line": 2,
+   "id": "424",
+   "url": "https://www.gutenberg.org/ebooks/424.txt.utf-8",
+   "provenance": "project_gutenberg-dolma-0007.json.gz:2"
+  },
+  {
+   "file": "gutenberg/project_gutenberg-dolma-0007.json.gz",
+   "line": 3,
+   "id": "4240",
+   "url": "https://www.gutenberg.org/ebooks/4240.txt.utf-8",
+   "provenance": "project_gutenberg-dolma-0007.json.gz:3"
+  },
+  {
+   "file": "gutenberg/project_gutenberg-dolma-0011.json.gz",
+   "line": 1,
+   "id": "58711",
+   "url": "https://www.gutenberg.org/ebooks/58711.txt.utf-8",
+   "provenance": "project_gutenberg-dolma-0011.json.gz:1"
+  },
+  {
+   "file": "gutenberg/project_gutenberg-dolma-0011.json.gz",
+   "line": 2,
+   "id": "58712",
+   "url": "https://www.gutenberg.org/ebooks/58712.txt.utf-8",
+   "provenance": "project_gutenberg-dolma-0011.json.gz:2"
+  },
+  {
+   "file": "gutenberg/project_gutenberg-dolma-0011.json.gz",
+   "line": 3,
+   "id": "58714",
+   "url": "https://www.gutenberg.org/ebooks/58714.txt.utf-8",
+   "provenance": "project_gutenberg-dolma-0011.json.gz:3"
+  },
+  {
+   "file": "news/news-dolma-0000.json.gz",
+   "line": 1,
+   "id": "1",
+   "url": "https://360info.org/2021-was-a-critical-year-for-climate-2022-will-be-even-bigger/",
+   "provenance": "news-dolma-0000.json.gz:1"
+  },
+  {
+   "file": "news/news-dolma-0000.json.gz",
+   "line": 2,
+   "id": "3",
+   "url": "https://360info.org/7-ways-to-help-stop-a-species-wipeout/",
+   "provenance": "news-dolma-0000.json.gz:2"
+  },
+  {
+   "file": "news/news-dolma-0000.json.gz",
+   "line": 3,
+   "id": "4",
+   "url": "https://360info.org/a-bad-wrap-using-packaging-well-to-reduce-food-waste/",
+   "provenance": "news-dolma-0000.json.gz:3"
+  },
+  {
+   "file": "stackexchange/stackexchange-dolma-0000.json.gz",
+   "line": 1,
+   "id": "219",
+   "url": "https://3dprinting.meta.stackexchange.com/questions/219",
+   "provenance": "stackexchange-dolma-0000.json.gz:1"
+  },
+  {
+   "file": "stackexchange/stackexchange-dolma-0000.json.gz",
+   "line": 2,
+   "id": "236",
+   "url": "https://3dprinting.meta.stackexchange.com/questions/236",
+   "provenance": "stackexchange-dolma-0000.json.gz:2"
+  },
+  {
+   "file": "stackexchange/stackexchange-dolma-0000.json.gz",
+   "line": 3,
+   "id": "474",
+   "url": "https://3dprinting.meta.stackexchange.com/questions/474",
+   "provenance": "stackexchange-dolma-0000.json.gz:3"
+  },
+  {
+   "file": "stackexchange/stackexchange-dolma-0022.json.gz",
+   "line": 1,
+   "id": "31424416",
+   "url": "https://stackoverflow.com/questions/31424416",
+   "provenance": "stackexchange-dolma-0022.json.gz:1"
+  },
+  {
+   "file": "stackexchange/stackexchange-dolma-0022.json.gz",
+   "line": 2,
+   "id": "31424433",
+   "url": "https://stackoverflow.com/questions/31424433",
+   "provenance": "stackexchange-dolma-0022.json.gz:2"
+  },
+  {
+   "file": "stackexchange/stackexchange-dolma-0022.json.gz",
+   "line": 3,
+   "id": "31424097",
+   "url": "https://stackoverflow.com/questions/31424097",
+   "provenance": "stackexchange-dolma-0022.json.gz:3"
+  },
+  {
+   "file": "wikipedia/20231101.ar/train-00000-of-00007.parquet",
+   "row": 0,
+   "id": "7",
+   "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%A7%D8%A1"
+  },
+  {
+   "file": "wikipedia/20231101.ar/train-00000-of-00007.parquet",
+   "row": 1,
+   "id": "38",
+   "url": "https://ar.wikipedia.org/wiki/%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA"
+  },
+  {
+   "file": "wikipedia/20231101.ar/train-00000-of-00007.parquet",
+   "row": 2,
+   "id": "62",
+   "url": "https://ar.wikipedia.org/wiki/%D8%A5%D8%B3%D8%AA%D9%88%D9%86%D9%8A%D8%A7"
+  },
+  {
+   "file": "wikipedia/20231101.de/train-00000-of-00020.parquet",
+   "row": 0,
+   "id": "1",
+   "url": "https://de.wikipedia.org/wiki/Alan%20Smithee"
+  },
+  {
+   "file": "wikipedia/20231101.de/train-00000-of-00020.parquet",
+   "row": 1,
+   "id": "3",
+   "url": "https://de.wikipedia.org/wiki/Actinium"
+  },
+  {
+   "file": "wikipedia/20231101.de/train-00000-of-00020.parquet",
+   "row": 2,
+   "id": "5",
+   "url": "https://de.wikipedia.org/wiki/Ang%20Lee"
+  },
+  {
+   "file": "wikipedia/20231101.en/train-00000-of-00041.parquet",
+   "row": 0,
+   "id": "12",
+   "url": "https://en.wikipedia.org/wiki/Anarchism"
+  },
+  {
+   "file": "wikipedia/20231101.en/train-00000-of-00041.parquet",
+   "row": 1,
+   "id": "39",
+   "url": "https://en.wikipedia.org/wiki/Albedo"
+  },
+  {
+   "file": "wikipedia/20231101.en/train-00000-of-00041.parquet",
+   "row": 2,
+   "id": "290",
+   "url": "https://en.wikipedia.org/wiki/A"
+  },
+  {
+   "file": "wikipedia/20231101.ja/train-00000-of-00015.parquet",
+   "row": 0,
+   "id": "5",
+   "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%B3%E3%83%91%E3%82%B5%E3%83%B3%E3%83%89"
+  },
+  {
+   "file": "wikipedia/20231101.ja/train-00000-of-00015.parquet",
+   "row": 1,
+   "id": "10",
+   "url": "https://ja.wikipedia.org/wiki/%E8%A8%80%E8%AA%9E"
+  },
+  {
+   "file": "wikipedia/20231101.ja/train-00000-of-00015.parquet",
+   "row": 2,
+   "id": "11",
+   "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%AA%9E"
+  },
+  {
+   "file": "wikipedia/20231101.ru/train-00000-of-00021.parquet",
+   "row": 0,
+   "id": "7",
+   "url": "https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%82%D0%B2%D0%B0"
+  },
+  {
+   "file": "wikipedia/20231101.ru/train-00000-of-00021.parquet",
+   "row": 1,
+   "id": "9",
+   "url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F"
+  },
+  {
+   "file": "wikipedia/20231101.ru/train-00000-of-00021.parquet",
+   "row": 2,
+   "id": "10",
+   "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5"
+  },
+  {
+   "file": "wikipedia/20231101.zh/train-00000-of-00006.parquet",
+   "row": 0,
+   "id": "13",
+   "url": "https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6"
+  },
+  {
+   "file": "wikipedia/20231101.zh/train-00000-of-00006.parquet",
+   "row": 1,
+   "id": "18",
+   "url": "https://zh.wikipedia.org/wiki/%E5%93%B2%E5%AD%A6"
+  },
+  {
+   "file": "wikipedia/20231101.zh/train-00000-of-00006.parquet",
+   "row": 2,
+   "id": "21",
+   "url": "https://zh.wikipedia.org/wiki/%E6%96%87%E5%AD%B8"
+  }
+ ]
+}

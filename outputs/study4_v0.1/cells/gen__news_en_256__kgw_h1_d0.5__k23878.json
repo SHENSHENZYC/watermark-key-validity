@@ -1,0 +1,73 @@
+{
+"unit": {
+"kind": "gen",
+"cell": "news_en_256",
+"arm": "kgw_h1_d0.5",
+"key": 23878,
+"n": 50,
+"prompt_range": [
+0,
+50
+]
+},
+"name": "gen__news_en_256__kgw_h1_d0.5__k23878",
+"n": 50,
+"n_new": 256,
+"npz_sha256": "c3c6b7cb4fbc03e0bb2a039dcde7bfb10981563c3cc7dd3af839ac9a42582988",
+"seconds": 37.3,
+"tok_per_s": 342.9,
+"seconds_model": 17.0,
+"seconds_hook": 20.4,
+"cache_hits": 5464,
+"cache_misses": 7336,
+"green_share_hook": 0.33,
+"mean_logp": -3.028994083404541,
+"eos_mass_mean": 0.0004838974855374545,
+"peak_rss_gb": 2.92,
+"provenance": {
+"study": "study4_v0.1",
+"mode": "study",
+"lock_sha256": "7067b4e1457c7ed977a311409914e3034721993eae5eddc44f6934c8d1b4cdd9",
+"grid_sha256": "7a1c88f125f8689a65b0224b9f51e3707814c2f8a1d021fc61279defa3887ce2",
+"code_sha256": {
+"s4_gen.py": "fdd90379dcec56a8f99fbc1963a515e43c54c7416ae7b0991aca3efebf4731e1",
+"s4_wm.py": "72898e66c47a119b48aca725abe78d4da1572e85b617f6508fa425b3deb9786c",
+"s4_run.py": "91b5800a2566c5dd21e48d2aeb44235bfdab7c8cacd3cb081914a10f74dcd3c9",
+"s4_data.py": "200bbb7333e4be8658dc3d23dd4a77412874cb56155ced8795dd64efb8c93e48",
+"s4_keys.py": "be29db0b6cfb89b7ee2e3203a9c898c47c76de4bfd7558358e86517f857af1c4",
+"s4_record.py": "6f95c9925cc49a5cf9e69ece83c5b2cc49b965a15acbedff2c47b279e2761f76"
+},
+"prompts_manifest_sha256": "fe26deddc3663f846af6a2fdc375d58be2a481ada56f9a019ae867b8b9d88eca",
+"prompts_kind": "prod",
+"prompt_array_sha256": "3f72ea7637bc76ff2a0231dc20cb1249b2a16b489c974410651bd4159bc96279",
+"model": {
+"repo": "Qwen/Qwen2.5-1.5B",
+"revision": "8faed761d45a263340a0528343f099c05c9a4323",
+"weights_sha256": "a961db72e75d52b18e6b0c9d379e51a26973b233385e0e127fdda7d648aec796"
+},
+"unit": {
+"kind": "gen",
+"cell": "news_en_256",
+"arm": "kgw_h1_d0.5",
+"key": 23878,
+"n": 50,
+"prompt_range": [
+0,
+50
+]
+},
+"arm": {
+"name": "kgw_h1_d0.5",
+"family": "kgw",
+"h": 1,
+"delta": 0.5
+},
+"gamma": 0.25,
+"n_new": 256,
+"P": 64,
+"temperature": 1.0,
+"seed": 1669680369,
+"sampler": "inverse-CDF multinomial in float64 with one PCG64 uniform per row and step (the first entry whose cumulative mass exceeds the uniform); the generator seeded by (int(sha256(unit name)[:8], 16) + the batch offset, 20261016) per unit",
+"written_utc": "2026-10-17T03:52:07Z"
+}
+}

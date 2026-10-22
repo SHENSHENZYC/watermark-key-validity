@@ -1,0 +1,556 @@
+{
+ "_projection": "A projection of the API response for the public record (R13 F10): nothing (this response carries no third-party text body) removed and kept in the private record under research/paper/bib_sources/raw_responses/, which the public snapshot excludes; every other field is verbatim.",
+ "message": {
+  "DOI": "10.52202/085713-1918",
+  "URL": "https://doi.org/10.52202/085713-1918",
+  "author": [
+   {
+    "affiliation": [
+     {
+      "name": "Department of Computer Science"
+     }
+    ],
+    "family": "Kandpal",
+    "given": "Nikhil",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Google DeepMind/University of Toronto"
+     }
+    ],
+    "family": "Lester",
+    "given": "Brian",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "University of Toronto, Vector Institute and Hugging Face"
+     }
+    ],
+    "family": "Raffel",
+    "given": "Colin",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "EleutherAI"
+     }
+    ],
+    "family": "Majstorovic",
+    "given": "Sebastian",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "The Eleutherai Institute"
+     }
+    ],
+    "family": "Biderman",
+    "given": "Stella",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "EleutherAI"
+     }
+    ],
+    "family": "Abbasi",
+    "given": "Baber",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Allen Institute for AI"
+     }
+    ],
+    "family": "Soldaini",
+    "given": "Luca",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Teraflop AI"
+     }
+    ],
+    "family": "Shippole",
+    "given": "Enrico",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Stanford University"
+     }
+    ],
+    "family": "Cooper",
+    "given": "A. Feder",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "EleutherAI"
+     }
+    ],
+    "family": "Skowron",
+    "given": "Aviya",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "MIT"
+     }
+    ],
+    "family": "Longpre",
+    "given": "Shayne",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Carnegie Mellon University"
+     }
+    ],
+    "family": "Sutawika",
+    "given": "Lintang",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Lila Sciences"
+     }
+    ],
+    "family": "Albalak",
+    "given": "Alon",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Boson AI"
+     }
+    ],
+    "family": "Xu",
+    "given": "Zhenlin",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "HuggingFace"
+     }
+    ],
+    "family": "Penedo",
+    "given": "Guilherme",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Hugging Face"
+     }
+    ],
+    "family": "Ben allal",
+    "given": "Loubna",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Hugging Face"
+     }
+    ],
+    "family": "Bakouch",
+    "given": "Elie",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "EleutherAI Institute"
+     }
+    ],
+    "family": "Pressman",
+    "given": "John",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Google DeepMind"
+     }
+    ],
+    "family": "Fan",
+    "given": "Honglu",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "EleutherAI"
+     }
+    ],
+    "family": "Stander",
+    "given": "Dashiell",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "EleutherAI"
+     }
+    ],
+    "family": "Song",
+    "given": "Guangyu",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "MBZUAI Institute of Foundation Models"
+     }
+    ],
+    "family": "Gokaslan",
+    "given": "Aaron",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "University of Maryland, College Park"
+     }
+    ],
+    "family": "Kirchenbauer",
+    "given": "John",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "University of Maryland"
+     }
+    ],
+    "family": "Goldstein",
+    "given": "Tom",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Lawrence Livermore National Laboratory"
+     }
+    ],
+    "family": "Bartoldson",
+    "given": "Brian",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Lawrence Livermore National Laboratory"
+     }
+    ],
+    "family": "Kailkhura",
+    "given": "Bhavya",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Allen Institute for Artificial Intelligence"
+     }
+    ],
+    "family": "Murray",
+    "given": "Tyler",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   }
+  ],
+  "container-title": [
+   "Advances in Neural Information Processing Systems 38"
+  ],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": []
+  },
+  "created": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     6
+    ]
+   ],
+   "date-time": "2026-08-06T14:44:29Z",
+   "timestamp": 1786027469000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     19
+    ]
+   ],
+   "date-time": "2026-10-19T18:33:35Z",
+   "timestamp": 1792434815000
+  },
+  "event": {
+   "acronym": "NeurIPS 2025",
+   "end": {
+    "date-parts": [
+     [
+      2025,
+      12,
+      7
+     ]
+    ]
+   },
+   "location": "San Diego, California, USA and Mexico City, Mexico",
+   "name": "Advances in Neural Information Processing Systems 38",
+   "number": "38",
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      11,
+      30
+     ]
+    ]
+   },
+   "theme": "39th Conference on Neural Information Processing Systems (NeurIPS 2025)"
+  },
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     19
+    ]
+   ],
+   "date-time": "2026-10-19T18:42:42Z",
+   "timestamp": 1792435362264,
+   "version": "4.5.0"
+  },
+  "is-referenced-by-count": 4,
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "member": "29733",
+  "original-title": [],
+  "page": "63792-63848",
+  "prefix": "10.52202",
+  "published": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "publisher": "Neural Information Processing Systems Foundation, Inc. (NeurIPS)",
+  "publisher-location": "San Diego, California, USA",
+  "reference-count": 0,
+  "references-count": 0,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "http://www.proceedings.com/085713-1918.html"
+   }
+  },
+  "score": 1,
+  "short-container-title": [],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "The Common Pile v0.1: An 8TB Dataset of Public Domain and Openly Licensed Text"
+  ],
+  "type": "proceedings-article"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

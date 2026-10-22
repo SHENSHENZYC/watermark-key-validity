@@ -1,0 +1,6 @@
+Table — The secondary population diagnostic of Studies 1 and 2: the two-way estimate s_K² − MS_E/N of the across-key variance of the level against the predictor's population variance, counted as 'within 2 SEs' under three SE constructions: the reports' crossed key-by-text bootstrap (its resamples centre at (K − 1)/K · s_K², the R09 F18 identity, so these counts are historical descriptive diagnostics), a key-only bootstrap from the stored per-key levels (the uncertainty of the text-conditioned functional, R09 F22 and D18, with the a_k-only approximation; a conditional sensitivity calculation), and normal theory. Neither construction carries a validated population confidence statement; the labelled side computation `research/study1/TWOWAY_SE_CHECK_2026-10-18.md` is the source and the agreed reports are unchanged.
+
+| Study (cells) | Cells | Within 2 crossed SEs (reported) | Within 2 key-only SEs (recount) | Within 2 normal-theory SEs | Stored rows whose crossed mean was checked against the identity |
+| --- | --- | --- | --- | --- | --- |
+| 1 (synthetic laws; the R1 cells) | 360 | 309 | 292 | 256 | 3,180 of 3,582 |
+| 2 (real text; the eligible primary cells) | 217 | 22 | 20 | 14 | 9,724 of 10,404 |

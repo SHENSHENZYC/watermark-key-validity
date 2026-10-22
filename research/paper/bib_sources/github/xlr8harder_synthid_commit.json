@@ -1,0 +1,101 @@
+{
+ "_projection": "A projection of the API response for the public record (R13 F10): files[].patch of README.md (621 characters) removed and kept in the private record under research/paper/bib_sources/raw_responses/, which the public snapshot excludes; every other field is verbatim.",
+ "author": {
+  "avatar_url": "https://avatars.githubusercontent.com/u/140839276?v=4",
+  "events_url": "https://api.github.com/users/xlr8harder/events{/privacy}",
+  "followers_url": "https://api.github.com/users/xlr8harder/followers",
+  "following_url": "https://api.github.com/users/xlr8harder/following{/other_user}",
+  "gists_url": "https://api.github.com/users/xlr8harder/gists{/gist_id}",
+  "gravatar_id": "",
+  "html_url": "https://github.com/xlr8harder",
+  "id": 140839276,
+  "login": "xlr8harder",
+  "node_id": "U_kgDOCGUJbA",
+  "organizations_url": "https://api.github.com/users/xlr8harder/orgs",
+  "received_events_url": "https://api.github.com/users/xlr8harder/received_events",
+  "repos_url": "https://api.github.com/users/xlr8harder/repos",
+  "site_admin": false,
+  "starred_url": "https://api.github.com/users/xlr8harder/starred{/owner}{/repo}",
+  "subscriptions_url": "https://api.github.com/users/xlr8harder/subscriptions",
+  "type": "User",
+  "url": "https://api.github.com/users/xlr8harder",
+  "user_view_type": "public"
+ },
+ "comments_url": "https://api.github.com/repos/xlr8harder/synthid/commits/b3adb0f13301506e6ee0f49be26e99f6abde5829/comments",
+ "commit": {
+  "author": {
+   "date": "2026-08-19T06:39:39Z",
+   "email": "xlr8harder@users.noreply.github.com",
+   "name": "xlr8harder"
+  },
+  "comment_count": 0,
+  "committer": {
+   "date": "2026-08-19T06:39:39Z",
+   "email": "xlr8harder@users.noreply.github.com",
+   "name": "xlr8harder"
+  },
+  "message": "Link detector analysis v1.1 tag",
+  "tree": {
+   "sha": "67ba1741ec05090b82edcb48eda07c07d4a096f9",
+   "url": "https://api.github.com/repos/xlr8harder/synthid/git/trees/67ba1741ec05090b82edcb48eda07c07d4a096f9"
+  },
+  "url": "https://api.github.com/repos/xlr8harder/synthid/git/commits/b3adb0f13301506e6ee0f49be26e99f6abde5829",
+  "verification": {
+   "payload": null,
+   "reason": "unsigned",
+   "signature": null,
+   "verified": false,
+   "verified_at": null
+  }
+ },
+ "committer": {
+  "avatar_url": "https://avatars.githubusercontent.com/u/140839276?v=4",
+  "events_url": "https://api.github.com/users/xlr8harder/events{/privacy}",
+  "followers_url": "https://api.github.com/users/xlr8harder/followers",
+  "following_url": "https://api.github.com/users/xlr8harder/following{/other_user}",
+  "gists_url": "https://api.github.com/users/xlr8harder/gists{/gist_id}",
+  "gravatar_id": "",
+  "html_url": "https://github.com/xlr8harder",
+  "id": 140839276,
+  "login": "xlr8harder",
+  "node_id": "U_kgDOCGUJbA",
+  "organizations_url": "https://api.github.com/users/xlr8harder/orgs",
+  "received_events_url": "https://api.github.com/users/xlr8harder/received_events",
+  "repos_url": "https://api.github.com/users/xlr8harder/repos",
+  "site_admin": false,
+  "starred_url": "https://api.github.com/users/xlr8harder/starred{/owner}{/repo}",
+  "subscriptions_url": "https://api.github.com/users/xlr8harder/subscriptions",
+  "type": "User",
+  "url": "https://api.github.com/users/xlr8harder",
+  "user_view_type": "public"
+ },
+ "files": [
+  {
+   "additions": 2,
+   "blob_url": "https://github.com/xlr8harder/synthid/blob/b3adb0f13301506e6ee0f49be26e99f6abde5829/README.md",
+   "changes": 2,
+   "contents_url": "https://api.github.com/repos/xlr8harder/synthid/contents/README.md?ref=b3adb0f13301506e6ee0f49be26e99f6abde5829",
+   "deletions": 0,
+   "filename": "README.md",
+   "raw_url": "https://github.com/xlr8harder/synthid/raw/b3adb0f13301506e6ee0f49be26e99f6abde5829/README.md",
+   "sha": "1258f410843af6eaa46d911e24e35f7dd31a9a80",
+   "status": "modified"
+  }
+ ],
+ "html_url": "https://github.com/xlr8harder/synthid/commit/b3adb0f13301506e6ee0f49be26e99f6abde5829",
+ "node_id": "C_kwDOT8w5EdoAKGIzYWRiMGYxMzMwMTUwNmU2ZWUwZjQ5YmUyNmU5OWY2YWJkZTU4Mjk",
+ "parents": [
+  {
+   "html_url": "https://github.com/xlr8harder/synthid/commit/982517dd76713686ca7a6d6c36e641ed4a9f6124",
+   "sha": "982517dd76713686ca7a6d6c36e641ed4a9f6124",
+   "url": "https://api.github.com/repos/xlr8harder/synthid/commits/982517dd76713686ca7a6d6c36e641ed4a9f6124"
+  }
+ ],
+ "sha": "b3adb0f13301506e6ee0f49be26e99f6abde5829",
+ "stats": {
+  "additions": 2,
+  "deletions": 0,
+  "total": 2
+ },
+ "url": "https://api.github.com/repos/xlr8harder/synthid/commits/b3adb0f13301506e6ee0f49be26e99f6abde5829"
+}

@@ -1,0 +1,108 @@
+{
+ "n_units": 2617347,
+ "n_files": 13,
+ "n_quarantined_files": 0,
+ "n_with_signature": 2617310,
+ "exact_duplicate_unions": 230,
+ "lsh": {
+  "bands": 32,
+  "rows": 4,
+  "buckets_with_2plus": 95730,
+  "largest_bucket": 993,
+  "bucket_pairs_examined": 5061391,
+  "prefilter_margin": 0.15
+ },
+ "candidate_pairs": 286347,
+ "candidate_units": 24781,
+ "near_duplicate_unions": 7095,
+ "confusion_est_vs_exact": {
+  "est>=T&exact>=T": 73465,
+  "est>=T&exact<T": 8293,
+  "est<T&exact>=T": 11975,
+  "est<T&exact<T": 192614
+ },
+ "exact_jaccard_histogram_20bins": [
+  8,
+  12,
+  10,
+  5,
+  3,
+  4,
+  42,
+  815,
+  10611,
+  27785,
+  37652,
+  70712,
+  53248,
+  23722,
+  10288,
+  9415,
+  6284,
+  12294,
+  20734,
+  2703
+ ],
+ "threshold_exact_jaccard": 0.65,
+ "n_clusters": 2610022,
+ "cross_source_clusters": 0,
+ "exposure_hits": 73,
+ "forced_open_units": 73,
+ "holdout_share_of_clusters": 0.19996038347569484,
+ "by_source_lang": {
+  "gutenberg/da": {
+   "clusters": 1,
+   "holdout": 0,
+   "holdout_share": 0.0
+  },
+  "gutenberg/en": {
+   "clusters": 15250,
+   "holdout": 2962,
+   "holdout_share": 0.1942295081967213
+  },
+  "news/en": {
+   "clusters": 126430,
+   "holdout": 25277,
+   "holdout_share": 0.1999288143636795
+  },
+  "stackexchange/en": {
+   "clusters": 1586421,
+   "holdout": 317144,
+   "holdout_share": 0.19991162497218581
+  },
+  "wikipedia/ar": {
+   "clusters": 169379,
+   "holdout": 33850,
+   "holdout_share": 0.19984767887400445
+  },
+  "wikipedia/de": {
+   "clusters": 142213,
+   "holdout": 28564,
+   "holdout_share": 0.20085364910380907
+  },
+  "wikipedia/en": {
+   "clusters": 155908,
+   "holdout": 31183,
+   "holdout_share": 0.20000897965466813
+  },
+  "wikipedia/ja": {
+   "clusters": 92493,
+   "holdout": 18583,
+   "holdout_share": 0.20091250148659898
+  },
+  "wikipedia/ru": {
+   "clusters": 92539,
+   "holdout": 18506,
+   "holdout_share": 0.19998054874161164
+  },
+  "wikipedia/zh": {
+   "clusters": 229388,
+   "holdout": 45832,
+   "holdout_share": 0.19980121017664393
+  }
+ },
+ "assignment": "holdout iff int(sha256(cluster_id)[:16],16) % 5 == 0 and the cluster holds no exposure record",
+ "seconds": 67,
+ "final_version": "0.2",
+ "partition_sha256": "4e810c0269f78923d79de4b1b99838a875e6da7e94946f09dd3c83e3ac8ea9d0"
+}

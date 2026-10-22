@@ -1,0 +1,1824 @@
+{
+ "checks": {
+  "law_zipf_V1000_s1.0": {
+   "V": 1000,
+   "sample_shape": [
+    200,
+    256
+   ],
+   "min": 0,
+   "max": 999,
+   "distinct_tokens_in_sample": 1000,
+   "marginal_top1_share": 0.13447265625
+  },
+  "law_zipf_V10000_s1.0": {
+   "V": 10000,
+   "sample_shape": [
+    200,
+    256
+   ],
+   "min": 0,
+   "max": 9999,
+   "distinct_tokens_in_sample": 6831,
+   "marginal_top1_share": 0.10263671875
+  },
+  "law_zipf_V50000_s1.0": {
+   "V": 50000,
+   "sample_shape": [
+    200,
+    256
+   ],
+   "min": 0,
+   "max": 49994,
+   "distinct_tokens_in_sample": 12908,
+   "marginal_top1_share": 0.08833984375
+  },
+  "law_zipf_V10000_s1.2": {
+   "V": 10000,
+   "sample_shape": [
+    200,
+    256
+   ],
+   "min": 0,
+   "max": 9997,
+   "distinct_tokens_in_sample": 4290,
+   "marginal_top1_share": 0.2067578125
+  },
+  "law_markov_V1000_S50_eps0.1_s1.0": {
+   "V": 1000,
+   "sample_shape": [
+    200,
+    256
+   ],
+   "min": 0,
+   "max": 998,
+   "distinct_tokens_in_sample": 986,
+   "marginal_top1_share": 0.07876953125
+  },
+  "law_markov_V10000_S50_eps0.1_s1.0": {
+   "V": 10000,
+   "sample_shape": [
+    200,
+    256
+   ],
+   "min": 0,
+   "max": 9999,
+   "distinct_tokens_in_sample": 5187,
+   "marginal_top1_share": 0.0718359375
+  },
+  "law_zipf_V10_s1.0": {
+   "V": 10,
+   "sample_shape": [
+    200,
+    256
+   ],
+   "min": 0,
+   "max": 9,
+   "distinct_tokens_in_sample": 10,
+   "marginal_top1_share": 0.341171875
+  },
+  "law_zipf_V100_s1.0": {
+   "V": 100,
+   "sample_shape": [
+    200,
+    256
+   ],
+   "min": 0,
+   "max": 99,
+   "distinct_tokens_in_sample": 100,
+   "marginal_top1_share": 0.19146484375
+  },
+  "law_twotoken_p0.9": {
+   "V": 2,
+   "sample_shape": [
+    200,
+    256
+   ],
+   "min": 0,
+   "max": 1,
+   "distinct_tokens_in_sample": 2,
+   "marginal_top1_share": 0.5086328125
+  },
+  "fixed_sampler_exact_count": {
+   "contexts_fully_queried": 6,
+   "all_equal_m": true,
+   "marginal_green": 0.5
+  },
+  "identity_fixed": {
+   "observed_var": 0.003528858980699061,
+   "identity": 0.003535416666666698,
+   "ratio": 0.998145144805854
+  },
+  "identity_indep": {
+   "observed_var": 0.06482447741020689,
+   "identity": 0.06515156250000013,
+   "ratio": 0.9949796278516997
+  },
+  "twotoken_h0_var_fixed": 2.8089999998259785e-07,
+  "twotoken_h1_var_fixed": 0.0799214457391915,
+  "binomial_marginal": {
+   "0.01": {
+    "overall": 0.0102625,
+    "se": 0.0004483899535830452,
+    "exact": 0.009852419798502616
+   },
+   "0.05": {
+    "overall": 0.0509125,
+    "se": 0.0015255944962087396,
+    "exact": 0.0498819669064913
+   }
+  }
+ },
+ "timing": {
+  "validation_run_seconds": 365.0,
+  "returncode": 0,
+  "stderr_tail": "",
+  "validation_cells": {
+   "twotoken_p0.9__h0__fixed__g0.25__L1024__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 1024,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__fixed__g0.25__L1024__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 1024,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__fixed__g0.25__L1024__raw.json": {
+    "seconds": 0.2,
+    "n_tuples_dict": 2,
+    "L": 1024,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__fixed__g0.25__L256__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 256,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__fixed__g0.25__L256__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 256,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__fixed__g0.25__L256__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 256,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__fixed__g0.25__L64__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 64,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__fixed__g0.25__L64__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 64,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__fixed__g0.25__L64__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 64,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__fixed__g0.5__L1024__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 1024,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__fixed__g0.5__L1024__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 1024,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__fixed__g0.5__L1024__raw.json": {
+    "seconds": 0.2,
+    "n_tuples_dict": 2,
+    "L": 1024,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__fixed__g0.5__L256__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 256,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__fixed__g0.5__L256__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 256,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__fixed__g0.5__L256__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 256,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__fixed__g0.5__L64__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 64,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__fixed__g0.5__L64__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 64,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__fixed__g0.5__L64__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 64,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__independent__g0.25__L1024__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 1024,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__independent__g0.25__L1024__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 1024,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__independent__g0.25__L1024__raw.json": {
+    "seconds": 0.2,
+    "n_tuples_dict": 2,
+    "L": 1024,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__independent__g0.25__L256__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 256,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__independent__g0.25__L256__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 256,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__independent__g0.25__L256__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 256,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__independent__g0.25__L64__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 64,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__independent__g0.25__L64__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 64,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__independent__g0.25__L64__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 64,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__independent__g0.5__L1024__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 1024,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__independent__g0.5__L1024__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 1024,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__independent__g0.5__L1024__raw.json": {
+    "seconds": 0.2,
+    "n_tuples_dict": 2,
+    "L": 1024,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__independent__g0.5__L256__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 256,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__independent__g0.5__L256__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 256,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__independent__g0.5__L256__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 256,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__independent__g0.5__L64__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 64,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__independent__g0.5__L64__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 64,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h0__independent__g0.5__L64__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 2,
+    "L": 64,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__fixed__g0.25__L1024__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 1024,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__fixed__g0.25__L1024__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 1024,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__fixed__g0.25__L1024__raw.json": {
+    "seconds": 0.2,
+    "n_tuples_dict": 4,
+    "L": 1024,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__fixed__g0.25__L256__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 256,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__fixed__g0.25__L256__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 256,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__fixed__g0.25__L256__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 256,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__fixed__g0.25__L64__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 64,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__fixed__g0.25__L64__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 64,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__fixed__g0.25__L64__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 64,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__fixed__g0.5__L1024__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 1024,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__fixed__g0.5__L1024__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 1024,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__fixed__g0.5__L1024__raw.json": {
+    "seconds": 0.2,
+    "n_tuples_dict": 4,
+    "L": 1024,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__fixed__g0.5__L256__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 256,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__fixed__g0.5__L256__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 256,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__fixed__g0.5__L256__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 256,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__fixed__g0.5__L64__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 64,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__fixed__g0.5__L64__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 64,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__fixed__g0.5__L64__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 64,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__independent__g0.25__L1024__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 1024,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__independent__g0.25__L1024__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 1024,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__independent__g0.25__L1024__raw.json": {
+    "seconds": 0.2,
+    "n_tuples_dict": 4,
+    "L": 1024,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__independent__g0.25__L256__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 256,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__independent__g0.25__L256__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 256,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__independent__g0.25__L256__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 256,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__independent__g0.25__L64__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 64,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__independent__g0.25__L64__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 64,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__independent__g0.25__L64__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 64,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__independent__g0.5__L1024__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 1024,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__independent__g0.5__L1024__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 1024,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__independent__g0.5__L1024__raw.json": {
+    "seconds": 0.2,
+    "n_tuples_dict": 4,
+    "L": 1024,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__independent__g0.5__L256__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 256,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__independent__g0.5__L256__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 256,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__independent__g0.5__L256__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 256,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__independent__g0.5__L64__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 64,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__independent__g0.5__L64__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 64,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h1__independent__g0.5__L64__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 4,
+    "L": 64,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__fixed__g0.25__L1024__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 1024,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__fixed__g0.25__L1024__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 1024,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__fixed__g0.25__L1024__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 1024,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__fixed__g0.25__L256__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 256,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__fixed__g0.25__L256__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 256,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__fixed__g0.25__L256__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 256,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__fixed__g0.25__L64__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 64,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__fixed__g0.25__L64__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 64,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__fixed__g0.25__L64__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 64,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__fixed__g0.5__L1024__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 1024,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__fixed__g0.5__L1024__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 1024,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__fixed__g0.5__L1024__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 1024,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__fixed__g0.5__L256__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 256,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__fixed__g0.5__L256__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 256,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__fixed__g0.5__L256__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 256,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__fixed__g0.5__L64__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 64,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__fixed__g0.5__L64__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 64,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__fixed__g0.5__L64__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 64,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__independent__g0.25__L1024__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 1024,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__independent__g0.25__L1024__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 1024,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__independent__g0.25__L1024__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 1024,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__independent__g0.25__L256__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 256,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__independent__g0.25__L256__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 256,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__independent__g0.25__L256__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 256,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__independent__g0.25__L64__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 64,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__independent__g0.25__L64__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 64,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__independent__g0.25__L64__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 64,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__independent__g0.5__L1024__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 1024,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__independent__g0.5__L1024__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 1024,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__independent__g0.5__L1024__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 1024,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__independent__g0.5__L256__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 256,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__independent__g0.5__L256__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 256,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__independent__g0.5__L256__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 256,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__independent__g0.5__L64__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 64,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__independent__g0.5__L64__first.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 64,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "twotoken_p0.9__h2__independent__g0.5__L64__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 8,
+    "L": 64,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 2000
+   },
+   "zipf_V1000_s1.0__h0__fixed__g0.5__L2048__distinct.json": {
+    "seconds": 0.2,
+    "n_tuples_dict": 1000,
+    "L": 2048,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 200
+   },
+   "zipf_V1000_s1.0__h0__fixed__g0.5__L2048__first.json": {
+    "seconds": 0.0,
+    "n_tuples_dict": 1000,
+    "L": 2048,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 200
+   },
+   "zipf_V1000_s1.0__h0__fixed__g0.5__L2048__raw.json": {
+    "seconds": 0.3,
+    "n_tuples_dict": 1000,
+    "L": 2048,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 200
+   },
+   "zipf_V1000_s1.0__h0__fixed__g0.5__L256__distinct.json": {
+    "seconds": 0.0,
+    "n_tuples_dict": 1000,
+    "L": 256,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 200
+   },
+   "zipf_V1000_s1.0__h0__fixed__g0.5__L256__first.json": {
+    "seconds": 0.0,
+    "n_tuples_dict": 1000,
+    "L": 256,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 200
+   },
+   "zipf_V1000_s1.0__h0__fixed__g0.5__L256__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 1000,
+    "L": 256,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 200
+   },
+   "zipf_V1000_s1.0__h0__independent__g0.5__L1024__distinct.json": {
+    "seconds": 0.2,
+    "n_tuples_dict": 1000,
+    "L": 1024,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h0__independent__g0.5__L1024__first.json": {
+    "seconds": 0.0,
+    "n_tuples_dict": 1000,
+    "L": 1024,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h0__independent__g0.5__L1024__raw.json": {
+    "seconds": 0.3,
+    "n_tuples_dict": 1000,
+    "L": 1024,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h0__independent__g0.5__L128__distinct.json": {
+    "seconds": 0.0,
+    "n_tuples_dict": 1000,
+    "L": 128,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h0__independent__g0.5__L128__first.json": {
+    "seconds": 0.0,
+    "n_tuples_dict": 1000,
+    "L": 128,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h0__independent__g0.5__L128__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 1000,
+    "L": 128,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h0__independent__g0.5__L2048__distinct.json": {
+    "seconds": 0.3,
+    "n_tuples_dict": 1000,
+    "L": 2048,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h0__independent__g0.5__L2048__first.json": {
+    "seconds": 0.0,
+    "n_tuples_dict": 1000,
+    "L": 2048,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h0__independent__g0.5__L2048__raw.json": {
+    "seconds": 0.4,
+    "n_tuples_dict": 1000,
+    "L": 2048,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h0__independent__g0.5__L256__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 1000,
+    "L": 256,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h0__independent__g0.5__L256__first.json": {
+    "seconds": 0.0,
+    "n_tuples_dict": 1000,
+    "L": 256,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h0__independent__g0.5__L256__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 1000,
+    "L": 256,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h0__independent__g0.5__L512__distinct.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 1000,
+    "L": 512,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h0__independent__g0.5__L512__first.json": {
+    "seconds": 0.0,
+    "n_tuples_dict": 1000,
+    "L": 512,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h0__independent__g0.5__L512__raw.json": {
+    "seconds": 0.1,
+    "n_tuples_dict": 1000,
+    "L": 512,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h0__independent__g0.5__L64__distinct.json": {
+    "seconds": 0.0,
+    "n_tuples_dict": 1000,
+    "L": 64,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h0__independent__g0.5__L64__first.json": {
+    "seconds": 0.0,
+    "n_tuples_dict": 1000,
+    "L": 64,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h0__independent__g0.5__L64__raw.json": {
+    "seconds": 0.0,
+    "n_tuples_dict": 1000,
+    "L": 64,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h1__fixed__g0.5__L2048__distinct.json": {
+    "seconds": 1.2,
+    "n_tuples_dict": 584443,
+    "L": 2048,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 200
+   },
+   "zipf_V1000_s1.0__h1__fixed__g0.5__L2048__first.json": {
+    "seconds": 0.5,
+    "n_tuples_dict": 584443,
+    "L": 2048,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 200
+   },
+   "zipf_V1000_s1.0__h1__fixed__g0.5__L2048__raw.json": {
+    "seconds": 1.3,
+    "n_tuples_dict": 584443,
+    "L": 2048,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 200
+   },
+   "zipf_V1000_s1.0__h1__fixed__g0.5__L256__distinct.json": {
+    "seconds": 0.2,
+    "n_tuples_dict": 584443,
+    "L": 256,
+    "rule": "distinct",
+    "colouring": "fixed",
+    "K": 200
+   },
+   "zipf_V1000_s1.0__h1__fixed__g0.5__L256__first.json": {
+    "seconds": 0.2,
+    "n_tuples_dict": 584443,
+    "L": 256,
+    "rule": "first",
+    "colouring": "fixed",
+    "K": 200
+   },
+   "zipf_V1000_s1.0__h1__fixed__g0.5__L256__raw.json": {
+    "seconds": 0.2,
+    "n_tuples_dict": 584443,
+    "L": 256,
+    "rule": "raw",
+    "colouring": "fixed",
+    "K": 200
+   },
+   "zipf_V1000_s1.0__h1__independent__g0.5__L1024__distinct.json": {
+    "seconds": 1.4,
+    "n_tuples_dict": 584443,
+    "L": 1024,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h1__independent__g0.5__L1024__first.json": {
+    "seconds": 0.8,
+    "n_tuples_dict": 584443,
+    "L": 1024,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h1__independent__g0.5__L1024__raw.json": {
+    "seconds": 1.5,
+    "n_tuples_dict": 584443,
+    "L": 1024,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h1__independent__g0.5__L128__distinct.json": {
+    "seconds": 0.4,
+    "n_tuples_dict": 584443,
+    "L": 128,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h1__independent__g0.5__L128__first.json": {
+    "seconds": 0.4,
+    "n_tuples_dict": 584443,
+    "L": 128,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h1__independent__g0.5__L128__raw.json": {
+    "seconds": 0.4,
+    "n_tuples_dict": 584443,
+    "L": 128,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h1__independent__g0.5__L2048__distinct.json": {
+    "seconds": 2.6,
+    "n_tuples_dict": 584443,
+    "L": 2048,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h1__independent__g0.5__L2048__first.json": {
+    "seconds": 1.1,
+    "n_tuples_dict": 584443,
+    "L": 2048,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h1__independent__g0.5__L2048__raw.json": {
+    "seconds": 2.6,
+    "n_tuples_dict": 584443,
+    "L": 2048,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h1__independent__g0.5__L256__distinct.json": {
+    "seconds": 0.5,
+    "n_tuples_dict": 584443,
+    "L": 256,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h1__independent__g0.5__L256__first.json": {
+    "seconds": 0.4,
+    "n_tuples_dict": 584443,
+    "L": 256,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h1__independent__g0.5__L256__raw.json": {
+    "seconds": 0.6,
+    "n_tuples_dict": 584443,
+    "L": 256,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h1__independent__g0.5__L512__distinct.json": {
+    "seconds": 0.9,
+    "n_tuples_dict": 584443,
+    "L": 512,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h1__independent__g0.5__L512__first.json": {
+    "seconds": 0.6,
+    "n_tuples_dict": 584443,
+    "L": 512,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h1__independent__g0.5__L512__raw.json": {
+    "seconds": 0.9,
+    "n_tuples_dict": 584443,
+    "L": 512,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h1__independent__g0.5__L64__distinct.json": {
+    "seconds": 0.3,
+    "n_tuples_dict": 584443,
+    "L": 64,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h1__independent__g0.5__L64__first.json": {
+    "seconds": 0.3,
+    "n_tuples_dict": 584443,
+    "L": 64,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h1__independent__g0.5__L64__raw.json": {
+    "seconds": 0.3,
+    "n_tuples_dict": 584443,
+    "L": 64,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h2__independent__g0.5__L1024__distinct.json": {
+    "seconds": 3.9,
+    "n_tuples_dict": 4146790,
+    "L": 1024,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h2__independent__g0.5__L1024__first.json": {
+    "seconds": 3.7,
+    "n_tuples_dict": 4146790,
+    "L": 1024,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h2__independent__g0.5__L1024__raw.json": {
+    "seconds": 4.0,
+    "n_tuples_dict": 4146790,
+    "L": 1024,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h2__independent__g0.5__L128__distinct.json": {
+    "seconds": 1.9,
+    "n_tuples_dict": 4146790,
+    "L": 128,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h2__independent__g0.5__L128__first.json": {
+    "seconds": 1.8,
+    "n_tuples_dict": 4146790,
+    "L": 128,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h2__independent__g0.5__L128__raw.json": {
+    "seconds": 1.9,
+    "n_tuples_dict": 4146790,
+    "L": 128,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h2__independent__g0.5__L2048__distinct.json": {
+    "seconds": 6.3,
+    "n_tuples_dict": 4146790,
+    "L": 2048,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h2__independent__g0.5__L2048__first.json": {
+    "seconds": 5.6,
+    "n_tuples_dict": 4146790,
+    "L": 2048,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h2__independent__g0.5__L2048__raw.json": {
+    "seconds": 6.3,
+    "n_tuples_dict": 4146790,
+    "L": 2048,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h2__independent__g0.5__L256__distinct.json": {
+    "seconds": 2.2,
+    "n_tuples_dict": 4146790,
+    "L": 256,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h2__independent__g0.5__L256__first.json": {
+    "seconds": 2.1,
+    "n_tuples_dict": 4146790,
+    "L": 256,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h2__independent__g0.5__L256__raw.json": {
+    "seconds": 2.1,
+    "n_tuples_dict": 4146790,
+    "L": 256,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h2__independent__g0.5__L512__distinct.json": {
+    "seconds": 2.7,
+    "n_tuples_dict": 4146790,
+    "L": 512,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h2__independent__g0.5__L512__first.json": {
+    "seconds": 2.7,
+    "n_tuples_dict": 4146790,
+    "L": 512,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h2__independent__g0.5__L512__raw.json": {
+    "seconds": 2.8,
+    "n_tuples_dict": 4146790,
+    "L": 512,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h2__independent__g0.5__L64__distinct.json": {
+    "seconds": 1.7,
+    "n_tuples_dict": 4146790,
+    "L": 64,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h2__independent__g0.5__L64__first.json": {
+    "seconds": 1.7,
+    "n_tuples_dict": 4146790,
+    "L": 64,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h2__independent__g0.5__L64__raw.json": {
+    "seconds": 1.7,
+    "n_tuples_dict": 4146790,
+    "L": 64,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h3__independent__g0.5__L1024__distinct.json": {
+    "seconds": 5.5,
+    "n_tuples_dict": 7127873,
+    "L": 1024,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h3__independent__g0.5__L1024__first.json": {
+    "seconds": 5.5,
+    "n_tuples_dict": 7127873,
+    "L": 1024,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h3__independent__g0.5__L1024__raw.json": {
+    "seconds": 5.6,
+    "n_tuples_dict": 7127873,
+    "L": 1024,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h3__independent__g0.5__L128__distinct.json": {
+    "seconds": 3.2,
+    "n_tuples_dict": 7127873,
+    "L": 128,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h3__independent__g0.5__L128__first.json": {
+    "seconds": 3.2,
+    "n_tuples_dict": 7127873,
+    "L": 128,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h3__independent__g0.5__L128__raw.json": {
+    "seconds": 3.3,
+    "n_tuples_dict": 7127873,
+    "L": 128,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h3__independent__g0.5__L2048__distinct.json": {
+    "seconds": 8.2,
+    "n_tuples_dict": 7127873,
+    "L": 2048,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h3__independent__g0.5__L2048__first.json": {
+    "seconds": 8.2,
+    "n_tuples_dict": 7127873,
+    "L": 2048,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h3__independent__g0.5__L2048__raw.json": {
+    "seconds": 8.2,
+    "n_tuples_dict": 7127873,
+    "L": 2048,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h3__independent__g0.5__L256__distinct.json": {
+    "seconds": 3.6,
+    "n_tuples_dict": 7127873,
+    "L": 256,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h3__independent__g0.5__L256__first.json": {
+    "seconds": 3.6,
+    "n_tuples_dict": 7127873,
+    "L": 256,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h3__independent__g0.5__L256__raw.json": {
+    "seconds": 3.5,
+    "n_tuples_dict": 7127873,
+    "L": 256,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h3__independent__g0.5__L512__distinct.json": {
+    "seconds": 4.2,
+    "n_tuples_dict": 7127873,
+    "L": 512,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h3__independent__g0.5__L512__first.json": {
+    "seconds": 4.2,
+    "n_tuples_dict": 7127873,
+    "L": 512,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h3__independent__g0.5__L512__raw.json": {
+    "seconds": 4.2,
+    "n_tuples_dict": 7127873,
+    "L": 512,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h3__independent__g0.5__L64__distinct.json": {
+    "seconds": 3.0,
+    "n_tuples_dict": 7127873,
+    "L": 64,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h3__independent__g0.5__L64__first.json": {
+    "seconds": 3.1,
+    "n_tuples_dict": 7127873,
+    "L": 64,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h3__independent__g0.5__L64__raw.json": {
+    "seconds": 3.1,
+    "n_tuples_dict": 7127873,
+    "L": 64,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h4__independent__g0.5__L1024__distinct.json": {
+    "seconds": 6.0,
+    "n_tuples_dict": 8031146,
+    "L": 1024,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h4__independent__g0.5__L1024__first.json": {
+    "seconds": 5.9,
+    "n_tuples_dict": 8031146,
+    "L": 1024,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h4__independent__g0.5__L1024__raw.json": {
+    "seconds": 5.9,
+    "n_tuples_dict": 8031146,
+    "L": 1024,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h4__independent__g0.5__L128__distinct.json": {
+    "seconds": 3.5,
+    "n_tuples_dict": 8031146,
+    "L": 128,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h4__independent__g0.5__L128__first.json": {
+    "seconds": 3.5,
+    "n_tuples_dict": 8031146,
+    "L": 128,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h4__independent__g0.5__L128__raw.json": {
+    "seconds": 3.5,
+    "n_tuples_dict": 8031146,
+    "L": 128,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h4__independent__g0.5__L2048__distinct.json": {
+    "seconds": 8.6,
+    "n_tuples_dict": 8031146,
+    "L": 2048,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h4__independent__g0.5__L2048__first.json": {
+    "seconds": 8.6,
+    "n_tuples_dict": 8031146,
+    "L": 2048,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h4__independent__g0.5__L2048__raw.json": {
+    "seconds": 8.7,
+    "n_tuples_dict": 8031146,
+    "L": 2048,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h4__independent__g0.5__L256__distinct.json": {
+    "seconds": 4.0,
+    "n_tuples_dict": 8031146,
+    "L": 256,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h4__independent__g0.5__L256__first.json": {
+    "seconds": 3.9,
+    "n_tuples_dict": 8031146,
+    "L": 256,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h4__independent__g0.5__L256__raw.json": {
+    "seconds": 3.9,
+    "n_tuples_dict": 8031146,
+    "L": 256,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h4__independent__g0.5__L512__distinct.json": {
+    "seconds": 4.5,
+    "n_tuples_dict": 8031146,
+    "L": 512,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h4__independent__g0.5__L512__first.json": {
+    "seconds": 4.5,
+    "n_tuples_dict": 8031146,
+    "L": 512,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h4__independent__g0.5__L512__raw.json": {
+    "seconds": 4.5,
+    "n_tuples_dict": 8031146,
+    "L": 512,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h4__independent__g0.5__L64__distinct.json": {
+    "seconds": 3.4,
+    "n_tuples_dict": 8031146,
+    "L": 64,
+    "rule": "distinct",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h4__independent__g0.5__L64__first.json": {
+    "seconds": 3.3,
+    "n_tuples_dict": 8031146,
+    "L": 64,
+    "rule": "first",
+    "colouring": "independent",
+    "K": 500
+   },
+   "zipf_V1000_s1.0__h4__independent__g0.5__L64__raw.json": {
+    "seconds": 3.4,
+    "n_tuples_dict": 8031146,
+    "L": 64,
+    "rule": "raw",
+    "colouring": "independent",
+    "K": 500
+   }
+  },
+  "zipf_V1000_core_cells": 102,
+  "zipf_V1000_seconds_total": 250.0,
+  "peak_rss_mb_this_process": 666.7,
+  "peak_rss_mb_children": 5521.9,
+  "validation_log_tail": "wotoken_p0.9__h2__independent__g0.5__L64__first.json (0.1s)\n22:07:15Z   cell twotoken_p0.9__h2__independent__g0.5__L256__raw.json (0.1s)\n22:07:15Z   cell twotoken_p0.9__h2__independent__g0.5__L256__distinct.json (0.1s)\n22:07:15Z   cell twotoken_p0.9__h2__independent__g0.5__L256__first.json (0.1s)\n22:07:15Z   cell twotoken_p0.9__h2__independent__g0.5__L1024__raw.json (0.1s)\n22:07:15Z   cell twotoken_p0.9__h2__independent__g0.5__L1024__distinct.json (0.1s)\n22:07:15Z   cell twotoken_p0.9__h2__independent__g0.5__L1024__first.json (0.1s)\n22:07:15Z   colours twotoken_p0.9__h2 independent g0.25 K=2000: 0s\n22:07:16Z   cell twotoken_p0.9__h2__independent__g0.25__L64__raw.json (0.1s)\n22:07:16Z   cell twotoken_p0.9__h2__independent__g0.25__L64__distinct.json (0.1s)\n22:07:16Z   cell twotoken_p0.9__h2__independent__g0.25__L64__first.json (0.1s)\n22:07:16Z   cell twotoken_p0.9__h2__independent__g0.25__L256__raw.json (0.1s)\n22:07:16Z   cell twotoken_p0.9__h2__independent__g0.25__L256__distinct.json (0.1s)\n22:07:16Z   cell twotoken_p0.9__h2__independent__g0.25__L256__first.json (0.1s)\n22:07:16Z   cell twotoken_p0.9__h2__independent__g0.25__L1024__raw.json (0.1s)\n22:07:16Z   cell twotoken_p0.9__h2__independent__g0.25__L1024__distinct.json (0.1s)\n22:07:16Z   cell twotoken_p0.9__h2__independent__g0.25__L1024__first.json (0.1s)\n22:07:16Z   colours twotoken_p0.9__h2 fixed g0.5 K=2000: 0s\n22:07:16Z   cell twotoken_p0.9__h2__fixed__g0.5__L64__raw.json (0.1s)\n22:07:16Z   cell twotoken_p0.9__h2__fixed__g0.5__L64__distinct.json (0.1s)\n22:07:17Z   cell twotoken_p0.9__h2__fixed__g0.5__L64__first.json (0.1s)\n22:07:17Z   cell twotoken_p0.9__h2__fixed__g0.5__L256__raw.json (0.1s)\n22:07:17Z   cell twotoken_p0.9__h2__fixed__g0.5__L256__distinct.json (0.1s)\n22:07:17Z   cell twotoken_p0.9__h2__fixed__g0.5__L256__first.json (0.1s)\n22:07:17Z   cell twotoken_p0.9__h2__fixed__g0.5__L1024__raw.json (0.1s)\n22:07:17Z   cell twotoken_p0.9__h2__fixed__g0.5__L1024__distinct.json (0.1s)\n22:07:17Z   cell twotoken_p0.9__h2__fixed__g0.5__L1024__first.json (0.1s)\n22:07:17Z   colours twotoken_p0.9__h2 fixed g0.25 K=2000: 0s\n22:07:17Z   cell twotoken_p0.9__h2__fixed__g0.25__L64__raw.json (0.1s)\n22:07:17Z   cell twotoken_p0.9__h2__fixed__g0.25__L64__distinct.json (0.1s)\n22:07:17Z   cell twotoken_p0.9__h2__fixed__g0.25__L64__first.json (0.1s)\n22:07:18Z   cell twotoken_p0.9__h2__fixed__g0.25__L256__raw.json (0.1s)\n22:07:18Z   cell twotoken_p0.9__h2__fixed__g0.25__L256__distinct.json (0.1s)\n22:07:18Z   cell twotoken_p0.9__h2__fixed__g0.25__L256__first.json (0.1s)\n22:07:18Z   cell twotoken_p0.9__h2__fixed__g0.25__L1024__raw.json (0.1s)\n22:07:18Z   cell twotoken_p0.9__h2__fixed__g0.25__L1024__distinct.json (0.1s)\n22:07:18Z   cell twotoken_p0.9__h2__fixed__g0.25__L1024__first.json (0.1s)\n22:07:18Z chain twotoken_p0.9__h2 done (5s)\n2026-10-09T22:07:20Z chain twotoken_p0.9__h3 built: |D|=16 contexts=8 (2s)\n2026-10-09T22:07:22Z chain twotoken_p0.9__h4 built: |D|=32 contexts=16 (2s)\nDONE 2026-10-09T22:07:22Z\n"
+ }
+}

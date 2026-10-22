@@ -1,0 +1,9 @@
+QUERY: search_query=all:AutoMark AND all:watermark&sortBy=submittedDate&sortOrder=descending&max_results=20
+## AutoMark: Enabling Autoresearch to Discover Better LLM Watermarks
+2609.37310v1 | 2026-09-29 | Thibaud Gloaguen, Robin Staab, Martin Vechev
+With LLM watermarking being deployed commercially and now required by regulations, improving its reliability and effectiveness has become crucial. Yet, recent progress in the field of LLM watermarking has increasingly been driven by improving details of existing methods, an effort fundamentally limited by the pace of human researchers. In this work, we enable for the first time the autonomous disc
+
+## Automated Physical Design Watermarking Leveraging Graph Neural Networks
+2407.20544v1 | 2024-07-30 | Ruisi Zhang, Rachel Selina Rajarathnam, David Z. Pan, Farinaz Koushanfar
+This paper presents AutoMarks, an automated and transferable watermarking framework that leverages graph neural networks to reduce the watermark search overheads during the placement stage. AutoMarks's novel automated watermark search is accomplished by (i) constructing novel graph and node features with physical, semantic, and design constraint-aware representation; (ii) designing a data-efficien
+

@@ -1,0 +1,51 @@
+
+**Verdict: PROVISIONAL (all rules pass; the partition is not finalised)** (partition partition.parquet; units 2,617,347; clusters 2,610,020; allowed representatives 2,590,960)
+
+| File | Lines | Unparseable | Parsed | Licence-excluded | Duplicates (non-rep.) | Representatives | Open | Held out | Reconciliation |
+|---|---|---|---|---|---|---|---|---|---|
+| news-dolma-0000.json.gz | 126,673 | 0 | 126,673 | 0 | 243 | 126,430 | 101,153 | 25,277 | exact to card 126,673 |
+| stackexchange-dolma-0000.json.gz | 863,130 | 0 | 863,130 | 19060 | 149 | 843,921 | 675,341 | 168,580 | exact; parse-complete (partial shard, no external count) |
+| stackexchange-dolma-0022.json.gz | 723,470 | 0 | 723,470 | 0 | 30 | 723,440 | 578,717 | 144,723 | exact; parse-complete (partial shard, no external count) |
+| project_gutenberg-dolma-0000.json.gz | 4,025 | 0 | 4,025 | 0 | 7 | 4,018 | 3,235 | 783 | exact; parse-complete (partial shard, no external count) |
+| project_gutenberg-dolma-0003.json.gz | 4,004 | 0 | 4,004 | 0 | 21 | 3,983 | 3,218 | 765 | exact; parse-complete (partial shard, no external count) |
+| project_gutenberg-dolma-0007.json.gz | 3,305 | 0 | 3,305 | 0 | 10 | 3,295 | 2,671 | 624 | exact; parse-complete (partial shard, no external count) |
+| project_gutenberg-dolma-0011.json.gz | 3,966 | 0 | 3,966 | 0 | 13 | 3,953 | 3,163 | 790 | exact; parse-complete (partial shard, no external count) |
+| 20231101.ar/train-00000-of-00007.parquet | 174,172 | 0 | 174,172 | 0 | 4,793 | 169,379 | 135,529 | 33,850 | exact to footer 174,172 |
+| 20231101.de/train-00000-of-00020.parquet | 142,266 | 0 | 142,266 | 0 | 53 | 142,213 | 113,649 | 28,564 | exact to footer 142,266 |
+| 20231101.en/train-00000-of-00041.parquet | 156,289 | 0 | 156,289 | 0 | 381 | 155,908 | 124,725 | 31,183 | exact to footer 156,289 |
+| 20231101.ja/train-00000-of-00015.parquet | 92,632 | 0 | 92,632 | 0 | 139 | 92,493 | 73,910 | 18,583 | exact to footer 92,632 |
+| 20231101.ru/train-00000-of-00021.parquet | 92,623 | 0 | 92,623 | 0 | 84 | 92,539 | 74,033 | 18,506 | exact to footer 92,623 |
+| 20231101.zh/train-00000-of-00006.parquet | 230,792 | 0 | 230,792 | 0 | 1,404 | 229,388 | 183,556 | 45,832 | exact to footer 230,792 |
+
+| Cell | Open eligible | Open, Qwen-eligible too | Held out eligible | Floor 2,500 |
+|---|---|---|---|---|
+| news/en@256 | 37,696 | 37,695 | 9,362 | ok |
+| wikipedia/en@256 | 95,048 | 95,045 | 23,738 | ok |
+| stackexchange/en@256 | 982,015 | 982,004 | 245,245 | ok |
+| wikipedia/de@256 | 100,065 | 100,042 | 25,259 | ok |
+| wikipedia/ru@256 | 62,249 | 62,249 | 15,500 | ok |
+| wikipedia/ar@256 | 85,264 | 84,999 | 21,459 | ok |
+| wikipedia/zh@256 | 121,418 | 116,578 | 30,284 | ok |
+| wikipedia/ja@256 | 68,208 | 68,120 | 17,165 | ok |
+| wikipedia/en@1024 | 36,046 | 36,045 | 8,941 | ok |
+| gutenberg/en@1024 | 12,122 | 12,122 | 2,917 | ok |
+
+| Rule | Pass | Detail |
+|---|---|---|
+| P1 | True | {"admitted_identities": ["cc-by-4.0", "cc-by-sa-2.5", "cc-by-sa-3.0", "cc-by-sa-4.0", "public-domain"], "licence_excluded_units": 19060, "quarantined_files": {}} |
+| P2 | True | {"open_eligible_256": {"news/en@256": 37696, "wikipedia/en@256": 95048, "stackexchange/en@256": 982015}, "sites_with_>=200": 28, "n_sites": 35} |
+| P3 | True | {"open_eligible_256": {"wikipedia/de@256": 100065, "wikipedia/ru@256": 62249, "wikipedia/ar@256": 85264, "wikipedia/zh@256": 121418, "wikipedia/ja@256": 68208}} |
+| P4 | True | {"open_eligible_1024": {"gutenberg/en@1024": 12122, "wikipedia/en@1024": 36046}} |
+| P5 | True | {} |
+| P6 | True | {} |
+| P7 | True | {"holdout_eligible": {"news/en@256": 9362, "wikipedia/en@256": 23738, "stackexchange/en@256": 245245, "wikipedia/de@256": 25259, "wikipedia/ru@256": 15500, "wikipedia/ar@256": 21459, "wikipedia/zh@256": 30284, "wikipedia/ja@256": 17165, "wikipedia/en@1024": 8941, "gutenberg/en@1024": 2917}, "failed_excluded_cells": []} |
+| P8 | not needed | {} |
+
+seal test: {
+ "bind_provisional": "refused as required (no finalised partition v0.0 in outputs/corpora_units_v0.3)",
+ "open_load": "deferred until finalisation"
+}
+
+forum sites with >= 200 open eligible threads: 28 of 35 | top: {'stackoverflow.com': 484881, 'askubuntu.com': 235887, 'apple.stackexchange.com': 70189, 'academia.stackexchange.com': 31511, 'android.stackexchange.com': 28269, 'aviation.stackexchange.com': 18046, 'biology.stackexchange.com': 17395, 'bitcoin.stackexchange.com': 17332}
+news outlets (open eligible@256): {'news-globalvoices': 12344, 'news-factly': 5456, 'news-milwaukeenns': 4996, 'news-educeleb': 3388, 'news-altnews': 3304, 'news-newcanadianmedia': 2197, 'news-libertytvradio': 1854, 'news-360info': 1100, 'news-thepublicrecord': 876, 'news-freedom': 643, 'news-balkandiskurs': 535, 'news-zimfact': 318, 'news-oxpeckers': 317, 'news-mekongeye': 239, 'news-minorityafrica': 126, 'news-propastop': 2, 'news-solutionsjournalism': 1}
+DONE audit

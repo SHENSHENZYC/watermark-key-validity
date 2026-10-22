@@ -1,0 +1,30 @@
+news/en@256: calibration ids at permutation positions [10000, 14999] (0 skipped); loading texts
+  llama: (5000, 256) sha 313641dc627e
+  qwen: (5000, 256) sha 3d26f9c5161e
+wikipedia/en@256: calibration ids at permutation positions [10000, 15577] (578 skipped); loading texts
+  llama: (5000, 256) sha 9a35b4a976a1
+  qwen: (5000, 256) sha ad0848d6a63e
+stackexchange/en@256: calibration ids at permutation positions [10000, 14999] (0 skipped); loading texts
+  llama: (5000, 256) sha 997392a3d7fa
+  qwen: (5000, 256) sha 1702fb5adeab
+wikipedia/de@256: calibration ids at permutation positions [10000, 14999] (0 skipped); loading texts
+  llama: (5000, 256) sha b6b68c64726b
+  qwen: (5000, 256) sha 87ccab399115
+wikipedia/ru@256: calibration ids at permutation positions [10000, 14999] (0 skipped); loading texts
+  llama: (5000, 256) sha 4d9756bbd7e5
+  qwen: (5000, 256) sha ed7aaa9b482c
+wikipedia/ar@256: calibration ids at permutation positions [10000, 14999] (0 skipped); loading texts
+  llama: (5000, 256) sha e7daa548b6a4
+  qwen: (5000, 256) sha 0bd28f96a4a8
+wikipedia/zh@256: calibration ids at permutation positions [10000, 14999] (0 skipped); loading texts
+  llama: (5000, 256) sha 85ab42450fa8
+  qwen: (5000, 256) sha 55e130e9a94f
+wikipedia/ja@256: calibration ids at permutation positions [10000, 14999] (0 skipped); loading texts
+  llama: (5000, 256) sha 37af4fbd4346
+  qwen: (5000, 256) sha c16c2c0842e5
+wikipedia/en@1024: calibration ids at permutation positions [10000, 15951] (952 skipped); loading texts
+  llama: (5000, 256) sha eddb7d9804df
+  qwen: (5000, 256) sha 4ebf967ab568
+gutenberg/en@1024: calibration ids at permutation positions [7122, 12121] (0 skipped); loading texts
+  llama: (5000, 256) sha 59925d319996
+  qwen: (5000, 256) sha c8e95a7bc98c

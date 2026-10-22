@@ -1,0 +1,146 @@
+{
+ "_projection": "A projection of the API response for the public record (R13 F10): nothing (this response carries no third-party text body) removed and kept in the private record under research/paper/bib_sources/raw_responses/, which the public snapshot excludes; every other field is verbatim.",
+ "message": {
+  "DOI": "10.1214/aoms/1177728074",
+  "ISSN": [
+   "0003-4851"
+  ],
+  "URL": "https://doi.org/10.1214/aoms/1177728074",
+  "author": [
+   {
+    "affiliation": [],
+    "family": "Owen",
+    "given": "Donald B.",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   }
+  ],
+  "container-title": [
+   "The Annals of Mathematical Statistics"
+  ],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": []
+  },
+  "created": {
+   "date-parts": [
+    [
+     2007,
+     12,
+     17
+    ]
+   ],
+   "date-time": "2007-12-17T17:38:02Z",
+   "timestamp": 1197913082000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2017,
+     5,
+     10
+    ]
+   ],
+   "date-time": "2017-05-10T10:15:12Z",
+   "timestamp": 1494411312000
+  },
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     22
+    ]
+   ],
+   "date-time": "2026-09-22T17:44:25Z",
+   "timestamp": 1790099065523,
+   "version": "4.0.1"
+  },
+  "is-referenced-by-count": 324,
+  "issn-type": [
+   {
+    "type": "print",
+    "value": "0003-4851"
+   }
+  ],
+  "issue": "4",
+  "issued": {
+   "date-parts": [
+    [
+     1956,
+     12
+    ]
+   ]
+  },
+  "journal-issue": {
+   "issue": "4",
+   "published-print": {
+    "date-parts": [
+     [
+      1956,
+      12
+     ]
+    ]
+   }
+  },
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://projecteuclid.org/download/pdf_1/euclid.aoms/1177728074",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "member": "108",
+  "original-title": [],
+  "page": "1075-1090",
+  "prefix": "10.1214",
+  "published": {
+   "date-parts": [
+    [
+     1956,
+     12
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     1956,
+     12
+    ]
+   ]
+  },
+  "publisher": "Institute of Mathematical Statistics",
+  "reference-count": 0,
+  "references-count": 0,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "http://projecteuclid.org/euclid.aoms/1177728074"
+   }
+  },
+  "score": 1,
+  "short-container-title": [
+   "Ann. Math. Statist."
+  ],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "Tables for Computing Bivariate Normal Probabilities"
+  ],
+  "type": "journal-article",
+  "volume": "27"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

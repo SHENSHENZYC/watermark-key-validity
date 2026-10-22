@@ -1,0 +1,18 @@
+OK common-pile/news_filtered@59aaa8f104e1:news-dolma-0000.json.gz 98092770 bytes 4s
+OK common-pile/news_filtered@59aaa8f104e1:README.md 3133 bytes 0s
+OK common-pile/stackexchange_filtered@c0ac7373830c:stackexchange-dolma-0000.json.gz 950628341 bytes 14s
+OK common-pile/stackexchange_filtered@c0ac7373830c:stackexchange-dolma-0022.json.gz 770587228 bytes 12s
+OK common-pile/stackexchange_filtered@c0ac7373830c:README.md 3249 bytes 0s
+OK common-pile/project_gutenberg_filtered@3cdf6879c807:project_gutenberg-dolma-0000.json.gz 570083371 bytes 9s
+OK common-pile/project_gutenberg_filtered@3cdf6879c807:project_gutenberg-dolma-0003.json.gz 496881642 bytes 10s
+OK common-pile/project_gutenberg_filtered@3cdf6879c807:project_gutenberg-dolma-0007.json.gz 527124662 bytes 12s
+OK common-pile/project_gutenberg_filtered@3cdf6879c807:project_gutenberg-dolma-0011.json.gz 490609105 bytes 10s
+OK common-pile/project_gutenberg_filtered@3cdf6879c807:README.md 2599 bytes 0s
+OK wikimedia/wikipedia@b04c8d1ceb2f:20231101.en/train-00000-of-00041.parquet 420296449 bytes 8s
+OK wikimedia/wikipedia@b04c8d1ceb2f:20231101.de/train-00000-of-00020.parquet 781271996 bytes 11s
+OK wikimedia/wikipedia@b04c8d1ceb2f:20231101.ru/train-00000-of-00021.parquet 581024230 bytes 8s
+OK wikimedia/wikipedia@b04c8d1ceb2f:20231101.ar/train-00000-of-00007.parquet 408241089 bytes 9s
+OK wikimedia/wikipedia@b04c8d1ceb2f:20231101.zh/train-00000-of-00006.parquet 587109027 bytes 10s
+OK wikimedia/wikipedia@b04c8d1ceb2f:20231101.ja/train-00000-of-00015.parquet 611504422 bytes 12s
+OK wikimedia/wikipedia@b04c8d1ceb2f:README.md 130835 bytes 0s
+DONE: 17 OK of 17 entries; manifest outputs/corpora_manifest_v0.1.json

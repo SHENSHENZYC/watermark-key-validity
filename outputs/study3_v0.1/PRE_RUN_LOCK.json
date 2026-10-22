@@ -1,0 +1,46 @@
+{
+ "study": "study3_v0.1",
+ "date": "2026-10-15",
+ "approved_by": "Yichen",
+ "before_outcomes": true,
+ "final": false,
+ "grid": "research/study3/grid_v0.1.json",
+ "protocol": "research/STUDY3_PROTOCOL_v0.1.md",
+ "validation": "outputs/study3_v0.1/VALIDATION.json",
+ "inputs": "outputs/study3_v0.1/INPUTS.json",
+ "tokens_manifest": "outputs/study3_v0.1/tokens_manifest.json",
+ "hashes": {
+  "outputs/study2_v0.1/RUN_MANIFEST.json": "12d98de8e855aac368a1787929e54375b76d1e4d675ebde3a897762b9a77dea2",
+  "outputs/study2_v0.1/tokens_manifest.json": "07e8a00558234fdfc64922d6d6363f1ce158aece12d17249210a725f28494e3c",
+  "outputs/study3_v0.1/INPUTS.json": "38754f057066522ccbf493efb000c3eb818d019a6a1c6bf6678b379b5ef4e19f",
+  "outputs/study3_v0.1/VALIDATION.json": "92d0df96d490ed797f7e027f3a72ae8bcc0a2cb672bd17e681f3226beb04976d",
+  "outputs/study3_v0.1/tokens_manifest.json": "3385c73775d9d772f8a3b2a5b4d7256f8cbeb87836cb246fa9320fbfdef7d778",
+  "research/STUDY3_PROTOCOL_v0.1.md": "44d243cf4be1781e5ef652a5f3b7e056cafa6828cbf40b575d604087f987cb5d",
+  "research/study1/s1_core.py": "69a18a98481122e18fee8c46c00c601f0ceb233abbceb9a98406c40bef9105ae",
+  "research/study2/s2_core.py": "646cdf871b67065c489249fda2bbad66ccbf5dcb9dd6896bd7b3f93e8378bab4",
+  "research/study2/s2_data.py": "73d5c2d2f50dcba9f1f96672f3adfee45912dc29a22b15c70c083c05f35b3eaf",
+  "research/study2/s2_keys.py": "30783a7f0f1a3f55726f9c84798e9b2716f829d1383e450059a7c344f4e271a9",
+  "research/study3/grid_v0.1.json": "a95785deb218915d6c799985c8e8c03011eec76faf0df2336d575e895c1f5544",
+  "research/study3/s3_analyze.py": "89a20e04e797884325212b53947ff4e61a4899e0c837aab2b29d9d1327194187",
+  "research/study3/s3_core.py": "869e5ed36c2d02977838427e55269d29a9566897c936b3a3be684987cdaf0373",
+  "research/study3/s3_data.py": "e59aa14032d932b788d6da7bdd78c56cef3368ea84c2179554b118da92058070",
+  "research/study3/s3_inputs.py": "b49a469fa57d020ab6e126b12503dbcf56d92d8ad99be0c029100065f2291f47",
+  "research/study3/s3_keys.py": "615cc9ae382aba16597188c0d96f13d3195a1afd87b174f7a7791843fe4f95ba",
+  "research/study3/s3_run.py": "bf1f01cf81bac2ca7a3ee60bb74ba2a5a0d3e576249f088f754a67fd0c9f7f0b",
+  "research/study3/s3_validate.py": "9a4457e36be9b2296520536a01d1b67e5ac17fee090c8739cd7c5e97c0bdc7b5",
+  "tools/corpora_access.py": "88212c134616bb1a83b7169113974ba26367266be81355b00369900f3bbeaf81",
+  "tools/key_policy.py": "b1fe47d7c6721b5024eaa03400daf43b16e4fcde0e34942a7e4bb8209d9d8ec4"
+ },
+ "review": {
+  "checkpoint": "R07",
+  "resolution": "research/reviews/R07_study3-protocol/RESOLUTION.md",
+  "sha256": "9c22c19cbd5cc9bca1e503d4973342cd7d3bae90c120a99f980e30889c5abed1"
+ },
+ "keys": {
+  "eval_start": 23000,
+  "K": 1000,
+  "fit_start": 24000,
+  "K_fit": 1000
+ },
+ "note": "written after checkpoint R07's AGREE (three rounds) and Yichen's word 'lock and run now' (2026-10-15); no outcome exists; the production cells directory does not exist at the lock"
+}

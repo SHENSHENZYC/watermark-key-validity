@@ -1,0 +1,5 @@
+QUERY: search_query=abs:watermark AND abs:threshold AND abs:transfer AND abs:language&sortBy=submittedDate&sortOrder=descending&max_results=20
+## Audit the Whisper: Detecting Steganographic Collusion in Multi-Agent LLMs
+2510.04303v2 | 2025-10-05 | Om Tailor
+Multi-agent deployments of large language models (LLMs) are increasingly embedded in market, allocation, and governance workflows, yet covert coordination among agents can silently erode trust and social welfare. Existing audits are dominated by heuristics that lack theoretical guarantees, struggle to transfer across tasks, and seldom ship with the infrastructure needed for independent replication
+

@@ -1,0 +1,5 @@
+QUERY: search_query=abs:watermark AND abs:"null distribution" AND abs:key&sortBy=submittedDate&sortOrder=descending&max_results=20
+## Chainwash: Multi-Step Rewriting Attacks on Diffusion Language Model Watermarks
+2605.05503v1 | 2026-05-06 | Mohd Ruhul Ameen, Akif Islam, Nadim Mahmud, Md. Ekramul Hamid
+Statistical watermarking is a common approach for verifying whether text was written by a language model. Most existing schemes assume autoregressive generation, where tokens are produced left to right and contextual hashing is well defined. Diffusion language models generate text by denoising tokens in arbitrary order, so these schemes cannot be applied directly. A recent watermark by Gloaguen et
+

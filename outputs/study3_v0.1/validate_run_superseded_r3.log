@@ -1,0 +1,14 @@
+[     8s] (a) token caches {'study2_manifest_bound': True, 'plan_reproduced': True, 'arrays': True, 'seal_current': True, 'all_ok': True}
+<repository>/.venv/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+[    45s] (b2) finite shares: within-law True; per-key convergence over 45 frozen-input settings, max |Q - 4Q| 6.906014255403598e-05; fixed over 120, max 4.527696450762342e-06; MC [(0.6522, 0.653), (0.5427, 0.5417), (0.4904, 0.4909), (0.3933, 0.3929), (0.6098, 0.6104), (0.4378, 0.4383)]
+[    45s] (b) fixtures: tolerance maximal True; iid True; discrete True; scheme True; counts True; predictor True/True; finite shares True; cross_cov True/True
+[    45s] (c)(d) key policy True; lock accepted ['complete_canonical'] refused 22 of 22
+DONE
+[    73s] (g) validation run {'dir': 'outputs/study3_v0.1/validation_20261015T191823Z', 'seconds': 7.5, 'n_units': 12, 'pilot_status': 'analyzed', 'pilot_counts': {'T1_rows': 18, 'T1_eligible': 8, 'T2_rows': 18, 'T2_material': 18, 'descriptive_rows': 1872}}
+[    76s] (e) reuse True; (f) analyzer True over 69; REP decision {'equal': True, 'noise': True, 'gross': True, 'zero_se_equal': True}
+[   110s] (h) probe h=0: pass 1 24.8s (|D| 81541), pass 2 8.9s (|D| 104841)
+[   209s] (h) probe h=2: pass 1 57.3s (|D| 1063724), pass 2 40.5s (|D| 2054763)
+[   209s] (h) projection 0.91 h (budget 10 h); peak RSS 2.99 GB
+[   209s] (i) T1 eligible 1494, T2 material 879 {'help': 336, 'harm': 543} of 1600
+[   209s] DONE all_ok = True

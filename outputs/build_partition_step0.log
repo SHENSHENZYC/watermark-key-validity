@@ -1,0 +1,72 @@
+loaded 2617347 units from 13 files (0 quarantined), 2617310 signatures (4s)
+exact-duplicate unions: 230 (6s)
+  band 0: buckets 3336, largest 731, distinct candidate pairs so far 412685 (9s)
+  band 1: buckets 6236, largest 731, distinct candidate pairs so far 489694 (10s)
+  band 2: buckets 9110, largest 731, distinct candidate pairs so far 530645 (11s)
+  band 3: buckets 12025, largest 731, distinct candidate pairs so far 613001 (12s)
+  band 4: buckets 14996, largest 731, distinct candidate pairs so far 752819 (13s)
+  band 5: buckets 18139, largest 731, distinct candidate pairs so far 813024 (14s)
+  band 6: buckets 21067, largest 731, distinct candidate pairs so far 845155 (15s)
+  band 7: buckets 24049, largest 731, distinct candidate pairs so far 1132108 (16s)
+  band 8: buckets 27180, largest 731, distinct candidate pairs so far 1180214 (16s)
+  band 9: buckets 30065, largest 731, distinct candidate pairs so far 1220916 (17s)
+  band 10: buckets 33157, largest 731, distinct candidate pairs so far 1282160 (18s)
+  band 11: buckets 36347, largest 731, distinct candidate pairs so far 1376810 (19s)
+  band 12: buckets 39351, largest 731, distinct candidate pairs so far 1413388 (20s)
+  band 13: buckets 42194, largest 731, distinct candidate pairs so far 1472917 (21s)
+  band 14: buckets 45148, largest 731, distinct candidate pairs so far 1515529 (22s)
+  band 15: buckets 48274, largest 731, distinct candidate pairs so far 1559236 (23s)
+  band 16: buckets 51406, largest 731, distinct candidate pairs so far 1575585 (24s)
+  band 17: buckets 54196, largest 731, distinct candidate pairs so far 1592293 (24s)
+  band 18: buckets 57343, largest 781, distinct candidate pairs so far 1916593 (26s)
+  band 19: buckets 60504, largest 993, distinct candidate pairs so far 2434212 (27s)
+  band 20: buckets 63368, largest 993, distinct candidate pairs so far 2461346 (28s)
+  band 21: buckets 66458, largest 993, distinct candidate pairs so far 2480618 (28s)
+  band 22: buckets 69189, largest 993, distinct candidate pairs so far 2497904 (29s)
+  band 23: buckets 72045, largest 993, distinct candidate pairs so far 2535130 (30s)
+  band 24: buckets 74822, largest 993, distinct candidate pairs so far 2555451 (31s)
+  band 25: buckets 78045, largest 993, distinct candidate pairs so far 2596079 (32s)
+  band 26: buckets 81207, largest 993, distinct candidate pairs so far 2864307 (33s)
+  band 27: buckets 84176, largest 993, distinct candidate pairs so far 2896138 (34s)
+  band 28: buckets 86958, largest 993, distinct candidate pairs so far 2995296 (35s)
+  band 29: buckets 89808, largest 993, distinct candidate pairs so far 3012345 (35s)
+  band 30: buckets 92578, largest 993, distinct candidate pairs so far 3036554 (36s)
+  band 31: buckets 95730, largest 993, distinct candidate pairs so far 3095016 (37s)
+exact confirmation: 3095016 candidate pairs over 75295 units; shingle sets built (93s)
+pairs at or above the exact threshold 0.65: 85442; union operations that joined components: 7097; confusion {'est>=T&exact>=T': 73465, 'est>=T&exact<T': 8293, 'est<T&exact>=T': 11977, 'est<T&exact<T': 3001281} (115s)
+{
+ "n_units": 2617347,
+ "n_files": 13,
+ "n_quarantined_files": 0,
+ "n_with_signature": 2617310,
+ "exact_duplicate_unions": 230,
+ "rejected_files": {},
+ "lsh": {
+  "bands": 32,
+  "rows": 4,
+  "buckets_with_2plus": 95730,
+  "largest_bucket": 993,
+  "bucket_pair_occurrences_across_bands": 5061391,
+  "prefilter": "none: every distinct band-sharing pair is exactly confirmed"
+ },
+ "candidate_pairs_distinct": 3095016,
+ "candidate_units": 75295,
+ "pairs_at_or_above_threshold": 85442,
+ "near_duplicate_unions": 7097,
+ "confusion_est_vs_exact_record_only": {
+  "est>=T&exact>=T": 73465,
+  "est>=T&exact<T": 8293,
+  "est<T&exact>=T": 11977,
+  "est<T&exact<T": 3001281
+ },
+ "threshold_exact_jaccard": 0.65,
+ "n_clusters": 2610020,
+ "cross_source_clusters": 0,
+ "exposure_hits": 73,
+ "forced_open_units": 73,
+ "holdout_share_of_clusters": 0.1999605367008682,
+ "assignment": "holdout iff int(sha256(cluster_id)[:16],16) % 5 == 0 and the cluster holds no exposure record",
+ "seconds": 134,
+ "final_version": null
+}
+DONE partition

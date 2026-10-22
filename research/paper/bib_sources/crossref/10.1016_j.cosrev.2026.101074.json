@@ -1,0 +1,1807 @@
+{
+ "_projection": "A projection of the API response for the public record (R13 F10): nothing (this response carries no third-party text body) removed and kept in the private record under research/paper/bib_sources/raw_responses/, which the public snapshot excludes; every other field is verbatim.",
+ "message": {
+  "DOI": "10.1016/j.cosrev.2026.101074",
+  "ISSN": [
+   "1574-0137"
+  ],
+  "URL": "https://doi.org/10.1016/j.cosrev.2026.101074",
+  "alternative-id": [
+   "S1574013726001826"
+  ],
+  "article-number": "101074",
+  "assertion": [
+   {
+    "label": "This article is maintained by",
+    "name": "publisher",
+    "value": "Elsevier"
+   },
+   {
+    "label": "Article Title",
+    "name": "articletitle",
+    "value": "Are LLM watermarks reliable in practice? A systematic review of evidence, robustness, threat models, and deployment assumptions"
+   },
+   {
+    "label": "Journal Title",
+    "name": "journaltitle",
+    "value": "Computer Science Review"
+   },
+   {
+    "label": "CrossRef DOI link to publisher maintained version",
+    "name": "articlelink",
+    "value": "https://doi.org/10.1016/j.cosrev.2026.101074"
+   },
+   {
+    "label": "Content Type",
+    "name": "content_type",
+    "value": "article"
+   },
+   {
+    "label": "Copyright",
+    "name": "copyright",
+    "value": "\u00a9 2026 The Author(s). Published by Elsevier Inc."
+   }
+  ],
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0003-3475-4217",
+    "affiliation": [],
+    "authenticated-orcid": false,
+    "family": "Islam",
+    "given": "Md Rashedul",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-4429-6590",
+    "affiliation": [],
+    "authenticated-orcid": false,
+    "family": "Uddin",
+    "given": "Md Palash",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-3545-7863",
+    "affiliation": [],
+    "authenticated-orcid": false,
+    "family": "Xiang",
+    "given": "Yong",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   }
+  ],
+  "container-title": [
+   "Computer Science Review"
+  ],
+  "content-domain": {
+   "crossmark-restriction": true,
+   "domain": [
+    "elsevier.com",
+    "sciencedirect.com"
+   ]
+  },
+  "created": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     5
+    ]
+   ],
+   "date-time": "2026-10-05T07:21:44Z",
+   "timestamp": 1791184904000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     9
+    ]
+   ],
+   "date-time": "2026-10-09T19:59:05Z",
+   "timestamp": 1791575945000
+  },
+  "funder": [
+   {
+    "DOI": "10.13039/501100000923",
+    "award": [
+     "LP190100594"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "LP190100594"
+      ]
+     }
+    ],
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "asserted-by": "publisher",
+      "id": "10.13039/501100000923",
+      "id-type": "DOI"
+     }
+    ],
+    "name": "Australian Research Council"
+   }
+  ],
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     9
+    ]
+   ],
+   "date-time": "2026-10-09T20:49:18Z",
+   "timestamp": 1791578958367,
+   "version": "4.3.4"
+  },
+  "is-referenced-by-count": 0,
+  "issn-type": [
+   {
+    "type": "print",
+    "value": "1574-0137"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2027,
+     2
+    ]
+   ]
+  },
+  "language": "en",
+  "license": [
+   {
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "start": {
+     "date-parts": [
+      [
+       2027,
+       2,
+       1
+      ]
+     ],
+     "date-time": "2027-02-01T00:00:00Z",
+     "timestamp": 1801440000000
+    }
+   },
+   {
+    "URL": "https://www.elsevier.com/legal/tdmrep-license",
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "start": {
+     "date-parts": [
+      [
+       2027,
+       2,
+       1
+      ]
+     ],
+     "date-time": "2027-02-01T00:00:00Z",
+     "timestamp": 1801440000000
+    }
+   },
+   {
+    "URL": "http://creativecommons.org/licenses/by/4.0/",
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "start": {
+     "date-parts": [
+      [
+       2026,
+       9,
+       29
+      ]
+     ],
+     "date-time": "2026-09-29T00:00:00Z",
+     "timestamp": 1790640000000
+    }
+   }
+  ],
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S1574013726001826?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S1574013726001826?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "member": "78",
+  "original-title": [],
+  "page": "101074",
+  "prefix": "10.1016",
+  "published": {
+   "date-parts": [
+    [
+     2027,
+     2
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     2027,
+     2
+    ]
+   ]
+  },
+  "publisher": "Elsevier BV",
+  "reference": [
+   {
+    "article-title": "Adversarial watermarking transformer: towards tracing text provenance with data hiding",
+    "author": "Abdelnabi",
+    "first-page": "121",
+    "key": "10.1016/j.cosrev.2026.101074_bib0005",
+    "series-title": "2021 IEEE Symposium on Security and Privacy (SP)",
+    "year": "2021"
+   },
+   {
+    "author": "Ai",
+    "key": "10.1016/j.cosrev.2026.101074_bib0010",
+    "series-title": "Pasa: A Principled Embedding-Space Watermarking Approach for LLM-Generated Text Under Semantic-Invariant Attacks",
+    "year": "2026"
+   },
+   {
+    "article-title": "Cross-attention watermarking of large language models",
+    "author": "Baldassini",
+    "first-page": "4625",
+    "key": "10.1016/j.cosrev.2026.101074_bib0015",
+    "series-title": "ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "year": "2024"
+   },
+   {
+    "article-title": "AI detection and watermarking: an advanced deep learning framework for real-time content authentication and digital fraud prevention",
+    "author": "Bandaru",
+    "first-page": "1524",
+    "key": "10.1016/j.cosrev.2026.101074_bib0020",
+    "series-title": "TENCON 2025-2025 IEEE Region 10 Conference (TENCON)",
+    "year": "2025"
+   },
+   {
+    "article-title": "Yet another watermark for large language models",
+    "author": "Bao",
+    "first-page": "51",
+    "key": "10.1016/j.cosrev.2026.101074_bib0025",
+    "series-title": "2025 13th International Conference on Communications and Broadband Networking (ICCBN)",
+    "year": "2025"
+   },
+   {
+    "DOI": "10.1109/ACCESS.2026.3661394",
+    "article-title": "Asymmetric watermarking for large language models with public and private verification",
+    "author": "Bashir",
+    "doi-asserted-by": "crossref",
+    "journal-title": "IEEE Access",
+    "key": "10.1016/j.cosrev.2026.101074_bib0030",
+    "volume": "14",
+    "year": "2026"
+   },
+   {
+    "DOI": "10.1016/j.neucom.2026.133429",
+    "article-title": "Visual pattern-based watermarking for large language model generated text",
+    "author": "Bashir",
+    "doi-asserted-by": "crossref",
+    "journal-title": "Neurocomputing",
+    "key": "10.1016/j.cosrev.2026.101074_bib0035",
+    "year": "2026"
+   },
+   {
+    "DOI": "10.1109/ACCESS.2026.3687466",
+    "article-title": "User-controlled post-hoc watermarking for LLM-generated text without model access",
+    "author": "Bashir",
+    "doi-asserted-by": "crossref",
+    "journal-title": "IEEE Access",
+    "key": "10.1016/j.cosrev.2026.101074_bib0040",
+    "volume": "14",
+    "year": "2026"
+   },
+   {
+    "article-title": "GaussMark: a practical approach for structural watermarking of language models",
+    "author": "Block",
+    "first-page": "4507",
+    "key": "10.1016/j.cosrev.2026.101074_bib0045",
+    "series-title": "International Conference on Machine Learning",
+    "year": "2025"
+   },
+   {
+    "article-title": "Towards better statistical understanding of watermarking LLMs",
+    "author": "Cai",
+    "first-page": "1",
+    "journal-title": "J. Am. Stat. Assoc.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0050",
+    "year": "2026"
+   },
+   {
+    "DOI": "10.1109/LNET.2025.3616325",
+    "article-title": "Robustness analysis of watermarking techniques for LLM-generated code",
+    "author": "Cao",
+    "doi-asserted-by": "crossref",
+    "journal-title": "IEEE Netw. Lett.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0055",
+    "volume": "7",
+    "year": "2025"
+   },
+   {
+    "article-title": "METS: metadata-embedded steganography for digital rights tracking in LLM-generated text",
+    "author": "Chang",
+    "journal-title": "IEEE Open J. Comput. Soc.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0060",
+    "volume": "7",
+    "year": "2025"
+   },
+   {
+    "article-title": "Watermark smoothing attacks against language models",
+    "author": "Chang",
+    "first-page": "4915",
+    "key": "10.1016/j.cosrev.2026.101074_bib0065",
+    "series-title": "EMNLP 2025 - 2025 Conference on Empirical Methods in Natural Language Processing, Findings of EMNLP 2025",
+    "year": "2025"
+   },
+   {
+    "article-title": "Postmark: a robust blackbox watermark for large language models",
+    "author": "Chang",
+    "first-page": "8969",
+    "key": "10.1016/j.cosrev.2026.101074_bib0070",
+    "series-title": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "year": "2024"
+   },
+   {
+    "DOI": "10.1007/s11760-026-05363-w",
+    "article-title": "Exploiting language model and semantic analysis for actively tracing textual information provenance",
+    "author": "Chen",
+    "doi-asserted-by": "crossref",
+    "first-page": "300",
+    "journal-title": "Signal Image Video Process.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0075",
+    "volume": "20",
+    "year": "2026"
+   },
+   {
+    "article-title": "FreMark: frequency-domain watermark embedding in quantized LLMs",
+    "author": "Chen",
+    "first-page": "207",
+    "key": "10.1016/j.cosrev.2026.101074_bib0080",
+    "series-title": "International Conference on Data Security and Privacy Protection",
+    "year": "2025"
+   },
+   {
+    "article-title": "De-mark: watermark removal in large language models",
+    "author": "Chen",
+    "first-page": "9316",
+    "key": "10.1016/j.cosrev.2026.101074_bib0085",
+    "series-title": "International Conference on Machine Learning",
+    "year": "2025"
+   },
+   {
+    "article-title": "Improved unbiased watermark for large language models",
+    "author": "Chen",
+    "first-page": "20587",
+    "key": "10.1016/j.cosrev.2026.101074_bib0090",
+    "series-title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "year": "2025"
+   },
+   {
+    "article-title": "Robust ownership verification in large language models via equivalent neuron pair encoding",
+    "author": "Chen",
+    "first-page": "197",
+    "key": "10.1016/j.cosrev.2026.101074_bib0095",
+    "series-title": "International Conference on Data Security and Privacy Protection",
+    "year": "2025"
+   },
+   {
+    "article-title": "Revealing weaknesses in text watermarking through self-information rewrite attacks",
+    "author": "Cheng",
+    "first-page": "9982",
+    "key": "10.1016/j.cosrev.2026.101074_bib0100",
+    "series-title": "International Conference on Machine Learning",
+    "year": "2025"
+   },
+   {
+    "article-title": "Watermarking language models for many adaptive users",
+    "author": "Cohen",
+    "first-page": "2583",
+    "key": "10.1016/j.cosrev.2026.101074_bib0105",
+    "series-title": "2025 IEEE Symposium on Security and Privacy (SP)",
+    "year": "2025"
+   },
+   {
+    "article-title": "Have you merged my model? On the robustness of large language model IP protection methods against model merging",
+    "author": "Cong",
+    "first-page": "69",
+    "key": "10.1016/j.cosrev.2026.101074_bib0110",
+    "series-title": "Proceedings of the 1st ACM Workshop on Large AI Systems and Models with Privacy and Safety Analysis",
+    "year": "2023"
+   },
+   {
+    "article-title": "SilverSpeak: evading AI-generated text detectors using homoglyphs",
+    "author": "Creo",
+    "first-page": "1",
+    "key": "10.1016/j.cosrev.2026.101074_bib0115",
+    "series-title": "Proceedings of the 1stWorkshop on GENAI Content Detection (GenAIDetect)",
+    "year": "2025"
+   },
+   {
+    "article-title": "Robust data watermarking in language models by injecting fictitious knowledge",
+    "author": "Cui",
+    "first-page": "14292",
+    "key": "10.1016/j.cosrev.2026.101074_bib0120",
+    "series-title": "Findings of the Association for Computational Linguistics: ACL 2025",
+    "year": "2025"
+   },
+   {
+    "article-title": "Watermarking language models through language models",
+    "author": "Dasgupta",
+    "journal-title": "IEEE Trans. Artif. Intell.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0125",
+    "volume": "7",
+    "year": "2025"
+   },
+   {
+    "DOI": "10.1038/s41586-024-08025-4",
+    "article-title": "Scalable watermarking for identifying large language model outputs",
+    "author": "Dathathri",
+    "doi-asserted-by": "crossref",
+    "first-page": "818",
+    "journal-title": "Nature",
+    "key": "10.1016/j.cosrev.2026.101074_bib0130",
+    "volume": "634",
+    "year": "2024"
+   },
+   {
+    "article-title": "Beyond detection: a checksum-based dual verification mechanism for host LLM watermarking",
+    "author": "Deng",
+    "first-page": "348",
+    "key": "10.1016/j.cosrev.2026.101074_bib0135",
+    "series-title": "International Conference on Neural Information Processing",
+    "year": "2025"
+   },
+   {
+    "DOI": "10.1109/TCSVT.2025.3570858",
+    "article-title": "LOCAT: localization-driven text watermarking via large language models",
+    "author": "Ding",
+    "doi-asserted-by": "crossref",
+    "journal-title": "IEEE Trans. Circuits Syst. Video Technol.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0140",
+    "volume": "35",
+    "year": "2025"
+   },
+   {
+    "article-title": "Sandcastles in the storm: revisiting the (Im) possibility of strong watermarking",
+    "author": "Erol",
+    "first-page": "29698",
+    "key": "10.1016/j.cosrev.2026.101074_bib0145",
+    "series-title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "year": "2025"
+   },
+   {
+    "author": "Fahad",
+    "key": "10.1016/j.cosrev.2026.101074_bib0150"
+   },
+   {
+    "author": "Feng",
+    "key": "10.1016/j.cosrev.2026.101074_bib0155",
+    "series-title": "A Certified Robust Watermark for Large Language Models",
+    "year": "2024"
+   },
+   {
+    "article-title": "SemBits: multi-bit semantic watermarking with sentence-level hashing for LLMs",
+    "author": "Feng",
+    "first-page": "183",
+    "key": "10.1016/j.cosrev.2026.101074_bib0160",
+    "series-title": "International Conference on Data Security and Privacy Protection",
+    "year": "2025"
+   },
+   {
+    "article-title": "BiMark: unbiased multilayer watermarking for large language models",
+    "author": "Feng",
+    "first-page": "17049",
+    "key": "10.1016/j.cosrev.2026.101074_bib0165",
+    "series-title": "International Conference on Machine Learning",
+    "year": "2025"
+   },
+   {
+    "article-title": "Three bricks to consolidate watermarks for large language models",
+    "author": "Fernandez",
+    "first-page": "1",
+    "key": "10.1016/j.cosrev.2026.101074_bib0170",
+    "series-title": "2023 IEEE International Workshop on Information Forensics and Security (WIFS)",
+    "year": "2023"
+   },
+   {
+    "author": "Fernandez",
+    "key": "10.1016/j.cosrev.2026.101074_bib0175",
+    "series-title": "How Good is Post-Hoc Watermarking with Language Model Rephrasing?",
+    "year": "2025"
+   },
+   {
+    "article-title": "PromptHash: robust instruction watermarks against paraphrase and splicing in LLM forensics",
+    "author": "Ge",
+    "first-page": "14282",
+    "key": "10.1016/j.cosrev.2026.101074_bib0180",
+    "series-title": "ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "year": "2026"
+   },
+   {
+    "DOI": "10.3390/app151910457",
+    "article-title": "Watermarking fine-tuning datasets for robust provenance",
+    "author": "Gergov",
+    "doi-asserted-by": "crossref",
+    "journal-title": "Appl. Sci.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0185",
+    "volume": "15",
+    "year": "2025"
+   },
+   {
+    "article-title": "WaterMax: breaking the LLM watermark detectability-robustness-quality trade-off",
+    "author": "Giboulot",
+    "first-page": "18848",
+    "key": "10.1016/j.cosrev.2026.101074_bib0190",
+    "series-title": "Advances in Neural Information Processing Systems",
+    "year": "2024"
+   },
+   {
+    "article-title": "Discovering spoofing attempts on language model watermarks",
+    "author": "Gloaguen",
+    "first-page": "19562",
+    "key": "10.1016/j.cosrev.2026.101074_bib0195",
+    "series-title": "Proceedings of Machine Learning Research",
+    "year": "2025"
+   },
+   {
+    "article-title": "Reinforcement learning-based copyright protection watermarking for large language model",
+    "author": "Guo",
+    "first-page": "114",
+    "key": "10.1016/j.cosrev.2026.101074_bib0200",
+    "series-title": "Proceedings of the 2025 ACM Workshop on Information Hiding and Multimedia Security",
+    "year": "2025"
+   },
+   {
+    "article-title": "Signature vs. substance: evaluating the balance of adversarial resistance and linguistic quality in watermarking large language models",
+    "author": "Guo",
+    "first-page": "2918",
+    "key": "10.1016/j.cosrev.2026.101074_bib0205",
+    "series-title": "2025 IEEE International Conference on Data Mining Workshops (ICDMW)",
+    "year": "2025"
+   },
+   {
+    "article-title": "Context-aware watermark with semantic balanced green-red lists for large language models",
+    "author": "Guo",
+    "first-page": "22633",
+    "key": "10.1016/j.cosrev.2026.101074_bib0210",
+    "series-title": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "year": "2024"
+   },
+   {
+    "article-title": "Filtering resistant large language model watermarking via style injection",
+    "author": "Guo",
+    "first-page": "1",
+    "key": "10.1016/j.cosrev.2026.101074_bib0215",
+    "series-title": "ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "year": "2025"
+   },
+   {
+    "article-title": "Robustness assessment and enhancement of text watermarking for Google\u2019s SynthID",
+    "author": "Han",
+    "first-page": "942",
+    "key": "10.1016/j.cosrev.2026.101074_bib0220",
+    "series-title": "2025 IEEE 24th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+    "year": "2025"
+   },
+   {
+    "author": "Hao",
+    "key": "10.1016/j.cosrev.2026.101074_bib0225",
+    "series-title": "Robust and Semantic-Faithful Post-Hoc Watermarking of Text Generated by Black-Box Language Models",
+    "year": "2025"
+   },
+   {
+    "article-title": "Post-hoc watermarking for robust detection in text generated by large language models",
+    "author": "Hao",
+    "first-page": "5430",
+    "key": "10.1016/j.cosrev.2026.101074_bib0230",
+    "series-title": "Proceedings of the 31st International Conference on Computational Linguistics",
+    "year": "2025"
+   },
+   {
+    "DOI": "10.1109/TETCI.2026.3692489",
+    "article-title": "Communication-efficient federated learning via fractional-order gradient descent with adaptive momentum under Non-IID data",
+    "author": "Hasan",
+    "doi-asserted-by": "crossref",
+    "journal-title": "IEEE Trans. Emerg. Top. Comput. Intell.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0235",
+    "year": "2026"
+   },
+   {
+    "article-title": "Distributional information embedding: a framework for multi-bit watermarking",
+    "author": "He",
+    "first-page": "1",
+    "key": "10.1016/j.cosrev.2026.101074_bib0240",
+    "series-title": "2025 Asia Pacific Workshop on Data Science and Information Theory (APWDSIT)",
+    "year": "2025"
+   },
+   {
+    "article-title": "A code generation watermarking method based on double threshold",
+    "author": "He",
+    "first-page": "259",
+    "key": "10.1016/j.cosrev.2026.101074_bib0245",
+    "series-title": "International Conference on Intelligent Computing",
+    "year": "2025"
+   },
+   {
+    "article-title": "Can watermarks survive translation? On the cross-lingual consistency of text watermark for large language models",
+    "author": "He",
+    "first-page": "4115",
+    "key": "10.1016/j.cosrev.2026.101074_bib0250",
+    "series-title": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "year": "2024"
+   },
+   {
+    "DOI": "10.1109/ACCESS.2025.3583591",
+    "article-title": "Innamark: a whitespace replacement information-hiding method",
+    "author": "Hellmeier",
+    "doi-asserted-by": "crossref",
+    "journal-title": "IEEE Access",
+    "key": "10.1016/j.cosrev.2026.101074_bib0255",
+    "volume": "13",
+    "year": "2025"
+   },
+   {
+    "article-title": "Semstamp: a semantic watermark with paraphrastic robustness for text generation",
+    "author": "Hou",
+    "first-page": "4067",
+    "key": "10.1016/j.cosrev.2026.101074_bib0260",
+    "series-title": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "year": "2024"
+   },
+   {
+    "article-title": "k-SemStamp: a clustering-based semantic watermark for detection of machine-generated text",
+    "author": "Hou",
+    "first-page": "1706",
+    "key": "10.1016/j.cosrev.2026.101074_bib0265",
+    "series-title": "Findings of the Association for Computational Linguistics: ACL 2024",
+    "year": "2024"
+   },
+   {
+    "article-title": "HATS: high-accuracy triple-set watermarking for large language models",
+    "author": "Hu",
+    "first-page": "2433",
+    "key": "10.1016/j.cosrev.2026.101074_bib0270",
+    "series-title": "2025 11th International Conference on Computer and Communications (ICCC)",
+    "year": "2025"
+   },
+   {
+    "article-title": "b4: a black-box scrubbing attack on LLM watermarks",
+    "author": "Huang",
+    "first-page": "9113",
+    "key": "10.1016/j.cosrev.2026.101074_bib0275",
+    "series-title": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "year": "2025"
+   },
+   {
+    "article-title": "WaterPool: a language model watermark mitigating trade-offs among imperceptibility, efficacy and robustness",
+    "author": "Huang",
+    "first-page": "4156",
+    "key": "10.1016/j.cosrev.2026.101074_bib0280",
+    "series-title": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "year": "2025"
+   },
+   {
+    "DOI": "10.1109/TCC.2025.3623572",
+    "article-title": "Federated learning with adaptive regularization for efficient edge data corruption detection in edge intelligence",
+    "author": "Islam",
+    "doi-asserted-by": "crossref",
+    "first-page": "1302",
+    "journal-title": "IEEE Trans. Cloud Comput.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0285",
+    "volume": "13",
+    "year": "2025"
+   },
+   {
+    "article-title": "Coreference pattern-aware intelligent text watermarking scheme for forensic identification via improved deep learning approach",
+    "author": "Janardhan",
+    "first-page": "1",
+    "key": "10.1016/j.cosrev.2026.101074_bib0290",
+    "series-title": "2025 IEEE International Carnahan Conference on Security Technology (ICCST)",
+    "year": "2025"
+   },
+   {
+    "article-title": "Graph neural network-enhanced semantic invariant robust watermarking for large language models",
+    "author": "Jia",
+    "first-page": "391",
+    "key": "10.1016/j.cosrev.2026.101074_bib0295",
+    "series-title": "2025 IEEE 10th International Conference on Data Science in Cyberspace (DSC)",
+    "year": "2025"
+   },
+   {
+    "article-title": "Credid: credible multi-bit watermark for large language models identification",
+    "author": "Jiang",
+    "first-page": "13962",
+    "key": "10.1016/j.cosrev.2026.101074_bib0300",
+    "series-title": "ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "year": "2026"
+   },
+   {
+    "article-title": "StealthInk: a multi-bit and stealthy watermark for large language models",
+    "author": "Jiang",
+    "first-page": "27685",
+    "key": "10.1016/j.cosrev.2026.101074_bib0305",
+    "series-title": "International Conference on Machine Learning",
+    "year": "2025"
+   },
+   {
+    "article-title": "PGmark: enhancing text quality in language model watermarking via probability guidance",
+    "author": "Jiang",
+    "journal-title": "Expert Syst. Appl.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0310",
+    "year": "2026"
+   },
+   {
+    "article-title": "Reliable multi-bit watermark for large language models via robust encoding and green-zone refinement",
+    "author": "Jin",
+    "first-page": "148",
+    "key": "10.1016/j.cosrev.2026.101074_bib0315",
+    "series-title": "International Conference on Intelligent Computing",
+    "year": "2025"
+   },
+   {
+    "article-title": "Ward: provable RAG dataset inference via LLM watermarks",
+    "author": "Jovanovi\u0107",
+    "first-page": "93288",
+    "key": "10.1016/j.cosrev.2026.101074_bib0320",
+    "series-title": "International Conference on Learning Representations",
+    "year": "2025"
+   },
+   {
+    "article-title": "Watermark stealing in large language models",
+    "author": "Jovanovi\u0107",
+    "first-page": "22570",
+    "key": "10.1016/j.cosrev.2026.101074_bib0325",
+    "series-title": "International Conference on Machine Learning",
+    "year": "2024"
+   },
+   {
+    "author": "Kehkashan",
+    "key": "10.1016/j.cosrev.2026.101074_bib0330"
+   },
+   {
+    "article-title": "I know you did not write that! A sampling based watermarking method for identifying machine generated text",
+    "author": "Kele\u015f",
+    "first-page": "140",
+    "key": "10.1016/j.cosrev.2026.101074_bib0335",
+    "series-title": "Proceedings of the 1stWorkshop on GENAI Content Detection (GenAIDetect)",
+    "year": "2025"
+   },
+   {
+    "author": "Kirchenbauer",
+    "key": "10.1016/j.cosrev.2026.101074_bib0340",
+    "series-title": "A Watermark for Large Language Models",
+    "year": "2023"
+   },
+   {
+    "article-title": "On the reliability of watermarks for large language models",
+    "author": "Kirchenbauer",
+    "first-page": "49660",
+    "key": "10.1016/j.cosrev.2026.101074_bib0345",
+    "series-title": "International Conference on Learning Representations",
+    "year": "2024"
+   },
+   {
+    "article-title": "Copyright protection for large language model eaas via unforgeable backdoor watermarking",
+    "author": "Kong",
+    "first-page": "1",
+    "key": "10.1016/j.cosrev.2026.101074_bib0350",
+    "series-title": "International Conference on Pattern Recognition",
+    "year": "2024"
+   },
+   {
+    "article-title": "Paraphrasing evades detectors of AI-generated text, but retrieval is an effective defense",
+    "author": "Krishna",
+    "first-page": "27469",
+    "key": "10.1016/j.cosrev.2026.101074_bib0355",
+    "series-title": "Advances in Neural Information Processing Systems",
+    "year": "2023"
+   },
+   {
+    "author": "Kuditipudi",
+    "key": "10.1016/j.cosrev.2026.101074_bib0360",
+    "series-title": "Robust Distortion-Free Watermarks for Language Models",
+    "year": "2024"
+   },
+   {
+    "article-title": "Assessing Maryland watermark robustness against paraphrasing attacks",
+    "author": "Kumar",
+    "first-page": "397",
+    "key": "10.1016/j.cosrev.2026.101074_bib0365",
+    "series-title": "International Conference on Innovations in Data Analytics",
+    "year": "2024"
+   },
+   {
+    "author": "Lalai",
+    "key": "10.1016/j.cosrev.2026.101074_bib0370",
+    "series-title": "From Intentions to Techniques: A Comprehensive Taxonomy and Challenges in Text Watermarking for Large Language Models",
+    "year": "2025"
+   },
+   {
+    "article-title": "Waterfall: scalable framework for robust text watermarking and provenance for LLMs",
+    "author": "Lau",
+    "first-page": "20432",
+    "key": "10.1016/j.cosrev.2026.101074_bib0375",
+    "series-title": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "year": "2024"
+   },
+   {
+    "article-title": "Understanding the effects of human-written paraphrases in LLM-generated text detection",
+    "author": "Lau",
+    "journal-title": "Nat. Lang. Process. J.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0380",
+    "volume": "11",
+    "year": "2025"
+   },
+   {
+    "article-title": "WaterLLMarks: in-data user tracing for distributed LLMaaS environments",
+    "author": "Lavaur",
+    "first-page": "351",
+    "key": "10.1016/j.cosrev.2026.101074_bib0385",
+    "series-title": "2025 IEEE 45th International Conference on Distributed Computing Systems Workshops (ICDCSW)",
+    "year": "2025"
+   },
+   {
+    "article-title": "ARGH-mark: anchor-synchronized watermarking with hamming correction for robust and quality-preserving LLM attribution",
+    "author": "Li",
+    "first-page": "37583",
+    "key": "10.1016/j.cosrev.2026.101074_bib0390",
+    "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "year": "2026"
+   },
+   {
+    "article-title": "ColorFP: improving AI-generated text detection via fixed vocabulary partitioning and half-bit fingerprinting",
+    "author": "Li",
+    "first-page": "87",
+    "key": "10.1016/j.cosrev.2026.101074_bib0395",
+    "series-title": "Pacific Rim International Conference on Artificial Intelligence",
+    "year": "2025"
+   },
+   {
+    "article-title": "Watermarking with low-entropy POS-guided token partitioning and Z-Score-Driven dynamic bias for large language models",
+    "author": "Li",
+    "first-page": "4840",
+    "key": "10.1016/j.cosrev.2026.101074_bib0400",
+    "series-title": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    "year": "2025"
+   },
+   {
+    "article-title": "Where am i from? Identifying origin of LLM-generated content",
+    "author": "Li",
+    "first-page": "12218",
+    "key": "10.1016/j.cosrev.2026.101074_bib0405",
+    "series-title": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "year": "2024"
+   },
+   {
+    "article-title": "Watermarking LLMs with weight quantization",
+    "author": "Li",
+    "first-page": "3368",
+    "key": "10.1016/j.cosrev.2026.101074_bib0410",
+    "series-title": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    "year": "2023"
+   },
+   {
+    "DOI": "10.1117/1.JEI.31.6.063034",
+    "article-title": "Generating traceable adversarial text examples by watermarking in the semantic space",
+    "author": "Li",
+    "doi-asserted-by": "crossref",
+    "journal-title": "J. Electron. Imaging",
+    "key": "10.1016/j.cosrev.2026.101074_bib0415",
+    "volume": "31",
+    "year": "2022"
+   },
+   {
+    "article-title": "An efficient and flexible black-box watermarking framework for large language models",
+    "author": "Li",
+    "first-page": "235",
+    "key": "10.1016/j.cosrev.2026.101074_bib0420",
+    "series-title": "2024 4th International Conference on Communication Technology and Information Technology (ICCTIT)",
+    "year": "2024"
+   },
+   {
+    "article-title": "Segmenting watermarked texts from language models",
+    "author": "Li",
+    "first-page": "14634",
+    "key": "10.1016/j.cosrev.2026.101074_bib0425",
+    "series-title": "Advances in Neural Information Processing Systems",
+    "year": "2024"
+   },
+   {
+    "article-title": "A likelihood based approach for watermark detection",
+    "author": "Li",
+    "first-page": "1675",
+    "key": "10.1016/j.cosrev.2026.101074_bib0430",
+    "series-title": "Proceedings of the 28th International Conference on Artificial Intelligence and Statistics",
+    "year": "2025"
+   },
+   {
+    "DOI": "10.1002/sta4.70118",
+    "article-title": "Adaptive testing for segmenting watermarked texts from language models",
+    "author": "Li",
+    "doi-asserted-by": "crossref",
+    "journal-title": "Stat",
+    "key": "10.1016/j.cosrev.2026.101074_bib0435",
+    "volume": "14",
+    "year": "2025"
+   },
+   {
+    "DOI": "10.1093/jrsssb/qkaf056",
+    "article-title": "Robust detection of watermarks for large language models under human edits",
+    "author": "Li",
+    "doi-asserted-by": "crossref",
+    "first-page": "491",
+    "journal-title": "J. R. Stat. Soc. B Stat. Methodol.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0440",
+    "volume": "88",
+    "year": "2026"
+   },
+   {
+    "article-title": "Protecting intellectual property of large language model-based code generation apis via watermarks",
+    "author": "Li",
+    "first-page": "2336",
+    "key": "10.1016/j.cosrev.2026.101074_bib0445",
+    "series-title": "Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security",
+    "year": "2023"
+   },
+   {
+    "article-title": "Watermark under fire: a robustness evaluation of LLM watermarking",
+    "author": "Liang",
+    "first-page": "21050",
+    "key": "10.1016/j.cosrev.2026.101074_bib0450",
+    "series-title": "EMNLP 2025 - 2025 Conference on Empirical Methods in Natural Language Processing, Findings of EMNLP 2025",
+    "year": "2025"
+   },
+   {
+    "author": "Liang",
+    "key": "10.1016/j.cosrev.2026.101074_bib0455",
+    "series-title": "Watermarking Techniques for Large Language Models: A Survey",
+    "year": "2026"
+   },
+   {
+    "article-title": "\u201cYes, my LoRD.\u201d guiding language model extraction with locality reinforced distillation",
+    "author": "Liang",
+    "first-page": "1441",
+    "key": "10.1016/j.cosrev.2026.101074_bib0460",
+    "series-title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "year": "2025"
+   },
+   {
+    "article-title": "Can watermarked LLMs be identified by users via crafted prompts?",
+    "author": "Liu",
+    "first-page": "36024",
+    "key": "10.1016/j.cosrev.2026.101074_bib0465",
+    "series-title": "International Conference on Learning Representations",
+    "year": "2025"
+   },
+   {
+    "author": "Liu",
+    "key": "10.1016/j.cosrev.2026.101074_bib0470",
+    "series-title": "An Unforgeable Publicly Verifiable Watermark for Large Language Models",
+    "year": "2024"
+   },
+   {
+    "article-title": "A semantic invariant robust watermark for large language models",
+    "author": "Liu",
+    "first-page": "6499",
+    "key": "10.1016/j.cosrev.2026.101074_bib0475",
+    "series-title": "International Conference on Learning Representations",
+    "year": "2024"
+   },
+   {
+    "article-title": "A survey of text watermarking in the era of large language models",
+    "author": "Liu",
+    "first-page": "1",
+    "journal-title": "ACM Comput. Surv.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0480",
+    "volume": "57",
+    "year": "2024"
+   },
+   {
+    "article-title": "Adaptive text watermark for large language models",
+    "author": "Liu",
+    "first-page": "30718",
+    "key": "10.1016/j.cosrev.2026.101074_bib0485",
+    "series-title": "International Conference on Machine Learning",
+    "year": "2024"
+   },
+   {
+    "author": "Liu",
+    "key": "10.1016/j.cosrev.2026.101074_bib0490"
+   },
+   {
+    "article-title": "Optimized couplings for watermarking large language models",
+    "author": "Long",
+    "first-page": "1",
+    "key": "10.1016/j.cosrev.2026.101074_bib0495",
+    "series-title": "2025 IEEE International Symposium on Information Theory (ISIT)",
+    "year": "2025"
+   },
+   {
+    "article-title": "PreferCare: preference dataset copyright protection in LLM alignment by watermark injection and verification",
+    "author": "Lou",
+    "first-page": "4005",
+    "key": "10.1016/j.cosrev.2026.101074_bib0500",
+    "series-title": "Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security",
+    "year": "2025"
+   },
+   {
+    "article-title": "WASA: WAtermark-based source attribution for large language model-generated data",
+    "author": "Lu",
+    "first-page": "23791",
+    "key": "10.1016/j.cosrev.2026.101074_bib0505",
+    "series-title": "Findings of the Association for Computational Linguistics: ACL 2025",
+    "year": "2025"
+   },
+   {
+    "article-title": "Lost in overlap: exploring logit-based watermark collision in LLMs",
+    "author": "Luo",
+    "first-page": "620",
+    "key": "10.1016/j.cosrev.2026.101074_bib0510",
+    "series-title": "Findings of the Association for Computational Linguistics: NAACL 2025",
+    "year": "2025"
+   },
+   {
+    "article-title": "RAG-WM: an efficient black-box watermarking approach for retrieval-augmented generation of large language models",
+    "author": "Lv",
+    "first-page": "1709",
+    "key": "10.1016/j.cosrev.2026.101074_bib0515",
+    "series-title": "Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security",
+    "year": "2025"
+   },
+   {
+    "article-title": "Watermarking large language models: an unbiased and low-risk method",
+    "author": "Mao",
+    "first-page": "7939",
+    "key": "10.1016/j.cosrev.2026.101074_bib0520",
+    "series-title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "year": "2025"
+   },
+   {
+    "article-title": "Task-agnostic language model watermarking via high entropy passthrough layers",
+    "author": "Masrani",
+    "first-page": "24849",
+    "key": "10.1016/j.cosrev.2026.101074_bib0525",
+    "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "year": "2025"
+   },
+   {
+    "article-title": "Edit distance robust watermarks for language models",
+    "author": "Moitra",
+    "first-page": "20645",
+    "key": "10.1016/j.cosrev.2026.101074_bib0530",
+    "series-title": "Proceedings of the 38th International Conference on Neural Information Processing Systems",
+    "year": "2024"
+   },
+   {
+    "article-title": "Waterjudge: quality-detection trade-off when watermarking large language models",
+    "author": "Molenda",
+    "first-page": "3515",
+    "key": "10.1016/j.cosrev.2026.101074_bib0535",
+    "series-title": "Findings of the Association for Computational Linguistics: NAACL 2024",
+    "year": "2024"
+   },
+   {
+    "DOI": "10.1109/ACCESS.2024.3376693",
+    "article-title": "DeepTextMark: a deep learning-driven text watermarking approach for identifying large language model generated text",
+    "author": "Munyer",
+    "doi-asserted-by": "crossref",
+    "first-page": "40508",
+    "journal-title": "IEEE Access",
+    "key": "10.1016/j.cosrev.2026.101074_bib0540",
+    "volume": "12",
+    "year": "2024"
+   },
+   {
+    "author": "Ng",
+    "key": "10.1016/j.cosrev.2026.101074_bib0545",
+    "series-title": "Vaporizer: Breaking Watermarking Schemes for Large Language Model Outputs",
+    "year": "2026"
+   },
+   {
+    "article-title": "Ensemble watermarks for large language models",
+    "author": "Niess",
+    "first-page": "2903",
+    "key": "10.1016/j.cosrev.2026.101074_bib0550",
+    "series-title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "year": "2025"
+   },
+   {
+    "article-title": "Markllm: an open-source toolkit for LLM watermarking",
+    "author": "Pan",
+    "first-page": "61",
+    "key": "10.1016/j.cosrev.2026.101074_bib0555",
+    "series-title": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    "year": "2024"
+   },
+   {
+    "article-title": "Can LLM watermarks robustly prevent unauthorized knowledge distillation?",
+    "author": "Pan",
+    "first-page": "13228",
+    "key": "10.1016/j.cosrev.2026.101074_bib0560",
+    "series-title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "year": "2025"
+   },
+   {
+    "article-title": "Can watermarking large language models prevent copyrighted text generation and hide training data?",
+    "author": "Panaitescu-Liess",
+    "first-page": "25002",
+    "key": "10.1016/j.cosrev.2026.101074_bib0565",
+    "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "year": "2025"
+   },
+   {
+    "DOI": "10.1109/TIFS.2025.3530691",
+    "article-title": "ModelShield: adaptive and robust watermark against model extraction attack",
+    "author": "Pang",
+    "doi-asserted-by": "crossref",
+    "first-page": "1767",
+    "journal-title": "IEEE Trans. Inf. Forensics Secur.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0570",
+    "volume": "20",
+    "year": "2025"
+   },
+   {
+    "article-title": "No free lunch in LLM watermarking: trade-offs in watermarking design choices",
+    "author": "Pang",
+    "first-page": "138756",
+    "key": "10.1016/j.cosrev.2026.101074_bib0575",
+    "series-title": "Advances in Neural Information Processing Systems",
+    "year": "2024"
+   },
+   {
+    "article-title": "Watermod: modular token-rank partitioning for probability-balanced LLM watermarking",
+    "author": "Park",
+    "first-page": "32683",
+    "key": "10.1016/j.cosrev.2026.101074_bib0580",
+    "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "year": "2026"
+   },
+   {
+    "article-title": "Comparative analysis of the KGW watermarking method across open-source LLMs",
+    "author": "Patil",
+    "first-page": "771",
+    "key": "10.1016/j.cosrev.2026.101074_bib0585",
+    "series-title": "2026 International Conference on Communication, Computing and Emerging Technologies (IC3ET)",
+    "year": "2026"
+   },
+   {
+    "article-title": "Are you copying my model? Protecting the copyright of large language models for eaas via backdoor watermark",
+    "author": "Peng",
+    "first-page": "7653",
+    "key": "10.1016/j.cosrev.2026.101074_bib0590",
+    "series-title": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "year": "2023"
+   },
+   {
+    "article-title": "Markmywords: analyzing and evaluating language model watermarks",
+    "author": "Piet",
+    "first-page": "68",
+    "key": "10.1016/j.cosrev.2026.101074_bib0595",
+    "series-title": "2025 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
+    "year": "2025"
+   },
+   {
+    "article-title": "Factuality beyond coherence: evaluating LLM watermarking methods for medical texts",
+    "author": "Prih Hastuti",
+    "first-page": "15129",
+    "key": "10.1016/j.cosrev.2026.101074_bib0600",
+    "series-title": "2025 Conference on Empirical Methods in Natural Language Processing, Findings of EMNLP 2025",
+    "year": "2025"
+   },
+   {
+    "DOI": "10.1016/j.artint.2023.103859",
+    "article-title": "Natural language watermarking via paraphraser-based lexical substitution",
+    "author": "Qiang",
+    "doi-asserted-by": "crossref",
+    "journal-title": "Artif. Intell.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0605",
+    "volume": "317",
+    "year": "2023"
+   },
+   {
+    "DOI": "10.1016/j.ipm.2026.104707",
+    "article-title": "Dualmark: a novel dual watermarking approach for large language models",
+    "author": "Qiang",
+    "doi-asserted-by": "crossref",
+    "journal-title": "Inf. Process. Manag.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0610",
+    "volume": "63",
+    "year": "2026"
+   },
+   {
+    "article-title": "Watermarking datasets for LLM fine-tuning",
+    "author": "Qiu",
+    "first-page": "1",
+    "key": "10.1016/j.cosrev.2026.101074_bib0615",
+    "series-title": "ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "year": "2025"
+   },
+   {
+    "article-title": "STAMP your content: proving dataset membership via watermarked rephrasings",
+    "author": "Rastogi",
+    "first-page": "51247",
+    "key": "10.1016/j.cosrev.2026.101074_bib0620",
+    "series-title": "International Conference on Machine Learning",
+    "year": "2025"
+   },
+   {
+    "article-title": "A robust semantics-based watermark for large language model against paraphrasing",
+    "author": "Ren",
+    "first-page": "613",
+    "key": "10.1016/j.cosrev.2026.101074_bib0625",
+    "series-title": "Findings of the Association for Computational Linguistics: NAACL 2024",
+    "year": "2024"
+   },
+   {
+    "author": "Ren",
+    "key": "10.1016/j.cosrev.2026.101074_bib0630",
+    "series-title": "SoK: On the Role and Future of AIGC Watermarking in the Era of Gen-AI",
+    "year": "2024"
+   },
+   {
+    "article-title": "Subtle signatures, strong shields: advancing robust and imperceptible watermarking in large language models",
+    "author": "Ren",
+    "first-page": "5508",
+    "key": "10.1016/j.cosrev.2026.101074_bib0635",
+    "series-title": "Findings of the Association for Computational Linguistics: ACL 2024",
+    "year": "2024"
+   },
+   {
+    "article-title": "Can AI-generated text be reliably detected? Stress testing AI text detectors under various attacks",
+    "author": "Sadasivan",
+    "first-page": "1",
+    "journal-title": "Trans. Mach. Learn. Res.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0640",
+    "volume": "01",
+    "year": "2025"
+   },
+   {
+    "article-title": "Watermarking makes language models radioactive",
+    "author": "Sander",
+    "first-page": "21079",
+    "key": "10.1016/j.cosrev.2026.101074_bib0645",
+    "series-title": "Advances in Neural Information Processing Systems",
+    "year": "2024"
+   },
+   {
+    "DOI": "10.1016/j.cosrev.2026.100965",
+    "article-title": "A systematic literature review on federated Cyber-Attack detection for edge intelligence: challenges, approaches, and future directions",
+    "author": "Sharmin",
+    "doi-asserted-by": "crossref",
+    "journal-title": "Comput. Sci. Rev.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0650",
+    "volume": "61",
+    "year": "2026"
+   },
+   {
+    "article-title": "Wet: overcoming paraphrasing vulnerabilities in embeddings-as-a-service with linear transformation watermarks",
+    "author": "Shetty",
+    "first-page": "23024",
+    "key": "10.1016/j.cosrev.2026.101074_bib0655",
+    "series-title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "year": "2025"
+   },
+   {
+    "article-title": "Perturb your data: paraphrase-guided training data watermarking",
+    "author": "Shetty",
+    "first-page": "32938",
+    "key": "10.1016/j.cosrev.2026.101074_bib0660",
+    "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "year": "2026"
+   },
+   {
+    "article-title": "New evaluation metrics capture quality degradation due to LLM watermarking",
+    "author": "Singh",
+    "first-page": "1",
+    "journal-title": "Trans. Mach. Learn. Res.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0665",
+    "volume": "04",
+    "year": "2024"
+   },
+   {
+    "article-title": "SMTW: semantics-based robust multi-bit text watermarking for large language models",
+    "author": "Song",
+    "first-page": "785",
+    "key": "10.1016/j.cosrev.2026.101074_bib0670",
+    "series-title": "2026 6th International Conference on Neural Networks, Information and Communication Engineering (NNICE)",
+    "year": "2026"
+   },
+   {
+    "article-title": "NLWM: a robust, efficient and high-quality watermark for large language models",
+    "author": "Song",
+    "first-page": "320",
+    "key": "10.1016/j.cosrev.2026.101074_bib0675",
+    "series-title": "International Conference on Web Information Systems Engineering",
+    "year": "2024"
+   },
+   {
+    "author": "Suresh",
+    "key": "10.1016/j.cosrev.2026.101074_bib0680"
+   },
+   {
+    "article-title": "Waterbench: towards holistic evaluation of watermarks for large language models",
+    "author": "Tu",
+    "first-page": "1517",
+    "key": "10.1016/j.cosrev.2026.101074_bib0685",
+    "series-title": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "year": "2024"
+   },
+   {
+    "DOI": "10.1109/TBDATA.2025.3618454",
+    "article-title": "Fast convergent federated learning via decaying SGD updates",
+    "author": "Uddin",
+    "doi-asserted-by": "crossref",
+    "first-page": "186",
+    "journal-title": "IEEE Trans. Big Data",
+    "key": "10.1016/j.cosrev.2026.101074_bib0690",
+    "volume": "12",
+    "year": "2026"
+   },
+   {
+    "article-title": "LLM unlearning on noisy forget sets: a study of incomplete, rewritten, and watermarked data",
+    "author": "Wang",
+    "first-page": "136",
+    "key": "10.1016/j.cosrev.2026.101074_bib0695",
+    "series-title": "Proceedings of the 18th ACM Workshop on Artificial Intelligence and Security",
+    "year": "2025"
+   },
+   {
+    "DOI": "10.3390/sym17071124",
+    "article-title": "A contrastive semantic watermarking framework for large language models",
+    "author": "Wang",
+    "doi-asserted-by": "crossref",
+    "first-page": "1124",
+    "journal-title": "Symmetry",
+    "key": "10.1016/j.cosrev.2026.101074_bib0700",
+    "volume": "17",
+    "year": "2025"
+   },
+   {
+    "article-title": "Rtlmarker: protecting LLM-generated rtl copyright via a hardware watermarking framework",
+    "author": "Wang",
+    "first-page": "808",
+    "key": "10.1016/j.cosrev.2026.101074_bib0705",
+    "series-title": "Proceedings of the 30th Asia and South Pacific Design Automation Conference",
+    "year": "2025"
+   },
+   {
+    "article-title": "Guardemb: dynamic watermark for safeguarding large language model embedding service against model stealing attack",
+    "author": "Wang",
+    "first-page": "7518",
+    "key": "10.1016/j.cosrev.2026.101074_bib0710",
+    "series-title": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    "year": "2024"
+   },
+   {
+    "article-title": "Towards codable watermarking for injecting multi-bits information to LLMs",
+    "author": "Wang",
+    "first-page": "39375",
+    "key": "10.1016/j.cosrev.2026.101074_bib0715",
+    "series-title": "International Conference on Learning Representations",
+    "year": "2024"
+   },
+   {
+    "DOI": "10.1109/TASLP.2024.3487419",
+    "article-title": "WEDA: exploring copyright protection for large language model downstream alignment",
+    "author": "Wang",
+    "doi-asserted-by": "crossref",
+    "first-page": "4755",
+    "journal-title": "IEEE/ACM Trans. Audio Speech Lang. Process.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0720",
+    "volume": "32",
+    "year": "2024"
+   },
+   {
+    "author": "Wang",
+    "key": "10.1016/j.cosrev.2026.101074_bib0725",
+    "series-title": "Building Intelligence Identification System via Large Language Model Watermarking: A Survey and Beyond",
+    "year": "2025"
+   },
+   {
+    "article-title": "From trade-off to synergy: a versatile symbiotic watermarking framework for large language models",
+    "author": "Wang",
+    "first-page": "10306",
+    "key": "10.1016/j.cosrev.2026.101074_bib0730",
+    "series-title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "year": "2025"
+   },
+   {
+    "article-title": "Morphmark: flexible adaptive watermarking for large language models",
+    "author": "Wang",
+    "first-page": "4842",
+    "key": "10.1016/j.cosrev.2026.101074_bib0735",
+    "series-title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "year": "2025"
+   },
+   {
+    "article-title": "Proving membership in LLM pretraining data via data watermarks",
+    "author": "Wei",
+    "first-page": "13306",
+    "key": "10.1016/j.cosrev.2026.101074_bib0740",
+    "series-title": "Findings of the Association for Computational Linguistics: ACL 2024",
+    "year": "2024"
+   },
+   {
+    "article-title": "An end-to-end model for logits-based large language models watermarking",
+    "author": "Wong",
+    "first-page": "66971",
+    "key": "10.1016/j.cosrev.2026.101074_bib0745",
+    "series-title": "International Conference on Machine Learning",
+    "year": "2025"
+   },
+   {
+    "article-title": "Optimizing watermarks for large language models",
+    "author": "Wouters",
+    "first-page": "53251",
+    "key": "10.1016/j.cosrev.2026.101074_bib0750",
+    "series-title": "International Conference on Machine Learning",
+    "year": "2024"
+   },
+   {
+    "article-title": "Codewmbench: an automated benchmark for code watermarking evaluation",
+    "author": "Wu",
+    "first-page": "120",
+    "key": "10.1016/j.cosrev.2026.101074_bib0755",
+    "series-title": "Proceedings of the ACM Turing Award Celebration Conference-China 2024",
+    "year": "2024"
+   },
+   {
+    "article-title": "Character-level adversarial samples generation method based on dual-layer text watermark",
+    "author": "Wu",
+    "journal-title": "IEEE Access",
+    "key": "10.1016/j.cosrev.2026.101074_bib0760",
+    "volume": "13",
+    "year": "2025"
+   },
+   {
+    "article-title": "Bypassing LLM watermarks with color-aware substitutions",
+    "author": "Wu",
+    "first-page": "8549",
+    "key": "10.1016/j.cosrev.2026.101074_bib0765",
+    "series-title": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "year": "2024"
+   },
+   {
+    "article-title": "A resilient and accessible distribution-preserving watermark for large language models",
+    "author": "Wu",
+    "first-page": "53443",
+    "key": "10.1016/j.cosrev.2026.101074_bib0770",
+    "series-title": "International Conference on Machine Learning",
+    "year": "2024"
+   },
+   {
+    "article-title": "Robust natural language watermarking by embedding information into key components",
+    "author": "Xiang",
+    "first-page": "1",
+    "key": "10.1016/j.cosrev.2026.101074_bib0775",
+    "series-title": "2025 International Joint Conference on Neural Networks (IJCNN)",
+    "year": "2025"
+   },
+   {
+    "author": "Xiang",
+    "key": "10.1016/j.cosrev.2026.101074_bib0780",
+    "series-title": "AI-Generated Text Detection: A Comprehensive Review of Active and Passive Approaches",
+    "year": "2026"
+   },
+   {
+    "article-title": "Ownership verification of your NLG models with semantic combination watermarks",
+    "author": "Xie",
+    "journal-title": "IEEE Trans. Dependable Secure Comput.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0785",
+    "volume": "23",
+    "year": "2025"
+   },
+   {
+    "DOI": "10.1080/01621459.2025.2520455",
+    "article-title": "Debiasing watermarks for large language models via maximal coupling",
+    "author": "Xie",
+    "doi-asserted-by": "crossref",
+    "first-page": "1424",
+    "journal-title": "J. Am. Stat. Assoc.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0790",
+    "volume": "120",
+    "year": "2025"
+   },
+   {
+    "article-title": "Entropy-aware dynamic bias watermarking for LLM-generated emotional content",
+    "author": "Xu",
+    "journal-title": "Pattern Recognit.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0795",
+    "year": "2025"
+   },
+   {
+    "article-title": "A multi-bit robust LLM watermark based on window average space value",
+    "author": "Xu",
+    "first-page": "666",
+    "key": "10.1016/j.cosrev.2026.101074_bib0800",
+    "series-title": "2025 6th International Conference on Artificial Intelligence and Computer Engineering (ICAICE)",
+    "year": "2025"
+   },
+   {
+    "article-title": "Robust multi-bit text watermark with LLM-based paraphrasers",
+    "author": "Xu",
+    "first-page": "69279",
+    "key": "10.1016/j.cosrev.2026.101074_bib0805",
+    "series-title": "International Conference on Machine Learning",
+    "year": "2025"
+   },
+   {
+    "article-title": "Beyond binary classification: customizable text watermark on large language models",
+    "author": "Xu",
+    "first-page": "1",
+    "key": "10.1016/j.cosrev.2026.101074_bib0810",
+    "series-title": "2024 International Joint Conference on Neural Networks (IJCNN)",
+    "year": "2024"
+   },
+   {
+    "article-title": "Tracing text provenance via context-aware lexical substitution",
+    "author": "Yang",
+    "first-page": "11613",
+    "key": "10.1016/j.cosrev.2026.101074_bib0815",
+    "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "year": "2022"
+   },
+   {
+    "DOI": "10.1016/j.ins.2024.120893",
+    "article-title": "Defending against similarity shift attack for EaaS via adaptive multi-target watermarking",
+    "author": "Yang",
+    "doi-asserted-by": "crossref",
+    "journal-title": "Inf. Sci.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0820",
+    "volume": "678",
+    "year": "2024"
+   },
+   {
+    "DOI": "10.3390/math13091420",
+    "article-title": "Watermarking for large language models: a survey",
+    "author": "Yang",
+    "doi-asserted-by": "crossref",
+    "first-page": "1420",
+    "journal-title": "Mathematics",
+    "key": "10.1016/j.cosrev.2026.101074_bib0825",
+    "volume": "13",
+    "year": "2025"
+   },
+   {
+    "article-title": "Promptcare: prompt copyright protection by watermark injection and verification",
+    "author": "Yao",
+    "first-page": "845",
+    "key": "10.1016/j.cosrev.2026.101074_bib0830",
+    "series-title": "2024 IEEE Symposium on Security and Privacy (SP)",
+    "year": "2024"
+   },
+   {
+    "author": "Ye",
+    "key": "10.1016/j.cosrev.2026.101074_bib0835",
+    "series-title": "Securing Large Language Models: A Survey of Watermarking and Fingerprinting Techniques",
+    "year": "2026"
+   },
+   {
+    "DOI": "10.1016/j.csi.2025.103983",
+    "article-title": "Periodic watermarking for copyright protection of large language models in cloud computing security",
+    "author": "Ye",
+    "doi-asserted-by": "crossref",
+    "journal-title": "Comput. Stand. Interfaces",
+    "key": "10.1016/j.cosrev.2026.101074_bib0840",
+    "volume": "94",
+    "year": "2025"
+   },
+   {
+    "DOI": "10.1007/s10664-025-10750-x",
+    "article-title": "TransLock: securing LLM deployment for software applications via self-locking watermarks",
+    "author": "Ye",
+    "doi-asserted-by": "crossref",
+    "first-page": "25",
+    "journal-title": "Empir. Softw. Eng.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0845",
+    "volume": "31",
+    "year": "2026"
+   },
+   {
+    "DOI": "10.1016/j.knosys.2025.114295",
+    "article-title": "Unified attacks to large language model watermarks: spoofing and scrubbing in unauthorized knowledge distillation",
+    "author": "Yi",
+    "doi-asserted-by": "crossref",
+    "journal-title": "Knowl.-Based Syst.",
+    "key": "10.1016/j.cosrev.2026.101074_bib0850",
+    "year": "2025"
+   },
+   {
+    "article-title": "Robust multi-bit natural language watermarking through invariant features",
+    "author": "Yoo",
+    "first-page": "2092",
+    "key": "10.1016/j.cosrev.2026.101074_bib0855",
+    "series-title": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "year": "2023"
+   },
+   {
+    "article-title": "Advancing beyond identification: multi-bit watermark for large language models",
+    "author": "Yoo",
+    "first-page": "4031",
+    "key": "10.1016/j.cosrev.2026.101074_bib0860",
+    "series-title": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "year": "2024"
+   },
+   {
+    "article-title": "An efficient white-box LLM watermarking for IP protection on online market platforms",
+    "author": "Yuan",
+    "first-page": "3680",
+    "key": "10.1016/j.cosrev.2026.101074_bib0865",
+    "series-title": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 2",
+    "year": "2025"
+   },
+   {
+    "DOI": "10.1109/ACCESS.2026.3653833",
+    "article-title": "Adaptive robust watermarking for large language models via dynamic token embedding perturbation",
+    "author": "Zeng",
+    "doi-asserted-by": "crossref",
+    "first-page": "9319",
+    "journal-title": "IEEE Access",
+    "key": "10.1016/j.cosrev.2026.101074_bib0870",
+    "volume": "14",
+    "year": "2026"
+   },
+   {
+    "article-title": "Watermarks in the sand: impossibility of strong watermarking for language models",
+    "author": "Zhang",
+    "key": "10.1016/j.cosrev.2026.101074_bib0875",
+    "series-title": "Forty-First International Conference on Machine Learning",
+    "year": "2024"
+   },
+   {
+    "article-title": "{REMARK\u2212LLM}: a robust and efficient watermarking framework for generative large language models",
+    "author": "Zhang",
+    "first-page": "1813",
+    "key": "10.1016/j.cosrev.2026.101074_bib0880",
+    "series-title": "33rd USENIX Security Symposium (USENIX Security 24)",
+    "year": "2024"
+   },
+   {
+    "article-title": "Emmark: robust watermarks for IP protection of embedded quantized large language models",
+    "author": "Zhang",
+    "first-page": "1",
+    "key": "10.1016/j.cosrev.2026.101074_bib0885",
+    "series-title": "Proceedings of the 61st ACM/IEEE Design Automation Conference",
+    "year": "2024"
+   },
+   {
+    "author": "Zhang",
+    "key": "10.1016/j.cosrev.2026.101074_bib0890",
+    "series-title": "Watermarking Large Language Models and the Generated Content: Opportunities and Challenges",
+    "year": "2024"
+   },
+   {
+    "article-title": "CEFW: a comprehensive evaluation framework for watermark in large language models",
+    "author": "Zhang",
+    "first-page": "1",
+    "key": "10.1016/j.cosrev.2026.101074_bib0895",
+    "series-title": "2025 IEEE International Conference on Multimedia and Expo (ICME)",
+    "year": "2025"
+   },
+   {
+    "DOI": "10.3390/e27080784",
+    "article-title": "CurveMark: detecting AI-generated text via probabilistic curvature and dynamic semantic watermarking",
+    "author": "Zhang",
+    "doi-asserted-by": "crossref",
+    "first-page": "784",
+    "journal-title": "Entropy",
+    "key": "10.1016/j.cosrev.2026.101074_bib0900",
+    "volume": "27",
+    "year": "2025"
+   },
+   {
+    "article-title": "Stealing watermarks of large language models via mixed integer programming",
+    "author": "Zhang",
+    "first-page": "46",
+    "key": "10.1016/j.cosrev.2026.101074_bib0905",
+    "series-title": "2024 Annual Computer Security Applications Conference (ACSAC)",
+    "year": "2024"
+   },
+   {
+    "article-title": "Provable robust watermarking for AI-generated text",
+    "author": "Zhao",
+    "key": "10.1016/j.cosrev.2026.101074_bib0910",
+    "series-title": "12th International Conference on Learning Representations, ICLR 2024",
+    "year": "2024"
+   },
+   {
+    "article-title": "Efficiently identifying watermarked segments in mixed-source texts",
+    "author": "Zhao",
+    "first-page": "6304",
+    "key": "10.1016/j.cosrev.2026.101074_bib0915",
+    "series-title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "year": "2025"
+   },
+   {
+    "article-title": "Protecting language generation models via invisible watermarking",
+    "author": "Zhao",
+    "first-page": "42187",
+    "key": "10.1016/j.cosrev.2026.101074_bib0920",
+    "series-title": "International Conference on Machine Learning",
+    "year": "2023"
+   },
+   {
+    "article-title": "TWT-LLM: a universal and robust tagged watermark for large language models",
+    "author": "Zheng",
+    "first-page": "2292",
+    "key": "10.1016/j.cosrev.2026.101074_bib0925",
+    "series-title": "2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+    "year": "2025"
+   },
+   {
+    "article-title": "Bileve: securing text provenance in large language models against spoofing with bi-level signature",
+    "author": "Zhou",
+    "first-page": "56054",
+    "key": "10.1016/j.cosrev.2026.101074_bib0930",
+    "series-title": "Advances in Neural Information Processing Systems",
+    "year": "2024"
+   },
+   {
+    "article-title": "Duwak: dual watermarks in large language models",
+    "author": "Zhu",
+    "first-page": "11416",
+    "key": "10.1016/j.cosrev.2026.101074_bib0935",
+    "series-title": "Findings of the Association for Computational Linguistics: ACL 2024",
+    "year": "2024"
+   }
+  ],
+  "reference-count": 187,
+  "references-count": 187,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1574013726001826"
+   }
+  },
+  "score": 1,
+  "short-container-title": [
+   "Computer Science Review"
+  ],
+  "short-title": [],
+  "source": "Crossref",
+  "special_numbering": "PA",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "Are LLM watermarks reliable in practice? A systematic review of evidence, robustness, threat models, and deployment assumptions"
+  ],
+  "type": "journal-article",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "volume": "63"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

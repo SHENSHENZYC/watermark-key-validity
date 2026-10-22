@@ -1,0 +1,15 @@
+start validation run 2026-10-16T18:37:24Z grid=research/study4/grid_v0.1.json sha=7a1c88f125f8689a65b0224b9f51e3707814c2f8a1d021fc61279defa3887ce2 out=outputs/study4_v0.1/validation_runner_test/cells lock=None HEAD=bf751c92d97a141cc7d171e834aa86e9cf455a13 limit=None
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 14652.21it/s]
+2026-10-16T18:37:30Z launch memory | mps_alloc_gb=3.11 mps_driver_gb=3.31 rss_gb=2.92 swap=total = 3072.00M  used = 2104.81M  free = 967.19M  (encrypted)
+2026-10-16T18:37:30Z start phase news_en_256 null | mps_alloc_gb=3.11 mps_driver_gb=3.31 rss_gb=2.92 swap=total = 3072.00M  used = 2104.81M  free = 967.19M  (encrypted)
+2026-10-16T18:38:21Z   done null__news_en_256__c0 (50.2s, 489.6 tok/s, rss 2.92 GB)
+2026-10-16T18:38:21Z start phase news_en_256 kgw_h1_d0.5 | mps_alloc_gb=3.11 mps_driver_gb=3.31 rss_gb=2.92 swap=total = 3072.00M  used = 2104.81M  free = 967.19M  (encrypted)
+2026-10-16T18:38:58Z   done gen__news_en_256__kgw_h1_d0.5__k1000501 (37.0s, 346.2 tok/s, rss 2.92 GB)
+2026-10-16T18:39:34Z   done gen__news_en_256__kgw_h1_d0.5__k1000502 (36.7s, 348.4 tok/s, rss 2.92 GB)
+2026-10-16T18:39:34Z start phase news_en_256 kgw_h1_d2.0 | mps_alloc_gb=3.11 mps_driver_gb=3.31 rss_gb=2.92 swap=total = 3072.00M  used = 2104.81M  free = 967.19M  (encrypted)
+2026-10-16T18:40:11Z   done gen__news_en_256__kgw_h1_d2.0__k1000501 (37.0s, 346.2 tok/s, rss 2.92 GB)
+2026-10-16T18:40:48Z   done gen__news_en_256__kgw_h1_d2.0__k1000502 (36.8s, 348.0 tok/s, rss 2.92 GB)
+2026-10-16T18:40:48Z start phase news_en_256 kgw_h2_d0.5 | mps_alloc_gb=3.11 mps_driver_gb=3.31 rss_gb=2.92 swap=total = 3072.00M  used = 2104.81M  free = 967.19M  (encrypted)
+2026-10-16T18:41:28Z   done gen__news_en_256__kgw_h2_d0.5__k1000501 (40.3s, 317.9 tok/s, rss 2.92 GB)
+2026-10-16T18:42:09Z   done gen__news_en_256__kgw_h2_d0.5__k1000502 (40.1s, 319.1 tok/s, rss 2.92 GB)
+end validation run 2026-10-16T18:42:09Z units_generated=7 units_reused=0 hours=0.077 peak_rss_gb=2.92 | mps_alloc_gb=3.11 mps_driver_gb=3.31 rss_gb=2.92 swap=total = 3072.00M  used = 2096.81M  free = 975.19M  (encrypted)

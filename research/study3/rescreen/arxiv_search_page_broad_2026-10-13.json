@@ -1,0 +1,448 @@
+{
+ "b1": {
+  "query": "watermark \"language model\"",
+  "url": "https://arxiv.org/search/?query=watermark+%22language+model%22&searchtype=all&order=-announced_date_first&size=50",
+  "total": "436",
+  "items": [
+   [
+    "2610.12106",
+    "Could LLM Watermark Detection be Public?",
+    "8 October, 2026"
+   ],
+   [
+    "2610.11848",
+    "SemField: A Simple, Linear, Continuous, yet Robust Semantic Watermark",
+    "8 October, 2026"
+   ],
+   [
+    "2610.09552",
+    "Constitution-Guided Watermarking",
+    "7 October, 2026"
+   ],
+   [
+    "2610.05712",
+    "SimpleMark: Fast Multi-Bit Text Watermarking under f -Divergence Constraints",
+    "4 October, 2026"
+   ],
+   [
+    "2610.05323",
+    "Grammar-Guided Code Watermarking with Green Temperature",
+    "4 October, 2026"
+   ],
+   [
+    "2610.04763",
+    "Tracing model-generated DNA with position-independent watermarking",
+    "3 October, 2026"
+   ],
+   [
+    "2610.04169",
+    "Language Model Fingerprinting Requires Rethinking Watermark Teachers",
+    "2 October, 2026"
+   ],
+   [
+    "2610.03955",
+    "Adaptive Co-Serving LLM Watermarking on Modern Inference Engines",
+    "2 October, 2026"
+   ],
+   [
+    "2610.03124",
+    "The Fragility of Trigger-Tag Mechanisms for Misuse Detection in Open-Weight LLMs",
+    "2 October, 2026"
+   ],
+   [
+    "2610.02817",
+    "RMCW: A Deletion-Robust Watermark Based on Reed--Muller Codes for Language Models",
+    "2 October, 2026"
+   ],
+   [
+    "2609.36372",
+    "TTMark: Pairwise Distortion-Free Watermarking Beyond Single-Token Entropy",
+    "28 September, 2026"
+   ],
+   [
+    "2609.35224",
+    "TANGO: Watermarking Masked Diffusion Language Models in Token Pairs",
+    "28 September, 2026"
+   ],
+   [
+    "2609.34597",
+    "AuxMark: Defending Against Unauthorized Agent Distillation via Auxiliary Behavioral Watermarking",
+    "28 September, 2026"
+   ],
+   [
+    "2609.33332",
+    "CertMark: Distortion-Free Multi-Bit Watermarking with Certified Decoding",
+    "27 September, 2026"
+   ],
+   [
+    "2609.32434",
+    "From Latents to Wires: Surgical Post-Editing on Large Language Models",
+    "26 September, 2026"
+   ],
+   [
+    "2609.31876",
+    "Agents Can Use Base Models to Evade AI Detection",
+    "25 September, 2026"
+   ],
+   [
+    "2609.24994",
+    "Feedback Coding Enables Inference-Time Covert Agentic Communication",
+    "21 September, 2026"
+   ],
+   [
+    "2609.21858",
+    "Watermarkable Multi-Draft Speculative Sampling via Poisson Processes",
+    "18 September, 2026"
+   ],
+   [
+    "2609.15657",
+    "Predictive Likelihood Ratios for Language Model Watermark Detection",
+    "14 September, 2026"
+   ],
+   [
+    "2609.14257",
+    "DenMark: Robust Semantic Watermarking for Diffusion Language Models",
+    "12 September, 2026"
+   ],
+   [
+    "2609.12472",
+    "TripPattern: A Pattern-based Text Watermarking Method for Large Language Models",
+    "11 September, 2026"
+   ],
+   [
+    "2609.06708",
+    "A Trustworthy Watermarking Framework for LLM-Generated Food Safety Content",
+    "6 September, 2026"
+   ],
+   [
+    "2609.03844",
+    "Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference",
+    "3 September, 2026"
+   ],
+   [
+    "2609.02177",
+    "WeaveMark: Robust and Scalable Multi-bit LLM Watermarking via Coded Payload Spreading",
+    "28 September, 2026"
+   ],
+   [
+    "2608.29575",
+    "SemTrace: Source-Grounded Semantic Signatures for Tracing LLM Exposure to Protected Documents",
+    "30 August, 2026"
+   ],
+   [
+    "2608.29151",
+    "WoE Wrote It? Watermarking Mixture-of-Experts LLMs for Black-Box Text Provenance",
+    "29 August, 2026"
+   ],
+   [
+    "2608.27899",
+    "OpenStamp: A Watermark for Open-Source Language Models",
+    "28 August, 2026"
+   ],
+   [
+    "2608.25667",
+    "AI Slop and Hallucinations in Vulnerability Assessment: A Survey on Reasoning Failures and Trustworthy Mitigation",
+    "26 August, 2026"
+   ],
+   [
+    "2608.20839",
+    "SAC-Copula: Quality-Preserving Watermarking for Diffusion Language Models via Smooth Correlated Gumbel Fields",
+    "10 September, 2026"
+   ],
+   [
+    "2608.20047",
+    "Auditing Cross-Lingual Fairness in Language Model Watermarking",
+    "20 August, 2026"
+   ],
+   [
+    "2608.19369",
+    "Linguistic Holonomy and Statistical Watermarks: Inner Geometry of Meaning-Preserving Transformations",
+    "19 August, 2026"
+   ],
+   [
+    "2608.18102",
+    "Stability-Aware Feature Design for Robust Watermark Detection in Machine-Generated Text",
+    "9 June, 2026"
+   ],
+   [
+    "2608.16026",
+    "SkillWatermark: An Embedded Skill Watermark of Progressive Privacy Inference via Benign Prompts",
+    "16 August, 2026"
+   ],
+   [
+    "2608.14906",
+    "Optimal Watermark Localization in Mixed-Source Large Language Model Texts",
+    "14 August, 2026"
+   ],
+   [
+    "2608.12713",
+    "Tracing Provenance and Detecting Tampering with Complementary LLM Watermarks",
+    "12 August, 2026"
+   ],
+   [
+    "2608.12348",
+    "Can Large Language Models Reason about Event-Time Stream-Processing Semantics?",
+    "13 August, 2026"
+   ],
+   [
+    "2608.06416",
+    "WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking",
+    "5 August, 2026"
+   ],
+   [
+    "2608.03093",
+    "DHMark: Public-Key Watermarking for LLM-Generated Text via Diffie-Hellman-Guided Rejection Sampling",
+    "4 August, 2026"
+   ],
+   [
+    "2607.22723",
+    "Visual Information Extraction from Documents via Classification-Guided Large Vision-Language Models",
+    "21 July, 2026"
+   ],
+   [
+    "2607.21958",
+    "Efficient Online LLM Watermark Detection via Rao-Blackwellized E-Processes",
+    "24 July, 2026"
+   ],
+   [
+    "2607.20462",
+    "Marking the Wrong Symptoms: Evaluating LLM Watermarks in Medical Texts",
+    "16 May, 2026"
+   ],
+   [
+    "2607.20440",
+    "Answer-then-Edit: Reasoning Skeleton Editing for Anti-Distillation with Preserved Utility",
+    "12 May, 2026"
+   ],
+   [
+    "2607.16648",
+    "Synchronization-Free Algebraic Fingerprints for Large Language Models: From Autoregressive to Diffusion Models",
+    "18 July, 2026"
+   ],
+   [
+    "2607.13099",
+    "WaterMoE: Expert-Routing-based Watermarking for High Fidelity and Efficiency",
+    "14 July, 2026"
+   ],
+   [
+    "2607.10794",
+    "Can Watermarking Techniques Help Prevent LLM Model Stealing?",
+    "12 July, 2026"
+   ],
+   [
+    "2607.10210",
+    "Toward Stronger Code Watermarking: A Grammar-Driven Approach to Optimizing the Trade-off Between Quality and Detectability",
+    "11 July, 2026"
+   ],
+   [
+    "2607.10103",
+    "LLM Watermarking as Big Data Provenance: A Deployment-Oriented Systematization",
+    "2 September, 2026"
+   ],
+   [
+    "2607.07527",
+    "A Unified Detection Framework for AI-Related Content and Artifacts",
+    "8 July, 2026"
+   ],
+   [
+    "2607.06963",
+    "Large Language Models (LLMs) and Generative AI in Cybersecurity and Privacy: A Survey of Dual-Use Risks, AI-Generated Malware, Explainability, and Defensive Strategies",
+    "7 July, 2026"
+   ],
+   [
+    "2607.06009",
+    "Multi-Channel Spread-Spectrum Code Watermarking",
+    "7 July, 2026"
+   ]
+  ],
+  "status": "ok"
+ },
+ "b2": {
+  "query": "watermark detection threshold",
+  "url": "https://arxiv.org/search/?query=watermark+detection+threshold&searchtype=all&order=-announced_date_first&size=50",
+  "total": "36",
+  "items": [
+   [
+    "2610.09702",
+    "Latent Watermarks under Generative Editing: A Benchmark and Analysis of Detection Survival",
+    "7 October, 2026"
+   ],
+   [
+    "2610.04151",
+    "Watermarks and Fingerprints as Soft Bindings for Content Provenance: An Open-Licence Benchmark for Images, Audio and Video",
+    "2 October, 2026"
+   ],
+   [
+    "2609.35881",
+    "GenoTrace: Inheritable Watermarks for Genome Foundation Model Distillation",
+    "1 October, 2026"
+   ],
+   [
+    "2609.32678",
+    "Reference-Null Calibrated Thresholds for E-Processes with Applications to Conformal Martingales",
+    "26 September, 2026"
+   ],
+   [
+    "2608.27666",
+    "Semantic Watermarking with Order-Robust Detection over Sub-sentence Units",
+    "27 August, 2026"
+   ],
+   [
+    "2608.20047",
+    "Auditing Cross-Lingual Fairness in Language Model Watermarking",
+    "20 August, 2026"
+   ],
+   [
+    "2608.19727",
+    "A Locally Tokenized Generative Model for Robust Time-Series Watermarking",
+    "20 August, 2026"
+   ],
+   [
+    "2608.18102",
+    "Stability-Aware Feature Design for Robust Watermark Detection in Machine-Generated Text",
+    "9 June, 2026"
+   ],
+   [
+    "2608.16566",
+    "How Fragile Is Your Watermark? Training-Free Structural Removal of Neural Audio Watermarks",
+    "17 August, 2026"
+   ],
+   [
+    "2608.14906",
+    "Optimal Watermark Localization in Mixed-Source Large Language Model Texts",
+    "14 August, 2026"
+   ],
+   [
+    "2608.08645",
+    "HaloMark: A Spectral Threshold for Embedding-Vector Watermarking under C2PA",
+    "9 August, 2026"
+   ],
+   [
+    "2607.13003",
+    "Watermark Forensics for Generative Models: An Information-Theoretic Perspective",
+    "14 July, 2026"
+   ],
+   [
+    "2606.10813",
+    "RedAct: Redacting Agent Capability Traces for Procedural Skill Protection",
+    "12 June, 2026"
+   ],
+   [
+    "2605.30501",
+    "Linear Ensembles Wash Away Watermarks: On the Fragility of Distributional Perturbations in LLMs",
+    "28 May, 2026"
+   ],
+   [
+    "2605.21002",
+    "Verifiable Provenance and Watermarking for Generative AI: An Evidentiary Framework for International Operational Law and Domestic Courts",
+    "20 May, 2026"
+   ],
+   [
+    "2605.05503",
+    "Chainwash: Multi-Step Rewriting Attacks on Diffusion Language Model Watermarks",
+    "6 May, 2026"
+   ],
+   [
+    "2605.00348",
+    "Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking",
+    "23 June, 2026"
+   ],
+   [
+    "2603.26167",
+    "Gaussian Shannon: High-Precision Diffusion Model Watermarking Based on Communication",
+    "8 April, 2026"
+   ],
+   [
+    "2602.10765",
+    "Collaborative Threshold Watermarking",
+    "27 May, 2026"
+   ],
+   [
+    "2601.01085",
+    "Luminark: Training-free, Probabilistically-Certified Watermarking for General Vision Generative Models",
+    "3 January, 2026"
+   ],
+   [
+    "2510.04303",
+    "Audit the Whisper: Detecting Steganographic Collusion in Multi-Agent LLMs",
+    "17 October, 2025"
+   ],
+   [
+    "2510.02342",
+    "CATMark: A Context-Aware Thresholding Framework for Robust Cross-Task Watermarking in Large Language Models",
+    "26 September, 2025"
+   ],
+   [
+    "2509.10577",
+    "The Coding Limits of Robust Watermarking for Generative Models",
+    "2 May, 2026"
+   ],
+   [
+    "2507.20808",
+    "FantasyID: A dataset for detecting digital manipulations of ID-documents",
+    "28 July, 2025"
+   ],
+   [
+    "2507.07250",
+    "Semi-fragile watermarking of remote sensing images using DWT, vector quantization and automatic tiling",
+    "9 July, 2025"
+   ],
+   [
+    "2505.14112",
+    "Invisible Entropy: Towards Safe and Efficient Low-Entropy LLM Watermarking",
+    "20 May, 2025"
+   ],
+   [
+    "2504.12108",
+    "Entropy-Guided Watermarking for LLMs: A Test-Time Framework for Robust and Traceable Text Generation",
+    "16 April, 2025"
+   ],
+   [
+    "2501.02441",
+    "A Statistical Hypothesis Testing Framework for Data Misappropriation Detection in Large Language Models",
+    "3 October, 2025"
+   ],
+   [
+    "2406.14841",
+    "TabularMark: Watermarking Tabular Datasets for Machine Learning",
+    "20 June, 2024"
+   ],
+   [
+    "2405.19677",
+    "Large Language Model Watermark Stealing With Mixed Integer Programming",
+    "30 May, 2024"
+   ],
+   [
+    "2305.15060",
+    "Who Wrote this Code? Watermarking for Code Generation",
+    "3 July, 2024"
+   ],
+   [
+    "2303.13408",
+    "Paraphrasing evades detectors of AI-generated text, but retrieval is an effective defense",
+    "17 October, 2023"
+   ],
+   [
+    "2201.09389",
+    "Quickest Detection of Deception Attacks on Cyber-Physical Systems with a Parsimonious Watermarking Policy",
+    "27 April, 2023"
+   ],
+   [
+    "1707.01742",
+    "High Resilience Diverse Domain Multilevel Audio Watermarking with Adaptive Threshold",
+    "5 July, 2017"
+   ],
+   [
+    "1306.4079",
+    "A Novel Block-DCT and PCA Based Image Perceptual Hashing Algorithm",
+    "18 June, 2013"
+   ],
+   [
+    "1207.2699",
+    "Robust Image Watermarking Under Pixel Wise Masking Framework",
+    "11 July, 2012"
+   ]
+  ],
+  "status": "ok"
+ }
+}

@@ -1,0 +1,2003 @@
+{
+ "0.80/16x8": {
+  "settings": {
+   "bands": 16,
+   "rows": 8,
+   "threshold": 0.8
+  },
+  "candidate_pairs": 67939,
+  "candidate_units": 8973,
+  "exact_dup_unions": 230,
+  "near_dup_unions": 3186,
+  "confusion": {
+   "est>=T&exact>=T": 40056,
+   "est>=T&exact<T": 1608,
+   "est<T&exact>=T": 1750,
+   "est<T&exact<T": 24525
+  },
+  "n_clusters": 2613931,
+  "cross_source_clusters": 0,
+  "holdout_share": 0.19994712943838228,
+  "units_in_multi_clusters_by_source": {
+   "gutenberg": 52,
+   "news": 305,
+   "stackexchange": 45,
+   "wikipedia": 4008
+  },
+  "cluster_size_histogram": {
+   "2": 615,
+   "3": 139,
+   "4": 61,
+   "5": 39,
+   "6": 26,
+   "7": 17,
+   "8": 13,
+   "9": 10,
+   "10": 7,
+   "11": 3,
+   "12": 6,
+   "13": 5
+  },
+  "largest_cluster": 153,
+  "allowed_representatives": 2594871,
+  "exact_jaccard_hist": [
+   6,
+   10,
+   8,
+   3,
+   1,
+   0,
+   0,
+   3,
+   1,
+   0,
+   16,
+   531,
+   3699,
+   7099,
+   6965,
+   7791,
+   6104,
+   12268,
+   20731,
+   2703
+  ],
+  "seconds": 52,
+  "merged_pair_sample": [
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://academia.meta.stackexchange.com/questions/103",
+     "group": "academia.meta.stackexchange.com",
+     "title": "",
+     "tok": 163
+    },
+    "b": {
+     "id": "https://bitcoin.meta.stackexchange.com/questions/256",
+     "group": "bitcoin.meta.stackexchange.com",
+     "title": "",
+     "tok": 189
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://academia.meta.stackexchange.com/questions/4407",
+     "group": "academia.meta.stackexchange.com",
+     "title": "",
+     "tok": 729
+    },
+    "b": {
+     "id": "https://arduino.meta.stackexchange.com/questions/2561",
+     "group": "arduino.meta.stackexchange.com",
+     "title": "",
+     "tok": 779
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://android.stackexchange.com/questions/219002",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 118
+    },
+    "b": {
+     "id": "https://android.stackexchange.com/questions/197070",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 110
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://anime.meta.stackexchange.com/questions/339",
+     "group": "anime.meta.stackexchange.com",
+     "title": "",
+     "tok": 267
+    },
+    "b": {
+     "id": "https://bioinformatics.meta.stackexchange.com/questions/128",
+     "group": "bioinformatics.meta.stackexchange.com",
+     "title": "",
+     "tok": 270
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://apple.stackexchange.com/questions/320793",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 2940
+    },
+    "b": {
+     "id": "https://apple.stackexchange.com/questions/387272",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 2930
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://apple.stackexchange.com/questions/453257",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 646
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/1448312",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 691
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/1232999",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 98
+    },
+    "b": {
+     "id": "https://avp.stackexchange.com/questions/30139",
+     "group": "avp.stackexchange.com",
+     "title": "",
+     "tok": 112
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/545754",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 168
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/703617",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 169
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/653494",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 138
+    },
+    "b": {
+     "id": "https://stackoverflow.com/questions/31736931",
+     "group": "stackoverflow.com",
+     "title": "",
+     "tok": 138
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/668458",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 157
+    },
+    "b": {
+     "id": "https://stackoverflow.com/questions/32352918",
+     "group": "stackoverflow.com",
+     "title": "",
+     "tok": 179
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://avp.meta.stackexchange.com/questions/1605",
+     "group": "avp.meta.stackexchange.com",
+     "title": "",
+     "tok": 113
+    },
+    "b": {
+     "id": "https://bioacoustics.meta.stackexchange.com/questions/218",
+     "group": "bioacoustics.meta.stackexchange.com",
+     "title": "",
+     "tok": 116
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "iskurs.com/en/2021/08/10/otpor-i-aktivizam-lgbtqi-zajednice/",
+     "group": "news-balkandiskurs",
+     "title": "",
+     "tok": 2404
+    },
+    "b": {
+     "id": "/14/queer-resilience-and-activism-in-bosnia-and-herzegovina/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 2444
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "3/12/08/aleja-snajpera-svjedocanstvo-otpornosti-prezivjelih/",
+     "group": "news-balkandiskurs",
+     "title": "",
+     "tok": 1556
+    },
+    "b": {
+     "id": "ect-testimony-to-the-resilience-of-sarajevo-siege-survivors/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 1696
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://beer.meta.stackexchange.com/questions/272",
+     "group": "beer.meta.stackexchange.com",
+     "title": "",
+     "tok": 114
+    },
+    "b": {
+     "id": "https://bioinformatics.meta.stackexchange.com/questions/260",
+     "group": "bioinformatics.meta.stackexchange.com",
+     "title": "",
+     "tok": 114
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "-in-whose-tenure-did-msp-increase-by-a-greater-percentage-2/",
+     "group": "news-factly",
+     "title": "",
+     "tok": 972
+    },
+    "b": {
+     "id": "ck-in-whose-tenure-did-msp-increase-by-a-greater-percentage/",
+     "group": "news-factly",
+     "title": "",
+     "tok": 883
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "to-make-the-best-use-of-rti-right-to-information-in-india-2/",
+     "group": "news-factly",
+     "title": "",
+     "tok": 1901
+    },
+    "b": {
+     "id": "w-to-make-the-best-use-of-rti-right-to-information-in-india/",
+     "group": "news-factly",
+     "title": "",
+     "tok": 1830
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "https://factly.in/understanding-the-b-form-for-elections-2/",
+     "group": "news-factly",
+     "title": "",
+     "tok": 528
+    },
+    "b": {
+     "id": "https://factly.in/understanding-the-b-form-for-elections/",
+     "group": "news-factly",
+     "title": "",
+     "tok": 523
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "obalvoices.org/2005/08/05/inside-the-japanese-blogosphere-2/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 513
+    },
+    "b": {
+     "id": "obalvoices.org/2005/08/19/inside-the-japanese-blogosphere-3/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 524
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "2005/11/18/wsis-circumventing-censorship-and-staying-safe-2/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 258
+    },
+    "b": {
+     "id": "g/2005/11/18/wsis-circumventing-censorship-and-staying-safe/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 258
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "g/2007/04/03/guyana-failed-strategy-for-world-cup-cricket-2/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 93
+    },
+    "b": {
+     "id": "org/2007/04/03/guyana-failed-strategy-for-world-cup-cricket/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 94
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "https://globalvoices.org/2007/10/22/untitled-2/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 52
+    },
+    "b": {
+     "id": "/2007/10/23/malaysia-former-leader-protecting-whistleblower/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 60
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "oices.org/2008/09/24/senegal-would-you-mind-fasting-with-us/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 68
+    },
+    "b": {
+     "id": "ces.org/2008/09/29/senegal-would-you-mind-fasting-with-us-2/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 71
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "s://globalvoices.org/2009/01/19/palestine-not-faring-better/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 57
+    },
+    "b": {
+     "id": "https://globalvoices.org/2009/01/22/palestine-coexisting/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 56
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "009/06/05/egypt-role-of-translatioin-in-social-web-projects/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 45
+    },
+    "b": {
+     "id": "/06/08/egypt-the-role-of-translation-in-social-web-projects/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 46
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": ".org/2010/03/04/africa-the-future-of-technology-in-africa-2/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 65
+    },
+    "b": {
+     "id": "es.org/2010/03/04/africa-the-future-of-technology-in-africa/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 66
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "2/donate-to-global-voices-help-us-keep-connecting-the-world/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 238
+    },
+    "b": {
+     "id": "donate-to-global-voices-help-us-keep-connecting-the-world-2/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 240
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "s-seeks-an-editor-to-lead-our-greater-central-asia-coverage/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 437
+    },
+    "b": {
+     "id": "seeks-an-editor-to-lead-our-greater-central-asia-coverage-3/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 425
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "oices-seeks-country-level-researchers-for-our-advox-project/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 403
+    },
+    "b": {
+     "id": "ces-seeks-country-level-researchers-for-our-advox-project-2/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 376
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "mes-team-nigeria-move-up-medal-table-to-fourth-after-day-12/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 238
+    },
+    "b": {
+     "id": "an-games-nigeria-move-up-medal-table-to-fourth-after-day-12/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 234
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "m/2019-budget-senate-to-commence-debate-on-bill-wednesday-2/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 179
+    },
+    "b": {
+     "id": "com/2019-budget-senate-to-commence-debate-on-bill-wednesday/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 186
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "ablishes-1500-anti-corruption-clubs-in-schools-nationwide-2/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 215
+    },
+    "b": {
+     "id": "stablishes-1500-anti-corruption-clubs-in-schools-nationwide/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 215
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "nec-halts-cvr-in-katsina-to-begin-display-for-corrections-2/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 169
+    },
+    "b": {
+     "id": "-inec-halts-cvr-in-katsina-to-begin-display-for-corrections/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 167
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "orum-says-north-has-the-votes-wont-accept-second-position-2/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 179
+    },
+    "b": {
+     "id": "-forum-says-north-has-the-votes-wont-accept-second-position/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 175
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "acy-and-stealing-efcc-arraigns-two-bankers-for-n20m-theft-2/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 207
+    },
+    "b": {
+     "id": "iracy-and-stealing-efcc-arraigns-two-bankers-for-n20m-theft/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 200
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "cide-court-adjourns-indefinitely-trial-of-el-zakzaky-wife-2/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 251
+    },
+    "b": {
+     "id": "micide-court-adjourns-indefinitely-trial-of-el-zakzaky-wife/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 252
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "ed-ethnic-cleansing-ethiopia-rejects-hrw-report-on-tigray-2/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 223
+    },
+    "b": {
+     "id": "eged-ethnic-cleansing-ethiopia-rejects-hrw-report-on-tigray/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 215
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "boss-task-youths-on-integrity-for-corruption-free-society-2/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 212
+    },
+    "b": {
+     "id": "c-boss-task-youths-on-integrity-for-corruption-free-society/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 212
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "s://libertytvradio.com/armed-terrorists-sack-kaduna-village/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 154
+    },
+    "b": {
+     "id": "om/security-challenges-armed-terrorists-sack-kaduna-village/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 144
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "-to-regulate-foreign-education-for-public-officers-children/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 197
+    },
+    "b": {
+     "id": "-to-regulate-foreign-education-for-public-officers-children/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 192
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "radio.com/boarder-reopening-customs-reacts-to-viral-video-2/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 315
+    },
+    "b": {
+     "id": "tvradio.com/boarder-reopening-customs-reacts-to-viral-video/",
+     "group": "news-libertytvradio",
+     "title": "",
+     "tok": 311
+    }
+   }
+  ]
+ },
+ "0.70/32x4": {
+  "settings": {
+   "bands": 32,
+   "rows": 4,
+   "threshold": 0.7
+  },
+  "candidate_pairs": 194608,
+  "candidate_units": 18055,
+  "exact_dup_unions": 230,
+  "near_dup_unions": 5389,
+  "confusion": {
+   "est>=T&exact>=T": 58331,
+   "est>=T&exact<T": 4597,
+   "est<T&exact>=T": 3384,
+   "est<T&exact<T": 128296
+  },
+  "n_clusters": 2611728,
+  "cross_source_clusters": 0,
+  "holdout_share": 0.19994425146875938,
+  "units_in_multi_clusters_by_source": {
+   "gutenberg": 79,
+   "news": 409,
+   "stackexchange": 158,
+   "wikipedia": 6641
+  },
+  "cluster_size_histogram": {
+   "2": 1013,
+   "3": 257,
+   "4": 107,
+   "5": 61,
+   "6": 38,
+   "7": 32,
+   "8": 21,
+   "9": 15,
+   "10": 18,
+   "11": 8,
+   "12": 9,
+   "13": 7
+  },
+  "largest_cluster": 154,
+  "allowed_representatives": 2592668,
+  "exact_jaccard_hist": [
+   6,
+   12,
+   9,
+   3,
+   3,
+   3,
+   1,
+   10,
+   559,
+   3729,
+   11318,
+   45280,
+   48411,
+   23549,
+   10286,
+   9415,
+   6284,
+   12294,
+   20733,
+   2703
+  ],
+  "seconds": 64,
+  "merged_pair_sample": [
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://3dprinting.meta.stackexchange.com/questions/403",
+     "group": "3dprinting.meta.stackexchange.com",
+     "title": "",
+     "tok": 227
+    },
+    "b": {
+     "id": "https://beer.meta.stackexchange.com/questions/270",
+     "group": "beer.meta.stackexchange.com",
+     "title": "",
+     "tok": 230
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://academia.meta.stackexchange.com/questions/103",
+     "group": "academia.meta.stackexchange.com",
+     "title": "",
+     "tok": 163
+    },
+    "b": {
+     "id": "https://bitcoin.meta.stackexchange.com/questions/256",
+     "group": "bitcoin.meta.stackexchange.com",
+     "title": "",
+     "tok": 189
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://ai.stackexchange.com/questions/28224",
+     "group": "ai.stackexchange.com",
+     "title": "",
+     "tok": 384
+    },
+    "b": {
+     "id": "https://ai.stackexchange.com/questions/28263",
+     "group": "ai.stackexchange.com",
+     "title": "",
+     "tok": 422
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://android.meta.stackexchange.com/questions/2515",
+     "group": "android.meta.stackexchange.com",
+     "title": "",
+     "tok": 755
+    },
+    "b": {
+     "id": "https://bicycles.meta.stackexchange.com/questions/1290",
+     "group": "bicycles.meta.stackexchange.com",
+     "title": "",
+     "tok": 794
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://android.stackexchange.com/questions/129894",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 137
+    },
+    "b": {
+     "id": "https://android.stackexchange.com/questions/132337",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 137
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://android.stackexchange.com/questions/183750",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 198
+    },
+    "b": {
+     "id": "https://android.stackexchange.com/questions/183660",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 244
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://android.stackexchange.com/questions/219002",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 118
+    },
+    "b": {
+     "id": "https://android.stackexchange.com/questions/197070",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 110
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://android.stackexchange.com/questions/54371",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 649
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/353049",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 626
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://apple.stackexchange.com/questions/61270",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 2966
+    },
+    "b": {
+     "id": "https://apple.stackexchange.com/questions/121699",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 2973
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://apple.stackexchange.com/questions/233016",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 147
+    },
+    "b": {
+     "id": "https://apple.stackexchange.com/questions/264218",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 147
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://apple.stackexchange.com/questions/257166",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 3180
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/836988",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 3346
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://apple.stackexchange.com/questions/304215",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 3307
+    },
+    "b": {
+     "id": "https://apple.stackexchange.com/questions/309430",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 3330
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://apple.stackexchange.com/questions/453257",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 646
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/1448312",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 691
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://arduino.stackexchange.com/questions/94115",
+     "group": "arduino.stackexchange.com",
+     "title": "",
+     "tok": 416
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/1482767",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 421
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/660290",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 2376
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/1023489",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 2456
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/1232999",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 98
+    },
+    "b": {
+     "id": "https://avp.stackexchange.com/questions/30139",
+     "group": "avp.stackexchange.com",
+     "title": "",
+     "tok": 112
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/716879",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 1770
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/1332201",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 1910
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/1489675",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 200
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/1491150",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 163
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/1508936",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 600
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/1508984",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 656
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/372326",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 2901
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/900917",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 2949
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/408096",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 609
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/409040",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 590
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/454863",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 887
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/783114",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 887
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/47213",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 357
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/48075",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 340
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/545754",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 168
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/703617",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 169
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/643292",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 386
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/805999",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 335
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/653494",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 138
+    },
+    "b": {
+     "id": "https://stackoverflow.com/questions/31736931",
+     "group": "stackoverflow.com",
+     "title": "",
+     "tok": 138
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/668458",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 157
+    },
+    "b": {
+     "id": "https://stackoverflow.com/questions/32352918",
+     "group": "stackoverflow.com",
+     "title": "",
+     "tok": 179
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/690596",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 642
+    },
+    "b": {
+     "id": "https://stackoverflow.com/questions/33454374",
+     "group": "stackoverflow.com",
+     "title": "",
+     "tok": 656
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/695264",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 176
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/699380",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 159
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/699019",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 2415
+    },
+    "b": {
+     "id": "https://stackoverflow.com/questions/32180935",
+     "group": "stackoverflow.com",
+     "title": "",
+     "tok": 2404
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/824394",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 2062
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/824691",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 2029
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/87273",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 646
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/87592",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 648
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/906412",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 2833
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/942488",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 2814
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://avp.stackexchange.com/questions/4478",
+     "group": "avp.stackexchange.com",
+     "title": "",
+     "tok": 1278
+    },
+    "b": {
+     "id": "https://avp.stackexchange.com/questions/10272",
+     "group": "avp.stackexchange.com",
+     "title": "",
+     "tok": 994
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "iskurs.com/en/2021/08/10/otpor-i-aktivizam-lgbtqi-zajednice/",
+     "group": "news-balkandiskurs",
+     "title": "",
+     "tok": 2404
+    },
+    "b": {
+     "id": "/14/queer-resilience-and-activism-in-bosnia-and-herzegovina/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 2444
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "https://balkandiskurs.com/en/2022/10/28/film-bezbojni/",
+     "group": "news-balkandiskurs",
+     "title": "",
+     "tok": 1284
+    },
+    "b": {
+     "id": "-of-not-belonging-to-ethnic-molds-in-bosnia-and-herzegovina/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 1457
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "kandiskurs.com/en/2023/07/13/obiljezavanje-genocida-u-tuzli/",
+     "group": "news-balkandiskurs",
+     "title": "",
+     "tok": 986
+    },
+    "b": {
+     "id": "ion-in-tuzla-we-dont-harbor-hatred-but-we-will-never-forget/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 1156
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "3/12/08/aleja-snajpera-svjedocanstvo-otpornosti-prezivjelih/",
+     "group": "news-balkandiskurs",
+     "title": "",
+     "tok": 1556
+    },
+    "b": {
+     "id": "ect-testimony-to-the-resilience-of-sarajevo-siege-survivors/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 1696
+    }
+   },
+   {
+    "source": "news",
+    "a": {
+     "id": "com/en/2024/03/29/sevdah-cudesno-kombinovanje-rijeci-i-nota/",
+     "group": "news-balkandiskurs",
+     "title": "",
+     "tok": 1288
+    },
+    "b": {
+     "id": "/sevdah-the-perfect-marriage-of-preservation-and-innovation/",
+     "group": "news-globalvoices",
+     "title": "",
+     "tok": 1528
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://beer.meta.stackexchange.com/questions/293",
+     "group": "beer.meta.stackexchange.com",
+     "title": "",
+     "tok": 1094
+    },
+    "b": {
+     "id": "https://bioacoustics.meta.stackexchange.com/questions/212",
+     "group": "bioacoustics.meta.stackexchange.com",
+     "title": "",
+     "tok": 1092
+    }
+   }
+  ]
+ },
+ "0.65/32x4": {
+  "settings": {
+   "bands": 32,
+   "rows": 4,
+   "threshold": 0.65
+  },
+  "candidate_pairs": 286347,
+  "candidate_units": 24781,
+  "exact_dup_unions": 230,
+  "near_dup_unions": 7095,
+  "confusion": {
+   "est>=T&exact>=T": 73465,
+   "est>=T&exact<T": 8293,
+   "est<T&exact>=T": 11975,
+   "est<T&exact<T": 192614
+  },
+  "n_clusters": 2610022,
+  "cross_source_clusters": 0,
+  "holdout_share": 0.19996038347569484,
+  "units_in_multi_clusters_by_source": {
+   "gutenberg": 89,
+   "news": 468,
+   "stackexchange": 271,
+   "wikipedia": 8483
+  },
+  "cluster_size_histogram": {
+   "2": 1182,
+   "3": 285,
+   "4": 152,
+   "5": 77,
+   "6": 58,
+   "7": 38,
+   "8": 20,
+   "9": 17,
+   "10": 15,
+   "11": 11,
+   "12": 15,
+   "13": 13
+  },
+  "largest_cluster": 170,
+  "allowed_representatives": 2590962,
+  "exact_jaccard_hist": [
+   8,
+   12,
+   10,
+   5,
+   3,
+   4,
+   42,
+   815,
+   10611,
+   27785,
+   37652,
+   70712,
+   53248,
+   23722,
+   10288,
+   9415,
+   6284,
+   12294,
+   20734,
+   2703
+  ],
+  "seconds": 67,
+  "merged_pair_sample": [
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://3dprinting.meta.stackexchange.com/questions/403",
+     "group": "3dprinting.meta.stackexchange.com",
+     "title": "",
+     "tok": 227
+    },
+    "b": {
+     "id": "https://beer.meta.stackexchange.com/questions/270",
+     "group": "beer.meta.stackexchange.com",
+     "title": "",
+     "tok": 230
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://academia.meta.stackexchange.com/questions/2082",
+     "group": "academia.meta.stackexchange.com",
+     "title": "",
+     "tok": 392
+    },
+    "b": {
+     "id": "https://academia.meta.stackexchange.com/questions/695",
+     "group": "academia.meta.stackexchange.com",
+     "title": "",
+     "tok": 354
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://ai.meta.stackexchange.com/questions/2895",
+     "group": "ai.meta.stackexchange.com",
+     "title": "",
+     "tok": 335
+    },
+    "b": {
+     "id": "https://apple.meta.stackexchange.com/questions/4109",
+     "group": "apple.meta.stackexchange.com",
+     "title": "",
+     "tok": 433
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://ai.meta.stackexchange.com/questions/2917",
+     "group": "ai.meta.stackexchange.com",
+     "title": "",
+     "tok": 718
+    },
+    "b": {
+     "id": "https://bicycles.meta.stackexchange.com/questions/1571",
+     "group": "bicycles.meta.stackexchange.com",
+     "title": "",
+     "tok": 736
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://ai.meta.stackexchange.com/questions/2922",
+     "group": "ai.meta.stackexchange.com",
+     "title": "",
+     "tok": 101
+    },
+    "b": {
+     "id": "https://bicycles.meta.stackexchange.com/questions/1576",
+     "group": "bicycles.meta.stackexchange.com",
+     "title": "",
+     "tok": 86
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://ai.stackexchange.com/questions/28224",
+     "group": "ai.stackexchange.com",
+     "title": "",
+     "tok": 384
+    },
+    "b": {
+     "id": "https://ai.stackexchange.com/questions/28263",
+     "group": "ai.stackexchange.com",
+     "title": "",
+     "tok": 422
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://android.meta.stackexchange.com/questions/2515",
+     "group": "android.meta.stackexchange.com",
+     "title": "",
+     "tok": 755
+    },
+    "b": {
+     "id": "https://bicycles.meta.stackexchange.com/questions/1290",
+     "group": "bicycles.meta.stackexchange.com",
+     "title": "",
+     "tok": 794
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://android.stackexchange.com/questions/129894",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 137
+    },
+    "b": {
+     "id": "https://android.stackexchange.com/questions/132337",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 137
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://android.stackexchange.com/questions/151659",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 305
+    },
+    "b": {
+     "id": "https://android.stackexchange.com/questions/155285",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 402
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://android.stackexchange.com/questions/183750",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 198
+    },
+    "b": {
+     "id": "https://android.stackexchange.com/questions/183660",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 244
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://android.stackexchange.com/questions/219002",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 118
+    },
+    "b": {
+     "id": "https://android.stackexchange.com/questions/197070",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 110
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://android.stackexchange.com/questions/253877",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 177
+    },
+    "b": {
+     "id": "https://android.stackexchange.com/questions/216430",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 229
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://android.stackexchange.com/questions/54371",
+     "group": "android.stackexchange.com",
+     "title": "",
+     "tok": 649
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/353049",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 626
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://apple.stackexchange.com/questions/61270",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 2966
+    },
+    "b": {
+     "id": "https://apple.stackexchange.com/questions/121699",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 2973
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://apple.stackexchange.com/questions/170928",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 963
+    },
+    "b": {
+     "id": "https://apple.stackexchange.com/questions/196696",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 930
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://apple.stackexchange.com/questions/233016",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 147
+    },
+    "b": {
+     "id": "https://apple.stackexchange.com/questions/264218",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 147
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://apple.stackexchange.com/questions/236645",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 381
+    },
+    "b": {
+     "id": "https://apple.stackexchange.com/questions/301930",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 335
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://apple.stackexchange.com/questions/257166",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 3180
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/836988",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 3346
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://apple.stackexchange.com/questions/304215",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 3307
+    },
+    "b": {
+     "id": "https://apple.stackexchange.com/questions/309430",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 3330
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://apple.stackexchange.com/questions/439770",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 455
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/1402372",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 479
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://apple.stackexchange.com/questions/453257",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 646
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/1448312",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 691
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://apple.stackexchange.com/questions/465301",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 326
+    },
+    "b": {
+     "id": "https://apple.stackexchange.com/questions/465350",
+     "group": "apple.stackexchange.com",
+     "title": "",
+     "tok": 244
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://arduino.meta.stackexchange.com/questions/2579",
+     "group": "arduino.meta.stackexchange.com",
+     "title": "",
+     "tok": 913
+    },
+    "b": {
+     "id": "https://arduino.meta.stackexchange.com/questions/2459",
+     "group": "arduino.meta.stackexchange.com",
+     "title": "",
+     "tok": 1006
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://arduino.stackexchange.com/questions/94115",
+     "group": "arduino.stackexchange.com",
+     "title": "",
+     "tok": 416
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/1482767",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 421
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/1118684",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 3218
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/1130619",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 3180
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/1213446",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 2945
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/1231939",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 3128
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/1232999",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 98
+    },
+    "b": {
+     "id": "https://avp.stackexchange.com/questions/30139",
+     "group": "avp.stackexchange.com",
+     "title": "",
+     "tok": 112
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/665020",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 886
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/1401729",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 986
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/140471",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 2151
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/790301",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 1918
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/1448355",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 3345
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/1455766",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 3115
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/1524498",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 237
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/1481834",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 195
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/1489675",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 200
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/1491150",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 163
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/1507234",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 312
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/1507274",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 251
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/1508936",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 600
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/1508984",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 656
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/261177",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 3012
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/330141",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 3313
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/336024",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 1918
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/344803",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 1755
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/372326",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 2901
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/900917",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 2949
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/408096",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 609
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/409040",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 590
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/454863",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 887
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/783114",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 887
+    }
+   },
+   {
+    "source": "stackexchange",
+    "a": {
+     "id": "https://askubuntu.com/questions/47213",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 357
+    },
+    "b": {
+     "id": "https://askubuntu.com/questions/48075",
+     "group": "askubuntu.com",
+     "title": "",
+     "tok": 340
+    }
+   }
+  ]
+ }
+}

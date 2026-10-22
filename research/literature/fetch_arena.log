@@ -1,0 +1,39 @@
+ok 2502.10985 1891071 bytes
+   text: 24 pages
+ok 2606.02547 770116 bytes
+   text: 27 pages
+ok 2403.04132 1081950 bytes
+   text: 30 pages
+ok 2502.14855 1847893 bytes
+   text: 25 pages
+ok 2504.20879 1932316 bytes
+   text: 73 pages
+ok 2605.29395 2076026 bytes
+Syntax Warning: Mismatch between font type and embedded font file
+   text: 102 pages
+ok 2606.13221 1006131 bytes
+   text: 32 pages
+ok 2609.22170 1518339 bytes
+Syntax Warning: Mismatch between font type and embedded font file
+   text: 31 pages
+ok 2502.14074 2321903 bytes
+   text: 31 pages
+ok 2601.14727 30731788 bytes
+Syntax Warning: Mismatch between font type and embedded font file
+   text: 37 pages
+ok 2411.18569 1978067 bytes
+   text: 32 pages
+ok 2604.00426 465168 bytes
+   text: 33 pages
+ok 1510.05610 939209 bytes
+Internal Error: xref num 1258 not found but needed, try to reconstruct
+   text: 50 pages
+ok 2605.06656 1283398 bytes
+   text: 27 pages
+ok 2610.10795 1672710 bytes
+Syntax Warning: Mismatch between font type and embedded font file
+   text: 54 pages
+ok 2508.11847 5928104 bytes
+   text: 38 pages
+DONE ARENA_BT
+exit=0

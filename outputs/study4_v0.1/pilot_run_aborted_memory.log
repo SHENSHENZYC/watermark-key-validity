@@ -1,0 +1,6 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 10659.77it/s]
+human news_en_256 {'n': 64, 'L_human': 192, 'mean_logp': -2.4196617603302, 'ppl': 11.242055892944336, 'rep4_mean': 0.023974867724867743}
+human wikipedia_zh_256 {'n': 64, 'L_human': 192, 'mean_logp': -2.5745673179626465, 'ppl': 13.12563705444336, 'rep4_mean': 0.04290674603174606}
+{"cell": "news_en_256", "mode": "none", "h": 0, "delta": 0.0, "key": null, "tok_per_s": 172.2, "ppl": 21.206863403320312, "rep4_mean": 0.015624999999999997, "green_share_hook": null} {'raw@64': 0.016, 'distinct@64': 0.031, 'raw@256': 0.031, 'distinct@256': 0.031}
+/opt/homebrew/Cellar/python@3.12/3.12.5/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

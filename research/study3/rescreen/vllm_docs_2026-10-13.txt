@@ -1,0 +1,15 @@
+vLLM watermarking documentation, read 2026-10-14 00:56-00:58 UTC (curl, read-only)
+
+https://docs.vllm.ai/en/latest/features/watermarking/  HTTP 200, 216,910 bytes
+https://docs.vllm.ai/en/stable/features/watermarking/  HTTP 200, 696,411 bytes
+Term counts in the latest page text: "fixed key" 1, "per-key" 0, "calibrat" 2, "key-dependent" 1, "false-positive" 2.
+The fixed-key paragraph is unchanged from the 2026-10-10 re-screen in both latest and stable (one fixed key; realised false-positive rate key-dependent; measure it on representative unwatermarked traffic with the deployed key).
+
+History of docs/features/watermarking.md (gh api repos/vllm-project/vllm/commits?path=...):
+  a7b7bc1fb 2026-10-12T17:21:22Z [Metrics] Count finished requests by watermark status (#58715)  -> adds a "Monitoring" section (Prometheus counter by request status); no change to the false-positive paragraph
+  c32495d58 2026-10-05T18:37:13Z [watermark] compatibility validation (#56801)
+  0f8b39815 2026-09-30T16:22:10Z [watermarking] add context deduplication support to speculative decoding (#56807)
+  1713a0949 2026-09-14T15:17:02Z [Rust Frontend] Forward per-request watermarking controls (#56338)
+  7ee8a6dd0 2026-09-12T18:42:01Z [watermarking] Dual-key gumbel-max watermarking for speculative decoding support (#56122)
+  ea40bb9e9 2026-09-10T04:00:15Z [feature] Watermarked generation and detection (Gumbel-max algorithm) (#54053)
+Latest release: v0.31.0 (2026-10-05T06:44:55Z).

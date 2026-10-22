@@ -1,0 +1,180 @@
+{
+ "_projection": "A projection of the API response for the public record (R13 F10): message.abstract (654 characters) removed and kept in the private record under research/paper/bib_sources/raw_responses/, which the public snapshot excludes; every other field is verbatim.",
+ "message": {
+  "DOI": "10.6028/nist.ai.100-4",
+  "URL": "https://doi.org/10.6028/nist.ai.100-4",
+  "assertion": [
+   {
+    "URL": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+    "group": {
+     "label": "Copyright, Fair Use, and Licensing",
+     "name": "copyright_licensing"
+    },
+    "label": "Licensing Information",
+    "name": "licensing",
+    "order": 0,
+    "value": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications"
+   },
+   {
+    "group": {
+     "label": "Publication History",
+     "name": "publication_history"
+    },
+    "label": "Approved by the NIST Editorial Review Board on 2024-11-18",
+    "name": "publication_history",
+    "order": 0
+   }
+  ],
+  "author": [
+   {
+    "affiliation": [],
+    "name": "National Institute of Standards and Technology (US)",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   }
+  ],
+  "container-title": [],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": [
+    "nvlpubs.nist.gov"
+   ]
+  },
+  "created": {
+   "date-parts": [
+    [
+     2024,
+     4,
+     15
+    ]
+   ],
+   "date-time": "2024-04-15T15:21:47Z",
+   "timestamp": 1713194507000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     3,
+     31
+    ]
+   ],
+   "date-time": "2025-03-31T15:43:41Z",
+   "timestamp": 1743435821000
+  },
+  "funder": [
+   {
+    "DOI": "10.13039/100000161",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "asserted-by": "publisher",
+      "id": "10.13039/100000161",
+      "id-type": "DOI"
+     }
+    ],
+    "name": "National Institute of Standards and Technology"
+   },
+   {
+    "DOI": "10.13039/100000161",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "asserted-by": "publisher",
+      "id": "10.13039/100000161",
+      "id-type": "DOI"
+     }
+    ]
+   }
+  ],
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     17
+    ]
+   ],
+   "date-time": "2026-09-17T05:14:12Z",
+   "timestamp": 1789622052439,
+   "version": "build-2803163510"
+  },
+  "institution": [
+   {
+    "id": [
+     {
+      "asserted-by": "publisher",
+      "id": "https://ror.org/05xpvk416",
+      "id-type": "ROR"
+     },
+     {
+      "asserted-by": "publisher",
+      "id": "https://www.isni.org/000000012158463X",
+      "id-type": "ISNI"
+     }
+    ],
+    "name": "National Institute of Standards and Technology"
+   }
+  ],
+  "is-referenced-by-count": 6,
+  "issued": {
+   "date-parts": [
+    [
+     2024,
+     11,
+     20
+    ]
+   ]
+  },
+  "member": "4068",
+  "original-title": [],
+  "prefix": "10.6028",
+  "published": {
+   "date-parts": [
+    [
+     2024,
+     11,
+     20
+    ]
+   ]
+  },
+  "published-online": {
+   "date-parts": [
+    [
+     2024,
+     11,
+     20
+    ]
+   ]
+  },
+  "publisher": "National Institute of Standards and Technology (U.S.)",
+  "publisher-location": "Gaithersburg, MD",
+  "reference-count": 0,
+  "references-count": 0,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf"
+   }
+  },
+  "score": 1,
+  "short-container-title": [],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "Reducing risk posed by synthetic content an overview of technical approaches to digital content transparency"
+  ],
+  "type": "report",
+  "update-policy": "https://doi.org/10.6028/nist-techpubs.crossmark-policy"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}
